@@ -13,6 +13,15 @@ summary: These brief instructions will help you get started quickly with the the
 
 Follow these instructions to build the theme.
 
+<ul>
+{% for disipline in site.data.phenom %}
+{% assign phenom = disipline[1] %}
+  <li>
+      {{ org.name }}
+  </li>
+{% endfor %}
+</ul>
+
 ### 1. Download the theme
 
 First, download or clone the theme from the [Github repo](https://github.com/tomjoht/documentation-theme-jekyll). Most likely you won't be pulling in updates once you start customizing the theme, so downloading the theme (instead of cloning it) probably makes the most sense. In Github, click the **Clone or download** button, and then click **Download ZIP**.
