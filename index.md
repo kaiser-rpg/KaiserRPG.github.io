@@ -14,10 +14,9 @@ summary: These brief instructions will help you get started quickly with the the
 Follow these instructions to build the theme.
 
 <ul>
-{% for disipline in site.data.phenom %}
-{% assign phenom = disipline[1] %}
+{% for phenom in site.data.phenom.mental %}
   <li>
-      {{ phenom.name }}
+      {{ phenom.Name }}
   </li>
 {% endfor %}
 </ul>
