@@ -16,7 +16,7 @@ Follow these instructions to build the theme.
 <ul>
 {% for phenom in site.data.phenom.mental %}
   <li>
-      {{ phenom.Name }}
+      {{ phenom.name }} {{ phenom.level }}
   </li>
 {% endfor %}
 </ul>
