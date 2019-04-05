@@ -17,7 +17,7 @@ Follow these instructions to build the theme.
 {% for disipline in site.data.phenom %}
 {% assign phenom = disipline[1] %}
   <li>
-      {{ org.name }}
+      {{ phenom.name }}
   </li>
 {% endfor %}
 </ul>
