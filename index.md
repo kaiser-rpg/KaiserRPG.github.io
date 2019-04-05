@@ -14,9 +14,9 @@ summary: These brief instructions will help you get started quickly with the the
 Follow these instructions to build the theme.
 
 <ul>
-{% for phenom in site.data.phenom.mental %}
+{% for phenom in site.data.mental %}
   <li>
-      {{ phenom.name }} {{ phenom.level }}
+      Hello world: {{ phenom.name }} {{ phenom.level }}
   </li>
 {% endfor %}
 </ul>
