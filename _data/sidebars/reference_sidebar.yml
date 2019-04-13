@@ -1,0 +1,54 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+- title: Sidebar
+  levels: one
+  folders:
+
+  - title: Domine
+    output: web
+    folderitems:
+    - title: Introduction
+      url: /ref_ki_intro.html
+      output: web
+    - title: Ki Abilities
+      url: /ki_ability.html
+      output: web
+    - title: Technique Compendium
+      url: /ki_technique.html
+      output: web
+    
+  - title: Spells
+    output: web
+    folderitems:
+    - title: Introduction
+      url: /ref_spell_intro.html
+      output: web
+
+  - title: Phenoms
+    output: web
+    folderitems:
+    - title: Introduction
+      url: /ref_phenom_intro.html
+      output: web
+
+  - title: Items
+    output: web
+    folderitems:
+    - title: Introduction
+      url: /ref_item_intro.html
+      output: web
+
+  - title: Creatures
+    output: web
+    folderitems:
+    - title: Introduction
+      url: /ref_creature_intro.html
+      output: web
+
+  - title: Sample Characters
+    output: web
+    folderitems:
+    - title: Introduction
+      url: /ref_sample_intro.html
+      output: web

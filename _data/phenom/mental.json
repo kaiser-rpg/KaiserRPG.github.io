@@ -1,42 +1,48 @@
 [
-    {
-      "name": "Area Scanning",
-      "discipline": "Mental",
-      "level": 1,
-      "action": "Active",
-      "maint": "checked",
-      "visibility": "None",
-      "projection": "None",
-      "description": "This phenom detect any active mind in the area listed. You can tell the difference between simple and complex minds – like animals and humans – however it cannot locate a specific mind. Resisting this phenom requires all targets to make a Mental Resistance Check against the listed Difficulty. Failing this check does not allow a target a new Resistance Check while they remain in the scanned area. This phenom does not use Psychic Projection since it automatically affects everyone within the area. A target can choose to fail if they recognize that they are a target.",
-      "easy": "Fatigue 2",
-      "routine": "Fatigue 1",
-      "medium": "MR 10 | 30-foot radius",
-      "difficult": "MR 12 | 150-foot radius",
-      "vdifficult": "MR 14 | 300-foot radius",
-      "absurd": "MR 16 | 800-foot radius",
-      "aimpossible": "MR 18 | 1,500-foot radius",
-      "impossible": "MR 20 | 1-mile radius",
-      "inhuman": "MR 22 | 5-mile radius",
-      "zen": "MR 24 | 50-mile radius"
-    },
-    {
-      "name": "Mental Restraint",
-      "discipline": "Mental",
-      "level": 1,
-      "action": "Active",
-      "maint": "checked",
-      "visibility": "Phenom",
-      "projection": "Single Target Resistance Attack",
-      "description": "This phenom allows you to impose a basic restraint upon your target. The victim is unable to perform the specified action unless failing to do so would result in injury. You can only restrain Active actions – those that must be taken on their turn or performed during a Counter. The target may resist the effect by making a successful Mental Resistance Check against the listed Difficulty. The target can make a new Resistance Check each time they attempt to carry out the restrained action. In the case of a broad restraint, or if it limits the target excessively, a +4 bonus may be applied to the Resistance Check.",
-      "easy": "Fatigue 4",
-      "routine": "Fatigue 2",
-      "medium": "MR 8",
-      "difficult": "MR 10",
-      "vdifficult": "MR 12",
-      "absurd": "MR 14",
-      "aimpossible": "MR 16",
-      "impossible": "MR 18",
-      "inhuman": "MR 20",
-      "zen": "MR 22"
-    }
-  ]
+	{
+		"name": "Area Scanning",
+		"discipline": "Mental",
+		"level": 1,
+		"action": "Active",
+		"maint": true,
+		"visibility": "None",
+		"projection": "None",
+		"description": {
+			"entries": [
+				"This phenom detects any active mind in the area listed. You can tell the difference between simple and complex minds – like animals and humans – however it cannot locate a specific mind. Resisting this phenom requires all targets to make a Mental Resistance Check against the listed Difficulty. Failing this check does not allow a target a new Resistance Check while they remain in the scanned area. This phenom does not use Psychic Projection since it automatically affects everyone within the area. A target can choose to fail if they recognize that they are a target."
+			]
+		},
+		"degree": {
+			"easy": "Fatigue 2",
+			"routine": "Fatigue 1",
+			"medium": "MR 10 | 30-foot radius",
+			"difficult": "MR 12 | 150-foot radius",
+			"vdifficult": "MR 14 | 300-foot radius",
+			"absurd": "MR 16 | 800-foot radius",
+			"aimpossible": "MR 18 | 1,500-foot radius",
+			"impossible": "MR 20 | 1-mile radius",
+			"inhuman": "MR 22 | 5-mile radius",
+			"zen": "MR 24 | 50-mile radius"
+		}
+	},
+	{
+		"name": "Mental Restraint",
+		"discipline": "Mental",
+		"level": 1,
+		"action": "Active",
+		"maint": "checked",
+		"visibility": "Phenom",
+		"projection": "Single Target Resistance Attack",
+		"description": "This phenom allows you to impose a basic restraint upon your target. The victim is unable to perform the specified action unless failing to do so would result in injury. You can only restrain Active actions – those that must be taken on their turn or performed during a Counter. The target may resist the effect by making a successful Mental Resistance Check against the listed Difficulty. The target can make a new Resistance Check each time they attempt to carry out the restrained action. In the case of a broad restraint, or if it limits the target excessively, a +4 bonus may be applied to the Resistance Check.",
+		"easy": "Fatigue 4",
+		"routine": "Fatigue 2",
+		"medium": "MR 8",
+		"difficult": "MR 10",
+		"vdifficult": "MR 12",
+		"absurd": "MR 14",
+		"aimpossible": "MR 16",
+		"impossible": "MR 18",
+		"inhuman": "MR 20",
+		"zen": "MR 22"
+	}
+]

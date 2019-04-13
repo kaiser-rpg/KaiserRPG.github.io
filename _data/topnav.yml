@@ -3,30 +3,51 @@
 topnav:
 - title: Topnav
   items:
-    - title: GitHub
-      external_url: https://github.com/tomjoht/documentation-theme-jekyll
     - title: News
       url: /news
+    - title: Glossary
+      url: /glossary
 
 #Topnav dropdowns
 topnav_dropdowns:
 - title: Topnav dropdowns
   folders:
-    - title: Jekyll Help
+  
+    - title: Character Options
       folderitems:
-        - title: Jekyll Talk
-          external_url: https://talk.jekyllrb.com
-        - title: Jekyll documentation
-          external_url: http://jekyllrb.com/docs/home/
-        - title: Jekyll on Stack Overflow
-          external_url: http://stackoverflow.com/questions/tagged/jekyll
-        - title: Jekyll on my blog
-          external_url: http://idratherbewriting.com/category-jekyll/
-    - title: Products
+        - title: Classes
+          url: /character_class_intro.html
+        - title: Traits
+          url: /character_trait_intro.html
+        - title: Races
+          url: /character_race_intro.html
+
+    - title: Rules
       folderitems:
-        - title: Jekyll Documentation Theme
-          url: /mydoc_introduction.html
-        - title: Product 1
-          url: /p1_landing_page.html
-        - title: Product 2
-          url: /p2_landing_page.html
+        - title: General
+          url: /rule_general_intro.html
+        - title: Skills
+          url: /rule_skills_intro.html
+        - title: Combat
+          url: /rule_combat_intro.html
+        - title: Martial
+          url: /rule_martial_intro.html
+        - title: Magic
+          url: /rule_magic_intro.html
+        - title: Psychic
+          url: /rule_psychic_intro.html
+
+    - title: Refrences
+      folderitems:
+        - title: Domine
+          url: /ref_ki_intro.html
+        - title: Spells
+          url: /ref_spell_intro.html
+        - title: Phenoms
+          url: /ref_phenom_intro.html
+        - title: Items
+          url: /ref_item_intro.html
+        - title: Creatures
+          url: /ref_creature_intro.html
+        - title: Sample Characters
+          url: /ref_sample_intro.html

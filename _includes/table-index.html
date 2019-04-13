@@ -1,0 +1,10 @@
+
+
+{% assign table = site.data.table | where:"index", include.index | first %}
+
+<div class="table-header"> 
+    Table {{include.index}}: {{table.title}}
+</div>
+<div>
+    {% include entry-table.html entry=table.table %}
+</div>

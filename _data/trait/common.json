@@ -1,0 +1,65 @@
+{
+    "positive": [
+        {
+            "name": "Template",
+            "flavor": [
+                ""
+            ],
+            "effects": [
+                ""
+            ],
+            "limits": [
+                ""
+            ],
+            "restrictions": [
+                ""
+            ],
+            "cost": 1
+        },
+        {
+            "name": "add one point to a characteristic",
+            "flavor": [
+                "One of your characteristics is greater than before."
+            ],
+            "effects": [
+                "Add one point to a single characteristic."
+            ],
+            "restrictions": [
+                "Strength, Dexterity, Agility, and Constitution cannot be increased to higher than 11 though this trait.",
+                "Intelligence, Focus, Willpower, and Perception cannot be increased to more than 13 using this trait."
+            ],
+            "cost": 2
+        },
+        {
+            "name": "ambidextrous",
+            "flavor": [
+                "You can use both hands equally well."
+            ],
+            "effects": [
+                "You can perform maneuvers with either hand. In combat, you suffer only -1 to attacks with an additional weapon with the Offhand Attack Action.",
+                {
+                    "type": "list",
+                    "items": [
+                        "You have advantage on saving throws against being {@condition poisoned}, and you have resistance to poison damage.",
+                        "You are immune to disease.",
+                        "You don't need to eat, drink, or breathe.",
+                        "You don't need to sleep and don't suffer the effects of exhaustion due to lack of rest, and magic can't put you to sleep."
+                    ]
+                }
+            ],
+            "cost": 2
+        }
+    ],
+    "negative": [
+        {
+            "name": "bad luck",
+            "flavor": [
+                "You have very bad luck in doing whatever you set out to do; you fail much more than you would like. "
+            ],
+            "effects": [
+                "The number required for a Fumble increases by one. Fumble can now occur on a double two. If you gain mastery in a skill, you only Fumble on double one."
+            ],
+            "cost": 2
+        }
+    ]
+}

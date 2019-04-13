@@ -1,0 +1,36 @@
+{% assign entries = include.entries %}
+{% assign entry = include.entry %}
+{% assign level = include.level %}
+{% assign nextLevel = include.level | plus: 1 %}
+
+{% if entry %}
+        {% if entry.type %}
+            {% if entry.type == "list" %}
+                {% include entry-list.html items=entry.items level=nextLevel %}
+            {% elsif entry.type == "table" %}
+                {% include entry-table.html table=entry level=nextLevel %}
+            {% elsif entry.type == "entries" %}
+                <div>
+                    {% if entry.name %}
+                        {% if entry.level == 0 %}
+                            <div class="entry-level-0-title">{{entry.name}}</div>
+                        {% elsif entry.level == 1 %}
+                            <div class="entry-level-1-title">{{entry.name}}</div>
+                        {% else %}
+                            <span class="entry-inline-title">{{entry.name}}</span>:
+                        {% endif %}
+                    {% endif %}
+                    {% include entry.html entries=entry.entries level=nextLevel %}
+                </div>
+            {% endif %}
+        {% else %}
+            {{entry}}
+        {% endif %}
+{% elsif entries[0] %}
+    {% for et in entries %}
+        {% include entry.html entry=et level=level %}
+    {% endfor %}
+{% else %}
+    {{entries}}
+{% endif %}
+

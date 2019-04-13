@@ -1,0 +1,15 @@
+{% assign class = site.data.class[include.class] %}
+
+{% include class/archetype.html list=class.archetype %}
+
+{% include class/general.html data=class.general %}
+
+{% include class/martial.html data=class.martial %}
+
+{% include class/magic.html data=class.magic %}
+
+{% include class/psychic.html data=class.psychic %}
+
+{% include class/secondary.html data=class.secondary %}
+
+{% include class/special.html data=class.special %}

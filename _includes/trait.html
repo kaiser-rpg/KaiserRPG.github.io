@@ -1,0 +1,30 @@
+{% assign trait = include.trait %}
+
+<div>
+    <h4>{{trait.name}}</h4>
+    {% if trait.flavor[0] %}
+        <div>
+            {% include entry.html entries=trait.flavor %}
+        </div>
+    {% endif %}
+
+    {% if trait.effects[0] %}
+        <div>
+            <b>Effects</b>: {% include entry.html entries=trait.effects %}
+        </div>
+    {% endif %}
+
+    {% if trait.limits[0] %}
+        <div>
+            <b>Limits</b>: {% include entry.html entries=trait.limits %}
+        </div>
+    {% endif %}
+
+    {% if trait.restrictions[0] %}
+        <div>
+            <b>Restrictions</b>: {% include entry.html entries=trait.restrictions %}
+        </div>
+    {% endif %}
+
+    <div><b>Costs</b>: {{trait.cost}}</div>
+</div>

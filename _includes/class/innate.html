@@ -1,0 +1,18 @@
+{% assign name = include.data.name %}
+{% assign level = include.data.level %}
+{% assign gain = include.data.gain %}
+
+{% if level == 1 %}
+
+    <div>
+        <span class="entry-inline-title">{{name}}</span>: +{{gain}} per level
+    </div>
+
+{% else %}
+
+    <div>
+        <span class="entry-inline-title">{{name}}</span>: +{{gain}} every {{level}} levels
+    </div>
+    
+{% endif %}
+

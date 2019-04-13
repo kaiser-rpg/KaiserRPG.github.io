@@ -1,0 +1,23 @@
+{% assign data = include.data %}
+
+<h4>Psychic</h4>
+<div>
+    <span class="entry-inline-title">Limit</span>:{{data.limit}}%
+</div>
+<div>
+    <span class="entry-inline-title">+10 Psychic Points</span>:{{data.attack}}
+</div>
+<div>
+    <span class="entry-inline-title">+1 Psychic Projection</span>:{{data.block}}
+</div>
+
+{% if data.innate.size > 0 %}
+
+<h5>Innate Bonus</h5>
+<div>
+    {% for innate in data.innate %}
+            {% include class/innate.html data=innate %}
+    {% endfor %}
+</div>
+
+{% endif %}

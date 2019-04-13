@@ -1,0 +1,9 @@
+{% assign items = include.items %}
+
+<ul>
+{% for item in items %}
+    <li>
+        {% include entry.html entry=item level=10 %}
+    </li>
+{% endfor %}
+</ul>

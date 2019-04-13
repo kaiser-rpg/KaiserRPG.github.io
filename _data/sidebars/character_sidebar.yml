@@ -1,0 +1,101 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+- title: Sidebar
+  levels: one
+  folders:
+
+  - title: Classes
+    output: web
+    folderitems:
+    - title: Introduction
+      url: /character_class_intro.html
+      output: web
+    - title: Freelancer
+      url: /class_freelancer.html
+      output: web
+    - title: Warrior
+      url: /class_warrior.html
+      output: web
+    - title: Acrobatic Warrior
+      url: /class_acrobatic_warrior.html
+      output: web
+    - title: Knight
+      url: /class_knight.html
+      output: web
+    - title: Hedge Knight
+      url: /class_hedge_knight.html
+      output: web
+    - title: Weapon Master
+      url: /class_weapon_master.html
+      output: web
+    - title: Domine Master
+      url: /class_domine_master.html
+      output: web
+    - title: Martial Artist
+      url: /class_martial_artist.html
+      output: web
+    - title: Ranger
+      url: /class_ranger.html
+      output: web
+    - title: Shadow
+      url: /class_shadow.html
+      output: web
+    - title: Thief
+      url: /class_thief.html
+      output: web
+    - title: Assassin
+      url: /class_assassin.html
+      output: web
+    - title: Wizard
+      url: /class_wizard.html
+      output: web
+    - title: Warlock
+      url: /class_warlock.html
+      output: web
+    - title: Trickster
+      url: /class_trickster.html
+      output: web
+    - title: Wizard Mentalist
+      url: /class_wizard_mentalist.html
+      output: web
+    - title: Summoner
+      url: /class_summoner.html
+      output: web
+    - title: Warrior Summoner
+      url: /class_warrior_summoner.html
+      output: web
+    - title: Mentalist
+      url: /class_mentalist.html
+      output: web
+    - title: Warrior Mentalist
+      url: /class_warrior_mentalist.html
+      output: web
+  - title: Traits
+    output: web
+    folderitems:
+    - title: Introduction
+      url: /character_trait_intro.html
+      output: web
+    - title: Common Traits
+      url: /trait_common.html
+      output: web
+    - title: Magic Traits
+      url: /trait_magic.html
+      output: web
+    - title: Psychic Traits
+      url: /trait_psychic.html
+      output: web
+    - title: Legacies of Blood
+      url: /trait_legacy.html
+      output: web
+  - title: Races
+    output: web
+    folderitems:
+    - title: Introduction
+      url: /character_race_intro.html
+      output: web
+    - title: Human
+      url: /race_human.html
+      output: web
+    

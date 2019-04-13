@@ -1,0 +1,340 @@
+{
+    "race": [
+        {
+            "name": "Human",
+            "entries": [
+                {
+                    "name": "Innate Talent",
+                    "type": "entries",
+                    "entries": [
+                        "Humans are naturally skills in a wide variety of tasks. Each level, choose five different skills to gain a +1 Innate Bonus."
+                    ]
+                }
+            ],
+            "cost": 0
+        },
+        {
+            "name": "Vipunen",
+            "fluff":[
+                "The Vipunen are an ancient race from beyond the Veil. The spirits of a Vipunen are unique in that they dont reenter the Soul Field until they are forgotten by their descendent. "
+            ],
+            "entries": [
+                {
+                    "name": "Exceptional Physique",
+                    "type": "entries",
+                    "entries": [
+                        "You increase your Strength and Constitution by 1 point and you may not reduce these Characteristics though traits. Additionally, you increase your size by 2 points. This cannot increase your size above Gigantic."
+                    ]
+                },
+                {
+                    "name": "Ancestral Worship",
+                    "type": "entries",
+                    "entries": [
+                        "Your exposure to ancestral spirits and your frequent possession by them has caused you to be able to see spirits but you suffer -1 to your SR."
+                    ]
+                },
+                {
+                    "name": "Natural Weapon",
+                    "type": "entries",
+                    "entries": [
+                        "You can gain proficiency with your horns as a natural weapon. Your natural weapon has Initiative Penalty of 0 and a Weapon Damage of 4 using the Cut or Thrust Damage Type. It possess a Fortitude or 30 and a Breakage of 4."
+                    ]
+                },
+                {
+                    "name": "Resist Physical Shock",
+                    "type": "entries",
+                    "entries": [
+                        "You gain a +2 bonus to Resistance Checks caused by Criticals."
+                    ]
+                },
+                {
+                    "name": "Enhanced Stamina",
+                    "type": "entries",
+                    "entries": [
+                        "Your maximum Stamina Points increases by 3 points."
+                    ]
+                },
+                {
+                    "name": "Inhuman",
+                    "type": "entries",
+                    "entries": [
+                        "You can perform Inhuman Difficulty Checks when making Strength related Checks."
+                    ]
+                }
+            ],
+            "cost": 15
+        },
+        {
+            "name": "Baset",
+            "entries": [
+                {
+                    "name": "Feline Characteristics",
+                    "type": "entries",
+                    "entries": [
+                        "You possess great reflexes but are a bit volatile. You gain a +1 to Dexterity and Agility but a -1 to Willpower."
+                    ]
+                },
+                {
+                    "name": "Cat Like Reflexes",
+                    "type": "entries",
+                    "entries": [
+                        "Your reflexes are such that you can always land on your feet. Reduce the Degree of Failure of any check to reduce fall damage by 8 points."
+                    ]
+                },
+                {
+                    "name": "Tooth and Claw",
+                    "type": "entries",
+                    "entries": [
+                        "You can use your claws and teeth as natural weapons. These natural weapons have a Weapon Damage of 3. In order to use them effectively, you must have proficiency with them."
+                    ]
+                },
+                {
+                    "name": "Knowledge of the Grass",
+                    "type": "entries",
+                    "entries": [
+                        "Your connection to nature allows you to sense the feelings of plants and animals. To do this, you must make an Insight Check at the Difficult level. You are only able to gain primal feelings such as fear, content, or hunger.",
+                        "Additionally, you have gain a +1 Innate Bonus to Herbal Lore every other level."
+                    ]
+                },
+                {
+                    "name": "One with the Green",
+                    "type": "entries",
+                    "entries": [
+                        "While you are in tall, wild grass, your Regeneration is eight points higher.",
+                        "Additionally, you can move though and fight in tall grass without suffering any penalties."
+                    ]
+                },
+                {
+                    "name": "Compelled for the Gift",
+                    "type": "entries",
+                    "entries": [
+                        "Your soul is closely tied to magic. You must take The Gift Trait at character creation."
+                    ]
+                },
+                {
+                    "name": "Inhuman",
+                    "type": "entries",
+                    "entries": [
+                        "You can attain Inhuman Difficulty on Dexterity and Ability based Skill Checks."
+                    ]
+                }
+            ],
+            "cost": 10
+        },
+        {
+            "name": "Haruw",
+            "entries": [
+                {
+                    "name": "Wings of Horus",
+                    "type": "entries",
+                    "entries": [
+                        "You were born with feathered wings that grant you a flight value of 8. You can increase to about a 12-foot wingspan or decrease their size to safely tuck them away."
+                    ]
+                },
+                {
+                    "name": "Strong Feathers",
+                    "type": "entries",
+                    "entries": [
+                        "Your wings count as natural weapons that you can gain proficiency in. The wings together count as a single weapon with an Initiative Penalty of 0 and a Weapon Damage of 5 using the Cut Damage Type. They possess a Fortitude or 20 and a Breakage of 5. You are unable to use handheld weapons while using your wings to fight due to the complexity of holding your wings in front of you. They can also be used like a shield to strong projectile weapons, but grant no bonus to Block."
+                    ]
+                },
+                {
+                    "name": "Long Distance Flight",
+                    "type": "entries",
+                    "entries": [
+                        "When travelling long distances while flying, you have Advantage on your Composure Check."
+                    ]
+                }
+            ],
+            "cost": 10
+        },
+        {
+            "name": "Thiess",
+            "entries": [
+                {
+                    "name": "Animal Senses",
+                    "type": "entries",
+                    "entries": [
+                        "You have incredibly sharpe senses. You gain a +1 to Perception. If you take the Acute Senses trait, your bonus to Notice and Search becomes +4 instead of +3."
+                    ]
+                },
+                {
+                    "name": "Transformation",
+                    "type": "entries",
+                    "entries": [
+                        "You were born with an animal spirit inside you. As an Active Action, you can spend 3 AP and have your animal spirit transform your body. You can revert to your human form as an Active Action by spending 3 AP. This transformation gives you the following benefits:",
+                        {
+                            "type": "list",
+                            "items": [
+                                {
+                                    "name": "Natural Weapon",
+                                    "type": "entries",
+                                    "entries": [
+                                        "You can gain proficiency with a natural weapon based on your spirit animal. This usually manifests as sharper teeth and claws. Your natural weapon has Initiative Penalty of 0 and a Weapon Damage of 4 using the Cut or Thrust Damage Type. It possess a Fortitude or 20 and a Breakage of 5."
+                                    ]
+                                },
+                                {
+                                    "name": "Enhanced Characteristics",
+                                    "type": "entries",
+                                    "entries": [
+                                        "Your Characteristics increase based on your animal spirit. At character creation, you have 3 points you can use to increase Strength, Dexterity, Agility, or Perception, maximum of +2 to a single characteristic."
+                                    ]
+                                },
+                                {
+                                    "name": "Reduced Rational",
+                                    "type": "entries",
+                                    "entries": [
+                                        "You suffer a -2 penalty to Intelligence and Willpower while transformed."
+                                    ]
+                                },
+                                {
+                                    "name": "Weakness to Silver",
+                                    "type": "entries",
+                                    "entries": [
+                                        "If you are struck by a silvered weapon while transformed, you increase the DoF by 2. If you suffer a Critical from a silver weapon, you automatically transform back into your human form."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Children of Serene",
+                    "type": "entries",
+                    "entries": [
+                        "The moon Serene has a strong connection to your animal spirit and can improve or reduce your ability to transform. At character creation, choose one phase of the moon. While your chosen phase is active, your transformation becomes stronger. You gain a +1 to all characteristics that are increased by your transformation and your natural weapon damage increase by 2 and you can damage immaterial objects. While the opposite phase is active, you are unable to transform."
+                    ]
+                }
+            ],
+            "cost": 20
+        },
+        {
+            "name": "Kinfire",
+            "entries": [
+                {
+                    "name": "Overwhelming Power",
+                    "type": "entries",
+                    "entries": [
+                        "You are a herald of a great dragon and as such made in his image. You gain a +1 to Strength, Constitution, Perception, Focus, and Willpower."
+                    ]
+                },
+                {
+                    "name": "Human Form",
+                    "type": "entries",
+                    "entries": [
+                        "You possess the ability to appear as a human. This transformation is an Active action that costs 3 AP. Your human form is always the same, it age, gender, and size determined at character creation."
+                    ]
+                },
+                {
+                    "name": "Dragonkin Form",
+                    "type": "entries",
+                    "entries": [
+                        "You possess the ability to appear as a dragonkin. This transformation is an Active action that costs 3 AP. You are unable to transform if you benefit from non-natural armor. While in this form, you gain the following benefits:",
+                        {
+                            "type": "list",
+                            "items": [
+                                {
+                                    "name": "Increased Size",
+                                    "type": "entries",
+                                    "entries": [
+                                        "While in this form, you size is two larger than your human form. Clothing that you are wearing may rip if not appropriately sized for your new shape."
+                                    ]
+                                },
+                                {
+                                    "name": "Natural Weapon",
+                                    "type": "entries",
+                                    "entries": [
+                                        "You can gain proficiency with your claws as a natural weapon. Your natural weapon has Initiative Penalty of -2 and a Weapon Damage of 4 using the Cut or Thrust Damage Type. It possess a Fortitude or 30 and a Breakage of 8."
+                                    ]
+                                },
+                                {
+                                    "name": "Scaled Body",
+                                    "type": "entries",
+                                    "entries": [
+                                        "You possess natural armor of 6 AV against the Physical and Elemental Damage Types and 4 AV against the Energy Types. But you are unable to wear armor in this form, if you ever gain the benefit of non-natural armor, you are forced to take your next available action to transform into your human form."
+                                    ]
+                                },
+                                {
+                                    "name": "Primal Instinct",
+                                    "type": "entries",
+                                    "entries": [
+                                        "Your combat instincts is heightened while in this form. You are unable to gain the benefit of Martial Arts while in this form. But, in order for an opponent to gain Surprise on you, they must beat your Initiative by 20, instead of the 15."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "True Form",
+                    "type": "entries",
+                    "entries": [
+                        "This is your true form. This transformation is an Active action that costs 3 AP. While in this form, you gain the following benefits:",
+                        {
+                            "type": "list",
+                            "items": [
+                                {
+                                    "name": "Increased Size",
+                                    "type": "entries",
+                                    "entries": [
+                                        "While in this form, you size is four larger than your human form. Clothing that you are wearing may rip if not appropriately sized for your new shape."
+                                    ]
+                                },
+                                {
+                                    "name": "Natural Weapon",
+                                    "type": "entries",
+                                    "entries": [
+                                        "You can gain proficiency with your claws as a natural weapon. Your natural weapon has Initiative Penalty of -2 and a Weapon Damage of 5 using the Cut or Thrust Damage Type. It possess a Fortitude or 40 and a Breakage of 8. Additionally, your natural weapon is now deals 2 Extra Heat Damage."
+                                    ]
+                                },
+                                {
+                                    "name": "Scaled Body",
+                                    "type": "entries",
+                                    "entries": [
+                                        "You possess natural armor of 8 AV against the Physical and Elemental Damage Types and 4 AV against the Energy Types. But you are unable to wear armor in this form, if you ever gain the benefit of non-natural armor, you are forced to take your next available action to transform into your human form."
+                                    ]
+                                },
+                                {
+                                    "name": "Enhanced Primal Instinct",
+                                    "type": "entries",
+                                    "entries": [
+                                        "Your combat instincts is heightened while in this form. You are unable to gain the benefit of Martial Arts or Combat Modules while in this form. But, in order for an opponent to gain Surprise on you, they must beat your Initiative by 25, instead of the 15."
+                                    ]
+                                },
+                                {
+                                    "name": "Resistant",
+                                    "type": "entries",
+                                    "entries": [
+                                        "You gain a +2 bonus to SR and MR while in this form."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Unnatural Existence",
+                    "type": "entries",
+                    "entries": [
+                        "Since you were not born, but instead created by a great dragon, you are only able to take the Elemental Legacies of Blood."
+                    ]
+                },
+                {
+                    "name": "Treasure Sense",
+                    "type": "entries",
+                    "entries": [
+                        "You can smell gold and other valuables."
+                    ]
+                },
+                {
+                    "name": "Claustrophobic",
+                    "type": "entries",
+                    "entries": [
+                        "Due to your size and upbringing, you automatically have the Phobia Trait for small spaces. This does not count against your three negative traits nor does it grant any CP."
+                    ]
+                }
+            ],
+            "cost": 25
+        }
+    ]
+}

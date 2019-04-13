@@ -1,0 +1,99 @@
+{
+    "name": "freelancer",
+    "archetype": [
+        "novel"
+    ],
+    "general": {
+        "lpm": 3,
+        "innate": [
+            {
+                "name": "life points",
+                "level": 1,
+                "gain": 15
+            },
+            {
+                "name": "initiative",
+                "level": 2,
+                "gain": 1
+            },
+            {
+                "name": "martial knowledge",
+                "level": 1,
+                "gain": 3
+            }
+        ]
+    },
+    "martial": {
+        "limit": 60,
+        "attack": 4,
+        "block": 4,
+        "dodge": 4,
+        "wearArmor": 4,
+        "ki": 2,
+        "chakra": 2,
+        "innate": [
+            {
+                "name": "attack",
+                "level": 2,
+                "gain": 1
+            }
+        ]
+    },
+    "magic": {
+        "limit": 60,
+        "mana": 4,
+        "ma": 4,
+        "mr": 2,
+        "mpj": 4,
+        "summon": 4,
+        "control": 4,
+        "bind": 4,
+        "banish": 4,
+        "innate": [
+            {
+                "name": "mana",
+                "level": 1,
+                "gain": 20
+            }
+        ]
+    },
+    "psychic": {
+        "limit": 60,
+        "pp": 2,
+        "ppj": 4,
+        "innate": [
+            {
+                "name": "psychic point",
+                "level": 2,
+                "gain": 1
+            }
+        ]
+    },
+    "secondary": {
+        "exertion": 4,
+        "social": 4,
+        "perception": 4,
+        "intellectual": 4,
+        "vigor": 4,
+        "subterfuge": 4,
+        "creative": 4,
+        "innate": [
+            {
+                "name": "acrobatics",
+                "amount": 1,
+                "gain": 2
+            }
+        ],
+        "reduced": [
+            {
+                "name": "acrobatics",
+                "cost": 2
+            }
+        ]
+    },
+    "special": {
+        "entries": [
+            "Can switch classes for only 2 DP."
+        ]
+    }
+}

@@ -1,0 +1,10 @@
+{% assign data = include.data %}
+
+{% if data.entries.size > 0 %}
+
+<h4>Special</h4>
+<div>
+    {% include entry.html entries=data.entries %}
+</div>
+
+{% endif %}

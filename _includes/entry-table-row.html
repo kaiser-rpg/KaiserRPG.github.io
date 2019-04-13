@@ -1,0 +1,13 @@
+{% assign styles = include.styles %}
+{% assign row = include.row %}
+
+<tr>
+    
+    {% for cell in row %}
+        {% assign style = styles[forloop.index0] %}
+        <td class="{{style}}">
+            {{cell}}
+        </td>
+    {% endfor %}
+
+</tr>

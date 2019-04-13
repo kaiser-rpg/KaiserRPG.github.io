@@ -1,0 +1,16 @@
+{% assign data = include.data %}
+{% assign lp = data.innate | where:"name", "life points" | first %}
+{% assign it = data.innate | where:"name", "initiative" | first %}
+{% assign mk = data.innate | where:"name", "martial knowledge" | first %}
+
+<h4>General</h4>
+<div>
+    <span class="entry-inline-title">Life Point Multiple</span>:{{data.lpm}}
+</div>
+<div>
+    {% include class/innate.html data=lp %}
+
+    {% include class/innate.html data=it %}
+
+    {% include class/innate.html data=mk %}
+</div>

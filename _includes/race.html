@@ -1,0 +1,17 @@
+{% assign race = include.race %}
+
+<h3> 
+    {{race.name}}
+</h3>
+<div>
+    {% include entry.html entries=race.fluff level=1 %}
+</div>
+<div class="entry-level-1-title">
+    Features
+</div>
+<div>
+    {% include entry.html entries=race.entries level=1 %}
+</div>
+<div>
+    <div class="entry-inline-title">Cost</div>: {{race.cost}} DP
+</div>

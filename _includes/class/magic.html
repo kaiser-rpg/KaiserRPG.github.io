@@ -1,0 +1,41 @@
+{% assign data = include.data %}
+
+<h4>Magic</h4>
+<div>
+    <span class="entry-inline-title">Limit</span>:{{data.limit}}
+</div>
+<div>
+    <span class="entry-inline-title">+50 Mana</span>:{{data.mana}}
+</div>
+<div>
+    <span class="entry-inline-title">+1 Mana Accumulation</span>:{{data.ma}}
+</div>
+<div>
+    <span class="entry-inline-title">+1 Mana Recovery</span>:{{data.mr}}
+</div>
+<div>
+    <span class="entry-inline-title">+1 Magic Projection</span>:{{data.mpj}}
+</div>
+<div>
+    <span class="entry-inline-title">+1 Summon</span>:{{data.summon}}
+</div>
+<div>
+    <span class="entry-inline-title">+1 Control</span>:{{data.control}}
+</div>
+<div>
+    <span class="entry-inline-title">+1 Bind</span>:{{data.bind}}
+</div>
+<div>
+    <span class="entry-inline-title">+1 Banish</span>:{{data.Banish}}
+</div>
+
+{% if data.innate.size > 0 %}
+
+<h5>Innate Bonus</h5>
+<div>
+    {% for innate in data.innate %}
+            {% include class/innate.html data=innate %}
+    {% endfor %}
+</div>
+
+{% endif %}

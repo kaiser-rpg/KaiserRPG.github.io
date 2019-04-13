@@ -1,6 +1,11 @@
 // Place your settings in this file to overwrite default and user settings.
 {
   "files.associations": {
-    "*.html": "liquid"
+    "*.html": "jekyll",
+    "*.liquid": "html"
+  },
+  "emmet.includeLanguages":{
+    "jekyll": "html",
+    "scss": "css"
   }
 }
