@@ -1,17 +1,22 @@
-{% assign race = include.race %}
+{% assign race = site.data.race.core.race | where:"name", include.race | first %}
 
-<h3> 
-    {{race.name}}
-</h3>
-<div>
-    {% include entry.html entries=race.fluff level=1 %}
-</div>
-<div class="entry-level-1-title">
-    Features
-</div>
-<div>
-    {% include entry.html entries=race.entries level=1 %}
-</div>
-<div>
-    <div class="entry-inline-title">Cost</div>: {{race.cost}} DP
+<ul id="raceTabs" class="nav nav-tabs">
+    <li class="active"><a href="#feature" data-toggle="tab">Features</a></li>
+    <li><a href="#fluff" data-toggle="tab">Fluff</a></li>
+</ul>
+<div class="tab-content">
+    <div role="tabpanel" class="tab-pane active" id="feature">
+        <h3>Features</h3>
+        <div>
+            {% include entry.html entries=race.entries level=1 %}
+        </div>
+        <div>
+            <span class="entry-inline-title">Cost</span>: {{race.cost}} DP
+        </div>
+    </div>
+
+    <div role="tabpanel" class="tab-pane" id="fluff">
+        <h3>Fluff</h3>
+        {% include entry.html entries=race.fluff level=1 %}
+    </div>
 </div>

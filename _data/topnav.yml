@@ -12,19 +12,10 @@ topnav:
 topnav_dropdowns:
 - title: Topnav dropdowns
   folders:
-  
-    - title: Character Options
-      folderitems:
-        - title: Classes
-          url: /character_class_intro.html
-        - title: Traits
-          url: /character_trait_intro.html
-        - title: Races
-          url: /character_race_intro.html
 
     - title: Rules
       folderitems:
-        - title: General
+        - title: Character Creation
           url: /rule_general_intro.html
         - title: Skills
           url: /rule_skills_intro.html
@@ -36,6 +27,15 @@ topnav_dropdowns:
           url: /rule_magic_intro.html
         - title: Psychic
           url: /rule_psychic_intro.html
+  
+    - title: Character Options
+      folderitems:
+        - title: Classes
+          url: /character_class_intro.html
+        - title: Traits
+          url: /character_trait_intro.html
+        - title: Races
+          url: /character_race_intro.html
 
     - title: Refrences
       folderitems:

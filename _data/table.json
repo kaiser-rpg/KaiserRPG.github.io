@@ -1,6 +1,6 @@
 [
     {
-        "title": "Development Points at each Level",
+        "title": "Experience Points at each Level",
         "index": "GEN5",
         "table": {
             "type": "table",
@@ -8,7 +8,7 @@
                 "Level",
                 "Presence",
                 "Characteristic Increase",
-                "Total DP",
+                "Total XP",
                 "20%",
                 "25%",
                 "40%",
@@ -303,6 +303,81 @@
                 [
                     "20",
                     "+6"
+                ],
+                [
+                    "21 - 22",
+                    "+7"
+                ],
+                [
+                    "23 - 25",
+                    "+8"
+                ],
+                [
+                    "26 - 29",
+                    "+9"
+                ],
+                [
+                    "30",
+                    "+10"
+                ]
+            ]
+        }
+    },
+    {
+        "title": "Characteristic Generation",
+        "index": "GEN8",
+        "table": {
+            "type": "table",
+            "colLabels": [
+                "Characteristic",
+                "Modifier",
+                "Cost"
+            ],
+            "colStyles": [
+                "col-3",
+                "col-3",
+                "col-3"
+            ],
+            "rows": [
+                [
+                    "3",
+                    "-2",
+                    "1"
+                ],
+                [
+                    "4",
+                    "-1",
+                    "3"
+                ],
+                [
+                    "5",
+                    "+0",
+                    "5"
+                ],
+                [
+                    "6",
+                    "+1",
+                    "7"
+                ],
+                [
+                    "7",
+                    "+1",
+                    "8"
+                ],
+                [
+                    "8",
+                    "+2",
+                    "10"
+                ],
+                [
+                    "9",
+                    "+2",
+                    "11"
+                ],
+                [
+                    "10",
+                    "+3",
+                    "13"
                 ]
             ]
         }

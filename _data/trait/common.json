@@ -14,6 +14,12 @@
             "restrictions": [
                 ""
             ],
+            "meta": [
+                ""
+            ],
+            "example": [
+                ""
+            ],
             "cost": 1
         },
         {
@@ -25,8 +31,7 @@
                 "Add one point to a single characteristic."
             ],
             "restrictions": [
-                "Strength, Dexterity, Agility, and Constitution cannot be increased to higher than 11 though this trait.",
-                "Intelligence, Focus, Willpower, and Perception cannot be increased to more than 13 using this trait."
+                "Characteristics cannot be increased to higher than 11 though this trait."
             ],
             "cost": 2
         },
@@ -36,16 +41,7 @@
                 "You can use both hands equally well."
             ],
             "effects": [
-                "You can perform maneuvers with either hand. In combat, you suffer only -1 to attacks with an additional weapon with the Offhand Attack Action.",
-                {
-                    "type": "list",
-                    "items": [
-                        "You have advantage on saving throws against being {@condition poisoned}, and you have resistance to poison damage.",
-                        "You are immune to disease.",
-                        "You don't need to eat, drink, or breathe.",
-                        "You don't need to sleep and don't suffer the effects of exhaustion due to lack of rest, and magic can't put you to sleep."
-                    ]
-                }
+                "You can perform tasks with either hand equally well. In combat, you suffer only -1 to attacks made as part of the Offhand Attack Action."
             ],
             "cost": 2
         }

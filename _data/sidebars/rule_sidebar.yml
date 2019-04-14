@@ -5,14 +5,32 @@ entries:
   levels: one
   folders:
 
-  - title: General
+  - title: Character Creation
     output: web
     folderitems:
-    - title: Introduction
-      url: /rule_general_intro.html
+    - title: 0. Introduction
+      url: /rule_creation_0_intro.html
       output: web
-    - title: Character Development
-      url: /rule_general_character_development.html
+    - title: 1. Generate Characteristics
+      url: /rule_creation_1_characteristics.html
+      output: web
+    - title: 2. Choose your Race
+      url: /rule_creation_2_race.html
+      output: web
+    - title: 3. Choose your Class
+      url: /rule_creation_3_class.html
+      output: web
+    - title: 4. Buy Traits
+      url: /rule_creation_4_trait.html
+      output: web
+    - title: 5. Spend Experience Points
+      url: /rule_creation_5_xp.html
+      output: web
+    - title: 6. Fill in the Rest
+      url: /rule_creation_6_fill.html
+      output: web
+    - title: 7. Beyond First Level
+      url: /rule_creation_7_beyond.html
       output: web
 
   - title: Combat
