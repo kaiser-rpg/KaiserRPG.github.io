@@ -1,9 +1,6 @@
 ---
 title: "Step 1: Generate Characteristics"
 permalink: rule_creation_1_characteristics.html
-simple_map: true
-map_name: creationmap
-box_number: 1
 ---
 
 The starting point in creating your character is determining your Characteristics. Just as no two people are exactly alike, each character in the game has different Characteristics that represent the diversity of people who inhabit the world. 

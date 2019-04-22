@@ -1,9 +1,6 @@
 ---
 title: "Step 6: Fill in the Rest"
 permalink: rule_creation_6_fill.html
-simple_map: true
-map_name: creationmap
-box_number: 6
 ---
 
 All that remains are a few final steps.

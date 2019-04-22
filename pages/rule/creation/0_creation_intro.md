@@ -1,9 +1,6 @@
 ---
 title: Character Creation
 permalink: rule_creation_0_intro.html
-simple_map: true
-map_name: creationmap
-box_number: 0
 ---
 
 The first thing you need to do to play Kaiser is to create a character. This fictional individual will be the role you portray during the game. Your character is unique, based on the abilities and skills which you decide, created according to your preferences. It is important that you have a clear idea of the type of character you want to play, so that you can portray them to the fullest. Remember, characters are more than simply numbers and statistics on a piece of paper. Your actions and choices in the game will breathe life into each character you create.

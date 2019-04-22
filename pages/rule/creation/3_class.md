@@ -1,9 +1,6 @@
 ---
 title: "Step 3: Choose your Class"
 permalink: rule_creation_3_class.html
-simple_map: true
-map_name: creationmap
-box_number: 3
 ---
 
 A Class defines how you will be spending your XP on abilities and skills. Each class has the ability to develop any thing in the system, but not always at the same cost. Think of a class as the exchange rate to learn something. 

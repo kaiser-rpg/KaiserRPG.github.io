@@ -606,5 +606,168 @@
                 ]
             ]
         }
+    },
+    {
+        "title": "Innate Mana",
+        "index": "MAGIC40",
+        "table": {
+            "type": "table",
+            "colLabels": [
+                "MA",
+                "Innate Mana"
+            ],
+            "colStyles": [
+                "col-2",
+                "col-2"
+            ],
+            "rows": [
+                [
+                    "0 to 10",
+                    "0 mana"
+                ],
+                [
+                    "11 to 50",
+                    "10 mana"
+                ],
+                [
+                    "51 to 70",
+                    "20 mana"
+                ],
+                [
+                    "71 to 90",
+                    "30 mana"
+                ],
+                [
+                    "91 to 110",
+                    "40 mana"
+                ],
+                [
+                    "111 to 130",
+                    "50 mana"
+                ],
+                [
+                    "131 to 150",
+                    "60 mana"
+                ],
+                [
+                    "151 to 180",
+                    "70 mana"
+                ],
+                [
+                    "181 to 210",
+                    "80 mana"
+                ],
+                [
+                    "211 to 240",
+                    "90 mana"
+                ],
+                [
+                    "241 to 270",
+                    "100 mana"
+                ],
+                [
+                    "271 to 300",
+                    "110 mana"
+                ],
+                [
+                    "for every 30 points after 300",
+                    "+10 mana"
+                ]
+            ]
+        }
+    },
+    {
+        "title": "Magic Projection Maximum Range",
+        "index": "MAGIC50",
+        "table": {
+            "type": "table",
+            "colLabels": [
+                "Magic Projection",
+                "Maximum Range"
+            ],
+            "colStyles": [
+                "col-2",
+                "col-2"
+            ],
+            "rows": [
+                [
+                    "0",
+                    "Spell requires contact to take effect."
+                ],
+                [
+                    "4",
+                    "20 feet"
+                ],
+                [
+                    "8",
+                    "60 feet"
+                ],
+                [
+                    "12",
+                    "180 feet"
+                ],
+                [
+                    "16",
+                    "500 feet"
+                ],
+                [
+                    "20",
+                    "1,500 feet"
+                ],
+                [
+                    "24",
+                    "3,000 feet"
+                ],
+                [
+                    "28",
+                    "6,000 feet"
+                ],
+                [
+                    "32",
+                    "10,000 feet"
+                ],
+                [
+                    "36",
+                    "15,000 feet"
+                ],
+                [
+                    "40",
+                    "30,000 feet"
+                ],
+                [
+                    "+4",
+                    "+10,000 feet"
+                ]
+            ]
+        }
+    },
+    {
+        "title": "Power Collision",
+        "index": "MAGIC60",
+        "table": {
+            "type": "table",
+            "colLabels": [
+                "DoD",
+                "Effect"
+            ],
+            "colStyles": [
+                "col-2",
+                "col-2"
+            ],
+            "rows": [
+                [
+                    "0 to 5",
+                    "Both Powers cancel each other out."
+                ],
+                [
+                    "6 to 10",
+                    "The Wining Power passes through the other; but its Base Damage is halved."
+                ],
+                [
+                    "11+",
+                    "The Wining Power passes through the other completely."
+                ]
+            ]
+        }
     }
 ]

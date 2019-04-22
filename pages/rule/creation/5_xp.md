@@ -1,9 +1,6 @@
 ---
 title: "Step 5: Spend Experience Points"
 permalink: rule_creation_5_xp.html
-simple_map: true
-map_name: creationmap
-box_number: 5
 ---
 
 Experience Points (XP) are the most important detail of your character's development. They mark how much you dedicated to each of your skills and abilities. 

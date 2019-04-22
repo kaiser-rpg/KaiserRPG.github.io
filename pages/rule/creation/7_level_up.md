@@ -1,9 +1,6 @@
 ---
 title: "Step 7: Beyond First Level"
 permalink: rule_creation_7_beyond.html
-simple_map: true
-map_name: creationmap
-box_number: 7
 ---
 
 In order to advance in levels, you need to reach a milestone that marks your advancement. When you have earned the necessary experience, you gain a new level and 10 more XP, which you can use to obtain new abilities and skill or improve those you already possess.
