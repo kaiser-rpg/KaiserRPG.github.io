@@ -39,6 +39,30 @@ entries:
     - title: Introduction
       url: /rule_combat_intro.html
       output: web
+    - title: Combat Terms
+      url: /rule_combat_terms.html
+      output: web
+    - title: Action Points
+      url: /rule_combat_action_point.html
+      output: web
+    - title: Combat Rounds
+      url: /rule_combat_rounds.html
+      output: web
+    - title: Attacking and Defending
+      url: /rule_combat_attack_defend.html
+      output: web
+    - title: Hand-to-Hand Combat
+      url: /rule_combat_hand_to_hand.html
+      output: web
+    - title: Ranged Combat
+      url: /rule_combat_ranged.html
+      output: web
+    - title: Damage
+      url: /rule_combat_damage.html
+      output: web
+    - title: Powers in Combat
+      url: /rule_combat_powers.html
+      output: web
     
   - title: Martial
     output: web
