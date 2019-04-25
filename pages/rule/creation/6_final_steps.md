@@ -96,7 +96,7 @@ Magic skills encompass both spells and summoning.
 
 **Mana Recovery**: This ability represents your ability to gather your mana back into your spirit.
 
-**Magic Projection Skill**: This represents your ability to direct spells. This skill depends upon the Dexterity Characteristic.
+**Magic Projection Skill**: This represents your ability to direct spells. This skill depends upon the Perception Characteristic.
 
 **Summon Skill**: This represents your capacity to bring forth supernatural creatures from other worlds. This skill depends upon your Focus Characteristic.
 
@@ -115,7 +115,7 @@ Magic skills encompass both spells and summoning.
 ##### Psychic Group
 Psychic abilities cover everything related to the area of psychic powers, known as phenom, and their uses. Classes gifted with phenom – such as mentalists – utilize these abilities in the course of their adventures.
 
-**Psychic Projection Skill**: This represents your capacity to target creatures or objects with your phenom. This skill depends upon your Dexterity.
+**Psychic Projection Skill**: This represents your capacity to target creatures or objects with your phenom. This skill depends upon your Perception.
 
 **Psychic Points (PP)**: These represents points used to develop and utilize your psychic phenom.
 

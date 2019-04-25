@@ -77,6 +77,15 @@ entries:
     - title: Introduction
       url: /rule_magic_intro.html
       output: web
+    - title: Mana
+      url: /rule_magic_mana.html
+      output: web
+    - title: Spells
+      url: /rule_magic_spell.html
+      output: web
+    - title: Magic Objects
+      url: /rule_magic_objects.html
+      output: web
 
   - title: Psychic
     output: web
