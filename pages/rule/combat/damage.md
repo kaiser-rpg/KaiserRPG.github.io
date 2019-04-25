@@ -45,7 +45,7 @@ Damage Types in this Group are usually only done as part of a failed Resistance 
 ## Critical Damage
 It is inevitable that you suffer damage in combat. However, not all damage involves merely losing a set number of Life Points. When you receive a single wound that makes you lose half your remaining LP, you have received a Critical hit. 
 
-{%% include example.html content="An individual with 180 LP who receives a single hit that causes him to lose 90 or more Life Points has suffered a Critical. With his LP now reduced to 90, another hit causing just 45 LP more would cause another Critical."}
+{% include example.html content="An individual with 180 LP who receives a single hit that causes him to lose 90 or more Life Points has suffered a Critical. With his LP now reduced to 90, another hit causing just 45 LP more would cause another Critical."%}
 
 Whenever you suffer a Critical, the possibility exists that a very serious wound will result in broken bones or even lost limbs. To find the result, it is necessary to calculate the level of the Critical. The attacker rolls 2d6 (no Open Rolls or Fumbles) and adds that to 1/10 the damage produced by the attack, round down. The result is the Critical level. Reduce any amount above 20 by half and add that to the total. Thus, the GM would reduce a Critical level of 26 to 23 (6/2 + 20) and a level of 31 to 25 (11/2 +20).
 
@@ -73,7 +73,7 @@ There are certain places on the body that are more vulnerable to Criticals than 
 
 For any human, the head and heart are vulnerable points – although animals and supernatural creatures may not follow that pattern. Some entities, in fact, don’t even have such weak points; hitting them for half their remaining LP is the only way to cause them a Critical.
 
-{%% include example.html content="With 160 LP and in perfect health, Klaus needs to lose 80 LP from a single hit to cause a Critical and make a PhR Check. But an attack directed at his head only needs to cause 16 points before he is forced to make such a check because his head is a vulnerable point."}
+{% include example.html content="With 160 LP and in perfect health, Klaus needs to lose 80 LP from a single hit to cause a Critical and make a PhR Check. But an attack directed at his head only needs to cause 16 points before he is forced to make such a check because his head is a vulnerable point."%}
 
 ## Damage Resistance
 Very large animals and some supernatural creatures use a special means of defense called Damage Resistance. Rather than using either the Block or Dodge Abilities to protect themselves, these creatures depend on their enormous capacity to absorb physical damage. For that reason, a number of slightly different rules are used for them in combat.
