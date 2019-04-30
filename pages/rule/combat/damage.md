@@ -25,7 +25,7 @@ The Elemental Damage Group contains damage dealt by exposure to extreme elementa
 **Electrical**: Being struck by lightning or an electrical discharge are common sources of this damage.
 
 ### Energy Damage
-The Energy Damage Group is commonly caused by supernatural effects. Most spells use one of the damage types from this group.
+The Energy Damage Group is commonly caused by supernatural effects. Many spells use one of the damage types from this group.
 
 **Force**: This damage comes from raw energy and is immaterial in nature. Bolts of magical energy and repulsive blasts are common sources of this damage type.
 
@@ -36,11 +36,11 @@ The Energy Damage Group is commonly caused by supernatural effects. Most spells 
 ### Resistance Group
 Damage Types in this Group are usually only done as part of a failed Resistance Check. Armor against these types of damage only apply to a Resistance Check that deals their damage and not to the roll to be hit by a Resistance Attack.
 
-**Atomic**: This is damage done at the atomic level. Your atoms being rearranged or acidic substances melting stone are common sources of this damage.
+**Atomic**: This is damage done at the atomic level. Your atoms being rearranged or acidic substances are common sources of this damage.
 
-**Bio**: This type of damage is done on the cellular level. Things likes poisons, diseases, or strong basic substances breaking down cell walls are all common sources of this damage type.
+**Bio**: This type of damage is done on the cellular level. Things likes poisons, diseases, or strong basic substances breaking down cell walls are common sources of this damage type.
 
-**Psychic**: This damage is one dealt directly to the mind. Psychic screams and mental torture are common sources of this type of damage. This is also the damage that most Illusions deal, but if the target is not aware of the illusory nature of an attack special rules apply that can be found in the Advanced Combat Chapter.
+**Psychic**: This damage is one dealt directly to the mind. Psychic screams and mental torture are common sources of this type of damage. This is also the damage that most Illusions deal, but if the target is not aware of the illusory nature of an attack special rules apply that can be found in the Power Chapter.
 
 ## Critical Damage
 It is inevitable that you suffer damage in combat. However, not all damage involves merely losing a set number of Life Points. When you receive a single wound that makes you lose half your remaining LP, you have received a Critical hit. 
