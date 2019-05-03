@@ -23,5 +23,4 @@ An attack is considered a failure if the defender has at least 1 DoS (same as th
 
 If the attack is ranged then the attacker was unable to strike but, unless it was made at Point Blank range, it does not provide any Counter chance. Some powers allow a defender to act upon a failed ranged attack.
 
-
-{% include meta.html content = "When Offensive and Defensive rolls occur, it does not mean that the attacker has swung once with their sword and the defender raised a shield to block it. The rolls represent a possible series of moves and countermoves that all take place within a short period of time. It is up to the GM and the players to narrate what an attack looks like, whether that be many quick slashes with a dagger, a well-placed arrow, or quick back-and-forth between attacker and defender."%}
+{% include meta.html content = "When Offensive and Defensive Rolls occur, it does not mean that the attacker has swung once with their sword and the defender raised a shield to block it. The rolls represent a possible series of moves and countermoves that all take place within a short period of time. It is up to the GM and the players to narrate what an attack looks like, whether that be many quick slashes with a dagger, a well-placed arrow, or quick back-and-forth between attacker and defender."%}

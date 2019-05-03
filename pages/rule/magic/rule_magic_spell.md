@@ -3,9 +3,6 @@ title: Spells
 permalink: rule_magic_spell.html
 ---
 
-
-
-
 A spell is in essence a formula that allows you to input mana to cause a change, whether that be within you or in the world. Spells are organized into three groups: High, Low, and General. Each group is then composed of several Paths, twelve in total. Paths in the High Magic Group are Light, Shadow, Creation, Destruction, and Necromancy. The Paths in the Low Magic Group are Fire, Water, Earth, Air, Essence, and Illusion. The General Group only contains the General Path.
 
 The major difference between the High and Low Groups is the amount of flexibility in learning magic from the General Group. Higher Magic is more rigid and allows you to learn half the number of General Spells that a Lower Path could. Complete details will be discussed in a later section.
@@ -13,7 +10,7 @@ The major difference between the High and Low Groups is the amount of flexibilit
 ### Magic Level
 Magic Level is the measure of your capacity to learn and understand the theory behind magic. The higher your Magic Level the more you will understand magic. Your maximum Magic Level is determined by your Intelligence Characteristic, as indicated in the following table. The maximum can be increased by 10 ML spending 1 XP or if you have a trait that increases. When you gain new Magic Levels you do not immediately spend them, you must use downtime to learn spells and meta magic just as a warrior must learn a new fighting style.
 
-Table: Magic Level
+{% include table-index.html index="" %}
 
 META
 Learning magic is a difficult process, even for those that are adept at doing so, and it is unlikely that someone just starting their adventure as a wizard will have reached their full intellectual potential right away. For that reason, it is recommended that the GM limit a character from the Mystical Archetypes to only spend half of their Magic Levels during character creation, and only a fourth for other archetypes. The character can spend the remainder of the ML, and any they gain after creation, during downtime.
@@ -81,7 +78,7 @@ Spending Magic Levels occurs during Downtime. Having an instructor or a tome det
 #### Choosing Specific Spells
 You can choose to learn an individual spell without having mastered the underlying theory. This method of learning new spells allows you to choose any spell and pay a special cost for it. Higher level spells costs more Magic Levels since it requires you to understand a more complex topic without the underlying knowledge. The cost for each Spell Level Range is listed below. Spells from an opposing Path still have their cost doubled.
 
-Table: Choosing Spell
+{% include table-index.html index="" %}
 
 ### Casting Spells
 As mentioned in the previous section, there are three ways to cast a spell: cast a number of spells from a mass of mana, cast a prepared spell, or cast an innate spell. No matter how the mana is accumulated, each spell has some basic rules to follow. 
