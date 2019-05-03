@@ -1,6 +1,6 @@
 ---
 title: Powers in Combat
-permalink: rule_combat_powers.html
+permalink: rule_combat_power.html
 ---
 
 In Kaiser, there are many different abilities and features that grant you special powers. Powers can come from many different sources, such as spirit, mana, and phenom, but they share many similar rules. These rules are described below.
@@ -59,7 +59,7 @@ Similarly, a creature with the immaterial trait will make its attacks immaterial
 The spirit abilities of Presence Extrusion and Aura Extension allow you to grant the imbued trait to your weapons. The meta magic ability Imbued Spell allows your attack and defense spells to gain the imbued trait. A phenom will list at what degree it gains the imbued trait. Some artifacts can also give you or your powers the imbued trait as well.
 
 ### Area Attack
-Some powers have the ability to effect a large area with a single attack. This area attack can take many different shapes: sphere, cylinder, cone, line, and so on. Each valid target within the volume of the attack must make a Defensive Roll against your Offensive Roll (only one roll). The area attack will still count as a thrown or fired projectile for the purpose of defense.
+Some powers have the ability to affect a large area with a single attack. This area attack can take many different shapes: sphere, cylinder, cone, line, and so on. Each valid target within the volume of the attack must make a Defensive Roll against your Offensive Roll (only one roll). The area attack will still count as a thrown or fired projectile for the purpose of defense.
 
 A target can dodge out of the area of the attack if they have enough movement remaining to reach a point outside the volume of the attack. If they have not taken the Movement Action this turn, they can spend 1 AP to take the Movement Action as a Reaction, but they can only use half of it to move out of the way. The target makes a Defensive Roll against the attack. If they are unable to reach a safe point for whatever reason, they apply a -8 penalty to the Defensive Roll.
 
@@ -87,45 +87,45 @@ When a power subjects a target to a Resistance Check that causes a lingering eff
 ### Marking
 Some powers cause you to mark the target. The power will list how long a creature will remain marked. Marks usually occur as a result of an Attack or Effect power. What a mark does after being applied is listed with the power that caused it or in another related power.
 
-### Stacking of Powers
+## Stacking of Powers
 Many powers grant bonuses or penalties to any number of different abilities. How each ability handles multiple sources of increase and decrease is described below. In general, only take the best bonus and the worst penalty.
 
-#### Natural Armor
+### Natural Armor
 Natural armor is any kind of Armor Value that comes from hardened skin or mystical veil of protection. This value is added to the AV of layer armor to determine your final AV for each Damage Type. When you are subject to multiple natural armor effects, you apply the highest bonus for each Damage Type.
 
 > For Example, you cast the Fire Shroud spell at the base degree and have the Natural Armor Trait. The Fire Shroud spell gives you 5 AV against Heat Damage and the Natural Armor Trait gives you 4 AV for Physical and Elemental Damage. Since Fire Shroud grants a greater benefit, you have 5 AV against Heat Damage and 4 AV for Cold and Electrical damage.
 
-#### Layer Armor
+### Layer Armor
 Layer armor is any kind of Armor Value that comes from external worn protection. This value is added to the AV of natural armor to determine your final AV for each Damage Type. When you are wearing multiple layers of armor, you apply the highest AV plus half of the next two greatest Armor Values for that Damage Type. No matter if you are benefitting from a layer of armor or not, while you are wearing it, you are subject to any penalties it applies. Your Wear Armor Skill can reduce these penalties.
 
-#### Damage Vulnerability
+### Damage Vulnerability
 Damage vulnerability is when you take additional damage from certain types. This value is added to the Units of Damage calculation. Some creatures naturally have damage vulnerability, like fire elementals and cold damage. When you are subject to multiple damage vulnerabilities, you add the highest vulnerability for each Damage Type to your natural damage vulnerability.
 
 > For example, you cast the Create Vulnerability spell at base degree on a fire elemental. You choose cold damage for the spell. Now, the fire elemental has a final damage vulnerability of 5 (2 from the base degree spell and 3 naturally). So, when you hit the fire elemental with an attack that deals cold damage, you increase the Units of Damage by 5 points. If another caster where to cast Create Vulnerability at the intermediate degree, the fire elemental would instead have a final damage vulnerability of 7 (4 from the intermediate degree spell and 3 naturally, the base degree spell is ignored).
 
-#### Damage Reduction
+### Damage Reduction
 Damage reduction is when you reduce the Base Damage of an attack or resistance. Some creatures naturally have damage reduction, like fire elementals and heat damage. When you are subject to multiple damage reductions, you add the highest reduction for each Damage Type to your natural damage reduction.
 
 If the damage reduction reduces the Base Damage to zero, you cannot be injured by that attack. Some sources of damage reduction will list that the damage reduction is ignored when the attack can damage immaterial creatures or some other condition. If your greatest source of damage reduction is ignored but a lesser source is not, then you can use that lesser source instead.
 
 > For example, you are the target of Iron Skin spell cast at the intermediate degree and have an artifact that gives you a damage reduction of 2 for all physical damage. Your final damage reduction is 3 since the spell and the artifact grant 3 and 2 respectively. So, when you are the target of an attack that deals impact damage, you reduce the Base Damage by 3 points. 
 
-#### Damage Barrier
+### Damage Barrier
 A damage barrier represents the minimum Base Damage necessary to harm you for a given Damage Type. This does not reduce the Base Damage of the attack, only negates the damage if the Base Damage is less than the damage barrier. When you are subject to multiple damage barriers, you apply the highest value for each Damage Type. Even if you naturally have a damage barrier, only the highest one will apply.
 
 Some damage barriers can be ignored by certain criteria. The most common is if the attack can damage immaterial creatures. If your greatest source of damage barrier is ignored but a lesser source is not, then you can use that lesser source instead.
 
-#### Damage Resistance
+### Damage Resistance
 Damage resistance is when you reduce the Final Damage of an attack or resistance. Some creatures naturally have damage resistance, like greater earth elementals and physical damage. When you are subject to multiple damage resistances, you add the highest resistance for each Damage Type to your natural damage resistance.
 
 If the damage reduction reduces the Final Damage to zero, you were not injured by that attack. Some sources of damage resistance will list that the damage resistance is ignored when the attack can damage immaterial creatures or some other condition. If your greatest source of damage resistance is ignored but a lesser source is not, then you can use that lesser source instead.
 
-#### Skill Bonus and Penalty
+### Skill Bonus and Penalty
 A skill bonus gained from multiple powers will apply the highest bonus, then half of the second highest, a third of the third highest, and so on. A skill penalty gained from multiple powers will apply the highest penalty, then half of the second highest, a third of the third highest, and so on. Always round down for bonuses and penalties.
 
 Any bonus or penalty that comes from a Maneuver, Situation, or State are added together, unless explicitly stated otherwise like with Blind and Surprised.
 
-#### Characteristic Bonus and Penalty
+### Characteristic Bonus and Penalty
 A characteristic bonus or penalty will increase or decrease one of your Characteristics, such as Strength or Perception. Any bonus gained from multiple powers will apply the greatest bonus. Any penalty gained from multiple powers will apply the worst penalty. 
 
 Some powers allow you to sacrifice a point in a characteristic to gain some special benefit. When this is done, it actually reduces your base Characteristic, so it does not count as a penalty.
@@ -167,6 +167,6 @@ Third, like when you defend yourself with a barrier, each protected creature can
 ## Power Collision
 It is possible for two powers or supernaturally charged objects to collide with one another. The results of the collision will depend on the strength of the colliding projectiles. To create a collision, you must meet three criteria: you have to take the Collide Power Reaction, be in a position and have the ability to make a parallel shot, and have an Initiative within 5 points of the opponent that launched the original projectile, or surpass their Initiative. Then you use a ranged Attack Power (or shoot a supernaturally charged projectile) at the opposing Power. You make an Offensive Roll and the result must be within 5 points of the opposing roll, or surpass it. If you achieve this result, then both you and the opponent roll 2d6 and add the Base Damage of the Power. The Degree of Difference (DoD) is compared to the below table.
 
-TABLE
+{% include table-index.html index="MAGIC60" %}
 
 It is possible to have two or more powers combine during a collision. The value added to the Collision roll is the highest Base Damage of the combined Powers, and then half the second greatest, and a third of the third greatest, and so on.

@@ -769,5 +769,42 @@
                 ]
             ]
         }
+    },
+    {
+        "title": "Exhaustion Penalties",
+        "index": "TER1",
+        "table": {
+            "type": "table",
+            "colLabels": [
+                "Stamina Points",
+                "All Action Penalty"
+            ],
+            "colStyles": [
+                "col-2",
+                "col-2"
+            ],
+            "rows": [
+                [
+                    "4",
+                    "-1"
+                ],
+                [
+                    "3",
+                    "-2"
+                ],
+                [
+                    "2",
+                    "-4"
+                ],
+                [
+                    "1",
+                    "-8"
+                ],
+                [
+                    "0",
+                    "-16"
+                ]
+            ]
+        }
     }
 ]

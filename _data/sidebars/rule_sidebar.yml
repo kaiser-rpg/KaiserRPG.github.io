@@ -33,6 +33,15 @@ entries:
       url: /rule_creation_7_beyond.html
       output: web
 
+
+  - title: General
+    output: web
+    folderitems:
+    - title: Introduction
+      url: /rule_general_intro.html
+    - title: Stamina
+      url: /rule_general_stamina.html
+
   - title: Combat
     output: web
     folderitems:
@@ -61,8 +70,10 @@ entries:
       url: /rule_combat_damage.html
       output: web
     - title: Powers in Combat
-      url: /rule_combat_powers.html
+      url: /rule_combat_power.html
       output: web
+    - title: Traits
+      url: /rule_combat_trait.html
     
   - title: Martial
     output: web
