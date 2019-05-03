@@ -54,7 +54,7 @@ Once you take this action, you can move a distance up to what your Movement Valu
 
 {% include example.html content="Ceil takes the Move action and can now move up to 35 feet. Since movement can be broken up, she could move 10 feet, cast a spell, move 15 feet, attack with her long sword, move 10 feet, and finally cast another spell." %}
 
-{% include example.html content="Ceil takes the Move action and can now move up to 35 feet. After using all her movement, she is effected by a power that increases her Movement Value by 2 points, granting her an additional 10 feet of movement. As long as she has AP remaining, she can take her turn again and use that extra movement." %}
+{% include example.html content="Ceil takes the Move action and can now move up to 35 feet. After using all her movement, she is affected by a power that increases her Movement Value by 2 points, granting her an additional 10 feet of movement. As long as she has AP remaining, she can take her turn again and use that extra movement." %}
 
 #### Aim
 Active: 3 AP
@@ -99,14 +99,14 @@ You use an item, this can include activating an artifact, drinking a potion, or 
 #### Counter
 Reaction: 1 AP
 
-This action can be taken after an opponent has failed an attack against you. This allows you to use the Attack Action without it being your turn. You must be able to perform a counterattack against the opponent who failed the attack and have Attack Actions remaining this round. This attack is made before the opponent can perform any other actions or attacks. If you gained a Counter Bonus, don’t forget to add it to the Offensive Roll. The Attack Action cannot be used to perform any manuevers.
+This action can be taken after an opponent has failed an attack against you. This allows you to use the Attack Action without it being your turn. You must be able to perform a counterattack against the opponent who failed the attack and have Attack Actions remaining this round. This attack is made before the opponent can perform any other actions or attacks. If you gained a Counter Bonus, don’t forget to add it to the Offensive Roll. The Attack Action cannot be used to perform any maneuvers.
 
 You cannot counterattack a ranged attack unless the attacker was within hand-to-hand range or you have a power that specifically lets you counterattack at range.
 
 #### Use a Reaction Power
 Active: 0+ AP
 
-You use a power that has an Reaction requirement. 
+You use a power that has a Reaction requirement. 
 
 ### Swift Actions
 
@@ -123,14 +123,14 @@ If you are subject multiple attacks in a single turn, each successive attack is 
 #### Defend with a Power
 Swift: 0 AP
 
-When you are subject to an attack, have have the ability to use a defensive power, you can take this Action. The power will list what skill to use and how to resolve the Defensive Roll. 
+When you are subject to an attack, have the ability to use a defensive power, you can take this Action. The power will list what skill to use and how to resolve the Defensive Roll. 
 
 The most common way to defend with a power is to use a supernatural barrier produced from a spell or phenom. In this case, you will use your Magic Projection or Psychic Projection Skill respectively. The complete rules for supernatural barriers can be found [here](rule_combat_powers.html#supernatural-barriers).
 
 #### Use a Swift Power
 Active: 0+ AP
 
-You use a power that has an Swift Action requirement. 
+You use a power that has a Swift Action requirement. 
 
 #### Speak
 Swift: 0 AP
@@ -148,6 +148,9 @@ You attempt to withdraw from hand-to-hand combat, even against several adversari
 
 This action only has to be taken once each round, but the Opposed Skill Check must be made for every opponent you leave hand-to-hand combat range of. An opponent with no Attack Actions remaining cannot roll; an opponent can choose to not roll.
 
+#### Slip Away (Stealth)
+Special: 1 AP, part of moving
+
 #### Use a Skill
 
 ### Maneuvers
@@ -158,6 +161,8 @@ Attack: 1 AP
 By using Acrobatics, you can maneuver yourself to flank or get behind your opponent, which giving you a considerable tactical advantage in combat. You attempt this right before making an Attack Roll. To do so, you perform an Opposed Skill Check with your Acrobatics Skill against either the Attack or Acrobatics Skill of your opponent. This maneuver occurs in one motion together with an attack.
 
 With less than 10 DoS, you are unable to maneuver into position but you do not leave yourself open to being hit and the attack can proceed as normal. If you win the Opposed Check with 10 DoS, you have placed yourself on your enemy’s flank and can then attack. With 15 DoS or more, you have maneuvered behind them and can then attack. If the maneuver fails, the defender has prevented your maneuvering and you lose the ability to perform the Attack Action and can thereafter Counter, gaining the full DoF as a bonus. If you have the ability to make multiple Attack Actions each round, you only lose the ability to make the Attack Action used to perform this maneuver.
+
+Each time you use this maneuver against a target, they gain a +1 to defend against it until a week has passed since the last time you used the maneuver against them.
 
 Only usable with hand-to-hand attacks.
 
@@ -178,7 +183,7 @@ This maneuver disables an opponent without killing them, perhaps by breaking the
 Only usable with hand-to-hand attacks. Some powers will allow you to perform this maneuver as part of the ability.
 
 #### Knock Out
-Attack: +1 AP
+Attack: 1 AP
 
 You try to knock an opponent out instead of actually killing them. For this purpose, you must make an Offensive Roll against your opponent’s head – using the penalties found in the Direct Attack Table. You must declare your intention to Knock Out an opponent before rolling the dice. Knock Out attempts produce only half the normal damage, but the GM should consider the full damage for calculating the Critical level. If the Critical level is higher than 5, the wounded combatant is automatically Knocked Out. When you use this maneuver, a Critical cannot cause negative effects beyond those of being Knocked Out, losing AP, or inflicting Action Penalties. It can never cause automatic death. 
 
@@ -284,6 +289,9 @@ If one of the defenders obtains the right to Counter using Block, that defender 
 If a defender obtains the right to Counter by using Dodge, the Sweeping Attack continues on its path; the defender must wait until the attack finishes before making their Counterattack. 
 
 Only usable with hand-to-hand attacks.
+
+#### Sneak Attack
+Attack: All AP
 
 #### Multiple Missiles
 Ranged Attack: 1 AP
