@@ -93,6 +93,11 @@ If you wish to manifest more than one phenom in a round, you can chose to hold b
 
 > For example, Sarah wishes to manifest two Immolation phenoms this round with her Phenom Potential of 5. She choses to split her potential to manifest one Immolation with 2 and a the other with 3 Phenom Potential. Since she has a +2 to her Potential Roll to manifest Immolation (due to permanent PP spending), the final number added to the roll is 4 and 5.
 
+#### Concentrate on Manifesting
+When you declare this intention, you must also declare a phenom. You then focus on manifesting that phenom. Next round when you take the Manifest Phenom, you gain a +1 bonus the first time you try to manifest the chosen phenom that round. If you take this intention for three rounds in a row, you gain a +2 bonus. Five rounds will grant you a +3 bonus. Ten rounds will grant +4 bonus. 
+
+While concentrating, if you take damage or become distracted by some other means, you might lose any gathered concentration.
+
 ### Stance
 **Intention**: 0 AP
 
