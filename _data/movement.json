@@ -1,0 +1,330 @@
+[
+ {
+   "speed": 0,
+   "moveRound": 0,
+   "runRound": 0,
+   "runHour": 0,
+   "sprintRound": 0,
+   "sprintHour": 0
+ },
+ {
+   "speed": 1,
+   "moveRound": 20,
+   "runRound": 30,
+   "runHour": 3,
+   "sprintRound": 40,
+   "sprintHour": 5
+ },
+ {
+   "speed": 2,
+   "moveRound": 25,
+   "runRound": 35,
+   "runHour": 4,
+   "sprintRound": 50,
+   "sprintHour": 6
+ },
+ {
+   "speed": 3,
+   "moveRound": 30,
+   "runRound": 40,
+   "runHour": 5,
+   "sprintRound": 60,
+   "sprintHour": 7
+ },
+ {
+   "speed": 4,
+   "moveRound": 35,
+   "runRound": 50,
+   "runHour": 6,
+   "sprintRound": 70,
+   "sprintHour": 8
+ },
+ {
+   "speed": 5,
+   "moveRound": 40,
+   "runRound": 60,
+   "runHour": 7,
+   "sprintRound": 80,
+   "sprintHour": 9
+ },
+ {
+   "speed": 6,
+   "moveRound": 55,
+   "runRound": 70,
+   "runHour": 8,
+   "sprintRound": 110,
+   "sprintHour": 13
+ },
+ {
+   "speed": 7,
+   "moveRound": 70,
+   "runRound": 80,
+   "runHour": 9,
+   "sprintRound": 140,
+   "sprintHour": 16
+ },
+ {
+   "speed": 8,
+   "moveRound": 85,
+   "runRound": 110,
+   "runHour": 13,
+   "sprintRound": 170,
+   "sprintHour": 19
+ },
+ {
+   "speed": 9,
+   "moveRound": 100,
+   "runRound": 140,
+   "runHour": 16,
+   "sprintRound": 200,
+   "sprintHour": 23
+ },
+ {
+   "speed": 10,
+   "moveRound": 125,
+   "runRound": 170,
+   "runHour": 19,
+   "sprintRound": 250,
+   "sprintHour": 28
+ },
+ {
+   "speed": 11,
+   "moveRound": 150,
+   "runRound": 200,
+   "runHour": 23,
+   "sprintRound": 300,
+   "sprintHour": 34
+ },
+ {
+   "speed": 12,
+   "moveRound": 175,
+   "runRound": 250,
+   "runHour": 28,
+   "sprintRound": 350,
+   "sprintHour": 40
+ },
+ {
+   "speed": 13,
+   "moveRound": 200,
+   "runRound": 300,
+   "runHour": 34,
+   "sprintRound": 400,
+   "sprintHour": 45
+ },
+ {
+   "speed": 14,
+   "moveRound": 250,
+   "runRound": 350,
+   "runHour": 40,
+   "sprintRound": 500,
+   "sprintHour": 57
+ },
+ {
+   "speed": 15,
+   "moveRound": 300,
+   "runRound": 400,
+   "runHour": 45,
+   "sprintRound": 600,
+   "sprintHour": 68
+ },
+ {
+   "speed": 16,
+   "moveRound": 375,
+   "runRound": 500,
+   "runHour": 57,
+   "sprintRound": 750,
+   "sprintHour": 85
+ },
+ {
+   "speed": 17,
+   "moveRound": 450,
+   "runRound": 600,
+   "runHour": 68,
+   "sprintRound": 900,
+   "sprintHour": 102
+ },
+ {
+   "speed": 18,
+   "moveRound": 525,
+   "runRound": 750,
+   "runHour": 85,
+   "sprintRound": 1050,
+   "sprintHour": 119
+ },
+ {
+   "speed": 19,
+   "moveRound": 600,
+   "runRound": 900,
+   "runHour": 102,
+   "sprintRound": 1200,
+   "sprintHour": 136
+ },
+ {
+   "speed": 20,
+   "moveRound": 700,
+   "runRound": 1050,
+   "runHour": 119,
+   "sprintRound": 1400,
+   "sprintHour": 159
+ },
+ {
+   "speed": 21,
+   "moveRound": 800,
+   "runRound": 1200,
+   "runHour": 136,
+   "sprintRound": 1600,
+   "sprintHour": 182
+ },
+ {
+   "speed": 22,
+   "moveRound": 900,
+   "runRound": 1400,
+   "runHour": 159,
+   "sprintRound": 1800,
+   "sprintHour": 205
+ },
+ {
+   "speed": 23,
+   "moveRound": 1000,
+   "runRound": 1600,
+   "runHour": 182,
+   "sprintRound": 2000,
+   "sprintHour": 227
+ },
+ {
+   "speed": 24,
+   "moveRound": 1150,
+   "runRound": 1800,
+   "runHour": 205,
+   "sprintRound": 2300,
+   "sprintHour": 261
+ },
+ {
+   "speed": 25,
+   "moveRound": 1300,
+   "runRound": 2000,
+   "runHour": 227,
+   "sprintRound": 2600,
+   "sprintHour": 295
+ },
+ {
+   "speed": 26,
+   "moveRound": 1450,
+   "runRound": 2300,
+   "runHour": 261,
+   "sprintRound": 2900,
+   "sprintHour": 330
+ },
+ {
+   "speed": 27,
+   "moveRound": 1600,
+   "runRound": 2600,
+   "runHour": 295,
+   "sprintRound": 3200,
+   "sprintHour": 364
+ },
+ {
+   "speed": 28,
+   "moveRound": 1750,
+   "runRound": 2900,
+   "runHour": 330,
+   "sprintRound": 3500,
+   "sprintHour": 398
+ },
+ {
+   "speed": 29,
+   "moveRound": 1900,
+   "runRound": 3200,
+   "runHour": 364,
+   "sprintRound": 3800,
+   "sprintHour": 432
+ },
+ {
+   "speed": 30,
+   "moveRound": 2100,
+   "runRound": 3500,
+   "runHour": 398,
+   "sprintRound": 4200,
+   "sprintHour": 477
+ },
+ {
+   "speed": 31,
+   "moveRound": 2300,
+   "runRound": 3800,
+   "runHour": 432,
+   "sprintRound": 4600,
+   "sprintHour": 523
+ },
+ {
+   "speed": 32,
+   "moveRound": 2500,
+   "runRound": 4200,
+   "runHour": 477,
+   "sprintRound": 5000,
+   "sprintHour": 568
+ },
+ {
+   "speed": 33,
+   "moveRound": 2700,
+   "runRound": 4600,
+   "runHour": 523,
+   "sprintRound": 5400,
+   "sprintHour": 614
+ },
+ {
+   "speed": 34,
+   "moveRound": 3000,
+   "runRound": 5000,
+   "runHour": 568,
+   "sprintRound": 6000,
+   "sprintHour": 682
+ },
+ {
+   "speed": 35,
+   "moveRound": 3300,
+   "runRound": 5400,
+   "runHour": 614,
+   "sprintRound": 6600,
+   "sprintHour": 750
+ },
+ {
+   "speed": 36,
+   "moveRound": 3600,
+   "runRound": 6000,
+   "runHour": 682,
+   "sprintRound": 7200,
+   "sprintHour": 818
+ },
+ {
+   "speed": 37,
+   "moveRound": 4000,
+   "runRound": 6600,
+   "runHour": 750,
+   "sprintRound": 8000,
+   "sprintHour": 909
+ },
+ {
+   "speed": 38,
+   "moveRound": 4500,
+   "runRound": 7200,
+   "runHour": 818,
+   "sprintRound": 9000,
+   "sprintHour": 1023
+ },
+ {
+   "speed": 39,
+   "moveRound": 5000,
+   "runRound": 8000,
+   "runHour": 909,
+   "sprintRound": 10000,
+   "sprintHour": 1136
+ },
+ {
+   "speed": 40,
+   "moveRound": 6000,
+   "runRound": 9000,
+   "runHour": 1023,
+   "sprintRound": 12000,
+   "sprintHour": 1364
+ }
+]

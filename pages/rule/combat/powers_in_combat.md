@@ -9,30 +9,30 @@ In Kaiser, there are many different abilities and features that grant you specia
 Below are the types of powers that you can find in Kaiser. The description of each type of power includes how to use your Offensive or Defensive Skills and the visibility of the power.
 
 ### Attack
-Powers of this type allow you to perform an Offensive Roll against a target using the appropriate Offensive Skill. This power is equivalent to a thrown projectile attack; the Base Damage is determined by the power and the Maximum Distance is based on your Offensive Skill or is directly listed. 
+Powers of this type allow you to perform an Offensive Roll against a target (or targets) using the appropriate Offensive Skill. This power is equivalent to a thrown projectile attack; the Base Damage is determined by the power and the Maximum Distance is based on your Offensive Skill or is directly listed. 
 
-Attack powers can be seen on the material plane. The power will list if it can only be blocked with immaterial objects or if the power can hit immaterial creatures.
+Attack powers can be seen on the material plane. The power will list if it has the immaterial or imbued trait.
 
 Additional details on how to make an attack with a power, see LINKTO.
 
 ### Defense
 Defense powers allow you to use an appropriate Defensive Skill to prevent certain attacks, depending on the what the Power allows. Most Defense powers create a supernatural barrier. Powers that do not create supernatural barriers will list how to defend with them.
 
-Defense powers are visible on the material plane. The power will list if it can block an immaterial object.
+Defense powers are visible on the material plane. The power will list if it has the immaterial or imbued trait.
 
 Additional details on how to defend with a Supernatural Barrier, see LINKTO.
 
 ### Effect
 Powers of this type target an aspect of a creature. You use an appropriate Offensive Skill to aim and strike the target. The target applies their Absorption and AV — usually Force. If you obtain at least one Unit of Damage, then you cause the target to make a Resistance Check listed by the power. Gaining additional Units of Damage have no effect on the Resistance Check.
 
-Effect powers never deal damage from the Offensive Roll — unless the power is also of the Attack Type — but it can hit immaterial targets if it uses the Force Damage Type. Additional, if the defender is unable to touch immaterial objects, they are unable to block Effect Powers unless otherwise stated.
+Effect powers never deal damage from the Offensive Roll — unless the power is also of the Attack Type. The power will list if it has the immaterial or imbued traits. 
 
-Effect Powers are equivalent to a thrown projectile but they cannot be seen on the material plane. Instead, the power will list what vision is required to not apply the Blind Penalty to defend. Powers that belong to both Attack and Effect are visible on the material plane. 
+Effect Powers are equivalent to a thrown projectile. if the power has the immaterial trait, then it cannot be seen on the material plane; the power will list what vision is required to not apply the Blind Penalty to defend. Powers that belong to both Attack and Effect are visible on the material plane. 
 
 ### Automatic
 Powers of this type produce automatic effects on you, another creature, or the environment. They usually produce beneficial effects. The maximum distance will be listed or is determined by an appropriate Offensive Skill and you do not require an Offensive Roll unless the target is in a difficult position. If no Resistance Check Difficulty is listed, the target can resist with a SR 8 Check. 
 
-Automatic Powers are not visible on the material plane. But the after-effect can be material, like shedding light or healing wounds.
+Automatic powers usually have the immaterial trait, the power will list if it does not. As with Effect powers, if they have the immaterial trait then the power is not visible on the material plane. But the after-effect can be material, like shedding light or healing wounds.
 
 ### Trigger
 Powers of this type have certain triggering conditions and do not require Offensive Skills for range or aim. Any target who meets the conditions automatically suffer the effects of the power. 
@@ -40,6 +40,8 @@ Powers of this type have certain triggering conditions and do not require Offens
 Trigger powers are frequently Effect as well, in this case the target makes the Resistance Check when the triggering condition is meet. A target who passes the Resistance Check is immune to the Power's Resistance Check for a number of rounds equal to their Degree of Success. Once the immunity ends and the conditions are meet again, the target must make another Resistance Check.
 
 Some Trigger powers can have a center point other than you. The center can be placed anywhere within range of your Offensive Skill. You may require an Offensive Roll if the target is in a difficult position.
+
+Trigger powers usually have the immaterial trait, the power will list if it does not. As with Effect powers, if they have the immaterial trait then the power is not visible on the material plane. But the after-effect can be material, like shedding light or healing wounds.
 
 ### Detection
 Powers of this type are a special type of Trigger power. The Trigger is just being within range and it allows you to gain information, whether that be location, condition, or characteristics, of any target that fails the Resistance Check. Detection powers can be negated by some powers and a target gets a bonus to the Resistance Check based on their Conceal Ki skill if they have developed it.
@@ -50,13 +52,18 @@ Many powers share similar features. Below are some general rules that are descri
 ### Immaterial
 Ghosts, spirits, and other creatures that do not fully exist on the material plane have a trait called immaterial. This trait gives them the ability to ignore material objects like weapons, armor, and shields; this can make them difficult or impossible to fight.
 
-In order to hit a creature with the immaterial trait, your attack have the imbued trait, meaning it is imbued with energy capable of interacting with an immaterial creature. All attacks that deal damage from the Energy Group naturally have the imbued trait. For Physical and Elemental damage, you need to gain the imbued trait from some other feature, ability, or power. Whether a Resistance power, dealing damage from the Resistance Group, is imbued will be listed in the power’s description.
+In order to hit a creature with the immaterial trait, your attack must have the imbued trait, meaning it is imbued with energy capable of interacting with an immaterial creature. All attacks that deal damage from the Energy Group naturally have the imbued trait. For Physical and Elemental damage, you need to gain the imbued trait from some other feature, ability, or power. Whether a Resistance power, dealing damage from the Resistance Group, is imbued will be listed in the power’s description.
 
 Similarly, a creature with the immaterial trait will make its attacks immaterial as well. To defend against such an attack, you must either dodge or block it with an imbued object.
 
-The spirit abilities of Presence Extrusion and Aura Extension allow you to grant the imbued trait to your weapons. The meta magic ability Imbued Spell allows your attack and defense spells to gain the imbued trait. A phenom will list at what degree it gains the imbued trait. Some artifacts can also give you or your powers the imbued trait.
+The spirit abilities of Presence Extrusion and Aura Extension allow you to grant the imbued trait to your weapons. The meta magic ability Imbued Spell allows your attack and defense spells to gain the imbued trait. A phenom will list at what degree it gains the imbued trait. Some artifacts can also give you or your powers the imbued trait as well.
 
 ### Area Attack
+Some powers have the ability to effect a large area with a single attack. This area attack can take many different shapes: sphere, cylinder, cone, line, and so on. Each valid target within the volume of the attack must make a Defensive Roll against your Offensive Roll (only one roll). The area attack will still count as a thrown or fired projectile for the purpose of defense.
+
+A target can dodge out of the area of the attack if they have enough movement remaining to reach a point outside the volume of the attack. If they have not taken the Movement Action this turn, they can spend 1 AP to take the Movement Action as a Reaction, but they can only use half of it to move out of the way. The target makes a Defensive Roll against the attack. If they are unable to reach a safe point for whatever reason, they apply a -8 penalty to the Defensive Roll.
+
+The ability to block an area attack depends on the traits that the area attack and the target's defense possess. How each trait affects the defense of a target is described with the trait. In general, having an imbued defense will allow the target to defend normally.
 
 ### Affected Presence
 All objects and creatures have a certain amount of essence in the world, measured by their presence. Some powers are only able to affect a certain sum of presence. In these cases, the sum of the affected presence must be equal to or less than the listed presence. 
