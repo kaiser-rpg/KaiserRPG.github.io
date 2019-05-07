@@ -171,7 +171,7 @@ You keep your focus on your maintained spells. If you are maintaining any non-da
 
 You maintain your focus on your phenoms. If you are maintaining any phenom, and have not taken this action before the End Phase, you lose all maintained phenom.
 
-### Use an Active Power
+### Use an Involved Power
 **Active**: 0+ AP
 
 You use a power that has an Active Action requirement. 
@@ -214,7 +214,7 @@ When you are subject to an attack, have the ability to use a defensive power, yo
 
 The most common way to defend with a power is to use a supernatural barrier produced from a spell or phenom. In this case, you will use your Magic Projection or Psychic Projection Skill respectively. The complete rules for supernatural barriers can be found [here](rule_combat_powers.html#supernatural-barriers).
 
-### Use a Swift Power
+### Use a Free Power
 **Active**: 0+ AP
 
 You use a power that has a Swift Action requirement. 

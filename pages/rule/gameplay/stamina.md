@@ -1,6 +1,6 @@
 ---
 title: Stamina
-permalink: rule_general_stamina.html
+permalink: rule_gameplay_stamina.html
 ---
 
 Your stamina is an abstract measure of many times you can exert yourself before becoming exhausted. Your maximum number of stamina points is equal to your Constitution plus your Willpower Characteristics. 

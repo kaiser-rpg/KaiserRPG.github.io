@@ -1,6 +1,6 @@
 ---
-title: Mystic Objects
-permalink: rule_magic_objects.html
+title: Common Mana Artifacts
+permalink: rule_mana_artifact.html
 ---
 
 ### Mana Batteries
@@ -32,7 +32,7 @@ A Spell Conduit is an object attuned to a spell, in rare cases multiple ones. Yo
 ### Spell Tomes
 A Spell Tome is the written knowledge of a collection of spells. While reading the Tome, you can cast a spell from it by spending 1 AP and taking the Prepared Spell Intention. Due to needing to refer to the Tome while casting, you are counted as having taking an action and cannot gain the extra Mana at the end of a round. Most tomes only have the knowledge for a spell up to a certain degree.
 
-META {
+{% capture metaContent %}
 It is possible that some of the listed effects could be combined into a single device. In this case, it is left to the best judgement of the GM on what the final device will do in the end. Below we list a few of the common suggestions for combinations.
 
 Mana Battery + Mana Amplifier + Spell Conduit: This would create an object that can pull mana from within the battery and place it inside the conduit as if it was preparing the spell. This would be benefit from any extra MA for taking no action, but would automatically charge up the conduit each round until it was ready.
@@ -40,4 +40,6 @@ Mana Battery + Mana Amplifier + Spell Conduit: This would create an object that 
 Mana Battery + Mana Recovery Amplifier: This would create an object that can store mana and would naturally regain mana each dawn.
 
 Mana Battery + Mana Amplifier + Mana Capacitor: This would create an object that could move mana from the battery to the capacitor each round, based on the amplifier. Essentially a self-charging capacitor. Mana would need to be in the battery for it to be of any use.
-}
+{% endcapture %}
+
+{% include meta.html content=metaContent %}

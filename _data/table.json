@@ -324,6 +324,93 @@
         }
     },
     {
+        "title": "Fumble Result",
+        "index": "GEN1",
+        "table": {
+            "type": "table",
+            "colLabels": [
+                "Fumble Result",
+                "Difficulty Check",
+                "Opposed Check"
+            ],
+            "colStyles": [
+                "col-2",
+                "col-5",
+                "col-5"
+            ],
+            "rows": [
+                [
+                    "2 to 5",
+                    "The attempt simply does not work.",
+                    "The die roll is 0. You can still add your skill value."
+                ],
+                [
+                    "6 to 11",
+                    "The attempt has a negative effect on the character.",
+                    "The die roll is a -5. You can still add your skill value. You cannot go below 0."
+                ],
+                [
+                    "12+",
+                    "The attempt has a disastrous effect on the character.",
+                    "The die roll is -10. You can still add your skill value. You cannot go below 0."
+                ]
+            ]
+        }
+    },
+    {
+        "title": "Fumble Chance",
+        "index": "GEN111",
+        "table": {
+            "type": "table",
+            "colLabels": [
+                "Fumble Degree",
+                "How to Fumble"
+            ],
+            "colStyles": [
+                "col-3",
+                "col-7"
+            ],
+            "rows": [
+                [
+                    "-3",
+                    "Fumble on five ones (must have D3 or higher)"
+                ],
+                [
+                    "-2",
+                    "Fumble on four ones (must have D2 or higher)"
+                ],
+                [
+                    "-1",
+                    "Fumble on three ones (must have D1 or higher)"
+                ],
+                [
+                    "0",
+                    "Fumble on double 1"
+                ],
+                [
+                    "+1",
+                    "Fumble on double 1, 2"
+                ],
+                [
+                    "+2",
+                    "Fumble on double 1, 2, 3"
+                ],
+                [
+                    "+3",
+                    "Fumble on double 1, 2, 3, 4"
+                ],
+                [
+                    "+4",
+                    "Fumble on double 1, 2, 3, 4, 5"
+                ],
+                [
+                    "+5",
+                    "Fumble on any double, cannot gain an Open Roll"
+                ]
+            ]
+        }
+    },
+    {
         "title": "Characteristic Generation",
         "index": "GEN8",
         "table": {
@@ -608,6 +695,105 @@
         }
     },
     {
+        "title": "Healing",
+        "index": "GEN22",
+        "table": {
+            "type": "table",
+            "colLabels": [
+                "Regeneration Value",
+                "LP Recovered",
+                "Reducing Penalties",
+                "Special"
+            ],
+            "colStyles": [
+                "col-2",
+                "col-3",
+                "col-3",
+                "col-4"
+            ],
+            "rows": [
+                ["1","5 per day","-1 per 4 days","-"],
+["2","10 per day","-1 per 3 days","-"],
+["3","15 per day","-1 per 2 days","-"],
+["4","20 per day","-1 per day","-"],
+["5","25 per day","-1 per day","No scars remain"],
+["6","30 per day","-1 per day","You do not suffer the effects of Bleeding Out"],
+["7","50 per day","-2 per day","Cleanly amputated limbs recover if placed on the stump within a week"],
+["8","100 per day","-2 per day","As above, but within five days"],
+["9","200 per day","-3 per day","As above, but within three days. You automatically overcome the state Between Life and Death"],
+["10","1 per minute","-4 per day","As above, but within one day"],
+["11","2 per minute","-5 per day","Any amputated limb recovers if placed on the stump within a week"],
+["12","5 per minute","-1 per hour","As above, but within three days"],
+["13","10 per minute","-1 per hour","As above, but within one day"],
+["14","1 per round","-2 per hour","Any limb recovers if placed on the stump within several hours"],
+["15","5 per round","-2 per hour","Any limb recovers immediately if placed on the stump within one round. Except for the head, any amputated member grows back within a week"],
+["16","10 per round","-1 per minute","Except for the head, any amputated member grows back within three days"],
+["17","25 per round","-1 per round","Except for the head, any amputated member grows back within a few hours"],
+["18","50 per round","-2 per round","Except for the head, any amputated member grows back within a few rounds"],
+["19","100 per round","All each round","The amputated limb regrows and is completely functional in one round"],
+["20","250 per round","All each round","All physical critical are annulled"],
+
+            ]
+        }
+    },
+    {
+        "title": "Base Mana Accumulation",
+        "index": "MAGIC30",
+        "table": {
+            "type": "table",
+            "colLabels": [
+                "Focus",
+                "MA"
+            ],
+            "colStyles": [
+                "col-2",
+                "col-2"
+            ],
+            "rows": [
+                [
+                    "0 to 4",
+                    "0"
+                ],
+                [
+                    "5 to 7",
+                    "5"
+                ],
+                [
+                    "8 to 11",
+                    "10"
+                ],
+                [
+                    "12 to 14",
+                    "15"
+                ],
+                [
+                    "15 to 18",
+                    "20"
+                ],
+                [
+                    "19 to 21",
+                    "25"
+                ],
+                [
+                    "22 to 24",
+                    "30"
+                ],
+                [
+                    "25 to 28",
+                    "35"
+                ],
+                [
+                    "29",
+                    "40"
+                ],
+                [
+                    "30",
+                    "50"
+                ]
+            ]
+        }
+    },
+    {
         "title": "Innate Mana",
         "index": "MAGIC40",
         "table": {
@@ -677,6 +863,31 @@
         }
     },
     {
+        "title": "Magic Level",
+        "index": "MAGIC45",
+        "table": {
+            "type": "table",
+            "colLabels": [
+                "Intelligence",
+                "Maximum Magic Level"
+            ],
+            "colStyles": [
+                "col-5",
+                "col-7"
+            ],
+            "rows": [
+                [
+                    "1 to 5",
+                    "0"
+                ],
+                [
+                    "6",
+                    "10"
+                ]
+            ]
+        }
+    },
+    {
         "title": "Magic Projection Maximum Range",
         "index": "MAGIC50",
         "table": {
@@ -737,6 +948,63 @@
                 [
                     "+4",
                     "+10,000 feet"
+                ]
+            ]
+        }
+    },
+    {
+        "title": "Choosing Spells",
+        "index": "MAGIC55",
+        "table": {
+            "type": "table",
+            "colLabels": [
+                "Spell Level",
+                "Magic Level Cost"
+            ],
+            "colStyles": [
+                "col-6",
+                "col-6"
+            ],
+            "rows": [
+                [
+                    "1 to 10",
+                    "2"
+                ],
+                [
+                    "11 to 20",
+                    "4"
+                ],
+                [
+                    "21 to 30",
+                    "6"
+                ],
+                [
+                    "31 to 40",
+                    "8"
+                ],
+                [
+                    "41 to 50",
+                    "10"
+                ],
+                [
+                    "51 to 60",
+                    "12"
+                ],
+                [
+                    "61 to 70",
+                    "14"
+                ],
+                [
+                    "71 to 80",
+                    "16"
+                ],
+                [
+                    "81 to 90",
+                    "20"
+                ],
+                [
+                    "91 to 100",
+                    "30"
                 ]
             ]
         }

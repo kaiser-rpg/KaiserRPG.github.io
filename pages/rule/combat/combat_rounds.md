@@ -11,8 +11,6 @@ The Intention Phase is where you will tell the GM what you intend to do that rou
 
 A full list of Intentions can be found [here](rule_combat_action_point.html).
 
-<!-- {% include meta.html content = "Reminder, if you spend all your AP during the Intention Phase, you will not be able delay your turn Active Action."%} -->
-
 #### Surprise
 When rolling Initiative, there is a chance that you might react so quickly that your opponent is caught off guard. This occurs when your Initiative roll is 20 points greater than your opponents. In this case, your opponent gains the Surprised State when making any Opposed Skill Checks against you until they take their turn.
 

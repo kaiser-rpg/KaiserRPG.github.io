@@ -1,6 +1,6 @@
 ---
 title: Traits
-permalink: rule_general_trait.html
+permalink: rule_gameplay_trait.html
 ---
 
 A trait is something inherent to an object and describes what makes it special. Some traits have an effect on the combat potential of the creature or object that possess it.

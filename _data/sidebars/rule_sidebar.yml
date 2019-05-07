@@ -5,6 +5,13 @@ entries:
   levels: one
   folders:
 
+  - title: General
+    output: web
+    folderitems:
+    - title: Introduction
+      url: /rule_general_intro.html
+      output: web
+
   - title: Character Creation
     output: web
     folderitems:
@@ -33,14 +40,21 @@ entries:
       url: /rule_creation_7_beyond.html
       output: web
 
-
-  - title: General
+  - title: Game Play
     output: web
     folderitems:
-    - title: Introduction
-      url: /rule_general_intro.html
+    - title: Life and Death
+      url: /rule_gameplay_lifepoint.html
+      output: web
     - title: Stamina
-      url: /rule_general_stamina.html
+      url: /rule_gameplay_stamina.html
+      output: web
+    - title: Powers
+      url: /rule_gameplay_power.html
+      output: web
+    - title: Trait
+      url: /rule_gameplay_trait.html
+      output: web
 
   - title: Combat
     output: web
@@ -69,20 +83,15 @@ entries:
     - title: Damage
       url: /rule_combat_damage.html
       output: web
-    - title: Powers in Combat
-      url: /rule_combat_power.html
-      output: web
-    - title: Traits
-      url: /rule_combat_trait.html
     
-  - title: Martial
+  - title: Spirit
     output: web
     folderitems:
     - title: Introduction
       url: /rule_martial_intro.html
       output: web
 
-  - title: Magic
+  - title: Mana
     output: web
     folderitems:
     - title: Introduction
@@ -98,7 +107,7 @@ entries:
       url: /rule_magic_objects.html
       output: web
 
-  - title: Psychic
+  - title: Phenom
     output: web
     folderitems:
     - title: Introduction
