@@ -31,7 +31,7 @@ As the result of your Race, Traits, and Class, some of your skills and abilities
 Each Class has an Innate Bonus for Life Points and Initiative. These are added each time you gain a level.
 
 #### Limitation to Attack, Block, Dodge Innate Bonuses
-Some Classes and Traits gain an Innate Bonus of +1 every other level in Attack, Block, or Dodge Skills. Whereas improvement in other skills have no limits, the Innate Bonus increase for Attack, Block, and Dodge can never be greater than +5, that is to say, ten levels of Innate Bonuses. Even if you change Classes, this limit applies.
+Some Classes and Traits grant an Innate Bonus of +1 every other level in Attack, Block, or Dodge Skills. Whereas improvement in other skills have no limits, the Innate Bonus increase for Attack, Block, and Dodge can never be greater than +5, that is to say, ten levels of Innate Bonuses. Even if you change Classes, this limit applies.
 
 ### Life Points
 Life Points (LP) represent the amount of damage you can suffer before dying or receiving a Critical.

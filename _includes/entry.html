@@ -28,7 +28,7 @@
         {% endif %}
 {% elsif entries[0] %}
     {% for et in entries %}
-        {% include entry.html entry=et level=level %}
+        <div>{% include entry.html entry=et level=level %}</div>
     {% endfor %}
 {% else %}
     {{entries}}

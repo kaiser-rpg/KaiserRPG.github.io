@@ -13,45 +13,53 @@ If the maximum stamina points you have is less than or equal to an amount that g
 
 > Samwell has a maximum of 4 stamina points. When he has all his stamina points, he does not suffer the -1 penalty to all his actions. But as soon as he loses one point, he gains the -2 All Action penalty since he only has 3 points remaining.
 
-When you have no stamina remain, each round you must a Composure Check equal to the number of rounds you have had zero stamina. Failure means you fall unconscious. If an affect causes you to lose another point of stamina while you have non, you are knocked unconscious. 
+When you have no stamina remain, each round you must a Composure Check equal to the number of rounds you have had zero stamina. Failure means you fall unconscious. If an affect causes you to lose another point of stamina while you have none, you are knocked unconscious. 
 
-Once unconscious from exhaustion, you will not regain consciousness until you have regained at least five point of stamina (above the point of exhaustion).
+Once unconscious from exhaustion, you will not regain consciousness until you have regained at least five point of stamina (or to your maximum). During this time, you might lose LP 
 
 ## Needs
 
 ### Sleep
 You recover one stamina point after 6 hours of sleep. Failing to rest for 6 hours in a 48-hour period, you instead lose one point of stamina.
 
-If you do not need to sleep, you do not gain stamina from sleep but you do not lose any by not resting.
+If you do not need to sleep, you do not gain stamina from sleep but you do not lose any by not resting. Consider recovering stamina by meditation.
 
 ### Eating
-You recover two stamina points each day that you consume an amount of nutrition equal to your size. Consuming twice as much nutrition will recover three stamina, three times as much nutrition will restore four points, and so on. Failing to eat at least half your nutrition in a 48 period will cause you to lose one stamina point.
+You recover two stamina points each day that you consume an amount of nutrition equal to your size. Consuming twice as much nutrition will recover three stamina, three times as much nutrition will restore four points, and so on. Failing to eat at least half your size in nutrition in a 48 period will cause you to lose one stamina point.
 
-If you do not need to eat, you do not gain stamina from food but you do not lose any by not eating.
+If you do not need to eat, you do not gain stamina from food but you do not lose any by not eating. Consider recovering stamina by meditation.
 
 ### Meditation
-You recover three stamina after meditating for 6 hours. This meditation does not count for recovering ki or mana.
+You recover three stamina after meditating for 6 hours. This meditation does not count for recovering ki, mana or phenom points.
 
 ## Using Stamina
 Stamina points can be used in a variety of ways to give you temporary bonuses or to quickly recover.
 
-### Short Boost
+### Temporary Boost
 As a Swift Action you can spend stamina to give yourself one of the below benefits. You can only spend two stamina each round in this way. Unless otherwise listed, you can take any benefit multiple times each round.
 
-**Boost Physical Skill Check**: by spending 1 stamina, you gain a +2 to a single Skill Check related to a physical action. In general, that means any skill based on Strength, Dexterity, Agility, or Constitution. This must be declared before you roll the dice.
+**Boost Physical Skill Check**: By spending 1 stamina, you gain a +2 to a single Skill Check related to a physical action. In general, that means any skill based on Strength, Dexterity, Agility, or Constitution. This must be declared before you roll the dice.
 
-**Boost Physical Characteristic Check**: by spending 1 stamina, you gain a +1 to a single Characteristic Check related to a physical action. In general, that means any skill based on Strength, Dexterity, Agility, or Constitution. This must be declared before you roll the dice.
+**Boost Physical Characteristic Check**: By spending 1 stamina, you gain a +1 to a single Characteristic Check related to a physical action. In general, that means any skill based on Strength, Dexterity, Agility, or Constitution. This must be declared before you roll the dice.
 
-**Boost Mana Accumulation**: by spending 1 stamina, you immediately accumulate 15 mana or transfer 15 mana. You must have taken the accumulate or transfer mana Intention to use stamina this way.
+**Boost Mana Accumulation**: By spending 1 stamina, you immediately accumulate 15 mana or transfer 15 mana. You must have taken the accumulate or transfer mana Intention to use stamina this way.
 
-**Boost Chakra**: by spending 1 stamina, you immediately accumulate 2 ki points into any or all your chakras. You must have taken the accumulate ki Intention to use stamina this way.
+**Boost Chakra**: By spending 1 stamina, you immediately accumulate 2 ki points into any or all your chakras. You must have taken the accumulate ki Intention to use stamina this way.
 
-**Increase Speed**: by spending 1 stamina, you increase your Movement Value by one point for a round. This can be done after taking the Movement Action, the extra movement is just added to how much movement you have left.
+**Increase Speed**: By spending 1 stamina, you increase your Movement Value by one point for a round. This can be done after taking the any of the Movement Actions, the extra movement is just added to how much movement you have left.
 
 ### Second Wind
-In intense situations, where you have been nearly defeated, you can spend stamina to gain a second wind. In order to use this, your Life Points must be less than half your maximum. As a swift action, you can spend 10 stamina points to regain half of your maximum LP. 
+In intense situations, where you have been nearly defeated, you can spend stamina to gain a second wind. In order to use this, your Life Points must be less than half your maximum. As a swift action, you can spend 15 stamina points to regain half of your maximum LP. 
 
-Once this is used, it cannot be used again until the at least two weeks of downtime has passed.
+Once this is used, it cannot be used again until at least two weeks of downtime have passed.
+
+### Reserve Power
+You can spend stamina to quickly restore some of your power. In order to use this, your Life Points must be less than half your maximum or you must be in a deadly situation that could be prevented by gain the points from this feature. As a swift action, you can spend 20 stamina points to regain half of your total ki, mana, or PP.
+
+Once this is used, it cannot be used again until at least two weeks of downtime have passed.
+
+## Passive Stamina Use
+Stamina is lost when you exert yourself over a long period of time.
 
 ### Marching
 Moving a great distance can be exhausting. Below is how quickly you lose stamina points while moving at different paces. If you are riding a creature, you lose stamina at a fourth of that rate due to discomfort. If you are traveling in a comfortable position, you do not lose any stamina from travel.
@@ -63,3 +71,6 @@ Moving a great distance can be exhausting. Below is how quickly you lose stamina
 **Running**: you are considered to be running when you are moving a number of feet each round greater than your Movement Value minus 2. You lose 1 stamina point every ten minutes you move at this speed. You can add five minutes to the rate at which you lose stamina for every 4 points you have in Exertion.
 
 **Sprinting**: you are considered to be sprinting when you move your maximum Movement Value in a round. You lose 1 stamina point every minute you move at this speed. You can add 30 seconds to the rate at which you lose stamina for every 4 points you have in Exertion.
+
+### Other Stamina Uses
+Things likes climbing, jumping, breaking, or even researching might require stamina expenses. The GM can require using stamina to perform any action over a long period of time.

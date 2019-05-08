@@ -7,4 +7,11 @@
 </div>
 <div>
     {% include entry-table.html entry=table.table %}
+    
+    {% if table.postEntries %}
+    <span style="font-size: 8px"> {% include entry.html entries=table.postEntries level=12 %}</span>
+    {% endif %}
 </div>
+
+
+

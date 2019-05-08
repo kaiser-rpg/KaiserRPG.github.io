@@ -703,38 +703,228 @@
                 "Regeneration Value",
                 "LP Recovered",
                 "Reducing Penalties",
-                "Special"
+                "Physical Capabilities",
+                "Mystical Capabilities"
             ],
             "colStyles": [
-                "col-2",
-                "col-3",
-                "col-3",
-                "col-4"
+                "col-1",
+                "col-1",
+                "col-1",
+                "col-5",
+                "col-5"
             ],
             "rows": [
-                ["1","5 per day","-1 per 4 days","-"],
-["2","10 per day","-1 per 3 days","-"],
-["3","15 per day","-1 per 2 days","-"],
-["4","20 per day","-1 per day","-"],
-["5","25 per day","-1 per day","No scars remain"],
-["6","30 per day","-1 per day","You do not suffer the effects of Bleeding Out"],
-["7","50 per day","-2 per day","Cleanly amputated limbs recover if placed on the stump within a week"],
-["8","100 per day","-2 per day","As above, but within five days"],
-["9","200 per day","-3 per day","As above, but within three days. You automatically overcome the state Between Life and Death"],
-["10","1 per minute","-4 per day","As above, but within one day"],
-["11","2 per minute","-5 per day","Any amputated limb recovers if placed on the stump within a week"],
-["12","5 per minute","-1 per hour","As above, but within three days"],
-["13","10 per minute","-1 per hour","As above, but within one day"],
-["14","1 per round","-2 per hour","Any limb recovers if placed on the stump within several hours"],
-["15","5 per round","-2 per hour","Any limb recovers immediately if placed on the stump within one round. Except for the head, any amputated member grows back within a week"],
-["16","10 per round","-1 per minute","Except for the head, any amputated member grows back within three days"],
-["17","25 per round","-1 per round","Except for the head, any amputated member grows back within a few hours"],
-["18","50 per round","-2 per round","Except for the head, any amputated member grows back within a few rounds"],
-["19","100 per round","All each round","The amputated limb regrows and is completely functional in one round"],
-["20","250 per round","All each round","All physical critical are annulled"],
-
+                [
+                    "2",
+                    "10 per day",
+                    "-1 per 6 days",
+                    "-",
+                    "-"
+                ],
+                [
+                    "3",
+                    "15 per day",
+                    "-1 per 5 days",
+                    "-",
+                    "-"
+                ],
+                [
+                    "4",
+                    "20 per day",
+                    "-1 per 4 days",
+                    "-",
+                    "-"
+                ],
+                [
+                    "5",
+                    "25 per day",
+                    "-1 per 2 days",
+                    "You do not sustain scars from physical injury.",
+                    "You do not sustain scars from physical injury."
+                ],
+                [
+                    "6",
+                    "30 per day",
+                    "-1 per day",
+                    "-",
+                    "-"
+                ],
+                [
+                    "7",
+                    "40 per day",
+                    "-2 per day",
+                    "-",
+                    "-"
+                ],
+                [
+                    "8",
+                    "50 per day",
+                    "-3 per day",
+                    "-",
+                    "-"
+                ],
+                [
+                    "9",
+                    "60 per day",
+                    "-4 per day",
+                    "-",
+                    "-"
+                ],
+                [
+                    "10",
+                    "70 per day",
+                    "-5 per day",
+                    "You do not suffer the effects of Bleeding Out. You body is able to clot the wound quickly.",
+                    "You do not suffer the effects of Bleeding Out. You wounds are sealed by mystical energies."
+                ],
+                [
+                    "11",
+                    "80 per day",
+                    "-6 per day",
+                    "-",
+                    "-"
+                ],
+                [
+                    "12",
+                    "90 per day",
+                    "-7 per day",
+                    "You can use an amputated limb that has been placed on the stump after leaving it there for a week.",
+                    "-"
+                ],
+                [
+                    "13",
+                    "100 per day",
+                    "-8 per day",
+                    "As above, but within five days.",
+                    "-"
+                ],
+                [
+                    "14",
+                    "125 per day",
+                    "-9 per day",
+                    "As above, but within three days.",
+                    "-"
+                ],
+                [
+                    "15",
+                    "150 per day",
+                    "-10 per day",
+                    "As above, but within one day. You only need to consume half the nutrition to restore stamina.",
+                    "You only need to consume half the nutrition to restore stamina."
+                ],
+                [
+                    "16",
+                    "175 per day",
+                    "-15 per day",
+                    "As above, but within one hour.",
+                    "-"
+                ],
+                [
+                    "17",
+                    "200 per day",
+                    "-20 per day",
+                    "As above, but within one round.",
+                    "-"
+                ],
+                [
+                    "18",
+                    "250 per day",
+                    "-25 per day",
+                    "You automatically stabilize when you fall below zero LP.",
+                    "You automatically stabilize when you fall below zero LP."
+                ],
+                [
+                    "19",
+                    "300 per day",
+                    "-30 per day",
+                    "You do not need to sleep or eat.",
+                    "You do not need to sleep or eat."
+                ],
+                [
+                    "20",
+                    "500 per day",
+                    "-35 per day",
+                    "-",
+                    "-"
+                ],
+                [
+                    "21",
+                    "700 per day",
+                    "-40 per day",
+                    "You can regenerate one amputated limb within seven days, except for the head.",
+                    "You can create a spectral limb as a swift action after losing any limb, except for the head. You can only have one spectral limb at a time."
+                ],
+                [
+                    "22",
+                    "1000 per day",
+                    "-50 per day",
+                    "As above, but within five days.",
+                    "As above, but a maximum of two spectral limbs."
+                ],
+                [
+                    "23",
+                    "1 per minute",
+                    "-75 per day",
+                    "As above, but within three days.",
+                    "As above, but a maximum of four spectral limbs."
+                ],
+                [
+                    "24",
+                    "5 per minute",
+                    "-100 per day",
+                    "As above, but within one day.",
+                    "As long as the soul is not taken beyond the veil, a new body will be created within 7 days even if the previous body is completely destroyed."
+                ],
+                [
+                    "25",
+                    "1 per round",
+                    "-150 per day",
+                    "As above, but within one hour.",
+                    "As above, but within five days."
+                ],
+                [
+                    "26",
+                    "5 per round",
+                    "-1 per round",
+                    "As above, but you can also regenerate after being decapitated.",
+                    "As above, but within three days."
+                ],
+                [
+                    "27",
+                    "10 per round",
+                    "-5 per round",
+                    "Your body can regenerate from a single cell as long as you are not killed by curse damage. It takes six hours to completely regenerate this way.",
+                    "As above, but within one day."
+                ],
+                [
+                    "28",
+                    "25 per round",
+                    "-10 per round",
+                    "As above, but within three hours.",
+                    "As above, but within one day."
+                ],
+                [
+                    "29",
+                    "50 per round",
+                    "-25 per round",
+                    "As above, but within one hour.",
+                    "As above, but within one hour."
+                ],
+                [
+                    "30",
+                    "100 per round",
+                    "All each round",
+                    "You ignore the effect of Criticals caused by physical damage.",
+                    "You ignore the effect of Criticals caused by supernatural damage."
+                ]
             ]
-        }
+        },
+        "postEntries":[
+            "Regeneration of 21 or higher requires Ontic 35.",
+            "Regeneration of 25 or higher requires Ontic 40.",
+            "Regeneration of 29 or higher requires Ontic 45.",
+            "Regeneration of 30 or higher requires Ontic 50."
+        ]
     },
     {
         "title": "Base Mana Accumulation",
