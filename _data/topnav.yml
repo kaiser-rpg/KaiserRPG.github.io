@@ -7,27 +7,14 @@ topnav:
       url: /news
     - title: Glossary
       url: /glossary
+    - title: Rules
+      url: /rule_general_intro.html
 
 #Topnav dropdowns
 topnav_dropdowns:
 - title: Topnav dropdowns
   folders:
 
-    - title: Rules
-      folderitems:
-        - title: Character Creation
-          url: /rule_general_intro.html
-        - title: Skills
-          url: /rule_skills_intro.html
-        - title: Combat
-          url: /rule_combat_intro.html
-        - title: Martial
-          url: /rule_martial_intro.html
-        - title: Magic
-          url: /rule_magic_intro.html
-        - title: Psychic
-          url: /rule_psychic_intro.html
-  
     - title: Character Options
       folderitems:
         - title: Classes
