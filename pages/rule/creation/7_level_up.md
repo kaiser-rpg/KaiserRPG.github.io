@@ -3,11 +3,11 @@ title: "Step 7: Beyond First Level"
 permalink: rule_creation_7_beyond.html
 ---
 
-In order to advance in levels, you need to reach a milestone that marks your advancement. When you have earned the necessary experience, you gain a new level and 10 more XP, which you can use to obtain new abilities and skill or improve those you already possess.
+In order to advance in levels, you need to reach a milestone that marks your advancement. When you have earned the necessary experience, you gain a new level and 10 more XP, which you can use to obtain new abilities and skill.
 
-In order to raise a level, you must take steps similar to those used to create a character. First, you should spend the new XP following the same restrictions as character creation. You can decide to not spend all of your XP gained, saving some for later. But you will not be able to spend these points until you have sufficient downtime.
+Also be sure to increase your Innate Bonuses where appropriate. If the new level is odd, your Presence, and your other Resistances, also increases by 1 point.
 
-After spending XP, make sure to increase your Innate Bonuses where appropriate. If the new level is odd, your Presence, and your other Resistances, also increases by 1 point.
+In order to spend your new experience points, you must spend some Downtime practicing, researching, or meditating to master your new abilities. Any XP you spend must also follow the se rules as found in Character Creation.
 
 ### Increase Characteristics
 At each even level, you can add 1 point to one of your Characteristics. This increase represents your natural progression, your inherent capacity to improve. 

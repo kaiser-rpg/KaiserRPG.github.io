@@ -49,7 +49,7 @@ You have the following arrays, each one can be assigned to a single Characterist
 > The values found in this method are created by spending 60 points in the following method. The GM can create other arrays if they desire.
 
 #### Method 2: Point Buy
-You have 60 points to spend to gain a certain Characteristic Value.  freely among your eight Characteristics. Each characteristic has at least a three and can be no greater than 10 by using this method. 
+You have 60 points to spend to gain a certain Characteristic Value. Each Characteristic must have at least a three and can be no greater than 10 by using this method. 
 
 {% include table-index.html index = "GEN8" %}
 

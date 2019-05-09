@@ -9,11 +9,9 @@ All that remains are a few final steps.
 Once you have your Characteristics and Skills, you can calculate the derived characteristics.
 
 #### Movement Value
-Movement Value represents the maximum speed at which you can run. It is equivalent to the Agility Characteristic: if you have an Agility of 7, your movement value is also 7. 
+Movement Value represents the maximum speed at which you can run. It is equivalent to the Agility Characteristic: if you have an Agility of 7, your Movement Value is also 7. 
 
-To know how far you can cover, consult the table below. The distance listed there is the maximum distance you can run in one Movement Action, and thus one round. Your Movement Value can be modified by having a high Athletics Skill.
-
-{% include table-index.html index = "GEN3" %}
+Todo movement value to move, run, Sprint distance.
 
 #### Size
 Size indicates your expected height and weight. To calculate it, add your Strength and Constitution Characteristics. 
@@ -23,6 +21,8 @@ Size indicates your expected height and weight. To calculate it, add your Streng
 For a recommended height and weight of the character, consult the following table and choose a number between those given for the appropriate size.
 
 {% include table-index.html index = "GEN4" %}
+
+Your size is also used to determine how much food you must eat each day. A complete day of food requires you to consume an amount of nutrition equal to your size. Failure to do so can cause you to start losing stamina.
 
 ### Innate Bonuses
 As the result of your Race, Traits, and Class, some of your skills and abilities will improve without having to spend XP. These Innate Bonuses are added at 1st level and again at each level increment noted.
@@ -48,7 +48,7 @@ The Base Initiative of a normal-sized character is always 10. To calculate the F
 ### Presence and Resistance
 Presence is the sum of all of your existential aspects – both physical and spiritual. You have an almost unlimited potential to develop your abilities; the more developed, the greater the Presence. Your Presence starts at 3 and increases by +1 every odd level.
 
-In Kaiser, there are five types of Resistance, each one protecting you against a different type of negative effect. Resistance values are calculated by adding your Presence to the applicable modifier.
+In Kaiser, there are five types of Resistance, each one protecting you against a different type of negative effect. Resistance values are calculated by adding your Presence to the applicable Modifier.
 
 The five types of resistance are:
 
@@ -92,7 +92,7 @@ Magic skills encompass both spells and summoning.
 
 **Mana**: This is a measure of your spirit's ability to cast many spells or summon forth great creatures.
 
-**Mana Accumulation**: This ability represents your ability to pull mana held within your spirit into your environment to cast spells or transfer it.
+**Mana Accumulation**: This ability represents your capacity to pull mana, held within your spirit, into your environment to cast spells or transfer it.
 
 **Mana Recovery**: This ability represents your ability to gather your mana back into your spirit.
 
@@ -101,8 +101,6 @@ Magic skills encompass both spells and summoning.
 **Summon Skill**: This represents your capacity to bring forth supernatural creatures from other worlds. This skill depends upon your Focus Characteristic.
 
 **Control Skill**: This represents your capacity to control certain supernatural beings. Control depends upon the Willpower Characteristic.
-
-**Bind Skill**: This represents your capacity to tie the spirit of a supernatural creature into an object. Bind depends upon the Focus Characteristic.
 
 **Banish Skill**: This represents your ability to expel supernatural beings from this plane. It depends upon the Focus Characteristic.
 
@@ -113,21 +111,21 @@ Magic skills encompass both spells and summoning.
 **Meta Magic**: These are modifications to your magic or your spells.
 
 ##### Psychic Group
-Psychic abilities cover everything related to the area of psychic powers, known as phenom, and their uses. Classes gifted with phenom – such as mentalists – utilize these abilities in the course of their adventures.
+Psychic abilities cover everything related to the area of phenomonon in reality, known as phenom, and their uses.
 
 **Psychic Projection Skill**: This represents your capacity to target creatures or objects with your phenom. This skill depends upon your Perception.
 
-**Psychic Points (PP)**: These represents points used to develop and utilize your psychic phenom.
+**Phenom Points (PP)**: These represents points used to develop and utilize your psychic phenom.
 
-**Psychic Potential**: This is a special value that can only be increased by spending PP, as opposed to spending XP. It is based on your Willpower.
+**Phenom Potential**: This is a special value that can only be increased by spending PP, as opposed to spending XP. It is based on your Willpower.
 
 **Psychic Modules**: This represents your capacity to utilize phenom in new or more efficient ways.
 
 #### Secondary Groups
-Naturally, you possess much more complexity than simply being able to fight or cast spells. These are known as Secondary Skills and each one is part of a Secondary Group and is linked to a specific Characteristic. For example, the Acrobatics Skill is in the Exertion Group and depends upon your Agility, while Sciences fall under the Intellectual Group and depend upon Intelligence. You will find a complete description of Secondary Skills in Chapter 4.
+Naturally, you possess much more complexity than simply being able to fight or cast spells. These are known as Secondary Skills and each one is part of a Secondary Group and is linked to a specific Characteristic. For example, the Acrobatics Skill is in the Exertion Group and depends upon your Agility, while Sciences fall under the Intellectual Group and depend upon Intelligence. A complete list of Secondary Skills can be found [here](todo).
 
 #### Calculating and Using Skills
-To calculate your final Primary or Secondary Skill, add the Base Value (what you get by spending Development Points) to the Modifier of the Characteristic tied to that Skill. Lastly, add any other special modifiers like Innate Bonuses from your Race and Class. The result will be the Final Skill Value, the number added to a Skill Check roll. 
+To calculate your final Primary or Secondary Skill, add the Base Value (what you get by spending experience points) to the Modifier of the Characteristic tied to that Skill. Lastly, add any other special modifiers like Innate Bonuses from your Race and Class. The result will be the Final Skill Value, the number added to a Skill Check roll. 
 
 ### Final Details
 Now that you know all the basic things needed to create your character, you can fill in your character sheet. Keep in mind that the Races, Classes, and Traits Chapters will provide the remaining fine details.
