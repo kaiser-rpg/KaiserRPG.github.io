@@ -103,8 +103,21 @@ entries:
     - title: Spells
       url: /rule_magic_spell.html
       output: web
-    - title: Magic Objects
-      url: /rule_magic_objects.html
+    # - title: Common Mana and Spell Artifacts
+    #   url: /rule_magic_artifact.html
+    #   output: web
+
+  - title: Veil Conjuring
+    output: web
+    folderitems:
+    - title: Introduction
+      url: /rule_conjure_intro.html
+      output: web
+    - title: Conjuring
+      url: /rule_conjure_skill.html
+      output: web
+    - title: Pact Magic
+      url: /rule_conjure_pact.html
       output: web
 
   - title: Phenom

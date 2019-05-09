@@ -9,12 +9,16 @@
                 {% include entry-list.html items=entry.items level=nextLevel %}
             {% elsif entry.type == "table" %}
                 {% include entry-table.html table=entry level=nextLevel %}
+            {% elsif entry.type == "table-index" %}
+                {% include table-index.html index=entry.index %}
+            {% elsif entry.type == "example" %}
+                {% include example.html content=entry.entries %}
             {% elsif entry.type == "entries" %}
                 <div>
                     {% if entry.name %}
-                        {% if entry.level == 0 %}
+                        {% if level == 0 %}
                             <div class="entry-level-0-title">{{entry.name}}</div>
-                        {% elsif entry.level == 1 %}
+                        {% elsif level == 1 %}
                             <div class="entry-level-1-title">{{entry.name}}</div>
                         {% else %}
                             <span class="entry-inline-title">{{entry.name}}</span>:
@@ -24,13 +28,13 @@
                 </div>
             {% endif %}
         {% else %}
-            {{entry}}
+            <p>{{entry | replace_regex: "spirit", "aaaa"}}</p>
         {% endif %}
 {% elsif entries[0] %}
     {% for et in entries %}
-        <div>{% include entry.html entry=et level=level %}</div>
+        {% include entry.html entry=et level=include.level %}
     {% endfor %}
 {% else %}
-    {{entries}}
+    {{entries | replace_regex: "spirit", "aaaa"}}
 {% endif %}
 

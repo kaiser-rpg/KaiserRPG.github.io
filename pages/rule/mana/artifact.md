@@ -1,6 +1,6 @@
 ---
-title: Common Mana Artifacts
-permalink: rule_mana_artifact.html
+title: Common Mana and Spell Artifacts
+permalink: rule_magic_artifact.html
 ---
 
 ### Mana Batteries

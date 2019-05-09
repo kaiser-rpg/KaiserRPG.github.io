@@ -81,6 +81,11 @@ Innate mana is very limited in its use due to its raw nature. You are completely
 
 {% include table-index.html index="MAGIC40" %}
 
+### Conjure
+**Intention**: All AP
+
+The conjure intention allows you to 
+
 ### Phenom
 **Intention**: 3 AP
 

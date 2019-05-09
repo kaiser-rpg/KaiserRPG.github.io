@@ -1,0 +1,5 @@
+{% assign action = site.data.action.intention | where:"name", include.name | first %}
+
+<h3>{{action.name}}</h3>
+<div><b>Cost:</b> {{action.cost}} <span>{{include.level}}</span></div>
+<div>{% include entry.html entries=action.entries level=include.level %}</div>

@@ -1,0 +1,168 @@
+[
+    {
+        "name": "Run",
+        "cost": "3 AP",
+        "entries": [
+            "The run intention allows you to freely move a given distance based on your Speed. Use the Run distance found for your Speed Value. When you take this Intention, you cannot take the Movement Action or the Sprint Intention."
+        ]
+    },{
+        "name": "Sprint",
+        "cost": "Complete AP",
+        "entries": [
+            "The sprint intention allows you to freely move a given distance based on your Speed. Use the Sprint distance found for your Speed Value. When you take this Intention, you cannot perform any Active Action or Reaction as you spend your entire round running. You are also unable to take the Movement Action or Run Intention."
+        ]
+    },{
+        "name": "Attack",
+        "cost": "Weapon Cost + 1 AP",
+        "entries": [
+            "The attack intention allows you to perform the Attack Action once this round. When you take this intention, you must chose one or more weapons that you plan to use this round. The weapon with the worst Initiative Penalty is applied to your Initiative Roll and the highest Weapon Cost is used to determine the AP cost of this Intention. ",
+            "With sufficient skill, you can perform multiple Attack Actions each round. For every 10 points you have in your Final Attack Skill, you can perform the Attack Action an additional time. Each additional Attack Action is harder to aim properly, you suffer a -2 penalty to the Offensive Roll for each Attack Action made after the first. Some powers will grant you additional Attack Actions which may ignore the additional attack penalty."
+        ]
+    },
+    {
+        "name": "Spirit",
+        "cost": "1 AP",
+        "entries": [
+            "The spirit intention allows you to manipulate the ki within your spirit. There are two Spirit Intentions and each round you can only take one of them. The two options are Fill Chakra and Transfer Ki.",
+            {
+                "name": "Spirit Intention: Fill Chakra",
+                "entries": [
+                    "When you declare this intention, you can fill your Red, Green, and or Blue chakras with ki, from your Ki Reserve, equal to the that chakras value. If you are unable to perform somatic or verbal components, the amount you fill is halved, or quartered if you cannot perform either component. You can also chose to fill none of your chakras. If you take no other Intention or Action this round, you can gain the benefit of your chakra again at the end of the rounds, all modifiers apply.",
+                    "With ki in your chakras, you can use them to activate any number of spirit abilities or techniques as long as you have the ki to spend. If the ability does not state what chakra to use, you can spend ki from any chakra. At the end of the round that you activate any ki ability or technique, all the remaining ki returns to your Reserve.",
+                    "If you have ki in your chakra from the previous round and do not take the Fill Chakra Intention again, all your ki returns to your Ki Reserve before rolling Initiative."
+                ],
+                "type": "entries"
+            },
+            {
+                "name": "Sprit Intention: Transfer Ki",
+                "entries": [
+                    "When you declare this Intention, as a Swift Action you can push an amount of ki up to the sum of your chakras from your Reserve to that of another. This transference requires you to be in direct contact with the creature or object with a Ki Reserve. You can transfer ki to several different targets as long as the total ki transferred our of your Reserve in a round is less than or equal to the sum of your chakras.",
+                    "If you are in contact with a Ki Battery, you can instead pull ki from it. Pulling and pushing ki both have a shared maximum per round equal to the sum of your chakras."
+                ],
+                "type": "entries"
+            }
+        ]
+    },
+    {
+        "name": "Magic",
+        "cost": "2 AP",
+        "entries": [
+            "The magic intention allows you to manipulate mana, whether that be accumulation or transfer. There are four Magic Intentions and each round you can only take one of them. The four options are Accumulate Pure Mana, Accumulate for a Prepared Spell, Transfer Mana, and Cast an Innate Spell.",
+            {
+                "name": "Magic Intention: Accumulate a Mass of Mana",
+                "entries": [
+                    "When you declare this Intention, you accumulate mana from your Mana Pool equal to your MA. If you are unable to perform somatic or verbal components, your MA is halved, or quartered if you cannot perform either component. If you take no other Intention or Action this round, you can gain the benefit of your MA again at the end of the round, all modifiers apply.",
+                    "By accumulating a mass of mana, you have no clear goal for its expense. You simply pull the mana from your Pool into the world until you find a spell that is appropriate for the current situations. This mass of mana can be used to cast any number of spells in a single round as long as you have mana to spend. At the end of the round that you cast any spell with your mass of mana, all the remaining mana returns to your Pool.",
+                    "If you have a mass of mana from the previous round and do not take the Accumulate a Mass of Mana Intention again, your mass of mana will return to your Pool before rolling Initiative. Due to the stress of the mana returning without a proper outlet, you lose 10 mana from your Pool. Alternatively, you can choose to transform the mass of mana into a prepared spell. See Accumulate for a Prepared Spell for more details.",
+                    {
+                        "type": "example",
+                        "entries": [
+                            "Ceil has been Accumulating Pure Mana for four turns. On the start of the fifth turn she has 150 mana available. On her turn she casts Create Light for 20 points, Shield of Light of 50 points, and Induce Calm for 40. The total comes to 110 points, which means she has 40 points remaining. She can use these points to cast another spell or they will return to her pool at the end of the round. Since she had a controlled mana release, she does not lose 10 points. Next round she can start accumulating mana again, starting at zero."
+                        ]                        
+                    }
+                ],
+                "type": "entries"
+            },
+            {
+                "name": "Magic Intention: Accumulate for a Prepared Spell",
+                "entries": [
+                    "When you declare this Intention, you must also declare a spell and all its options to be prepared for casting. You then accumulate mana from your Mana Pool equal to your MA. If you are unable to perform somatic or verbal components, your MA is halved, or quartered if you cannot perform either component. If you take no other Intention or Action this round, you can gain the benefit of your MA again at the end of the round, all modifiers apply.",
+                    "Any mana accumulate this way can only be used for the prepared spell. Once the Mana Cost is accumulated, you can cast the spell or you can delay casting the prepared spell for a number of rounds equal to your Focus Characteristic. If you have not cast the prepared spell before the last round that you can delay, the prepared mana returns to your Pool and you lose 10 mana.",
+                    "While delayed, the prepared mana is not subject to losing concentration from damage and the prepared spell can be cast when you have the appropriate action. Each round you will still have to perform the Maintain Mana Action on your turn since the mana you hold is still unstable. Additionally, you do not have to take the Accumulate for a Prepared Spell Intention with the same spell and options since the spell is already fully prepared. You can declare any other Magic Intention, even starting another Prepared Spell.",
+                    "If you have prepared mana from the previous round and do not take the Accumulate for a Prepared Spell Intention with the same spell and options, your prepared mana will return to your Pool before rolling Initiative. Due to the stress of the mana returning without a proper outlet, you lose 10 mana from your Pool.",
+                    "If you have a mass of mana from the previous round, when you declare the Accumulate for a Prepared Spell you can convert that mass of mana into prepared mana. Any excess returns to your Pool."
+                ],
+                "type": "entries"
+            },
+            {
+                "name": "Magic Intention: Transfer Mana",
+                "entries": [
+                    "When you declare this Intention, as a Swift Action you can push an amount of mana up to your Mana Accumulation from your Pool to that of another. This transference requires you to be in direct contact with the creature or object with a Mana Pool. You can transfer mana to several different targets as long as the total mana transferred out of your Pool in a round is less than or equal to your MA.",
+                    "If you are in contact with a Mana Battery, you can instead pull mana from it. Pulling and pushing mana both have a shared maximum per round equal to your MA.",
+                    {
+                        "type": "example",
+                        "entries": [
+                            "For Example, Ceil has an MA of 50. In a single round, she can push 20 mana to Balrog and pull 30 mana from her Mana Battery. She must be in contact with both Balrog and the Mana Battery at some point during the round. But since she took this Intention, she cannot take any other Magic Intentions and thus cannot cast a spell."
+                        ]                        
+                    }
+                ],
+                "type": "entries"
+            },
+            {
+                "name": "Magic Intention: Cast an Innate Spell",
+                "entries": [
+                    "When you declare this Intention, you gather an amount mana from the environment, called innate mana, in order to cast a spell, called an innate spell. The amount of innate mana you can pull from the environment is determined by your MA, but can also be modified by places with strong or weak ambient mana. You can then cast a single spell whose Mana Cost is no greater than that innate mana.",
+                    "Innate mana is very limited in its use due to its raw nature. You are completely unable to accumulate or store it, each round you only have access to what your MA and the environment allow. Even if the amount of innate mana is enough to cast two different spells, only one can be cast. Innate mana cannot be absorbed into your Pool or a Mana Battery — that is what your Mana Recovery is for. You are able to maintain an innate spell, but while doing so you cannot cast another innate spell since the innate mana is already being used.",
+                    {
+                        "type":"table-index",
+                        "index":"MAGIC40"
+                    }
+                ],
+                "type": "entries"
+            }
+        ]
+    },
+    {
+        "name": "Conjure",
+        "cost": "Complete AP",
+        "entries": [
+            "TODO",
+            {
+                "name": "Conjure Intention: Summon",
+                "entries": [
+                    "TODO summon"
+                ],
+                "type": "entries"
+            },
+            {
+                "name": "Conjure Intention: Control",
+                "entries": [
+                    "TODO control"
+                ],
+                "type": "entries"
+            },
+            {
+                "name": "Conjure Intention: Banish",
+                "entries": [
+                    "TODO banish"
+                ],
+                "type": "entries"
+            },
+            {
+                "name": "Conjure Intention: Invoke Pact",
+                "entries": [
+                    "TODO pact magic"
+                ],
+                "type": "entries"
+            }
+        ]
+    },
+    {
+        "name": "Phenom",
+        "cost": "3 AP",
+        "entries": [
+            "The phenom intention allows you to manipulate the energies of reality to manifest phenoms. There are two Phenom Intention and each round you can only take one of them. The two options are Manifest Phenom and Concentrate on Manifesting.",
+            {
+                "name": "Phenom Intention: Manifest Phenom",
+                "entries": [
+                    "When you declare this intention, you can manifest one or more phenom this round. In order to manifest a chosen phenom, you make a Difficulty Check using your Phenom Potential with the proper action. Then compare the final roll to the phenoms degrees. You manifest the highest degree that you have mastered and your roll matches or beats.","If you wish to manifest more than one phenom in a round, you can chose to hold back some of your natural Potential, effectively splitting it between phenom. You must use at least one point for each phenom you manifest.",
+                    {
+                        "type": "example",
+                        "entries": [
+                            "For example, Sarah wishes to manifest two Immolation phenoms this round with her Phenom Potential of 5. She choses to split her potential to manifest one Immolation with 2 and a the other with 3 Phenom Potential. Since she has a +2 to her Potential Roll to manifest Immolation (due to permanent PP spending), the final number added to the roll is 4 and 5."
+                        ]
+                    }
+                ],
+                "type": "entries"
+            },
+            {
+                "name": "Phenom Intention: Concentrate on Manifesting",
+                "entries": [
+                    "When you declare this intention, you must also declare a phenom. You then focus on manifesting that phenom. Next round when you take the Manifest Phenom, you gain a +1 bonus the first time you try to manifest the chosen phenom that round. If you take this intention for three rounds in a row, you gain a +2 bonus. Five rounds will grant you a +3 bonus. Ten rounds will grant +4 bonus. ",
+                    "While concentrating, if you take damage or become distracted by some other means, you might lose any gathered concentration."
+                ],
+                "type": "entries"
+            }
+        ]
+    }
+]
