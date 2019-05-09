@@ -11,6 +11,9 @@ entries:
     - title: Introduction
       url: /rule_general_intro.html
       output: web
+    - title: Rolling Dice
+      url: /rule_general_dice.html
+      output: web
 
   - title: Character Creation
     output: web
@@ -54,6 +57,37 @@ entries:
       output: web
     - title: Trait
       url: /rule_gameplay_trait.html
+      output: web
+
+  - title: Skill
+    output: web
+    folderitems:
+    - title: Introduction
+      url: /rule_skill_intro.html
+      output: web
+    - title: Exertion
+      url: /rule_skill_exertion.html
+      output: web
+    - title: Vigor
+      url: /rule_skill_vigor.html
+      output: web
+    - title: Perception
+      url: /rule_skill_perception.html
+      output: web
+    - title: Subterfuge
+      url: /rule_skill_subterfuge.html
+      output: web
+    - title: Social
+      url: /rule_skill_social.html
+      output: web
+    - title: Intellectual
+      url: /rule_skill_intellectual.html
+      output: web
+    - title: Creative
+      url: /rule_skill_creative.html
+      output: web
+    - title: Ki and Trade
+      url: /rule_skill_other.html
       output: web
 
   - title: Combat

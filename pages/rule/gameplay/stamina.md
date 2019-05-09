@@ -54,7 +54,7 @@ In intense situations, where you have been nearly defeated, you can spend stamin
 Once this is used, it cannot be used again until at least two weeks of downtime have passed.
 
 ### Reserve Power
-You can spend stamina to quickly restore some of your power. In order to use this, your Life Points must be less than half your maximum or you must be in a deadly situation that could be prevented by gain the points from this feature. As a swift action, you can spend 20 stamina points to regain half of your total ki, mana, or PP.
+You can spend stamina to quickly restore some of your power. In order to use this, your Life Points must be less than half your maximum or you must be in a deadly situation that could be prevented by gaining the points from this feature. As a swift action, you can spend 20 stamina points to regain half of your total ki, mana, or PP.
 
 Once this is used, it cannot be used again until at least two weeks of downtime have passed.
 
@@ -64,13 +64,13 @@ Stamina is lost when you exert yourself over a long period of time.
 ### Marching
 Moving a great distance can be exhausting. Below is how quickly you lose stamina points while moving at different paces. If you are riding a creature, you lose stamina at a fourth of that rate due to discomfort. If you are traveling in a comfortable position, you do not lose any stamina from travel.
 
-**Walking**: this is usually about 3 miles per hour. You lose 1 stamina point every 6 hours.
+**Walking**: This is usually about 3 miles per hour. You lose 1 stamina point every 6 hours.
 
-**Marching**: this is a fast but steady paced walking speed at about 5 miles per hour. You lose 1 stamina point every 2 hours (3 points per 6 hours).
+**Marching**: This is a fast but steady paced walking speed at about 5 miles per hour. You lose 1 stamina point every 2 hours (3 points per 6 hours).
 
-**Running**: you are considered to be running when you are moving a number of feet each round greater than your Movement Value minus 2. You lose 1 stamina point every ten minutes you move at this speed. You can add five minutes to the rate at which you lose stamina for every 4 points you have in Exertion.
+**Running**: You are considered to be running when you are moving a number of feet each round above your movement distance and less than your run distance. You lose 1 stamina point every ten minutes you move at this speed. You can add five minutes to the rate at which you lose stamina for every 4 points you have in the athletics skill.
 
-**Sprinting**: you are considered to be sprinting when you move your maximum Movement Value in a round. You lose 1 stamina point every minute you move at this speed. You can add 30 seconds to the rate at which you lose stamina for every 4 points you have in Exertion.
+**Sprinting**: You are considered to be sprinting when you are moving a number of feet each round above your run distance , maximum of your Sprint distance. You lose 1 stamina point every minute you move at this speed. You can add 30 seconds to the rate at which you lose stamina for every 4 points you have in the athletics skill.
 
 ### Other Stamina Uses
-Things likes climbing, jumping, breaking, or even researching might require stamina expenses. The GM can require using stamina to perform any action over a long period of time.
+Things likes climbing, jumping, smashing, or even researching might require stamina expenses. The GM can require using stamina to perform any action over a long period of time.

@@ -21,9 +21,9 @@ There are three types of actions that you can perform each round: Active, Reacti
 
 When it is your turn, you can perform Active Actions. If you have unused Active Actions, you can choose to delay your turn. While delayed, you can choose to take your turn after any other combatant. If you and another combatant are both delaying and all other combatants have taken their full turn, the combatant with the lowest Initiative must take the rest of their turn before the one with the higher Initiative. You can also chose to end your turn and not spend any of your remaining AP.
 
-You can perform Reactions when a certain condition is meet, even if it occurs in the middle of another combatants turn. The most common Reaction is called Counter is can be taken after your opponent fails to hit you with an attack. You can then perform the Attack Action, which is normally Active, as a Reaction.
+You can perform Reactions when a certain condition is meet, even if it occurs in the middle of another combatants turn. The most common Reaction is called Counter. It can be taken after your opponent fails to hit you with an attack. You can then perform the Attack Action, which is normally Active, as a Reaction.
 
-Swift Actions can be performed at anytime and does not require a triggering action, like Reaction. Swift Actions are things like Defending yourself or talking.
+Swift Actions can be performed at anytime and do not require a triggering action, like Reaction. Swift Actions are things like defending yourself or talking.
 
 Once everyone has taken all their Active Actions and no one has any other Swift Actions they want to take, move to the End Phase. The Action Phase lasts six seconds of in-game time.
 
