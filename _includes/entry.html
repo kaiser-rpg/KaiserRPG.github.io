@@ -28,13 +28,13 @@
                 </div>
             {% endif %}
         {% else %}
-            <p>{{entry | replace_regex: "spirit", "aaaa"}}</p>
+            <p>{{entry}}</p>
         {% endif %}
 {% elsif entries[0] %}
     {% for et in entries %}
         {% include entry.html entry=et level=include.level %}
     {% endfor %}
 {% else %}
-    {{entries | replace_regex: "spirit", "aaaa"}}
+    {{entries}}
 {% endif %}
 
