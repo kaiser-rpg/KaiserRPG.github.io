@@ -68,7 +68,7 @@ Medical treatment required as a result of a Critical cannot be resolved by a sim
 
 As always, creating an appropriately colorful description for Criticals is in the hands of the Game Master. If fighting occurs with creatures whose bodies are very different from those of humans, the GM might need to adjust the location of hits.
 
-TABLE critical location
+TABLE critical location Todo
 
 ### Vulnerable Points
 There are certain places on the body that are more vulnerable to Criticals than others. These vulnerable points are areas most sensitive to damage. If you receive a blow directed at a vulnerable point, losing a mere 10% of your current Life Points is enough to cause a Critical.
@@ -77,7 +77,7 @@ For any human, the head and heart are vulnerable points – although animals and
 
 {% include example.html content="With 160 LP and in perfect health, Klaus needs to lose 80 LP from a single hit to cause a Critical and make a PhR Check. But an attack directed at his head only needs to cause 16 points before he is forced to make such a check because his head is a vulnerable point."%}
 
-## Damage Resistance
+## Damage Resistance [Todo: Move to different section]
 Very large animals and some supernatural creatures use a special means of defense called Damage Resistance. Rather than using either the Block or Dodge Skills to protect themselves, these creatures depend on their enormous capacity to absorb physical damage. For that reason, a number of slightly different rules are used for them in combat.
 
 First, these creatures do not lose AP when they suffer damage. However, they are unable to take advantage of a Counter, and therefore must wait until it is their turn to act during the round.
