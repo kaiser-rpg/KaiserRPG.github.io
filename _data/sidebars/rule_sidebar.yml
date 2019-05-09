@@ -11,6 +11,10 @@ entries:
     - title: Introduction
       url: /rule_general_intro.html
       output: web
+    - title: Rolling Dice
+      url: /rule_general_dice.html
+      output: web
+
 
   - title: Character Creation
     output: web
