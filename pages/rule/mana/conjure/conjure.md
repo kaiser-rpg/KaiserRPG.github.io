@@ -13,8 +13,8 @@ Mana has a curious property to allow you to use your spirit as a sort of portal 
 
 ### Failure
 
-{% include table-index.md index="MAGIC72" %}
+{% include table-index.html index="MAGIC72" %}
 
-{% include table-index.md index="MAGIC73" %}
+{% include table-index.html index="MAGIC73" %}
 
-{% include table-index.md index="MAGIC74" %}
+{% include table-index.html index="MAGIC74" %}

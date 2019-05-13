@@ -9,7 +9,7 @@ As mentioned in the Conjuring Intention, you must perform a ritual to either sum
 
 The amount of time you spend on this ritual will modify your Difficulty Skill Check. Consult the table below to determine the penalty or bonus.
 
-{% include table-index.md index="MAGIC70" %}
+{% include table-index.html index="MAGIC70" %}
 
 
 ## Totem
