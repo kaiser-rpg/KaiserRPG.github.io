@@ -49,6 +49,12 @@ entries:
     - title: Life and Death
       url: /rule_gameplay_lifepoint.html
       output: web
+    - title: Movement Value
+      url: /rule_gameplay_move.html
+      output: web
+    - title: Size
+      url: /rule_gameplay_size.html
+      output: web
     - title: Stamina
       url: /rule_gameplay_stamina.html
       output: web
@@ -117,7 +123,29 @@ entries:
     - title: Damage
       url: /rule_combat_damage.html
       output: web
-    
+
+  - title: Actions
+    output: web
+    folderitems:
+    - title: Intentions
+      url: /rule_combat_intention.html
+      output: web
+    - title: Active Actions
+      url: /rule_combat_active.html
+      output: web
+    - title: Swift Actions
+      url: /rule_combat_swift.html
+      output: web
+    - title: Reactions
+      url: /rule_combat_reaction.html
+      output: web
+    - title: Using Skills
+      url: /rule_combat_skill.html
+      output: web
+    - title: Combat Maneuvers
+      url: /rule_combat_maneuver.html
+      output: web
+
   - title: Spirit
     output: web
     folderitems:
@@ -137,26 +165,19 @@ entries:
     - title: Spells
       url: /rule_magic_spell.html
       output: web
-    # - title: Common Mana and Spell Artifacts
-    #   url: /rule_magic_artifact.html
-    #   output: web
-
-  - title: Veil Conjuring
-    output: web
-    folderitems:
-    - title: Introduction
-      url: /rule_conjure_intro.html
-      output: web
     - title: Conjuring
       url: /rule_conjure_skill.html
       output: web
-    - title: Pact Magic
+    - title: Pacts
       url: /rule_conjure_pact.html
+      output: web
+    - title: Common Mana Artifacts
+      url: /rule_magic_artifact.html
       output: web
 
   - title: Phenom
     output: web
     folderitems:
     - title: Introduction
-      url: /rule_psychic_intro.html
+      url: /rule_phenom_intro.html
       output: web

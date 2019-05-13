@@ -48,6 +48,8 @@ As a Swift Action you can spend stamina to give yourself one of the below benefi
 
 **Increase Speed**: By spending 1 stamina, you increase your Movement Value by one point for a round. This can be done after taking the any of the Movement Actions, the extra movement is just added to how much movement you have left.
 
+**Increase Action**: By spending 1 stamina, you gain 1 AP. If you are Flat-footed, you are no longer since you have gained more AP but you do not regain unspent movement.
+
 ### Second Wind
 In intense situations, where you have been nearly defeated, you can spend stamina to gain a second wind. In order to use this, your Life Points must be less than half your maximum. As a swift action, you can spend 15 stamina points to regain half of your maximum LP. 
 
@@ -57,6 +59,9 @@ Once this is used, it cannot be used again until at least two weeks of downtime 
 You can spend stamina to quickly restore some of your power. In order to use this, your Life Points must be less than half your maximum or you must be in a deadly situation that could be prevented by gaining the points from this feature. As a swift action, you can spend 20 stamina points to regain half of your total ki, mana, or PP.
 
 Once this is used, it cannot be used again until at least two weeks of downtime have passed.
+
+### Hidden Power
+You can spend stamina to use a power that is hidden inside you. In order to use this, you Life Points must be less than half your maximum or you must be in a deadly situation that could be prevented by shortly having the hidden power. As a swift action, you can spend 10 stamina points to gain access to a power for 1 minute. Each additional stamina point spent gives you access to the power for an additional minute. The power you gain access to must be one that you will eventually purchase or have already spent some downtime learning. Powers that can be revealed this way are left up to the Game Master, but for example you could gain access to a high level spell in a path, use a spirit technique within a tree you have started, or manifest a phenom within a discipline mastered.
 
 ## Passive Stamina Use
 Stamina is lost when you exert yourself over a long period of time.

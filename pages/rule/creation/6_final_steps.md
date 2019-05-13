@@ -5,35 +5,16 @@ permalink: rule_creation_6_fill.html
 
 All that remains are a few final steps.
 
-### Derived Characteristics
-Once you have your Characteristics and Skills, you can calculate the derived characteristics.
-
-#### Movement Value
-Movement Value represents the maximum speed at which you can run. It is equivalent to the Agility Characteristic: if you have an Agility of 7, your Movement Value is also 7. 
-
-Todo movement value to move, run, Sprint distance.
-
-#### Size
-Size indicates your expected height and weight. To calculate it, add your Strength and Constitution Characteristics. 
-
-> For example, a character with an 8 and 7 in those Characteristics would have a size score of 15. 
-
-For a recommended height and weight of the character, consult the following table and choose a number between those given for the appropriate size.
-
-{% include table-index.html index = "GEN4" %}
-
-Your size is also used to determine how much food you must eat each day. A complete day of food requires you to consume an amount of nutrition equal to your size. Failure to do so can cause you to start losing stamina.
-
-### Innate Bonuses
+## Innate Bonuses
 As the result of your Race, Traits, and Class, some of your skills and abilities will improve without having to spend XP. These Innate Bonuses are added at 1st level and again at each level increment noted.
 
-#### Class Bonuses
+### Class Bonuses
 Each Class has an Innate Bonus for Life Points and Initiative. These are added each time you gain a level.
 
-#### Limitation to Attack, Block, Dodge Innate Bonuses
+### Limitation to Attack, Block, Dodge Innate Bonuses
 Some Classes and Traits grant an Innate Bonus of +1 every other level in Attack, Block, or Dodge Skills. Whereas improvement in other skills have no limits, the Innate Bonus increase for Attack, Block, and Dodge can never be greater than +5, that is to say, ten levels of Innate Bonuses. Even if you change Classes, this limit applies.
 
-### Life Points
+## Life Points
 Life Points (LP) represent the amount of damage you can suffer before dying or receiving a Critical.
 
 Your Final Life Point Value is based on Constitution. You start with 20 points and add your Constitution multiplied by ten. To this number you should add your Innate Bonus.
@@ -42,10 +23,10 @@ You can increase your Life Points by investing in Life Point Multiplies, the cos
 
 {% include equation.html eq = "Final LP = 20 + (Constitution × (10 + LP Mult. Purchased)) + Innate LP Bonus" %}
 
-### Initiative
+## Initiative
 The Base Initiative of a normal-sized character is always 10. To calculate the Final Initiative Value, add your Dexterity and Agility Modifiers. Finally, add your Innate Bonus or other bonuses from Traits or supernatural effects. This number will be modified each round depending on what you intend to do.
 
-### Presence and Resistance
+## Presence and Resistance
 Presence is the sum of all of your existential aspects – both physical and spiritual. You have an almost unlimited potential to develop your abilities; the more developed, the greater the Presence. Your Presence starts at 3 and increases by +1 every odd level.
 
 In Kaiser, there are five types of Resistance, each one protecting you against a different type of negative effect. Resistance values are calculated by adding your Presence to the applicable Modifier.
@@ -62,13 +43,13 @@ The five types of resistance are:
 
 **Mental Resistance (MR)**: Represents your control of internal forces, allowing you to resist mental attacks. Based on Willpower.
 
-### Primary and Secondary Groups
+## Primary and Secondary Groups
 Your knowledge and expertise in certain tasks are known as Skills. Each Skill has a number of points that represent the sum of your natural talent and training. These Skills are broken up into Primary and Secondary Groups. Skills in the Primary Groups are further divided into the Martial, Magic, and Psychic Groups. The Secondary Groups are also divided into Groups, things like Exertion, Intellectual, and Creative. More detail can be found in Chapter 4.
 
-#### Primary Groups
+### Primary Groups
 Primary Groups represent your basic faculties and are divided into three areas: Martial, Magic, and Psychic.
 
-##### Martial Group
+#### Martial Group
 These abilities encompass your skills in fighting with your physical body, sometimes enhanced by your spirit. fighting skills.  Martial Skills are the following:
 
 **Attack Skill**: This represents your ability to strike your opponent and deal damage. This skill depends on Dexterity. The first time you spend XP to increase your Attack Skill, you may choose a single weapon to become proficient with.
@@ -87,7 +68,7 @@ These abilities encompass your skills in fighting with your physical body, somet
 
 **Spirit Arts**: This represents your ability to use spiritual energy in physical ways. Ki, Chakra, and Ki Techniques are also included under Spirit Arts.
 
-##### Magic Group
+#### Magic Group
 Magic skills encompass both spells and summoning.
 
 **Mana**: This is a measure of your spirit's ability to cast many spells or summon forth great creatures.
@@ -110,7 +91,7 @@ Magic skills encompass both spells and summoning.
 
 **Meta Magic**: These are modifications to your magic or your spells.
 
-##### Psychic Group
+#### Psychic Group
 Psychic abilities cover everything related to the area of phenomonon in reality, known as phenom, and their uses.
 
 **Psychic Projection Skill**: This represents your capacity to target creatures or objects with your phenom. This skill depends upon your Perception.
@@ -121,13 +102,13 @@ Psychic abilities cover everything related to the area of phenomonon in reality,
 
 **Psychic Modules**: This represents your capacity to utilize phenom in new or more efficient ways.
 
-#### Secondary Groups
+### Secondary Groups
 Naturally, you possess much more complexity than simply being able to fight or cast spells. These are known as Secondary Skills and each one is part of a Secondary Group and is linked to a specific Characteristic. For example, the Acrobatics Skill is in the Exertion Group and depends upon your Agility, while Sciences fall under the Intellectual Group and depend upon Intelligence. A complete list of Secondary Skills can be found [here](todo).
 
-#### Calculating and Using Skills
+### Calculating and Using Skills
 To calculate your final Primary or Secondary Skill, add the Base Value (what you get by spending experience points) to the Modifier of the Characteristic tied to that Skill. Lastly, add any other special modifiers like Innate Bonuses from your Race and Class. The result will be the Final Skill Value, the number added to a Skill Check roll. 
 
-### Final Details
+## Final Details
 Now that you know all the basic things needed to create your character, you can fill in your character sheet. Keep in mind that the Races, Classes, and Traits Chapters will provide the remaining fine details.
 
 Below is a final check list of things you need to do to create your character:

@@ -1,1268 +1,2024 @@
 [
-    {
-        "title": "Experience Points at each Level",
-        "index": "GEN5",
-        "table": {
-            "type": "table",
-            "colLabels": [
-                "Level",
-                "Presence",
-                "Characteristic Increase",
-                "Total XP",
-                "20%",
-                "25%",
-                "40%",
-                "50%",
-                "60%"
-            ],
-            "colStyles": [
-                "col-2",
-                "col-2",
-                "col-3",
-                "col-2",
-                "col-1",
-                "col-1",
-                "col-1",
-                "col-1",
-                "col-1"
-            ],
-            "rows": [
-                [
-                    "1",
-                    "3",
-                    "",
-                    "60",
-                    "12",
-                    "15",
-                    "24",
-                    "30",
-                    "36"
-                ],
-                [
-                    "2",
-                    "3",
-                    "Characteristic +1",
-                    "70",
-                    "14",
-                    "17",
-                    "28",
-                    "35",
-                    "42"
-                ],
-                [
-                    "3",
-                    "4",
-                    "",
-                    "80",
-                    "16",
-                    "20",
-                    "32",
-                    "40",
-                    "48"
-                ],
-                [
-                    "4",
-                    "4",
-                    "Characteristic +1",
-                    "90",
-                    "18",
-                    "22",
-                    "36",
-                    "45",
-                    "54"
-                ],
-                [
-                    "5",
-                    "5",
-                    "",
-                    "100",
-                    "20",
-                    "25",
-                    "40",
-                    "50",
-                    "60"
-                ],
-                [
-                    "6",
-                    "5",
-                    "Characteristic +1",
-                    "110",
-                    "22",
-                    "27",
-                    "44",
-                    "55",
-                    "66"
-                ],
-                [
-                    "7",
-                    "6",
-                    "",
-                    "120",
-                    "24",
-                    "30",
-                    "48",
-                    "60",
-                    "72"
-                ],
-                [
-                    "8",
-                    "6",
-                    "Characteristic +1",
-                    "130",
-                    "26",
-                    "32",
-                    "52",
-                    "65",
-                    "78"
-                ],
-                [
-                    "9",
-                    "7",
-                    "",
-                    "140",
-                    "28",
-                    "35",
-                    "56",
-                    "70",
-                    "84"
-                ],
-                [
-                    "10",
-                    "7",
-                    "Characteristic +1",
-                    "150",
-                    "30",
-                    "37",
-                    "60",
-                    "75",
-                    "90"
-                ],
-                [
-                    "11",
-                    "8",
-                    "",
-                    "160",
-                    "32",
-                    "40",
-                    "64",
-                    "80",
-                    "96"
-                ],
-                [
-                    "12",
-                    "8",
-                    "Characteristic +1",
-                    "170",
-                    "34",
-                    "42",
-                    "68",
-                    "85",
-                    "102"
-                ],
-                [
-                    "13",
-                    "9",
-                    "",
-                    "180",
-                    "36",
-                    "45",
-                    "72",
-                    "90",
-                    "108"
-                ],
-                [
-                    "14",
-                    "9",
-                    "Characteristic +1",
-                    "190",
-                    "38",
-                    "47",
-                    "76",
-                    "95",
-                    "114"
-                ],
-                [
-                    "15",
-                    "10",
-                    "",
-                    "200",
-                    "40",
-                    "50",
-                    "80",
-                    "100",
-                    "120"
-                ],
-                [
-                    "16",
-                    "10",
-                    "Characteristic +1",
-                    "210",
-                    "42",
-                    "52",
-                    "84",
-                    "105",
-                    "126"
-                ],
-                [
-                    "17",
-                    "11",
-                    "",
-                    "220",
-                    "44",
-                    "55",
-                    "88",
-                    "110",
-                    "132"
-                ],
-                [
-                    "18",
-                    "11",
-                    "Characteristic +1",
-                    "230",
-                    "46",
-                    "57",
-                    "92",
-                    "115",
-                    "138"
-                ],
-                [
-                    "19",
-                    "12",
-                    "",
-                    "240",
-                    "48",
-                    "60",
-                    "96",
-                    "120",
-                    "144"
-                ],
-                [
-                    "20",
-                    "12",
-                    "Characteristic +1",
-                    "250",
-                    "50",
-                    "62",
-                    "100",
-                    "125",
-                    "150"
-                ]
-            ]
-        }
+	{
+		"title": "Multiple Attack Penalties",
+		"index": "ATK1",
+		"table": {
+			"type": "table",
+			"colLabels": [
+				"Number of Attacks",
+				"Penalty"
+			],
+			"colStyles": [
+				"col-3",
+				"col-3"
+			],
+			"rows": [
+				[
+					"1",
+					"No penalty"
+				],
+				[
+					"2",
+					"-2"
+				],
+				[
+					"3",
+					"-4"
+				],
+				[
+					"4",
+					"-6"
+				],
+				[
+					"5",
+					"-8"
+				],
+				[
+					"+1",
+					"-2 (cumulative)"
+				]
+			]
+		}
+	},
+	{
+		"title": "Directed Attack",
+		"index": "ATK2",
+		"table": {
+			"type": "table",
+			"colLabels": [
+				"Body Part",
+				"Penalty"
+			],
+			"colStyles": [
+				"col-3",
+				"col-3"
+			],
+			"rows": [
+				[
+					"Neck",
+					"-8"
+				],
+				[
+					"Head",
+					"-6"
+				],
+				[
+					"Elbow",
+					"-6"
+				],
+				[
+					"Heart",
+					"-6"
+				],
+				[
+					"Groin",
+					"-6"
+				],
+				[
+					"Foot",
+					"-5"
+				],
+				[
+					"Hand",
+					"-4"
+				],
+				[
+					"Knee",
+					"-4"
+				],
+				[
+					"Abdomen",
+					"-2"
+				],
+				[
+					"Arm",
+					"-2"
+				],
+				[
+					"Thigh",
+					"-2"
+				],
+				[
+					"Calf",
+					"-1"
+				],
+				[
+					"Torso",
+					"-1"
+				],
+				[
+					"Eye",
+					"-10"
+				],
+				[
+					"Wrist",
+					"-4"
+				],
+				[
+					"Shoulder",
+					"-3"
+				]
+			]
+		},
+		"postEntries": [
+			"This table only contains humanoid penalties."
+		]
+	},
+	{
+		"title": "Trapping",
+		"index": "ATK3",
+		"table": {
+			"type": "table",
+			"colLabels": [
+				"Degrees of Success",
+				"Result"
+			],
+			"colStyles": [
+				"col-3",
+				"col-3"
+			],
+			"rows": [
+				[
+					"1 to 2",
+					"Partially Restrained"
+				],
+				[
+					"3 to 10",
+					"Mostly Restrained"
+				],
+				[
+					"11+",
+					"Fully Restrained"
+				]
+			]
+		}
+	},
+	{
+		"title": "Multiple Defense Penalties",
+		"index": "DEF1",
+		"table": {
+			"type": "table",
+			"colLabels": [
+				"Number of Attacks",
+				"Penalty"
+			],
+			"colStyles": [
+				"col-3",
+				"col-3"
+			],
+			"rows": [
+				[
+					"1",
+					"No penalty"
+				],
+				[
+					"2",
+					"-2"
+				],
+				[
+					"3",
+					"-4"
+				],
+				[
+					"4",
+					"-6"
+				],
+				[
+					"5",
+					"-8"
+				],
+				[
+					"6",
+					"-10"
+				]
+			]
+		}
+	},
+	{
+		"title": "Fumble Result",
+		"index": "GEN1",
+		"table": {
+			"type": "table",
+			"colLabels": [
+				"Fumble Result",
+				"Difficulty Check",
+				"Opposed Check"
+			],
+			"colStyles": [
+				"col-2",
+				"col-5",
+				"col-5"
+			],
+			"rows": [
+				[
+					"2 to 5",
+					"The attempt simply does not work.",
+					"The die roll is 0. You can still add your skill value."
+				],
+				[
+					"6 to 11",
+					"The attempt has a negative effect on the character.",
+					"The die roll is a -5. You can still add your skill value. You cannot go below 0."
+				],
+				[
+					"12+",
+					"The attempt has a disastrous effect on the character.",
+					"The die roll is -10. You can still add your skill value. You cannot go below 0."
+				]
+			]
+		}
+	},
+	{
+		"title": "Fumble Chance",
+		"index": "GEN111",
+		"table": {
+			"type": "table",
+			"colLabels": [
+				"Fumble Degree",
+				"How to Fumble"
+			],
+			"colStyles": [
+				"col-3",
+				"col-7"
+			],
+			"rows": [
+				[
+					"-3",
+					"Fumble on five ones (must have D3 or higher)"
+				],
+				[
+					"-2",
+					"Fumble on four ones (must have D2 or higher)"
+				],
+				[
+					"-1",
+					"Fumble on three ones (must have D1 or higher)"
+				],
+				[
+					"0",
+					"Fumble on double 1"
+				],
+				[
+					"+1",
+					"Fumble on double 1, 2"
+				],
+				[
+					"+2",
+					"Fumble on double 1, 2, 3"
+				],
+				[
+					"+3",
+					"Fumble on double 1, 2, 3, 4"
+				],
+				[
+					"+4",
+					"Fumble on double 1, 2, 3, 4, 5"
+				],
+				[
+					"+5",
+					"Fumble on any double, cannot gain an Open Roll"
+				]
+			]
+		}
+	},
+	{
+		"title": "Characteristic Modifiers",
+		"index": "GEN2",
+		"table": {
+			"type": "table",
+			"colLabels": [
+				"Characteristic",
+				"Modifier"
+			],
+			"colStyles": [
+				"col-3",
+				"col-3"
+			],
+			"rows": [
+				[
+					"1",
+					"-3"
+				],
+				[
+					"2 - 3",
+					"-2"
+				],
+				[
+					"4",
+					"-1"
+				],
+				[
+					"5",
+					"0"
+				],
+				[
+					"6 - 7",
+					"+1"
+				],
+				[
+					"8 - 9",
+					"+2"
+				],
+				[
+					"10 - 12",
+					"+3"
+				],
+				[
+					"13 - 15",
+					"+4"
+				],
+				[
+					"16 - 19",
+					"+5"
+				],
+				[
+					"20",
+					"+6"
+				],
+				[
+					"21 - 22",
+					"+7"
+				],
+				[
+					"23 - 25",
+					"+8"
+				],
+				[
+					"26 - 29",
+					"+9"
+				],
+				[
+					"30",
+					"+10"
+				]
+			]
+		}
+	},
+	{
+		"title": "Healing",
+		"index": "GEN22",
+		"table": {
+			"type": "table",
+			"colLabels": [
+				"Regeneration Value",
+				"LP Recovered",
+				"Reducing Penalties",
+				"Physical Capabilities",
+				"Mystical Capabilities"
+			],
+			"colStyles": [
+				"col-1",
+				"col-1",
+				"col-1",
+				"col-5",
+				"col-5"
+			],
+			"rows": [
+				[
+					"2",
+					"10 per day",
+					"-1 per 6 days",
+					"-",
+					"-"
+				],
+				[
+					"3",
+					"15 per day",
+					"-1 per 5 days",
+					"-",
+					"-"
+				],
+				[
+					"4",
+					"20 per day",
+					"-1 per 4 days",
+					"-",
+					"-"
+				],
+				[
+					"5",
+					"25 per day",
+					"-1 per 2 days",
+					"You do not sustain scars from physical injury.",
+					"You do not sustain scars from physical injury."
+				],
+				[
+					"6",
+					"30 per day",
+					"-1 per day",
+					"-",
+					"-"
+				],
+				[
+					"7",
+					"40 per day",
+					"-2 per day",
+					"-",
+					"-"
+				],
+				[
+					"8",
+					"50 per day",
+					"-3 per day",
+					"-",
+					"-"
+				],
+				[
+					"9",
+					"60 per day",
+					"-4 per day",
+					"-",
+					"-"
+				],
+				[
+					"10",
+					"70 per day",
+					"-5 per day",
+					"You do not suffer the effects of Bleeding Out. You body is able to clot the wound quickly.",
+					"You do not suffer the effects of Bleeding Out. You wounds are sealed by mystical energies."
+				],
+				[
+					"11",
+					"80 per day",
+					"-6 per day",
+					"-",
+					"-"
+				],
+				[
+					"12",
+					"90 per day",
+					"-7 per day",
+					"You can use an amputated limb that has been placed on the stump after leaving it there for a week.",
+					"-"
+				],
+				[
+					"13",
+					"100 per day",
+					"-8 per day",
+					"As above, but within five days.",
+					"-"
+				],
+				[
+					"14",
+					"125 per day",
+					"-9 per day",
+					"As above, but within three days.",
+					"-"
+				],
+				[
+					"15",
+					"150 per day",
+					"-10 per day",
+					"As above, but within one day. You only need to consume half the nutrition to restore stamina.",
+					"You only need to consume half the nutrition to restore stamina."
+				],
+				[
+					"16",
+					"175 per day",
+					"-15 per day",
+					"As above, but within one hour.",
+					"-"
+				],
+				[
+					"17",
+					"200 per day",
+					"-20 per day",
+					"As above, but within one round.",
+					"-"
+				],
+				[
+					"18",
+					"250 per day",
+					"-25 per day",
+					"You automatically stabilize when you fall below zero LP.",
+					"You automatically stabilize when you fall below zero LP."
+				],
+				[
+					"19",
+					"300 per day",
+					"-30 per day",
+					"You do not need to sleep or eat.",
+					"You do not need to sleep or eat."
+				],
+				[
+					"20",
+					"500 per day",
+					"-35 per day",
+					"-",
+					"-"
+				],
+				[
+					"21",
+					"700 per day",
+					"-40 per day",
+					"You can regenerate one amputated limb within seven days, except for the head.",
+					"You can create a spectral limb as a swift action after losing any limb, except for the head. You can only have one spectral limb at a time."
+				],
+				[
+					"22",
+					"1000 per day",
+					"-50 per day",
+					"As above, but within five days.",
+					"As above, but a maximum of two spectral limbs."
+				],
+				[
+					"23",
+					"1 per minute",
+					"-75 per day",
+					"As above, but within three days.",
+					"As above, but a maximum of four spectral limbs."
+				],
+				[
+					"24",
+					"5 per minute",
+					"-100 per day",
+					"As above, but within one day.",
+					"As long as the soul is not taken beyond the veil, a new body will be created within 7 days even if the previous body is completely destroyed."
+				],
+				[
+					"25",
+					"1 per round",
+					"-150 per day",
+					"As above, but within one hour.",
+					"As above, but within five days."
+				],
+				[
+					"26",
+					"5 per round",
+					"-1 per round",
+					"As above, but you can also regenerate after being decapitated.",
+					"As above, but within three days."
+				],
+				[
+					"27",
+					"10 per round",
+					"-5 per round",
+					"Your body can regenerate from a single cell as long as you are not killed by curse damage. It takes six hours to completely regenerate this way.",
+					"As above, but within one day."
+				],
+				[
+					"28",
+					"25 per round",
+					"-10 per round",
+					"As above, but within three hours.",
+					"As above, but within one day."
+				],
+				[
+					"29",
+					"50 per round",
+					"-25 per round",
+					"As above, but within one hour.",
+					"As above, but within one hour."
+				],
+				[
+					"30",
+					"100 per round",
+					"All each round",
+					"You ignore the effect of Criticals caused by physical damage.",
+					"You ignore the effect of Criticals caused by supernatural damage."
+				]
+			]
+		},
+		"postEntries": [
+			"Regeneration of 21 or higher requires Nornir 35.",
+			"Regeneration of 25 or higher requires Nornir 40.",
+			"Regeneration of 29 or higher requires Nornir 45.",
+			"Regeneration of 30 or higher requires Nornir 50."
+		]
+	},
+	{
+		"title": "Size to Height and Weight Recommendations",
+		"index": "GEN4",
+		"table": {
+			"type": "table",
+			"colLabels": [
+				"Size",
+				"Height",
+				"Weight"
+			],
+			"colStyles": [
+				"col-2",
+				"col-4",
+				"col-4"
+			],
+			"rows": [
+				[
+					"2",
+					"8in. to 2ft.",
+					"10 to 30lbs."
+				],
+				[
+					"3",
+					"1ft. 4in. to 2ft. 8in.",
+					"20 to 45lbs."
+				],
+				[
+					"4",
+					"2ft. to 3ft. 4in.",
+					"30 to 60lbs."
+				],
+				[
+					"5",
+					"2ft. 8in. to 4ft.",
+					"40 to 75lbs."
+				],
+				[
+					"6",
+					"3ft. 4in. to 4ft. 8in.",
+					"50 to 90lbs."
+				],
+				[
+					"7",
+					"3ft. 8in. to 5ft.",
+					"60 to 110lbs."
+				],
+				[
+					"8",
+					"4ft. to 5ft. 4in.",
+					"75 to 130lbs."
+				],
+				[
+					"9",
+					"4ft. 4in. to 5ft. 8in.",
+					"90 to 160lbs."
+				],
+				[
+					"10",
+					"4ft. 8in. to 6ft.",
+					"105 to 190lbs."
+				],
+				[
+					"11",
+					"5ft. to 6ft. 4in.",
+					"120 to 230lbs."
+				],
+				[
+					"12",
+					"5ft. 4in. to 6ft. 8in.",
+					"135 to 270lbs."
+				],
+				[
+					"13",
+					"5ft. 8in. to 7ft.",
+					"140 to 320lbs."
+				],
+				[
+					"14",
+					"6ft. to 7ft. 4in.",
+					"145 to 370lbs."
+				],
+				[
+					"15",
+					"6ft. 2in. to 7ft. 8in.",
+					"150 to 430lbs."
+				],
+				[
+					"16",
+					"6ft. 4in. to 8ft.",
+					"155 to 490lbs."
+				],
+				[
+					"17",
+					"6ft. 6in. to 8ft. 4in.",
+					"160 to 560lbs."
+				],
+				[
+					"18",
+					"6ft. 8in. to 8ft. 8in.",
+					"180 to 630lbs."
+				],
+				[
+					"19",
+					"6ft. 9in. to 9ft.",
+					"200 to 710lbs."
+				],
+				[
+					"20",
+					"6ft. 10in. to 9ft. 4in.",
+					"220 to 790lbs."
+				],
+				[
+					"21",
+					"6ft. 11in. to 9ft. 8in.",
+					"240 to 880lbs."
+				],
+				[
+					"22",
+					"7ft. to 10ft.",
+					"260 to 970lbs."
+				]
+			]
+		}
+	},
+	{
+		"title": "Experience Points at each Level",
+		"index": "GEN5",
+		"table": {
+			"type": "table",
+			"colLabels": [
+				"Level",
+				"Presence",
+				"Characteristic Increase",
+				"Total XP",
+				"20%",
+				"25%",
+				"40%",
+				"50%",
+				"60%"
+			],
+			"colStyles": [
+				"col-2",
+				"col-2",
+				"col-3",
+				"col-2",
+				"col-1",
+				"col-1",
+				"col-1",
+				"col-1",
+				"col-1"
+			],
+			"rows": [
+				[
+					"1",
+					"3",
+					"",
+					"60",
+					"12",
+					"15",
+					"24",
+					"30",
+					"36"
+				],
+				[
+					"2",
+					"3",
+					"Characteristic +1",
+					"70",
+					"14",
+					"17",
+					"28",
+					"35",
+					"42"
+				],
+				[
+					"3",
+					"4",
+					"",
+					"80",
+					"16",
+					"20",
+					"32",
+					"40",
+					"48"
+				],
+				[
+					"4",
+					"4",
+					"Characteristic +1",
+					"90",
+					"18",
+					"22",
+					"36",
+					"45",
+					"54"
+				],
+				[
+					"5",
+					"5",
+					"",
+					"100",
+					"20",
+					"25",
+					"40",
+					"50",
+					"60"
+				],
+				[
+					"6",
+					"5",
+					"Characteristic +1",
+					"110",
+					"22",
+					"27",
+					"44",
+					"55",
+					"66"
+				],
+				[
+					"7",
+					"6",
+					"",
+					"120",
+					"24",
+					"30",
+					"48",
+					"60",
+					"72"
+				],
+				[
+					"8",
+					"6",
+					"Characteristic +1",
+					"130",
+					"26",
+					"32",
+					"52",
+					"65",
+					"78"
+				],
+				[
+					"9",
+					"7",
+					"",
+					"140",
+					"28",
+					"35",
+					"56",
+					"70",
+					"84"
+				],
+				[
+					"10",
+					"7",
+					"Characteristic +1",
+					"150",
+					"30",
+					"37",
+					"60",
+					"75",
+					"90"
+				],
+				[
+					"11",
+					"8",
+					"",
+					"160",
+					"32",
+					"40",
+					"64",
+					"80",
+					"96"
+				],
+				[
+					"12",
+					"8",
+					"Characteristic +1",
+					"170",
+					"34",
+					"42",
+					"68",
+					"85",
+					"102"
+				],
+				[
+					"13",
+					"9",
+					"",
+					"180",
+					"36",
+					"45",
+					"72",
+					"90",
+					"108"
+				],
+				[
+					"14",
+					"9",
+					"Characteristic +1",
+					"190",
+					"38",
+					"47",
+					"76",
+					"95",
+					"114"
+				],
+				[
+					"15",
+					"10",
+					"",
+					"200",
+					"40",
+					"50",
+					"80",
+					"100",
+					"120"
+				],
+				[
+					"16",
+					"10",
+					"Characteristic +1",
+					"210",
+					"42",
+					"52",
+					"84",
+					"105",
+					"126"
+				],
+				[
+					"17",
+					"11",
+					"",
+					"220",
+					"44",
+					"55",
+					"88",
+					"110",
+					"132"
+				],
+				[
+					"18",
+					"11",
+					"Characteristic +1",
+					"230",
+					"46",
+					"57",
+					"92",
+					"115",
+					"138"
+				],
+				[
+					"19",
+					"12",
+					"",
+					"240",
+					"48",
+					"60",
+					"96",
+					"120",
+					"144"
+				],
+				[
+					"20",
+					"12",
+					"Characteristic +1",
+					"250",
+					"50",
+					"62",
+					"100",
+					"125",
+					"150"
+				]
+			]
+		}
+	},
+	{
+		"title": "Characteristic Generation",
+		"index": "GEN8",
+		"table": {
+			"type": "table",
+			"colLabels": [
+				"Characteristic",
+				"Modifier",
+				"Cost"
+			],
+			"colStyles": [
+				"col-3",
+				"col-3",
+				"col-3"
+			],
+			"rows": [
+				[
+					"3",
+					"-2",
+					"1"
+				],
+				[
+					"4",
+					"-1",
+					"3"
+				],
+				[
+					"5",
+					"+0",
+					"5"
+				],
+				[
+					"6",
+					"+1",
+					"7"
+				],
+				[
+					"7",
+					"+1",
+					"8"
+				],
+				[
+					"8",
+					"+2",
+					"10"
+				],
+				[
+					"9",
+					"+2",
+					"11"
+				],
+				[
+					"10",
+					"+3",
+					"13"
+				]
+			]
+		}
+	},
+	{
+		"title": "Base Mana Accumulation",
+		"index": "MAGIC30",
+		"table": {
+			"type": "table",
+			"colLabels": [
+				"Focus",
+				"MA"
+			],
+			"colStyles": [
+				"col-2",
+				"col-2"
+			],
+			"rows": [
+				[
+					"0 to 4",
+					"0"
+				],
+				[
+					"5 to 7",
+					"5"
+				],
+				[
+					"8 to 11",
+					"10"
+				],
+				[
+					"12 to 14",
+					"15"
+				],
+				[
+					"15 to 18",
+					"20"
+				],
+				[
+					"19 to 21",
+					"25"
+				],
+				[
+					"22 to 24",
+					"30"
+				],
+				[
+					"25 to 28",
+					"35"
+				],
+				[
+					"29",
+					"40"
+				],
+				[
+					"30",
+					"50"
+				]
+			]
+		}
+	},
+	{
+		"title": "Innate Mana",
+		"index": "MAGIC40",
+		"table": {
+			"type": "table",
+			"colLabels": [
+				"MA",
+				"Innate Mana"
+			],
+			"colStyles": [
+				"col-2",
+				"col-2"
+			],
+			"rows": [
+				[
+					"0 to 10",
+					"0 mana"
+				],
+				[
+					"11 to 50",
+					"10 mana"
+				],
+				[
+					"51 to 70",
+					"20 mana"
+				],
+				[
+					"71 to 90",
+					"30 mana"
+				],
+				[
+					"91 to 110",
+					"40 mana"
+				],
+				[
+					"111 to 130",
+					"50 mana"
+				],
+				[
+					"131 to 150",
+					"60 mana"
+				],
+				[
+					"151 to 180",
+					"70 mana"
+				],
+				[
+					"181 to 210",
+					"80 mana"
+				],
+				[
+					"211 to 240",
+					"90 mana"
+				],
+				[
+					"241 to 270",
+					"100 mana"
+				],
+				[
+					"271 to 300",
+					"110 mana"
+				],
+				[
+					"for every 30 points after 300",
+					"+10 mana"
+				]
+			]
+		}
+	},
+	{
+		"title": "Magic Level",
+		"index": "MAGIC45",
+		"table": {
+			"type": "table",
+			"colLabels": [
+				"Intelligence",
+				"Maximum Magic Level"
+			],
+			"colStyles": [
+				"col-5",
+				"col-7"
+			],
+			"rows": [
+				[
+					"1 to 5",
+					"0"
+				],
+				[
+					"6",
+					"10"
+				]
+			]
+		}
+	},
+	{
+		"title": "Magic Projection Maximum Range",
+		"index": "MAGIC50",
+		"table": {
+			"type": "table",
+			"colLabels": [
+				"Magic Projection",
+				"Maximum Range"
+			],
+			"colStyles": [
+				"col-2",
+				"col-2"
+			],
+			"rows": [
+				[
+					"0",
+					"Spell requires contact to take effect."
+				],
+				[
+					"4",
+					"20 feet"
+				],
+				[
+					"8",
+					"60 feet"
+				],
+				[
+					"12",
+					"180 feet"
+				],
+				[
+					"16",
+					"500 feet"
+				],
+				[
+					"20",
+					"1,500 feet"
+				],
+				[
+					"24",
+					"3,000 feet"
+				],
+				[
+					"28",
+					"6,000 feet"
+				],
+				[
+					"32",
+					"10,000 feet"
+				],
+				[
+					"36",
+					"15,000 feet"
+				],
+				[
+					"40",
+					"30,000 feet"
+				],
+				[
+					"+4",
+					"+10,000 feet"
+				]
+			]
+		}
+	},
+	{
+		"title": "Choosing Spells",
+		"index": "MAGIC55",
+		"table": {
+			"type": "table",
+			"colLabels": [
+				"Spell Level",
+				"Magic Level Cost"
+			],
+			"colStyles": [
+				"col-6",
+				"col-6"
+			],
+			"rows": [
+				[
+					"1 to 10",
+					"2"
+				],
+				[
+					"11 to 20",
+					"4"
+				],
+				[
+					"21 to 30",
+					"6"
+				],
+				[
+					"31 to 40",
+					"8"
+				],
+				[
+					"41 to 50",
+					"10"
+				],
+				[
+					"51 to 60",
+					"12"
+				],
+				[
+					"61 to 70",
+					"14"
+				],
+				[
+					"71 to 80",
+					"16"
+				],
+				[
+					"81 to 90",
+					"20"
+				],
+				[
+					"91 to 100",
+					"30"
+				]
+			]
+		}
+	},
+	{
+		"title": "Power Collision",
+		"index": "MAGIC60",
+		"table": {
+			"type": "table",
+			"colLabels": [
+				"DoD",
+				"Effect"
+			],
+			"colStyles": [
+				"col-2",
+				"col-2"
+			],
+			"rows": [
+				[
+					"0 to 5",
+					"Both Powers cancel each other out."
+				],
+				[
+					"6 to 10",
+					"The Wining Power passes through the other; but its Base Damage is halved."
+				],
+				[
+					"11+",
+					"The Wining Power passes through the other completely."
+				]
+			]
+		}
     },
     {
-        "title": "Characteristic Modifiers",
-        "index": "GEN2",
-        "table": {
-            "type": "table",
-            "colLabels": [
-                "Characteristic",
-                "Modifier"
-            ],
-            "colStyles": [
-                "col-3",
-                "col-3"
-            ],
-            "rows": [
-                [
-                    "1",
-                    "-3"
-                ],
-                [
-                    "2 - 3",
-                    "-2"
-                ],
-                [
-                    "4",
-                    "-1"
-                ],
-                [
-                    "5",
-                    "0"
-                ],
-                [
-                    "6 - 7",
-                    "+1"
-                ],
-                [
-                    "8 - 9",
-                    "+2"
-                ],
-                [
-                    "10 - 12",
-                    "+3"
-                ],
-                [
-                    "13 - 15",
-                    "+4"
-                ],
-                [
-                    "16 - 19",
-                    "+5"
-                ],
-                [
-                    "20",
-                    "+6"
-                ],
-                [
-                    "21 - 22",
-                    "+7"
-                ],
-                [
-                    "23 - 25",
-                    "+8"
-                ],
-                [
-                    "26 - 29",
-                    "+9"
-                ],
-                [
-                    "30",
-                    "+10"
-                ]
-            ]
-        }
-    },
-    {
-        "title": "Fumble Result",
-        "index": "GEN1",
-        "table": {
-            "type": "table",
-            "colLabels": [
-                "Fumble Result",
-                "Difficulty Check",
-                "Opposed Check"
-            ],
-            "colStyles": [
-                "col-2",
-                "col-5",
-                "col-5"
-            ],
-            "rows": [
-                [
-                    "2 to 5",
-                    "The attempt simply does not work.",
-                    "The die roll is 0. You can still add your skill value."
-                ],
-                [
-                    "6 to 11",
-                    "The attempt has a negative effect on the character.",
-                    "The die roll is a -5. You can still add your skill value. You cannot go below 0."
-                ],
-                [
-                    "12+",
-                    "The attempt has a disastrous effect on the character.",
-                    "The die roll is -10. You can still add your skill value. You cannot go below 0."
-                ]
-            ]
-        }
-    },
-    {
-        "title": "Fumble Chance",
-        "index": "GEN111",
-        "table": {
-            "type": "table",
-            "colLabels": [
-                "Fumble Degree",
-                "How to Fumble"
-            ],
-            "colStyles": [
-                "col-3",
-                "col-7"
-            ],
-            "rows": [
-                [
-                    "-3",
-                    "Fumble on five ones (must have D3 or higher)"
-                ],
-                [
-                    "-2",
-                    "Fumble on four ones (must have D2 or higher)"
-                ],
-                [
-                    "-1",
-                    "Fumble on three ones (must have D1 or higher)"
-                ],
-                [
-                    "0",
-                    "Fumble on double 1"
-                ],
-                [
-                    "+1",
-                    "Fumble on double 1, 2"
-                ],
-                [
-                    "+2",
-                    "Fumble on double 1, 2, 3"
-                ],
-                [
-                    "+3",
-                    "Fumble on double 1, 2, 3, 4"
-                ],
-                [
-                    "+4",
-                    "Fumble on double 1, 2, 3, 4, 5"
-                ],
-                [
-                    "+5",
-                    "Fumble on any double, cannot gain an Open Roll"
-                ]
-            ]
-        }
-    },
-    {
-        "title": "Characteristic Generation",
-        "index": "GEN8",
-        "table": {
-            "type": "table",
-            "colLabels": [
-                "Characteristic",
-                "Modifier",
-                "Cost"
-            ],
-            "colStyles": [
-                "col-3",
-                "col-3",
-                "col-3"
-            ],
-            "rows": [
-                [
-                    "3",
-                    "-2",
-                    "1"
-                ],
-                [
-                    "4",
-                    "-1",
-                    "3"
-                ],
-                [
-                    "5",
-                    "+0",
-                    "5"
-                ],
-                [
-                    "6",
-                    "+1",
-                    "7"
-                ],
-                [
-                    "7",
-                    "+1",
-                    "8"
-                ],
-                [
-                    "8",
-                    "+2",
-                    "10"
-                ],
-                [
-                    "9",
-                    "+2",
-                    "11"
-                ],
-                [
-                    "10",
-                    "+3",
-                    "13"
-                ]
-            ]
-        }
-    },
-    {
-        "title": "Movement Value to Distance",
-        "index": "GEN3",
-        "table": {
-            "type": "table",
-            "colLabels": [
-                "Movement Value",
-                "Distance"
-            ],
-            "colStyles": [
-                "col-2",
-                "col-2"
-            ],
-            "rows": [
-                [
-                    "1",
-                    "5 ft."
-                ],
-                [
-                    "2",
-                    "10 ft."
-                ],
-                [
-                    "3",
-                    "15 ft."
-                ],
-                [
-                    "4",
-                    "20 ft."
-                ],
-                [
-                    "5",
-                    "25 ft."
-                ],
-                [
-                    "6",
-                    "30 ft."
-                ],
-                [
-                    "7",
-                    "35 ft."
-                ],
-                [
-                    "8",
-                    "40 ft."
-                ],
-                [
-                    "9",
-                    "45 ft."
-                ],
-                [
-                    "10",
-                    "50 ft."
-                ],
-                [
-                    "11",
-                    "60 ft."
-                ],
-                [
-                    "12",
-                    "70 ft."
-                ],
-                [
-                    "13",
-                    "80 ft. "
-                ],
-                [
-                    "14",
-                    "100 ft."
-                ],
-                [
-                    "15",
-                    "120 ft."
-                ],
-                [
-                    "16",
-                    "140 ft."
-                ],
-                [
-                    "17",
-                    "160 ft."
-                ],
-                [
-                    "18",
-                    "180 ft."
-                ],
-                [
-                    "19",
-                    "200 ft."
-                ],
-                [
-                    "20",
-                    "500 ft."
-                ],
-                [
-                    "21+",
-                    "+500 ft."
-                ]
-            ]
-        }
-    },
-    {
-        "title": "Size to Height and Weight Recommendations",
-        "index": "GEN4",
-        "table": {
-            "type": "table",
-            "colLabels": [
-                "Size",
-                "Height",
-                "Weight"
-            ],
-            "colStyles": [
-                "col-2",
-                "col-4",
-                "col-4"
-            ],
-            "rows": [
-                [
-                    "2",
-                    "8in. to 2ft.",
-                    "10 to 30lbs."
-                ],
-                [
-                    "3",
-                    "1ft. 4in. to 2ft. 8in.",
-                    "20 to 45lbs."
-                ],
-                [
-                    "4",
-                    "2ft. to 3ft. 4in.",
-                    "30 to 60lbs."
-                ],
-                [
-                    "5",
-                    "2ft. 8in. to 4ft.",
-                    "40 to 75lbs."
-                ],
-                [
-                    "6",
-                    "3ft. 4in. to 4ft. 8in.",
-                    "50 to 90lbs."
-                ],
-                [
-                    "7",
-                    "3ft. 8in. to 5ft.",
-                    "60 to 110lbs."
-                ],
-                [
-                    "8",
-                    "4ft. to 5ft. 4in.",
-                    "75 to 130lbs."
-                ],
-                [
-                    "9",
-                    "4ft. 4in. to 5ft. 8in.",
-                    "90 to 160lbs."
-                ],
-                [
-                    "10",
-                    "4ft. 8in. to 6ft.",
-                    "105 to 190lbs."
-                ],
-                [
-                    "11",
-                    "5ft. to 6ft. 4in.",
-                    "120 to 230lbs."
-                ],
-                [
-                    "12",
-                    "5ft. 4in. to 6ft. 8in.",
-                    "135 to 270lbs."
+		"title": "Ritual Time",
+		"index": "MAGIC70",
+		"table": {
+			"type": "table",
+			"colLabels": [
+				"Time Spent",
+				"Bonus"
+			],
+			"colStyles": [
+				"col-8",
+				"col-4"
+			],
+			"rows": [
+				[
+					"Same round",
+					"-15"
+				],
+				[
+					"1 round",
+					"-10"
                 ],
                 [
-                    "13",
-                    "5ft. 8in. to 7ft.",
-                    "140 to 320lbs."
+					"2 rounds",
+					"-5"
                 ],
-                [
-                    "14",
-                    "6ft. to 7ft. 4in.",
-                    "145 to 370lbs."
-                ],
-                [
-                    "15",
-                    "6ft. 2in. to 7ft. 8in.",
-                    "150 to 430lbs."
-                ],
-                [
-                    "16",
-                    "6ft. 4in. to 8ft.",
-                    "155 to 490lbs."
-                ],
-                [
-                    "17",
-                    "6ft. 6in. to 8ft. 4in.",
-                    "160 to 560lbs."
-                ],
-                [
-                    "18",
-                    "6ft. 8in. to 8ft. 8in.",
-                    "180 to 630lbs."
-                ],
-                [
-                    "19",
-                    "6ft. 9in. to 9ft.",
-                    "200 to 710lbs."
-                ],
-                [
-                    "20",
-                    "6ft. 10in. to 9ft. 4in.",
-                    "220 to 790lbs."
-                ],
-                [
-                    "21",
-                    "6ft. 11in. to 9ft. 8in.",
-                    "240 to 880lbs."
-                ],
-                [
-                    "22",
-                    "7ft. to 10ft.",
-                    "260 to 970lbs."
-                ]
-            ]
-        }
-    },
-    {
-        "title": "Healing",
-        "index": "GEN22",
-        "table": {
-            "type": "table",
-            "colLabels": [
-                "Regeneration Value",
-                "LP Recovered",
-                "Reducing Penalties",
-                "Physical Capabilities",
-                "Mystical Capabilities"
-            ],
-            "colStyles": [
-                "col-1",
-                "col-1",
-                "col-1",
-                "col-5",
-                "col-5"
-            ],
-            "rows": [
-                [
-                    "2",
-                    "10 per day",
-                    "-1 per 6 days",
-                    "-",
-                    "-"
-                ],
-                [
-                    "3",
-                    "15 per day",
-                    "-1 per 5 days",
-                    "-",
-                    "-"
-                ],
-                [
-                    "4",
-                    "20 per day",
-                    "-1 per 4 days",
-                    "-",
-                    "-"
-                ],
-                [
-                    "5",
-                    "25 per day",
-                    "-1 per 2 days",
-                    "You do not sustain scars from physical injury.",
-                    "You do not sustain scars from physical injury."
-                ],
-                [
-                    "6",
-                    "30 per day",
-                    "-1 per day",
-                    "-",
-                    "-"
-                ],
-                [
-                    "7",
-                    "40 per day",
-                    "-2 per day",
-                    "-",
-                    "-"
-                ],
-                [
-                    "8",
-                    "50 per day",
-                    "-3 per day",
-                    "-",
-                    "-"
-                ],
-                [
-                    "9",
-                    "60 per day",
-                    "-4 per day",
-                    "-",
-                    "-"
-                ],
-                [
-                    "10",
-                    "70 per day",
-                    "-5 per day",
-                    "You do not suffer the effects of Bleeding Out. You body is able to clot the wound quickly.",
-                    "You do not suffer the effects of Bleeding Out. You wounds are sealed by mystical energies."
-                ],
-                [
-                    "11",
-                    "80 per day",
-                    "-6 per day",
-                    "-",
-                    "-"
-                ],
-                [
-                    "12",
-                    "90 per day",
-                    "-7 per day",
-                    "You can use an amputated limb that has been placed on the stump after leaving it there for a week.",
-                    "-"
-                ],
-                [
-                    "13",
-                    "100 per day",
-                    "-8 per day",
-                    "As above, but within five days.",
-                    "-"
-                ],
-                [
-                    "14",
-                    "125 per day",
-                    "-9 per day",
-                    "As above, but within three days.",
-                    "-"
+				[
+					"3 rounds",
+					"-1"
                 ],
                 [
-                    "15",
-                    "150 per day",
-                    "-10 per day",
-                    "As above, but within one day. You only need to consume half the nutrition to restore stamina.",
-                    "You only need to consume half the nutrition to restore stamina."
+					"5 rounds",
+					"+0"
                 ],
                 [
-                    "16",
-                    "175 per day",
-                    "-15 per day",
-                    "As above, but within one hour.",
-                    "-"
+					"1 minute (10 rounds)",
+					"+1"
                 ],
                 [
-                    "17",
-                    "200 per day",
-                    "-20 per day",
-                    "As above, but within one round.",
-                    "-"
+					"5 minutes",
+					"+2"
                 ],
                 [
-                    "18",
-                    "250 per day",
-                    "-25 per day",
-                    "You automatically stabilize when you fall below zero LP.",
-                    "You automatically stabilize when you fall below zero LP."
+					"15 minutes",
+					"+3"
                 ],
                 [
-                    "19",
-                    "300 per day",
-                    "-30 per day",
-                    "You do not need to sleep or eat.",
-                    "You do not need to sleep or eat."
+					"1 hour",
+					"+4"
                 ],
                 [
-                    "20",
-                    "500 per day",
-                    "-35 per day",
-                    "-",
-                    "-"
+					"3 hours",
+					"+5"
                 ],
                 [
-                    "21",
-                    "700 per day",
-                    "-40 per day",
-                    "You can regenerate one amputated limb within seven days, except for the head.",
-                    "You can create a spectral limb as a swift action after losing any limb, except for the head. You can only have one spectral limb at a time."
+					"6 hours",
+					"+6"
                 ],
                 [
-                    "22",
-                    "1000 per day",
-                    "-50 per day",
-                    "As above, but within five days.",
-                    "As above, but a maximum of two spectral limbs."
+					"12 hours",
+					"+7"
                 ],
                 [
-                    "23",
-                    "1 per minute",
-                    "-75 per day",
-                    "As above, but within three days.",
-                    "As above, but a maximum of four spectral limbs."
+					"1 day",
+					"+8"
                 ],
                 [
-                    "24",
-                    "5 per minute",
-                    "-100 per day",
-                    "As above, but within one day.",
-                    "As long as the soul is not taken beyond the veil, a new body will be created within 7 days even if the previous body is completely destroyed."
+					"1 week",
+					"+10"
                 ],
                 [
-                    "25",
-                    "1 per round",
-                    "-150 per day",
-                    "As above, but within one hour.",
-                    "As above, but within five days."
+					"1 month",
+					"+12"
                 ],
                 [
-                    "26",
-                    "5 per round",
-                    "-1 per round",
-                    "As above, but you can also regenerate after being decapitated.",
-                    "As above, but within three days."
+					"6 months",
+					"+15"
                 ],
                 [
-                    "27",
-                    "10 per round",
-                    "-5 per round",
-                    "Your body can regenerate from a single cell as long as you are not killed by curse damage. It takes six hours to completely regenerate this way.",
-                    "As above, but within one day."
+					"1 year",
+					"+20"
                 ],
                 [
-                    "28",
-                    "25 per round",
-                    "-10 per round",
-                    "As above, but within three hours.",
-                    "As above, but within one day."
+					"5 years",
+					"+30"
                 ],
                 [
-                    "29",
-                    "50 per round",
-                    "-25 per round",
-                    "As above, but within one hour.",
-                    "As above, but within one hour."
+					"10 years",
+					"+40"
                 ],
                 [
-                    "30",
-                    "100 per round",
-                    "All each round",
-                    "You ignore the effect of Criticals caused by physical damage.",
-                    "You ignore the effect of Criticals caused by supernatural damage."
-                ]
-            ]
+					"50 years",
+					"+50"
+				]
+			]
         },
-        "postEntries":[
-            "Regeneration of 21 or higher requires Ontic 35.",
-            "Regeneration of 25 or higher requires Ontic 40.",
-            "Regeneration of 29 or higher requires Ontic 45.",
-            "Regeneration of 30 or higher requires Ontic 50."
-        ]
+        "postEntries": [
+			"You also cannot spent more than 12 hours each day on Conjuration. Rituals that take longer than 12 hours can be suspended for 12 hours to allow you to sleep."
+		]
     },
     {
-        "title": "Base Mana Accumulation",
-        "index": "MAGIC30",
-        "table": {
-            "type": "table",
-            "colLabels": [
-                "Focus",
-                "MA"
-            ],
-            "colStyles": [
-                "col-2",
-                "col-2"
-            ],
-            "rows": [
-                [
-                    "0 to 4",
-                    "0"
+		"title": "Totem Modifiers",
+		"index": "MAGIC71",
+		"table": {
+			"type": "table",
+			"colLabels": [
+				"Totem",
+				"Bonus"
+			],
+			"colStyles": [
+				"col-8",
+				"col-4"
+			],
+			"rows": [
+				[
+					"Totem contains the creature's true name",
+					"+8"
                 ],
                 [
-                    "5 to 7",
-                    "5"
+					"Totem contains the creature's legendary name",
+					"+3"
                 ],
                 [
-                    "8 to 11",
-                    "10"
+					"Totem contains the creature's common name",
+					"+2"
+				],
+				[
+					"Totem contains an object that belonged to the creature",
+					"+2"
                 ],
                 [
-                    "12 to 14",
-                    "15"
+					"Totem contains an object that the creature made",
+					"+1"
                 ],
                 [
-                    "15 to 18",
-                    "20"
+					"Totem contains a part of the exact creature",
+					"+5"
                 ],
                 [
-                    "19 to 21",
-                    "25"
+					"Totem contains a piece of the same species",
+					"+2"
                 ],
                 [
-                    "22 to 24",
-                    "30"
+					"Totem contains detailed knowledge of the creature",
+					"+3"
                 ],
                 [
-                    "25 to 28",
-                    "35"
+					"Totem contains a description of the creature",
+					"+1"
                 ],
                 [
-                    "29",
-                    "40"
+					"Totem contains the complete stories about the creature",
+					"+2"
                 ],
                 [
-                    "30",
-                    "50"
+					"Totem contains the incomplete stories about the creature",
+					"+1"
+                ],
+                [
+					"Totem's level is higher than the creatures",
+					"Bonus equal to half DoD"
+                ],
+                [
+					"Totem's level is less than the creatures",
+					"Penalty equal to DoD"
+                ],
+                [
+					"Totem for the same type of creature",
+					"+0"
+                ],
+				[
+					"Totem for a different type of creature",
+					"-5"
+                ],
+                [
+					"Un-attuned Totem",
+					"-5"
                 ]
-            ]
+			]
         }
     },
     {
-        "title": "Innate Mana",
-        "index": "MAGIC40",
-        "table": {
-            "type": "table",
-            "colLabels": [
-                "MA",
-                "Innate Mana"
-            ],
-            "colStyles": [
-                "col-2",
-                "col-2"
-            ],
-            "rows": [
-                [
-                    "0 to 10",
-                    "0 mana"
+		"title": "Failure to Summon",
+		"index": "MAGIC72",
+		"table": {
+			"type": "table",
+			"colLabels": [
+				"Degree of Failure",
+				"Result"
+			],
+			"colStyles": [
+				"col-3",
+				"col-9"
+			],
+			"rows": [
+				[
+					"1",
+					"Summoning has no effect, but you do not lose mana. You do not lose the ritual."
                 ],
                 [
-                    "11 to 50",
-                    "10 mana"
+					"2 to 3",
+					"Summoning has no effect, and you lose the mana it would have cost for a successful summon. You do not lose the ritual."
                 ],
                 [
-                    "51 to 70",
-                    "20 mana"
+					"4 to 5",
+					"Summoning has no effect, and you lose twice the mana it would have cost for a successful summon. You lose the ritual."
+				],
+				[
+					"6 to 8",
+					"The summoning has the opposite effect to what you desired. You summon a creature of similar level but opposite in nature. The summoned creature is immune to your conjuring abilities. The creature is sent back after five minutes. You lose twice the mana it would have cost for a successful summon. You lose the ritual."
                 ],
                 [
-                    "71 to 90",
-                    "30 mana"
+					"9 to 10",
+					"The summoning has the opposite effect to what you desired. You summon four creatures of similar level but opposite in nature. The summoned creatures are immune to your conjuring abilities. The creatures are sent back after an hour. You lose four times the mana it would have cost for a successful summon. You lose the ritual."
                 ],
                 [
-                    "91 to 110",
-                    "40 mana"
-                ],
-                [
-                    "111 to 130",
-                    "50 mana"
-                ],
-                [
-                    "131 to 150",
-                    "60 mana"
-                ],
-                [
-                    "151 to 180",
-                    "70 mana"
-                ],
-                [
-                    "181 to 210",
-                    "80 mana"
-                ],
-                [
-                    "211 to 240",
-                    "90 mana"
-                ],
-                [
-                    "241 to 270",
-                    "100 mana"
-                ],
-                [
-                    "271 to 300",
-                    "110 mana"
-                ],
-                [
-                    "for every 30 points after 300",
-                    "+10 mana"
+					"11 or greater",
+					"If the creature is not legendary, you suffer ten times your DoF Sacrifice Damage. If the creature being summoned is of legendary status, it can instead chose to cause you to be summoned in front of it. This can cause you to enter the Veil. Either way, you lose all your mana."
                 ]
-            ]
+			]
         }
     },
     {
-        "title": "Magic Level",
-        "index": "MAGIC45",
-        "table": {
-            "type": "table",
-            "colLabels": [
-                "Intelligence",
-                "Maximum Magic Level"
-            ],
-            "colStyles": [
-                "col-5",
-                "col-7"
-            ],
-            "rows": [
-                [
-                    "1 to 5",
-                    "0"
+		"title": "Failure to Control",
+		"index": "MAGIC72",
+		"table": {
+			"type": "table",
+			"colLabels": [
+				"Degree of Failure",
+				"Result"
+			],
+			"colStyles": [
+				"col-3",
+				"col-9"
+			],
+			"rows": [
+				[
+					"1",
+					"Control has no effect, but you do not lose mana. You do not lose the ritual."
                 ],
                 [
-                    "6",
-                    "10"
+					"2 to 3",
+					"Control has no effect, and you lose the mana it would have cost for a successful control. You do not lose the ritual."
+                ],
+                [
+					"4 to 5",
+					"Control has no effect, and you lose twice the mana it would have cost for a successful control. You lose the ritual."
+				],
+				[
+					"6 to 8",
+					"The control has no effect, and the creature is completely immune to your conjuring abilities for two weeks. You lose twice the mana it would have cost for a successful control. You lose the ritual."
+                ],
+                [
+					"9 to 10",
+					"The control is reversed, and the creature takes control of you. The creature can control you, and maintain that control, as if you were a creature being controlled. But, the mana used to maintain the control comes from your Mana Pool. You lose four times the mana it would have cost for a successful control. You lose the ritual."
+                ],
+                [
+					"11 or greater",
+					"Your spirit turned into a puppet that the creature you once tried to control dominates. The only way to break this control is if the creature's or your spirit return to the Beyond."
                 ]
-            ]
+			]
         }
     },
     {
-        "title": "Magic Projection Maximum Range",
-        "index": "MAGIC50",
-        "table": {
-            "type": "table",
-            "colLabels": [
-                "Magic Projection",
-                "Maximum Range"
-            ],
-            "colStyles": [
-                "col-2",
-                "col-2"
-            ],
-            "rows": [
-                [
-                    "0",
-                    "Spell requires contact to take effect."
+		"title": "Failure to Banish",
+		"index": "MAGIC73",
+		"table": {
+			"type": "table",
+			"colLabels": [
+				"Degree of Failure",
+				"Result"
+			],
+			"colStyles": [
+				"col-3",
+				"col-9"
+			],
+			"rows": [
+				[
+					"1",
+					"Banish has no effect, but you do not lose mana. You do not lose the ritual."
                 ],
                 [
-                    "4",
-                    "20 feet"
+					"2 to 3",
+					"Banish has no effect, and you lose the mana it would have cost for a successful banish. You do not lose the ritual."
                 ],
                 [
-                    "8",
-                    "60 feet"
+					"4 to 5",
+					"Banish has no effect, and you lose twice the mana it would have cost for a successful banish. You lose the ritual."
+				],
+				[
+					"6 to 8",
+					"The banish has no effect, and the creature is completely immune to your conjuring abilities for two weeks. You lose twice the mana it would have cost for a successful banish. You lose the ritual."
                 ],
                 [
-                    "12",
-                    "180 feet"
+					"9 to 10",
+					"The banishing has the opposite effect to what you desired. You summon a creature of similar level. The target creature and the summoned creature are immune to your conjuring abilities for two weeks. You lose four times the mana it would have cost for a successful summon. You lose the ritual."
                 ],
                 [
-                    "16",
-                    "500 feet"
-                ],
-                [
-                    "20",
-                    "1,500 feet"
-                ],
-                [
-                    "24",
-                    "3,000 feet"
-                ],
-                [
-                    "28",
-                    "6,000 feet"
-                ],
-                [
-                    "32",
-                    "10,000 feet"
-                ],
-                [
-                    "36",
-                    "15,000 feet"
-                ],
-                [
-                    "40",
-                    "30,000 feet"
-                ],
-                [
-                    "+4",
-                    "+10,000 feet"
+					"11 or greater",
+					"If the creature is not legendary, you suffer ten times your DoF Sacrifice Damage. If the creature being banished is of legendary status, it can instead chose to use you to summon a legion of lesser creatures. Being used as a portal causes you to enter the Veil. Either way, you lose all your mana."
                 ]
-            ]
+			]
         }
-    },
-    {
-        "title": "Choosing Spells",
-        "index": "MAGIC55",
-        "table": {
-            "type": "table",
-            "colLabels": [
-                "Spell Level",
-                "Magic Level Cost"
-            ],
-            "colStyles": [
-                "col-6",
-                "col-6"
-            ],
-            "rows": [
-                [
-                    "1 to 10",
-                    "2"
-                ],
-                [
-                    "11 to 20",
-                    "4"
-                ],
-                [
-                    "21 to 30",
-                    "6"
-                ],
-                [
-                    "31 to 40",
-                    "8"
-                ],
-                [
-                    "41 to 50",
-                    "10"
-                ],
-                [
-                    "51 to 60",
-                    "12"
-                ],
-                [
-                    "61 to 70",
-                    "14"
-                ],
-                [
-                    "71 to 80",
-                    "16"
-                ],
-                [
-                    "81 to 90",
-                    "20"
-                ],
-                [
-                    "91 to 100",
-                    "30"
-                ]
-            ]
-        }
-    },
-    {
-        "title": "Power Collision",
-        "index": "MAGIC60",
-        "table": {
-            "type": "table",
-            "colLabels": [
-                "DoD",
-                "Effect"
-            ],
-            "colStyles": [
-                "col-2",
-                "col-2"
-            ],
-            "rows": [
-                [
-                    "0 to 5",
-                    "Both Powers cancel each other out."
-                ],
-                [
-                    "6 to 10",
-                    "The Wining Power passes through the other; but its Base Damage is halved."
-                ],
-                [
-                    "11+",
-                    "The Wining Power passes through the other completely."
-                ]
-            ]
-        }
-    },
-    {
-        "title": "Exhaustion Penalties",
-        "index": "TER1",
-        "table": {
-            "type": "table",
-            "colLabels": [
-                "Stamina Points",
-                "All Action Penalty"
-            ],
-            "colStyles": [
-                "col-2",
-                "col-2"
-            ],
-            "rows": [
-                [
-                    "4",
-                    "-1"
-                ],
-                [
-                    "3",
-                    "-2"
-                ],
-                [
-                    "2",
-                    "-4"
-                ],
-                [
-                    "1",
-                    "-8"
-                ],
-                [
-                    "0",
-                    "-16"
-                ]
-            ]
-        }
-    }
+	},
+	{
+		"title": "Movement Value to Distance",
+		"index": "MOV1",
+		"table": {
+			"type": "table",
+			"colLabels": [
+				"Movement Value",
+				"Move",
+				"Run",
+				"Run (speed)",
+				"Sprint",
+				"Sprint (speed)"
+			],
+			"colStyles": [
+				"col-2",
+				"col-2",
+				"col-2",
+				"col-2",
+				"col-2",
+				"col-2"
+			],
+			"rows": [
+				[
+					"0",
+					"0",
+					"0",
+					"0",
+					"0",
+					"0"
+				],
+				[
+					"1",
+					"20 feet",
+					"30 feet",
+					"3 mph",
+					"40 feet",
+					"5 mph"
+				],
+				[
+					"2",
+					"25 feet",
+					"35 feet",
+					"4 mph",
+					"50 feet",
+					"6 mph"
+				],
+				[
+					"3",
+					"30 feet",
+					"40 feet",
+					"5 mph",
+					"60 feet",
+					"7 mph"
+				],
+				[
+					"4",
+					"35 feet",
+					"50 feet",
+					"6 mph",
+					"70 feet",
+					"8 mph"
+				],
+				[
+					"5",
+					"40 feet",
+					"60 feet",
+					"7 mph",
+					"80 feet",
+					"9 mph"
+				],
+				[
+					"6",
+					"55 feet",
+					"70 feet",
+					"8 mph",
+					"110 feet",
+					"13 mph"
+				],
+				[
+					"7",
+					"70 feet",
+					"80 feet",
+					"9 mph",
+					"140 feet",
+					"16 mph"
+				],
+				[
+					"8",
+					"85 feet",
+					"110 feet",
+					"13 mph",
+					"170 feet",
+					"19 mph"
+				],
+				[
+					"9",
+					"100 feet",
+					"140 feet",
+					"16 mph",
+					"200 feet",
+					"23 mph"
+				],
+				[
+					"10",
+					"125 feet",
+					"170 feet",
+					"19 mph",
+					"250 feet",
+					"28 mph"
+				],
+				[
+					"11",
+					"150 feet",
+					"200 feet",
+					"23 mph",
+					"300 feet",
+					"34 mph"
+				],
+				[
+					"12",
+					"175 feet",
+					"250 feet",
+					"28 mph",
+					"350 feet",
+					"40 mph"
+				],
+				[
+					"13",
+					"200 feet",
+					"300 feet",
+					"34 mph",
+					"400 feet",
+					"45 mph"
+				],
+				[
+					"14",
+					"250 feet",
+					"350 feet",
+					"40 mph",
+					"500 feet",
+					"57 mph"
+				],
+				[
+					"15",
+					"300 feet",
+					"400 feet",
+					"45 mph",
+					"600 feet",
+					"68 mph"
+				],
+				[
+					"16",
+					"375 feet",
+					"500 feet",
+					"57 mph",
+					"750 feet",
+					"85 mph"
+				],
+				[
+					"17",
+					"450 feet",
+					"600 feet",
+					"68 mph",
+					"900 feet",
+					"102 mph"
+				],
+				[
+					"18",
+					"525 feet",
+					"750 feet",
+					"85 mph",
+					"1,050 feet",
+					"119 mph"
+				],
+				[
+					"19",
+					"600 feet",
+					"900 feet",
+					"102 mph",
+					"1,200 feet",
+					"136 mph"
+				],
+				[
+					"20",
+					"700 feet",
+					"1,050 feet",
+					"119 mph",
+					"1,400 feet",
+					"159 mph"
+				],
+				[
+					"21",
+					"800 feet",
+					"1,200 feet",
+					"136 mph",
+					"1,600 feet",
+					"182 mph"
+				],
+				[
+					"22",
+					"900 feet",
+					"1,400 feet",
+					"159 mph",
+					"1,800 feet",
+					"205 mph"
+				],
+				[
+					"23",
+					"1,000 feet",
+					"1,600 feet",
+					"182 mph",
+					"2,000 feet",
+					"227 mph"
+				],
+				[
+					"24",
+					"1,150 feet",
+					"1,800 feet",
+					"205 mph",
+					"2,300 feet",
+					"261 mph"
+				],
+				[
+					"25",
+					"1,300 feet",
+					"2,000 feet",
+					"227 mph",
+					"2,600 feet",
+					"295 mph"
+				],
+				[
+					"26",
+					"1,450 feet",
+					"2,300 feet",
+					"261 mph",
+					"2,900 feet",
+					"330 mph"
+				],
+				[
+					"27",
+					"1,600 feet",
+					"2,600 feet",
+					"295 mph",
+					"3,200 feet",
+					"364 mph"
+				],
+				[
+					"28",
+					"1,750 feet",
+					"2,900 feet",
+					"330 mph",
+					"3,500 feet",
+					"398 mph"
+				],
+				[
+					"29",
+					"1,900 feet",
+					"3,200 feet",
+					"364 mph",
+					"3,800 feet",
+					"432 mph"
+				],
+				[
+					"30",
+					"2,100 feet",
+					"3,500 feet",
+					"398 mph",
+					"4,200 feet",
+					"477 mph"
+				],
+				[
+					"31",
+					"2,300 feet",
+					"3,800 feet",
+					"432 mph",
+					"4,600 feet",
+					"523 mph"
+				],
+				[
+					"32",
+					"2,500 feet",
+					"4,200 feet",
+					"477 mph",
+					"5,000 feet",
+					"568 mph"
+				],
+				[
+					"33",
+					"2,700 feet",
+					"4,600 feet",
+					"523 mph",
+					"5,400 feet",
+					"614 mph"
+				],
+				[
+					"34",
+					"3,000 feet",
+					"5,000 feet",
+					"568 mph",
+					"6,000 feet",
+					"682 mph"
+				],
+				[
+					"35",
+					"3,300 feet",
+					"5,400 feet",
+					"614 mph",
+					"6,600 feet",
+					"750 mph"
+				],
+				[
+					"36",
+					"3,600 feet",
+					"6,000 feet",
+					"682 mph",
+					"7,200 feet",
+					"818 mph"
+				],
+				[
+					"37",
+					"4,000 feet",
+					"6,600 feet",
+					"750 mph",
+					"8,000 feet",
+					"909 mph"
+				],
+				[
+					"38",
+					"4,500 feet",
+					"7,200 feet",
+					"818 mph",
+					"9,000 feet",
+					"1,023 mph"
+				],
+				[
+					"39",
+					"5,000 feet",
+					"8,000 feet",
+					"909 mph",
+					"10,000 feet",
+					"1,136 mph"
+				],
+				[
+					"40",
+					"6,000 feet",
+					"9,000 feet",
+					"1,023 mph",
+					"12,000 feet",
+					"1,364 mph"
+				]
+			]
+		},
+		"postEntries": [
+			"Movement of 10 or higher requires Inhuman",
+			"Movement of 20 or higher requires Zen",
+			"Movement of 30 or higher requires Nornir 35."
+		]
+	},
+	{
+		"title": "Exhaustion Penalties",
+		"index": "TER1",
+		"table": {
+			"type": "table",
+			"colLabels": [
+				"Stamina Points",
+				"All Action Penalty"
+			],
+			"colStyles": [
+				"col-2",
+				"col-2"
+			],
+			"rows": [
+				[
+					"4",
+					"-1"
+				],
+				[
+					"3",
+					"-2"
+				],
+				[
+					"2",
+					"-4"
+				],
+				[
+					"1",
+					"-8"
+				],
+				[
+					"0",
+					"-16"
+				]
+			]
+		}
+	}
 ]
