@@ -58,11 +58,15 @@ If this trait is on a weapon, you still must take the trapping maneuver, and spe
 If this trait is on a power, you instead make the trapping maneuver as part of the power activating and do not need to spend the AP, only using the rules presented in the maneuver.
 
 ### Reach
-The reach trait means that the object is designed to be used to perform the sweeping attack maneuver. If the trait has a number in parenthesis after it, then that value is how many additional targets can be hit in a single attack.
 
-If this trait is on a weapon, you still must take the trapping maneuver, and spend the AP.
+The reach trait means that the weapon is designed to be used to perform the sweeping attack maneuver with a greater area. If the trait has a number in parenthesis after it, then that value is how many feet away the object can hit a creature with the sweeping attack.
 
-If this trait is on a power, you instead make the sweeping attack maneuver as part of the power activating and do not need to spend the AP, only using the rules presented in the maneuver.
+### Sweeping
+The sweeping trait means that the object is designed to be used to perform the sweeping attack maneuver. The trait will have a number in parentheses after it, that value is how many targets you can be hit in a single sweeping attack.
+
+If this trait is on a weapon, you still must take the sweeping attck maneuver, and spend the AP.
+
+If this trait is on a power, you instead make the sweeping attack maneuver as part of the power activating and do not need to spend the AP, only using the rules presented in the maneuver. If the power does not also have the reach trait, then you can only hit creatures you would normally reach as per the sweeping attack maneuver.
 
 ### Charging
 The charging trait means that the object is designed to be effective when charging a target while mounted. Double the mounter creatures Strength Modifier is added to the Base Damage of an attack made while charging.

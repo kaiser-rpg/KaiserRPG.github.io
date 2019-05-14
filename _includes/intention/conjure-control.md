@@ -1,6 +1,6 @@
 #### Conjure Intention: Control
 
-When you wish to control a creature, you must have started a ritual devoted to it.
+Controlling a creature requires you to use a totem as part of a ritual. This totem can take many different forms but represents some form of knowledge or connection. It is possible to control a creature with a totem not affiliated with it, but you suffer a -5 penalty. Without any totem, it is completely impossible.
 
 The Game Master will take the level of the creature being controlled and consult the Conjuring Table to determined the Difficulty of the Skill Check and how much mana you must expend. The Skill Check is made before the mana is spent. Mana spent on controlling does not need to be accumulated since it is removed directly from your Mana Pool. The Game Master can keep the level of the creature hidden until the Skill Check is made.
 
@@ -8,4 +8,4 @@ If you gain at least 1 Degree of Success on the Difficulty Check, the creature m
 
 If you fail the Skill Check, compare your Degree of Failure with the Failed Conjuration Table.
 
-Once you have control, the creature does not entirely lose its free will, but it cannot refuse a command you give it. Commands are given through a spiritual connection so you and the creature do not have to be able to understand each other. But this connection is one way. You and the controlled creature always have an approximate knowledge of the distance and direction that separate you. Each round that you control the creature, you must spend the same amount of mana that it cost to control it. Once each hour or when you give it a command that goes against its nature, the creature can try to break free. This requires you to make a new Control Skill Check, with no modifier based on the ritual. If you ever absorb mana from the controlled creature, the control immediately ends. 
+Once you have control, the creature does not entirely lose its free will, but it cannot refuse a command you give it. Commands are given through a spiritual connection so you and the creature do not have to be able to understand each other. But this connection is one way. You and the controlled creature always have an approximate knowledge of the distance and direction that separate you. Each round that you control the creature, you must spend the same amount of mana that it cost to control it. Once each hour or when you give it a command that goes against its nature, the creature can try to break free. This requires you to make a new Control Skill Check, you apply the bonuses and penalties from the totem but not from the length the the ritual. If you ever command the creature to transfer mana, the control immediately ends. 

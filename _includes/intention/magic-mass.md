@@ -2,7 +2,7 @@
 
 When you declare this Intention, you accumulate mana from your Mana Pool equal to your MA. If you are unable to perform somatic or verbal components, your MA is halved, or quartered if you cannot perform either component. If you take no other Intention or Action this round, you can gain the benefit of your MA again at the end of the round, all modifiers apply.
 
-By accumulating a mass of mana, you have no clear goal for its expense. You simply pull the mana from your Pool into the world until you find a spell that is appropriate for the current situations. This mass of mana can be used to cast any number of spells in a single round as long as you have mana to spend. At the end of the round that you cast any spell with your mass of mana, all the remaining mana returns to your Pool.
+By accumulating a mass of mana, you have no clear goal for its expense. You simply pull the mana from your Pool into the world until you find a spell that is appropriate for the current situations. This mass of mana can be used to cast any number of spells in a single round as long as you have mana to spend. During the End Phase of the round that you cast any spell with your mass of mana, all the remaining mana returns to your Pool.
 
 If you have a mass of mana from the previous round and do not take the Accumulate a Mass of Mana Intention again, your mass of mana will return to your Pool before rolling Initiative. Due to the stress of the mana returning without a proper outlet, you lose 10 mana from your Pool. Alternatively, you can choose to transform the mass of mana into a prepared spell. See Accumulate for a Prepared Spell for more details.
 

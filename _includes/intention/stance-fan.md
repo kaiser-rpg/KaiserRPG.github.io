@@ -1,4 +1,4 @@
-#### Stance Intention: Defensive Fan
+#### Stance Intention: Defensive Fan {#defensive-fan}
 **Stance**: 0 AP
 
 When you declare this intention, you prepare yourself to intercept a great number of projectiles. While in this stance, you suffer a -4 penalty to your Defensive Rolls against projectiles. In return, defending against projectiles does not apply the rule for multiple Defense Actions. 

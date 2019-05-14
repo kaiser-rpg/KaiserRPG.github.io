@@ -1,7 +1,7 @@
 ### Stance
 **Intention**: 0+ AP
 
-The stance intention allows you to prepare yourself for certain circumstances in combat. You can only take one stance each round. Some of the stances also give you an Initiative Penalty.
+The stance intention allows you to prepare yourself for certain circumstances in combat. You can take any number of stances each round, but some will mention that they cannot be combined. Some of the stances also give you an Initiative Penalty.
 
 {% include intention/stance-absorb.md %}
 
