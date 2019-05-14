@@ -8,8 +8,8 @@ On the round that you are ready, the conjuration occurs at the End Phase. When t
 After using a conjure ability, you can chose to continue the ritual. You are not able to use the ritual to summon another creature, since the ritual is only for that exact creature, but you can use the ritual to attempt to control or banish it later.
 
 
-{% include intention/conjure-summon-f.md %}
+{% include intention/conjure-summon.md %}
 
-{% include intention/conjure-control-f.md %}
+{% include intention/conjure-control.md %}
 
-{% include intention/conjure-banish-f.md %}
+{% include intention/conjure-banish.md %}
