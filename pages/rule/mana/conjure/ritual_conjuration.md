@@ -15,6 +15,8 @@ The amount of time you spend on this ritual will modify your Difficulty Skill Ch
 ## Totem
 The most important part of any conjuring ritual is the totem. A totem is a complex object that represents a combination of knowledge and spiritual synergy with the creature to be conjured. Without any totem, it is impossible to perform any conjuration on a creature. 
 
+{% include table-index.html index="MAGIC71" %}
+
 ### Gaining a Totem
 Totems can be found or created during downtime. Once you possess a totem, you must spend six hours (one unit of downtime) per level of the totem to attune to it. Once fully attuned, you understand what type of creature the totem was designed for.
 

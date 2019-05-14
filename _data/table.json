@@ -1546,7 +1546,7 @@
     },
     {
 		"title": "Failure to Control",
-		"index": "MAGIC72",
+		"index": "MAGIC73",
 		"table": {
 			"type": "table",
 			"colLabels": [
@@ -1587,7 +1587,7 @@
     },
     {
 		"title": "Failure to Banish",
-		"index": "MAGIC73",
+		"index": "MAGIC74",
 		"table": {
 			"type": "table",
 			"colLabels": [
