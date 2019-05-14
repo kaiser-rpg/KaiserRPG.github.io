@@ -167,6 +167,8 @@ entries:
       output: web
     - title: Conjuring
       url: /rule_conjure_skill.html
+    - title: Ritual Totem
+      url: /rule_conjure_totem.html
       output: web
     - title: Pacts
       url: /rule_conjure_pact.html

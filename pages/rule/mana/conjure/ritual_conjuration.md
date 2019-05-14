@@ -1,6 +1,6 @@
 ---
-title: Conjuration Ritual
-permalink: rule_conjure_ritual.html
+title: Conjuration Totem
+permalink: rule_conjure_totem.html
 ---
 
 As mentioned in the Conjuring Intention, you must perform a ritual to either summon, control, or banish a creature from Beyond the Veil.
