@@ -1,30 +1,42 @@
 ---
-title: Conjuration Totem
-permalink: rule_conjure_totem.html
+title: Conjuration Ritual
+permalink: rule_conjure_ritual.html
 ---
 
-As mentioned in the Conjuring Intention, you must perform a ritual to either summon, control, or banish a creature from Beyond the Veil.
+Conjuring a creature from Beyond the Veil, be that summoning, controlling, or banishing, requires you to synchronize your spirit with theirs. This synchronization occurs during a ritual and requires time and resources to perform. Failure to synchronize before attempting a conjuring can have disastrous effects. When you first start the ritual, you must name what you want to conjure. This name could be a name in the literary sense or could be you pointing at it. 
 
-## Ritual Time
+The ritual is composed of two parts. First there is the totem which is a collection of knowledge about a creature or creatures. It is impossible to perform a conjuring ritual without at least some totem, but it does not have to match what you wish to conjure. The second component is time. Performing the ritual requires at least one complete round of chanting and gesturing with the totem. The longer you spend on the ritual, the better your chances. 
 
-The amount of time you spend on this ritual will modify your Difficulty Skill Check. Consult the table below to determine the penalty or bonus.
-
-{% include table-index.html index="MAGIC70" %}
-
-
-## Totem
-The most important part of any conjuring ritual is the totem. A totem is a complex object that represents a combination of knowledge and spiritual synergy with the creature to be conjured. Without any totem, it is impossible to perform any conjuration on a creature. 
+## Totem 
+A totem is a complex object that represents knowledge embedded into its essence. When a totem is created, it is keyed to certain aspects of a creature and to a certain level. These aspects and the bonus they grant is outlined in the table below. This list is not exhaustive so the Game Master should feel free to expand it.
 
 {% include table-index.html index="MAGIC71" %}
 
-### Gaining a Totem
-Totems can be found or created during downtime. Once you possess a totem, you must spend six hours (one unit of downtime) per level of the totem to attune to it. Once fully attuned, you understand what type of creature the totem was designed for.
+The shape of a totem is determined during creation. Common shapes you might find include keys, playing cards, dice, or books. While this embedded knowledge does not increase the presence of the object, many conjurers will protect their totems with powerful magic.
 
-A totem can take nearly any shape the crafter desiers. Common examples include cards, dolls, dice, and books. 
+{% include meta.html content="The modifiers a totem possesses do not need to be explicitly visible. A creature's name does not need to be inscribed on the key that is its totem in order to grant the +2 bonus. Any of the totem bonuses only need to be present during the totem's creation since the spirit of the totem absorbs that knowledge." %}
 
-When creating a totem, you must chose a level. If you are making a totem for a legendary creature, it must be the level of that creature (if that creature ever increases in level, so to does the totem). It costs you an amount of gold equal to the creatures level squared times 500. Specific creatures might have an additional cost or require a specific object when crafting it (such as the feather of a phonix for the Phonix King). Crafting the totem requires only time, so no skill checks. A totem can be upgraded or modified later.
+The exact process of creating a new totem, or copying an existing one is described in the Downtime activities.
 
-Each totem you possess will be synconized with a certain type of creature creature will be syncronized with
+{% include meta.html content="Totems are a form of reverse psychometry since they allow you to store information in the essence of an object. While it has not been mastered, imbedding information via this method, outside of conjuration totems, is not unheard of." %}
 
+Once you obtain a new totem, be that through crafting or finding, you must attune the essence of the totem to yourself. This is a lengthy process, requiring six hours of meditation per level of the totem. You can be attuned to any number of totems at a given time. If another creature attunes to your totem, you are no longer attuned to it since the essence of the totem has been realigned.
 
-Each ritual is different and might require expensive materials to be consumed while performing it. The Game Master will determine the cost for each ritual, but guidelines are provided later in this chapter. If a ritual is performed for longer than 18 hours, you can suspend it for a maximum of 8 hours as you sleep. 
+## Ritual Duration
+
+The amount of time you spend on a conjuring ritual will increase your chance of proper synchronization. The table below describes the bonus or penalty gained based on how long you have performed the ritual. 
+
+{% include table-index.html index="MAGIC70" %}
+
+As described in the Conjuring Intention, conjuring is a completely consuming action but it can be paused for a short time during combat. You can only perform the ritual for 12 hours each day, the remaining time can be spent however you please. 
+
+## Conjuring Circle
+The same conjuration ritual can be performed by multiple conjurers, but some special rules apply.
+
+First, each participant must agree on what conjuring abilities will be used as part of the ritual and what order they will occur. Additionally, all participants must be within five points of each other for each conjuring skill. 
+
+Second, each participant will contribute time to the ritual. The actual amount of time that is usable is equal to the number of participants multiplied by the time put in by the participant who has spent the least amount of time on the ritual. So, each participant must contribute equally.
+
+{% include example.html content="Fifty conjurers working to summon Renard the Fox for a year will have put in fifty years. If only one of them has spent half a year summoning, then the group as a whole has only performed twenty-five years of summoning." %}
+
+Third, each participant will spend the mana required to perform the conjuring ability but only one will make the roll. The lead conjurer will receive a +1 bonus for each participant, up to a +10 bonus. If there are one hundred participants the bonus increases to +20. Finally, at 1,000 participants, the bonus increases to +50. 
