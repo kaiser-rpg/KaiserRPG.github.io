@@ -39,4 +39,4 @@ Second, each participant will contribute time to the ritual. The actual amount o
 
 {% include example.html content="Fifty conjurers working to summon Renard the Fox for a year will have put in fifty years. If only one of them has spent half a year summoning, then the group as a whole has only performed twenty-five years of summoning." %}
 
-Third, each participant will spend the mana required to perform the conjuring ability but only one will make the roll. The lead conjurer will receive a +1 bonus for each participant, up to a +10 bonus. If there are one hundred participants the bonus increases to +20. Finally, at 1,000 participants, the bonus increases to +50. 
+Third, each participant will spend the mana required to perform the conjuring ability but only one will make the roll. The lead conjurer will receive a +1 bonus for each participant, up to a `+10` bonus. If there are one hundred participants the bonus increases to `+20`. Finally, at 1,000 participants, the bonus increases to `+50`. 
