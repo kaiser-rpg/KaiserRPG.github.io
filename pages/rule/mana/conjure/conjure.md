@@ -7,9 +7,7 @@ Mana has a curious property to allow you to use your spirit as a sort of portal 
 
 {% include intention/conjure.md %}
 
-## Conjuring Results
-
-### Failure
+## Conjuring Failure
 
 {% include table-index.html index="MAGIC72" %}
 

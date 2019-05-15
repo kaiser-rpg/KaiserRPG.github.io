@@ -150,20 +150,20 @@ entries:
     output: web
     folderitems:
     - title: Introduction
-      url: /rule_martial_intro.html
+      url: /rule_spirit_intro.html
       output: web
 
   - title: Mana
     output: web
     folderitems:
-    - title: Introduction
-      url: /rule_magic_intro.html
-      output: web
     - title: Mana
       url: /rule_magic_mana.html
       output: web
     - title: Spells
       url: /rule_magic_spell.html
+      output: web
+    - title: Spell Casting
+      url: /rule_magic_casting.html
       output: web
     - title: Conjuring
       url: /rule_conjure_skill.html
