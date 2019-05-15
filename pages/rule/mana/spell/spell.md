@@ -7,33 +7,6 @@ A spell is in essence a formula that allows you to input mana to cause a change,
 
 The major difference between the High and Low Groups is the amount of flexibility in learning magic from the General Group. Higher Magic is more rigid and allows you to learn half the number of General Spells that a Lower Path could.
 
-## Casting Spells
-If you have the Gift, then you can cast any spell you know. Each spell has four degrees at which you can cast it: Base, Intermediate, Advanced, Arcane. Each degree will list a Mana Cost and Intelligence Requirement. Mana Cost is the amount of mana that you must always pay before the spell can take effect. This Mana Cost can be modified by meta magic or powerful artifacts, but that will be discussed later. Additionally, you can always spend more mana than the Mana Cost lists: usually that is done to overcome resistance to a certain amount of mana. The Intelligence Requirement must be meet in order to understand how a spell works.
-
-Spells also have an Action Requirement of Involved or Swift depending on the nature of the spell. Involved spells require it to be your turn in the Initiative and for you to take the [Use an Involved Power](todo) action. Swift spells can be cast at any time during the round by taking the [Use a Swift Power](todo) action. 
-
-As long as you meet all the requirements for the spell – those requirements being the accumulated mana, sufficient intelligence, and the proper action – you can cast it. A complete description of each spell can be found [here](ref_spell_intro.html).
-
-{% include block-intention.html name="Magic" level=1 %}
-
-### Damage During Accumulation
-When you suffer damage, you might lose concentration on the mana you have accumulated. You must make a Withstand Pain Difficulty Check equal to one fifth of the damage. Each Degree of Failure causes 10 mana to return to your Mana Pool from what you have accumulated. If you have more than 10 DoF, the mana is lost instead of returned to your Pool. 
-
-If you took the Accumulate for a Prepared Spell Intention, then you gain A2 on the Withstand Pain Check. The prepared mana of a delayed spell is not subject to loss by a failed Withstand Pain Check.
-
-### Maintaining Spells
-Many spells have lingering effects that can last as long as you fuel the spell. A spell that can be maintained will either require more mana every round that you maintain it (that is every 6 seconds) or every day at dawn. The amount of mana and the interval of payment is listed in the spell’s description. To end a spell is a Swift Action but it must be done so consciously. 
-
-Spells that are maintained every round require you to actively maintain them. Each round you must take the Maintain Spell Active Action or else the spell will fade at the end of the round. The mana required to maintain the spell is taken directly from your Mana Pool, so it does not reduce your MA. The maintenance for a daily spell is innate and does not require any action on your part since the spell is setup to automatically feed off your Mana Pool.
-
-### Magic Projection
-Magic Projection is your ability to control the mana used in a spell and how far away that control extends. This allows you to use your Magic Projection as an Offensive Skill to throw spells as projectiles, block an attack, or effect an area. When throwing a spell as a projectile your Magic Projection determines the maximum range, see the following table. The effective range is half the maximum. You are subject to all the penalties and bonuses with thrown projectiles except you cannot Aim. Once you reach Impossible with your Magic Projection, you can hit targets outside of line of sight if you can perfectly determine their location, such as Detect Ki or Spy of Light. At Inhuman, you can affect targets with only an approximate location. For example, you could target a creature as long as you know what floor of a house they are on.
-
-#### Projection Fumbles
-When you cast a spell that requires a Magic Projection roll, you can Fumble. A Fumble level of 2 to 11 means the spell only fails and you lose the mana. A Fumble level of 12 or higher causes the spell to go wild, possibly hitting a different target or changing into a different spell entirely. The effect of a wild spell is left up to the GM.
-
-A Fumble occurs on a Magic Projection roll for a maintained spell is treated normally for a Difficult or Opposed Skill Check.
-
 ## Magic Level
 Magic Level is the measure of your capacity to learn and understand the theory behind magic. The higher your Magic Level the more you will understand magic. Your maximum Magic Level is determined by your Intelligence Characteristic, as indicated in the following table. The maximum can be increased by 10 ML after spending 1 XP or if you have a trait that increases it. When you gain new Magic Levels, you do not immediately spend them, you must use downtime to learn spells and meta magic just as a warrior must learn a new fighting style.
 
@@ -41,68 +14,67 @@ Magic Level is the measure of your capacity to learn and understand the theory b
 
 {% include meta.html content="Learning magic is a difficult process, even for those that are adept at doing so, and it is unlikely that someone just starting their adventure as a wizard will have reached their full intellectual potential right away. For that reason, it is recommended that the Game Master limit a character from the Caster Archetype to only spend half of their Magic Levels during character creation, and only a fourth for other archetypes. The character can spend the remainder of the ML, and any they gain after creation, during downtime." %}
 
-### Paths of Magic
+## Paths of Magic
 Each path consists of 100 levels of knowledge, every 2 levels granting a new spell.
 
-#### Light
+### Light
 This Path gives you control over one of the two Higher Elements, light. The Domain of Light magic includes manipulating positive energy in addition to the physical light. This positive energy can be used to heal wounds, alter positive emotions, or detect living creatures. The Path of Light is opposed by the Path of Shadow. 
 
-#### Shadow
+### Shadow
 This Path gives you control over one of the two Higher Elements, darkness. The Domain of Shadow magic includes manipulation of the negative energies of the world, such as negative emotions, shadows, and secrets. The Path of Shadow is opposed by the Path of Light.
 
-#### Creation
+### Creation
 This Path gives you control over the fundamental force of organizing reality. These spells allow you to heal, change, or create things. The Path of Creation is opposed by the Path of Destruction.
 
-#### Destruction
+### Destruction
 This Path gives you control over the fundamental force of removing order within reality. These spells allow you to destroy objects and creatures alike. The Path of Destruction is opposed by the Path of Creation.
 
-#### Fire
+### Fire
 This Path gives you control over one of the four Lower Elements, fire. The Domain of Fire magic allows you to consume your body and soul to increase your power as well as introduce heat to an object. The Path of Fire is opposed by the Path of Water.
 
-#### Water
+### Water
 This Path gives you control over one of the four Lower Elements, water. The Domain of Water allows you to reflect and freeze certain aspects of reality as well as manipulate and freeze liquids. The Path of Water is opposed by the Path of Fire.
 
-#### Air
+### Air
 This Path gives you control over one of the four Lower Elements, air. The Domain of Air allows you to grant objects movement without apparent means of propulsion as well as manipulate the winds of the world. The Path of Air is opposed by the Path of Earth.
 
-#### Earth
+### Earth
 This Path gives you control over one of the four Lower Elements, earth. The Domain of Earth allows you to manipulate fundamental laws of reality such as atomic density and gravity as well as shaping the rock and dirt of the planet. The Path of Earth is opposed by the Path of Air.
 
-#### Essence
+### Essence
 This Path gives you control over the force of life, the soul. Essence spells allow you to connect to soul of the world and commune with nature as well as manipulate the soul of another creature. The Path of Essence is opposed by the Path of Illusion.
 
-#### Illusion
+### Illusion
 This Path gives you control over the mind of others. Illusion spells allow you alter the perception of those around you and introduce paranoia and deception. The Path of Illusion is opposed by the Path of Essence.
 
-#### Necromancy
+### Necromancy
 This Path is the perversion of all other magic. Mana is generated by the souls of living and the dead alike and can be used to fuel other spells before it is returned, but Necromancy spells permanently destroy the mana used to cast them. This destruction of mana allows you to return a soul from beyond the Veil or drain the essence of a creature. Necromancy is opposed by all other Paths of magic.
 
-#### General
+### General
 General magic is not organized in the same manner as the other paths of magic. The spells found here are very flexible but not quite complete; this is because the foundational formula to learn each of them is different for each person who casts them. As a result, General spells can be learned alongside the other paths, inheriting some of their style. General spells do not fit into other paths or they let you replicate spells from other paths, albeit at a different cost. Some general spells do have a restriction on what Path they can be learned with, as the underlying formula of that Path is not compatible with that General spell.
 
 High Paths of magic can only accommodate one General spell for every ten levels you gain while Low Paths allow you to learn two General spells every ten levels. Each path will list at what level you can learn a General spell.
 
 There also exists special groupings of ten General spells called Sub-paths. These Sub-paths are a set of spells with common themes that build upon each other’s formula. In order to master them, you must devote yourself to a Sub-path when take your first General spell as part of a Path. Once chosen, every ten levels in that Path you must take the next spell in the Sub-path. Since High Paths only have flexibility to learn ten General Spells, you can only take one Sub-path. but Low Paths allow you to select up to two different Sub-paths, but you will always learn one of them before the other.
 
-### Paragon and Divine Magic
+## Paragon and Divine Magic
 Spells of 81 and higher are special spells. Mortals are unable to cast these spells as they lack spiritual existence to control such energies. That is not to say that you are unable to learn them, just that any attempt to cast them will cause the mana to be lost and the spell to no take effect.
 
 The requirements to cast spell between 81 and 90, called Paragon Spells, is you have a Gnosis of 25 or higher and the ability to perform Inhuman degree actions. Spells of 91 and higher are called Divine Magic. They require you to have a Gnosis of 40 or higher and the ability to perform Zen degree actions.
 
 This limitation does not apply to spells in the General Group.
 
-### Learning Spells
+## Learning Spells
 Every two levels spent in a Magic Path will grant you a new spell.
 
 Each path of magic has an antagonizing path that represents an entirely opposite school of thought, making it much more difficult to learn. For instance, Fire and Water are opposing paths since they each operate on entirely different parts of the world. If you wish to develop in a Path that opposes one of your current paths, it takes twice as many Magic Levels to do so. Necromancy is a special case; due to its nature it opposes all other Paths of Magic.
 
 Once you start learning opposing Paths, the lower leveled path will have the increased cost. As a result, it is not recommended you keep them evenly leveled.
 
-#### Magic Instruction
+### Magic Instruction
 Spending Magic Levels occurs during Downtime. Having an instructor or a tome detailing the spell you are currently learning will reduce the effort required.
 
-#### Choosing Specific Spells
+### Choosing Specific Spells
 You can choose to learn an individual spell without having mastered the underlying theory. This method of learning new spells allows you to choose any spell and pay a special cost for it. Higher level spells costs more Magic Levels since it requires you to understand a more complex topic without the underlying knowledge. The cost for each Spell Level Range is listed below. Spells from an opposing Path still have their cost doubled.
 
 {% include table-index.html index="MAGIC55" %}
-

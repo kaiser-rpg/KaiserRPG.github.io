@@ -1321,8 +1321,8 @@
 				]
 			]
 		}
-    },
-    {
+	},
+	{
 		"title": "Ritual Time",
 		"index": "MAGIC70",
 		"table": {
@@ -1343,86 +1343,82 @@
 				[
 					"1 round",
 					"-10"
-                ],
-                [
+				],
+				[
 					"2 rounds",
 					"-5"
-                ],
+				],
 				[
 					"3 rounds",
 					"-1"
-                ],
-                [
+				],
+				[
 					"5 rounds",
 					"+0"
-                ],
-                [
+				],
+				[
 					"1 minute (10 rounds)",
 					"+1"
-                ],
-                [
+				],
+				[
 					"5 minutes",
 					"+2"
-                ],
-                [
+				],
+				[
 					"15 minutes",
 					"+3"
-                ],
-                [
+				],
+				[
 					"1 hour",
 					"+4"
-                ],
-                [
+				],
+				[
 					"3 hours",
 					"+5"
-                ],
-                [
+				],
+				[
 					"6 hours",
 					"+6"
-                ],
-                [
+				],
+				[
 					"12 hours",
 					"+7"
-                ],
-                [
-					"1 day",
-					"+8"
-                ],
-                [
+				],
+				[
 					"1 week",
 					"+10"
-                ],
-                [
+				],
+				[
 					"1 month",
 					"+12"
-                ],
-                [
+				],
+				[
 					"6 months",
 					"+15"
-                ],
-                [
+				],
+				[
 					"1 year",
 					"+20"
-                ],
-                [
+				],
+				[
 					"5 years",
 					"+30"
-                ],
-                [
+				],
+				[
 					"10 years",
 					"+40"
-                ],
-                [
+				],
+				[
 					"50 years",
 					"+50"
 				]
 			]
-        },
-        "postEntries": [
-			"You also cannot spent more than 12 hours each day on Conjuration. Rituals that take longer than 12 hours can be suspended for 12 hours to allow you to sleep."
+		},
+		"postEntries": [
+			"One day of ritual is actually only 12 hours. But, you cannot spend more than 12 hours each day on Conjuration. Rituals that take longer than a day are suspended for 12 hours to allow you to sleep."
 		]
-    },
-    {
+	},
+	{
 		"title": "Totem Modifiers",
 		"index": "MAGIC71",
 		"table": {
@@ -1439,71 +1435,71 @@
 				[
 					"Totem contains the creature's true name",
 					"+8"
-                ],
-                [
+				],
+				[
 					"Totem contains the creature's legendary name",
 					"+3"
-                ],
-                [
+				],
+				[
 					"Totem contains the creature's common name",
 					"+2"
 				],
 				[
 					"Totem contains an object that belonged to the creature",
 					"+2"
-                ],
-                [
+				],
+				[
 					"Totem contains an object that the creature made",
 					"+1"
-                ],
-                [
+				],
+				[
 					"Totem contains a part of the exact creature",
 					"+5"
-                ],
-                [
+				],
+				[
 					"Totem contains a piece of the same species",
 					"+2"
-                ],
-                [
+				],
+				[
 					"Totem contains detailed knowledge of the creature",
 					"+3"
-                ],
-                [
+				],
+				[
 					"Totem contains a description of the creature",
 					"+1"
-                ],
-                [
+				],
+				[
 					"Totem contains the complete stories about the creature",
 					"+2"
-                ],
-                [
+				],
+				[
 					"Totem contains the incomplete stories about the creature",
 					"+1"
-                ],
-                [
+				],
+				[
 					"Totem's level is higher than the creatures",
 					"Bonus equal to half DoD"
-                ],
-                [
+				],
+				[
 					"Totem's level is less than the creatures",
 					"Penalty equal to DoD"
-                ],
-                [
+				],
+				[
 					"Totem for the same type of creature",
 					"+0"
-                ],
+				],
 				[
 					"Totem for a different type of creature",
 					"-5"
-                ],
-                [
+				],
+				[
 					"Un-attuned Totem",
 					"-5"
-                ]
+				]
 			]
-        }
-    },
-    {
+		}
+	},
+	{
 		"title": "Failure to Summon",
 		"index": "MAGIC72",
 		"table": {
@@ -1520,31 +1516,31 @@
 				[
 					"1",
 					"Summoning has no effect, but you do not lose mana. You do not lose the ritual."
-                ],
-                [
+				],
+				[
 					"2 to 3",
 					"Summoning has no effect, and you lose the mana it would have cost for a successful summon. You do not lose the ritual."
-                ],
-                [
+				],
+				[
 					"4 to 5",
 					"Summoning has no effect, and you lose twice the mana it would have cost for a successful summon. You lose the ritual."
 				],
 				[
 					"6 to 8",
 					"The summoning has the opposite effect to what you desired. You summon a creature of similar level but opposite in nature. The summoned creature is immune to your conjuring abilities. The creature is sent back after five minutes. You lose twice the mana it would have cost for a successful summon. You lose the ritual."
-                ],
-                [
+				],
+				[
 					"9 to 10",
 					"The summoning has the opposite effect to what you desired. You summon four creatures of similar level but opposite in nature. The summoned creatures are immune to your conjuring abilities. The creatures are sent back after an hour. You lose four times the mana it would have cost for a successful summon. You lose the ritual."
-                ],
-                [
+				],
+				[
 					"11 or greater",
 					"If the creature is not legendary, you suffer ten times your DoF Sacrifice Damage. If the creature being summoned is of legendary status, it can instead chose to cause you to be summoned in front of it. This can cause you to enter the Veil. Either way, you lose all your mana."
-                ]
+				]
 			]
-        }
-    },
-    {
+		}
+	},
+	{
 		"title": "Failure to Control",
 		"index": "MAGIC73",
 		"table": {
@@ -1561,31 +1557,31 @@
 				[
 					"1",
 					"Control has no effect, but you do not lose mana. You do not lose the ritual."
-                ],
-                [
+				],
+				[
 					"2 to 3",
 					"Control has no effect, and you lose the mana it would have cost for a successful control. You do not lose the ritual."
-                ],
-                [
+				],
+				[
 					"4 to 5",
 					"Control has no effect, and you lose twice the mana it would have cost for a successful control. You lose the ritual."
 				],
 				[
 					"6 to 8",
 					"The control has no effect, and the creature is completely immune to your conjuring abilities for two weeks. You lose twice the mana it would have cost for a successful control. You lose the ritual."
-                ],
-                [
+				],
+				[
 					"9 to 10",
 					"The control is reversed, and the creature takes control of you. The creature can control you, and maintain that control, as if you were a creature being controlled. But, the mana used to maintain the control comes from your Mana Pool. You lose four times the mana it would have cost for a successful control. You lose the ritual."
-                ],
-                [
+				],
+				[
 					"11 or greater",
 					"Your spirit turned into a puppet that the creature you once tried to control dominates. The only way to break this control is if the creature's or your spirit return to the Beyond."
-                ]
+				]
 			]
-        }
-    },
-    {
+		}
+	},
+	{
 		"title": "Failure to Banish",
 		"index": "MAGIC74",
 		"table": {
@@ -1602,29 +1598,29 @@
 				[
 					"1",
 					"Banish has no effect, but you do not lose mana. You do not lose the ritual."
-                ],
-                [
+				],
+				[
 					"2 to 3",
 					"Banish has no effect, and you lose the mana it would have cost for a successful banish. You do not lose the ritual."
-                ],
-                [
+				],
+				[
 					"4 to 5",
 					"Banish has no effect, and you lose twice the mana it would have cost for a successful banish. You lose the ritual."
 				],
 				[
 					"6 to 8",
 					"The banish has no effect, and the creature is completely immune to your conjuring abilities for two weeks. You lose twice the mana it would have cost for a successful banish. You lose the ritual."
-                ],
-                [
+				],
+				[
 					"9 to 10",
 					"The banishing has the opposite effect to what you desired. You summon a creature of similar level. The target creature and the summoned creature are immune to your conjuring abilities for two weeks. You lose four times the mana it would have cost for a successful summon. You lose the ritual."
-                ],
-                [
+				],
+				[
 					"11 or greater",
 					"If the creature is not legendary, you suffer ten times your DoF Sacrifice Damage. If the creature being banished is of legendary status, it can instead chose to use you to summon a legion of lesser creatures. Being used as a portal causes you to enter the Veil. Either way, you lose all your mana."
-                ]
+				]
 			]
-        }
+		}
 	},
 	{
 		"title": "Movement Value to Distance",

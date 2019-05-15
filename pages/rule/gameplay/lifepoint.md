@@ -36,6 +36,6 @@ In the case of creatures with Damage Resistance, the amount of LP healed is mult
 {% include table-index.html index = "GEN22" %}
 
 ### Curse Damage
-Some sources of supernatural damage cause lasting wounds that are difficult to heal. Life Points lost in by these types of wounds are not recovered in the conventual way; they ignore Regeneration as well healing powers. These cursed LP recover at a rate equal to the average of your Constitution, Focus, and Willpower Characteristics per day.
+Some sources of supernatural damage cause lasting wounds that are difficult to heal. Life Points lost by these types of wounds are not recovered in the conventual way; they ignore Regeneration as well healing powers. These cursed Life Points recover at a rate equal to the average of your Constitution, Focus, and Willpower Characteristics per day.
 
 In the case of creatures with Damage Resistance, the amount of cursed damage healed is multiplied by their Damage Resistance Multiplier. Additionally, any willing curse damage (consumed by a power) are also multiplied by their Damage Resistance Multiplier.
