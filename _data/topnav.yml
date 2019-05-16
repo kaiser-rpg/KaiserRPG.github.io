@@ -9,32 +9,7 @@ topnav:
       url: /glossary
     - title: Rules
       url: /rule_general_intro.html
-
-#Topnav dropdowns
-topnav_dropdowns:
-- title: Topnav dropdowns
-  folders:
-
     - title: Character Options
-      folderitems:
-        - title: Classes
-          url: /character_class_intro.html
-        - title: Traits
-          url: /character_trait_intro.html
-        - title: Races
-          url: /character_race_intro.html
-
-    - title: Refrences
-      folderitems:
-        - title: Domine
-          url: /ref_ki_intro.html
-        - title: Spells
-          url: /ref_spell_intro.html
-        - title: Phenoms
-          url: /ref_phenom_intro.html
-        - title: Items
-          url: /ref_item_intro.html
-        - title: Creatures
-          url: /ref_creature_intro.html
-        - title: Sample Characters
-          url: /ref_sample_intro.html
+      url: /rule_character_intro.html
+    - title: References
+      url: /rule_ref_intro.html

@@ -149,8 +149,23 @@ entries:
   - title: Spirit
     output: web
     folderitems:
-    - title: Introduction
-      url: /rule_spirit_intro.html
+    - title: Chakra and Ki
+      url: /rule_spirit_ki.html
+      output: web
+    - title: Spirit Knowledge
+      url: /rule_spirit_knowledge.html
+      output: web
+    - title: Talents
+      url: /rule_spirit_talent.html
+      output: web
+    - title: Talent Exploit
+      url: /rule_spirit_exploit.html
+      output: web
+    - title: Techniques
+      url: /rule_spirit_technique.html
+      output: web
+    - title: Common Spirit Artifacts
+      url: /rule_spirit_artifact.html
       output: web
 
   - title: Mana
@@ -158,6 +173,12 @@ entries:
     folderitems:
     - title: Mana
       url: /rule_magic_mana.html
+      output: web
+    - title: Mana Knowledge
+      url: /rule_magic_knowledge.html
+      output: web
+    - title: Meta Magic
+      url: /rule_magic_meta.html
       output: web
     - title: Spells
       url: /rule_magic_spell.html
