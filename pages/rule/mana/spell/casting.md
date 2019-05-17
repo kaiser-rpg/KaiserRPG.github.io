@@ -26,6 +26,8 @@ Spells that are maintained every round require you to actively maintain them. Ea
 ## Magic Projection
 Magic Projection is your ability to control the mana used in a spell and how far away that control extends. This allows you to use your Magic Projection as an Offensive Skill to throw spells as projectiles, block an attack, or effect an area. When throwing a spell as a projectile your Magic Projection determines the maximum range, see the following table. The effective range is half the maximum. You are subject to all the penalties and bonuses with thrown projectiles except you cannot Aim. Once you reach Impossible with your Magic Projection, you can hit targets outside of line of sight if you can perfectly determine their location, such as Detect Ki or Spy of Light. At Inhuman, you can affect targets with only an approximate location. For example, you could target a creature as long as you know what floor of a house they are on.
 
+TODO Magic Projection Range
+
 ### Projection Fumbles
 When you cast a spell that requires a Magic Projection roll, you can Fumble. A Fumble level of 2 to 11 means the spell only fails and you lose the mana. A Fumble level of 12 or higher causes the spell to go wild, possibly hitting a different target or changing into a different spell entirely. The effect of a wild spell is left up to the GM.
 

@@ -41,7 +41,7 @@
                 "You can use both hands equally well."
             ],
             "effects": [
-                "You can perform tasks with either hand equally well. In combat, you suffer only -1 to attacks made as part of the Offhand Attack Action."
+                "You can perform tasks with either hand equally well. In combat, you suffer only -1 to your Offensive Roll made as part of the Offhand Attack Action."
             ],
             "cost": 2
         }

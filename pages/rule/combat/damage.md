@@ -54,7 +54,7 @@ Then, you must a Physical Resistance Check against the level of the Critical. If
 ### Effects of a Critical
 In this section we will explain the different effects that Criticals can produce, as seen in the following table.
 
-When you fail the PhR Check, you automatically suffer an All Action Penalty equal to the Degree of Failure. Additionaly, you lose 1 AP for each DoF. 
+When you fail the PhR Check, you automatically suffer an All Action Penalty equal to the Degree of Failure. Additionally, you lose 1 AP for each DoF. 
 
 If the DoF is 5 or less, the attack may have been painful, but it leaves nothing more than some bruises and a nice scar. You gain an All Action Penalty, caused by momentary shock and pain, not any lasting physical effects, and it disappears at a rate of 1 per round until it vanishes completely. It isn’t necessary, therefore, to determine the location of the hit, because there are no additional effects.
 
@@ -88,4 +88,4 @@ Beings with Damage Resistance can also utilize supernatural barriers – if they
 
 Criticals also work in a special way against creatures with Damage Resistance. Although they must lose half their Life Points with a single attack to suffer a Critical, the GM should automatically reduce the level of the Critical by half, even without reaching 20. 
 
-If a creature with Damage Resistance receives an Area Attack that covers at least half its body, it receives double the damage. Although Area Attacks are most often produced by supernatural means (fireballs, cones of destruction, etc.), the damage from a weapon with a Sweeping Attack sufficiently large enough to cover half the creature’s body is also doubled.
+If a creature with Damage Resistance receives an area attack that covers at least half its body, it receives double the damage. Although area attacks are most often produced by supernatural means (fireballs, cones of destruction, etc.), the damage from a weapon with a sweeping attack sufficiently large enough to cover half the creature’s body is also doubled.

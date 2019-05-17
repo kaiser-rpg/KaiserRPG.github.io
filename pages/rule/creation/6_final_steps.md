@@ -11,8 +11,8 @@ As the result of your Race, Traits, and Class, some of your skills and abilities
 ### Class Bonuses
 Each Class has an Innate Bonus for Life Points and Initiative. These are added each time you gain a level.
 
-### Limitation to Attack, Block, Dodge Innate Bonuses
-Some Classes and Traits grant an Innate Bonus of +1 every other level in Attack, Block, or Dodge Skills. Whereas improvement in other skills have no limits, the Innate Bonus increase for Attack, Block, and Dodge can never be greater than +5, that is to say, ten levels of Innate Bonuses. Even if you change Classes, this limit applies.
+### Limitation to Strike, Block, Dodge Innate Bonuses
+Some Classes and Traits grant an Innate Bonus of +1 every other level in Strike, Block, or Dodge Skills. Whereas improvement in other skills have no limits, the Innate Bonus increase for Strike, Block, and Dodge can never be greater than +5, that is to say, ten levels of Innate Bonuses. Even if you change Classes, this limit applies.
 
 ## Life Points
 Life Points (LP) represent the amount of damage you can suffer before dying or receiving a Critical.
@@ -52,7 +52,7 @@ Primary Groups represent your basic faculties and are divided into three areas: 
 #### Martial Group
 These abilities encompass your skills in fighting with your physical body, sometimes enhanced by your spirit. fighting skills.  Martial Skills are the following:
 
-**Attack Skill**: This represents your ability to strike your opponent and deal damage. This skill depends on Dexterity. The first time you spend XP to increase your Attack Skill, you may choose a single weapon to become proficient with.
+**Strike Skill**: This represents your ability to strike your opponent and deal damage. This skill depends on Dexterity. The first time you spend XP to increase your Strike Skill, you may choose a single weapon to become proficient with.
 
 **Block Skill**: This represents your ability to place an object between you and a threat. This skill depends on Dexterity.
 

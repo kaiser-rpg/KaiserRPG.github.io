@@ -6,7 +6,7 @@ permalink: rule_combat_terms.html
 Below is the description for a few terms you will find repeated in this chapter.
 
 #### Offensive Skill
-An Offensive Skill is the skill you use to aim your attack and break through your opponents defense. There are three skills that you can use Offensively: Attack, Magic Projection, Psychic Projection. 
+An Offensive Skill is the skill you use to aim your attack and break through your opponents defense. There are three skills that you can use Offensively: Strike, Magic Projection, Psychic Projection. 
 
 #### Offensive Roll 
 This value is the sum of the Offensive Skill you are using to attack, the result of a 2d6 roll, and any modifiers. Since this roll is made as part of an Opposed Skill Check, the 2d6 roll is subject to Fumbles and Open Rolls. The Offensive Roll is opposed by a Defensive Roll.

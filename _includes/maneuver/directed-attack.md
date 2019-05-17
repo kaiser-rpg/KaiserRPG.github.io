@@ -5,4 +5,4 @@ When you use this maneuver, you try to strike a specific part of your opponent's
 
 {% include table-index.html index="ATK2" %}
 
-This maneuver can be performed with any kind of single target and non area attack power. You must declare that you will use this maneuver before making your Offensive Roll.
+This maneuver can be performed with any kind of single target and non-area attack power. You must declare that you will use this maneuver before making your Offensive Roll.

@@ -22,7 +22,7 @@ An area attack with the flowing trait, along with being difficult to block, will
 The linear trait means that the attack travels in straight lines from its origin point. Once the line hits an object, it is unable to travel farther. If the attack also has the immaterial trait, it will keep traveling until it hits an imbued object.
 
 ### Two-handed
-The two-handed trait means that the weapon is designed to be used in two hands. While wielding it in two-hands, you add your Strength Modifier twice to the Base Damage. If you do not use it in two hands, you apply a -8 penalty to Initiative, Attack, and Block Checks.
+The two-handed trait means that the weapon is designed to be used in two hands. While wielding it in two-hands, you add your Strength Modifier twice to the Base Damage. If you do not use it in two hands, you apply a -8 penalty to Initiative, Strike, and Block Checks.
 
 ### Versatile
 The versatile trait means that the weapon is designed to be used in one or two hands. While wielding it in two-hands, you add your Strength Modifier twice to the Base Damage. The Strength Requirement to wield one-handed is listed after the two-handed requirement. 
@@ -64,7 +64,7 @@ The reach trait means that the weapon is designed to be used to perform the swee
 ### Sweeping
 The sweeping trait means that the object is designed to be used to perform the sweeping attack maneuver. The trait will have a number in parentheses after it, that value is how many targets you can be hit in a single sweeping attack.
 
-If this trait is on a weapon, you still must take the sweeping attck maneuver, and spend the AP.
+If this trait is on a weapon, you still must take the sweeping attack maneuver, and spend the AP.
 
 If this trait is on a power, you instead make the sweeping attack maneuver as part of the power activating and do not need to spend the AP, only using the rules presented in the maneuver. If the power does not also have the reach trait, then you can only hit creatures you would normally reach as per the sweeping attack maneuver.
 

@@ -17,13 +17,13 @@ Development Costs are combined into discreet Groups and these Groups can also co
 As mentioned above, the Primary Groups each have a percent limit on the amount of XP you can spend on them. This limit is determined by your class. For example, the Warrior has a 60% limit on the Martial Group and a 50% limit on the Magic Group. So at first level, the warrior can only spend 36XP (60% of his starting 60 XP) on abilities found in the Martial Group. Similarly, he can only spend 30 XP (50% of his starting 60 XP) on abilities in the Magic Group. 
 
 ### Limit on Martial
-The Attack, Block, and Dodge Skills have an additional limitation, on top of the percent limit from your class. You cannot exceed 40% of your total XP in the sum expense of these skills.
+The Strike, Block, and Dodge Skills have an additional limitation, on top of the percent limit from your class. You cannot exceed 40% of your total XP in the sum expense of these skills.
 
-Additionally, none of those skills can have more than 25% of your total XP. If you invest the full 25% in say Block, then you only have 15% remaining for Attack.
+Additionally, none of those skills can have more than 25% of your total XP. If you invest the full 25% in say Block, then you only have 15% remaining for Strike.
 
 Lastly, you are unable to invest XP in both Block and Dodge. Instead, when you spend XP to raise the Base Value on one of those skills, the other one's Base Value will be 6 points behind. Each Skill will add the Innate Bonuses and Characteristic Modifier separately, so the Final Skill Value might be more or less than 6 point apart.
 
 > For example, Ciel is spending XP on her Dodge Skill. She has spent enough XP to gain 10 points in Dodge and as a result, she is considered to have gained 4 points in Block as well. To Dodge she adds her +2 from Agility Modifier and a +1 from Innate Bonuses, giving her a Final Skill Value of 13. For Block, she adds her +1 from Dexterity Modifier but no Innate Bonus since her Class does not grant one. The Final Skill Value for Block ends up at 5 (4 points from XP and 1 point from Dexterity Modifier).
 
 ### Limit on Magic and Psychic
-Magic and Psychic Projection have a similar limit as the Martial Group's Attack Skill. You cannot spend more than 20% of your total XP on each Projection Skill.
+Magic and Psychic Projection have a similar limit as the Martial Group's Strike Skill. You cannot spend more than 20% of your total XP on each Projection Skill.

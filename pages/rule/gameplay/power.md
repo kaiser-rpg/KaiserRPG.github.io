@@ -61,10 +61,10 @@ In order to hit a creature with the immaterial trait, your attack must have the 
 
 Similarly, a creature with the immaterial trait will make its attacks immaterial as well. To defend against such an attack, you must either dodge or block it with an imbued object.
 
-The spirit abilities of Presence Extrusion and Aura Extension allow you to grant the imbued trait to your weapons. The meta magic ability Imbued Spell allows your attack and defense spells to gain the imbued trait. A phenom will list at what degree it gains the imbued trait. Some artifacts can also give you or your powers the imbued trait as well.
+The talent of Presence Extrusion allows you to grant the imbued trait to your weapons. The meta magic ability Imbued Spell allows your attack and defense spells to gain the imbued trait. A phenom will list at what degree it gains the imbued trait. Some artifacts can also give you or your powers the imbued trait as well.
 
 ### Area Attack
-Some powers have the ability to affect a large area with a single attack. This area attack can take many different shapes: sphere, cylinder, cone, line, and so on. Each valid target within the volume of the attack must make a Defensive Roll against your Offensive Roll (only one roll). The area attack will still count as a thrown or fired projectile for the purpose of defense.
+Some powers have the ability to affect a large area with a single attack. This area attack can take many different shapes: sphere, cylinder, cone, line, and so on. Each valid target within the volume of the attack must make a Defensive Roll against your Offensive Roll (only one roll). The area attack will still count as a thrown projectile for the purpose of defense.
 
 A target can dodge out of the area of the attack if they have enough movement remaining to reach a point outside the volume of the attack. If they have not taken the Movement Action this turn, they can spend 1 AP to take the Movement Action as a Reaction, but they can only use half of it to move out of the way. The target makes a Defensive Roll against the attack. If they are unable to reach a safe point for whatever reason, they apply a -8 penalty to the Defensive Roll.
 
@@ -90,7 +90,7 @@ Some powers that produce illusions can cause the target to believe they took dam
 When a power subjects a target to a Resistance Check that causes a lingering effect, the target gets a new Resistance Check after a number of rounds have passed equal to their Degree of Failure. If the power ends, either due to you no longer maintaining it or due to an external force, the effect also ends without the target having to make another Resistance Check.
 
 ### Marking
-Some powers cause you to mark the target. The power will list how long a creature will remain marked. Marks usually occur as a result of an Attack or Effect power. What a mark does after being applied is listed with the power that caused it or in another related power.
+Some powers cause you to mark the target. The power will list how long a creature will remain marked. Marks usually occur as a result of an attack or effect power. What a mark does after being applied is listed with the power that caused it or in another related power.
 
 ## Stacking of Powers
 Many powers grant bonuses or penalties to any number of different abilities. How each ability handles multiple sources of increase and decrease is described below. In general, only take the best bonus and the worst penalty.
@@ -172,7 +172,7 @@ Second, you are the one who makes a single Defensive Roll for all creatures unde
 Third, like when you defend yourself with a barrier, each protected creature can choose whether to rely on your barrier or their own Defensive Skills when attacked.
 
 ## Power Collision
-It is possible for two powers or supernaturally charged objects to collide with one another. The results of the collision will depend on the strength of the colliding projectiles. To create a collision, you must meet three criteria: you have to take the Collide Power Reaction, be in a position and have the ability to make a parallel shot, and have an Initiative within 5 points of the opponent that launched the original projectile, or surpass their Initiative. Then you use a ranged Attack Power (or shoot a supernaturally charged projectile as a Reaction) at the opposing Power. You make an Offensive Roll and the result must be within 5 points of the opposing roll, or surpass it. If you achieve this result, then both you and the opponent roll 2d6 and add the Base Damage of the Power. The Degree of Difference (DoD) is compared to the below table.
+It is possible for two powers or supernaturally charged objects to collide with one another. The results of the collision will depend on the strength of the colliding projectiles. To create a collision, you must meet three criteria: you have to take the Collide Power Reaction, be in a position and have the ability to make a parallel shot, and have an Initiative within 5 points of the opponent that launched the original projectile, or surpass their Initiative. Then you use a ranged attack power (or shoot a supernaturally charged projectile as a Reaction) at the opposing Power. You make an Offensive Roll and the result must be within 5 points of the opposing roll, or surpass it. If you achieve this result, then both you and the opponent roll 2d6 and add the Base Damage of the Power. The Degree of Difference (DoD) is compared to the below table.
 
 {% include table-index.html index="MAGIC60" %}
 
