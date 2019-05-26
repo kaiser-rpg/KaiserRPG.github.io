@@ -95,38 +95,6 @@ Some powers cause you to mark the target. The power will list how long a creatur
 ## Stacking of Powers
 Many powers grant bonuses or penalties to any number of different abilities. How each ability handles multiple sources of increase and decrease is described below. In general, only take the best bonus and the worst penalty.
 
-### Natural Armor
-Natural armor is any kind of Armor Value that comes from hardened skin or mystical veil of protection. This value is added to the AV of layer armor to determine your final AV for each Damage Type. When you are subject to multiple natural armor effects, you apply the highest bonus for each Damage Type.
-
-> For Example, you cast the Fire Shroud spell at the base degree and have the Natural Armor Trait. The Fire Shroud spell gives you 5 AV against Heat Damage and the Natural Armor Trait gives you 4 AV for Physical and Elemental Damage. Since Fire Shroud grants a greater benefit, you have 5 AV against Heat Damage and 4 AV for Cold and Electrical damage.
-
-### Layer Armor
-Layer armor is any kind of Armor Value that comes from external worn protection. This value is added to the AV of natural armor to determine your final AV for each Damage Type. When you are wearing multiple layers of armor, you apply the highest AV plus half of the next two greatest Armor Values for that Damage Type. No matter if you are benefitting from a layer of armor or not, while you are wearing it, you are subject to any penalties it applies. Your Wear Armor Skill can reduce these penalties.
-
-### Damage Vulnerability
-Damage vulnerability is when you take additional damage from certain types. This value is added to the Units of Damage calculation. Some creatures naturally have damage vulnerability, like fire elementals and cold damage. When you are subject to multiple damage vulnerabilities, you add the highest vulnerability for each Damage Type to your natural damage vulnerability.
-
-> For example, you cast the Create Vulnerability spell at base degree on a fire elemental. You choose cold damage for the spell. Now, the fire elemental has a final damage vulnerability of 5 (2 from the base degree spell and 3 naturally). So, when you hit the fire elemental with an attack that deals cold damage, you increase the Units of Damage by 5 points. If another caster where to cast Create Vulnerability at the intermediate degree, the fire elemental would instead have a final damage vulnerability of 7 (4 from the intermediate degree spell and 3 naturally, first spell is ignored).
-
-### Damage Reduction
-Damage reduction is when you reduce the Base Damage of an attack or resistance. Some creatures naturally have damage reduction, like fire elementals and heat damage. When you are subject to multiple damage reductions, you add the highest reduction for each Damage Type to your natural damage reduction.
-
-If the damage reduction reduces the Base Damage to zero, you cannot be injured by that attack. Some sources of damage reduction will list that the damage reduction is ignored when the attack can damage immaterial creatures or some other condition. If your greatest source of damage reduction is ignored but a lesser source is not, then you can use that lesser source instead.
-
-> For example, you are the target of Iron Skin spell cast at the intermediate degree and have an artifact that gives you a damage reduction of 2 for all physical damage. Your final damage reduction is 3 since the spell and the artifact grant 3 and 2 respectively. So, when you are the target of an attack that deals impact damage, you reduce the Base Damage by 3 points. 
-
-### Damage Nullifier
-A damage nullifier represents the minimum Base Damage necessary to harm you for a given Damage Type. This does not reduce the Base Damage of the attack, only negates the damage if the Base Damage is less than the damage nullifier. When you are subject to multiple damage nullifiers, you apply the highest value for each Damage Type. Even if you naturally have a damage nullifier, only the highest one will apply.
-
-Some damage nullifiers can be ignored by certain criteria. The most common is if the attack can damage immaterial creatures. If your greatest source of damage nullifier is ignored but a lesser source is not, then you can use that lesser source instead.
-
-If you are affected by both damage reduction and a damage nullifier, the Base Damage of an attack must overcome the damage nullifier before it is reduced by the damage reduction.
-
-### Damage Resistance
-Damage resistance is when you reduce the Final Damage of an attack or resistance. Some creatures naturally have damage resistance, like greater earth elementals and physical damage. When you are subject to multiple damage resistances, you add the highest resistance for each Damage Type to your natural damage resistance.
-
-If the damage reduction reduces the Final Damage to zero, you were not injured by that attack. Some sources of damage resistance will list that the damage resistance is ignored when the attack can damage immaterial creatures or some other condition. If your greatest source of damage resistance is ignored but a lesser source is not, then you can use that lesser source instead.
-
 ### Skill Bonus and Penalty
 A skill bonus gained from multiple powers will apply the highest bonus, then half of the second highest, a third of the third highest, and so on. A skill penalty gained from multiple powers will apply the highest penalty, then half of the second highest, a third of the third highest, and so on. Always round down for bonuses and penalties.
 

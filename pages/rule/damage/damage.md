@@ -76,16 +76,3 @@ There are certain places on the body that are more vulnerable to Criticals than 
 For any human, the head and heart are vulnerable points – although animals and supernatural creatures may not follow that pattern. Some entities, in fact, don’t even have such weak points; hitting them for half their remaining LP is the only way to cause them a Critical.
 
 {% include example.html content="With 160 LP and in perfect health, Klaus needs to lose 80 LP from a single hit to cause a Critical and make a PhR Check. But an attack directed at his head only needs to cause 16 points before he is forced to make such a check because his head is a vulnerable point."%}
-
-## Damage Resistance [Todo: Move to different section]
-Very large animals and some supernatural creatures use a special means of defense called Damage Resistance. Rather than using either the Block or Dodge Skills to protect themselves, these creatures depend on their enormous capacity to absorb physical damage. For that reason, a number of slightly different rules are used for them in combat.
-
-First, these creatures do not lose AP when they suffer damage. However, they are unable to take advantage of a Counter, and therefore must wait until it is their turn to act during the round.
-
-They also do not possess any defensive capacity except their own absorption and armor. Their roll is always considered to be zero and they are unable to increase their Block or Dodge Skill. If a being with Damage Resistance is attacked by surprise, its Absorption is halved.
-
-Beings with Damage Resistance can also utilize supernatural barriers – if they have the ability to create such defenses. However, they use them with a -8 to their Defensive Roll, and if the shield’s defense is overcome, the creatures loses an AP. If they are covered by another creatures barrier, the Defensive Roll suffers a -8 penalty.
-
-Criticals also work in a special way against creatures with Damage Resistance. Although they must lose half their Life Points with a single attack to suffer a Critical, the GM should automatically reduce the level of the Critical by half, even without reaching 20. 
-
-If a creature with Damage Resistance receives an area attack that covers at least half its body, it receives double the damage. Although area attacks are most often produced by supernatural means (fireballs, cones of destruction, etc.), the damage from a weapon with a sweeping attack sufficiently large enough to cover half the creature’s body is also doubled.
