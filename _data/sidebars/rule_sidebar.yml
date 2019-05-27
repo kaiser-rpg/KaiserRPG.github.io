@@ -9,7 +9,7 @@ entries:
     output: web
     folderitems:
     - title: Introduction
-      url: /rule_general_intro.html
+      url: /index.html
       output: web
     - title: Rolling Dice
       url: /rule_general_dice.html

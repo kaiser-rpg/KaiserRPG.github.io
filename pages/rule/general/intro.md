@@ -1,6 +1,6 @@
 ---
 title: Introduction to Kaiser RPG
-permalink: rule_general_intro.html
+permalink: index.html
 ---
 
 The web site in front of you is an instruction manual for playing the Kaiser Roleplaying Game, Kaiser RPG. The player, you, will portray a character using the rules laid out on this site. When you play a game, it is not necessary to memorize all the rules, just be sure to be familiar with the ones that effect your character.
