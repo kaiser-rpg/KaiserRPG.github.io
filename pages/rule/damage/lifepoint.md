@@ -1,6 +1,6 @@
 ---
 title: Life and Death
-permalink: rule_gameplay_lifepoint.html
+permalink: rule_damage_lifepoint.html
 ---
 
 Life Points are a representation of your sturdiness and resolve to live. By having more LP than another means that you can take a greater beating before your body gives out. A strike that might break the legs of creature with fewer LP might only cause you to stumble because you are more resistant to wounds. 

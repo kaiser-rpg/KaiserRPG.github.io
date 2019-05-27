@@ -46,9 +46,6 @@ entries:
   - title: Game Play
     output: web
     folderitems:
-    - title: Life and Death
-      url: /rule_gameplay_lifepoint.html
-      output: web
     - title: Movement Value
       url: /rule_gameplay_move.html
       output: web
@@ -120,9 +117,27 @@ entries:
     - title: Ranged Combat
       url: /rule_combat_ranged.html
       output: web
-    - title: Damage
-      url: /rule_combat_damage.html
+    
+
+  - title: Damage
+    output: web
+    folderitems:
+    - title: Life and Death
+      url: /rule_damage_lifepoint.html
       output: web
+    - title: Damage Types
+      url: /rule_damage_type.html
+      output: web
+    - title: Critical Damage
+      url: /rule_damage_critical.html
+      output: web
+    - title: Damage Modifiers
+      url: /rule_damage_mod.html
+      output: web
+    - title: Damage Roles
+      url: /rule_damage_role.html
+      output: web
+    
 
   - title: Actions
     output: web

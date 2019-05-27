@@ -1,48 +1,8 @@
 ---
-title: Damage
-permalink: rule_combat_damage.html
+title: Critical Damage
+permalink: rule_damage_critical.html
 ---
 
-## Damage Types
-In Kaiser, there are twelve types of damage that an attack can use. These damages are sorted into four groups to handle broad references. The groups are Physical, Elemental, Energy, and Resistance. 
-
-### Physical Damage
-Damage in the Physical Damage Group are those done by physical objects, like weapons or rocks.
-
-**Cut**: This damage is done by weapons moving in a slicing motion. Objects carried by strong winds and swinging axes are common sources of this damage type.
-
-**Impact**: When you are struck by heavy blunt objects, or run into them, you take Impact Damage. Falling a great distance and Warhammers are common sources of this damage.
-
-**Thrust**: Weapons that deal damage by impaling you deal Thrust damage. Spears and arrows are common sources of this damage.
-
-### Elemental Damage
-The Elemental Damage Group contains damage dealt by exposure to extreme elemental forces like fire.
-
-**Heat**: This damage occurs when an attack produces an intense amount of damage. Standing inside a bonfire or being struck by a fire elemental are common sources of this type of damage.
-
-**Cold**: Low temperatures cause this damage. The icy blast of a spell or the frost breath of a dragon are common sources of this damage.
-
-**Electrical**: Being struck by lightning or an electrical discharge are common sources of this damage.
-
-### Energy Damage
-The Energy Damage Group is commonly caused by supernatural effects. Many spells use one of the damage types from this group.
-
-**Force**: This damage comes from raw energy and is immaterial in nature. Bolts of magical energy and repulsive blasts are common sources of this damage type.
-
-**Light**: Intense beams of light are common sources of this damage type.
-
-**Dark**: Shadowy energies are common sources of this damage type.
-
-### Resistance Group
-Damage Types in this Group are usually only done as part of a failed Resistance Check. Armor against these types of damage only apply to a Resistance Check that deals their damage and not to the roll to be hit by a Resistance Attack.
-
-**Atomic**: This is damage done at the atomic level. Your atoms being rearranged or acidic substances are common sources of this damage.
-
-**Bio**: This type of damage is done on the cellular level. Things likes poisons, diseases, or strong basic substances breaking down cell walls are common sources of this damage type.
-
-**Psychic**: This damage is one dealt directly to the mind. Psychic screams and mental torture are common sources of this type of damage. This is also the damage that most Illusions deal, but if the target is not aware of the illusory nature of an attack special rules apply that can be found in the Power Chapter.
-
-## Critical Damage
 It is inevitable that you suffer damage in combat. However, not all damage involves merely losing a set number of Life Points. When you receive a single wound that makes you lose half your remaining LP, you have received a Critical hit. 
 
 {% include example.html content="An individual with 180 LP who receives a single hit that causes him to lose 90 or more Life Points has suffered a Critical. With his LP now reduced to 90, another hit causing just 45 LP more would cause another Critical."%}
@@ -51,7 +11,7 @@ Whenever you suffer a Critical, the possibility exists that a very serious wound
 
 Then, you must a Physical Resistance Check against the level of the Critical. If your total is higher than the Critical, you pass the Resistance Check and suffers no further ill effects from the hit – other than the original Life Point damage. However, if you fail the PhR Check, the Degree of Failure determines the effects of the Critical.
 
-### Effects of a Critical
+## Effects of a Critical
 In this section we will explain the different effects that Criticals can produce, as seen in the following table.
 
 When you fail the PhR Check, you automatically suffer an All Action Penalty equal to the Degree of Failure. Additionally, you lose 1 AP for each DoF. 
@@ -68,9 +28,9 @@ Medical treatment required as a result of a Critical cannot be resolved by a sim
 
 As always, creating an appropriately colorful description for Criticals is in the hands of the Game Master. If fighting occurs with creatures whose bodies are very different from those of humans, the GM might need to adjust the location of hits.
 
-TABLE critical location Todo
+{% include table-index.html index="TODO" %}
 
-### Vulnerable Points
+## Vulnerable Points
 There are certain places on the body that are more vulnerable to Criticals than others. These vulnerable points are areas most sensitive to damage. If you receive a blow directed at a vulnerable point, losing a mere 10% of your current Life Points is enough to cause a Critical.
 
 For any human, the head and heart are vulnerable points – although animals and supernatural creatures may not follow that pattern. Some entities, in fact, don’t even have such weak points; hitting them for half their remaining LP is the only way to cause them a Critical.
