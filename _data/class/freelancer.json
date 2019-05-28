@@ -56,7 +56,7 @@
             }
         ]
     },
-    "psychic": {
+    "manifest": {
         "limit": 60,
         "pPoint": 2,
         "pPrj": 4,
@@ -87,7 +87,7 @@
     },
     "special": {
         "entries": [
-            "You can change to or out of this class for only 2 DP."
+            "You can change to or out of this class for only 2 XP."
         ]
     }
 }

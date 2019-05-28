@@ -62,7 +62,7 @@
             }
         ]
     },
-    "psychic": {
+    "manifest": {
         "limit": 50,
         "pPoint": 2,
         "pPrj": 5,
