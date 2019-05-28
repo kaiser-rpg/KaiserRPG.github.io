@@ -1,20 +1,18 @@
-{% assign entry = include.entry %}
-
 <table class="gen-table">
     <thead>
         <tr>
-            {% for cell in entry.colLabels %}
-                {% assign style = entry.colStyles[forloop.index0] %}
-                <th class="{{style}}">
+            {% for cell in include.entry.colLabels %}
+                {% assign styleHeader = include.entry.colStyles[forloop.index0] %}
+                <th>
                     {{cell}}
                 </th>
             {% endfor %}
         </tr>
     </thead>
     <tbody>
-        {% for row in entry.rows %}
+        {% for row in include.entry.rows %}
 
-            {% include entry-table-row.html style=entry.colStyles row=row %}
+            {% include entry-table-row.html styleRow=include.entry.colStyles row=row %}
 
         {% endfor %}
     </tbody>

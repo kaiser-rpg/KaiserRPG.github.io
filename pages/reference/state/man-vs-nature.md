@@ -1,7 +1,10 @@
 ---
 title: Man vs Nature
 permalink: ref_state_nature.html
+toc: false
 ---
+
+{% include table-index.html index="STATE12" %}
 
 ## Falling
 You are considered to have the Falling State when you cannot stop your rapid decent towards a surface. The greater the height you fell, the greater the damage you take upon impact with a surface.
@@ -17,7 +20,7 @@ You can reduce the damage from landing by making an Acrobatics Skill Check again
 A standard human on a standard planet will fall 500 feet the first round and then each round that follows, they will fall 1000 feet. 
 
 ## Lack of Air
-You are considered to have the Lack of Air State when you cannot take in fresh air. If you were unprepared for the lack of air, during the End Phase, you must make a Difficulty Characteristic Check of 10 with your Constitution. Failure means you have run out of air and are at risk of falling unconscious. If you were prepared, you make the Characteristic Check every five rounds. Each time you pass the check, the difficulty increases by one. Additionally, some situations might cause you to lose your breath.
+You are considered to have the Lack of Air State when you cannot take in fresh air. If you were unprepared for the lack of air, each End Phase you must make a Difficulty Characteristic Check of 10 with your Constitution. Failure means you have run out of air and are at risk of falling unconscious. If you were prepared, the initial Characteristic Check is 5. Each time you pass the check, the difficulty increases by one. Additionally, some situations might cause you to lose your breath.
 
 Once you run out of air, you need to make a Physical Resistance Check each round to stay conscious. The difficulty starts at 8 and increases by 1 point with every success. Every round you are without air, you also gain a -1 All Action Penalty.
 
@@ -56,6 +59,3 @@ Your Speed and other values might be modified further by the restraint.
 You are considered to have the Fully Restrained State when you are fully and completely immobilized. For example, you are paralyzed.
 
 In addition to the penalties, you cannot take any action and your Movement Value becomes zero while in this state. Your other values might be modified further by the restraint.
-
-## Petrified
-You are considered to have the Petrified State when your very body has become rigid and immobile. Removing this state will depend on the power that gave it. While in this state, you are completely unable to perform any actions and are unaware of the passage of time.
