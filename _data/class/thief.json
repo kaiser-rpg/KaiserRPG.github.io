@@ -81,38 +81,38 @@
         "innate": [
             {
                 "name": "stealth",
-                "amount": 1,
+                "level": 1,
                 "gain": 1
             },
             {
                 "name": "sleight of hand",
-                "amount": 1,
+                "level": 1,
                 "gain": 1
             },
             {
                 "name": "theft",
-                "amount": 1,
+                "level": 1,
                 "gain": 1
             },
             {
                 "name": "notice",
-                "amount": 1,
+                "level": 1,
                 "gain": 1
             },
             {
                 "name": "search",
-                "amount": 1,
+                "level": 1,
                 "gain": 1
             },
             {
                 "name": "streetwise",
-                "amount": 1,
-                "gain": 2
+                "level": 2,
+                "gain": 1
             },
             {
                 "name": "appraisal",
-                "amount": 1,
-                "gain": 2
+                "level": 2,
+                "gain": 1
             }
         ],
         "reduced": [

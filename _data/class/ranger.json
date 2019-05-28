@@ -87,38 +87,38 @@
         "innate": [
             {
                 "name": "detect ki",
-                "amount": 1,
+                "level": 1,
                 "gain": 1
             },
             {
                 "name": "notice",
-                "amount": 1,
+                "level": 1,
                 "gain": 1
             },
             {
                 "name": "search",
-                "amount": 1,
+                "level": 1,
                 "gain": 1
             },
             {
                 "name": "intuition",
-                "amount": 1,
+                "level": 1,
                 "gain": 1
             },
             {
                 "name": "engineering",
-                "amount": 1,
-                "gain": 2
+                "level": 2,
+                "gain": 1
             },
             {
                 "name": "animals",
-                "amount": 1,
-                "gain": 2
+                "level": 2,
+                "gain": 1
             },
             {
                 "name": "herbal lore",
-                "amount": 1,
-                "gain": 2
+                "level": 2,
+                "gain": 1
             }
         ],
         "reduced": [

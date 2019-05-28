@@ -92,12 +92,12 @@
         "innate": [
             {
                 "name": "athletics",
-                "amount": 1,
+                "level": 1,
                 "gain": 1
             },
             {
                 "name": "feats of strength",
-                "amount": 1,
+                "level": 1,
                 "gain": 2
             }
         ],

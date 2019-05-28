@@ -80,7 +80,7 @@
         "innate": [
             {
                 "name": "chose: five different skills",
-                "amount": 1,
+                "level": 1,
                 "gain": 1
             }
         ]

@@ -85,8 +85,8 @@
         "innate": [
             {
                 "name": "feats of strength",
-                "amount": 1,
-                "gain": 2
+                "level": 1,
+                "gain": 1
             }
         ]
     },

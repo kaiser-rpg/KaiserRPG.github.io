@@ -81,37 +81,37 @@
         "innate": [
             {
                 "name": "notice",
-                "amount": 1,
+                "level": 1,
                 "gain": 1
             },
             {
                 "name": "search",
-                "amount": 1,
+                "level": 1,
                 "gain": 1
             },
             {
                 "name": "intuition",
-                "amount": 1,
+                "level": 1,
                 "gain": 1
             },
             {
                 "name": "stealth",
-                "amount": 1,
+                "level": 1,
                 "gain": 1
             },
             {
                 "name": "herbal lore",
-                "amount": 1,
+                "level": 1,
                 "gain": 1
             },
             {
                 "name": "composure",
-                "amount": 1,
+                "level": 1,
                 "gain": 1
             },
             {
                 "name": "disguise",
-                "amount": 1,
+                "level": 1,
                 "gain": 1
             }
         ],

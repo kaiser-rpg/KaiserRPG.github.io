@@ -102,8 +102,8 @@
         "innate": [
             {
                 "name": "occult",
-                "amount": 1,
-                "gain": 2
+                "level": 2,
+                "gain": 1
             }
         ]
     }

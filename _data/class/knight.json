@@ -91,18 +91,18 @@
         "innate": [
             {
                 "name": "leadership",
-                "amount": 1,
+                "level": 1,
                 "gain": 1
             },
             {
                 "name": "withstand pain",
-                "amount": 1,
+                "level": 1,
                 "gain": 1
             },
             {
                 "name": "style",
-                "amount": 1,
-                "gain": 2
+                "level": 2,
+                "gain": 1
             }
         ],
         "reduced": [

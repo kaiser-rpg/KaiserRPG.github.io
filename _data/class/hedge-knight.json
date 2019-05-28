@@ -91,22 +91,22 @@
         "innate": [
             {
                 "name": "intimidate",
-                "amount": 1,
+                "level": 1,
                 "gain": 1
             },
             {
                 "name": "composure",
-                "amount": 1,
+                "level": 1,
                 "gain": 1
             },
             {
                 "name": "style",
-                "amount": 1,
+                "level": 1,
                 "gain": 2
             },
             {
                 "name": "persuasion",
-                "amount": 1,
+                "level": 1,
                 "gain": 2
             }
         ],
