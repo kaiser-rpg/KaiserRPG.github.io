@@ -3,17 +3,8 @@
 entries:
 - title: Sidebar
   levels: one
+  home_url: /index.html
   folders:
-
-  - title: General
-    output: web
-    folderitems:
-    - title: Introduction
-      url: /index.html
-      output: web
-    - title: Rolling Dice
-      url: /rule_general_dice.html
-      output: web
 
   - title: Character Creation
     output: web
@@ -43,30 +34,14 @@ entries:
       url: /rule_creation_7_beyond.html
       output: web
 
-  - title: Game Play
-    output: web
-    folderitems:
-    - title: Movement Value
-      url: /rule_gameplay_move.html
-      output: web
-    - title: Size
-      url: /rule_gameplay_size.html
-      output: web
-    - title: Stamina
-      url: /rule_gameplay_stamina.html
-      output: web
-    - title: Powers
-      url: /rule_gameplay_power.html
-      output: web
-    - title: Trait
-      url: /rule_gameplay_trait.html
-      output: web
-
   - title: Skill
     output: web
     folderitems:
-    - title: Introduction
+    - title: Primary and Secondary Skills
       url: /rule_skill_intro.html
+      output: web
+    - title: Primary Skills
+      url: /rule_skill_combat.html
       output: web
     - title: Exertion
       url: /rule_skill_exertion.html
@@ -91,6 +66,27 @@ entries:
       output: web
     - title: Ki and Trade
       url: /rule_skill_other.html
+      output: web
+
+
+  - title: Game Play
+    output: web
+    folderitems:
+    
+    - title: Movement Value
+      url: /rule_gameplay_move.html
+      output: web
+    - title: Size
+      url: /rule_gameplay_size.html
+      output: web
+    - title: Stamina
+      url: /rule_gameplay_stamina.html
+      output: web
+    - title: Powers
+      url: /rule_gameplay_power.html
+      output: web
+    - title: Trait
+      url: /rule_gameplay_trait.html
       output: web
 
   - title: Combat
@@ -118,7 +114,6 @@ entries:
       url: /rule_combat_ranged.html
       output: web
     
-
   - title: Damage
     output: web
     folderitems:
@@ -138,7 +133,6 @@ entries:
       url: /rule_damage_role.html
       output: web
     
-
   - title: Actions
     output: web
     folderitems:

@@ -3,33 +3,26 @@
 entries:
 - title: Sidebar
   levels: one
+  home_url: /ref__intro.html
   folders:
 
-  - title: Domine
+  - title: States
     output: web
     folderitems:
     - title: Introduction
-      url: /ref_ki_intro.html
+      url: /ref_state_intro.html
       output: web
-    - title: Ki Abilities
-      url: /ki_ability.html
+    - title: Man vs Man
+      url: /ref_state_man.html
       output: web
-    - title: Technique Compendium
-      url: /ki_technique.html
+    - title: Man vs Nature
+      url: /ref_state_nature.html
       output: web
-    
-  - title: Spells
-    output: web
-    folderitems:
-    - title: Introduction
-      url: /ref_spell_intro.html
+    - title: Man vs Self
+      url: /ref_state_self.html
       output: web
-
-  - title: Phenoms
-    output: web
-    folderitems:
-    - title: Introduction
-      url: /ref_phenom_intro.html
+    - title: Man vs Society
+      url: /ref_state_society.html
       output: web
 
   - title: Items

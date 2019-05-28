@@ -10,6 +10,6 @@ topnav:
     - title: Rules
       url: /index.html
     - title: Character Options
-      url: /rule_character_intro.html
+      url: /char__intro.html
     - title: References
-      url: /rule_ref_intro.html
+      url: /ref__intro.html

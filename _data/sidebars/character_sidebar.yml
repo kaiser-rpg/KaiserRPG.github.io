@@ -3,14 +3,12 @@
 entries:
 - title: Sidebar
   levels: one
+  home_url: /char__intro.html
   folders:
 
   - title: Classes
     output: web
     folderitems:
-    - title: Introduction
-      url: /class_intro.html
-      output: web
     - title: Freelancer
       url: /class_freelancer.html
       output: web
@@ -71,12 +69,10 @@ entries:
     - title: Phenomenal Wizard
       url: /class_phenomenal_wizard.html
       output: web
+
   - title: Traits
     output: web
     folderitems:
-    - title: Introduction
-      url: /character_trait_intro.html
-      output: web
     - title: Common Traits
       url: /trait_common.html
       output: web
@@ -89,13 +85,96 @@ entries:
     - title: Legacies of Blood
       url: /trait_legacy.html
       output: web
+
   - title: Races
     output: web
     folderitems:
-    - title: Introduction
-      url: /character_race_intro.html
-      output: web
     - title: Human
       url: /race_human.html
       output: web
+
+  - title: Combat Modules
+    output: web
+    folderitems:
+    - title: Style Modules
+      url: /char_module_style.html
+      output: web
+    - title: Maneuver Modules
+      url: /char_module_martial.html
+      output: web
+    - title: Supernatural Modules
+      url: /char_module_super.html
+      output: web
     
+  - title: Spirit Talents
+    output: web
+    folderitems:
+    - title: Ki Talents
+      url: /char_spirit_talent.html
+      output: web
+    - title: Technique Creation
+      url: /char_spirit_tech_creation.html
+      output: web
+    - title: Technique Compendium
+      url: /char_spirit_tech_compendium.html
+      output: web
+
+  - title: Martial Arts
+    output: web
+    folderitems:
+    - title: Base Martial Arts
+      url: /char_spirit_base_martial_arts.html
+      output: web
+    - title: Arcane Martial Arts
+      url: /char_spirit_arcane_martial_arts.html
+      output: web 
+
+  - title: Great Arts
+    output: web
+    folderitems:
+    - title: Minor Arts
+      url: /char_spirit_minor_arts.html
+      output: web
+    - title: Major Arts
+      url: /char_spirit_major_arts.html
+      output: web  
+    - title: Impossible Weapons
+      url: /char_spirit_impossible_weapon.html
+      output: web  
+
+  - title: Magic
+    output: web
+    folderitems:
+    - title: Meta Magic
+      url: /char_magic_meta.html
+      output: web
+    - title: Minor Conjuring Pacts
+      url: /char_magic_minor_pact.html
+      output: web
+    - title: Major Conjuring Pacts
+      url: /char_magic_major_pact.html
+      output: web
+    - title: Arcana
+      url: /char_magic_arcana_pact.html
+      output: web
+  
+  - title: Spell Paths
+    output: web
+    folderitems:
+    - title: Light
+      url: /char_magic_spell_light.html
+      output: web
+
+  - title: Sub-Paths
+    output: web
+    folderitems:
+    - title: Dragon
+      url: /char_magic_spell_dragon.html
+      output: web
+
+  - title: Phenom Disciplines
+    output: web
+    folderitems:
+    - title: Mind
+      url: /char_manifest_mind.html
+      output: web

@@ -13,7 +13,7 @@ Once your LP falls below zero, you enter a state known as Between Life and Death
 
 Once you succeed, you no longer lose 10 LP every hour but are still unconscious. While in this stable state, you naturally recover LP as per your Regeneration Value. If you take any damage while in this state, you go back to Between Life and Death. While you are unconscious, you still require food and water and can be harmed by exposure to the element. If these needs are not meet, you start to suffer damage as per their rules. You can also be stabilized with a Medicine Skill Check of 8.
 
-Once your LP is above 0, you regain consciousness – although you have a -6 All Action Penalty. The penalty is reduced by what is stated in your Regeneration Value.
+Once your LP is above 0, you regain consciousness – although you have a -6 All Action Penalty. The penalty is reduced by what is listed in your Regeneration Value.
 
 ## Death
 The most common way to die is by suffering enough damage that your body loses the will to continue. This occurs when your LP is at a negative value greater than half of your total LP. The other common way to die is when you suffer a sufficiently high-level Critical that causes your head to be amputated or your heart to fail. There are some other ways to die, like a spell effect causing immediate death or a phenom causing brain damage. But those methods have their own rules.

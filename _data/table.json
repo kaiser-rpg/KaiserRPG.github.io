@@ -2142,6 +2142,34 @@
 		}
 	},
 	{
+		"title": "Falling",
+		"index": "STATE30",
+		"table": {
+			"type": "table",
+			"colLabels": [
+				"Distance",
+				"Difficulty Skill Check",
+				"Base Damage"
+			],
+			"colStyles": [
+				"col-3",
+				"col-6",
+				"col-3"
+			],
+			"rows": [
+				["5 feet","Easy (4)","1"],
+["10 feet","Moderate (8)","2"],
+["20 feet","Difficult (12)","4"],
+["30 feet","Very Difficult (16)","6"],
+["40 feet","Absurd (20)","8"],
+["50 feet","Almost Impossible (24)","10"],
+["60 feet","Impossible (28)","12"],
+["100 feet","Inhuman (32)","20"],
+["1,000 feet","Zen (44)","30"]
+			]
+		}
+	},
+	{
 		"title": "Exhaustion Penalties",
 		"index": "TER1",
 		"table": {

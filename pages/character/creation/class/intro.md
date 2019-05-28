@@ -6,7 +6,22 @@ permalink: class_intro.html
 Classes represent the areas that you have specialized in. Below, the contents of a class are outlined.
 
 ## Archetype
-Each class has at least one. This tells you what the class is best at in a very broad sense. This also determines the cost of Changing Classes, if the optional rule is used.
+
+Each class belongs to one or two archetypes which signals what you can expect that class to be able to do efficiently with your XP. There are seven Archetypes.
+
+**Fighter**: The Fighter specializes in using weapons, armor, or their own bodies in combat. This Archetype is the most combat focused.
+
+**Spiriter**: The Spiriter use the spiritual energies found within themselves, commonly known as ki, to perform tasks that a normal man could not.
+
+**Caster**: The Caster specialize in casting spells by using the mana that their spirit has attracted. Using these spells, a caster can perform all sorts of extraordinary feats.
+
+**Conjurer**: The Conjurer is the one who is best able to tie their spirit with another entity and either borrow its power or submit it to the their will.
+
+**Manifester**: The Manifester specializes in manifesting phenomenons just by the power of their will.
+
+**Explorer**: The Explorer gains excellent bonuses to their Secondary Skills, allowing them to handle many different situations.
+
+**Freelancer**: The Freelancer is one who can be the jack-of-all-trades or the at least pretty good at one.
 
 ## General
 The General Group contains some Innate Bonuses and defines the cost of gain more Life Points. No class has a limit to this expense.
