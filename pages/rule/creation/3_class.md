@@ -21,4 +21,4 @@ Each class belongs to one or two archetypes which signals what you can expect th
 
 **Freelancer**: The Freelancer is one who can be the jack-of-all-trades or the at least pretty good at one.
 
-The list of twenty classes can be found [here](todo).
+The list of twenty classes can be found [here](class_intro.html).

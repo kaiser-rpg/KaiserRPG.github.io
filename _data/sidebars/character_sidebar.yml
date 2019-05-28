@@ -9,43 +9,37 @@ entries:
     output: web
     folderitems:
     - title: Introduction
-      url: /character_class_intro.html
+      url: /class_intro.html
       output: web
     - title: Freelancer
       url: /class_freelancer.html
       output: web
-    - title: Warrior
-      url: /class_warrior.html
+    - title: Champion
+      url: /class_champion.html
       output: web
     - title: Acrobatic Warrior
       url: /class_acrobatic_warrior.html
       output: web
-    - title: Knight
-      url: /class_knight.html
-      output: web
-    - title: Hedge Knight
-      url: /class_hedge_knight.html
-      output: web
     - title: Weapon Master
       url: /class_weapon_master.html
       output: web
-    - title: Domine Master
-      url: /class_domine_master.html
-      output: web
-    - title: Martial Artist
-      url: /class_martial_artist.html
-      output: web
-    - title: Ranger
-      url: /class_ranger.html
-      output: web
-    - title: Shadow
-      url: /class_shadow.html
+    - title: Assassin
+      url: /class_assassin.html
       output: web
     - title: Thief
       url: /class_thief.html
       output: web
-    - title: Assassin
-      url: /class_assassin.html
+    - title: Shadow
+      url: /class_shadow.html
+      output: web
+    - title: Ranger
+      url: /class_ranger.html
+      output: web
+    - title: Spirit Master
+      url: /class_spirit_master.html
+      output: web
+    - title: Martial Artist
+      url: /class_martial_artist.html
       output: web
     - title: Wizard
       url: /class_wizard.html
@@ -56,20 +50,26 @@ entries:
     - title: Trickster
       url: /class_trickster.html
       output: web
-    - title: Wizard Mentalist
-      url: /class_wizard_mentalist.html
+    - title: Mystic
+      url: /class_mystic.html
       output: web
-    - title: Summoner
-      url: /class_summoner.html
+    - title: Mystic Warrior
+      url: /class_mystic_warrior.html
       output: web
-    - title: Warrior Summoner
-      url: /class_warrior_summoner.html
+    - title: Knight
+      url: /class_knight.html
       output: web
-    - title: Mentalist
-      url: /class_mentalist.html
+    - title: Hedge Knight
+      url: /class_hedge_knight.html
       output: web
-    - title: Warrior Mentalist
-      url: /class_warrior_mentalist.html
+    - title: Phenomenal
+      url: /class_phenomenal.html
+      output: web
+    - title: Phenomenal Warrior
+      url: /class_phenomenal_warrior.html
+      output: web
+    - title: Phenomenal Wizard
+      url: /class_phenomenal_wizard.html
       output: web
   - title: Traits
     output: web

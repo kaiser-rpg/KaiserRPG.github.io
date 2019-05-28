@@ -2,14 +2,25 @@
 
 {% include class/archetype.html list=class.archetype %}
 
-{% include class/general.html data=class.general %}
-
-{% include class/martial.html data=class.martial %}
-
-{% include class/magic.html data=class.magic %}
-
-{% include class/psychic.html data=class.psychic %}
-
-{% include class/secondary.html data=class.secondary %}
-
-{% include class/special.html data=class.special %}
+<table>
+    <tr>
+        <td>
+            {% include class/general.html data=class.general %}
+            {% include class/special.html data=class.special %}
+        </td>
+        <td colspan="2">
+            {% include class/secondary.html data=class.secondary %}
+        </td>
+    </tr>
+    <tr>
+        <td class='tri-table'>
+            {% include class/martial.html data=class.martial %}
+        </td>
+        <td class='tri-table'>
+            {% include class/magic.html data=class.magic %}
+        </td>
+        <td class='tri-table'>
+            {% include class/psychic.html data=class.psychic %}
+        </td>
+    </tr>
+</table>

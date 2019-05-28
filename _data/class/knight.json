@@ -1,0 +1,121 @@
+{
+    "name": "knight",
+    "archetype": [
+        "fighter", "conjurer"
+    ],
+    "general": {
+        "lpMult": 3,
+        "innate": [
+            {
+                "name": "life points",
+                "level": 1,
+                "gain": 15
+            },
+            {
+                "name": "initiative",
+                "level": 2,
+                "gain": 1
+            }
+        ]
+    },
+    "martial": {
+        "limit": 60,
+        "strike": 4,
+        "block": 4,
+        "dodge": 4,
+        "wearArmor": 4,
+        "kiPoint": 2,
+        "chakra": 2,
+        "innate": [
+            {
+                "name": "spirit knowledge",
+                "level": 1,
+                "gain": 2
+            },
+            {
+                "name": "block",
+                "level": 2,
+                "gain": 1,
+                "max": 5
+            },
+            {
+                "name": "wear armor",
+                "level": 1,
+                "gain": 1
+            }
+        ]
+    },
+    "magic": {
+        "limit": 50,
+        "manaPoint": 2,
+        "mAcc": 6,
+        "mRec": 2,
+        "mPrj": 5,
+        "summon": 5,
+        "control": 5,
+        "banish": 3,
+        "innate": [
+            {
+                "name": "mana",
+                "level": 1,
+                "gain": 20
+            },
+            {
+                "name": "banish",
+                "level": 1,
+                "gain": 1
+            }
+        ]
+    },
+    "psychic": {
+        "limit": 50,
+        "pPoint": 2,
+        "pPrj": 5,
+        "innate": [
+            {
+                "name": "phenom point",
+                "level": 3,
+                "gain": 1
+            }
+        ]
+    },
+    "secondary": {
+        "exertion": 4,
+        "social": 3,
+        "perception": 4,
+        "intellectual": 4,
+        "vigor": 4,
+        "subterfuge": 5,
+        "creative": 4,
+        "trade": 4,
+        "innate": [
+            {
+                "name": "leadership",
+                "amount": 1,
+                "gain": 1
+            },
+            {
+                "name": "withstand pain",
+                "amount": 1,
+                "gain": 1
+            },
+            {
+                "name": "style",
+                "amount": 1,
+                "gain": 2
+            }
+        ],
+        "reduced": [
+            {
+                "name": "withstand pain",
+                "cost": 3,
+                "gain": 1
+            }
+        ]
+    },
+    "special": {
+        "entries": [
+            "You can exchange Innate Bonus to banish and mana for a +1 composure per level."
+        ]
+    }
+}

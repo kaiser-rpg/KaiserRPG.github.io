@@ -1,0 +1,98 @@
+{
+    "name": "weapon master",
+    "archetype": [
+        "fighter"
+    ],
+    "general": {
+        "lpMult": 2,
+        "innate": [
+            {
+                "name": "life points",
+                "level": 1,
+                "gain": 20
+            },
+            {
+                "name": "initiative",
+                "level": 2,
+                "gain": 1
+            }
+        ]
+    },
+    "martial": {
+        "limit": 60,
+        "strike": 4,
+        "block": 4,
+        "dodge": 4,
+        "wearArmor": 3,
+        "kiPoint": 3,
+        "chakra": 3,
+        "innate": [
+            {
+                "name": "spirit knowledge",
+                "level": 1,
+                "gain": 1
+            },
+            {
+                "name": "strike",
+                "level": 2,
+                "gain": 1,
+                "max": 5
+            },
+            {
+                "name": "block",
+                "level": 2,
+                "gain": 1,
+                "max": 5
+            },
+            {
+                "name": "wear armor",
+                "level": 1,
+                "gain": 1
+            }
+        ]
+    },
+    "magic": {
+        "limit": 50,
+        "manaPoint": 3,
+        "mAcc": 7,
+        "mRec": 3,
+        "mPrj": 5,
+        "summon": 5,
+        "control": 5,
+        "banish": 5
+    },
+    "psychic": {
+        "limit": 50,
+        "pPoint": 2,
+        "pPrj": 5,
+        "innate": [
+            {
+                "name": "phenom point",
+                "level": 3,
+                "gain": 1
+            }
+        ]
+    },
+    "secondary": {
+        "exertion": 4,
+        "social": 4,
+        "perception": 4,
+        "intellectual": 5,
+        "vigor": 3,
+        "subterfuge": 5,
+        "creative": 4,
+        "trade": 4,
+        "innate": [
+            {
+                "name": "feats of strength",
+                "amount": 1,
+                "gain": 2
+            }
+        ]
+    },
+    "special": {
+        "entries": [
+            "You can purchase Combat Modules for half the normal XP, round down. A module reduced to 0 XP can be mastered immediately."
+        ]
+    }
+}

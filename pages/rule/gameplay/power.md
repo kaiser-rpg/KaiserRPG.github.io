@@ -6,7 +6,7 @@ permalink: rule_gameplay_power.html
 In Kaiser, there are many different abilities and features that grant you special powers. Powers can come from many different sources, such as spirit, mana, and phenom, but they share many similar rules. These rules are described below.
 
 ## Powers and Actions
-When you wish to use a power, you must take the appropriate action to activate it. Involved powers require it to be your turn in the Initiative and then you must take the [Use an Involved Power](todo) action. A Swift power can be used at any time during the round by taking the [Use a Swift Power](todo) action.
+When you wish to use a power, you must take the appropriate action to activate it. Involved powers require it to be your turn in the Initiative and then you must take the [Use an Involved Power](todo.html) action. A Swift power can be used at any time during the round by taking the [Use a Swift Power](todo.html) action.
 
 ## Types of Powers
 Below are the types of powers that you can find in Kaiser. The description of each type includes how to use your Offensive or Defensive Skills (if required) and if the power can be seen on the material plane.
@@ -57,7 +57,7 @@ Many powers share similar features. Below are some general rules that are descri
 ### Immaterial
 Ghosts, spirits, and other creatures that do not fully exist on the material plane have a trait called immaterial. This trait gives them the ability to ignore material objects like weapons, armor, and shields; this can make them difficult or impossible to fight.
 
-In order to hit a creature with the immaterial trait, your attack must have the imbued trait, meaning it is imbued with energy capable of interacting with an immaterial creature. All attacks that deal damage from the Energy Group naturally have the imbued trait. For Physical and Elemental damage, you need to gain the imbued trait from some other feature, ability, or power. Whether a power, dealing damage from the Resistance Group, is imbued will be listed in the power’s description.
+In order to hit a creature with the immaterial trait, your attack must have the imbued trait, meaning it is imbued with energy capable of interacting with an immaterial creature. All attacks that deal damage from the Energy Group naturally have the imbued trait. For Physical and Elemental damage, you need to gain the imbued trait from some other feature, ability, or power. Whether a power, dealing damage from the Resistance Group, is imbued will be listed in the power's description.
 
 Similarly, a creature with the immaterial trait will make its attacks immaterial as well. To defend against such an attack, you must either dodge or block it with an imbued object.
 
@@ -78,7 +78,7 @@ In general, the presence of equipment, cloths, and even most artifacts do not ne
 For example, if you were to cast the spell Invisibility at the Base Degree you can affect a maximum of 10 presence. So, you can target three creatures with 3 presence each, two creatures with 5 presence each, or one creature with 6 presence and another with 4 presence. Anything the creature is carrying does not count toward the presence total. So, a target holding a magic sword with the presence of 12 would still turn the sword invisible until they drop it. But since the sword has a presence higher than the spells affected amount the sword cannot be targeted.
 
 ### Target Selection
-You are not able to specify targets for an area attack unless otherwise listed. If you are unaware of a creature’s existence within the area, you cannot deselect them even if the power allows.
+You are not able to specify targets for an area attack unless otherwise listed. If you are unaware of a creature's existence within the area, you cannot deselect them even if the power allows.
 
 ### Allowing the Effect
 If the target desires to be affected by a power they are aware of, then they can choose to fail the Resistance Check. If the target has multiple personalities controlling it, then only if all the personalities agree can the target choose to fail. If for instance you are possessed by a spirit, the spirit and you may not both agree to being healed or being subject to a paralyzing power.
@@ -104,3 +104,10 @@ Any bonus or penalty that comes from a Maneuver, Situation, or State are added t
 A characteristic bonus or penalty will increase or decrease one of your Characteristics, such as Strength or Perception. Any bonus gained from multiple powers will apply the greatest bonus. Any penalty gained from multiple powers will apply the worst penalty. 
 
 Some powers allow you to sacrifice a point in a characteristic to gain some special benefit. When this is done, it reduces your base Characteristic, so it does not count as a penalty.
+
+## Power Collision
+It is possible for two powers or supernaturally charged objects to collide with one another. The results of the collision will depend on the strength of the colliding projectiles. To create a collision, you must meet three criteria: you have to take the Collide Power Reaction, be in a position and have the ability to make a parallel shot, and have an Initiative within 5 points of the opponent that launched the original projectile, or surpass their Initiative. Then you use a ranged attack power (or shoot a supernaturally charged projectile as a Reaction) at the opposing power. You make an Offensive Roll and the result must be within 5 points of the opposing roll, or surpass it. If you achieve this result, then both you and the opponent roll 2d6 and add the Base Damage of the Power. The Degree of Difference (DoD) is compared to the below table.
+
+{% include table-index.html index="MAGIC60" %}
+
+It is possible to have two or more powers combine during a collision. The value added to the Collision roll is the highest Base Damage of the combined Powers, and then half the second greatest, and a third of the third greatest, and so on.

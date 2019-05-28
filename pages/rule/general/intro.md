@@ -10,7 +10,7 @@ Once you finish reading this page, we recommend reading the Character Creation c
 ## Playing Kaiser
 This website is the first item you will need before you start playing Kaiser. The only other thing required is a pair of six-sided dice and a set of percentile dice. You can get by with sharing dice between players, but it is recommended that each player and the GM have a pair or more of dice.
 
-Players will need a writing utensil and paper on which to write their characters' abilities. You can find a character sheet [here](todo.md) to make keeping track of each character easier. Lastly, a miniature or token that can be used to represent your location during conflict can enrich the game.
+Players will need a writing utensil and paper on which to write their characters' abilities. You can find a character sheet [here](todo.html) to make keeping track of each character easier. Lastly, a miniature or token that can be used to represent your location during conflict can enrich the game.
 
 The GM will require this site so they understand the rules of the game. After that, it is up to their imagination. Notes on what can happen during a game, what has happened in the past, and what the players face right now is handy but can be improvised if that is the style of game.
 

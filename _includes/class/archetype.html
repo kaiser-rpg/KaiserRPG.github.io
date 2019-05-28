@@ -1,7 +1,10 @@
 <div>
     <span class="entry-inline-title">Achetype</span>: 
-    {% for item in include.list %}
+    <span style='text-transform: capitalize'>
+        {% for item in include.list %}
+            {% if forloop.first != true %} & {% endif %}
             {{item}}
-    {% endfor %}
+        {% endfor %}
+    </span>
 </div>
     

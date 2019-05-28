@@ -1,0 +1,88 @@
+{
+    "name": "phenomenal wizard",
+    "archetype": [
+        "caster", "manifester"
+    ],
+    "general": {
+        "lpMult": 4,
+        "innate": [
+            {
+                "name": "life points",
+                "level": 1,
+                "gain": 5
+            },
+            {
+                "name": "initiative",
+                "level": 2,
+                "gain": 1
+            }
+        ]
+    },
+    "martial": {
+        "limit": 50,
+        "strike": 5,
+        "block": 5,
+        "dodge": 4,
+        "wearArmor": 5,
+        "kiPoint": 3,
+        "chakra": 3,
+        "innate": [
+            {
+                "name": "spirit knowledge",
+                "level": 1,
+                "gain": 1
+            }
+        ]
+    },
+    "magic": {
+        "limit": 50,
+        "manaPoint": 1,
+        "mAcc": 5,
+        "mRec": 2,
+        "mPrj": 4,
+        "summon": 4,
+        "control": 4,
+        "banish": 4,
+        "innate": [
+            {
+                "name": "mana",
+                "level": 1,
+                "gain": 100
+            }
+        ]
+    },
+    "psychic": {
+        "limit": 50,
+        "pPoint": 1,
+        "pPrj": 4,
+        "innate": [
+            {
+                "name": "phenom point",
+                "level": 1,
+                "gain": 1
+            }
+        ]
+    },
+    "secondary": {
+        "exertion": 4,
+        "social": 4,
+        "perception": 4,
+        "intellectual": 4,
+        "vigor": 5,
+        "subterfuge": 4,
+        "creative": 4,
+        "trade": 4,
+        "innate": [
+            {
+                "name": "magic appraisal",
+                "amount": 1,
+                "gain": 1
+            },
+            {
+                "name": "occult",
+                "amount": 1,
+                "gain": 2
+            }
+        ]
+    }
+}

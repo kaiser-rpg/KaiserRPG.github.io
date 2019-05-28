@@ -1,0 +1,147 @@
+{
+    "name": "ranger",
+    "archetype": [
+        "fighter", "explorer"
+    ],
+    "general": {
+        "lpMult": 4,
+        "innate": [
+            {
+                "name": "life points",
+                "level": 1,
+                "gain": 10
+            },
+            {
+                "name": "initiative",
+                "level": 2,
+                "gain": 1
+            }
+        ]
+    },
+    "martial": {
+        "limit": 60,
+        "strike": 4,
+        "block": 4,
+        "dodge": 4,
+        "wearArmor": 4,
+        "kiPoint": 2,
+        "chakra": 3,
+        "innate": [
+            {
+                "name": "spirit knowledge",
+                "level": 1,
+                "gain": 2
+            },
+            {
+                "name": "strike",
+                "level": 2,
+                "gain": 1,
+                "max": 5
+            },
+            {
+                "name": "block or dodge<br>chose one",
+                "level": 2,
+                "gain": 1,
+                "max": 5
+            }
+        ]
+    },
+    "magic": {
+        "limit": 50,
+        "manaPoint": 3,
+        "mAcc": 7,
+        "mRec": 3,
+        "mPrj": 5,
+        "summon": 5,
+        "control": 5,
+        "banish": 5,
+        "innate": [
+            {
+                "name": "mana",
+                "level": 1,
+                "gain": 5
+            }
+        ]
+    },
+    "psychic": {
+        "limit": 50,
+        "pPoint": 2,
+        "pPrj": 5,
+        "innate": [
+            {
+                "name": "phenom point",
+                "level": 3,
+                "gain": 1
+            }
+        ]
+    },
+    "secondary": {
+        "exertion": 4,
+        "social": 4,
+        "perception": 3,
+        "intellectual": 5,
+        "vigor": 5,
+        "subterfuge": 4,
+        "creative": 4,
+        "trade": 4,
+        "innate": [
+            {
+                "name": "detect ki",
+                "amount": 1,
+                "gain": 1
+            },
+            {
+                "name": "notice",
+                "amount": 1,
+                "gain": 1
+            },
+            {
+                "name": "search",
+                "amount": 1,
+                "gain": 1
+            },
+            {
+                "name": "intuition",
+                "amount": 1,
+                "gain": 1
+            },
+            {
+                "name": "engineering",
+                "amount": 1,
+                "gain": 2
+            },
+            {
+                "name": "animals",
+                "amount": 1,
+                "gain": 2
+            },
+            {
+                "name": "herbal lore",
+                "amount": 1,
+                "gain": 2
+            }
+        ],
+        "reduced": [
+            {
+                "name": "animals",
+                "cost": 3,
+                "gain": 1
+            },
+            {
+                "name": "engineering",
+                "cost": 3,
+                "gain": 1
+            },
+            {
+                "name": "herbal lore",
+                "cost": 4,
+                "gain": 1
+            },
+            {
+                "name": "medicine",
+                "cost": 4,
+                "gain": 1
+            }
+        ]
+    }
+}

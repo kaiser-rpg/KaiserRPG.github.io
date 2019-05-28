@@ -16,7 +16,7 @@ In this section we will explain the different effects that Criticals can produce
 
 When you fail the PhR Check, you automatically suffer an All Action Penalty equal to the Degree of Failure. Additionally, you lose 1 AP for each DoF. 
 
-If the DoF is 5 or less, the attack may have been painful, but it leaves nothing more than some bruises and a nice scar. You gain an All Action Penalty, caused by momentary shock and pain, not any lasting physical effects, and it disappears at a rate of 1 per round until it vanishes completely. It isn’t necessary, therefore, to determine the location of the hit, because there are no additional effects.
+If the DoF is 5 or less, the attack may have been painful, but it leaves nothing more than some bruises and a nice scar. You gain an All Action Penalty, caused by momentary shock and pain, not any lasting physical effects, and it disappears at a rate of 1 per round until it vanishes completely. It isn't necessary, therefore, to determine the location of the hit, because there are no additional effects.
 
 If the DoF is greater than 6+, the damage you suffer involves something seriously incapacitating – like broken bones or joint dislocations. The Action Penalty will last until you recover based on your Regeneration Value. If the attack was not a Directed Attack, use the General Hit Location Table to decide the body part affected. If it hits the head, the combatant is automatically unconscious.
 
@@ -33,6 +33,6 @@ As always, creating an appropriately colorful description for Criticals is in th
 ## Vulnerable Points
 There are certain places on the body that are more vulnerable to Criticals than others. These vulnerable points are areas most sensitive to damage. If you receive a blow directed at a vulnerable point, losing a mere 10% of your current Life Points is enough to cause a Critical.
 
-For any human, the head and heart are vulnerable points – although animals and supernatural creatures may not follow that pattern. Some entities, in fact, don’t even have such weak points; hitting them for half their remaining LP is the only way to cause them a Critical.
+For any human, the head and heart are vulnerable points – although animals and supernatural creatures may not follow that pattern. Some entities, in fact, don't even have such weak points; hitting them for half their remaining LP is the only way to cause them a Critical.
 
 {% include example.html content="With 160 LP and in perfect health, Klaus needs to lose 80 LP from a single hit to cause a Critical and make a PhR Check. But an attack directed at his head only needs to cause 16 points before he is forced to make such a check because his head is a vulnerable point."%}
