@@ -214,3 +214,10 @@ entries:
     - title: Introduction
       url: /rule_phenom_intro.html
       output: web
+
+  - title: High Level Game Play
+    output: web
+    folderitems:
+    - title: High Characteristics
+      url: /rule_hl_characteristic.html
+      output: web
