@@ -1,0 +1,20 @@
+<h3>{{include.talent.name}}</h3>
+<div>
+    <span class='entry-inline-title'>Requirement</span>: {{include.talent.req}}
+</div>
+<div>
+    <span class='entry-inline-title'>Cost</span>: {{include.talent.cost}} SK
+</div> 
+<div>
+    <span class='entry-inline-title'>Action</span>: {{include.talent.action | capitalize}}
+</div> 
+<div>
+    <span class='entry-inline-title'>Maintained</span>: {{include.talent.maint | capitalize}}
+</div> 
+<div>
+    <span class='entry-inline-title'>Power Type</span>: {{include.talent.power | join: " "}}
+</div> 
+<div>
+{% include entry.html entries=include.talent.entries %}
+</div>
+

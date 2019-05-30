@@ -1,102 +1,1618 @@
 [
     {
         "name": "Use of Ki",
-        "SK": 40,
-        "power":"passive",
+        "id": "0100_0000_0000_0000_0000_0000_0000_0000",
+        "req": "none",
+        "reqId": "0000_0000_0000_0000_0000_0000_0000_0000",
+        "cost": 4,
         "action": "none",
-        "maintained": "none",
-        "requirement": "none",
-        "entries":[
-            "This is the requirement for all other talents. You can harness the ki your body and spirit generate."
+        "maint": "none",
+        "power": [
+            "passive"
+        ],
+        "entries": [
+            "You have learned how to harness the energies created by your spirit inhabiting a body, called ki. This talent is the basis of all others since it makes you aware of your own potential."
         ]
     },
     {
         "name": "Gross Ki Control",
-        "SK": 10,
-        "power":"passive",
+        "id": "0100_0100_0000_0000_0000_0000_0000_0000",
+        "req": "Use of Ki",
+        "reqId": "0100_0000_0000_0000_0000_0000_0000_0000",
+        "cost": 1,
         "action": "none",
-        "maintained": "none",
-        "requirement": "Use of Ki",
-        "entries":[
-            "This talent gives you control over the gross movements of your spiritual energy. Once you master this talent and the Fine Ki Control, you can use techniques."
+        "maint": "none",
+        "power": [
+            "passive"
+        ],
+        "entries": [
+            "Mastery of this talent gives you control over powerful, but inaccurate, spiritual energies. Once you learn the Fine Ki Control talent as well, you can learn and perform ki techniques."
+        ]
+    },
+    {
+        "name": "Combat Aura",
+        "id": "0100_0100_0100_0000_0000_0000_0000_0000",
+        "req": "Gross Ki Control",
+        "reqId": "0100_0100_0000_0000_0000_0000_0000_0000",
+        "cost": 4,
+        "action": "swift",
+        "maint": "minor",
+        "power": [
+            "effect",
+            "trigger"
+        ],
+        "entries": [
+            "Your body and spirit have synchronized to produce an aura that unsettles those nearby. This is sometimes called \"killer instinct\" and can cause weaker spirits to tremble or faint.",
+            "All creatures within the aura whose presence is 2 points less than yours must make a PrR Check or a Composure Check against a difficulty equal to the sum of your presence and a tenth of your chakras, round down. Any All Action Penalty or penalty to physical actions lowers the difficulty since your physical body is also weakened.",
+            {
+                "type": "example",
+                "entries": [
+                    "Spike has a presence of 6 and the sum of his three chakras is 24. So the PrR has a difficulty of 8 (6 + 24/10)."
+                ]
+            },
+            "When a creature is successful on the PrR Check, they cannot be affected by your aura again for 24 hours. On a failure, the Degree of Failure determines the effect.",
+            {
+                "type": "entries",
+                "entries": [
+                    {
+                        "type": "entries",
+                        "name": "Degree of Failure 1 to 2",
+                        "entries": [
+                            "The Combat Aura has caused a small stroke of fear. The creature gains the Shaken State. They can repeat the PrR Check every DoF round(s), although the result cannot be made worse."
+                        ]
+                    },
+                    {
+                        "type": "entries",
+                        "name": "Degree of Failure 3 to 5",
+                        "entries": [
+                            "Irrational fear has taken hold. The creature gains the Frightened State. They can repeat the PrR Check every DoF round(s), although the result cannot be made worse."
+                        ]
+                    },
+                    {
+                        "type": "entries",
+                        "name": "Degree of Failure 6 to 10",
+                        "entries": [
+                            "The creature can only cower in fear of your presence. They gain the Cowering State. They can repeat the PrR Check every DoF round(s) or if their life is in danger, although the result cannot be made worse."
+                        ]
+                    },
+                    {
+                        "type": "entries",
+                        "name": "Degree of Failure 11 or greater",
+                        "entries": [
+                            "The creature becomes completely immobile and unresponsive. They gain the Terror State. They cannot repeat the PrR Check until they witness something that gives them hope, then they can make a new check every DoF round(s), although the result cannot be made worse. The creature can gain hope from seeing you can be beaten or a inspiring speech."
+                        ]
+                    }
+                ]
+            },
+            "The aura will affect all creatures in a radius equal to your presence times 15 feet.",
+            "Activating the aura is a Swift Action and costs 1 ki point. Every 5 turns, 1 ki point is removed from your reserve to maintain the aura. The aura can be ended with another Swift Action."
+        ]
+    },
+    {
+        "name": "Cancel Spirit",
+        "id": "0100_0100_0100_0100_0000_0000_0000_0000",
+        "req": "Combat Aura",
+        "reqId": "0100_0100_0100_0000_0000_0000_0000_0000",
+        "cost": 5,
+        "action": "swift",
+        "maint": "turn",
+        "power": [
+            "attack",
+            "defense",
+            "effect",
+            "automatic",
+            "trigger",
+            "detection",
+            "passive"
+        ],
+        "entries": [
+            "TODO"
+        ]
+    },
+    {
+        "name": "Advanced Cancel Spirit",
+        "id": "0100_0100_0100_0100_0100_0000_0000_0000",
+        "req": "Cancel Spirit",
+        "reqId": "0100_0100_0100_0100_0000_0000_0000_0000",
+        "cost": 7,
+        "action": "swift",
+        "maint": "turn",
+        "power": [
+            "attack",
+            "defense",
+            "effect",
+            "automatic",
+            "trigger",
+            "detection",
+            "passive"
+        ],
+        "entries": [
+            "TODO"
+        ]
+    },
+    {
+        "name": "Cancel Spell",
+        "id": "0100_0100_0100_0200_0000_0000_0000_0000",
+        "req": "Combat Aura",
+        "reqId": "0100_0100_0100_0000_0000_0000_0000_0000",
+        "cost": 5,
+        "action": "swift",
+        "maint": "turn",
+        "power": [
+            "attack",
+            "defense",
+            "effect",
+            "automatic",
+            "trigger",
+            "detection",
+            "passive"
+        ],
+        "entries": [
+            "TODO"
+        ]
+    },
+    {
+        "name": "Advanced Cancel Spell",
+        "id": "0100_0100_0100_0200_0100_0000_0000_0000",
+        "req": "Cancel Spell",
+        "reqId": "0100_0100_0100_0200_0000_0000_0000_0000",
+        "cost": 7,
+        "action": "swift",
+        "maint": "turn",
+        "power": [
+            "attack",
+            "defense",
+            "effect",
+            "automatic",
+            "trigger",
+            "detection",
+            "passive"
+        ],
+        "entries": [
+            "TODO"
+        ]
+    },
+    {
+        "name": "Cancel Conjure",
+        "id": "0100_0100_0100_0300_0000_0000_0000_0000",
+        "req": "Combat Aura",
+        "reqId": "0100_0100_0100_0000_0000_0000_0000_0000",
+        "cost": 5,
+        "action": "swift",
+        "maint": "turn",
+        "power": [
+            "attack",
+            "defense",
+            "effect",
+            "automatic",
+            "trigger",
+            "detection",
+            "passive"
+        ],
+        "entries": [
+            "TODO"
+        ]
+    },
+    {
+        "name": "Advanced Cancel Conjure",
+        "id": "0100_0100_0100_0300_0100_0000_0000_0000",
+        "req": "Cancel Conjure",
+        "reqId": "0100_0100_0100_0300_0000_0000_0000_0000",
+        "cost": 7,
+        "action": "swift",
+        "maint": "turn",
+        "power": [
+            "attack",
+            "defense",
+            "effect",
+            "automatic",
+            "trigger",
+            "detection",
+            "passive"
+        ],
+        "entries": [
+            "TODO"
+        ]
+    },
+    {
+        "name": "Cancel Phenom",
+        "id": "0100_0100_0100_0400_0000_0000_0000_0000",
+        "req": "Combat Aura",
+        "reqId": "0100_0100_0100_0000_0000_0000_0000_0000",
+        "cost": 5,
+        "action": "swift",
+        "maint": "turn",
+        "power": [
+            "attack",
+            "defense",
+            "effect",
+            "automatic",
+            "trigger",
+            "detection",
+            "passive"
+        ],
+        "entries": [
+            "TODO"
+        ]
+    },
+    {
+        "name": "Advanced Cancel Phenom",
+        "id": "0100_0100_0100_0400_0100_0000_0000_0000",
+        "req": "Cancel Phenom",
+        "reqId": "0100_0100_0100_0400_0000_0000_0000_0000",
+        "cost": 7,
+        "action": "swift",
+        "maint": "turn",
+        "power": [
+            "attack",
+            "defense",
+            "effect",
+            "automatic",
+            "trigger",
+            "detection",
+            "passive"
+        ],
+        "entries": [
+            "TODO"
+        ]
+    },
+    {
+        "name": "Dermal Ki",
+        "id": "0100_0100_0200_0000_0000_0000_0000_0000",
+        "req": "Gross Ki Control",
+        "reqId": "0100_0100_0000_0000_0000_0000_0000_0000",
+        "cost": 1,
+        "action": "swift",
+        "maint": "none",
+        "power": [
+            "automatic"
+        ],
+        "entries": [
+            "By pushing your ki to be just below your skin, you can use it to maintain your traction on it. When you activate this talent, you must spend 1 ki point.",
+            "While active, you can move across water and run up a wall using your movement for one round. If you end the round on the water or a wall you will fall."
+        ]
+    },
+    {
+        "name": "Advanced Dermal Ki",
+        "id": "0100_0100_0200_0100_0000_0000_0000_0000",
+        "req": "Dermal Ki",
+        "reqId": "0100_0100_0200_0000_0000_0000_0000_0000",
+        "cost": 3,
+        "action": "swift",
+        "maint": "turn",
+        "power": [
+            "automatic"
+        ],
+        "entries": [
+            "You have more control over the Dermal Ki Talent. When you activate this talent, you must spend 1 ki point and it can be maintained by spending 1 ki point every round during the Intention Phase.",
+            "While active, you can move across water and run up a wall and stay there. Additionally, you have a +2 to the Characteristic Check to prevent being disarmed."
+        ]
+    },
+    {
+        "name": "Arcane Dermal Ki",
+        "id": "0100_0100_0200_0100_0100_0000_0000_0000",
+        "req": "Advanced Dermal Ki",
+        "reqId": "0100_0100_0200_0100_0000_0000_0000_0000",
+        "cost": 5,
+        "action": "swift",
+        "maint": "none",
+        "power": [
+            "automatic"
+        ],
+        "entries": [
+            "As Advanced Dermal Ki, but you can activate and maintain the talent without spending any ki.",
+            "While active, in addition to the effects of Advanced Dermal Ki Talent, you have a +2 to the Characteristic Check to trap an opponent."
+        ]
+    },
+    {
+        "name": "Object Motion",
+        "id": "0100_0100_0300_0000_0000_0000_0000_0000",
+        "req": "Gross Ki Control",
+        "reqId": "0100_0100_0000_0000_0000_0000_0000_0000",
+        "cost": 1,
+        "action": "action",
+        "maint": "turn",
+        "power": [
+            "automatic"
+        ],
+        "entries": [
+            "You use your ki to move a single unattended object. The object does not have to be within sight, but you must have a general idea of its location. When you activate this talent, you must spend 1 ki point per 10 pounds the object weighs and it can be maintained by spending the same amount of ki point every round during the Intention Phase.",
+            "While active, you can move the object as if it had a Flight Value of 1. You use your presence as the Skill in order to maneuver the object. The object cannot be used to attack and if the object is grabbed the talent ends."
+        ]
+    },
+    {
+        "name": "Advanced Object Motion",
+        "id": "0100_0100_0300_0100_0000_0000_0000_0000",
+        "req": "Object Motion",
+        "reqId": "0100_0100_0300_0000_0000_0000_0000_0000",
+        "cost": 2,
+        "action": "action",
+        "maint": "turn",
+        "power": [
+            "automatic"
+        ],
+        "entries": [
+            "As the Object Motion Talent but you can move 110 pounds per ki point and you can split the weight across multiple objects."
+        ]
+    },
+    {
+        "name": "Arcane Object Motion",
+        "id": "0100_0100_0300_0100_0100_0000_0000_0000",
+        "req": "Advanced Object Motion",
+        "reqId": "0100_0100_0300_0100_0000_0000_0000_0000",
+        "cost": 5,
+        "action": "action",
+        "maint": "turn",
+        "power": [
+            "automatic"
+        ],
+        "entries": [
+            "As the Advanced Object Motion Talent but you can move 500 pounds per ki point and you can move the object as if it had a Flight Value of 5.",
+            "The object is still unable to be used to attack but a creature grabbing it does not cause the talent to end."
+        ]
+    },
+    {
+        "name": "Levitation",
+        "id": "0100_0100_0300_0200_0000_0000_0000_0000",
+        "req": "Object Motion",
+        "reqId": "0100_0100_0300_0000_0000_0000_0000_0000",
+        "cost": 2,
+        "action": "action",
+        "maint": "major",
+        "power": [
+            "automatic"
+        ],
+        "entries": [
+            "You use your ki cause yourself to move above the ground. When you activate this talent, you must spend 1 ki point per point of Flight Value you gain and it can be maintained by spending the same amount of ki every minute (10 rounds) during the Intention Phase. You cannot have a Flight Value greater than a quarter of your Movement Value, round up."
+        ]
+    },
+    {
+        "name": "Flight",
+        "id": "0100_0100_0300_0200_0100_0000_0000_0000",
+        "req": "Levitation",
+        "reqId": "0100_0100_0300_0200_0000_0000_0000_0000",
+        "cost": 4,
+        "action": "action",
+        "maint": "major",
+        "power": [
+            "attack",
+            "defense",
+            "effect",
+            "automatic",
+            "trigger",
+            "detection",
+            "passive"
+        ],
+        "entries": [
+            "You use your ki cause yourself to move above the ground faster than before. When you activate this talent, you must spend 1 ki point per point of Flight Value you gain and it can be maintained by spending the same amount of ki every minute (10 rounds) during the Intention Phase. You cannot have a Flight Value greater than your Movement Value."
+        ]
+    },
+    {
+        "name": "Endure",
+        "id": "0100_0100_0400_0000_0000_0000_0000_0000",
+        "req": "Gross Ki Control",
+        "reqId": "0100_0100_0000_0000_0000_0000_0000_0000",
+        "cost": 2,
+        "action": "none",
+        "maint": "none",
+        "power": [
+            "passive"
+        ],
+        "entries": [
+            "Your body can perform physical activity for longer by your ability to maintain your spiritual energies. You can perform physically stressful work five times longer before losing Stamina. For example, you can walk for 30 hours before losing 1 Stamina Point.",
+            "The Endure Talent also allows you to spend up to 5 Stamina Points in a single round, instead of the normal 2 points."
+        ]
+    },
+    {
+        "name": "Reduce Needs",
+        "id": "0100_0100_0400_0100_0000_0000_0000_0000",
+        "req": "Endure",
+        "reqId": "0100_0100_0400_0000_0000_0000_0000_0000",
+        "cost": 2,
+        "action": "none",
+        "maint": "none",
+        "power": [
+            "passive"
+        ],
+        "entries": [
+            "Your body is partially sustained by your spiritual energies. You can now go ten times longer without food, water, or sleep before you start to lose Stamina."
+        ]
+    },
+    {
+        "name": "Reduce Fire",
+        "id": "0100_0100_0400_0100_0100_0000_0000_0000",
+        "req": "Reduce Needs",
+        "reqId": "0100_0100_0400_0100_0000_0000_0000_0000",
+        "cost": 2,
+        "action": "action",
+        "maint": "turn",
+        "power": [
+            "attack",
+            "defense",
+            "effect",
+            "automatic",
+            "trigger",
+            "detection",
+            "passive"
+        ],
+        "entries": [
+            ""
+        ]
+    },
+    {
+        "name": "Reduce Cold",
+        "id": "0100_0100_0400_0100_0200_0000_0000_0000",
+        "req": "Reduce Needs",
+        "reqId": "0100_0100_0400_0100_0000_0000_0000_0000",
+        "cost": 2,
+        "action": "action",
+        "maint": "turn",
+        "power": [
+            "attack",
+            "defense",
+            "effect",
+            "automatic",
+            "trigger",
+            "detection",
+            "passive"
+        ],
+        "entries": [
+            ""
+        ]
+    },
+    {
+        "name": "Reduce Electricity",
+        "id": "0100_0100_0400_0100_0300_0000_0000_0000",
+        "req": "Reduce Needs",
+        "reqId": "0100_0100_0400_0100_0000_0000_0000_0000",
+        "cost": 2,
+        "action": "action",
+        "maint": "turn",
+        "power": [
+            "attack",
+            "defense",
+            "effect",
+            "automatic",
+            "trigger",
+            "detection",
+            "passive"
+        ],
+        "entries": [
+            ""
+        ]
+    },
+    {
+        "name": "Reduce Penalties",
+        "id": "0100_0100_0400_0200_0000_0000_0000_0000",
+        "req": "Endure",
+        "reqId": "0100_0100_0400_0000_0000_0000_0000_0000",
+        "cost": 3,
+        "action": "none",
+        "maint": "none",
+        "power": [
+            "attack",
+            "defense",
+            "effect",
+            "automatic",
+            "trigger",
+            "detection",
+            "passive"
+        ],
+        "entries": [
+            ""
+        ]
+    },
+    {
+        "name": "Recovery",
+        "id": "0100_0100_0400_0200_0100_0000_0000_0000",
+        "req": "Reduce Penalties",
+        "reqId": "0100_0100_0400_0200_0000_0000_0000_0000",
+        "cost": 4,
+        "action": "action",
+        "maint": "none",
+        "power": [
+            "attack",
+            "defense",
+            "effect",
+            "automatic",
+            "trigger",
+            "detection",
+            "passive"
+        ],
+        "entries": [
+            ""
+        ]
+    },
+    {
+        "name": "Push Technique",
+        "id": "0100_0100_0500_0000_0000_0000_0000_0000",
+        "req": "Gross Ki Control",
+        "reqId": "0100_0100_0000_0000_0000_0000_0000_0000",
+        "cost": 3,
+        "action": "none",
+        "maint": "none",
+        "power": [
+            "attack",
+            "defense",
+            "effect",
+            "automatic",
+            "trigger",
+            "detection",
+            "passive"
+        ],
+        "entries": [
+            ""
+        ]
+    },
+    {
+        "name": "Improvised Technique",
+        "id": "0100_0100_0500_0100_0000_0000_0000_0000",
+        "req": "Push Technique",
+        "reqId": "0100_0100_0500_0000_0000_0000_0000_0000",
+        "cost": 5,
+        "action": "special",
+        "maint": "special",
+        "power": [
+            "attack",
+            "defense",
+            "effect",
+            "automatic",
+            "trigger",
+            "detection",
+            "passive"
+        ],
+        "entries": [
+            ""
+        ]
+    },
+    {
+        "name": "Technique Imitation",
+        "id": "0100_0100_0500_0200_0000_0000_0000_0000",
+        "req": "Push Technique",
+        "reqId": "0100_0100_0500_0000_0000_0000_0000_0000",
+        "cost": 5,
+        "action": "none",
+        "maint": "none",
+        "power": [
+            "attack",
+            "defense",
+            "effect",
+            "automatic",
+            "trigger",
+            "detection",
+            "passive"
+        ],
+        "entries": [
+            ""
         ]
     },
     {
         "name": "Fine Ki Control",
-        "SK": 10,
-        "power":"passive",
+        "id": "0100_0200_0000_0000_0000_0000_0000_0000",
+        "req": "Use of Ki",
+        "reqId": "0100_0000_0000_0000_0000_0000_0000_0000",
+        "cost": 1,
         "action": "none",
-        "maintained": "none",
-        "requirement": "Use of Ki",
-        "entries":[
-            "This talent gives you control over the fine movements of your spiritual energy. Once you master this talent and the Gross Ki Control, you can use techniques."
+        "maint": "none",
+        "power": [
+            "attack",
+            "defense",
+            "effect",
+            "automatic",
+            "trigger",
+            "detection",
+            "passive"
+        ],
+        "entries": [
+            ""
         ]
     },
     {
-        "name": "Spiritual Essence",
-        "SK": 10,
-        "power":"passive",
+        "name": "Physical Dominion",
+        "id": "0100_0200_0100_0000_0000_0000_0000_0000",
+        "req": "Fine Ki Control",
+        "reqId": "0100_0200_0000_0000_0000_0000_0000_0000",
+        "cost": 1,
         "action": "none",
-        "maintained": "none",
-        "requirement": "Use of Ki",
-        "entries":[
-            "You can start to extend your life force into an area around you and detect changes within the domain of the aura."
+        "maint": "none",
+        "power": [
+            "attack",
+            "defense",
+            "effect",
+            "automatic",
+            "trigger",
+            "detection",
+            "passive"
+        ],
+        "entries": [
+            ""
         ]
     },
     {
-        "name": "Presence Extension",
-        "SK": 10,
-        "power":"passive",
-        "action": "none",
-        "maintained": "none",
-        "requirement": "Spiritual Essence",
-        "entries":[
-            "You can extend your spiritual power into your weapons and armor. You gain the imbued trait. You can extend that trait and grant a +10 Fortitude of object you hold or wear. Weapons also gain +1 Base Damage and +5 Breakage."
+        "name": "Ki Clone",
+        "id": "0100_0200_0100_0100_0000_0000_0000_0000",
+        "req": "Physical Dominion",
+        "reqId": "0100_0200_0100_0000_0000_0000_0000_0000",
+        "cost": 3,
+        "action": "complete",
+        "maint": "turn",
+        "power": [
+            "attack",
+            "defense",
+            "effect",
+            "automatic",
+            "trigger",
+            "detection",
+            "passive"
+        ],
+        "entries": [
+            ""
         ]
     },
     {
-        "name": "Energy Armor",
-        "SK": 10,
-        "power":"passive",
-        "action": "none",
-        "maintained": "none",
-        "requirement": "Presence Extension",
-        "entries":[
-            "You gain a natural armor of +2 Energy AV."
+        "name": "Advanced Ki Clone",
+        "id": "0100_0200_0100_0100_0100_0000_0000_0000",
+        "req": "Ki Clone",
+        "reqId": "0100_0200_0100_0100_0000_0000_0000_0000",
+        "cost": 4,
+        "action": "complete",
+        "maint": "turn",
+        "power": [
+            "attack",
+            "defense",
+            "effect",
+            "automatic",
+            "trigger",
+            "detection",
+            "passive"
+        ],
+        "entries": [
+            ""
         ]
     },
     {
-        "name": "Energy Armor, Advanced",
-        "SK": 10,
-        "power":"effect",
+        "name": "Arcane Ki Clone",
+        "id": "0100_0200_0100_0100_0100_0100_0000_0000",
+        "req": "Advanced Ki Clone",
+        "reqId": "0100_0200_0100_0100_0100_0000_0000_0000",
+        "cost": 7,
+        "action": "complete",
+        "maint": "turn",
+        "power": [
+            "attack",
+            "defense",
+            "effect",
+            "automatic",
+            "trigger",
+            "detection",
+            "passive"
+        ],
+        "entries": [
+            ""
+        ]
+    },
+    {
+        "name": "Magnitude",
+        "id": "0100_0200_0100_0100_0200_0000_0000_0000",
+        "req": "Ki Clone",
+        "reqId": "0100_0200_0100_0100_0000_0000_0000_0000",
+        "cost": 3,
+        "action": "none",
+        "maint": "none",
+        "power": [
+            "attack",
+            "defense",
+            "effect",
+            "automatic",
+            "trigger",
+            "detection",
+            "passive"
+        ],
+        "entries": [
+            ""
+        ]
+    },
+    {
+        "name": "Advanced Magnitude",
+        "id": "0100_0200_0100_0100_0200_0100_0000_0000",
+        "req": "Magnitude",
+        "reqId": "0100_0200_0100_0100_0200_0000_0000_0000",
+        "cost": 4,
+        "action": "none",
+        "maint": "none",
+        "power": [
+            "attack",
+            "defense",
+            "effect",
+            "automatic",
+            "trigger",
+            "detection",
+            "passive"
+        ],
+        "entries": [
+            ""
+        ]
+    },
+    {
+        "name": "Arcane Magnitude",
+        "id": "0100_0200_0100_0100_0200_0100_0100_0000",
+        "req": "Advanced Magnitude",
+        "reqId": "0100_0200_0100_0100_0200_0100_0000_0000",
+        "cost": 7,
+        "action": "none",
+        "maint": "none",
+        "power": [
+            "attack",
+            "defense",
+            "effect",
+            "automatic",
+            "trigger",
+            "detection",
+            "passive"
+        ],
+        "entries": [
+            ""
+        ]
+    },
+    {
+        "name": "Augment",
+        "id": "0100_0200_0100_0200_0000_0000_0000_0000",
+        "req": "Physical Dominion",
+        "reqId": "0100_0200_0100_0000_0000_0000_0000_0000",
+        "cost": 3,
+        "action": "action",
+        "maint": "turn",
+        "power": [
+            "attack",
+            "defense",
+            "effect",
+            "automatic",
+            "trigger",
+            "detection",
+            "passive"
+        ],
+        "entries": [
+            ""
+        ]
+    },
+    {
+        "name": "Advanced Augment",
+        "id": "0100_0200_0100_0200_0100_0000_0000_0000",
+        "req": "Augment",
+        "reqId": "0100_0200_0100_0200_0000_0000_0000_0000",
+        "cost": 4,
+        "action": "action",
+        "maint": "turn",
+        "power": [
+            "attack",
+            "defense",
+            "effect",
+            "automatic",
+            "trigger",
+            "detection",
+            "passive"
+        ],
+        "entries": [
+            ""
+        ]
+    },
+    {
+        "name": "Arcane Augment",
+        "id": "0100_0200_0100_0200_0100_0100_0000_0000",
+        "req": "Advanced Augment",
+        "reqId": "0100_0200_0100_0200_0100_0000_0000_0000",
+        "cost": 7,
+        "action": "action",
+        "maint": "turn",
+        "power": [
+            "attack",
+            "defense",
+            "effect",
+            "automatic",
+            "trigger",
+            "detection",
+            "passive"
+        ],
+        "entries": [
+            ""
+        ]
+    },
+    {
+        "name": "Physical Change",
+        "id": "0100_0200_0100_0300_0000_0000_0000_0000",
+        "req": "Physical Dominion",
+        "reqId": "0100_0200_0100_0000_0000_0000_0000_0000",
+        "cost": 2,
+        "action": "complete",
+        "maint": "major",
+        "power": [
+            "attack",
+            "defense",
+            "effect",
+            "automatic",
+            "trigger",
+            "detection",
+            "passive"
+        ],
+        "entries": [
+            ""
+        ]
+    },
+    {
+        "name": "Advanced Physical Change",
+        "id": "0100_0200_0100_0300_0100_0000_0000_0000",
+        "req": "Physical Change",
+        "reqId": "0100_0200_0100_0300_0000_0000_0000_0000",
+        "cost": 3,
+        "action": "complete",
+        "maint": "major",
+        "power": [
+            "attack",
+            "defense",
+            "effect",
+            "automatic",
+            "trigger",
+            "detection",
+            "passive"
+        ],
+        "entries": [
+            ""
+        ]
+    },
+    {
+        "name": "Arcane Physical Change",
+        "id": "0100_0200_0100_0300_0100_0100_0000_0000",
+        "req": "Advanced Physical Change",
+        "reqId": "0100_0200_0100_0300_0100_0000_0000_0000",
+        "cost": 5,
+        "action": "complete",
+        "maint": "major",
+        "power": [
+            "attack",
+            "defense",
+            "effect",
+            "automatic",
+            "trigger",
+            "detection",
+            "passive"
+        ],
+        "entries": [
+            ""
+        ]
+    },
+    {
+        "name": "Age Control",
+        "id": "0100_0200_0100_0300_0200_0000_0000_0000",
+        "req": "Physical Change",
+        "reqId": "0100_0200_0100_0300_0000_0000_0000_0000",
+        "cost": 2,
+        "action": "none",
+        "maint": "none",
+        "power": [
+            "attack",
+            "defense",
+            "effect",
+            "automatic",
+            "trigger",
+            "detection",
+            "passive"
+        ],
+        "entries": [
+            ""
+        ]
+    },
+    {
+        "name": "Ki Transmission",
+        "id": "0100_0200_0200_0000_0000_0000_0000_0000",
+        "req": "Fine Ki Control",
+        "reqId": "0100_0200_0000_0000_0000_0000_0000_0000",
+        "cost": 1,
         "action": "swift",
-        "maintained": "minor sustained",
-        "requirement": "Energy Armor",
-        "entries":[
-            "When you use this talent as a swift action, you spend 1 ki point to increase the benefit from the Energy Armor talent to a +4 Energy AV. To maintain this talent, you must pay 1 ki point every 5 turns (minor sustained). This talent remains active until you dismiss it as a swift action or fail to pay the ki point cost."
+        "maint": "none",
+        "power": [
+            "attack",
+            "defense",
+            "effect",
+            "automatic",
+            "trigger",
+            "detection",
+            "passive"
+        ],
+        "entries": [
+            ""
         ]
     },
     {
-        "name": "Energy Armor, Arcane",
-        "SK": 10,
-        "power":"passive / effect",
-        "action": "swift",
-        "maintained": "minor sustained",
-        "requirement": "Energy Armor, Advanced",
-        "entries":[
-            "The Energy Armor talent now gives you +4 Energy AV passively.",
-            "When you use this talent as a swift action, you spend 1 ki point to increase the benefit from the Energy Armor talent to a +6 Energy AV. To maintain this talent, you must pay 1 ki point every 5 turns (minor sustained). This talent remains active until you dismiss it as a swift action or fail to pay the ki point cost."
+        "name": "Ki Healing",
+        "id": "0100_0200_0200_0100_0000_0000_0000_0000",
+        "req": "Ki Transmission",
+        "reqId": "0100_0200_0200_0000_0000_0000_0000_0000",
+        "cost": 2,
+        "action": "action",
+        "maint": "none",
+        "power": [
+            "attack",
+            "defense",
+            "effect",
+            "automatic",
+            "trigger",
+            "detection",
+            "passive"
+        ],
+        "entries": [
+            ""
+        ]
+    },
+    {
+        "name": "Advanced Healing",
+        "id": "0100_0200_0200_0100_0100_0000_0000_0000",
+        "req": "Ki Healing",
+        "reqId": "0100_0200_0200_0100_0000_0000_0000_0000",
+        "cost": 3,
+        "action": "action",
+        "maint": "none",
+        "power": [
+            "attack",
+            "defense",
+            "effect",
+            "automatic",
+            "trigger",
+            "detection",
+            "passive"
+        ],
+        "entries": [
+            ""
+        ]
+    },
+    {
+        "name": "Arcane Healing",
+        "id": "0100_0200_0200_0100_0100_0100_0000_0000",
+        "req": "Advanced Healing",
+        "reqId": "0100_0200_0200_0100_0100_0000_0000_0000",
+        "cost": 5,
+        "action": "action",
+        "maint": "none",
+        "power": [
+            "attack",
+            "defense",
+            "effect",
+            "automatic",
+            "trigger",
+            "detection",
+            "passive"
+        ],
+        "entries": [
+            ""
+        ]
+    },
+    {
+        "name": "Stabilize",
+        "id": "0100_0200_0200_0100_0200_0000_0000_0000",
+        "req": "Ki Healing",
+        "reqId": "0100_0200_0200_0100_0000_0000_0000_0000",
+        "cost": 1,
+        "action": "action",
+        "maint": "none",
+        "power": [
+            "attack",
+            "defense",
+            "effect",
+            "automatic",
+            "trigger",
+            "detection",
+            "passive"
+        ],
+        "entries": [
+            ""
+        ]
+    },
+    {
+        "name": "Life Sacrifice",
+        "id": "0100_0200_0200_0200_0000_0000_0000_0000",
+        "req": "Ki Transmission",
+        "reqId": "0100_0200_0200_0000_0000_0000_0000_0000",
+        "cost": 2,
+        "action": "complete",
+        "maint": "none",
+        "power": [
+            "attack",
+            "defense",
+            "effect",
+            "automatic",
+            "trigger",
+            "detection",
+            "passive"
+        ],
+        "entries": [
+            ""
+        ]
+    },
+    {
+        "name": "Spirit Essence",
+        "id": "0100_0300_0000_0000_0000_0000_0000_0000",
+        "req": "Use of Ki",
+        "reqId": "0100_0000_0000_0000_0000_0000_0000_0000",
+        "cost": 1,
+        "action": "none",
+        "maint": "none",
+        "power": [
+            "attack",
+            "defense",
+            "effect",
+            "automatic",
+            "trigger",
+            "detection",
+            "passive"
+        ],
+        "entries": [
+            ""
+        ]
+    },
+    {
+        "name": "Presence Extrusion",
+        "id": "0100_0300_0100_0000_0000_0000_0000_0000",
+        "req": "Spirit Essence",
+        "reqId": "0100_0300_0000_0000_0000_0000_0000_0000",
+        "cost": 2,
+        "action": "none",
+        "maint": "none",
+        "power": [
+            "attack",
+            "defense",
+            "effect",
+            "automatic",
+            "trigger",
+            "detection",
+            "passive"
+        ],
+        "entries": [
+            ""
+        ]
+    },
+    {
+        "name": "Physical Null",
+        "id": "0100_0300_0100_0100_0000_0000_0000_0000",
+        "req": "Presence Extrusion",
+        "reqId": "0100_0300_0100_0000_0000_0000_0000_0000",
+        "cost": 3,
+        "action": "none",
+        "maint": "none",
+        "power": [
+            "attack",
+            "defense",
+            "effect",
+            "automatic",
+            "trigger",
+            "detection",
+            "passive"
+        ],
+        "entries": [
+            ""
+        ]
+    },
+    {
+        "name": "Absorb Energy",
+        "id": "0100_0300_0100_0200_0000_0000_0000_0000",
+        "req": "Presence Extrusion",
+        "reqId": "0100_0300_0100_0000_0000_0000_0000_0000",
+        "cost": 3,
+        "action": "reaction",
+        "maint": "none",
+        "power": [
+            "attack",
+            "defense",
+            "effect",
+            "automatic",
+            "trigger",
+            "detection",
+            "passive"
+        ],
+        "entries": [
+            ""
+        ]
+    },
+    {
+        "name": "Increase Reaction",
+        "id": "0100_0300_0100_0300_0000_0000_0000_0000",
+        "req": "Presence Extrusion",
+        "reqId": "0100_0300_0100_0000_0000_0000_0000_0000",
+        "cost": 1,
+        "action": "none",
+        "maint": "none",
+        "power": [
+            "attack",
+            "defense",
+            "effect",
+            "automatic",
+            "trigger",
+            "detection",
+            "passive"
+        ],
+        "entries": [
+            ""
+        ]
+    },
+    {
+        "name": "Increase Reach",
+        "id": "0100_0300_0100_0400_0000_0000_0000_0000",
+        "req": "Presence Extrusion",
+        "reqId": "0100_0300_0100_0000_0000_0000_0000_0000",
+        "cost": 1,
+        "action": "none",
+        "maint": "none",
+        "power": [
+            "attack",
+            "defense",
+            "effect",
+            "automatic",
+            "trigger",
+            "detection",
+            "passive"
+        ],
+        "entries": [
+            ""
+        ]
+    },
+    {
+        "name": "Increase Damage",
+        "id": "0100_0300_0100_0500_0000_0000_0000_0000",
+        "req": "Presence Extrusion",
+        "reqId": "0100_0300_0100_0000_0000_0000_0000_0000",
+        "cost": 1,
+        "action": "none",
+        "maint": "none",
+        "power": [
+            "attack",
+            "defense",
+            "effect",
+            "automatic",
+            "trigger",
+            "detection",
+            "passive"
+        ],
+        "entries": [
+            ""
+        ]
+    },
+    {
+        "name": "Elemental Attack Earth",
+        "id": "0100_0300_0100_0600_0000_0000_0000_0000",
+        "req": "Presence Extrusion",
+        "reqId": "0100_0300_0100_0000_0000_0000_0000_0000",
+        "cost": 1,
+        "action": "attack",
+        "maint": "none",
+        "power": [
+            "attack",
+            "defense",
+            "effect",
+            "automatic",
+            "trigger",
+            "detection",
+            "passive"
+        ],
+        "entries": [
+            ""
+        ]
+    },
+    {
+        "name": "Elemental Attack Metal",
+        "id": "0100_0300_0100_0700_0000_0000_0000_0000",
+        "req": "Presence Extrusion",
+        "reqId": "0100_0300_0100_0000_0000_0000_0000_0000",
+        "cost": 1,
+        "action": "attack",
+        "maint": "none",
+        "power": [
+            "attack",
+            "defense",
+            "effect",
+            "automatic",
+            "trigger",
+            "detection",
+            "passive"
+        ],
+        "entries": [
+            ""
+        ]
+    },
+    {
+        "name": "Elemental Attack Water",
+        "id": "0100_0300_0100_0800_0000_0000_0000_0000",
+        "req": "Presence Extrusion",
+        "reqId": "0100_0300_0100_0000_0000_0000_0000_0000",
+        "cost": 1,
+        "action": "attack",
+        "maint": "none",
+        "power": [
+            "attack",
+            "defense",
+            "effect",
+            "automatic",
+            "trigger",
+            "detection",
+            "passive"
+        ],
+        "entries": [
+            ""
+        ]
+    },
+    {
+        "name": "Elemental Attack Fire",
+        "id": "0100_0300_0100_0900_0000_0000_0000_0000",
+        "req": "Presence Extrusion",
+        "reqId": "0100_0300_0100_0000_0000_0000_0000_0000",
+        "cost": 1,
+        "action": "attack",
+        "maint": "none",
+        "power": [
+            "attack",
+            "defense",
+            "effect",
+            "automatic",
+            "trigger",
+            "detection",
+            "passive"
+        ],
+        "entries": [
+            ""
+        ]
+    },
+    {
+        "name": "Elemental Attack Air",
+        "id": "0100_0300_0100_1000_0000_0000_0000_0000",
+        "req": "Presence Extrusion",
+        "reqId": "0100_0300_0100_0000_0000_0000_0000_0000",
+        "cost": 1,
+        "action": "attack",
+        "maint": "none",
+        "power": [
+            "attack",
+            "defense",
+            "effect",
+            "automatic",
+            "trigger",
+            "detection",
+            "passive"
+        ],
+        "entries": [
+            ""
         ]
     },
     {
         "name": "Destruction",
-        "SK": 20,
-        "power":"attack",
-        "action": "active",
-        "maintained": "none",
-        "requirement": "Presence Extension",
-        "entries":[
-            "You can project your energy into an object in a desturctiev manner. "
+        "id": "0100_0300_0100_1100_0000_0000_0000_0000",
+        "req": "Presence Extrusion",
+        "reqId": "0100_0300_0100_0000_0000_0000_0000_0000",
+        "cost": 2,
+        "action": "attack",
+        "maint": "none",
+        "power": [
+            "attack",
+            "defense",
+            "effect",
+            "automatic",
+            "trigger",
+            "detection",
+            "passive"
+        ],
+        "entries": [
+            ""
+        ]
+    },
+    {
+        "name": "Advanced Destruction",
+        "id": "0100_0300_0100_1100_0100_0000_0000_0000",
+        "req": "Destruction",
+        "reqId": "0100_0300_0100_1100_0000_0000_0000_0000",
+        "cost": 3,
+        "action": "attack",
+        "maint": "none",
+        "power": [
+            "attack",
+            "defense",
+            "effect",
+            "automatic",
+            "trigger",
+            "detection",
+            "passive"
+        ],
+        "entries": [
+            ""
+        ]
+    },
+    {
+        "name": "Arcane Destruction",
+        "id": "0100_0300_0100_1100_0100_0100_0000_0000",
+        "req": "Advanced Destruction",
+        "reqId": "0100_0300_0100_1100_0100_0000_0000_0000",
+        "cost": 5,
+        "action": "attack",
+        "maint": "none",
+        "power": [
+            "attack",
+            "defense",
+            "effect",
+            "automatic",
+            "trigger",
+            "detection",
+            "passive"
+        ],
+        "entries": [
+            ""
+        ]
+    },
+    {
+        "name": "Energy Armor",
+        "id": "0100_0300_0100_1200_0000_0000_0000_0000",
+        "req": "Presence Extrusion",
+        "reqId": "0100_0300_0100_0000_0000_0000_0000_0000",
+        "cost": 2,
+        "action": "none",
+        "maint": "none",
+        "power": [
+            "attack",
+            "defense",
+            "effect",
+            "automatic",
+            "trigger",
+            "detection",
+            "passive"
+        ],
+        "entries": [
+            ""
+        ]
+    },
+    {
+        "name": "Advanced Energy Armor",
+        "id": "0100_0300_0100_1200_0100_0000_0000_0000",
+        "req": "Energy Armor",
+        "reqId": "0100_0300_0100_1200_0000_0000_0000_0000",
+        "cost": 3,
+        "action": "action",
+        "maint": "minor",
+        "power": [
+            "attack",
+            "defense",
+            "effect",
+            "automatic",
+            "trigger",
+            "detection",
+            "passive"
+        ],
+        "entries": [
+            ""
+        ]
+    },
+    {
+        "name": "Arcane Energy Armor",
+        "id": "0100_0300_0100_1200_0100_0100_0000_0000",
+        "req": "Advanced Energy Armor",
+        "reqId": "0100_0300_0100_1200_0100_0000_0000_0000",
+        "cost": 5,
+        "action": "action",
+        "maint": "minor",
+        "power": [
+            "attack",
+            "defense",
+            "effect",
+            "automatic",
+            "trigger",
+            "detection",
+            "passive"
+        ],
+        "entries": [
+            ""
+        ]
+    },
+    {
+        "name": "Conceal Spirit",
+        "id": "0100_0300_0200_0000_0000_0000_0000_0000",
+        "req": "Spirit Essence",
+        "reqId": "0100_0300_0000_0000_0000_0000_0000_0000",
+        "cost": 1,
+        "action": "none",
+        "maint": "none",
+        "power": [
+            "attack",
+            "defense",
+            "effect",
+            "automatic",
+            "trigger",
+            "detection",
+            "passive"
+        ],
+        "entries": [
+            ""
+        ]
+    },
+    {
+        "name": "Aura of Concealment",
+        "id": "0100_0300_0200_0100_0000_0000_0000_0000",
+        "req": "Conceal Spirit",
+        "reqId": "0100_0300_0200_0000_0000_0000_0000_0000",
+        "cost": 3,
+        "action": "none",
+        "maint": "none",
+        "power": [
+            "attack",
+            "defense",
+            "effect",
+            "automatic",
+            "trigger",
+            "detection",
+            "passive"
+        ],
+        "entries": [
+            ""
+        ]
+    },
+    {
+        "name": "False Death",
+        "id": "0100_0300_0200_0200_0000_0000_0000_0000",
+        "req": "Conceal Spirit",
+        "reqId": "0100_0300_0200_0000_0000_0000_0000_0000",
+        "cost": 2,
+        "action": "complete",
+        "maint": "none",
+        "power": [
+            "attack",
+            "defense",
+            "effect",
+            "automatic",
+            "trigger",
+            "detection",
+            "passive"
+        ],
+        "entries": [
+            ""
+        ]
+    },
+    {
+        "name": "Undetectable",
+        "id": "0100_0300_0200_0300_0000_0000_0000_0000",
+        "req": "Conceal Spirit",
+        "reqId": "0100_0300_0200_0000_0000_0000_0000_0000",
+        "cost": 3,
+        "action": "none",
+        "maint": "none",
+        "power": [
+            "attack",
+            "defense",
+            "effect",
+            "automatic",
+            "trigger",
+            "detection",
+            "passive"
+        ],
+        "entries": [
+            ""
+        ]
+    },
+    {
+        "name": "Detect Spirit",
+        "id": "0100_0300_0300_0000_0000_0000_0000_0000",
+        "req": "Spirit Essence",
+        "reqId": "0100_0300_0000_0000_0000_0000_0000_0000",
+        "cost": 1,
+        "action": "none",
+        "maint": "none",
+        "power": [
+            "attack",
+            "defense",
+            "effect",
+            "automatic",
+            "trigger",
+            "detection",
+            "passive"
+        ],
+        "entries": [
+            ""
+        ]
+    },
+    {
+        "name": "Cognition",
+        "id": "0100_0300_0300_0100_0000_0000_0000_0000",
+        "req": "Detect Spirit",
+        "reqId": "0100_0300_0300_0000_0000_0000_0000_0000",
+        "cost": 2,
+        "action": "none",
+        "maint": "none",
+        "power": [
+            "attack",
+            "defense",
+            "effect",
+            "automatic",
+            "trigger",
+            "detection",
+            "passive"
+        ],
+        "entries": [
+            ""
+        ]
+    },
+    {
+        "name": "Inhumanity",
+        "id": "0100_0400_0000_0000_0000_0000_0000_0000",
+        "req": "Use of Ki",
+        "reqId": "0100_0000_0000_0000_0000_0000_0000_0000",
+        "cost": 3,
+        "action": "none",
+        "maint": "none",
+        "power": [
+            "attack",
+            "defense",
+            "effect",
+            "automatic",
+            "trigger",
+            "detection",
+            "passive"
+        ],
+        "entries": [
+            ""
+        ]
+    },
+    {
+        "name": "Legendary",
+        "id": "0100_0400_0100_0000_0000_0000_0000_0000",
+        "req": "Inhumanity",
+        "reqId": "0100_0400_0000_0000_0000_0000_0000_0000",
+        "cost": 4,
+        "action": "none",
+        "maint": "none",
+        "power": [
+            "attack",
+            "defense",
+            "effect",
+            "automatic",
+            "trigger",
+            "detection",
+            "passive"
+        ],
+        "entries": [
+            ""
+        ]
+    },
+    {
+        "name": "Zen",
+        "id": "0100_0400_0100_0100_0000_0000_0000_0000",
+        "req": "Legendary",
+        "reqId": "0100_0400_0100_0000_0000_0000_0000_0000",
+        "cost": 5,
+        "action": "none",
+        "maint": "none",
+        "power": [
+            "attack",
+            "defense",
+            "effect",
+            "automatic",
+            "trigger",
+            "detection",
+            "passive"
+        ],
+        "entries": [
+            ""
+        ]
+    },
+    {
+        "name": "Divine",
+        "id": "0100_0400_0100_0100_0100_0000_0000_0000",
+        "req": "Zen",
+        "reqId": "0100_0400_0100_0100_0000_0000_0000_0000",
+        "cost": 6,
+        "action": "none",
+        "maint": "none",
+        "power": [
+            "attack",
+            "defense",
+            "effect",
+            "automatic",
+            "trigger",
+            "detection",
+            "passive"
+        ],
+        "entries": [
+            ""
         ]
     }
 ]
