@@ -6,7 +6,10 @@ permalink: rule_gameplay_power.html
 In Kaiser, there are many different abilities and features that grant you special powers. Powers can come from many different sources, such as spirit, mana, and phenom, but they share many similar rules. These rules are described below.
 
 ## Powers and Actions
-When you wish to use a power, you must take the appropriate action to activate it. If the power has an action requirement of Active, Swift, or Reaction, you can use it by taking the appropriate action. The action requirement of Attack can be used during the [Attack Action](todo.html), this is a special action requirement since it counts toward the multiple attack penalty. The action requirement of Complete is another special one, requiring that you declare its use during the Intention Phase and the power will not take full effect until the End Phase, any cost is spent at the end of the Intention Phase, after all accumulations have occurred.
+When you wish to use a power, you must take the appropriate action to activate it. Consult the following table for how to activate each action requirement. 
+<!-- If the power has an action requirement of Active, Swift, or Reaction, you can use it by taking the appropriate action. The action requirement of Attack can be used during the [Attack Action](todo.html), this is a special action requirement since it counts toward the multiple attack penalty. Similarly,  The action requirement of Complete is another special one, requiring that you declare its use during the Intention Phase and the power will not take full effect until the End Phase, any cost is spent at the end of the Intention Phase, after all accumulations have occurred. -->
+
+{% include table-index.html index="POWER50" %}
 
 ## Types of Powers
 Below are the types of powers that you can find in Kaiser. The description of each type includes how to use your Offensive or Defensive Skills (if required) and if the power can be seen on the material plane.

@@ -2791,30 +2791,30 @@
 			"rows": [
 				[
 					"Active",
-					"The action <b>Use an Active Power</b>."
+					"Use the action <b>Use an Active Power</b>."
 				],
 				[
 					"Reaction",
-					"The action <b>Use an Reaction Power</b>."
+					"Use the action <b>Use an Reaction Power</b>."
 				],
 				[
 					"Swift",
-					"The action <b>Use an Swift Power</b>."
+					"Use the action <b>Use an Swift Power</b>."
 				],
 				[
 					"Attack",
 					"The power is activated as part of <b>Attack Action</b>, but instead of making an Offensive Roll with a weapon, the power will list what to use. This counts towards and is affected by the multiple attack penalty."
 				],
 				[
-					"Defense",
-					"The power can be activated as part of the <b>Defend with Block or Dodge Action</b>. If you wish to activate it before making a defense, you can activate it as an active power."
+					"Defend",
+					"Use the action <b>Defend with a Power</b>. Some powers with this requirement are instead activated as part of the <b>Defend with Block or Dodge Action</b>. If you wish to activate it before making a defense, you can activate it as an active power."
 				],
 				[
 					"Counterattack",
 					"The power is activated as part of <b>Counter Action</b>, but instead of making an Offensive Roll with a weapon, the power will list what to use. This counts towards and is affected by the multiple attack penalty."
 				],
 				[
-					"Complete",
+					"Complete Round",
 					"The activation of the power must be declared as an Intention. The effects of the power do not occur until the End Phase."
 				]
 			]
