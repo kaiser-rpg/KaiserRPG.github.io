@@ -33,7 +33,7 @@ The Energy Damage Group is commonly caused by supernatural effects. Many spells 
 **Dark**: Shadowy energies are common sources of this damage type.
 
 ## Resistance Group
-Damage Types in this Group are usually only done as part of a failed Resistance Check. Armor against these types of damage only apply to a Resistance Check that deals their damage and not to the roll to be hit by a Resistance Attack.
+Damage Types in this Group are usually only done as part of a failed Resistance Check. Armor against these types of damage only apply to a Resistance Check that deals their damage and not to the roll to be hit by an effect power.
 
 **Atomic**: This is damage done at the atomic level. Your atoms being rearranged or acidic substances are common sources of this damage.
 

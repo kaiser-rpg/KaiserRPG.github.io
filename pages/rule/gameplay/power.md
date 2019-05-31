@@ -6,7 +6,7 @@ permalink: rule_gameplay_power.html
 In Kaiser, there are many different abilities and features that grant you special powers. Powers can come from many different sources, such as spirit, mana, and phenom, but they share many similar rules. These rules are described below.
 
 ## Powers and Actions
-When you wish to use a power, you must take the appropriate action to activate it. Involved powers require it to be your turn in the Initiative and then you must take the [Use an Involved Power](todo.html) action. A Swift power can be used at any time during the round by taking the [Use a Swift Power](todo.html) action.
+When you wish to use a power, you must take the appropriate action to activate it. If the power has an action requirement of Active, Swift, or Reaction, you can use it by taking the appropriate action. The action requirement of Attack can be used during the [Attack Action](todo.html), this is a special action requirement since it counts toward the multiple attack penalty. The action requirement of Complete is another special one, requiring that you declare its use during the Intention Phase and the power will not take full effect until the End Phase, any cost is spent at the end of the Intention Phase, after all accumulations have occurred.
 
 ## Types of Powers
 Below are the types of powers that you can find in Kaiser. The description of each type includes how to use your Offensive or Defensive Skills (if required) and if the power can be seen on the material plane.
@@ -51,17 +51,35 @@ Trigger powers usually have the immaterial trait. As with Effect powers, if they
 ### Detection
 Powers of this type are a special type of trigger power. The trigger is being within range and it allows you to gain information, whether that be location, condition, or features, of any target that fails the Resistance Check. Detection powers can be negated by some powers and a target gets a bonus to the Resistance Check based on their Conceal Ki Skill if they have developed it.
 
+### Passive
+Powers of this type have their effects always active. The power might still allow you to suppress the power and reactivate it later, in which case it is a Swift Action to turn off and back on.
+
+## Maintaining Powers
+Some powers allow you to keep their effects activate for a long time. Each power that can be maintained has a cost that must be payed during the End Phase every increment of time. If you are unable to pay the cost, the power ends when the round does.
+
+### Turn
+Powers with a maintenance of Turn require you to pay their maintenance cost each round. 
+
+### Minor Sustain
+Powers with a maintenance of Minor Sustain, sometimes just called Minor, require you to pay their maintenance cost every minute (10 rounds).
+
+### Major Sustain
+Powers with a maintenance of Major Sustain, sometimes just called Major, require you to pay their maintenance cost every ten minutes (100 rounds).
+
+### Daily
+Powers with a maintenance of Daily require you to pay their maintenance cost every day at dawn, unlike the other maintenance values.
+
 ## Common Power Features
 Many powers share similar features. Below are some general rules that are described below to either clarify or provide some further detail.
 
 ### Immaterial
 Ghosts, spirits, and other creatures that do not fully exist on the material plane have a trait called immaterial. This trait gives them the ability to ignore material objects like weapons, armor, and shields; this can make them difficult or impossible to fight.
 
-In order to hit a creature with the immaterial trait, your attack must have the imbued trait, meaning it is imbued with energy capable of interacting with an immaterial creature. All attacks that deal damage from the Energy Group naturally have the imbued trait. For Physical and Elemental damage, you need to gain the imbued trait from some other feature, ability, or power. Whether a power, dealing damage from the Resistance Group, is imbued will be listed in the power's description.
+In order to hit a creature with the immaterial trait, your attack must have the imbued trait and a presence equal to or greater than that of the creature. All attacks that deal damage from the Energy Group naturally have the imbued trait. For Physical and Elemental damage, you need to gain the imbued trait from some other feature, ability, or power. Whether a power, dealing damage from the Resistance Group, is imbued will be listed in the power's description.
 
 Similarly, a creature with the immaterial trait will make its attacks immaterial as well. To defend against such an attack, you must either dodge or block it with an imbued object.
 
-The talent of Presence Extrusion allows you to grant the imbued trait to your weapons. The meta magic ability Imbued Spell allows your attack and defense spells to gain the imbued trait. A phenom will list at what degree it gains the imbued trait. Some artifacts can also give you or your powers the imbued trait as well.
+The talent of Presence Extrusion allows you to grant the imbued trait to your weapons and give them a presence equal to twice yours. The meta magic ability Imbued Spell allows your attack and defense spells to gain the imbued trait. A phenom will list at what degree it gains the imbued trait. Some artifacts can also give you or your powers the imbued trait as well.
 
 ### Area Attack
 Some powers have the ability to affect a large area with a single attack. This area attack can take many different shapes: sphere, cylinder, cone, line, and so on. Each valid target within the volume of the attack must make a Defensive Roll against your Offensive Roll (only one roll). The area attack will still count as a thrown projectile for the purpose of defense.
@@ -75,7 +93,7 @@ All objects and creatures have a certain amount of essence in the world, measure
 
 In general, the presence of equipment, cloths, and even most artifacts do not need to be included when determining affected presence as long as it is on the target's person.
 
-For example, if you were to cast the spell Invisibility at the Base Degree you can affect a maximum of 10 presence. So, you can target three creatures with 3 presence each, two creatures with 5 presence each, or one creature with 6 presence and another with 4 presence. Anything the creature is carrying does not count toward the presence total. So, a target holding a magic sword with the presence of 12 would still turn the sword invisible until they drop it. But since the sword has a presence higher than the spells affected amount the sword cannot be targeted.
+For example, if you were to cast the spell Invisibility at the Base Degree you can affect a maximum of 10 presence. So, you can target three creatures with 3 presence each, two creatures with 5 presence each, or one creature with 6 presence and another with 4 presence. Anything the creature is carrying, that is also not sentient) does not count toward the presence total. So, a target holding a magic sword with the presence of 12 would still turn the sword invisible until they drop it. But since the sword has a presence higher than the spells affected amount the sword cannot be targeted.
 
 ### Target Selection
 You are not able to specify targets for an area attack unless otherwise listed. If you are unaware of a creature's existence within the area, you cannot deselect them even if the power allows.

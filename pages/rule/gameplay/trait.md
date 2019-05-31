@@ -69,4 +69,4 @@ If this trait is on a weapon, you still must take the sweeping attack maneuver, 
 If this trait is on a power, you instead make the sweeping attack maneuver as part of the power activating and do not need to spend the AP, only using the rules presented in the maneuver. If the power does not also have the reach trait, then you can only hit creatures you would normally reach as per the sweeping attack maneuver.
 
 ### Charging
-The charging trait means that the object is designed to be effective when charging a target while mounted. Double the mounter creatures Strength Modifier is added to the Base Damage of an attack made while charging.
+The charging trait means that the object is designed to be effective when used to attack a while charging on a mounted creatuire. You add twice the mount's Strength Modifier to the Base Damage of an attack made as part of a charge.
