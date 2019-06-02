@@ -1367,26 +1367,12 @@
             "Your strength of spirit allows your body to perform Inhuman results. You can benefit from Characteristics up to 13 and and perform Skill Checks up to the Inhuman degree."
         ]
     },
+    
     {
-        "name": "Legendary",
+        "name": "Zen",
         "id": "0100_0400_0100_0000_0000_0000_0000_0000",
         "req": "Inhumanity",
         "reqId": "0100_0400_0000_0000_0000_0000_0000_0000",
-        "cost": 4,
-        "action": "none",
-        "maint": "none",
-        "power": [
-            "passive"
-        ],
-        "entries": [
-            "Your strength of spirit allows your body to perform Legendary results. You can benefit from Characteristics up to 16 and and perform Skill Checks up to the Legendary degree."
-        ]
-    },
-    {
-        "name": "Zen",
-        "id": "0100_0400_0100_0100_0000_0000_0000_0000",
-        "req": "Legendary",
-        "reqId": "0100_0400_0100_0000_0000_0000_0000_0000",
         "cost": 5,
         "action": "none",
         "maint": "none",
@@ -1395,6 +1381,21 @@
         ],
         "entries": [
             "Your strength of spirit allows your body to perform Zen results. You can benefit from Characteristics up to 20 and and perform Skill Checks up to the Zen degree."
+        ]
+    },
+    {
+        "name": "Legendary",
+        "id": "0100_0400_0100_0100_0000_0000_0000_0000",
+        "req": "Zen",
+        "reqId": "0100_0400_0100_0000_0000_0000_0000_0000",
+        "cost": 4,
+        "action": "none",
+        "maint": "none",
+        "power": [
+            "passive"
+        ],
+        "entries": [
+            "Your strength of spirit allows your body to perform Legendary results. You can benefit from Characteristics up to 24 and and perform Skill Checks up to the Legendary degree."
         ]
     },
     {

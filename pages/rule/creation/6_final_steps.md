@@ -50,7 +50,7 @@ Your knowledge and expertise in certain tasks are known as Skills. Each Skill ha
 Primary Groups represent your basic faculties and are divided into three areas: Martial, Magic, and Psychic.
 
 #### Martial Group
-These abilities encompass your skills in fighting with your physical body, sometimes enhanced by your spirit. fighting skills.  Martial Skills are the following:
+These abilities encompass your skills in fighting with your physical body, sometimes enhanced by your spirit. Martial Skills are the following:
 
 **Strike Skill**: This represents your ability to strike your opponent and deal damage. This skill depends on Dexterity. The first time you spend XP to increase your Strike Skill, you may choose a single weapon to become proficient with.
 
@@ -64,7 +64,7 @@ These abilities encompass your skills in fighting with your physical body, somet
 
 **Martial Arts**: This represents your knowledge and capability with unarmed combat styles.
 
-**Martial Knowledge**: This is your knowledge of how to use your spirit for greater power.
+**Spirit Knowledge**: This is your knowledge of how to use your spirit for greater power.
 
 **Spirit Arts**: This represents your ability to use spiritual energy in physical ways. Ki, Chakra, and Ki Techniques are also included under Spirit Arts.
 
@@ -85,7 +85,7 @@ Magic skills encompass both spells and summoning.
 
 **Banish Skill**: This represents your ability to expel supernatural beings from this plane. It depends upon the Focus Characteristic.
 
-**Magic Level**: This is your total ability to understand the theory of magic and memorize spells.
+**Magic Knowledge**: This is your total ability to understand the theory of magic and memorize spells.
 
 **Mystical Modules**: This represents your capacity to utilize magic and spells in new or more efficient ways.
 

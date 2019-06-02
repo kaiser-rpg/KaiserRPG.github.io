@@ -2819,5 +2819,70 @@
 				]
 			]
 		}
+	},
+	{
+		"title": "Difficulty Values",
+		"index": "DIF50",
+		"table": {
+			"type": "table",
+			"colLabels": [
+				"Difficulty",
+				"Target Value"
+			],
+			"colStyles": [
+				"col-3",
+				"col-3"
+			],
+			"rows": [
+				[
+					"Routine",
+					"2"
+				],
+				[
+					"Easy",
+					"4"
+				],
+				[
+					"Moderate",
+					"8"
+				],
+				[
+					"Difficult",
+					"12"
+				],
+				[
+					"Very Difficult",
+					"16"
+				],
+				[
+					"Absurd",
+					"20"
+				],
+				[
+					"Almost Impossible",
+					"24"
+				],
+				[
+					"Impossible",
+					"28"
+				],
+				[
+					"Inhuman",
+					"32"
+				],
+				[
+					"Zen",
+					"44"
+				],
+				[
+					"Legendary",
+					"60"
+				],
+				[
+					"Divine",
+					"80"
+				]
+			]
+		}
 	}
 ]

@@ -38,13 +38,15 @@ These checks are made with a Characteristic. To make one, roll a 1d6 and add it 
 Like Difficulty Characteristics Checks, these checks are made using your Characteristics but are opposed by another creature. To make one, roll a 1d6 and add it to the Characteristic being checked and the opposing creature will do the same. If your result is greater than the opposing result, you are successful.
 
 #### Difficulty Skill Checks 
-These are made by rolling 2d6 and adding the results to a Skill. If the result is greater than or equal to the difficulty set by the GM, you are successful.
+These are made by rolling 2d6 and adding the results to a Skill. If the result is greater than or equal to the Degree of Difficulty set by the Game Master, you are successful. The Degree of Difficulty can be seen in the following table.
+
+{% include table-index.html index="DIF50" %}
 
 #### Opposed Skill Checks
 Like Difficulty Skill Checks, these are made by rolling 2d6 and adding the results to a Skill, but are opposed by another creature. If your result is greater than the opposing result, you are successful. These checks usually have a "defender" and "attacker" for the purpose of resolving ties.
 
 #### Resistance Checks
-Resistance Checks are your capacity to avoid detrimental effects or status. There are five different Resistance Checks: Presence (PrR), Physical (PhR), Immune (IR), Spirit (SR), and Mental (MR). In order to pass a Resistance Check, you roll 2d6 and add the result to the Resistance being tested. If the final value is greater than or equal to the required difficulty, you have avoided the effect. A Resistance Check cannot have an Open Roll or a Fumble.
+Resistance Checks are your capacity to avoid detrimental effects or status. There are five different Resistance Checks: Presence (PrR), Physical (PhR), Immune (IR), Spirit (SR), and Mental (MR). In order to pass a Resistance Check, you roll 2d6 and add the result to the Resistance being tested. If the final value is greater than or equal to the required Degree of Difficulty, you have avoided the effect. A Resistance Check cannot have an Open Roll or a Fumble.
 
 ### Results
 Compare the results of your roll to the difficulty or opposing creature to determine if you were successful.
@@ -66,26 +68,12 @@ How to determine the Degree of Success or Failure is mentioned in the success an
 ### Advantage and Disadvantage
 Some situations have a more or less favorable outcome than normal, either due to environmental conditions or super-natural forces. In these circumstances, your roll is modified to be with Advantage or Disadvantage. Advantage means that when you roll a Skill Check or Resistance Check, roll an additional d6 and take the highest two rolls as your final roll. Disadvantage is you take the lowest two rolls as your final roll. 
 
-In some circumstances, you can have more than one degree of Advantage or Disadvantage. When this occurs, roll an extra d6 for each level of Advantage or Disadvantage and take the highest or lowest respectively. The level of Advantage is noted as A1, A2, A#; the level of Disadvantage is noted as D1, D2, D#.
+In some circumstances, you can have more than one degree of Advantage or Disadvantage. When this occurs, roll an extra d6 for each degree of Advantage or Disadvantage and take the highest or lowest respectively. The degree of Advantage is noted as A1, A2, A#; the degree of Disadvantage is noted as D1, D2, D#.
 
-If you are affected by both Advantage and Disadvantage, subtract the lowest value from the higher one and that becomes your level of Advantage or Disadvantage.
+If you are affected by both Advantage and Disadvantage, subtract the lowest degree from the higher one and that becomes your degree of Advantage or Disadvantage.
 
-If you do not have enough dice to roll at once, you can roll the initial 2d6. Then for each level of Advantage, reroll the lowest die. After all the levels of Advantage have been rolled for, or you have rolled double 6 – since that is the highest result possible – you are done. For Disadvantage, reroll the highest of the two dice. After all levels of Disadvantage have been rolled for, or you have rolled double 1 – since that is the lowest result possible – you are done. If this method is used, be aware of modified Fumble chances.
+If you do not have enough dice to roll at once, you can roll the initial 2d6. Then for each degree of Advantage, reroll the lowest die. After all the degrees of Advantage have been rolled for, or you have rolled double 6 -- since that is the highest result possible -- you are done. For Disadvantage, reroll the highest of the two dice. After all degrees of Disadvantage have been rolled for, or you have rolled double 1 -- since that is the lowest result possible -- you are done. If this method is used, be aware of modified Fumble chances.
 
-> For example, if a warrior has two levels of Advantage (A2) from having higher ground and being inspired by a spell but has given him three levels of Disadvantage (D3) from a curse spell, the warrior has one level of Disadvantage (D1) in the end (2 - 3 = -1). So, the warrior will roll three d6s and take the lowest two die as his roll.
+{% include example.html content="For example, Ceil making an Attack against a bandit, she has one degree of Advantage (A1) from having the Higher Ground State over her opponent but is granted three levels of Disadvantage (D3) as a result of an opponent's power. When she rolls for her Strike Skill, she ends up having one degree of Disadvantage (2 - 3 = 1). So she rolls three d6s and takes the lowest two dice as the roll." %}
 
-#### Open Rolls
-Open Rolls represent something going unexpectedly well. When you make a Skill Check and roll double six, you have gained an Open Roll. You then roll another 1d6 and add the new result to the previous one. If the new 1d6 roll is also a six, repeat the process.
 
-#### Fumbles
-In the same way you can have a great success by means of an Open Roll, the possibility exists that a Fumble occurs. When you make a Skill Check and roll a double one, you have Fumbled and the result is an immediate failure.
-
-If the roll is for a Difficulty Skill Check, roll another 2d6 to determine the Fumble Level in the table below. The higher the fumble level, the worse the failure. 
-
-Opposed Skill Checks that Fumble have a different effect. Instead you will subtract a value from your Skill. The Final Skill Total cannot be less than 0.
-
-{% include table-index.html index = "GEN1" %}
-
-When a power increases or decreases the chance of a Fumble, refer to the table below. If you are affected by more than one increase and or decrease, add all the changes together.
-
-{% include table-index.html index = "GEN111" %}

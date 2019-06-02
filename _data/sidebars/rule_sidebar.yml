@@ -40,8 +40,11 @@ entries:
     - title: Primary and Secondary Skills
       url: /rule_skill_intro.html
       output: web
+    - title: Skill Terms
+      url: /rule_skill_term.html
+      output: web
     - title: Primary Skills
-      url: /rule_skill_combat.html
+      url: /rule_skill_primary.html
       output: web
     - title: Exertion
       url: /rule_skill_exertion.html
