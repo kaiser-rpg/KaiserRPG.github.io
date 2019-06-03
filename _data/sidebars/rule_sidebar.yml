@@ -214,8 +214,20 @@ entries:
   - title: Phenom
     output: web
     folderitems:
-    - title: Introduction
-      url: /rule_phenom_intro.html
+    - title: Phenom
+      url: /rule_phenom_phenom.html
+      output: web
+    - title: Manifesting
+      url: /rule_phenom_manifesting.html
+      output: web
+    - title: Disciplines
+      url: /rule_phenom_discipline.html
+      output: web
+    - title: Phenom Knowledge
+      url: /rule_phenom_knowledge.html
+      output: web
+    - title: Common Phenom Artifacts
+      url: /rule_phenom_artifact.html
       output: web
 
   - title: High Level Game Play

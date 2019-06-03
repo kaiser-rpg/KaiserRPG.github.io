@@ -2884,5 +2884,183 @@
 				]
 			]
 		}
+	},
+	{
+		"title": "Size Chart",
+		"index": "SIZE50",
+		"table": {
+			"type": "table",
+			"colLabels": [
+				"Size",
+				"Size Value",
+				"Base Initiative Value",
+				"Description"
+			],
+			"colStyles": [
+				"col-2",
+				"col-2",
+				"col-2",
+				"col-6"
+			],
+			"rows": [
+				[
+					"Tiny",
+					"0 to 3",
+					"30",
+					"Less than 4 inches"
+				],
+				[
+					"Small",
+					"4 to 6",
+					"20",
+					"About the size of a cat or small dog"
+				],
+				[
+					"Medium",
+					"7 to 22",
+					"10",
+					"The range of human heights and weights"
+				],
+				[
+					"Large",
+					"23 to 28",
+					"0",
+					"About double an average human"
+				],
+				[
+					"Huge",
+					"29 to 34",
+					"-10",
+					"The size of a small house, large tree, or elephant"
+				],
+				[
+					"Giant",
+					"35 to 40",
+					"-30",
+					"About the size of a tower or small castle"
+				],
+				[
+					"Colossal",
+					"41 to 50",
+					"-40",
+					"The size of a small mountain"
+				],
+				[
+					"Titan",
+					"51 or higher",
+					"-50",
+					"Larger than a mountain"
+				]
+			]
+		}
+	},
+	{
+		"title": "Size Combat",
+		"index": "SIZE51",
+		"table": {
+			"type": "table",
+			"colLabels": [
+				"Size",
+				"Unarmed Weapon Damage",
+				"Natural Weapon Damage",
+				"Breakage",
+				"Fortitude",
+				"Action Area",
+				"Rex Multiplier",
+				"Armor"
+			],
+			"colStyles": [
+				"col-2",
+				"col-2",
+				"col-2",
+				"col-2",
+				"col-2",
+				"col-2",
+				"col-2",
+				"col-2"
+			],
+			"rows": [
+				[
+					"Tiny",
+					"0",
+					"2",
+					"-4",
+					"4",
+					"-",
+					"1.5",
+					"1"
+				],
+				[
+					"Small",
+					"1",
+					"3",
+					"-2",
+					"8",
+					"-",
+					"2",
+					"2"
+				],
+				[
+					"Medium",
+					"1",
+					"4",
+					"0",
+					"12",
+					"-",
+					"5",
+					"3"
+				],
+				[
+					"Large",
+					"2",
+					"6",
+					"4",
+					"16",
+					"-",
+					"7",
+					"4"
+				],
+				[
+					"Huge",
+					"3",
+					"10",
+					"8",
+					"20",
+					"5 feet",
+					"10",
+					"6"
+				],
+				[
+					"Giant",
+					"4",
+					"12",
+					"12",
+					"24",
+					"15 feet",
+					"15",
+					"8"
+				],
+				[
+					"Colossal",
+					"6",
+					"14",
+					"16",
+					"32",
+					"60 feet",
+					"20",
+					"10"
+				],
+				[
+					"Titan",
+					"12",
+					"28",
+					"32",
+					"64",
+					"250 feet",
+					"40",
+					"20"
+				]
+			]
+		}
 	}
 ]
