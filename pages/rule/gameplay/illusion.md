@@ -1,5 +1,5 @@
 ---
-title: Illusions
+title: Power: Illusions
 permalink: rule_gameplay_illusion.html
 ---
 
@@ -23,7 +23,7 @@ A Glamor is not capable of dealing illusory damage since its nature is revealed 
 ### Phantasms
 Phantasms are the most power type of illusion and cannot be ignored simply as it exists in the mind of an affected creature. Since this type exists only in the mind, it can only be overcome with a Resistance Check. A new check is allowed when the power allows. Being informed of the illusionary nature does not cause the the power to end, only granting two degrees of Advantage on the Resistance Check.
 
-Only Phantasms can be used to deal illusory damage since they exist in the mind, which can make a creature think they are hurt. Damage inflicted this way uses the Damage Type that the creature believes they are being hit with, applying all armor, resistances, and vulnerabilities. But once the illusion is broken, the damage done is reduced to a tenth of what they took.
+Only Phantasms can be used to deal phantasmal damage since they exist in the mind, which can make a creature think they are hurt. Damage inflicted this way uses the Damage Type that the creature believes they are being hit with, applying all armor, resistances, and vulnerabilities. But once the illusion is broken, the damage done is reduced to a tenth of what they took. If the creature were to be reduced to zero Life Points from phantasmal damage, they are instead left unconscious. But if phantasmal damage were to produce a Critical that would kill them, they may still die of shock.
 
 ## Control
 The control of an illusion lets you change the shape of the illusion after it has been created. This control can make the illusion more believable as it can react as expected.
@@ -39,8 +39,3 @@ Active allows you to use your actions to change the shape of the illusion, such 
 
 ### Sentient
 Sentient gives you complete control over the actions of the illusion since it possesses a copy of your consciousness. Any Skill Check that the illusion would make uses your Final Skill Value. But, unlike Active, the illusion and you do not share Action Points or limited actions. Sentient illusions can be any type, but are usually Phantasms.
-
-## Damage from Illusions
-An important point of illusions is that they do not do real damage. But, a creatures mind can be tricked into 
-
-
