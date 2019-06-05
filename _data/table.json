@@ -2397,7 +2397,7 @@
 					{
 						"type": "list",
 						"items": [
-							"Suffer -4 All Action Penalty."
+							"Suffer an All Action Penalty."
 						]
 					}
 				],
@@ -2433,7 +2433,7 @@
 					{
 						"type": "list",
 						"items": [
-							"Use brute force to destroy object of rage."
+							"Use brute force to destroy the object of your rage."
 						]
 					}
 				],
@@ -2502,7 +2502,7 @@
 						"type": "list",
 						"items": [
 							"You cannot take any actions except to defend yourself (you cannot activate any powers).",
-							"Any Skill Check or Characteristic Check has its Final Roll halved.",
+							"Any Skill Check or Characteristic Check has its Final Roll halved, including defense.",
 							"You cannot gain Open Rolls."
 						]
 					}

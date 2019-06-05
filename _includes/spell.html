@@ -1,0 +1,67 @@
+<h3>{{include.spell.name}}</h3>
+<div>
+    <span class='entry-inline-title'>Level</span>: {{include.spell.level}}
+</div>
+<div>
+    <span class='entry-inline-title'>Power Type</span>: {{include.spell.power | join: " "}}
+</div> 
+<div>
+    <span class='entry-inline-title'>Action</span>: {{include.spell.action | capitalize}}
+</div> 
+<div>
+    <span class='entry-inline-title'>Maintained</span>: {{include.spell.maintTime | capitalize}}
+</div> 
+
+<div>
+{% include entry.html entries=include.spell.description %}
+</div>
+
+<table>
+    <thead>
+        <tr>
+            <th class="col-1">Degree</th>
+            <th class="col-2">Mana</th>
+            <th class="col-1">Int</th>
+            <th class="col-8">Effect</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr class="spellRow">
+            <td class="bold">Base</td>
+            <td>
+                {{include.spell.degree.base.mana}}
+                {% if include.spell.degree.base.maint > 0 %}({{include.spell.degree.base.maint}}){% endif %}
+            </td>
+            <td>{{include.spell.degree.base.int}}</td>
+            <td>{% include entry.html entries=include.spell.degree.base.effect useDiv=1 %}</td>
+        </tr>
+        <tr class="spellRow">
+            <td class="bold">Intermediate</td>
+            <td>
+                {{include.spell.degree.intermediate.mana}}
+                {% if include.spell.degree.intermediate.maint > 0 %}({{include.spell.degree.intermediate.maint}}){% endif %}
+            </td>
+            <td>{{include.spell.degree.intermediate.int}}</td>
+            <td>{% include entry.html entries=include.spell.degree.intermediate.effect useDiv=1 %}</td>
+        </tr>
+        <tr class="spellRow">
+            <td class="bold">Advanced</td>
+            <td>
+                {{include.spell.degree.advanced.mana}}
+                {% if include.spell.degree.advanced.maint > 0 %}({{include.spell.degree.advanced.maint}}){% endif %}
+            </td>
+            <td>{{include.spell.degree.advanced.int}}</td>
+            <td>{% include entry.html entries=include.spell.degree.advanced.effect useDiv=1 %}</td>
+        </tr>
+        <tr class="spellRow">
+            <td class="bold">Arcane</td>
+            <td>
+                {{include.spell.degree.arcane.mana}}
+                {% if include.spell.degree.arcane.maint > 0 %}({{include.spell.degree.arcane.maint}}){% endif %}
+            </td>
+            <td>{{include.spell.degree.arcane.int}}</td>
+            <td>{% include entry.html entries=include.spell.degree.arcane.effect useDiv=1 %}</td>
+        </tr>
+
+    </tbody>
+</table>

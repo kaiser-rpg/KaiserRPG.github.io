@@ -24,15 +24,19 @@
                             <span class="entry-inline-title">{{entry.name}}</span>:
                         {% endif %}
                     {% endif %}
-                    {% include entry.html entries=entry.entries level=nextLevel %}
+                    {% include entry.html entries=entry.entries level=nextLevel useDiv=include.useDiv %}
                 </div>
             {% endif %}
         {% else %}
-            <p>{{entry}}</p>
+            {% if include.useDiv > 0 %}
+                <div>{{entry}}</div>
+            {% else %}
+                <p>{{entry}}</p>
+            {% endif %}
         {% endif %}
 {% elsif entries[0] %}
     {% for et in entries %}
-        {% include entry.html entry=et level=include.level %}
+        {% include entry.html entry=et level=include.level useDiv=include.useDiv %}
     {% endfor %}
 {% else %}
     {{entries}}

@@ -7,42 +7,42 @@ toc: false
 {% include table-index.html index="STATE10" %}
 
 ## Untrained Similar Weapon
-You have the Untrained Weapon State when you make an attack or block an attack with an untrained weapon that shares a class with a trained weapon. 
-
-* Strike with one degree of Disadvantage
-* Block with one degree of Disadvantage
+You have the Untrained Weapon State when you make an attack or block an attack with an untrained weapon that shares a class with a trained weapon. Strike and Block Checks using the weapon suffer one degree of Disadvantage.
 
 ## Untrained Different Weapon
-You have the Untrained Weapon State when you make an attack or block an attack with an untrained weapon that shares no classes with a trained weapon.
-
-* Strike with two degrees of Disadvantage
-* Block with two degrees of Disadvantage
+You have the Untrained Weapon State when you make an attack or block an attack with an untrained weapon that shares no classes with a trained weapon. Strike and Block Checks using the weapon suffer two degree of Disadvantage.
 
 ## Flat-Footed
 You have the Flat-Footed State when you would lose an Action Point (AP) from taking damage and already have zero. Once you are Flat-Footed, you cannot take any more Active Actions or Reactions until next round. Additionally, any unspent movement is lost. You can still perform Swift Actions.
 
-* Cannot take Active Actions or Reactions until next round
-* Unspent movement is lost
 
 ## Pain
-You have the Pain State when you are subject to a large amount of physical or mental pain which would cause a distraction. You have a `-4` All Action Penalty while in the Pain State. The All Action Penalty can be reduced with a Withstand Pain Skill Check.
+You have the Pain State when you are subject to a large amount of physical or mental pain which would cause a distraction. You have an All Action Penalty while in the Pain State. The All Action Penalty can be reduced with a Withstand Pain Skill Check.
 
-The duration of this state will depend on its source. If caused by a power, the power will list how long it lasts and the All Action Penalty will disappear when the power ends. If caused by damage or a Critical, you instead recover the All Action Penalty as you would any other All Action Penalty.
+The duration and intensity of this state will depend on its source. If caused by a power, the power will list how long it lasts and the All Action Penalty will disappear when the power ends. If caused by damage or a Critical, you instead recover the All Action Penalty as you would any other All Action Penalty.
+
+If you are subject to multiple Pain States, the All Action Penalty are added together.
 
 ## Weakness
-You have the Weakness State when your body's physical capabilities are reduced. Your Strength, Dexterity, and Agility Characteristics are reduced by an amount depending on the source.
+You have the Weakness State when your body's physical capabilities are reduced. Your Strength, Dexterity, or Agility Characteristics are reduced by an amount depending on the source, or some combination of the three.
 
-The duration of this state will depend on its source. If caused by a power, the power will list how long it lasts. If caused by other means, you regain one point in each Characteristic each hour, doubled if you are resting.
+The duration and intensity of this state will depend on its source. If caused by a power, the power will list how long it lasts. If caused by other means, you regain one point in each Characteristic each hour, doubled if you are resting.
+
+If you are subject to multiple Weakness States, only the greatest penalty to each Characteristic is applied.
 
 ## Dazed
-You have the Dazed State when your mind's capabilities are reduced. Your Perception and Intelligence Characteristics are reduced by an amount depending on the source.
+You have the Dazed State when your mind's capabilities are reduced. Your Perception or Intelligence Characteristics are reduced by an amount depending on the source, or some combination of the two.
 
-The duration of this state will depend on its source. If caused by a power, the power will list how long it lasts. If caused by other means, you regain one point in each Characteristic each hour, doubled if you are resting.
+The duration and intensity of this state will depend on its source. If caused by a power, the power will list how long it lasts. If caused by other means, you regain one point in each Characteristic each hour, doubled if you are resting.
+
+If you are subject to multiple Dazed States, only the greatest penalty to each Characteristic is applied.
 
 ## Unaligned
-You have the Unaligned State when your spirit's capabilities are reduced. Your Focus and Willpower Characteristics are reduced by an amount depending on the source.
+You have the Unaligned State when your spirit's capabilities are reduced. Your Focus or Willpower Characteristics are reduced by an amount depending on the source, or some combination of the three.
 
-The duration of this state will depend on its source. If caused by a power, the power will list how long it lasts. If caused by other means, you regain one point in each Characteristic each hour, doubled if you are resting.
+The duration and intensity of this state will depend on its source. If caused by a power, the power will list how long it lasts. If caused by other means, you regain one point in each Characteristic each hour, doubled if you are resting.
+
+If you are subject to multiple Unaligned States, only the greatest penalty to each Characteristic is applied.
 
 ## Rage
 You have the Rage State when you are subject to a strong source of anger at one or more objects. You and the Game Master both control your actions. In general, you will employ a brute force strategy and use two Stamina Points each round (where it makes sense).
@@ -52,7 +52,7 @@ The duration of this state will depend on its source. If caused by a power, the 
 {% include meta.html content="It is not recommended that the Game Master have a character to enter rage frequently via purely emotional means. The Rage State is meant to trigger under extreme emotional stress, such as the death of a loved one." %}
 
 ## Fear: Shaken
-You are considered to have the Shaken State when you are afraid of an object. This state is the first degree of fear. While in the Shaken State, you suffer one degree of Disadvantage while the object of fear is within sight.
+You are considered to have the Shaken State when you are afraid of an object. This state is the first degree of Fear. While in the Shaken State, you suffer one degree of Disadvantage while the object of fear is within sight.
 
 The duration of this state will depend on its source. If caused by a power, the power will list how long it lasts, generally one round per DoF.
 

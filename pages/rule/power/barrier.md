@@ -1,6 +1,6 @@
 ---
 title: Supernatural Barriers
-permalink: rule_combat_barrier.html
+permalink: rule_power_barrier.html
 ---
 
 The most common type of defense power is one that employs a supernatural barrier. This barrier is used to block incoming attacks, in much the same manner as using the Block Skill, but it has a few key differences.

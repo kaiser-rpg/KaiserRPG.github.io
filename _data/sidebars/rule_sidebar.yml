@@ -85,9 +85,6 @@ entries:
     - title: Stamina
       url: /rule_gameplay_stamina.html
       output: web
-    - title: Powers
-      url: /rule_gameplay_power.html
-      output: web
     - title: Trait
       url: /rule_gameplay_trait.html
       output: web
@@ -156,6 +153,31 @@ entries:
       output: web
     - title: Combat Maneuvers
       url: /rule_combat_maneuver.html
+      output: web
+
+  - title: Powers
+    output: web
+    folderitems:
+    - title: Power Types and Actions
+      url: /rule_power_type.html
+      output: web
+    - title: Maintaining Powers
+      url: /rule_power_maintain.html
+      output: web
+    - title: Common Features
+      url: /rule_power_feature.html
+      output: web
+    - title: Supernatural Barriers
+      url: /rule_power_barrier.html
+      output: web
+    - title: Illusions
+      url: /rule_power_illusion.html
+      output: web
+    - title: Collision
+      url: /rule_power_collision.html
+      output: web
+    - title: Stacking Effects of Powers
+      url: /rule_power_stack.html
       output: web
 
   - title: Spirit

@@ -1,9 +1,9 @@
 ---
-title: Power: Illusions
-permalink: rule_gameplay_illusion.html
+title: Illusions
+permalink: rule_power_illusion.html
 ---
 
-Illusions are a false sensory stimuli produced by a power. The illusion can alter a targets sense of sight, touch, smell, hearing, taste, spacial awareness, passage of time, balance, pain, temperature, and body awareness just to name a few. More complex illusions can alter multiple senses at one time, giving a fuller, more convincing, reality.
+Illusions are a false sensory stimuli produced by a power. The illusion can alter a targets sense of sight, touch, smell, hearing, taste, spacial awareness, passage of time, balance, pain, temperature, and body awareness just to name a few. Illusions can even modify a targets ability to see other planes, like spirits, mana, and phenom. More complex illusions can alter multiple senses at one time, giving a fuller, more convincing, reality. 
 
 Powers that produce illusions have two qualities that affect how they are interacted with. The type of illusions determines how it alters the perception of others. Control governs how you can shape the information after the power is activated. The combination of these two qualities will help you and the Game Master determine how the illusion interacts with other creatures.
 

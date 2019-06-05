@@ -162,14 +162,14 @@ entries:
     output: web
     folderitems:
     - title: Light
-      url: /char_magic_spell_light.html
+      url: /char_spell_light.html
       output: web
 
   - title: Sub-Paths
     output: web
     folderitems:
     - title: Dragon
-      url: /char_magic_spell_dragon.html
+      url: /char_spell_dragon.html
       output: web
 
   - title: Phenom Disciplines
