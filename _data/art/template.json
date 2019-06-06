@@ -1,0 +1,49 @@
+{
+    "name": "name",
+    "req": [
+        "None"
+    ],
+    "xp": 1,
+    "sk": 1,
+    "description": [
+        "something"
+    ],
+    "baseWeapon": "none",
+    "weapon": [{
+        "name": "name",
+        "presence": 1,
+        "damage": 1,
+        "primeDamage": ["cut"],
+        "secondDamage": [],
+        "breakage": 0,
+        "fortitude": 10,
+        "ap": 1,
+        "init": -1,
+        "size": "small",
+        "special": [
+            "complex"
+        ],
+        "description": [
+            "something"
+        ]
+    }],
+    "features":[
+        {
+            "name":"first feature",
+            "type": "entries",
+            "entries":[
+                "something"
+            ]
+        },
+        {
+            "name":"second feature",
+            "type": "entries",
+            "entries":[
+                "something"
+            ]
+        }
+    ],
+    "extra":[
+        "something"
+    ]
+}

@@ -1,0 +1,138 @@
+[
+    {
+        "name": "Aries: Weapon Swarm",
+        "req": [
+            "Strike 15",
+            "Defense 15",
+            "Inhumanity"
+        ],
+        "xp": 4,
+        "sk": 4,
+        "description": [
+            "Aries allows you to wield dozens of weapons connected by a chain. This chain is usually hidden inside your clothing and sent out when attacking. You can also chose to grab a single weapon on the chain and use it normally.",
+            "The swarm of weapons is used as a single weapon with the following features."
+        ],
+        "baseWeapon": "none",
+        "weapon": [
+            {
+                "name": "Aries",
+                "presence": 3,
+                "damage": 10,
+                "primeDamage": [
+                    "thrust"
+                ],
+                "secondDamage": [
+                    "cut"
+                ],
+                "breakage": 6,
+                "fortitude": 16,
+                "ap": 3,
+                "init": -4,
+                "size": "large",
+                "reqStr": 5,
+                "special": [
+                    "complex",
+                    "trapping (10)",
+                    "two-handed"
+                ]
+            }
+        ],
+        "features": [
+            {
+                "name": "Weapon Swarm",
+                "type": "entries",
+                "entries": [
+                    "Aries is composed of a large number of weapons. To be considered for Aries, you must have at least five weapons. Each attached weapon must be smaller than Large, have Thrust or Cut as its primary damage type, and cannot have the two-handed trait.",
+                    "Due to the chain of weapons, you can make an Off-hand Attack Action using Aries and only apply a -1 penalty as if you had Ambidextrous."
+                ]
+            },
+            {
+                "name": "Quality",
+                "type": "entries",
+                "entries": [
+                    "In order for Aries to be considered to have a Quality Bonus, a majority of its swarm must be a certain Quality Bonus before Aries benefits from it."
+                ]
+            },
+            {
+                "name": "Trapping",
+                "type": "entries",
+                "entries": [
+                    "Aries allows you to make the Trap Maneuver with the normal penalties. The weapon has Strength 10 for the Trap Maneuver's Opposed Characteristic Check."
+                ]
+            },
+            {
+                "name": "Reach",
+                "type": "entries",
+                "entries": [
+                    "By launching the chain, you can hit a creature up to 15 feet away. These attacks are still considered hand-to-hand."
+                ]
+            },
+            {
+                "name": "Weapon Choice",
+                "type": "entries",
+                "entries": [
+                    "During the Intention Phase, you can chose to use the individual weapons on the chain. The weapon uses its normal features, not those of Aries."
+                ]
+            },
+            {
+                "name": "Massive Attack",
+                "type": "entries",
+                "entries": [
+                    "When you perform the Sweeping Attack Maneuver with Aries, you only apply a -1 penalty."
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Aries Major: Weapon Swarm",
+        "req": [
+            "Aries",
+            "Dexterity 13",
+            "Strike 20",
+            "Block 20"
+        ],
+        "xp": 3,
+        "sk": 3,
+        "description": [
+            "Chose three of the following features. You can take this Master Art multiple times to select one more feature."
+        ],
+        "features": [
+            {
+                "name": "Absolute Mastery",
+                "type": "entries",
+                "entries": [
+                    "Aries loses the Complex trait."
+                ]
+            },
+            {
+                "name": "Defensive Spiral",
+                "type": "entries",
+                "entries": [
+                    "Aries counts as a Full Shield, giving the Block and Dodge bonus and can block Projectiles. Additionally, Aries gains the Disarm Weapon trait, meaning it can perform the Disarm Maneuver as part of a Counter."
+                ]
+            },
+            {
+                "name": "Fast Impact",
+                "type": "entries",
+                "entries": [
+                    "Attacks made with Aries count as thrown projectiles, although its maximum distance is 15-feet and is not affected by Point Blank bonus or the Effective Range penalty."
+                ]
+            },
+            {
+                "name": "Prison of Chains",
+                "type": "entries",
+                "entries": [
+                    "When making a Sweeping Attack Maneuver, you can also make the Trapping Maneuver on each opponent without further penalty or AP Cost.",
+                    "When using the Trapping Maneuver normally with Aries, you only suffer a -1 penalty and has Strength 13 for the Trap Maneuver's Opposed Characteristic Check."
+                ]
+            },
+            {
+                "name": "Quick Release",
+                "type": "entries",
+                "entries": [
+                    "Aries Initiative penalty becomes -1."
+                ]
+            }
+        ]
+    }
+]

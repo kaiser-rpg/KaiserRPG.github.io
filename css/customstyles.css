@@ -665,6 +665,25 @@ h5 {
     font-weight: bold;
 }
 
+table.weaponTable>tbody>tr, table.weaponTable>thead>tr {
+    background-color: #6bc7f4;
+}
+
+table.weaponTable td {
+    color: black;
+    background-color: #6bc7f4;
+    border: none;
+    padding: 2px;
+}
+
+table.weaponTable th {
+    color: black;
+    background-color: #6bc7f4;
+    border: none;
+    padding: 2px;
+    font-size: large
+}
+
 .gen-table td, .gen-table th {
     text-align: center
 }

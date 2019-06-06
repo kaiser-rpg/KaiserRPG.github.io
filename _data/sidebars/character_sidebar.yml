@@ -137,9 +137,19 @@ entries:
       output: web
     - title: Major Arts
       url: /char_spirit_major_arts.html
+      output: web 
+
+  - title: Impossible Weapons
+    output: web
+    folderitems:
+    - title: Umbra
+      url: /char_art_weapon_umbra.html
+      output: web
+    - title: Aries
+      url: /char_art_weapon_aries.html
       output: web  
-    - title: Impossible Weapons
-      url: /char_spirit_impossible_weapon.html
+    - title: Taurus
+      url: /char_art_weapon_taurus.html
       output: web  
 
   - title: Magic

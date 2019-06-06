@@ -1,0 +1,64 @@
+<table class="weaponTable">
+    <thead>
+        <tr class="weaponRow">
+            <th class="bold" colspan="2">{{include.weapon.name}}</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% if include.weapon.description.size > 0 %}
+        <tr class="weaponRow">
+            <td colspan="2">
+                {% include entry.html entries=include.weapon.description %}
+            </td>
+        </tr>
+        {% endif %}
+        <tr class="weaponRow">
+            <td>
+                <span class='entry-inline-title'>Weapon Damage</span>: {{include.weapon.damage}}
+            </td>
+            <td>
+                <span class='entry-inline-title'>Presence</span>: {{include.weapon.presence}}
+            </td>
+        </tr>
+        <tr class="weaponRow">
+            <td>
+                <span class='entry-inline-title'>Primary Damage</span>: {{include.weapon.primeDamage}}
+            </td>
+            <td>
+                <span class='entry-inline-title'>Secondary Damage</span>: {{include.weapon.secondDamage}}
+            </td>
+        </tr>
+        <tr class="weaponRow">
+            <td>
+                <span class='entry-inline-title'>Breakage</span>: {{include.weapon.breakage}}
+            </td>
+            <td>
+                <span class='entry-inline-title'>Fortitude</span>: {{include.weapon.fortitude}}
+            </td>
+        </tr>
+        <tr class="weaponRow">
+            <td>
+                <span class='entry-inline-title'>AP</span>: {{include.weapon.ap}}
+            </td>
+            <td>
+                <span class='entry-inline-title'>Initiative</span>: {{include.weapon.init}}
+            </td>
+        </tr>
+        <tr class="weaponRow">
+            <td>
+                <span class='entry-inline-title'>Size</span>: {{include.weapon.size}}
+            </td>
+            <td>
+                <span class='entry-inline-title'>Req. Strength</span>: {{include.weapon.reqStr}}
+            </td>
+        </tr>
+        {% if include.weapon.special.size > 0 %}
+        <tr class="weaponRow">
+            <td colspan="2">
+                <span class='entry-inline-title'>Special</span>: {{include.weapon.special | join: ", "}}
+            </td>
+        </tr>
+        {% endif %}
+        
+    </tbody>
+</table>

@@ -1,5 +1,5 @@
 ### Sweeping Attack
-**Attack**: 2 AP
+**Complete Attack**: 2 AP
 
 When you use this maneuver, you swing your weapon at multiple opponents at once. Before rolling, you must choose a number of opponents with a certain range. You make a single Offensive Roll with a -5 penalty and each opponent make their own Defensive Roll in the order that they were chosen. 
 

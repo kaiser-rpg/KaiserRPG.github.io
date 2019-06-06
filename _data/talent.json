@@ -516,7 +516,7 @@
         ]
     },
     {
-        "name": "Advanced Recovery Aura",
+        "name": "Advanced Meditation Recovery",
         "id": "0100_0100_0400_0200_0100_0100_0000_0000",
         "req": "Meditation Recovery",
         "reqId": "0100_0100_0400_0200_0200_0000_0000_0000",
@@ -531,9 +531,9 @@
         ]
     },
     {
-        "name": "Arcane Recovery Aura",
+        "name": "Arcane Meditation Recovery",
         "id": "0100_0100_0400_0200_0100_0100_0100_0000",
-        "req": "Advanced Recovery Aura",
+        "req": "Advanced Meditation Recovery",
         "reqId": "0100_0100_0400_0200_0100_0100_0000_0000",
         "cost": 5,
         "action": "none",

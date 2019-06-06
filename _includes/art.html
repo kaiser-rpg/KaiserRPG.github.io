@@ -1,0 +1,34 @@
+<h3>{{include.art.name}}</h3>
+<div>
+    <span class='entry-inline-title'>Requirement</span>: {{include.art.req | join: ", "}}
+</div>
+
+{% if include.art.baseWeapon.size > 0 %}
+<div>
+    <span class='entry-inline-title'>Base Weapon</span>: {{include.art.baseWeapon}}
+</div>
+{% endif %}
+
+<div>
+    <span class='entry-inline-title'>Cost</span>: {{include.art.xp}} XP {{include.art.sk}} SK 
+</div> 
+
+<div>
+{% include entry.html entries=include.art.description %}
+</div>
+
+{% for weapon in include.art.weapon%}
+<div>
+{% include weapon.html weapon=weapon %}
+</div>
+{% endfor %}
+
+<div>
+{% include entry.html entries=include.art.features %}
+</div>
+
+{% if include.art.extra.size > 0 %}
+<div>
+{% include entry.html entries=include.art.extra %}
+</div>
+{% endif %}

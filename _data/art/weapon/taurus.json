@@ -1,0 +1,136 @@
+[
+    {
+        "name": "Taurus: Large Double-headed Weapon",
+        "req": [
+            "Strike 12",
+            "Inhumanity"
+        ],
+        "xp": 2,
+        "sk": 3,
+        "description": [
+            "Taurus grants you the ability wield a large double-headed weapon. After being thrown, the weapon hits everything in its path before returning to you. The path of the weapons movement can be controlled by your spirit."
+        ],
+        "baseWeapon": "Two-handed Sword, Two-handed Axe, Heavy Battle Mace",
+        "weapon": [
+            {
+                "name": "Taurus",
+                "presence": 3,
+                "damage": 12,
+                "primeDamage": [
+                    "variable"
+                ],
+                "secondDamage": [
+                    "variable"
+                ],
+                "breakage": 8,
+                "fortitude": 16,
+                "ap": 3,
+                "init": -10,
+                "size": "large",
+                "reqStr": "10/12",
+                "special": [
+                    "Complex",
+                    "Versatile"
+                ]
+            }
+        ],
+        "features": [
+            {
+                "name": "Damage Type",
+                "type": "entries",
+                "entries": [
+                    "Tarus uses the Primary Damage Type and Secondary Damage Type of the base weapon."
+                ]
+            },
+            {
+                "name": "Hand-to-Hand Fighting",
+                "type": "entries",
+                "entries": [
+                    "Taurus can be used as a normal hand-to-hand weapon. The only way to throw Taurus is by using the Throwable Arc or Widening Arc maneuvers."
+                ]
+            },
+            {
+                "name": "Combat Maneuver: Throwable Arc",
+                "type": "entries",
+                "entries": [
+                    "<b>Attack</b> 2 AP",
+                    "You can throw Taurus in a wide arc, hitting up to six medium sized creatures in one throw. The targets must all be within 60-feet of each other and the center point must be within 60-feet of you.",
+                    "When the weapon returns, you must make a Sleight of Hand Check with an Absurd (20) Difficulty. On a failure, you become the target to your own attack, having to defend yourself as if Taurus was thrown at you. This maneuver cannot be used to hit creatures that are within hand-to-hand combat range of you."
+                ]
+            },
+            {
+                "name": "Combat Maneuver: Widening Arc",
+                "type": "entries",
+                "entries": [
+                    "<b>Attack</b> 2 AP",
+                    "You can throw Taurus in an even wider arc, hitting all creatures in a 60-foot cone in front of you. You can select targets to avoid hitting, but the Offensive Roll suffers a -5 penalty.", 
+                    "When the weapon returns, you must make a Sleight of Hand Check with an Absurd (20) Difficulty. On a failure, you become the target to your own attack, having to defend yourself as if Taurus was thrown at you. This maneuver cannot be used to hit creatures that are within hand-to-hand combat range of you."
+                ]
+            },
+            {
+                "name": "Blocking Taurus",
+                "type": "entries",
+                "entries": [
+                    "When an opponent tries to block a thrown Taurus attack, there is a possibility that Taurus will stop its arc. An opponent who successfully defends against Taurus with their Block Skill, can make an Opposed Strength Check against you. If your opponent gains between 1 and 3 Degrees of Success, Taurus flies back to you. With 4 or more Degrees of Success, Taurus instead falls to the ground in front of your opponent. If you gain 1 or more Degrees of Success, Taurus continues on its original arc."
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Taurus Major",
+        "req": [
+            "Taurus",
+            "Strength 13",
+            "Strike 20"
+        ],
+        "xp": 3,
+        "sk": 3,
+        "description": [
+            "Chose two of the following features. You may chose to specialize with a single Taurus Weapon and may chose three of the following. But, other Taurus Weapons cannot gain the benefit of any feature of Taurus. You can take this Master Art multiple times to select one more feature."
+        ],
+        "features": [
+            {
+                "name": "Destroyer",
+                "type": "entries",
+                "entries": [
+                    "Taurus ignores 2 AT and gains +10 Breakage."
+                ]
+            },
+            {
+                "name": "Huge Weapon",
+                "type": "entries",
+                "entries": [
+                    "You can wield a huge Taurus Weapon. Huge Taurus gains +4 to its Weapon Damage, but its Initiative is becomes 2 points worse."
+                ]
+            },
+            {
+                "name": "Perfect Arc",
+                "type": "entries",
+                "entries": [
+                    "You suffer no penalties when selecting targets with the Widening Arc Maneuver."
+                ]
+            },
+            {
+                "name": "Strength and Speed",
+                "type": "entries",
+                "entries": [
+                    "You can reduce Taurus's Initiative Penalty by your Strength Modifier. This only reduces the penalty, it does not allow you to add your Strength to Initiative Rolls."
+                ]
+            },
+            {
+                "name": "Strong Impact",
+                "type": "entries",
+                "entries": [
+                    "When you use the Impact Damage Type with Taurus, you can cause an Impact using your Strength Characteristic."
+                ]
+            },
+            {
+                "name": "Unstoppable",
+                "type": "entries",
+                "entries": [
+                    "You gain a +4 bonus to the Opposed Characteristic Check to prevent Taurus from being stopped."
+                ]
+            }
+        ]
+    }
+]

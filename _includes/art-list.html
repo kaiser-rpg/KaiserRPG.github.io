@@ -1,0 +1,6 @@
+{% for art in include.arts %}
+{% include art.html art=art %}
+{% if forloop.last != true %}
+<hr style="margin-top: 10px;">
+{% endif %}
+{% endfor %}

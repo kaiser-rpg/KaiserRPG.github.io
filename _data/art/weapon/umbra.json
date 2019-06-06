@@ -1,0 +1,155 @@
+[
+    {
+        "name": "Umbra: Slicing Shadow",
+        "req": [
+            "Strike 15",
+            "Endure",
+            "Inhumanity"
+        ],
+        "xp": 3,
+        "sk": 5,
+        "description": [
+            "Umbra allows you to fight using your shadow as a hand-to-hand weapon. You can give your shadow substance and create blades of spectral energy that you can manipulate without much movement."
+        ],
+        "weapon": [
+            {
+                "name": "Umbra",
+                "presence": "special",
+                "damage": "special",
+                "primeDamage": [
+                    "cut",
+                    "thrust",
+                    "impact"
+                ],
+                "secondDamage": [],
+                "breakage": 0,
+                "fortitude": 10,
+                "ap": 2,
+                "init": 0,
+                "size": "large",
+                "reqStr": 0,
+                "special": [
+                    "Imbued"
+                ],
+                "description": []
+            }
+        ],
+        "features": [
+            {
+                "name": "Activation and Maintenance",
+                "type": "entries",
+                "entries": [
+                    "Umbra is activated during the Intention Phase by spending 1 ki point and can be Minor Sustained by spending 1 ki point."
+                ]
+            },
+            {
+                "name": "Damage and Presence",
+                "type": "entries",
+                "entries": [
+                    "Umbra uses a Weapon Damage equal to your presence, you add your Focus Modifier instead of Strength to the Base Damage. The presence of Umbra is the same as your presence."
+                ]
+            },
+            {
+                "name": "Combined with Other Weapons",
+                "type": "entries",
+                "entries": [
+                    "When you use Umbra, you can still use your hands to wield other weapons. But all Strike Skill Checks suffer a -2 penalty."
+                ]
+            },
+            {
+                "name": "Combined with Other Powers",
+                "type": "entries",
+                "entries": [
+                    "When you use Umbra, you can combine it normally with other powers."
+                ]
+            },
+            {
+                "name": "Surprise Action",
+                "type": "entries",
+                "entries": [
+                    "An opponent unable to sense the energy in your shadow might or not expecting you to use your shadow might be surprised by your first attack with it. The opponent can make a Notice Check with a Degree of Difficulty of Difficult (16) to avoid being giving you the Surprise State over them."
+                ]
+            },
+            {
+                "name": "Protective Screen",
+                "type": "entries",
+                "entries": [
+                    "While using Umbra, you are considered to have a shield for the purposes of defending from projectiles."
+                ]
+            },
+            {
+                "name": "Combat Maneuver: Shadow Zone",
+                "type": "entries",
+                "entries": [
+                    "<b>Attack</b> 2 AP",
+                    "You can expand your shadow out to a 30-foot radius and make an Area Attack. The Base Damage is reduced by half and you cannot select targets."
+                ]
+            },
+            {
+                "name": "Trapping",
+                "type": "entries",
+                "entries": [
+                    "Umbra allows you to use your Dexterity for the Opposed Characteristic Check when trapping an opponent. You still gain the Partially Restrained State when trapping since you are bound to your shadow."
+                ]
+            },
+            {
+                "name": "Indirect Use",
+                "type": "entries",
+                "entries": [
+                    "You can continue to use Umbra with easy even when restrained. When using Umbra to make Offensive Rolls with Strike or Defensive Rolls with Block, you reduce the penalty from any Restrained State by half."
+                ]
+            },
+            {
+                "name": "Obfuscation",
+                "type": "entries",
+                "entries": [
+                    "While Umbra is active, you can use it to control your own shadow to obtain the Partially Illuminated bonus to Stealth Checks."
+                ]
+            },
+            {
+                "name": "Environmental Modifiers",
+                "type": "entries",
+                "entries": [
+                    "Depending on the brightness that you are in, the power of Umbra may increase or decrease. The Game Master can apply a -1 to Strike and Block Checks and a -2 to Base Damage when in bright light that does not cast a strong shadow. In areas with many shadows, the Game Master can apply the opposite."
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Umbra Major",
+        "req": [
+            "Umbra",
+            "Focus 13",
+            "Strike 25"
+        ],
+        "xp": 3,
+        "sk": 3,
+        "description": [
+            "Chose three of the following features. You can take this Master Art multiple times to select one more feature."
+        ],
+        "features": [
+            {
+                "name": "Long Shadow",
+                "type": "entries",
+                "entries": [
+                    "When use the Shadow Zone Maneuver, you can extend the area to a 60-foot radius by spending 1 ki point.",
+                    "Additionally, you can select targets with Shadow Zone."
+                ]
+            },
+            {
+                "name": "Independent Shadow",
+                "type": "entries",
+                "entries": [
+                    "You can wield additional weapons with Umbra at no penalty. You still must declare each weapon during the Intention Phase."
+                ]
+            },
+            {
+                "name": "Deeper Shadow",
+                "type": "entries",
+                "entries": [
+                    "While Umbra is active, you can use it to gain the Complete Darkness bonus to Stealth Checks when in an area that is Partially Illuminated."
+                ]
+            }
+        ]
+    }
+]
