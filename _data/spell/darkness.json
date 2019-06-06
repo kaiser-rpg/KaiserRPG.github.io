@@ -1,0 +1,606 @@
+[
+    {
+        "name": "Create Darkness",
+        "type": "path",
+        "level": 2,
+        "power": [
+            "automatic"
+        ],
+        "action": "active",
+        "maintTime": "day",
+        "tags": [],
+        "description": [
+            "You remove mundane light from the area."
+        ],
+        "degree": {
+            "base": {
+                "mana": 20,
+                "int": 5,
+                "maint": 5,
+                "effect": [
+                    "5-foot radius"
+                ]
+            },
+            "intermediate": {
+                "mana": 50,
+                "int": 8,
+                "maint": 5,
+                "effect": [
+                    "10-foot radius"
+                ]
+            },
+            "advanced": {
+                "mana": 100,
+                "int": 10,
+                "maint": 10,
+                "effect": [
+                    "30-foot radius"
+                ]
+            },
+            "arcane": {
+                "mana": 200,
+                "int": 12,
+                "maint": 15,
+                "effect": [
+                    "100-foot radius"
+                ]
+            }
+        }
+    },
+    {
+        "name": "Induce Fear",
+        "type": "path",
+        "level": 6,
+        "power": [
+            "effect"
+        ],
+        "action": "active",
+        "maintTime": "no",
+        "tags": [],
+        "description": [
+            "You cause all creatures within the area to become afraid of an object of your choice. A target must make a SR or MR Check or gain the Shaken State when they can see the object. This effect lasts a number of rounds equal to the target's Degree of Failure."
+        ],
+        "degree": {
+            "base": {
+                "mana": 20,
+                "int": 5,
+                "maint": 0,
+                "effect": [
+                    "SR or MR 8",
+                    "30-foot radius"
+                ]
+            },
+            "intermediate": {
+                "mana": 80,
+                "int": 8,
+                "maint": 0,
+                "effect": [
+                    "SR or MR 10",
+                    "60-foot radius"
+                ]
+            },
+            "advanced": {
+                "mana": 140,
+                "int": 10,
+                "maint": 0,
+                "effect": [
+                    "SR or MR 12",
+                    "120-foot radius"
+                ]
+            },
+            "arcane": {
+                "mana": 180,
+                "int": 12,
+                "maint": 0,
+                "effect": [
+                    "SR or MR 14",
+                    "250-foot radius"
+                ]
+            }
+        }
+    },
+    {
+        "name": "See in Darkness",
+        "type": "path",
+        "level": 8,
+        "power": [
+            "automatic"
+        ],
+        "action": "active",
+        "maintTime": "day",
+        "tags": [],
+        "description": [
+            "You select any number of objects whose total presence is less than the listed amount and they gain the ability to see in mundane darkness."
+        ],
+        "degree": {
+            "base": {
+                "mana": 40,
+                "int": 5,
+                "maint": 5,
+                "effect": [
+                    "Presence 8"
+                ]
+            },
+            "intermediate": {
+                "mana": 80,
+                "int": 8,
+                "maint": 10,
+                "effect": [
+                    "Presence 10"
+                ]
+            },
+            "advanced": {
+                "mana": 100,
+                "int": 10,
+                "maint": 10,
+                "effect": [
+                    "Presence 12"
+                ]
+            },
+            "arcane": {
+                "mana": 120,
+                "int": 12,
+                "maint": 15,
+                "effect": [
+                    "Presence 14",
+                    "Targets can also see in supernatural darkness"
+                ]
+            }
+        }
+    },
+    {
+        "name": "Dark Barrier",
+        "type": "path",
+        "level": 10,
+        "power": [
+            "defense"
+        ],
+        "action": "swift",
+        "maintTime": "turn",
+        "tags": [
+            "barrier",
+            "imbued"
+        ],
+        "description": [
+            "You create a supernatural barrier with the Imbued trait. Attacks using the Light Damage Type cause double damage to the barrier."
+        ],
+        "degree": {
+            "base": {
+                "mana": 60,
+                "int": 6,
+                "maint": 5,
+                "effect": [
+                    "300 LP"
+                ]
+            },
+            "intermediate": {
+                "mana": 120,
+                "int": 8,
+                "maint": 15,
+                "effect": [
+                    "1000 LP"
+                ]
+            },
+            "advanced": {
+                "mana": 180,
+                "int": 10,
+                "maint": 20,
+                "effect": [
+                    "1800 LP"
+                ]
+            },
+            "arcane": {
+                "mana": 240,
+                "int": 14,
+                "maint": 25,
+                "effect": [
+                    "3000 LP",
+                    "The barrier does not take damage from attacks using the Physical Damage Group that do not have the Imbued trait."
+                ]
+            }
+        }
+    },
+    {
+        "name": "Concealing Shadow",
+        "type": "path",
+        "level": 12,
+        "power": [
+            "automatic"
+        ],
+        "action": "active",
+        "maintTime": "turn",
+        "tags": [],
+        "description": [
+            "You improve your concealing abilities. Your Stealth Skill Checks gain the listed bonus. Your Magic Appraisal Skill Checks to hide your mana gain the same bonus."
+        ],
+        "degree": {
+            "base": {
+                "mana": 50,
+                "int": 6,
+                "maint": 5,
+                "effect": [
+                    "+4 bonus"
+                ]
+            },
+            "intermediate": {
+                "mana": 150,
+                "int": 9,
+                "maint": 15,
+                "effect": [
+                    "+8 bonus"
+                ]
+            },
+            "advanced": {
+                "mana": 200,
+                "int": 12,
+                "maint": 20,
+                "effect": [
+                    "+12 bonus"
+                ]
+            },
+            "arcane": {
+                "mana": 250,
+                "int": 15,
+                "maint": 25,
+                "effect": [
+                    "+16 bonus"
+                ]
+            }
+        }
+    },
+    {
+        "name": "Armor of Darkness",
+        "type": "path",
+        "level": 16,
+        "power": [
+            "automatic"
+        ],
+        "action": "active",
+        "maintTime": "turn",
+        "tags": [],
+        "description": [
+            "You create a suit of natural armor around your body made from pure shadow. You gain the listed Armor Value against Force and Darkness Damage and half as much against the Physical and Elemental Damage Groups."
+        ],
+        "degree": {
+            "base": {
+                "mana": 60,
+                "int": 6,
+                "maint": 5,
+                "effect": [
+                    "Force & Darkness 2 AV",
+                    "Physical & Elemental 1 AV"
+                ]
+            },
+            "intermediate": {
+                "mana": 90,
+                "int": 9,
+                "maint": 10,
+                "effect": [
+                    "Force & Darkness 2 AV",
+                    "Physical & Elemental 1 AV"
+                ]
+            },
+            "advanced": {
+                "mana": 120,
+                "int": 12,
+                "maint": 15,
+                "effect": [
+                    "Force & Darkness 2 AV",
+                    "Physical & Elemental 1 AV"
+                ]
+            },
+            "arcane": {
+                "mana": 150,
+                "int": 15,
+                "maint": 20,
+                "effect": [
+                    "Force & Darkness 2 AV",
+                    "Physical & Elemental 1 AV"
+                ]
+            }
+        }
+    },
+    {
+        "name": "Rebuke Light",
+        "type": "path",
+        "level": 18,
+        "power": [
+            "effect",
+            "trigger"
+        ],
+        "action": "active",
+        "maintTime": "turn",
+        "tags": [],
+        "description": [
+            "You cause all light with the area to be banished. On the End Phase, any light-based creature in the area must make a SR Check or take 20 Force Damage per Degree of Failure (Rex creatures multiply the damage by their Rex Multiplier)."
+        ],
+        "degree": {
+            "base": {
+                "mana": 60,
+                "int": 6,
+                "maint": 10,
+                "effect": [
+                    "SR 14",
+                    "30-foot radius"
+                ]
+            },
+            "intermediate": {
+                "mana": 120,
+                "int": 9,
+                "maint": 15,
+                "effect": [
+                    "SR 18",
+                    "300-foot radius"
+                ]
+            },
+            "advanced": {
+                "mana": 180,
+                "int": 12,
+                "maint": 20,
+                "effect": [
+                    "SR 22",
+                    "800-foot radius"
+                ]
+            },
+            "arcane": {
+                "mana": 240,
+                "int": 15,
+                "maint": 25,
+                "effect": [
+                    "SR 26",
+                    "1500-foot radius"
+                ]
+            }
+        }
+    },
+    {
+        "name": "Hide Mana",
+        "type": "path",
+        "level": 0,
+        "power": [
+            "automatic"
+        ],
+        "action": "swift",
+        "maintTime": "turn",
+        "tags": [],
+        "description": [
+            "You select a spell or an object, it can be a person or thing, and hide its magical properties. Any Magic Appraisal Skill Check made to detect or measure the target suffers the listed penalty. Attempts to detect the Hide Mana spell also suffer the same penalty."
+        ],
+        "degree": {
+            "base": {
+                "mana": 60,
+                "int": 6,
+                "maint": 5,
+                "effect": [
+                    "-10 penalty"
+                ]
+            },
+            "intermediate": {
+                "mana": 180,
+                "int": 9,
+                "maint": 20,
+                "effect": [
+                    "-18 penalty"
+                ]
+            },
+            "advanced": {
+                "mana": 240,
+                "int": 12,
+                "maint": 25,
+                "effect": [
+                    "-24 penalty"
+                ]
+            },
+            "arcane": {
+                "mana": 320,
+                "int": 15,
+                "maint": 30,
+                "effect": [
+                    "-320 penalty"
+                ]
+            }
+        }
+    },
+    {
+        "name": "Shadow Beam",
+        "type": "path",
+        "level": 22,
+        "power": [
+            "attack"
+        ],
+        "action": "active",
+        "maintTime": "no",
+        "tags": [],
+        "description": [
+            "You project a beam of energy that deals Darkness Damage."
+        ],
+        "degree": {
+            "base": {
+                "mana": 50,
+                "int": 6,
+                "maint": 0,
+                "effect": [
+                    "Base Damage 6"
+                ]
+            },
+            "intermediate": {
+                "mana": 90,
+                "int": 9,
+                "maint": 0,
+                "effect": [
+                    "Base Damage 9"
+                ]
+            },
+            "advanced": {
+                "mana": 120,
+                "int": 12,
+                "maint": 0,
+                "effect": [
+                    "Base Damage 12"
+                ]
+            },
+            "arcane": {
+                "mana": 150,
+                "int": 15,
+                "maint": 0,
+                "effect": [
+                    "Base Damage 15"
+                ]
+            }
+        }
+    },
+    {
+        "name": "Zone of Darkness",
+        "type": "path",
+        "level": 26,
+        "power": [
+            "automatic"
+        ],
+        "action": "active",
+        "maintTime": "turn",
+        "tags": [],
+        "description": [
+            "You enchant the area to cloud the senses of anyone within it. All Skill Checks made to sense something suffer a -8 penalty and Perception Characteristic Checks suffer a -4 penalty. The Resistance Check Difficulty of any Detection Power is also reduced by 4. This spell cannot select targets, even if another power would allow you to; everyone in the area is equally affected."
+        ],
+        "degree": {
+            "base": {
+                "mana": 60,
+                "int": 6,
+                "maint": 5,
+                "effect": [
+                    "20-foot radius"
+                ]
+            },
+            "intermediate": {
+                "mana": 180,
+                "int": 9,
+                "maint": 10,
+                "effect": [
+                    "100-foot radius"
+                ]
+            },
+            "advanced": {
+                "mana": 240,
+                "int": 12,
+                "maint": 15,
+                "effect": [
+                    "500-foot radius"
+                ]
+            },
+            "arcane": {
+                "mana": 300,
+                "int": 15,
+                "maint": 15,
+                "effect": [
+                    "1000-foot radius"
+                ]
+            }
+        }
+    },
+    {
+        "name": "Chains of Shadow",
+        "type": "path",
+        "level": 28,
+        "power": [
+            "attack"
+        ],
+        "action": "active",
+        "maintTime": "turn",
+        "tags": [
+            "trapping"
+        ],
+        "description": [
+            "You create chains made from pure darkness. Make a Trap Maneuver using the listed Strength for the Opposed Characteristic Check. The chains have the immaterial trait and a Fortitude of 25. While immaterial, the chains can interact with material objects."
+        ],
+        "degree": {
+            "base": {
+                "mana": 60,
+                "int": 6,
+                "maint": 10,
+                "effect": [
+                    "Strength 8"
+                ]
+            },
+            "intermediate": {
+                "mana": 100,
+                "int": 9,
+                "maint": 10,
+                "effect": [
+                    "Strength 10"
+                ]
+            },
+            "advanced": {
+                "mana": 140,
+                "int": 12,
+                "maint": 15,
+                "effect": [
+                    "Strength 12",
+                    "Fortitude 30"
+                ]
+            },
+            "arcane": {
+                "mana": 180,
+                "int": 15,
+                "maint": 15,
+                "effect": [
+                    "Strength 16",
+                    "Fortitude 35"
+                ]
+            }
+        }
+    },
+    {
+        "name": "Control Darkness",
+        "type": "path",
+        "level": 30,
+        "power": [
+            "effect",
+            "trigger"
+        ],
+        "action": "active",
+        "maintTime": "turn",
+        "tags": [],
+        "description": [
+            "You can modify and control the form and intensity of darkness within the area. A darkness-based creature must pass a SR Check or fall under your control. The creature can repeat this check after a number of rounds equal to their Degree of Failure or if ordered to do something against its nature. If the creature ever leaves the radius, you lose control.",
+            "You can cause any attacks using Darkness Damage to suffer two Degrees of Disadvantage."
+        ],
+        "degree": {
+            "base": {
+                "mana": 50,
+                "int": 6,
+                "maint": 5,
+                "effect": [
+                    "SR 8",
+                    "30-foot radius"
+                ]
+            },
+            "intermediate": {
+                "mana": 150,
+                "int": 9,
+                "maint": 20,
+                "effect": [
+                    "SR 14",
+                    "150-foot radius"
+                ]
+            },
+            "advanced": {
+                "mana": 250,
+                "int": 12,
+                "maint": 25,
+                "effect": [
+                    "SR 18",
+                    "300-foot radius"
+                ]
+            },
+            "arcane": {
+                "mana": 350,
+                "int": 16,
+                "maint": 30,
+                "effect": [
+                    "SR 22",
+                    "500-foot radius"
+                ]
+            }
+        }
+    }
+]

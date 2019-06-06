@@ -164,6 +164,9 @@ entries:
     - title: Light
       url: /char_spell_light.html
       output: web
+    - title: Darkness
+      url: /char_spell_darkness.html
+      output: web
 
   - title: Sub-Paths
     output: web

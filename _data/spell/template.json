@@ -1,9 +1,14 @@
 {
-    "name": "template",
+    "name": "base 5",
     "type": "path",
     "level": 0,
     "power": [
-        "passive"
+        "attack",
+        "defense",
+        "effect",
+        "automatic",
+        "trigger",
+        "detection"
     ],
     "action": "active",
     "maintTime": "turn",
