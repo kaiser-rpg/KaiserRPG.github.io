@@ -7,6 +7,8 @@ Active actions can only be taken when it is your turn in the Initiative.
 
 {% include action/attack.md %}
 
+{% include action/complete-attack.md %}
+
 {% include action/offhand-attack.md %}
 
 {% include action/move.md %}
