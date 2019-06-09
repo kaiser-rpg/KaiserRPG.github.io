@@ -1,0 +1,95 @@
+{
+    "name": "Gemini",
+    "req": [
+        "Dexterity 13",
+        "Inhumanity"
+    ],
+    "xp": 5,
+    "sk": 5,
+    "description": [
+        "Gemini allows you to control marionettes with skill sufficient to be used in combat. "
+    ],
+    "baseWeapon": "none",
+    "weapon": [{
+        "name": "Gemini",
+        "presence": "variable",
+        "damage": "variable",
+        "primeDamage": ["variable"],
+        "secondDamage": [],
+        "breakage": "variable",
+        "fortitude": "variable",
+        "ap": 3,
+        "init": -2,
+        "size": "variable",
+        "special": [
+            "complex",
+            "two-handed"
+        ]
+    }],
+    "features":[
+        {
+            "name":"Combat Puppet",
+            "type": "entries",
+            "entries":[
+                "To use Gemini, you must be wielding a combat puppet. A combat puppet possess its own Life Points and Armor Value but uses your Strike, Block, and Dodge skill. The weapon that the puppet uses can be any that you are trained in or if it has built in weapons, you can use those.",
+                "You can use a puppet not designed for combat, but you suffer between a -4 and -14 penalty to Offensive and Defensive Rolls."
+            ]
+        },
+        {
+            "name":"Defense with a Puppet",
+            "type": "entries",
+            "entries":[
+                "In a round that you declare your use of Gemini, you suffer a -8 penalty to your own Defensive Rolls. You can use the puppet to Intercept an Attack if it is near you."
+            ]
+        },
+        {
+            "name":"Physical Attributes",
+            "type": "entries",
+            "entries":[
+                "When the Gemini puppet needs to make Dexterity or Agility Characteristics Checks, it uses your Dexterity Characteristic but with a -2 penalty due to the indirect control. Additionally, Strength Checks and the Strength Modifier added to Base Damage use your Strength Characteristic but at a -2 penalty."
+            ]
+        },
+        {
+            "name":"Damage",
+            "type": "entries",
+            "entries":[
+                "The weapon damage of Gemini is the same as the weapon the puppet wields. If the puppet is designed with natural weapons, the damage is instead determined by its size. The Breakage is also based on the weapon used or the puppet's size."
+            ]
+        },
+        {
+            "name":"Initiative and Weapon Cost",
+            "type": "entries",
+            "entries":[
+                "The Initiative Penalty of Gemini is a -2 penalty, but if the weapon that Gemini wields has a greater penalty, its penalty is used. The same occurs for the weapon cost."
+            ]
+        },
+        {
+            "name":"Reach",
+            "type": "entries",
+            "entries":[
+                "Gemini allows you to use the puppet at a distance of 30-feet without losing combat ability. Beyond that distance, you apply a -1 penalty and an additional -1 penalty applies for each 10-feet beyond 30. This penalty applies to all Skill Checks made using Gemini."
+            ]
+        },
+        {
+            "name":"Hidden Operation",
+            "type": "entries",
+            "entries":[
+                "Due to the reach of Gemini and your ability to control it with minimal movement, you can continue to use Gemini while hidden. "
+            ]
+        },
+        {
+            "name":"Using Multiple Puppets",
+            "type": "entries",
+            "entries":[
+                "You can use several puppets simultaneously even though it requires two-hands. You suffer a -3 penalty to all Skill Checks made with the puppet for each additional puppet you use. The maximum number of puppets you can use is equal to your Dexterity Characteristic divided by three, round down."
+            ]
+        },
+        {
+            "name":"Strings",
+            "type": "entries",
+            "entries":[
+                "In order to control Gemini, you must be holding onto strings that connect the main body the puppet. These strings are a vulnerable point, having only a Fortitude of 6 to 12, depending on the material used. An opponent who understands the nature of Gemini can make a Direct Attack against the strings with a -4 penalty. Once severed, the puppet becomes limp."
+            ]
+        }
+    ]
+}
