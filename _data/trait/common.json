@@ -1,61 +1,620 @@
 {
     "positive": [
         {
-            "name": "Template",
+            "name": "Add One Point to a Characteristic",
             "flavor": [
-                ""
+                "One of your Characteristics is better than before."
             ],
             "effects": [
-                ""
+                "Add one point to a single Characteristic."
             ],
             "limits": [
-                ""
+                "A Characteristics cannot be increased beyond than 11 during character creation."
             ],
             "restrictions": [
-                ""
+                "You can take this Character Feature multiple times,"
             ],
-            "meta": [
-                ""
-            ],
-            "example": [
-                ""
-            ],
-            "cost": 1
+            "cost": [
+                2
+            ]
         },
         {
-            "name": "add one point to a characteristic",
+            "name": "Acute Characteristic",
             "flavor": [
-                "One of your characteristics is greater than before."
+                "One of your Characteristics is fine tuned."
             ],
             "effects": [
-                "Add one point to a single characteristic."
+                "One of your Characteristics has a +1 bonus when making Characteristic Checks. Choose two Secondary Skills based on that Characteristic, they have a Natural Bonus of +3."
             ],
             "restrictions": [
-                "Characteristics cannot be increased to higher than 11 though this trait."
+                "You can take this Character Feature multiple times, but each time Choose a different Characteristic."
             ],
-            "cost": 2
+            "cost": [
+                2
+            ]
         },
         {
-            "name": "ambidextrous",
+            "name": "Ambidextrous",
             "flavor": [
                 "You can use both hands equally well."
             ],
             "effects": [
-                "You can perform tasks with either hand equally well. In combat, you suffer only -1 to your Offensive Roll made as part of the Offhand Attack Action."
+                "You can perform tasks with either hand equally well. Additionally, you suffer only -1 to your Offensive Roll made as part of the Offhand Attack Action."
             ],
-            "cost": 2
+            "cost": [
+                2
+            ]
+        },
+        {
+            "name": "Access to One Phenom",
+            "flavor": [
+                "You are naturally talented with a single phenom. You remain unable to control other phenom no matter how much Potential you possess."
+            ],
+            "effects": [
+                "This trait allows you to spend PP on a single phenom without needing to have invested in the Discipline. Additionally, you can develop Psychic Projection and buy Psychic Points."
+            ],
+            "restrictions": [
+                "This Character Feature can be taken multiple times, each time a different phenom must be selected."
+            ],
+            "cost": [
+                1
+            ]
+        },
+        {
+            "name": "Access to One Phenom Discipline",
+            "flavor": [
+                "You are gifted with the ability to manifest phenom of a single Discipline. Your ability to control phenom are limited to a single Discipline and, no matter how much you increase your Psychic Potential."
+            ],
+            "effects": [
+                "This trait allows you to spend Phenom Points to buy a single Discipline and use phenom within it. Additionally, you can develop Phenom Projection and buy Phenom Points."
+            ],
+            "cost": [
+                2
+            ]
+        },
+        {
+            "name": "Access to All Phenom Discipline",
+            "flavor": [
+                "Your ability to master Disciplines knows no bounds."
+            ],
+            "effects": [
+                "You can master as many Phenom Disciplines as you desire and gain the ability to see on the phenom plane. Additionally, you can develop Phenom Projection and buy Phenom Points."
+            ],
+            "cost": [
+                4
+            ]
+        },
+        {
+            "name": "Access to a Natural Phenom",
+            "flavor": [
+                "You have a limited potential that allows you to use one phenom unconsciously. You don’t have complete control over it, but can use it whenever you need."
+            ],
+            "effects": [
+                "You can naturally use a single phenom. You are not considered as having true Potential and cannot use Phenom Points to acquire new phenom or to harness phenom you have. Your phenom is always manifested at the Difficult(12) Degree and cannot be maintained. The Chosen phenom can be of any level but it must be able to be manifested with at the Difficult Degree. The phenom can be used once every minute and then requires spending one Stamina Point to manifest again. Spending additional Creation Points increases the degree that the phenom is manifest at to Very Difficult(16) and Absurd(20) respectively.",
+                "This Character Feature does not give you a Phenom Potential and does not allow you to buy Manifest Character Features,"
+            ],
+            "cost": [
+                1,
+                2,
+                3
+            ]
+        },
+        {
+            "name": "Charm",
+            "flavor": [
+                "You possess a certain charisma that makes other react positively toward you. You always receive a positive reaction from strangers."
+            ],
+            "effects": [
+                "You have one degree of Advantage when making a Skill Check as part of a positive social interaction. Additional effects may be added by the Game Master."
+            ],
+            "cost": [
+                1
+            ]
+        },
+        {
+            "name": "Disquieting",
+            "flavor": [
+                "You cause those around you to be nervous by your presence. This can discourage violence against you or intimidate someone into doing what you demand."
+            ],
+            "effects": [
+                "You have one Advantage when making a Skill Check as part of a threatening social interaction. Additional effects may be added by the GM."
+            ],
+            "cost": [
+                1
+            ]
+        },
+        {
+            "name": "Animal Affinity",
+            "flavor": [
+                "You have a connection with animals on a primal level. They will remain neutral to you until they consider you a threat and you have some limited communication with them."
+            ],
+            "effects": [
+                "For the purpose of in game effects, this Character Feature means that wild animals do not consider you a threat until provoked or desperate. A trained animal will still attack you, but will give you warning and time to react before doing so. You can also gain certain pieces of information from animals. Any question you pose must be simple and the response will generally be emotional or directional. The Game Master can apply additional effects as they see fit."
+            ],
+            "cost": [
+                1
+            ]
+        },
+        {
+            "name": "Fortunate",
+            "flavor": [
+                "You attract good fortune each day."
+            ],
+            "effects": [
+                "When a negative effect is left up to chance, you will never be selected or its effect will be minimized. The Game Master can apply additional effects as they see fit."
+            ],
+            "cost": [
+                1
+            ]
+        },
+        {
+            "name": "Danger Sense",
+            "flavor": [
+                "Your perception is such that you can feel danger before it arrives."
+            ],
+            "effects": [
+                "An opponent cannot gain the Surprise State over you for any reason other than a higher Initiative."
+            ],
+            "cost": [
+                3
+            ]
+        },
+        {
+            "name": "Reduce Development Cost of a Skill",
+            "flavor": [
+                "Your natural talent in a skill allows you to master it faster than your peers."
+            ],
+            "effects": [
+                "Choose a Secondary Skill or Trade Skill and reduce its Development Cost by 1 point."
+            ],
+            "limits": [
+                "The Development Cost for a Skill can never go below a 2."
+            ],
+            "restrictions": [
+                "You can take this Character Feature multiple times, either choosing a different skill or the same."
+            ],
+            "cost": [
+                2
+            ]
+        },
+        {
+            "name": "Reduce Development Cost of a Skill Group",
+            "flavor": [
+                "Your natural talent for a group of skills allows you to master each one faster than your peers."
+            ],
+            "effects": [
+                "Choose a Secondary Skill Group or four Trade Skills and reduce their Development Cost by 1 point."
+            ],
+            "limits": [
+                "The Development Cost for a Skill can never go below a 2."
+            ],
+            "restrictions": [
+                "You can take this Character Feature multiple times, either choosing a different skill or the same."
+            ],
+            "cost": [
+                1
+            ]
+        },
+        {
+            "name": "Innate Bonus for a Skill",
+            "flavor": [
+                "Your natural capacity for a skill grants you an innate knowledge that increases with time."
+            ],
+            "effects": [
+                "Choose a Secondary Skill or Trade Skill, it gains an Innate Bonus of +1 per Level. Spending additional Creation Points increases it to a +2 and +3 per level."
+            ],
+            "restrictions": [
+                "This Character Feature can be taken multiple times, each time a different skill must be chosen."
+            ],
+            "cost": [
+                2,
+                4,
+                6
+            ]
+        },
+        {
+            "name": "Innate Bonus for a Skill Group",
+            "flavor": [
+                "Your natural capacity for a group of skills grants you an innate knowledge that increases with time."
+            ],
+            "effects": [
+                "Choose a Secondary Skill Group or four Trade Skills, each skill gains an Innate Bonus of +1 every 2 levels. Spending additional Creation Points increases it to a +1 per level."
+            ],
+            "restrictions": [
+                "This Character Feature can be taken multiple times, each time a different skill group must be chosen."
+            ],
+            "cost": [
+                4,
+                6
+            ]
+        },
+        {
+            "name": "Spirit Mastery",
+            "flavor": [
+                "Your knowledge of the spirit arts is superior to that of your peers."
+            ],
+            "effects": [
+                "You gain a special +4 spirit knowledge at character creation."
+            ],
+            "restrictions": [
+                "You can take this Character Feature up to three times."
+            ],
+            "cost": [
+                2
+            ]
+        },
+        {
+            "name": "Good Luck",
+            "flavor": [
+                "Your luck knows no bounds."
+            ],
+            "effects": [
+                "You decrease your Fumble Chance by 1. You also have two degrees of Advantage to a Resistance Check from any power that increases your Fumble Chance"
+            ],
+            "cost": [
+                2
+            ]
+        },
+        {
+            "name": "Ki Recovery",
+            "flavor": [
+                "Your spirit and body work together to produce more ki."
+            ],
+            "effects": [
+                "You recover 10 ki points every hour. Additional Creation Points increase the amount recovered to 15 and 20 every hour."
+            ],
+            "cost": [
+                2,
+                3,
+                4
+            ]
+        },
+        {
+            "name": "Jack of All Trades",
+            "flavor": [
+                "You are adequate in all situations that arise."
+            ],
+            "effects": [
+                "You gain a +1 Natural Bonus to all Secondary Skills. This means you do not suffer the penalty for not being proficient in a skill."
+            ],
+            "cost": [
+                1
+            ]
+        },
+        {
+            "name": "Natural Armor",
+            "flavor": [
+                "Your skin and muscle are tough and give you some protection."
+            ],
+            "effects": [
+                "You have a natural armor of 2 AV for the Physical and Elemental Damage Groups."
+            ],
+            "cost": [
+                3
+            ]
+        },
+        {
+            "name": "Energy Armor",
+            "flavor": [
+                "Your spirit grants you some protection from energy damage."
+            ],
+            "effects": [
+                "You have a natural armor of 3 AV for the Energy Damage Group."
+            ],
+            "cost": [
+                3
+            ]
+        },
+        {
+            "name": "High Endurance",
+            "flavor": [
+                "You have more stamina than most."
+            ],
+            "effects": [
+                "Your maximum Stamina Points increases by 4."
+            ],
+            "restrictions": [
+                "You can take this Character Feature up to three times."
+            ],
+            "cost": [
+                2
+            ]
+        },
+        {
+            "name": "Advanced Regeneration",
+            "flavor": [
+                "Your wounds recover faster than normal."
+            ],
+            "effects": [
+                "Your base Regeneration Value is 2 points higher."
+            ],
+            "restrictions": [
+                "You can take this Character Feature up to three times."
+            ],
+            "cost": [
+                2
+            ]
+        },
+        {
+            "name": "Resistance to Pain",
+            "flavor": [
+                "You resist the negative effects of pain."
+            ],
+            "effects": [
+                "You reduce the penalties from the Pain State by half. The Pain State still recovers at the normal rate."
+            ],
+            "cost": [
+                2
+            ]
+        },
+        {
+            "name": "The Gift",
+            "flavor": [
+                "Your spirit can accumulate mana, allowing you to cast spells."
+            ],
+            "effects": [
+                "You gain a Mana Accumulation and can develop Spell Projection. This allows you to cast spells and transfer mana to other containers. You also gain the ability to see on the spirit plane."
+            ],
+            "cost": [
+                4
+            ]
+        },
+        {
+            "name": "Incomplete Gift",
+            "flavor": [
+                "You possess a weaker version of the Gift."
+            ],
+            "effects": [
+                "You gain a Mana Accumulation and can develop Spell Projection. This allows you to cast spells and transfer mana to other containers. But, when you cast a spell, you must have a Difficulty Focus Characteristic Check equal to 10 + 1 for every 10 levels of the spell. If you fail, the spell is not cast but the mana is lost. Unlike the full Gift, you cannot see on the spirit plane."
+            ],
+            "cost": [
+                2
+            ]
+        },
+        {
+            "name": "Gradual Mana Knowledge",
+            "flavor": [
+                "You have an innate knowledge of mana."
+            ],
+            "effects": [
+                "You gain an Innate Bonus of +5 Mana Knowledge every level."
+            ],
+            "cost": [
+                3
+            ]
+        },
+        {
+            "name": "Gradual Spirit Knowledge",
+            "flavor": [
+                "You have an innate knowledge of the spirit."
+            ],
+            "effects": [
+                "You gain an Innate Bonus of +5 Spirit Knowledge every level."
+            ],
+            "cost": [
+                3
+            ]
+        },
+        {
+            "name": "Supernatural Vision",
+            "flavor": [
+                "Your eyesight can see beyond the material plane."
+            ],
+            "effects": [
+                "You can see the spirit and phenom plane."
+            ],
+            "cost": [
+                2
+            ]
+        },
+        {
+            "name": "Night Vision",
+            "flavor": [
+                "Your eyes have the ability to see in the dark and can quickly adapt to changes of light intensity."
+            ],
+            "effects": [
+                "You ignore the Blind States that come from natural darkness (but not complete lack of darkness) and reduce any penalty from magical darkness complete lack of light by half. You also reduce by half the penalties from any flashes of light."
+            ],
+            "cost": [
+                2
+            ]
+        },
+        {
+            "name": "Quick Reflexes",
+            "flavor": [
+                "Your reflexes are exceptional."
+            ],
+            "effects": [
+                "You gain a +2 Natural Bonus to Initiative."
+            ],
+            "restrictions": [
+                "You can take this Character Feature up to three times."
+            ],
+            "cost": [
+                2
+            ]
+        },
+        {
+            "name": "Exceptional Physical Resistance",
+            "flavor": [
+                "Your body possess a greater resistance."
+            ],
+            "effects": [
+                "You gain a +2 Natural Bonus to Physical and Immune Resistance."
+            ],
+            "restrictions": [
+                "You can take this Character Feature up to two times."
+            ],
+            "cost": [
+                2
+            ]
+        },
+        {
+            "name": "Exceptional Spirit Resistance",
+            "flavor": [
+                "Your spirit possess a greater resistance."
+            ],
+            "effects": [
+                "You gain a +2 Natural Bonus to Spirit Resistance."
+            ],
+            "restrictions": [
+                "You can take this Character Feature up to two times."
+            ],
+            "cost": [
+                2
+            ]
+        },
+        {
+            "name": "Exceptional Mental Resistance",
+            "flavor": [
+                "Your mind possess a greater resistance."
+            ],
+            "effects": [
+                "You gain a +2 Natural Bonus to Mental Resistance."
+            ],
+            "restrictions": [
+                "You can take this Character Feature up to two times."
+            ],
+            "cost": [
+                2
+            ]
+        },
+        {
+            "name": "Light Sleeper",
+            "flavor": [
+                "While you sleep, your mind is still partially conscious of what is happening around you and can wake up faster."
+            ],
+            "effects": [
+                "You only apply a -2 penalty to your Notice Checks while sleeping and can wake up without losing a round."
+            ],
+            "cost": [
+                1
+            ]
+        },
+        {
+            "name": "Hard to Kill",
+            "flavor": [
+                "Your vitality is exceptional"
+            ],
+            "effects": [
+                "You gain a +10 Innate Bonus per level to your Life Points. Additionally, you gain a +1 Natural Bonus to Physical Resistance caused by Criticals."
+            ],
+            "restrictions": [
+                "You can take this Character Feature up to two times."
+            ],
+            "cost": [
+                2
+            ]
+        },
+        {
+            "name": "Mana Immunity",
+            "flavor": [
+                "Your spirit is resistant to the effects of mana."
+            ],
+            "effects": [
+                "You ignore the effects of a spell that was cast with 50 or less mana and you automatically pass a Spirit Resistance Check of 8 or less from a spell. This does not let you ignore the effects of magic on the environment around you. Spending 5 CP lets you ignore spells of 70 mana or less and resist spells with Spirit Resistance of 10 or less."
+            ],
+            "limits": [
+                "This Character Feature cannot be taken with The Gift, Incomplete Gift, or Natural Magic."
+            ],
+            "cost": [
+                3,
+                5
+            ]
+        },
+        {
+            "name": "Use of Armor",
+            "flavor": [
+                " You are adapt at wearing armor."
+            ],
+            "effects": [
+                "You gain a special Innate Bonus of +1 every 2 levels. Spending additional Creation Points increases this bonus to +1 every level instead."
+            ],
+            "cost": [
+                2,
+                4
+            ]
+        },
+        {
+            "name": "Emotional Stability",
+            "flavor": [
+                "You are emotionally resistant to emotional changes."
+            ],
+            "effects": [
+                "You gain a +6 bonus to Composure Checks to control your emotional state and a +3 bonus to Resistance Checks caused by powers that modify your emotional state."
+            ],
+            "limits": [
+                "This Character Feature cannot be taken with the Vice, Cowardice, or Phobia Negative Feature"
+            ],
+            "cost": [
+                1
+            ]
+        },
+        {
+            "name": "Free Will",
+            "flavor": [
+                "Your will is resistant to external control."
+            ],
+            "effects": [
+                "You gain a +6 bonus to Resistance Checks to prevent possession and domination."
+            ],
+            "cost": [
+                1
+            ]
+        },
+        {
+            "name": "Eye of the Lynx",
+            "flavor": [
+                "You have an uncanny ability to focus your mind on a single target."
+            ],
+            "effects": [
+                "You double the bonus from Aiming with a projectile."
+            ],
+            "cost": [
+                1
+            ]
+        },
+        {
+            "name": "Natural Magic",
+            "flavor": [
+                "You have the natural ability to cast a spell without spending mana."
+            ],
+            "effects": [
+                "Choose a spell whose level is no greater than 20 and Base Mana Cost is 40 points or less. You can cast that spell once every minute, and an additional time by spend a Stamina Point. Spending additional Creation Points allows you to choose a spell whose Mana Cost is 40 and up to Intermediate Degree or whose Mana Cost is 60 and up to Advanced Degree. The Natural Magic spell cannot be maintained.",
+                "Your Natural Magic spell uses your Spell Projection if you have one. If not, it is cast as if you have the Attack Spell Projection or Defense Spell Projection Module."
+            ],
+            "cost": [
+                1
+            ]
+        },
+        {
+            "name": "Innate Spiritual Growth",
+            "flavor": [
+                "Your body and spirit slowly generate more ki as you grow."
+            ],
+            "effects": [
+                "You gain a +12 Innate Bonus per level to your Ki Reserve."
+            ],
+            "restrictions": [
+                "You can take this Character Feature twice."
+            ],
+            "cost": [
+                2
+            ]
         }
     ],
     "negative": [
         {
-            "name": "bad luck",
+            "name": "Bad Luck",
             "flavor": [
                 "You have very bad luck in doing whatever you set out to do; you fail much more than you would like. "
             ],
             "effects": [
                 "The number required for a Fumble increases by one. Fumble can now occur on a double two. If you gain mastery in a skill, you only Fumble on double one."
             ],
-            "cost": 2
+            "cost": [
+                2
+            ]
         }
     ]
 }
