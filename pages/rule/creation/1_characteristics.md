@@ -33,7 +33,7 @@ Focus is your ability to control external forces with your spirit.
 Willpower is a measure of your concentration and your control over internal forces.
 
 ### Modifier
-Each Characteristic also has a derived value called its Modifier. The Modifier is the number that is added to all Skill and Resistance Checks. To find the number, refer to the following table.
+Each Characteristic also has a derived value called its Modifier. The Modifier is the number that is added to find a Skill or Resistance's Final Value. To find the number, refer to the following table.
 
 {% include table-index.html index = "GEN2" %}
 
@@ -46,11 +46,11 @@ You have the following arrays, each one can be assigned to a single Characterist
 - 9 6 6 6 6 6 6 6
 - 7 7 7 7 7 7 6 5
 
-> The values found in this method are created by spending 60 points in the following method. The GM can create other arrays if they desire.
+{% include meta.html content="The values found in this method are created by spending 60 points in the following method. The GM can create other arrays if they desire." %}
 
 #### Method 2: Point Buy
 You have 60 points to spend to gain a certain Characteristic Value. Each Characteristic must have at least a three and can be no greater than 10 by using this method. 
 
 {% include table-index.html index = "GEN8" %}
 
-> The starting 60 points is only meant for extraordinary individuals, such are the players in this game. The GM should feel free to change that amount to 40 if they want a game based around more average individuals or can increase it to 80 for truly legendary characters.
+{% include meta.html content="The starting 60 points is only meant for extraordinary individuals, such are the players in this game. The GM should feel free to change that amount to 40 if they want a game based around more average individuals or can increase it to 80 for truly legendary characters." %}
