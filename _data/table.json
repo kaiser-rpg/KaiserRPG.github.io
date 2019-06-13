@@ -5,8 +5,8 @@
 		"table": {
 			"type": "table",
 			"colLabels": [
-				"Number of Attacks",
-				"Penalty"
+				"Weapon Size",
+				"Penalty per additional attack"
 			],
 			"colStyles": [
 				"col-3",
@@ -14,28 +14,20 @@
 			],
 			"rows": [
 				[
-					"1",
-					"No penalty"
+					"Smaller size",
+					"-1"
 				],
 				[
-					"2",
+					"Same size",
 					"-2"
 				],
 				[
-					"3",
+					"One size larger",
+					"-3"
+				],
+				[
+					"Two sizes larger",
 					"-4"
-				],
-				[
-					"4",
-					"-6"
-				],
-				[
-					"5",
-					"-8"
-				],
-				[
-					"+1",
-					"-2 (cumulative)"
 				]
 			]
 		}
@@ -3490,5 +3482,5 @@
 				]
 			]
 		}
-	},
+	}
 ]

@@ -1,0 +1,595 @@
+[
+    {
+        "title": "Man Vs. Nature State",
+        "index": "STATE12",
+        "table": {
+            "type": "table",
+            "colLabels": [
+                "State",
+                "Effect"
+            ],
+            "colStyles": [
+                "col-3 bold",
+                "col-9"
+            ],
+            "rows": [
+                [
+                    "Falling",
+                    {
+                        "type": "list",
+                        "items": [
+                            "Make Acrobatics Skill Check with Difficulty based on height.",
+                            "Final Damage = DoF &times; Base Damage &times; Size Damage Multiplier",
+                            "Fall 500 feet first round, then 1000 feet each round."
+                        ]
+                    }
+                ],
+                [
+                    "Lack of Air",
+                    {
+                        "type": "list",
+                        "items": [
+                            "Keep Breath with Con Check on End Phase, each success increase difficulty +1. Prepared DC 5. Unprepared DC 10",
+                            "Once lost breath, make PhR 8 on End Phase, each success increase difficulty +1.",
+                            "While lost breath, gain -1 All Action Penalty."
+                        ]
+                    }
+                ],
+                [
+                    "Sleep",
+                    {
+                        "type": "list",
+                        "items": [
+                            "You suffer a -10 penalty on all Perception based Checks and cannot take any actions or roll Initiative.",
+                            "You can be woken with 2 AP or a -4 penalty on Initiative."
+                        ]
+                    }
+                ],
+                [
+                    "Partially Blind",
+                    {
+                        "type": "list",
+                        "items": [
+                            "You suffer a -3 penalty on all Checks that require sight."
+                        ]
+                    }
+                ],
+                [
+                    "Totally Blind",
+                    {
+                        "type": "list",
+                        "items": [
+                            "You suffer a -9 penalty on all Checks that require sight."
+                        ]
+                    }
+                ],
+                [
+                    "Proned",
+                    {
+                        "type": "list",
+                        "items": [
+                            "You suffer D2 on all Physical Checks."
+                        ]
+                    }
+                ],
+                [
+                    "Narrow Space",
+                    {
+                        "type": "list",
+                        "items": [
+                            "You suffer D2 on all Physical Checks."
+                        ]
+                    }
+                ],
+                [
+                    "Partially Restrained",
+                    {
+                        "type": "list",
+                        "items": [
+                            "You suffer a -2 penalty on all Checks that require sight."
+                        ]
+                    }
+                ],
+                [
+                    "Mostly Restrained",
+                    {
+                        "type": "list",
+                        "items": [
+                            "You suffer a -12 penalty on all Checks that require sight."
+                        ]
+                    }
+                ],
+                [
+                    "Fully Restrained",
+                    {
+                        "type": "list",
+                        "items": [
+                            "You suffer a -32 penalty on all Checks that require sight.",
+                            "You cannot move."
+                        ]
+                    }
+                ]
+            ]
+        }
+    },
+    {
+        "title": "Man Vs. Man State",
+        "index": "STATE11",
+        "table": {
+            "type": "table",
+            "colLabels": [
+                "State",
+                "Effect"
+            ],
+            "colStyles": [
+                "col-3 bold",
+                "col-9"
+            ],
+            "rows": [
+                [
+                    "Flanked",
+                    {
+                        "type": "list",
+                        "items": [
+                            "Opponent suffer -1 penalty to Offensive Rolls vs you.",
+                            "Opponent suffer -3 penalty to Defensive Rolls vs you."
+                        ]
+                    }
+                ],
+                [
+                    "Blind Side",
+                    {
+                        "type": "list",
+                        "items": [
+                            "Opponent suffer -3 penalty to Offensive Rolls vs you.",
+                            "Opponent suffer -8 penalty to Defensive Rolls vs you."
+                        ]
+                    }
+                ],
+                [
+                    "At Weapon's Point",
+                    {
+                        "type": "list",
+                        "items": [
+                            "You can attack your opponent as a Swift Action. This ends the state.",
+                            "Opponent suffers -2 penalty to all Offensive Rolls.",
+                            "Opponent suffers -10 penalty to Defensive Rolls and Physical Skill Checks vs you.",
+                            "Opponent suffers -5 penalty to Initiative."
+                        ]
+                    }
+                ],
+                [
+                    "Suspended",
+                    {
+                        "type": "list",
+                        "items": [
+                            "Opponent suffers D1 to all Physical Skill Checks vs you."
+                        ]
+                    }
+                ],
+                [
+                    "Flight",
+                    {
+                        "type": "list",
+                        "items": [
+                            "You gain A1 to all Offensive Rolls vs opponent.",
+                            "You gain A1 to all Defensive Rolls vs opponent."
+                        ]
+                    }
+                ],
+                [
+                    "Surprised",
+                    {
+                        "type": "list",
+                        "items": [
+                            "Opponent suffers -9 penalty to all Skill Checks vs you."
+                        ]
+                    }
+                ],
+                [
+                    "Charmed",
+                    {
+                        "type": "list",
+                        "items": [
+                            "Opponent cannot attack you and is friendly.",
+                            "You gain A1 to all positive social interactions vs opponent."
+                        ]
+                    }
+                ]
+            ]
+        }
+    },
+    {
+        "title": "Man Vs. Self State",
+        "index": "STATE10",
+        "table": {
+            "type": "table",
+            "colLabels": [
+                "State",
+                "Effect"
+            ],
+            "colStyles": [
+                "col-3",
+                "col-9"
+            ],
+            "rows": [
+                [
+                    "Untrained Similar Weapon",
+                    {
+                        "type": "list",
+                        "items": [
+                            "Strike and Block Checks using the weapon suffers D1."
+                        ]
+                    }
+                ],
+                [
+                    "Untrained Different Weapon",
+                    {
+                        "type": "list",
+                        "items": [
+                            "Strike and Block Checks using the weapon suffers D2."
+                        ]
+                    }
+                ],
+                [
+                    "Flat-Footed",
+                    {
+                        "type": "list",
+                        "items": [
+                            "No Active Actions or Reactions this round.",
+                            "Any unused movement distance is lost."
+                        ]
+                    }
+                ],
+                [
+                    "Pain",
+                    {
+                        "type": "list",
+                        "items": [
+                            "Suffer an All Action Penalty."
+                        ]
+                    }
+                ],
+                [
+                    "Weakness",
+                    {
+                        "type": "list",
+                        "items": [
+                            "Reduce Strength, Dexterity, and Agility."
+                        ]
+                    }
+                ],
+                [
+                    "Dazed",
+                    {
+                        "type": "list",
+                        "items": [
+                            "Reduce Perception and Intelligence."
+                        ]
+                    }
+                ],
+                [
+                    "Unaligned",
+                    {
+                        "type": "list",
+                        "items": [
+                            "Reduce Focus and Willpower."
+                        ]
+                    }
+                ],
+                [
+                    "Rage",
+                    {
+                        "type": "list",
+                        "items": [
+                            "Use brute force to destroy the object of your rage."
+                        ]
+                    }
+                ],
+                [
+                    "Shaken",
+                    {
+                        "type": "list",
+                        "items": [
+                            "D1 on all Skill Checks while object of fear is within sight."
+                        ]
+                    }
+                ],
+                [
+                    "Frightened",
+                    {
+                        "type": "list",
+                        "items": [
+                            "D2 on all Skill Checks while object of fear is nearby.",
+                            "You cannot move closer to object of fear."
+                        ]
+                    }
+                ],
+                [
+                    "Cowering",
+                    {
+                        "type": "list",
+                        "items": [
+                            "D3 on all Skill Checks while you believe the object of fear exists.",
+                            "You cannot move unless escorted."
+                        ]
+                    }
+                ],
+                [
+                    "Terror",
+                    {
+                        "type": "list",
+                        "items": [
+                            "D4 on all Skill Checks until you have calmed down.",
+                            "You cannot move and will actively resist moving.",
+                            "Any attack from the object of fear deals 4 Psychic Damage per DoS (ignores AV and Absorption)."
+                        ]
+                    }
+                ],
+                [
+                    "Fascinated",
+                    {
+                        "type": "list",
+                        "items": [
+                            "You cannot move from your position except to regain line of sight.",
+                            "You cannot take any actions except to defend yourself (you cannot activate any powers)."
+                        ]
+                    }
+                ],
+                [
+                    "Confused",
+                    {
+                        "type": "list",
+                        "items": [
+                            "You cannot tell friend from foe."
+                        ]
+                    }
+                ],
+                [
+                    "Stunned",
+                    {
+                        "type": "list",
+                        "items": [
+                            "You cannot take any actions except to defend yourself (you cannot activate any powers).",
+                            "Any Skill Check or Characteristic Check has its Final Roll halved, including defense.",
+                            "You cannot gain Open Rolls."
+                        ]
+                    }
+                ],
+                [
+                    "Unconscious",
+                    {
+                        "type": "list",
+                        "items": [
+                            "You are unconscious and are unaware of your surroundings.",
+                            "You cannot take any actions."
+                        ]
+                    }
+                ],
+                [
+                    "Between Life and Death",
+                    {
+                        "type": "list",
+                        "items": [
+                            "Occurs when LP is zero or less",
+                            "You lose 10 LP every hour.",
+                            "Every hour make a PrR 12 to become Unconscious."
+                        ]
+                    }
+                ],
+                [
+                    "Dead",
+                    {
+                        "type": "list",
+                        "items": [
+                            "Occurs when LP is negative of your maximum or a Critical to a vital organ."
+                        ]
+                    }
+                ]
+            ]
+        }
+    },
+    {
+        "title": "Hand-to-Hand Modifiers",
+        "index": "COMBAT500",
+        "table": {
+            "type": "table",
+            "colLabels": [
+                "Situation",
+                "Effect"
+            ],
+            "colStyles": [
+                "col-3 bold",
+                "col-9"
+            ],
+            "rows": [
+                [
+                    "Higher Ground",
+                    {
+                        "type": "list",
+                        "items": [
+                            "You gain A1 to hand-to-hand Offensive Rolls vs opponent."
+                        ]
+                    }
+                ],
+                [
+                    "Drawing/Switching Weapons",
+                    {
+                        "type": "list",
+                        "items": [
+                            "You suffer D1 to hand-to-hand Offensive Rolls and Block Checks with new weapon."
+                        ]
+                    }
+                ],
+                [
+                    "Smaller Opponent",
+                    {
+                        "type": "list",
+                        "items": [
+                            "You suffer D1 to hand-to-hand Offensive Rolls vs opponent half your size.",
+                            "You suffer D2 to hand-to-hand Offensive Rolls vs opponent one-tenth your size."
+                        ]
+                    }
+                ],
+            ]
+        }
+    },
+    {
+        "title": "Ranged Modifiers",
+        "index": "COMBAT600",
+        "table": {
+            "type": "table",
+            "colLabels": [
+                "Situation",
+                "Effect"
+            ],
+            "colStyles": [
+                "col-3 bold",
+                "col-9"
+            ],
+            "rows": [
+                [
+                    "Point Blank",
+                    {
+                        "type": "list",
+                        "items": [
+                            "You gain A1 to ranged Offensive Rolls vs opponent.",
+                            "You can counterattack and be counterattacked."
+                        ]
+                    }
+                ],
+                [
+                    "Changing Target",
+                    {
+                        "type": "list",
+                        "items": [
+                            "You suffer -1 penalty to first ranged Offensive Roll vs new target."
+                        ]
+                    }
+                ],
+                [
+                    "Target has Cover",
+                    {
+                        "type": "list",
+                        "items": [
+                            "You suffer -4 penalty to ranged Offensive Rolls vs target mostly covered.",
+                            "You cannot attack targets completely covered."
+                        ]
+                    }
+                ],
+                [
+                    "Moving Shot",
+                    {
+                        "type": "list",
+                        "items": [
+                            "You suffer D1 to ranged Offensive Rolls if you moved more than 20 feet.",
+                            "You suffer D2 to ranged Offensive Rolls if you moved more than Dash Distance."
+                        ]
+                    }
+                ],
+                [
+                    "Moving Target",
+                    {
+                        "type": "list",
+                        "items": [
+                            "You suffer D1 to ranged Offensive Rolls if target moved more than 50 feet.",
+                            "You suffer D2 to ranged Offensive Rolls if target moved more than 100 feet."
+                        ]
+                    }
+                ],
+                [
+                    "Large Target",
+                    {
+                        "type": "list",
+                        "items": [
+                            "You gain +4 bonus to ranged Offensive Rolls vs 8+ foot tall targets."
+                        ]
+                    }
+                ],
+                [
+                    "Shooting Defensively",
+                    {
+                        "type": "list",
+                        "items": [
+                            "You prevent opponent from taking Attack an Opening action.",
+                            "You suffer D1 to ranged Offensive Rolls vs target."
+                        ]
+                    }
+                ],
+                [
+                    "Beyond Effective Range",
+                    {
+                        "type": "list",
+                        "items": [
+                            "You suffer D1 to ranged Offensive Rolls vs targets beyond effective range."
+                        ]
+                    }
+                ]
+            ]
+        }
+    },
+    {
+        "title": "Falling",
+        "index": "STATE30",
+        "table": {
+            "type": "table",
+            "colLabels": [
+                "Distance",
+                "Difficulty Skill Check",
+                "Base Damage"
+            ],
+            "colStyles": [
+                "col-3",
+                "col-6",
+                "col-3"
+            ],
+            "rows": [
+                [
+                    "5 feet",
+                    "Easy (4)",
+                    "1"
+                ],
+                [
+                    "10 feet",
+                    "Moderate (8)",
+                    "2"
+                ],
+                [
+                    "20 feet",
+                    "Difficult (12)",
+                    "4"
+                ],
+                [
+                    "30 feet",
+                    "Very Difficult (16)",
+                    "6"
+                ],
+                [
+                    "40 feet",
+                    "Absurd (20)",
+                    "8"
+                ],
+                [
+                    "50 feet",
+                    "Almost Impossible (24)",
+                    "10"
+                ],
+                [
+                    "60 feet",
+                    "Impossible (28)",
+                    "12"
+                ],
+                [
+                    "100 feet",
+                    "Inhuman (32)",
+                    "20"
+                ],
+                [
+                    "1,000 feet",
+                    "Zen (44)",
+                    "30"
+                ]
+            ]
+        }
+    }
+]

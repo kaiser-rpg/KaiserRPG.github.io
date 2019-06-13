@@ -1,0 +1,76 @@
+[
+    {
+        "title": "Multiple Attack Penalties",
+        "index": "100",
+        "table": {
+            "type": "table",
+            "colLabels": [
+                "Weapon Size",
+                "Penalty per additional attack"
+            ],
+            "colStyles": [
+                "col-3",
+                "col-3"
+            ],
+            "rows": [
+                [
+                    "Smaller size",
+                    "-1"
+                ],
+                [
+                    "Same size",
+                    "-2"
+                ],
+                [
+                    "One size larger",
+                    "-3"
+                ],
+                [
+                    "Two sizes larger",
+                    "-4"
+                ]
+            ]
+        }
+    },
+    {
+        "title": "Multiple Defense Penalties",
+        "index": "DEF1",
+        "table": {
+            "type": "table",
+            "colLabels": [
+                "Number of Attacks",
+                "Penalty"
+            ],
+            "colStyles": [
+                "col-3",
+                "col-3"
+            ],
+            "rows": [
+                [
+                    "1",
+                    "No penalty"
+                ],
+                [
+                    "2",
+                    "-2"
+                ],
+                [
+                    "3",
+                    "-4"
+                ],
+                [
+                    "4",
+                    "-6"
+                ],
+                [
+                    "5",
+                    "-8"
+                ],
+                [
+                    "6",
+                    "-10"
+                ]
+            ]
+        }
+    }
+]

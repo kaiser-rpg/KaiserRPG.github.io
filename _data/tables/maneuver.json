@@ -1,0 +1,115 @@
+[
+    {
+        "title": "Directed Attack",
+        "index": "ATK2",
+        "table": {
+            "type": "table",
+            "colLabels": [
+                "Body Part",
+                "Penalty"
+            ],
+            "colStyles": [
+                "col-3",
+                "col-3"
+            ],
+            "rows": [
+                [
+                    "Neck",
+                    "-8"
+                ],
+                [
+                    "Head",
+                    "-6"
+                ],
+                [
+                    "Elbow",
+                    "-6"
+                ],
+                [
+                    "Heart",
+                    "-6"
+                ],
+                [
+                    "Groin",
+                    "-6"
+                ],
+                [
+                    "Foot",
+                    "-5"
+                ],
+                [
+                    "Hand",
+                    "-4"
+                ],
+                [
+                    "Knee",
+                    "-4"
+                ],
+                [
+                    "Abdomen",
+                    "-2"
+                ],
+                [
+                    "Arm",
+                    "-2"
+                ],
+                [
+                    "Thigh",
+                    "-2"
+                ],
+                [
+                    "Calf",
+                    "-1"
+                ],
+                [
+                    "Torso",
+                    "-1"
+                ],
+                [
+                    "Eye",
+                    "-10"
+                ],
+                [
+                    "Wrist",
+                    "-4"
+                ],
+                [
+                    "Shoulder",
+                    "-3"
+                ]
+            ]
+        },
+        "postEntries": [
+            "This table only contains humanoid penalties."
+        ]
+    },
+    {
+        "title": "Trapping",
+        "index": "ATK3",
+        "table": {
+            "type": "table",
+            "colLabels": [
+                "Degrees of Success",
+                "Result"
+            ],
+            "colStyles": [
+                "col-3",
+                "col-3"
+            ],
+            "rows": [
+                [
+                    "1 to 2",
+                    "Partially Restrained"
+                ],
+                [
+                    "3 to 10",
+                    "Mostly Restrained"
+                ],
+                [
+                    "11+",
+                    "Fully Restrained"
+                ]
+            ]
+        }
+    }
+]

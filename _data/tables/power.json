@@ -1,0 +1,76 @@
+[
+    {
+        "title": "Power Collision",
+        "index": "MAGIC60",
+        "table": {
+            "type": "table",
+            "colLabels": [
+                "DoD",
+                "Effect"
+            ],
+            "colStyles": [
+                "col-2",
+                "col-2"
+            ],
+            "rows": [
+                [
+                    "0 to 5",
+                    "Both Powers cancel each other out."
+                ],
+                [
+                    "6 to 10",
+                    "The Wining Power passes through the other; but its Base Damage is halved."
+                ],
+                [
+                    "11+",
+                    "The Wining Power passes through the other completely."
+                ]
+            ]
+        }
+    },
+    {
+        "title": "Power Action Usage",
+        "index": "POWER50",
+        "table": {
+            "type": "table",
+            "colLabels": [
+                "Action Requirement",
+                "How to Activate"
+            ],
+            "colStyles": [
+                "col-5",
+                "col-7"
+            ],
+            "rows": [
+                [
+                    "Active",
+                    "Use the action <b>Use an Active Power</b>."
+                ],
+                [
+                    "Reaction",
+                    "Use the action <b>Use an Reaction Power</b>."
+                ],
+                [
+                    "Swift",
+                    "Use the action <b>Use an Swift Power</b>."
+                ],
+                [
+                    "Attack",
+                    "The power is activated as part of <b>Attack Action</b>, but instead of making an Offensive Roll with a weapon, the power will list what to use. This counts towards and is affected by the multiple attack penalty."
+                ],
+                [
+                    "Defend",
+                    "Use the action <b>Defend with a Power</b>. Some powers with this requirement are instead activated as part of the <b>Defend with Block or Dodge Action</b>. If you wish to activate it before making a defense, you can activate it as an active power."
+                ],
+                [
+                    "Counterattack",
+                    "The power is activated as part of <b>Counter Action</b>, but instead of making an Offensive Roll with a weapon, the power will list what to use. This counts towards and is affected by the multiple attack penalty."
+                ],
+                [
+                    "Complete Round",
+                    "The activation of the power must be declared as an Intention. The effects of the power do not occur until the End Phase."
+                ]
+            ]
+        }
+    }
+]
