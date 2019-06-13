@@ -20,10 +20,10 @@ In order to free themselves, a Partially or Mostly Restrained opponent, as an Ac
 
 Once you have an opponent trapped, you gain additional actions you can perform.
 
-{% include maneuver/trap-maintain.md %}
+{% include action/maneuver/trap-maintain.md %}
 
-{% include maneuver/trap-full-attack.md %}
+{% include action/maneuver/trap-full-attack.md %}
 
-{% include maneuver/trap-strangle.md %}
+{% include action/maneuver/trap-strangle.md %}
 
-{% include maneuver/trap-crush.md %}
+{% include action/maneuver/trap-crush.md %}

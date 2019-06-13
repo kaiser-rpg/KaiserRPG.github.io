@@ -1,0 +1,8 @@
+### Defend Another
+Reaction: 0 AP
+
+You can take this reaction when one of your wards is the target of an attack that you can see. The ward must be within Step Distance or you must have the ability to defend at a distance. Additionally, you cannot be Flat-footed and the attacker cannot have the Surprise State over you. Lastly, the ward must be willing and aware of your intent to defend them. If all the criteria are met, you defend your ward either using the _Defend with Block or Dodge_ or _Defend with a Supernatural Barrier_ Swift Actions. 
+
+Using Block, as part of _Defend with Block or Dodge_, means you place yourself between your ward and the attack. Using Dodge means you push them out of the way. Either way, you must move to intercept, up to your Step Distance, to become the new target of the attack. You can swap places with the target by using 5 feet of Distance. You suffer one degree of Disadvantage to the Defensive Roll. Naturally, a ward that cannot be moved or is too large to block would prevent one or both forms of defense.
+
+Using _Defend with a Supernatural Barrier_ means you control a supernatural barrier that you have placed over your ward previously, activated as an Active Action. If your ward is within your effective power range, you suffer one degree of Disadvantage to the Defensive Roll. If your ward is beyond your effective range but still within maximum range, you suffer two degrees of Disadvantage instead. Beyond maximum range, you cannot protect them. The States that apply to the roll are the ones that affect you or would be logical, in your current position. 

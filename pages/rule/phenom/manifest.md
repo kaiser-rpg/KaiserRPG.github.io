@@ -6,7 +6,7 @@ permalink: rule_phenom_manifesting.html
 
 ## Manifesting
 
-{% include intention/phenom.md %}
+{% include action/intention/phenom.md %}
 
 ## Failure and Blowback
 Each time you manifest a phenom, there is a chance you are unable to control the energy and it backfires. Each phenom’s description includes at least one degree that lists a Fatigue cost. These degrees represent your failure to manifest the phenom, so its effects do not occur, and you lose a number of Free Phenom Points equal to the number listed. Once you have no more PP, you start consuming Stamina Points. 

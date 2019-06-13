@@ -5,18 +5,22 @@ permalink: rule_combat_intention.html
 
 Intentions are an action that is declared before rolling Initiative. Things that take a bit of forethought, like preparing a spell or determining what weapons to use.
 
-{% include intention/attack.md %}
+{% include action/intention/attack.md %}
 
-{% include intention/run.md %}
+{% include action/intention/attack-charge.md %}
 
-{% include intention/sprint.md %}
+{% include action/intention/guard.md %}
 
-{% include intention/spirit.md %}
+{% include action/intention/run.md %}
 
-{% include intention/magic.md %}
+{% include action/intention/sprint.md %}
 
-{% include intention/conjure.md %}
+{% include action/intention/spirit.md %}
 
-{% include intention/phenom.md %}
+{% include action/intention/magic.md %}
 
-{% include intention/stance.md %}
+{% include action/intention/conjure.md %}
+
+{% include action/intention/phenom.md %}
+
+{% include action/intention/stance.md %}

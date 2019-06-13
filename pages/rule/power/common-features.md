@@ -17,7 +17,7 @@ The talent of Presence Extrusion allows you to grant the imbued trait to your we
 ## Area Attack
 Some powers have the ability to affect a large area with a single attack. This area attack can take many different shapes: sphere, cylinder, cone, line, and so on. Each valid target within the volume of the attack must make a Defensive Roll against your Offensive Roll (only one roll). The area attack will still count as a thrown projectile for the purpose of defense.
 
-A target can dodge out of the area of the attack if they have enough movement remaining to reach a point outside the volume of the attack. If they have not taken the Movement Action this turn, they can spend 1 AP to take the Movement Action as a Reaction, but they can only use half of it to move out of the way. The target makes a Defensive Roll against the attack. If they are unable to reach a safe point for whatever reason, they apply a -8 penalty to the Defensive Roll.
+A target can dodge out of the area of the attack by taking the Step special action to move outside the area of the attack. if they have enough movement remaining to reach a point outside the volume of the attack. The target still makes a Defensive Roll against the attack even if they can move out of its area. If they are unable to reach a safe point for whatever reason, they apply a -8 penalty to the Defensive Roll.
 
 The ability to block an area attack depends on the traits that the area attack and the target's defense possess. How each trait affects the defense of a target is described with the trait. In general, having an imbued defense will allow the target to defend normally.
 

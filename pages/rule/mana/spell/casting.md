@@ -11,7 +11,7 @@ As long as you meet all the requirements for the spell – those requirements be
 
 ## Casting
 
-{% include intention/magic.md %}
+{% include action/intention/magic.md %}
 
 ## Damage During Accumulation
 When you suffer damage, you might lose concentration on the mana you have accumulated. You must make a Withstand Pain Difficulty Check equal to one fifth of the damage. Each Degree of Failure causes 10 mana to return to your Mana Pool from what you have accumulated. If you have more than 10 DoF, the mana is lost instead of returned to your Pool. 

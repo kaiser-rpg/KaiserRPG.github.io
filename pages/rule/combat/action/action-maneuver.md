@@ -7,24 +7,24 @@ As part of an Attack Action, instead of a traditional attack, you can perform a 
 
 Some powers also let you perform these maneuvers. A power will list what maneuver you will use and any modifications to the maneuver. Additionally, attack powers can use certain maneuvers as part of its Use Power Action.
 
-{% include maneuver/second-damage.md %}
+{% include action/maneuver/second-damage.md %}
 
-{% include maneuver/upper-hand.md %}
+{% include action/maneuver/upper-hand.md %}
 
-{% include maneuver/missile.md %}
+{% include action/maneuver/missile.md %}
 
-{% include maneuver/directed-attack.md %}
+{% include action/maneuver/directed-attack.md %}
 
-{% include maneuver/disable.md %}
+{% include action/maneuver/disable.md %}
 
-{% include maneuver/knockout.md %}
+{% include action/maneuver/knockout.md %}
 
-{% include maneuver/weapon-point.md %}
+{% include action/maneuver/weapon-point.md %}
 
-{% include maneuver/take-down.md %}
+{% include action/maneuver/take-down.md %}
 
-{% include maneuver/disarm.md %}
+{% include action/maneuver/disarm.md %}
 
-{% include maneuver/trap.md %}
+{% include action/maneuver/trap.md %}
 
-{% include maneuver/sweeping.md %}
+{% include action/maneuver/sweeping.md %}

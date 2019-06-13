@@ -2289,15 +2289,6 @@
 					}
 				],
 				[
-					"Higher Ground",
-					{
-						"type": "list",
-						"items": [
-							"You gain A1 to Offensive Rolls vs opponent."
-						]
-					}
-				],
-				[
 					"At Weapon's Point",
 					{
 						"type": "list",
@@ -2534,6 +2525,145 @@
 						"type": "list",
 						"items": [
 							"Occurs when LP is negative of your maximum or a Critical to a vital organ."
+						]
+					}
+				]
+			]
+		}
+	},
+	{
+		"title": "Hand-to-Hand Modifiers",
+		"index": "COMBAT500",
+		"table": {
+			"type": "table",
+			"colLabels": [
+				"Situation",
+				"Effect"
+			],
+			"colStyles": [
+				"col-3 bold",
+				"col-9"
+			],
+			"rows": [
+				[
+					"Higher Ground",
+					{
+						"type": "list",
+						"items": [
+							"You gain A1 to hand-to-hand Offensive Rolls vs opponent."
+						]
+					}
+				],
+				[
+					"Drawing/Switching Weapons",
+					{
+						"type": "list",
+						"items": [
+							"You suffer D1 to hand-to-hand Offensive Rolls and Block Checks with new weapon."
+						]
+					}
+				],
+				[
+					"Smaller Opponent",
+					{
+						"type": "list",
+						"items": [
+							"You suffer D1 to hand-to-hand Offensive Rolls vs opponent half your size.",
+							"You suffer D2 to hand-to-hand Offensive Rolls vs opponent one-tenth your size."
+						]
+					}
+				],
+			]
+		}
+	},
+	{
+		"title": "Ranged Modifiers",
+		"index": "COMBAT600",
+		"table": {
+			"type": "table",
+			"colLabels": [
+				"Situation",
+				"Effect"
+			],
+			"colStyles": [
+				"col-3 bold",
+				"col-9"
+			],
+			"rows": [
+				[
+					"Point Blank",
+					{
+						"type": "list",
+						"items": [
+							"You gain A1 to ranged Offensive Rolls vs opponent.",
+							"You can counterattack and be counterattacked."
+						]
+					}
+				],
+				[
+					"Changing Target",
+					{
+						"type": "list",
+						"items": [
+							"You suffer -1 penalty to first ranged Offensive Roll vs new target."
+						]
+					}
+				],
+				[
+					"Target has Cover",
+					{
+						"type": "list",
+						"items": [
+							"You suffer -4 penalty to ranged Offensive Rolls vs target mostly covered.",
+							"You cannot attack targets completely covered."
+						]
+					}
+				],
+				[
+					"Moving Shot",
+					{
+						"type": "list",
+						"items": [
+							"You suffer D1 to ranged Offensive Rolls if you moved more than 20 feet.",
+							"You suffer D2 to ranged Offensive Rolls if you moved more than Dash Distance."
+						]
+					}
+				],
+				[
+					"Moving Target",
+					{
+						"type": "list",
+						"items": [
+							"You suffer D1 to ranged Offensive Rolls if target moved more than 50 feet.",
+							"You suffer D2 to ranged Offensive Rolls if target moved more than 100 feet."
+						]
+					}
+				],
+				[
+					"Large Target",
+					{
+						"type": "list",
+						"items": [
+							"You gain +4 bonus to ranged Offensive Rolls vs 8+ foot tall targets."
+						]
+					}
+				],
+				[
+					"Shooting Defensively",
+					{
+						"type": "list",
+						"items": [
+							"You prevent opponent from taking Attack an Opening action.",
+							"You suffer D1 to ranged Offensive Rolls vs target."
+						]
+					}
+				],
+				[
+					"Beyond Effective Range",
+					{
+						"type": "list",
+						"items": [
+							"You suffer D1 to ranged Offensive Rolls vs targets beyond effective range."
 						]
 					}
 				]
@@ -3211,19 +3341,24 @@
 			],
 			"rows": [
 				[
-					"Calm water", "+0"
+					"Calm water",
+					"+0"
 				],
 				[
-					"Rough water", "-4"
+					"Rough water",
+					"-4"
 				],
 				[
-					"Choppy water", "-12"
+					"Choppy water",
+					"-12"
 				],
 				[
-					"Swimming against the current", "-12"
+					"Swimming against the current",
+					"-12"
 				],
 				[
-					"Raging storm", "-20"
+					"Raging storm",
+					"-20"
 				]
 			]
 		}
