@@ -23,7 +23,6 @@ When you move more than 20 feet before shooting, you suffer one degree of Disadv
 ### Moving Target
 When you target has moved more than 50 feet this round before shooting at them, you suffer one degree of Disadvantage on the Offensive Roll. If they move more than 100 feet, you instead suffer two degrees of Disadvantage.
 
-
 ### Large Target
 Shooting at a target who is at least 8 feet tall gives you a +4 bonus to the Offensive Roll. 
 

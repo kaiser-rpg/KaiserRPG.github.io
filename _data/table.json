@@ -1725,7 +1725,7 @@
 			"type": "table",
 			"colLabels": [
 				"Movement Value",
-				"Move",
+				"Dash",
 				"Run",
 				"Run (speed)",
 				"Sprint",
