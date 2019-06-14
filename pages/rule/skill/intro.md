@@ -44,7 +44,7 @@ When a power increases or decreases the chance of a Fumble, refer to the table b
 ### Mastery
 When you have a Final Skill Value of 20 or more, you have gained Mastery in that skill. As a result, it is much more difficult for you to make a mistake than it is for a normal person. Your Fumble Chance decreases by one when using that skill.
 
-### Secondary Group Mastery
+#### Secondary Group Mastery
 Once you have gained Mastery for all Secondary Skills in a group, you further reduce your Fumble Change by one when using any of those skills.
 
 ### Specialization
@@ -55,7 +55,7 @@ When you specialize, you can chose to between a +1 and +4 but the penalty is equ
 ### Knowledge Skills
 Skill Checks that are based on academic knowledge might require you to have spent some time studying or have ready access to a source of knowledge. Even with proper academic training, your Final Skill Roll cannot exceed a value that is more than 8 points greater than your current Final Skill Value unless you are near a source of knowledge and spend some time researching. 
 
-If you have not spent time studying, your Base Skill Value is less than 1, your Final Skill Roll cannot exceed Easy (4).
+If you have not spent time studying and your Base Skill Value is 0, your Final Skill Roll cannot exceed the Easy (4) Degree.
 
 ### Wearing Armor
 When you are wearing heavy armor that you have not had proper training to maneuver in, you gain a Natural Penalty. See the Wear Armor Skill for more details.

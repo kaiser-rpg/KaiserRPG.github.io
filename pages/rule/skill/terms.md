@@ -7,7 +7,7 @@ permalink: rule_skill_term.html
 
 {% include example.html content="Ceil's Base Dodge Skill is a 3 because her Dodge Skill has a Development Cost of 4 and she has spend 12 XP (12/4 = 3)." %}
 
-**Final Skill Value**: This number is the sum of a skill's Base Value, Characteristic Modifier, Natural Bonus, and Innate Bonus. Any other modifier to a skill is temporary. 
+**Final Skill Value**: This number is the sum of a skill's Base Value, Characteristic Modifier, Natural Bonus/Penalty, and Innate Bonus. Any other modifier to a skill is considered temporary. 
 
 {% include example.html content="Ceil's Final Dodge Skill is a 5 because she has a Base Skill Value of +3, an Agility Modifier of +1, no Natural Bonus and +1 Innate Bonus in Dodge." %}
 
