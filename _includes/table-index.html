@@ -1,9 +1,13 @@
 
 
+{% if include.table %}
+{% assign table = site.data.tables[include.table] | where:"index", include.index | first %}
+{% else %}
 {% assign table = site.data.table | where:"index", include.index | first %}
+{% endif %}
 
 <div class="table-header"> 
-    Table {{include.index}}: {{table.title}}
+    Table {{include.table}} {{include.index}}: {{table.title}}
 </div>
 <div>
     {% include entry-table.html entry=table.table %}
