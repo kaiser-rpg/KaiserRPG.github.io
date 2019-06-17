@@ -12,7 +12,7 @@ Damage in the Physical Damage Group are those done by physical objects, like wea
 
 **Impact**: When you are struck by heavy blunt objects, or run into them, you take Impact Damage. Falling a great distance and Warhammers are common sources of this damage.
 
-**Thrust**: Weapons that deal damage by impaling you deal Thrust damage. Spears and arrows are common sources of this damage.
+**Thrust**: Weapons that deal damage by impaling deal Thrust damage. Spears and arrows are common sources of this damage.
 
 ## Elemental Damage
 The Elemental Damage Group contains damage dealt by exposure to extreme elemental forces like fire.
@@ -24,7 +24,7 @@ The Elemental Damage Group contains damage dealt by exposure to extreme elementa
 **Electrical**: Being struck by lightning or an electrical discharge are common sources of this damage.
 
 ## Energy Damage
-The Energy Damage Group is commonly caused by supernatural effects. Many spells use one of the damage types from this group.
+The Energy Damage Group is commonly caused by supernatural effects. Many powers use one of the damage types from this group.
 
 **Force**: This damage comes from raw energy and is immaterial in nature. Bolts of magical energy and repulsive blasts are common sources of this damage type.
 
@@ -33,7 +33,7 @@ The Energy Damage Group is commonly caused by supernatural effects. Many spells 
 **Dark**: Shadowy energies are common sources of this damage type.
 
 ## Resistance Group
-Damage Types in this Group are usually only done as part of a failed Resistance Check. Armor against these types of damage only apply to a Resistance Check that deals their damage and not to the roll to be hit by an effect power.
+Damage Types in this Group are usually only done as part of a failed Resistance Check from an Effect Power. As a remind, when the damage comes from an Effect Power, the Armor Value is added to the Resistance Check, and does not reduce the Degree of Success or Units of Damage.
 
 **Atomic**: This is damage done at the atomic level. Your atoms being rearranged or acidic substances are common sources of this damage.
 

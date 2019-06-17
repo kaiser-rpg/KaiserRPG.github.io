@@ -12,7 +12,7 @@ Below are a list of special bonus and penalties that only apply in hand-to-hand 
 When you are positioned above your opponent, such as being mounted or standing on a table, you gain one degree of Advantage on the Offensive Roll.
 
 ### Drawing a Weapon
-If you do not have your weapon drawn and at the ready before the Intention Phase, you apply one degree of Disadvantage on your Offensive Roll and Defensive Roll when Blocking. This modifier can also be applied if you switch weapons in of the Action Phase.
+If you do not have your weapon drawn and at the ready before the Intention Phase, you apply one degree of Disadvantage on your Offensive Roll and Defensive Roll when Blocking. This modifier can also be applied if you switch weapons during the Action Phase.
 
 ### Smaller Opponent
 If your opponent is half your size, you apply one degree of Disadvantage on the Offensive Roll. Similarly, an opponent one-tenth your size or smaller would cause you to apply two degrees of Disadvantage. This does not apply for Area Attacks.

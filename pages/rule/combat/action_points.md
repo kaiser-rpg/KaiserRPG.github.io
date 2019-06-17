@@ -3,15 +3,18 @@ title: Action Points
 permalink: rule_combat_action_point.html
 ---
 
-Action Points are a representation of your ability to react to each situation as it arises. You start each round with 6 AP and spend them to declare your Intentions and perform actions. You can also lose them when you suffer damage, signifying you have lost some strategic advantage or part of your attention that round. At the end of a round, any unspent AP is lost.
+Action Points are a representation of your ability to react to each situation as it arises. You start the Intention Phase with 6 AP. At the End Phase, any unused AP is lost.
 
 ## Spending Action Points
-Some actions require you to spend AP when you perform them. If you are unable to meet the cost, you cannot perform that action.
+Many actions require you to spend AP to perform. If you do not have enough AP remaining, you cannot perform the action. There are two types of AP cost. 
+
+The first is a numerical value listed with the Action Type. So an action that is "Active: 1 AP" requires it to be your turn and spend 1 AP before you can perform it. If the AP cost is zero, then you can perform it as long as you are not Flat-Footed.
+
+The second type of cost is called Complete AP. Like numerical, it will appear after the Action Type, "Intention: Complete AP." These require you to have spent no AP this turn and all of it will be used by the action. These actions are all consuming and leave little other options for your turn. Since it consumes all your AP, you naturally cannot take any action with an AP cost greater than 0.
 
 
 ## Losing Action Points
-When you take damage, you lose a point of AP. 
+In addition to spend AP, you can lose it when something distracts you, splitting your attention. The most common example of this is when you are subject to an attack. If you fail to defend yourself, you gain one or more Degrees of Failure on a Defensive Roll, you lose 1 AP. This lose of AP occurs with each successful hit, even if the attack ends up dealing no damage.
 
-### Flat-footed
-Flat-footed occurs when you would lose an Action Point from taking damage and how none to lose. Once you become flat-footed, you cannot take any more active actions or reactions that round and cannot use any unspent movement. You can still perform Swift Actions.
-
+### Flat-Footed
+When you have no remaining AP and are subject to a forced AP lose, like when hit by an attack, you gain the Flat-Footed State. This means you cannot take any Active Actions or Reactions, even if their AP cost is 0, and you lose any remaining Movement Distance.
