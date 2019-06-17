@@ -13,7 +13,7 @@ Your maximum Mana Pool size is equal to twenty plus ten times your Focus Charact
 ## Mana Accumulation
 The Base Mana Accumulation is directly based on your Focus Characteristic – as shown in the following table – and the Base MA is then multiplied by your MA Multiple, which starts at one. You can spend Experience Points to buy additional MA Multiples. Each time you increase the number by which you multiply your Base MA. So, after buying one MA Multiple, your MA will be twice your Base MA; a third Multiple means your MA is three times your Base.
 
-{% include table-index.html index="MAGIC30" %}
+{% include table-index.html table="magic" index="100" %}
 
 ## Mana Recovery
 Your Mana Pool regains mana naturally over time. Your spirit has an innate magnetism to draw the raw, ambient Mana around you into your spirit for later use. Once every 24 hours, after 6 hours of rest you regain a number of mana equal to your Mana Recovery. Your Mana Recovery is equal to your Base MA multiplied by the number of Mana Recovery and Mana Accumulation Multiples you have developed. Mana Recovery Multiple is always cheaper to develop than a Mana Accumulation Multiple since the MA Multiple also gives you a Mana Recovery Multiple.

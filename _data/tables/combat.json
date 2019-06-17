@@ -34,7 +34,7 @@
     },
     {
         "title": "Multiple Defense Penalties",
-        "index": "DEF1",
+        "index": "200",
         "table": {
             "type": "table",
             "colLabels": [

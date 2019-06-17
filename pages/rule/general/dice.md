@@ -65,9 +65,9 @@ If the roll is for a Difficulty Skill Check, roll another 2d6 to determine the F
 
 Opposed Skill Checks that Fumble have a different effect. Instead you will subtract a value from your Skill. The Final Skill Total cannot be less than 0.
 
-{% include table-index.html index = "GEN1" %}
+{% include table-index.html table="gameplay" index="100" %}
 
 When a power increases or decreases the chance of a Fumble, refer to the table below. If you are affected by more than one increase and or decrease, add all the changes together.
 
-{% include table-index.html index = "GEN111" %}
+{% include table-index.html table="gameplay" index = "110" %}
 

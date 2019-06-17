@@ -8,7 +8,7 @@ If you gain 1 or more Degrees of Success on the Opposed Skill Check, then you an
 
 You can choose either Strength or Dexterity, while the defender choses between Strength, Dexterity, or Agility. Compare the Degrees of Success to the table below for the result of the Trapping.
 
-{% include table-index.html index="ATK3" %}
+{% include table-index.html table="maneuver" index="200" %}
 
 If your opponent is successful on the Opposed Characteristic Check, they may instead Trap you. Their Degrees of Success are reduced by 10 and then compared to the Trapping Table. This does not cost your opponent any Action Points.
 

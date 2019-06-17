@@ -1,7 +1,7 @@
 [
     {
         "title": "Running",
-        "index": "SKILL50",
+        "index": "100",
         "table": {
             "type": "table",
             "colLabels": [
@@ -55,7 +55,7 @@
     },
     {
         "title": "Swim",
-        "index": "SKILL51",
+        "index": "110",
         "table": {
             "type": "table",
             "colLabels": [
@@ -134,7 +134,7 @@
     },
     {
         "title": "Swim Modifier",
-        "index": "SKILL511",
+        "index": "111",
         "table": {
             "type": "table",
             "colLabels": [
@@ -171,7 +171,7 @@
     },
     {
         "title": "Jump",
-        "index": "SKILL52",
+        "index": "120",
         "table": {
             "type": "table",
             "colLabels": [
@@ -235,7 +235,7 @@
     },
     {
         "title": "Feats of Strength",
-        "index": "SKILL52",
+        "index": "130",
         "table": {
             "type": "table",
             "colLabels": [

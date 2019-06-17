@@ -8,13 +8,13 @@ Once you strength has reached exceptionally high levels, you can produce tremors
 
 In order to pull this off, you must declare your intention to do so and it takes your complete turn. On the End Phase of the turn that you declare the Intention, the tremor starts. The tremor stops on the End Phase after a number of rounds have passed. Anyone within the radius of the tremor must make an Agility Characteristic Check listed or fall prone.
 
-{% include table-index.html index="HIGHLEVEL10" %}
+{% include table-index.html table="high-level" index="100" %}
 
 Additionally, the Game Master can have tremors form as a secondary effect of an attack, usually at a much lower level.
 
 ## Expanded Perception
 
-{% include table-index.html index="HIGHLEVEL50" %}
+{% include table-index.html table="high-level" index="500" %}
 
 **True Instinct**: Your perception and natural instinct has been honed to an inhuman level. You cannot be dazzled by bright lights and half the penalties from Blindness caused by non-magical darkness, as if you had the Night Vision Feature. If you already possess the Night Vision Feature, you can completely ignore Blindness. You require Inhuman to benefit from this.
 

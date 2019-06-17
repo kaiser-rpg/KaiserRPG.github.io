@@ -1,7 +1,7 @@
 [
     {
         "title": "Tectonic Smash",
-        "index": "HIGHLEVEL10",
+        "index": "100",
         "table": {
             "type": "table",
             "colLabels": [
@@ -94,7 +94,7 @@
     },
     {
         "title": "Expanded Perception",
-        "index": "HIGHLEVEL50",
+        "index": "500",
         "table": {
             "type": "table",
             "colLabels": [

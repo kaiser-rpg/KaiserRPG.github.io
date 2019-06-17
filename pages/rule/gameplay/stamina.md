@@ -7,7 +7,7 @@ Your Stamina is an abstract measure of many times you can exert yourself before 
 
 When your Stamina gets low, you will start to suffer the effects of exhaustion. This will start to give you an All Action Penalty the fewer points you have remaining.
 
-{% include table-index.html index="TER1" %}
+{% include table-index.html table="gameplay" index="800" %}
 
 If the maximum Stamina points you have is less than or equal to an amount that gives an All Action penalty, you only suffer the penalties after spending any number of Stamina points.
 

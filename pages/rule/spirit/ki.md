@@ -15,7 +15,7 @@ Chakras are the points where you body and spirit are connected. You possess thre
 
 When you want to use a talent, you must start to gather ki into your chakras. This act of gathering is known as Chakra Accumulation (CA) and each chakra will have its own value. The starting value for each CA depends on the sum of the Characteristics it is based on; compare the sum to the table below. You can spend Experience Points to increase one of your Chakra Accumulations by one point.
 
-{% include table-index.html index="SPIRIT1" %}
+{% include table-index.html table="spirit" index="100" %}
 
 ## Ki Recovery
 Every hour, your body produces 5 ki that your Ki Reserve can absorb. This recovery is an innate capacity of your body and spirit and does not require any kind of action on your part. You do not regain any ki if you are maintaining or sustaining any talents.

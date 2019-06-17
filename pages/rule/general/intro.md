@@ -40,7 +40,7 @@ Like Difficulty Characteristics Checks, these checks are made using your Charact
 #### Difficulty Skill Checks 
 These are made by rolling 2d6 and adding the results to a Skill. If the result is greater than or equal to the Degree of Difficulty set by the Game Master, you are successful. The Degree of Difficulty can be seen in the following table.
 
-{% include table-index.html index="DIF50" %}
+{% include table-index.html table="gameplay" index="900" %}
 
 #### Opposed Skill Checks
 Like Difficulty Skill Checks, these are made by rolling 2d6 and adding the results to a Skill, but are opposed by another creature. If your result is greater than the opposing result, you are successful. These checks usually have a "defender" and "attacker" for the purpose of resolving ties.

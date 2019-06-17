@@ -55,4 +55,4 @@ Powers of this type have their effects always active. The power might still allo
 When you wish to use a power, you must take the appropriate action to activate it. Consult the following table for how to activate each action requirement. 
 <!-- If the power has an action requirement of Active, Swift, or Reaction, you can use it by taking the appropriate action. The action requirement of Attack can be used during the [Attack Action](todo.html), this is a special action requirement since it counts toward the multiple attack penalty. Similarly,  The action requirement of Complete is another special one, requiring that you declare its use during the Intention Phase and the power will not take full effect until the End Phase, any cost is spent at the end of the Intention Phase, after all accumulations have occurred. -->
 
-{% include table-index.html index="POWER50" %}
+{% include table-index.html table="power" index="200" %}

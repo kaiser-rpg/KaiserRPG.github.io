@@ -35,7 +35,7 @@ Willpower is a measure of your concentration and your control over internal forc
 ### Modifier
 Each Characteristic also has a derived value called its Modifier. The Modifier is the number that is added to find a Skill or Resistance's Final Value. To find the number, refer to the following table.
 
-{% include table-index.html index = "GEN2" %}
+{% include table-index.html table="gameplay" index="200" %}
 
 ### Generating Characteristics
 
@@ -51,6 +51,6 @@ You have the following arrays, each one can be assigned to a single Characterist
 #### Method 2: Point Buy
 You have 60 points to spend to gain a certain Characteristic Value. Each Characteristic must have at least a three and can be no greater than 10 by using this method. 
 
-{% include table-index.html index = "GEN8" %}
+{% include table-index.html table="gameplay" index="600" %}
 
 {% include meta.html content="The starting 60 points is only meant for extraordinary individuals, such are the players in this game. The GM should feel free to change that amount to 40 if they want a game based around more average individuals or can increase it to 80 for truly legendary characters." %}

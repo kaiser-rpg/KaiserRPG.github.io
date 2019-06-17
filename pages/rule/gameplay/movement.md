@@ -11,4 +11,4 @@ Movement Value represents the maximum speed at which you can move. It is equival
 
 {% include action/intention/sprint.md %}
 
-{% include table-index.html index="MOV1" %}
+{% include table-index.html table="gameplay" index="700" %}
