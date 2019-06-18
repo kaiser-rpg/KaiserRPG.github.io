@@ -7,4 +7,4 @@ If one of the defenders obtains the chance to Counter by using Block, that defen
 
 The maximum number of targets a sweeping attack can hit depends on the size of the weapon used. Small and medium weapons can reach three or four opponents, respectively. Large weapons can hit up to five. These numbers are for human-sized opponents; the Game Master can increase or decrease as appropriate for each opponents size.
 
-This maneuver can only be performed with hand-to-hand attacks. You must declare that you will use this maneuver before making your Offensive Roll.
+This maneuver can only be performed with hand-to-hand attacks or powers that list this maneuver. You must declare that you will use this maneuver before making your Offensive Roll.
