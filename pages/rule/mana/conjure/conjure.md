@@ -9,8 +9,8 @@ Mana has a curious property to allow you to use your spirit as a sort of portal 
 
 ## Conjuring Failure
 
-{% include table-index.html index="MAGIC72" %}
+{% include table-index.html table="magic" index="510" %}
 
-{% include table-index.html index="MAGIC73" %}
+{% include table-index.html table="magic" index="520" %}
 
-{% include table-index.html index="MAGIC74" %}
+{% include table-index.html table="magic" index="530" %}

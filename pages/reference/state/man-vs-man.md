@@ -4,7 +4,7 @@ permalink: ref_state_man.html
 toc: false
 ---
 
-{% include table-index.html index="STATE11" %}
+{% include table-index.html table="state" index="100" %}
 
 ## Flanked
 You are considered to have the Flanked State over an opponent when you are positioned at their side and slightly behind them. Naturally, they can turn to face you if they are aware and can react fact enough.

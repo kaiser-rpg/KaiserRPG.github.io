@@ -4,7 +4,7 @@ permalink: ref_state_self.html
 toc: false
 ---
 
-{% include table-index.html index="STATE10" %}
+{% include table-index.html table="state" index="300" %}
 
 ## Untrained Similar Weapon
 You have the Untrained Weapon State when you make an attack or block an attack with an untrained weapon that shares a class with a trained weapon. Strike and Block Checks using the weapon suffer one degree of Disadvantage.

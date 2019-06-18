@@ -5,7 +5,7 @@ permalink: rule_magic_knowledge.html
 
 Mana knowledge (MK) is the measure of your capacity to learn and understand the theory behind magic. The higher your mana knowledge the more you will understand magic. Your maximum mana knowledge is determined by your Intelligence Characteristic, as indicated in the following table. The maximum can be increased by 10 ML after spending 1 XP or if you have a trait that increases it. When you gain new mana knowledge, you do not immediately spend them, you must use downtime to learn spells and meta magic just as a warrior must learn a new fighting style.
 
-{% include table-index.html index="MAGIC45" %}
+{% include table-index.html table="magic" index="200" %}
 
 {% include meta.html content="Learning magic is a difficult process, even for those that are adept at doing so, and it is unlikely that someone just starting their adventure as a wizard will have reached their full intellectual potential right away. For that reason, it is recommended that the Game Master limit a character from the Caster Archetype to only spend half of their mana knowledge during character creation, and only a fourth for other archetypes. The character can spend the remainder of the ML, and any they gain after creation, during downtime." %}
 
@@ -25,4 +25,4 @@ Spending mana knowledge occurs during Downtime. Having an instructor or a tome d
 ### Choosing Specific Spells
 You can choose to learn an individual spell without having mastered the underlying theory. This method of learning new spells allows you to choose any spell and pay a special cost for it. Higher level spells costs more mana knowledge since it requires you to understand a more complex topic without the underlying knowledge. The cost for each Spell Level Range is listed below. Spells from an opposing Path still have their cost doubled.
 
-{% include table-index.html index="MAGIC55" %}
+{% include table-index.html table="magic" index="210" %}

@@ -1,7 +1,7 @@
 [
     {
         "title": "Fumble Result",
-        "index": "GEN1",
+        "index": "100",
         "table": {
             "type": "table",
             "colLabels": [
@@ -35,7 +35,7 @@
     },
     {
         "title": "Fumble Chance",
-        "index": "GEN111",
+        "index": "110",
         "table": {
             "type": "table",
             "colLabels": [
@@ -88,7 +88,7 @@
     },
     {
         "title": "Characteristic Modifiers",
-        "index": "GEN2",
+        "index": "200",
         "table": {
             "type": "table",
             "colLabels": [
@@ -161,7 +161,7 @@
     },
     {
         "title": "Healing",
-        "index": "GEN22",
+        "index": "300",
         "table": {
             "type": "table",
             "colLabels": [
@@ -393,7 +393,7 @@
     },
     {
         "title": "Size to Height and Weight Recommendations",
-        "index": "GEN4",
+        "index": "400",
         "table": {
             "type": "table",
             "colLabels": [
@@ -517,7 +517,7 @@
     },
     {
         "title": "Experience Points at each Level",
-        "index": "GEN5",
+        "index": "500",
         "table": {
             "type": "table",
             "colLabels": [
@@ -768,7 +768,7 @@
     },
     {
         "title": "Characteristic Generation",
-        "index": "GEN8",
+        "index": "600",
         "table": {
             "type": "table",
             "colLabels": [
@@ -827,7 +827,7 @@
     },
     {
         "title": "Movement Value to Distance",
-        "index": "MOV1",
+        "index": "700",
         "table": {
             "type": "table",
             "colLabels": [
@@ -1185,7 +1185,7 @@
     },
     {
         "title": "Exhaustion Penalties",
-        "index": "TER1",
+        "index": "800",
         "table": {
             "type": "table",
             "colLabels": [
@@ -1222,7 +1222,7 @@
     },
     {
         "title": "Difficulty Values",
-        "index": "DIF50",
+        "index": "900",
         "table": {
             "type": "table",
             "colLabels": [
@@ -1287,7 +1287,7 @@
     },
     {
         "title": "Size Chart",
-        "index": "SIZE50",
+        "index": "410",
         "table": {
             "type": "table",
             "colLabels": [
@@ -1356,7 +1356,7 @@
     },
     {
         "title": "Size Combat",
-        "index": "SIZE51",
+        "index": "420",
         "table": {
             "type": "table",
             "colLabels": [

@@ -1,7 +1,7 @@
 [
     {
         "title": "Base Mana Accumulation",
-        "index": "MAGIC30",
+        "index": "100",
         "table": {
             "type": "table",
             "colLabels": [
@@ -58,7 +58,7 @@
     },
     {
         "title": "Innate Mana",
-        "index": "MAGIC40",
+        "index": "300",
         "table": {
             "type": "table",
             "colLabels": [
@@ -127,7 +127,7 @@
     },
     {
         "title": "Magic Level",
-        "index": "MAGIC45",
+        "index": "200",
         "table": {
             "type": "table",
             "colLabels": [
@@ -248,7 +248,7 @@
     },
     {
         "title": "Magic Projection Maximum Range",
-        "index": "MAGIC50",
+        "index": "300",
         "table": {
             "type": "table",
             "colLabels": [
@@ -313,7 +313,7 @@
     },
     {
         "title": "Choosing Spells",
-        "index": "MAGIC55",
+        "index": "210",
         "table": {
             "type": "table",
             "colLabels": [
@@ -370,7 +370,7 @@
     },
     {
         "title": "Ritual Time",
-        "index": "MAGIC70",
+        "index": "400",
         "table": {
             "type": "table",
             "colLabels": [
@@ -466,7 +466,7 @@
     },
     {
         "title": "Totem Modifiers",
-        "index": "MAGIC71",
+        "index": "500",
         "table": {
             "type": "table",
             "colLabels": [
@@ -547,7 +547,7 @@
     },
     {
         "title": "Failure to Summon",
-        "index": "MAGIC72",
+        "index": "510",
         "table": {
             "type": "table",
             "colLabels": [
@@ -588,7 +588,7 @@
     },
     {
         "title": "Failure to Control",
-        "index": "MAGIC73",
+        "index": "520",
         "table": {
             "type": "table",
             "colLabels": [
@@ -629,7 +629,7 @@
     },
     {
         "title": "Failure to Banish",
-        "index": "MAGIC74",
+        "index": "530",
         "table": {
             "type": "table",
             "colLabels": [

@@ -35,7 +35,7 @@ Lastly, sufficiently high Regeneration Values have special recovery physical or 
 
 In the case of creatures with the Rex Damage Role, the amount of Life Points healed is multiplied by their Rex Multiplier.
 
-{% include table-index.html index = "GEN22" %}
+{% include table-index.html table="gameplay" index="300" %}
 
 ### Curse Damage
 Some sources of supernatural damage cause lasting wounds that are difficult to heal. Life Points lost by these types of wounds are not recovered in the conventional way; they ignore Regeneration as well healing powers. These cursed Life Points only start to recover when all your non-cursed wounds are healed. Curse Damage disappears at a rate equal to the average of your Constitution, Focus, and Willpower Characteristics per day.

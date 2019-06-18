@@ -22,4 +22,4 @@ Below is a final check list of things you need to do to level your character up:
 4.	Increase Innate Bonuses from your Race, Class, and Traits
 5.	Recalculate any values that changed
 
-{% include table-index.html index = "GEN5" %}
+{% include table-index.html table="gameplay" index="500" %}

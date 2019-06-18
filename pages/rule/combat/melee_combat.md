@@ -6,7 +6,7 @@ permalink: rule_combat_hand_to_hand.html
 ## Hand-to-Hand Specific Modifiers
 Below are a list of special bonus and penalties that only apply in hand-to-hand combat.
 
-{% include table-index.html index="COMBAT500" %}
+{% include table-index.html table="state" index="400" %}
 
 ### Higher Ground
 When you are positioned above your opponent, such as being mounted or standing on a table, you gain one degree of Advantage on the Offensive Roll.

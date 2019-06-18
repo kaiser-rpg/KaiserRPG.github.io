@@ -4,14 +4,14 @@ permalink: ref_state_nature.html
 toc: false
 ---
 
-{% include table-index.html index="STATE12" %}
+{% include table-index.html table="state" index="200" %}
 
 ## Falling
 You are considered to have the Falling State when you cannot stop your rapid decent towards a surface. The greater the height you fell, the greater the damage you take upon impact with a surface.
 
 You can reduce the damage from landing by making an Acrobatics Skill Check against a difficulty determined by the distance you have fallen. If you are successful, you take no damage. If you fail, use the Degree of Failure like the Degree of Success on an attack. You apply your Absorption and Impact AV to calculate the Units of Damage. Since larger creatures take greater damage due to their large mass, the Final Damage is equal to the Units of Damage multiplied by the Base Damage as well as your Size Damage Modifier.
 
-{% include table-index.html index="STATE30" %}
+{% include table-index.html table="state" index="600" %}
 
 {% include meta.html content="The above table figures for standard earth gravity and terminal velocity occurring after 1,500 feet."%}
 

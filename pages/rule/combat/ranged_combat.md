@@ -8,7 +8,7 @@ Combatants use projectiles in fights where their opponents are at some distance 
 ## Range Specific Modifiers
 Below are a list of special bonus and penalties that only apply in ranged combat.
 
-{% include table-index.html index="COMBAT600" %}
+{% include table-index.html table="state" index="500" %}
 
 ### Point-Blank
 You are at Point-Blank range is your are within 5 feet of your target. While at Point-Blank range, you have one degree of Advantage and you can be counterattacked and can counterattack.

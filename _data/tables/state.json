@@ -1,7 +1,7 @@
 [
     {
         "title": "Man Vs. Nature State",
-        "index": "STATE12",
+        "index": "200",
         "table": {
             "type": "table",
             "colLabels": [
@@ -114,7 +114,7 @@
     },
     {
         "title": "Man Vs. Man State",
-        "index": "STATE11",
+        "index": "100",
         "table": {
             "type": "table",
             "colLabels": [
@@ -201,7 +201,7 @@
     },
     {
         "title": "Man Vs. Self State",
-        "index": "STATE10",
+        "index": "300",
         "table": {
             "type": "table",
             "colLabels": [
@@ -391,7 +391,7 @@
     },
     {
         "title": "Hand-to-Hand Modifiers",
-        "index": "COMBAT500",
+        "index": "400",
         "table": {
             "type": "table",
             "colLabels": [
@@ -430,13 +430,13 @@
                             "You suffer D2 to hand-to-hand Offensive Rolls vs opponent one-tenth your size."
                         ]
                     }
-                ],
+                ]
             ]
         }
     },
     {
         "title": "Ranged Modifiers",
-        "index": "COMBAT600",
+        "index": "500",
         "table": {
             "type": "table",
             "colLabels": [
@@ -530,7 +530,7 @@
     },
     {
         "title": "Falling",
-        "index": "STATE30",
+        "index": "600",
         "table": {
             "type": "table",
             "colLabels": [

@@ -5,4 +5,4 @@ When you declare this Intention, you gather an amount mana from the environment,
 Innate mana is very limited in its use due to its raw nature. You are completely unable to accumulate or store it, each round you only have access to what your MA and the environment allow. Even if the amount of innate mana is enough to cast two different spells, only one can be cast. Innate mana cannot be absorbed into your Pool or a Mana Battery — that is what your Mana Recovery is for. You are able to maintain an innate spell, but while doing so you cannot cast another innate spell since the innate mana is already being used.
 
 
-{% include table-index.html index="MAGIC40" %}
+{% include table-index.html table="magic" index="110" %}

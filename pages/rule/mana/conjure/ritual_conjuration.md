@@ -10,7 +10,7 @@ The ritual is composed of two parts. First there is the totem which is a collect
 ## Totem 
 A totem is a complex object that represents knowledge embedded into its essence. When a totem is created, it is keyed to certain aspects of a creature and to a certain level. These aspects and the bonus they grant is outlined in the table below. This list is not exhaustive so the Game Master should feel free to expand it.
 
-{% include table-index.html index="MAGIC71" %}
+{% include table-index.html table="magic" index="500" %}
 
 The shape of a totem is determined during creation. Common shapes you might find include keys, playing cards, dice, or books. While this embedded knowledge does not increase the presence of the object, many conjurers will protect their totems with powerful magic.
 
@@ -26,7 +26,7 @@ Once you obtain a new totem, be that through crafting or finding, you must attun
 
 The amount of time you spend on a conjuring ritual will increase your chance of proper synchronization. The table below describes the bonus or penalty gained based on how long you have performed the ritual. 
 
-{% include table-index.html index="MAGIC70" %}
+{% include table-index.html table="magic" index="400" %}
 
 As described in the Conjuring Intention, conjuring is a completely consuming action but it can be paused for a short time during combat. You can only perform the ritual for 12 hours each day, the remaining time can be spent however you please. 
 
