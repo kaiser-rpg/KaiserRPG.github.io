@@ -50,7 +50,7 @@ As a Swift Action you can spend Stamina to give yourself one of the below benefi
 
 **Increase Speed**: By spending 1 Stamina, you can make an Athletics Check to increase your Movement Value for 1 round. This can be done after taking the any of the Movement Actions, the extra movement is just added to how much movement you have left. 
 
-{% include table-index.html table="skill" index="100" }
+{% include table-index.html table="skill" index="100" %}
 
 **Increase Action**: By spending 1 Stamina, you gain 1 AP. If you are Flat-footed, you are no longer since you have gained more AP but you do not regain unspent movement. This option can only be taken once per round.
 
