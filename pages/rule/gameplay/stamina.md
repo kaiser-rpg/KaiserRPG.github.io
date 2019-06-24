@@ -50,9 +50,9 @@ As a Swift Action you can spend Stamina to give yourself one of the below benefi
 
 **Increase Speed**: By spending 1 Stamina, you can make an Athletics Check to increase your Movement Value for 1 round. This can be done after taking the any of the Movement Actions, the extra movement is just added to how much movement you have left. 
 
-{include table-index.html index="STA50" }
+{% include table-index.html table="skill" index="100" }
 
-**Increase Action**: By spending 1 Stamina, you gain 1 AP. If you are Flat-footed, you are no longer since you have gained more AP but you do not regain unspent movement. This optycan only be taken once per round.
+**Increase Action**: By spending 1 Stamina, you gain 1 AP. If you are Flat-footed, you are no longer since you have gained more AP but you do not regain unspent movement. This option can only be taken once per round.
 
 ### Second Wind
 In intense situations, where you have been nearly defeated, you can spend Stamina to gain a second wind. In order to use this, your Life Points must be less than half your maximum. As a swift action, you can spend 15 Stamina points to regain half of your maximum LP. 

@@ -35,11 +35,11 @@ In the same way you can have a great success by means of an Open Roll, the possi
 
 You now roll another 2d6 to determine the Fumble Level from the table below. The higher the fumble level, the worse the failure. Some powers might add or subtract from the Fumble Level.
 
-{% include table-index.html index = "GEN1" %}
+{% include table-index.html table="gameplay" index="100" %}
 
 When a power increases or decreases the chance of a Fumble, refer to the table below. If you are affected by more than one increase and or decrease, add all the changes together.
 
-{% include table-index.html index = "GEN111" %}
+{% include table-index.html table="gameplay" index="110" %}
 
 ### Mastery
 When you have a Final Skill Value of 20 or more, you have gained Mastery in that skill. As a result, it is much more difficult for you to make a mistake than it is for a normal person. Your Fumble Chance decreases by one when using that skill.

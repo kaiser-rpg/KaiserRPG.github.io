@@ -38,26 +38,31 @@ You lose 1 Stamina Point for every round of sprinting. You can increase the time
 
 You can increase your Movement Value based on the result of an Athletics Check. Compare your Final Skill Roll to the table below.
 
-{% include table-index.html index="STA50" %}
+{% include table-index.html table="skill" index="100" %}
 
 ### Swimming
 When you are in water, your Movement Value is modified by your result on a Swim Check. The Swim Check is modified by the state of the water. If your Movement Value is reduced to 0, you are unable to stay above the water.
 
-{% include table-index.html index="STA51" %}
+{% include table-index.html table="skill" index="110" %}
 
-{% include table-index.html index="STA511" %}
+{% include table-index.html table="skill" index="111" %}
 
 ### Jumping
 The distance you can jump is determined by your Movement Value. With a running start, requiring about 10 feet of clearance, you can jump a horizontal distance equal to a quarter of your Movement Distance (any distance travelled by jumping is removed from your remaining Movement Distance this round). The vertical distance or horizontal without a running start is an eighth of your Movement Distance (or half of your horizontal distance). You can increase your Movement Distance by making an Athletics or Acrobatics Check.
 
-{% include table-index.html index="STA52" %}
+{% include table-index.html table="skill" index="120" %}
 
 ### Climbing
 You use the Athletics Skill when you climb up or down any kind of surface. When you climb, your Movement Value is quartered, round down with a minimum of 1. For every 4 Degrees of Success you gain on the Athletics Check, your climbing Movement Value increases by 1 up to your original Movement Value.
 
 Using proper climbing gear gives you a +4 to the Athletics Check, you also add the Quality Bonus or Penalty.
 
+### Feats of Strength
+TODO
+
+{% include table-index.html table="skill" index="130" %}
+
 ### Riding
-If you are mounted during combat, you must have developed your Riding Skill to do so effectively. While mounted, you use the lower Final Skill Value of your Ride or Dodge Skill when defending with Dodge. A Final Ride Value of less than 4 means you suffer a -2 penalty to Strike and Block Checks. With 4 or more Final Ride Value, you gain the Higher Ground State over any opponent who is not also mounted.
+If you are mounted during combat, you must have developed your Riding Skill to do so effectively. While mounted, you use the lower Final Skill Value of your Ride or Dodge Skill when defending with Dodge. A Final Ride Value of less than 4 means you suffer a -2 penalty to Strike and Block Checks. With 8 or more Final Ride Value, you gain the Higher Ground State over any opponent who is not also mounted.
 
 Additionally, while mounted you can add the Strength Modifier of your mount when making a Charge Attack with a Pole class weapon. If you have a Final Ride Value of 8, you can add twice the mounts Strength Modifier.
