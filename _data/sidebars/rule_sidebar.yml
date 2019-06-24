@@ -107,6 +107,9 @@ entries:
     - title: Attacking and Defending
       url: /rule_combat_attack_defend.html
       output: web
+    - title: Breakage and Fortitude
+      url: /rule_combat_fortitude_breakage.html
+      output: web
     - title: Hand-to-Hand Combat
       url: /rule_combat_hand_to_hand.html
       output: web

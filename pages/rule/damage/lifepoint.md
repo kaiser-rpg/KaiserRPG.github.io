@@ -16,10 +16,10 @@ Once you are stable, you no longer lose 10 LP every hour but are still Unconscio
 Once your LP goes above 0, you regain consciousness –- although you gain the Pain(6) State.
 
 ## Death
-The most common way to die is by suffering enough damage that your body loses the will to continue. This occurs when your LP is at a negative value greater than half of your total LP. The other common way to die is when you suffer a sufficiently high-level Critical that causes your head to be amputated or your heart to fail. There are some other ways to die, like a spell causing immediate heart failure or a phenom causing brain damage. But those methods have their own rules.
+The most common way to die is by suffering enough damage that your body loses the will to continue. This occurs when your Life Points are at a negative value greater than half of your total. The other common way to die is when you suffer a sufficiently high-level Critical that causes your head to be amputated or your heart to fail. There are some other ways to die, like a spell causing immediate heart failure or a phenom causing brain damage. But those methods have their own rules.
 
 ### Called Away
-At the point of death, your spirit leaves your body. Your spirit will remain for a number of hours equal to your Willpower multiplied by your Presence. When that time expires, your soul disappears into the Beyond and can only return by reincarnation. While waiting for the Beyond, your spirit will either remain with the body or in the place where you died, decided by the Game Master. Beings with unfinished business or a significant connection to a material object may be able to stay at the discretion of the GM.
+At the point of death, your spirit leaves your body. Your spirit will remain for a number of hours equal to your Willpower multiplied by your Presence. When that time expires, your soul disappears into the Beyond and can only return by reincarnation. While waiting for the Beyond, your spirit will either remain with the body or in the place where you died, decided by the Game Master. Beings with unfinished business or a significant connection to a material object may be able to stay at the discretion of the Game Master.
 
 Your spirit is weak in this moment and cannot do anything but observe and communicate with those who can see spirits.
 

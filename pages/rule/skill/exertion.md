@@ -36,7 +36,7 @@ You lose 1 Stamina Point for every ten minutes of running. You can increase the 
 
 You lose 1 Stamina Point for every round of sprinting. You can increase the time by 1 round for every 4 points of Final Athletics Skill.
 
-You can increase your Movement Value based on the result of an Athletics Check. Compare your Final Skill Roll to the table below.
+You can spend 1 Stamina Point to increase your Movement Value based on the result of an Athletics Check. Compare your Final Skill Roll to the table below.
 
 {% include table-index.html table="skill" index="100" %}
 
@@ -48,17 +48,17 @@ When you are in water, your Movement Value is modified by your result on a Swim 
 {% include table-index.html table="skill" index="111" %}
 
 ### Jumping
-The distance you can jump is determined by your Movement Value. With a running start, requiring about 10 feet of clearance, you can jump a horizontal distance equal to a quarter of your Movement Distance (any distance travelled by jumping is removed from your remaining Movement Distance this round). The vertical distance or horizontal without a running start is an eighth of your Movement Distance (or half of your horizontal distance). You can increase your Movement Distance by making an Athletics or Acrobatics Check.
+The distance you can jump is determined by your Movement Value. With a running start, requiring about 10 feet of clearance, you can jump a horizontal distance equal to a quarter of your Dash Distance (any distance travelled by jumping is removed from your remaining Movement Distance this round). The vertical distance or horizontal distance without a running start is an eighth of your Dash Distance (or half of your horizontal distance). You can increase your Movement Value for the jump by making an Athletics or Acrobatics Check.
 
 {% include table-index.html table="skill" index="120" %}
 
 ### Climbing
 You use the Athletics Skill when you climb up or down any kind of surface. When you climb, your Movement Value is quartered, round down with a minimum of 1. For every 4 Degrees of Success you gain on the Athletics Check, your climbing Movement Value increases by 1 up to your original Movement Value.
 
-Using proper climbing gear gives you a +4 to the Athletics Check, you also add the Quality Bonus or Penalty.
+Using proper climbing gear gives you a +4 to the Athletics Check, you also add the Quality Bonus or Penalty of the gear.
 
 ### Feats of Strength
-TODO
+By using your strength efficiently, you can use it to greater effect. You can spend 1 Stamina Point to increase your Strength Characteristic based on the result of a Feats of Strength Check. Compare your Final Skill Roll to the table below. This bonus only applies to Strength Characteristic Checks and Breakage Checks. This explicitly does not increase your Strength Modifier or Base Damage.
 
 {% include table-index.html table="skill" index="130" %}
 

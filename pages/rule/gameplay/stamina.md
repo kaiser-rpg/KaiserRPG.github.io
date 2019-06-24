@@ -48,6 +48,10 @@ As a Swift Action you can spend Stamina to give yourself one of the below benefi
 
 **Boost Chakra**: By spending 1 Stamina, you immediately accumulate 2 ki points into any or all your chakras. You must have taken the accumulate ki Intention to use Stamina this way.
 
+**Increase Strength**: By spending 1 Stamina, you can make a Feats of Strength Check to increase your Strength Characteristic for one round. Compare your Final Skill Roll to the table below. This bonus only applies to Strength Characteristic Checks and Breakage Checks. This explicitly does not increase your Strength Modifier or Base Damage. This must be declared before you roll the dice for any Check.
+
+{% include table-index.html table="skill" index="130" %}
+
 **Increase Speed**: By spending 1 Stamina, you can make an Athletics Check to increase your Movement Value for 1 round. This can be done after taking the any of the Movement Actions, the extra movement is just added to how much movement you have left. 
 
 {% include table-index.html table="skill" index="100" %}
