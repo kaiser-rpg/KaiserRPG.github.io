@@ -1,4 +1,4 @@
 ---
 title: Introduction to States
-permalink: ref_state_intro.html
+permalink: rule_state_intro.html
 ---

@@ -1,6 +1,6 @@
 ---
 title: Man vs Self
-permalink: ref_state_self.html
+permalink: rule_state_self.html
 toc: false
 ---
 

@@ -88,6 +88,21 @@ entries:
     - title: Trait
       url: /rule_gameplay_trait.html
       output: web
+    - title: State
+      url: /rule_state_intro.html
+      output: web
+    - title: Man vs. Man
+      url: /rule_state_man.html
+      output: web
+    - title: Man vs. Nature
+      url: /rule_state_nature.html
+      output: web
+    - title: Man vs. Self
+      url: /rule_state_self.html
+      output: web
+    - title: Man vs. Society
+      url: /rule_state_society.html
+      output: web
 
   - title: Combat
     output: web
