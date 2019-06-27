@@ -1,6 +1,6 @@
 ---
 title: Man vs Man
-permalink: ref_state_man.html
+permalink: rule_state_man.html
 toc: false
 ---
 
@@ -9,18 +9,18 @@ toc: false
 ## Flanked
 You are considered to have the Flanked State over an opponent when you are positioned at their side and slightly behind them. Naturally, they can turn to face you if they are aware and can react fact enough.
 
-A normal sized human can keep three opponents in front of herself, but the fourth and fifth opponent will gain the Flanked State over you.
+A normal sized human can keep three opponents in front of zirself, but the fourth and fifth opponent will gain the Flanked State over zir.
 
 ## Blind-Side
 You considered to have the Blind-Side State over an opponent when you are positioned behind them or in a position they cannot normally see.
 
-A normal sized human can keep three opponents in front of herself; the fourth and fifth opponent will gain the Flanked State over her. The sixth opponent will gain the Blind-Side State over her.
+A normal sized human can keep three opponents in front of zirself; the fourth and fifth opponent will gain the Flanked State over zir. The sixth opponent will gain the Blind-Side State over zir.
 
 ## At Weapon's Point
 You gain the At Weapon's Point State over an opponent when you have put a weapon in a threatening position. After you have successfully performed the Put At Weapon's Point Maneuver, you gain the At Weapon's Point State over your target. You can use this to attack your opponent as a Swift Action. Once used this way, the state ends.
 
 ## Suspended
-You are considered to have the Suspended State over an opponent when they are held in the air without complete control over their movement.
+You are considered to have the Suspended State over an opponent when they are held in the air without complete control over their movement while you have control over your movement. Two creatures who are held in the air are equal.
 
 ## Flight
 You are considered to have the Flight State over an opponent when you have a Flight Speed that is 7 points higher theirs and have ample room to maneuver. 

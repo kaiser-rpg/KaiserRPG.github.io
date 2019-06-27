@@ -11,7 +11,7 @@ When your Stamina gets low, you will start to suffer the effects of exhaustion. 
 
 If the maximum Stamina points you have is less than or equal to an amount that gives an All Action penalty, you only suffer the penalties after spending any number of Stamina points.
 
-> Samwell has a maximum of 4 Stamina points. When he has all his Stamina Points, he does not suffer the -1 penalty to all his actions. But as soon as he loses one point, he gains the -2 All Action penalty since he only has 3 points remaining.
+{% include example.html content="Samwell has a maximum of 4 Stamina points. When he has all his Stamina Points, he does not suffer the -1 penalty to all his actions. But as soon as he loses one point, he gains the -2 All Action penalty since he only has 3 points remaining." %}
 
 When you have no Stamina remaining, each round you must a Composure Check equal to the number of rounds you have had zero Stamina. Failure means you fall unconscious. If an affect causes you to lose another point of Stamina while you have none, you are knocked unconscious. 
 

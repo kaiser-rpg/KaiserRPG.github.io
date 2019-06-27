@@ -1,6 +1,6 @@
 ---
 title: Man vs Nature
-permalink: ref_state_nature.html
+permalink: rule_state_nature.html
 toc: false
 ---
 
