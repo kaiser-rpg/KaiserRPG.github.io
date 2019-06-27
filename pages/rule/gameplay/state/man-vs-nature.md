@@ -7,24 +7,16 @@ toc: false
 {% include table-index.html table="state" index="200" %}
 
 ## Falling
-You are considered to have the Falling State when you cannot stop your rapid decent towards a surface. The greater the height you fell, the greater the damage you take upon impact with a surface.
+You are considered to have the Falling State when you cannot stop your rapid decent towards a surface. The greater the distance, the greater the damage you take upon impact with a surface. Falling uses the Severity Level from the _Impact_ maneuver. When you land after falling, compare the distance you fell and what you collide with to the Severity table. Take the Severity level in between the distance and collision to determine Final Damage; the Game Master can chose a value in the listed range. The Final Damage can be halved, round down, if the you make an Athletics or Acrobatics Check with a Very Difficult (20) Degree of Difficulty; the you can add their Impact AV to this check. For every 4 Degrees of Success, the damage is halved again.
 
-You can reduce the damage from landing by making an Acrobatics Skill Check against a difficulty determined by the distance you have fallen. If you are successful, you take no damage. If you fail, use the Degree of Failure like the Degree of Success on an attack. You apply your Absorption and Impact AV to calculate the Units of Damage. Since larger creatures take greater damage due to their large mass, the Final Damage is equal to the Units of Damage multiplied by the Base Damage as well as your Size Damage Modifier.
+{% include table-index.html table="maneuver" index="301" %}
 
-{% include table-index.html table="state" index="600" %}
-
-{% include meta.html content="The above table figures for standard earth gravity and terminal velocity occurring after 1,500 feet."%}
-
-### Distance Fallen Each Round
-
-A standard human on a standard planet will fall 500 feet the first round and then each round that follows, they will fall 1000 feet. 
+{% include meta.html content="The above table figures for standard earth gravity and terminal velocity occurring after 1,500 feet. A standard human on a standard planet will fall 500 feet the first round and then each round that follows, they will fall 1000 feet. Once ze reach terminal velocity, ze will not have any additional energy from falling so the Severity Level from falling cannot be greater than Level 4."%}
 
 ## Lack of Air
-You are considered to have the Lack of Air State when you cannot take in fresh air. If you were unprepared for the lack of air, each End Phase you must make a Difficulty Characteristic Check of 10 with your Constitution. Failure means you have run out of air and are at risk of falling unconscious. If you were prepared, the initial Characteristic Check is 5. Each time you pass the check, the difficulty increases by one. Additionally, some situations might cause you to lose your breath.
+You are considered to have the Lack of Air State when you cannot take in fresh air. If you were unprepared for the lack of air you can continue without issue for a number of rounds equal to your Constitution Characteristic. If you were prepared, you instead can last a number of minutes equal to your Constitution Characteristic. Each End Phase after you run out of air, you must make a Constitution Check of 5. Failure means your body needs fresh air and you are at risk of falling unconscious. Each time you pass the check, the difficulty increases by one. Additionally, some situations might cause you to lose your breath.
 
-Once you run out of air, you need to make a Physical Resistance Check each round to stay conscious. The difficulty starts at 8 and increases by 1 point with every success. Every round you are without air, you also gain a -1 All Action Penalty.
-
-If the All Action Penalty ever increases to twice your Constitution Characteristic, you die due to asphyxiation.
+Once you run out of air, you need to make a Physical Resistance Check each round to stay conscious. The difficulty starts at 8 and increases by 1 point with every success. Every round you are without air, you also gain one degree of Pain. If the Pain State from Lack of Air ever increases to twice your Constitution Characteristic, you die due to asphyxiation. 
 
 ## Sleep
 You are considered to have the Sleep State while you are asleep. You suffer a `-10` penalty on all Perception based Skill and Characteristic Checks, do not roll Initiative, and cannot take any actions. You can be shaken awake quickly as an Active Action costing 2 AP, you can then roll Initiative next round. Something injuring you or making a loud sound will cause you to wake up and roll Initiative with a a `-4` penalty next round.
