@@ -72,3 +72,6 @@ If this trait is on a power, you instead make the sweeping attack maneuver as pa
 
 ### Charging
 The charging trait means that the object is designed to be effective when used to attack a while charging on a mounted creatuire. You add four times the mount's Strength Modifier to the Base Damage of an attack made as part of a charge.
+
+### Double
+The double trait means that the weapon is capable of attacking with both ends. When you take the _Attack Intention_, you can declare that you will use both ends of the weapon to attack. This allows you to use the other end as part of the _Offhand Attack_ action. If you choose to not declare both ends, the weapon and it's attacks are otherwise unchanged.
