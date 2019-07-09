@@ -1,6 +1,0 @@
-[{"name":"name","presence":1,"damage":1,"primeDamage":["cut"],"secondDamage":[],"breakage":0,"fortitude":10,"ap":1,"init":-1,"size":"small","range":{"type":"thrown|fired","rot":"8","reload":"1","maxRange":"80"},"strReq":[],"special":["complex"],"description":["something"]}]            "complex"
-        ],
-        "description": [
-            "something"
-        ]
-    }]

@@ -5,27 +5,26 @@
         </tr>
     </thead>
     <tbody>
-        {% if include.weapon.description.size > 0 %}
+        {% if include.weapon.group %}
         <tr class="weaponRow">
-            <td colspan="2">
-                {% include entry.html entries=include.weapon.description %}
+            <td colspan="2" class="col-12">
+                <span class='entry-inline-title'>{{include.weapon.group  | sort | join: ", "}}</span>
+                {% if include.weapon.weaponClass %}: {{include.weapon.weaponClass | sort | join: ", "}}{% endif %}
             </td>
         </tr>
         {% endif %}
         <tr class="weaponRow">
-            <td>
+            <td class="col-6">
                 <span class='entry-inline-title'>Weapon Damage</span>: {{include.weapon.damage}}
             </td>
-            <td>
+            <td class="col-6">
                 <span class='entry-inline-title'>Presence</span>: {{include.weapon.presence}}
             </td>
         </tr>
         <tr class="weaponRow">
-            <td>
-                <span class='entry-inline-title'>Primary Damage</span>: {{include.weapon.primeDamage}}
-            </td>
-            <td>
-                <span class='entry-inline-title'>Secondary Damage</span>: {{include.weapon.secondDamage}}
+            <td colspan="2">
+                <span class='entry-inline-title'>Damage Type</span>:
+                {{include.weapon.primeDamage}}{% if include.weapon.secondDamage %} - {{include.weapon.secondDamage | sort | join: ", "}}{% endif %}
             </td>
         </tr>
         <tr class="weaponRow">
@@ -38,27 +37,50 @@
         </tr>
         <tr class="weaponRow">
             <td>
-                <span class='entry-inline-title'>AP</span>: {{include.weapon.ap}}
+                <span class='entry-inline-title'>Weapon Cost</span>: {{include.weapon.ap}}
             </td>
             <td>
-                <span class='entry-inline-title'>Initiative</span>: {{include.weapon.init}}
+                <span class='entry-inline-title'>Init. Penalty</span>: {{include.weapon.initPen}}
             </td>
         </tr>
         <tr class="weaponRow">
             <td>
-                <span class='entry-inline-title'>Size</span>: {{include.weapon.size}}
+                <span class='entry-inline-title'>Size</span>: {{include.weapon.weaponSize}}
             </td>
             <td>
-                <span class='entry-inline-title'>Req. Strength</span>: {{include.weapon.reqStr}}
+                <span class='entry-inline-title'>Req. Strength</span>: {{include.weapon.primeStr}}{% if include.weapon.secondStr %} / {{include.weapon.secondStr}}{% endif %}
             </td>
         </tr>
-        {% if include.weapon.special.size > 0 %}
+
+        {% if include.weapon.rangeType == "thrown" or include.weapon.rangeType == "fired" %}
         <tr class="weaponRow">
-            <td colspan="2">
-                <span class='entry-inline-title'>Special</span>: {{include.weapon.special | join: ", "}}
+            <td>
+                <span class='entry-inline-title'>{{include.weapon.rangeType | capitalize}}</span>: {{include.weapon.range}} ft.
+            </td>
+            <td>
+                {% if include.weapon.rot %}
+                    <span class='entry-inline-title'>Rate of Throwing</span>: {{include.weapon.rot}}
+                {% else %}
+                    <span class='entry-inline-title'>Reload</span>: {{include.weapon.reload}}{% if include.weapon.clip %} / clip {{include.weapon.clip}}{% endif %}
+                {% endif %}
             </td>
         </tr>
         {% endif %}
-        
+
+        {% if include.weapon.special.size > 0 %}
+        <tr class="weaponRow">
+            <td colspan="2">
+                <span class='entry-inline-title'>Special</span>: {{include.weapon.special | sort | join: ", "}}
+            </td>
+        </tr>
+        {% endif %}
+
+        {% if include.weapon.description.size > 0 %}
+        <tr class="weaponRow">
+            <td colspan="2">
+                {% include entry.html entries=include.weapon.description %}
+            </td>
+        </tr>
+        {% endif %}
     </tbody>
 </table>

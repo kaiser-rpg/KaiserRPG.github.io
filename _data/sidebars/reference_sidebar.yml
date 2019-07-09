@@ -13,6 +13,49 @@ entries:
       url: /ref_item_intro.html
       output: web
 
+  - title: Weapons
+    output: web
+    folderitems:
+    - title: Introduction
+      url: /ref_weapon_intro.html
+      output: web
+    - title: Ammo
+      url: /ref_weapon_ammo.html
+      output: web
+    - title: Axes
+      url: /ref_weapon_axe.html
+      output: web
+    - title: Cords
+      url: /ref_weapon_cord.html
+      output: web
+    - title: Fired
+      url: /ref_weapon_fired.html
+      output: web
+    - title: Improvised and Unarmed
+      url: /ref_weapon_improvised.html
+      output: web
+    - title: Maces
+      url: /ref_weapon_mace.html
+      output: web
+    - title: Poles
+      url: /ref_weapon_pole.html
+      output: web
+    - title: Shields
+      url: /ref_weapon_shield.html
+      output: web
+    - title: Short Arms
+      url: /ref_weapon_short_arm.html
+      output: web
+    - title: Swords
+      url: /ref_weapon_sword.html
+      output: web
+    - title: Thrown
+      url: /ref_weapon_thrown.html
+      output: web
+    - title: Two-handed
+      url: /ref_weapon_two_handed.html
+      output: web
+
   - title: Creatures
     output: web
     folderitems:

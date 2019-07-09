@@ -665,6 +665,10 @@ h5 {
     font-weight: bold;
 }
 
+table.weaponTable {
+    width: 100%;
+}
+
 table.weaponTable>tbody>tr, table.weaponTable>thead>tr {
     background-color: #6bc7f4;
 }
