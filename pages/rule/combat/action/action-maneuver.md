@@ -25,6 +25,8 @@ Some powers also let you perform these maneuvers. A power will list what maneuve
 
 {% include action/maneuver/disarm.md %}
 
+{% include action/maneuver/impact.md %}
+
 {% include action/maneuver/trap.md %}
 
 {% include action/maneuver/sweeping.md %}

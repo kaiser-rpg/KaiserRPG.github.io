@@ -1,7 +1,7 @@
 ### Impact
 **Attack**: 1 AP
 
-When you use this maneuver, you attempt to use your strength to push your opponent a distance. You make an Offensive Roll with no penalty if using a weapon that deals Impact Damage or has the impact trait. The _Impact_ maneuver does not directly cause the defender to take any damage.
+When you use this maneuver, you attempt to use your strength to push your opponent a distance. You must use a weapon that deals Impact Damage or an object with the Impact trait. You make an Offensive Roll with no penalty. The _Impact_ maneuver does not directly cause the defender to take any damage.
 
 If you gain 1 or more Degrees of Success on the Opposed Skill Check, then you and the defender perform an Opposed Characteristic Check. If you gained less than 10 DoS on the Opposed Skill Check, you suffer a -6 penalty to the Opposed Characteristic Check as your impact just glances them. If you gained 10 or more DoS, you suffer a -3 penalty to the Opposed Characteristic Check as you hit them squarely. With 20 or more DoS, you gain a +0 bonus to the Opposed Characteristic Check, as you score a direct hit on them.
 
