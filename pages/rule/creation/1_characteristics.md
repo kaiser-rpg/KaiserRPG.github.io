@@ -6,7 +6,7 @@ permalink: rule_creation_1_characteristics.html
 The starting point in creating your character is determining your Characteristics. Just as no two people are exactly alike, each character in the game has different Characteristics that represent the diversity of people who inhabit the world. 
 
 ### Characteristics
-Kaiser has eight different Characteristics: Strength, Constitution, Dexterity, Agility, Perception, Intelligence, Focus and Willpower. The first four deal with your physical abilities, while the last three represent your mental and spiritual capabilities. Perception is a mixed attribute, influenced by your physical and mental abilities. Each Characteristic must have a number. This number defines your natural quality for tasks related to that Characteristic.
+Kaiser has eight different Characteristics: Strength, Constitution, Dexterity, Agility, Perception, Intelligence, Focus and Willpower. The first four deal with your physical abilities, while the last three represent your mental and spiritual capabilities. Perception is a mixed attribute, influenced by your physical and mental abilities. Each Characteristic must have a number. This number defines your natural quality for tasks related to that Characteristic. A value of 5 is average for a human and anything above 10 is considered inhuman -- and requires special powers to fully take advantage of.
 
 #### Strength (STR)
 Strength defines your physical ability to hit hard and lift heavy objects.
@@ -33,7 +33,7 @@ Focus is your ability to control external forces with your spirit.
 Willpower is a measure of your concentration and your control over internal forces.
 
 ### Modifier
-Each Characteristic also has a derived value called its Modifier. The Modifier is the number that is added to find a Skill or Resistance's Final Value. To find the number, refer to the following table.
+Each Characteristic also has a derived value called its Modifier. The Modifier is the number that is added to find a Skill or Resistance's Final Value. To find the number, refer to the following table. A Characteristic Value above 10 has the same Modifier as 10 unless you have the Inhuman power. Above 13 requires Zen, above 20 requires Legendary, and above 24 requires Divine. A Characteristic cannot exceed 30.
 
 {% include table-index.html table="gameplay" index="200" %}
 
@@ -49,7 +49,7 @@ You have the following arrays, each one can be assigned to a single Characterist
 {% include meta.html content="The values found in this method are created by spending 60 points in the following method. The GM can create other arrays if they desire." %}
 
 #### Method 2: Point Buy
-You have 60 points to spend to gain a certain Characteristic Value. Each Characteristic must have at least a three and can be no greater than 10 by using this method. 
+You have 60 points to spend to gain a certain Characteristic Value. Each Characteristic must have at least a 3 and can be no greater than 10 by using this method. 
 
 {% include table-index.html table="gameplay" index="600" %}
 
