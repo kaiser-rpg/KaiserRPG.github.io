@@ -9,41 +9,51 @@
         "something"
     ],
     "baseWeapon": "none",
-    "weapon": [{
-        "name": "name",
-        "presence": 1,
-        "damage": 1,
-        "primeDamage": ["cut"],
-        "secondDamage": [],
-        "breakage": 0,
-        "fortitude": 10,
-        "ap": 1,
-        "init": -1,
-        "size": "small",
-        "special": [
-            "complex"
-        ],
-        "description": [
-            "something"
-        ]
-    }],
-    "features":[
+    "weapon": [
         {
-            "name":"first feature",
+            "name": "Rabbit: Battle Greaves",
+            "damage": 5,
+            "initPen": 2,
+            "ap": 2,
+            "primeStr": 7,
+            "secondStr": 9,
+            "primeDamage": "Cut",
+            "secondDamage": [
+                "Impact"
+            ],
+            "weaponClass": [
+                "Sword",
+                "Two-handed"
+            ],
+            "special": [
+                "Versatile"
+            ],
+            "fortitude": 15,
+            "breakage": 5,
+            "presence": 3,
+            "weaponSize": "Medium",
+            "group": [
+                "Art"
+            ]
+        }
+    ],
+    "features": [
+        {
+            "name": "first feature",
             "type": "entries",
-            "entries":[
+            "entries": [
                 "something"
             ]
         },
         {
-            "name":"second feature",
+            "name": "second feature",
             "type": "entries",
-            "entries":[
+            "entries": [
                 "something"
             ]
         }
     ],
-    "extra":[
+    "extra": [
         "something"
     ]
 }
