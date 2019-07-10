@@ -1,11 +1,11 @@
 {% assign sortSpells = include.spells | sort:"level" %}
 {% for spell in sortSpells %}
 {% if spell.type == "slot" %}
-{% include spell-slot.html spell=spell %}
+{% include power/spell-slot.html spell=spell %}
 {% elsif spell.type == "general" or spell.type == "sub" %}
-{% include spell-sub.html spell=spell %}
+{% include power/spell-sub.html spell=spell %}
 {% else %}
-{% include spell.html spell=spell %}
+{% include power/spell.html spell=spell %}
 {% endif %}
 {% if forloop.last != true %}
 <hr style="margin-top: 10px;">

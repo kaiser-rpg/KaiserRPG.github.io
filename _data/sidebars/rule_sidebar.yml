@@ -15,14 +15,14 @@ entries:
     - title: 1. Generate Characteristics
       url: /rule_creation_1_characteristics.html
       output: web
-    - title: 2. Choose your Race
-      url: /rule_creation_2_race.html
+    - title: 2. Choose your Heritage
+      url: /rule_creation_2_heritage.html
       output: web
     - title: 3. Choose your Class
       url: /rule_creation_3_class.html
       output: web
-    - title: 4. Buy Traits
-      url: /rule_creation_4_trait.html
+    - title: 4. Buy Features
+      url: /rule_creation_4_features.html
       output: web
     - title: 5. Spend Experience Points
       url: /rule_creation_5_xp.html

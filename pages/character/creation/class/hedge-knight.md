@@ -4,4 +4,4 @@ permalink: class_hedge_knight.html
 class: hedge-knight
 ---
 
-{% include class.html class=page.class %}
+{% include character/class.html class=page.class %}

@@ -4,4 +4,4 @@ permalink: class_phenomenal_wizard.html
 class: phenomenal-wizard
 ---
 
-{% include class.html class=page.class %}
+{% include character/class.html class=page.class %}

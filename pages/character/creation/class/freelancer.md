@@ -4,4 +4,4 @@ permalink: class_freelancer.html
 class: freelancer
 ---
 
-{% include class.html class=page.class %}
+{% include character/class.html class=page.class %}

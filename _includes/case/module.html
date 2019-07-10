@@ -1,0 +1,12 @@
+<h3>{{include.module.name}}</h3>
+<div>
+    {% include entry.html entries=include.module.effect %}
+</div>
+{% if include.module.requirements %}
+<div>
+    <span class='entry-inline-title'>Requirements</span>: {% include entry.html entries=include.module.requirements %}
+</div>
+{% endif %}
+<div>
+    <span class='entry-inline-title'>Cost</span>: {{include.module.cost}}
+</div>

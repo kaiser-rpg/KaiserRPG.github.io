@@ -1,0 +1,250 @@
+[
+    {
+        "name": "Sweeping Expert",
+        "effect":[
+            "You can perform the _Sweeping Attack_ maneuver for 0 AP and the penalty is halved, round down."
+        ],
+        "cost": 4
+    },
+    {
+        "name": "Flowing Draw",
+        "effect":[
+            "You do not suffer the Unsheathed State for weapons you wield in one hand."
+        ],
+        "cost": 3
+    },
+    {
+        "name": "Sheathed Sword",
+        "effect":[
+            "You can fight with a Sword class weapon without needing to unsheathe it. You must declare this during the Intention Phase and the weapon's Primary Damage Type becomes Impact, it loses its Secondary Damage Type, and the Weapon Damage is reduced by 1."
+        ],
+        "requirements":[
+            "Flowing Draw"
+        ],
+        "cost": 2
+    },
+    {
+        "name": "Point Expert",
+        "effect":[
+            "You can perform the _Put at Weapon's Point_ maneuver for 0 AP and the penalty is halved, round down."
+        ],
+        "cost": 4
+    },
+    {
+        "name": "Disarming Expert",
+        "effect":[
+            "You can perform the _Disarm_ maneuver for 0 AP and the penalty is halved, round down."
+        ],
+        "cost": 4
+    },
+    {
+        "name": "Graceful Parry",
+        "effect":[
+            "You can add your Dexterity Characteristic to the Fortitude of a weapon you use to Block. Additionally, you ignore the penalty from blocking with a poor quality weapon."
+        ],
+        "cost": 3
+    },
+    {
+        "name": "Armor Penetration",
+        "effect":[
+            "You ignore one Physical AV when attacking with a weapon. This stacks with any other armor penetration from powers.",
+            "For every 4 points you have in your Final Strike Skill, you can buy this module again."
+        ],
+        "cost": 4
+    },
+    {
+        "name": "Blind Fighting Expert",
+        "effect":[
+            "You reduce the Offensive and Defensive penalties for the Partially Blind and Totally Blind states by half, round down."
+        ],
+        "requirements":[
+            "Perception 6"
+        ],
+        "cost": 4
+    },
+    {
+        "name": "Mobile Shot",
+        "effect":[
+            "You suffer no Disadvantage from the Moving Shot situation."
+        ],
+        "requirements":[
+            "Perception 6"
+        ],
+        "cost": 4
+    },
+    {
+        "name": "Tracking Shot",
+        "effect":[
+            "You suffer no Disadvantage from the Moving Target situation."
+        ],
+        "requirements":[
+            "Perception 6"
+        ],
+        "cost": 4
+    },
+    {
+        "name": "Multiple Target Expert",
+        "effect":[
+            "You suffer no penalty from the Changing Target situation."
+        ],
+        "requirements":[
+            "Perception 6"
+        ],
+        "cost": 4
+    },
+    {
+        "name": "Block Projectiles",
+        "effect":[
+            "You can use large weapons that you are trained with to defend against projectiles as if you had a shield. You do not gain any bonus to Block."
+        ],
+        "cost": 4
+    },
+    {
+        "name": "Additional Attack",
+        "effect":[
+            "You can perform an additional _Attack Action+ each round, as if you had 10 more points in Strike.",
+            "For every 4 points you have in your Final Strike Skill, you can buy this module again."
+        ],
+        "cost": 4
+    },
+    {
+        "name": "Missile Expert",
+        "effect":[
+            "You can perform the _Multiple Missile_ maneuver for 0 AP and with no penalty."
+        ],
+        "cost": 2
+    },
+    {
+        "name": "Offhand Defense",
+        "effect":[
+            "You gain a new action called Offhand Defense.",
+            {
+                "name": "Offhand Defense",
+                "type": "entries",
+                "entries": [
+                    "**Swift**: 0 AP",
+                    "This action can only be taken if you are wielding a readied weapon in your offhand and main hand. When you take this action, you perform a Defensive Roll using your offhand weapon. The Defensive Roll is made with your Block Skill but suffers a `-4` penalty. If you have the Ambidextrous feature, you suffer a `-1` penalty instead.",
+                    "This action consumes the use of your offhand weapon. So you cannot perform this action if you have already used _Offhand Attack_ and vice versa.",
+                    "This special action does not count toward the multiple defense penalty."
+                ]
+            }
+        ],
+        "cost": 3
+    },
+    {
+        "name": "Critical Expert",
+        "effect":[
+            "When an attack you perform causes a Critical, the target's Critical Level increases by one. This increase stacks with any other power that also increases the Critical Level.",
+            "For every 4 points you have in your Final Strike Skill, you can buy this module again."
+        ],
+        "cost": 2
+    },
+    {
+        "name": "Unusual Attacks",
+        "effect":[
+            "You can perform the _Secondary Damage Type_ maneuver with no penalty."
+        ],
+        "cost": 1
+    },
+    {
+        "name": "Unusual Traps",
+        "effect":[
+            "You can perform the _Trap_ maneuver with a weapon that does not possess the Trapping trait with a -6 penalty to the Offensive Roll. The Opposed Characteristic Check must use Dexterity and has a -3 penalty."
+        ],
+        "cost": 1
+    },
+    {
+        "name": "Bodyguard Expert",
+        "effect":[
+            "You can perform the _Defend Another_ reaction without suffer any Disadvantage."
+        ],
+        "cost": 3
+    },
+    {
+        "name": "Confined Combat Expert",
+        "effect":[
+            "You reduce the Offensive and Defensive Disadvantage from the Narrow Space state by half, round down."
+        ],
+        "cost": 3
+    },
+    {
+        "name": "Shielded Dodge",
+        "effect":[
+            "You can add the full Block bonus from a shield to your Dodge."
+        ],
+        "cost": 3
+    },
+    {
+        "name": "Firm Grip",
+        "effect":[
+            "When defending against being _Disarmed_, you gain a +3 bonus to the Opposed Characteristic Check."
+        ],
+        "cost": 1
+    },
+    {
+        "name": "Stylish Feint",
+        "effect":[
+            "You can use Style instead of Sleight of Hand when performing the _Feint_ maneuver."
+        ],
+        "cost": 4
+    },
+    {
+        "name": "Sundering Attack",
+        "effect":[
+            "Any hand-to-hand weapon you use gains a bonus to Breakage equal to half your Strength Characteristic, round down."
+        ],
+        "cost": 3
+    },
+    {
+        "name": "Insightful Defense",
+        "effect":[
+            "You can use Insight, instead of Notice, to defend against the _Feint_ maneuver."
+        ],
+        "cost": 3
+    },
+    {
+        "name": "Predict Movement",
+        "effect":[
+            "You can gain a `+5` to defend against the _Gain the Upper Hand_ and _Feint_ maneuvers. You also gain a `+2` each time the opponent uses the maneuver again, instead of a `+1`."
+        ],
+        "cost": 3
+    },
+    {
+        "name": "Finesse Weapon",
+        "effect":[
+            "You can add your Dexterity Modifier instead of Strength to a hand-to-hand weapons Base Damage. Two-handed and Versatile weapons only add your Dexterity Modifier once."
+        ],
+        "cost": 4
+    },
+    {
+        "name": "Double Strike",
+        "effect":[
+            "You gain a new maneuver called Double Strike.",
+            {
+                "name": "Double Strike",
+                "type": "entries",
+                "entries": [
+                    "**Attack**: 0 AP",
+                    "This action can only be taken if you are wielding a readied weapon in your offhand and main hand. When you use this maneuver, you make a single strike with both weapons. The Weapon Damage of both weapons is added to the Base Damage but your Strength Modifier is only added once.",
+                    "This action consumes the use of your offhand weapon. So you cannot perform this action if you have already used _Offhand Attack_ and vice versa."
+                ]
+            }
+        ],
+        "cost": 3
+    },
+    {
+        "name": "Reload Expert",
+        "effect":[
+            "When you take this module, choose either crossbow, firearm, or siege. The Reload value for all weapons that belong to that group is reduced by one.",
+            "You can take this module multiple times."
+        ],
+        "cost": 3
+    },
+    {
+        "name": "Shielded Mount",
+        "effect":[
+            "You can apply your Block bonus from a Shield you have readied to your mounts Defensive Rolls. If the mount uses the Rex Damage Role, you instead increase their Absorption by the Block bonus."
+        ],
+        "cost": 1
+    }
+]

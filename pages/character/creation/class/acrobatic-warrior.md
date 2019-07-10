@@ -4,4 +4,4 @@ permalink: class_acrobatic_warrior.html
 class: acrobatic-warrior
 ---
 
-{% include class.html class=page.class %}
+{% include character/class.html class=page.class %}

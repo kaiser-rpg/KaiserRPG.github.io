@@ -4,4 +4,4 @@ permalink: class_spirit_master.html
 class: spirit-master
 ---
 
-{% include class.html class=page.class %}
+{% include character/class.html class=page.class %}

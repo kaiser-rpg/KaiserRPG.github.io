@@ -4,4 +4,4 @@ permalink: class_ranger.html
 class: ranger
 ---
 
-{% include class.html class=page.class %}
+{% include character/class.html class=page.class %}

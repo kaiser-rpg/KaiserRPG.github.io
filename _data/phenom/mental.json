@@ -9,7 +9,7 @@
 		"projection": "None",
 		"description": {
 			"entries": [
-				"This phenom detects any active mind in the area listed. You can tell the difference between simple and complex minds – like animals and humans – however it cannot locate a specific mind. Resisting this phenom requires all targets to make a Mental Resistance Check against the listed Difficulty. Failing this check does not allow a target a new Resistance Check while they remain in the scanned area. This phenom does not use Psychic Projection since it automatically affects everyone within the area. A target can choose to fail if they recognize that they are a target."
+				"This phenom detects any active mind in the area listed. You can tell the difference between simple and complex minds – like animals and humans – however it cannot locate a specific mind. Resisting this phenom requires all targets to make a Mental Resistance Check against the listed Difficulty. Failing this check does not allow a target a new Resistance Check while they remain in the scanned area. This phenom does not use Phenom Projection since it automatically affects everyone within the area. A target can choose to fail if they recognize that they are a target."
 			]
 		},
 		"degree": {

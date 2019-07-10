@@ -1,0 +1,28 @@
+<div>
+    <h4>{{include.feature.name}}</h4>
+    {% if include.feature.flavor[0] %}
+        <div>
+            {% include entry.html entries=include.feature.flavor %}
+        </div>
+    {% endif %}
+
+    {% if include.feature.effects[0] %}
+        <div>
+            <b>Effects</b>: {% include entry.html entries=include.feature.effects %}
+        </div>
+    {% endif %}
+
+    {% if include.feature.limits[0] %}
+        <div>
+            <b>Limits</b>: {% include entry.html entries=include.feature.limits%}
+        </div>
+    {% endif %}
+
+    {% if include.feature.restrictions[0] %}
+        <div>
+            <b>Restrictions</b>: {% include entry.html entries=include.feature.restrictions %}
+        </div>
+    {% endif %}
+
+    <div><b>Costs</b>: {{include.feature.cost}}</div>
+</div>

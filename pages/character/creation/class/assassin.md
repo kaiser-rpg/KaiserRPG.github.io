@@ -4,4 +4,4 @@ permalink: class_assassin.html
 class: assassin
 ---
 
-{% include class.html class=page.class %}
+{% include character/class.html class=page.class %}

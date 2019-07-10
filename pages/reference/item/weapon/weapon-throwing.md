@@ -7,7 +7,7 @@ toc: false
 {% assign weaponList = site.data.items.weapons %}
 
 {% for weapon in weaponList %}
-{% if weapon.hide != true and weapon.weaponClass contains "Throwing" or weapon.special contains "Throwable" %}
-{% include weapon.html weapon=weapon %}
+{% if weapon.hide != true and weapon.group contains "Classic" and weapon.weaponClass contains "Throwing" or weapon.special contains "Throwable" %}
+{% include case/weapon.html weapon=weapon %}
 {% endif %}
 {% endfor %}

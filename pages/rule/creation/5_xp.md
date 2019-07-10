@@ -11,7 +11,7 @@ The rate at which XP can be used to increase certain skill or buy abilities is c
 At first level, you have 60 XP to spend. You do not have to spend all your XP, you can save some for later, but any not spent now will require downtime to spend.
 
 ### Spending Groups
-Development Costs are combined into discreet Groups and these Groups can also contain smaller Groups. This organization is used to help you track your purchases and the limits on them. The highest-level Groups in Kaiser are General, Primary, and Secondary. The General Group contains your Life Point Multiples and any other untyped XP purchase. The Primary Group is made up of three smaller Groups: Martial, Magic, Psychic. Expenses under these groups have limitations, discussed in the next section. Lastly, there is the Secondary Group which contains the following groups: Exertion, Social, Perceptive, Intellectual, Vigor, Subterfuge, and Creative. These groups contain all the Secondary Skills you can develop.
+Development Costs are combined into discreet Groups and these Groups can also contain smaller Groups. This organization is used to help you track your purchases and the limits on them. The highest-level Groups in Kaiser are General, Primary, and Secondary. The General Group contains your Life Point Multiples and any other untyped XP purchase. The Primary Group is made up of three smaller Groups: Martial, Magic, Manifest. Expenses under these groups have limitations, discussed in the next section. Lastly, there is the Secondary Group which contains the following groups: Exertion, Social, Perceptive, Intellectual, Vigor, Subterfuge, and Creative. These groups contain all the Secondary Skills you can develop.
 
 ### Spending Limits
 As mentioned above, the Primary Groups each have a percent limit on the amount of XP you can spend on them. This limit is determined by your class. For example, a Warrior has a 60% limit on the Martial Group and a 50% limit on the Magic Group. So at first level, the warrior can only spend 36XP (60% of his starting 60 XP) on abilities found in the Martial Group. Similarly, ze can only spend 30 XP (50% of his starting 60 XP) on abilities in the Magic Group. 
@@ -25,5 +25,5 @@ Lastly, you are unable to invest XP in both Block and Dodge. Instead, when you s
 
 {% include example.html content="For example, Ciel is spending XP on her Dodge Skill. She has spent enough XP to gain 10 points in Dodge and as a result, she is considered to have gained 4 points in Block as well. To Dodge she adds her +2 from Agility Modifier and a +1 from Innate Bonuses, giving her a Final Skill Value of 13. For Block, she adds her +1 from Dexterity Modifier but no Innate Bonus since her Class does not grant one. The Final Skill Value for Block ends up at 5 (4 points from XP and 1 point from Dexterity Modifier)." %}}
 
-### Limit on Magic and Psychic
-Magic and Psychic Projection have a similar limit as the Martial Group's Strike Skill. You cannot spend more than 20% of your total XP on each Projection Skill.
+### Limit on Magic and Manifest
+Spell and Phenom Projection have a similar limit as the Martial Group's Strike Skill. You cannot spend more than 20% of your total XP on each Projection Skill.

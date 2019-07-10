@@ -1,0 +1,7 @@
+{% assign weaponList = site.data.items.weapons | where_exp: "weapon", "weapon.name contains include.name" %}
+
+{% for weapon in weaponList %}
+{% if weapon.hide != true %}
+{% include case/weapon.html weapon=weapon %}
+{% endif %}
+{% endfor %}

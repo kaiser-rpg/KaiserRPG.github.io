@@ -11,6 +11,8 @@ Some powers also let you perform these maneuvers. A power will list what maneuve
 
 {% include action/maneuver/upper-hand.md %}
 
+{% include action/maneuver/feint.md %}
+
 {% include action/maneuver/missile.md %}
 
 {% include action/maneuver/directed-attack.md %}

@@ -1,4 +1,4 @@
-{% assign entries = include.entries %}
+
 {% assign entry = include.entry %}
 {% assign level = include.level %}
 {% assign nextLevel = include.level | plus: 1 %}
@@ -14,7 +14,7 @@
             {% elsif entry.type == "example" %}
                 {% include example.html content=entry.entries %}
             {% elsif entry.type == "entries" %}
-                <div>
+                <div style="outline-style: double;">
                     {% if entry.name %}
                         {% if level == 0 %}
                             <div class="entry-level-0-title">{{entry.name}}</div>
@@ -29,16 +29,16 @@
             {% endif %}
         {% else %}
             {% if include.useDiv > 0 %}
-                <div>{{entry}}</div>
+                <div markdown="span">{{entry}}</div>
             {% else %}
-                <p>{{entry}}</p>
+                <p markdown="span">{{entry}}</p>
             {% endif %}
         {% endif %}
-{% elsif entries[0] %}
-    {% for et in entries %}
+{% elsif include.entries[0] %}
+    {% for et in include.entries %}
         {% include entry.html entry=et level=include.level useDiv=include.useDiv %}
     {% endfor %}
 {% else %}
-    {{entries}}
+    {{include.entries}}
 {% endif %}
 

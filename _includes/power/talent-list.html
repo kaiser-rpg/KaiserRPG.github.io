@@ -1,6 +1,6 @@
 
 {% for talent in site.data.talent %}
 {% if talent.hide != true %}
-{% include talent.html talent=talent %}
+{% include power/talent.html talent=talent %}
 {% endif %}
 {% endfor %}

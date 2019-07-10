@@ -90,7 +90,7 @@ This is the cost to acquire one new Phenom Points.
 This is the cost to develop the ability to direct phenom. No more than 20% of your total XP can be invested in this skill.
 
 ### Phenom Points gained per level
-This indicates how many Phenom Points you receive per level. If you have access to a Psychic Disciplines, you begin the game with a single PP, and after gaining a certain number of levels, you receive another for free. If for example, you receive one additional PP for every 3 levels, you will acquire a second PP at 4th level.
+This indicates how many Phenom Points you receive per level. If you have access to a Manifest Disciplines, you begin the game with a single PP, and after gaining a certain number of levels, you receive another for free. If for example, you receive one additional PP for every 3 levels, you will acquire a second PP at 4th level.
 
 ## Innate Bonuses
 These are the special bonuses intrinsic to each class. You receive these bonuses upon choosing a class, and then you receive the same as a bonus each time you gain a level. The Innate Bonuses for Strike, Blocking, or Dodging can never exceed +5, but all others can increase without limit.

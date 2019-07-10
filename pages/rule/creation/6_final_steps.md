@@ -91,16 +91,16 @@ Magic skills encompass both spells and summoning.
 
 **Meta Magic**: These are modifications to your magic or your spells.
 
-#### Psychic Group
-Psychic abilities cover everything related to the area of phenomonon in reality, known as phenom, and their uses.
+#### Manifest Group
+Manifest abilities cover everything related to the area of phenomonon in reality, known as phenom, and their uses.
 
-**Psychic Projection Skill**: This represents your capacity to target creatures or objects with your phenom. This skill depends upon your Perception.
+**Phenom Projection Skill**: This represents your capacity to target creatures or objects with your phenom. This skill depends upon your Perception.
 
 **Phenom Points (PP)**: These represents points used to develop and utilize your psychic phenom.
 
 **Phenom Potential**: This is a special value that can only be increased by spending PP, as opposed to spending XP. It is based on your Willpower.
 
-**Psychic Modules**: This represents your capacity to utilize phenom in new or more efficient ways.
+**Manifest Modules**: This represents your capacity to utilize phenom in new or more efficient ways.
 
 ### Secondary Groups
 Naturally, you possess much more complexity than simply being able to fight or cast spells. These are known as Secondary Skills and each one is part of a Secondary Group and is linked to a specific Characteristic. For example, the Acrobatics Skill is in the Exertion Group and depends upon your Agility, while Sciences fall under the Intellectual Group and depend upon Intelligence. A complete list of Secondary Skills can be found [here](todo.html).

@@ -4,4 +4,4 @@ permalink: class_martial_artist.html
 class: martial-artist
 ---
 
-{% include class.html class=page.class %}
+{% include character/class.html class=page.class %}

@@ -4,4 +4,4 @@ permalink: class_thief.html
 class: thief
 ---
 
-{% include class.html class=page.class %}
+{% include character/class.html class=page.class %}

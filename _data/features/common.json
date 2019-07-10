@@ -6,7 +6,7 @@
                 "You are naturally talented with a single phenom. You remain unable to control other phenom no matter how much Potential you possess."
             ],
             "effects": [
-                "This trait allows you to spend PP on a single phenom without needing to have invested in the Discipline. Additionally, you can develop Psychic Projection and buy Psychic Points."
+                "This feature allows you to spend PP on a single phenom without needing to have invested in the Discipline. Additionally, you can develop Phenom Projection and buy Phenom Points."
             ],
             "restrictions": [
                 "This Character Feature can be taken multiple times, each time a different phenom must be selected."
@@ -117,10 +117,10 @@
         {
             "name": "Access to One Phenom Discipline",
             "flavor": [
-                "You are gifted with the ability to manifest phenom of a single Discipline. Your ability to control phenom are limited to a single Discipline and, no matter how much you increase your Psychic Potential."
+                "You are gifted with the ability to manifest phenom of a single Discipline. Your ability to control phenom are limited to a single Discipline and, no matter how much you increase your Potential."
             ],
             "effects": [
-                "This trait allows you to spend Phenom Points to buy a single Discipline and use phenom within it. Additionally, you can develop Phenom Projection and buy Phenom Points."
+                "This feature allows you to spend Phenom Points to buy a single Discipline and use phenom within it. Additionally, you can develop Phenom Projection and buy Phenom Points."
             ],
             "cost": [
                 2
@@ -150,7 +150,7 @@
                 "Add one point to a single Characteristic."
             ],
             "limits": [
-                "A Characteristics cannot be increased beyond than 11 during character creation."
+                "A Characteristics cannot be increased beyond than 11 during character Feature."
             ],
             "restrictions": [
                 "You can take this Character Feature multiple times,"
@@ -393,7 +393,7 @@
                 "Your knowledge of the spirit arts is superior to that of your peers."
             ],
             "effects": [
-                "You gain a special +4 spirit knowledge at character creation."
+                "You gain a special +4 spirit knowledge at character Feature."
             ],
             "restrictions": [
                 "You can take this Character Feature up to three times."
@@ -420,7 +420,7 @@
                 "Your spirit and body work together to produce more ki."
             ],
             "effects": [
-                "You recover 10 ki points every hour. Additional Creation Points increase the amount recovered to 15 and 20 every hour."
+                "You recover 10 ki points every hour. Additional Feature Points increase the amount recovered to 15 and 20 every hour."
             ],
             "cost": [
                 2,
@@ -434,7 +434,7 @@
                 "You have the natural ability to cast a spell without spending mana."
             ],
             "effects": [
-                "Choose a spell whose level is no greater than 20 and Base Mana Cost is 40 points or less. You can cast that spell once every minute, and an additional time by spend a Stamina Point. Spending additional Creation Points allows you to choose a spell whose Mana Cost is 40 and up to Intermediate Degree or whose Mana Cost is 60 and up to Advanced Degree. The Natural Magic spell cannot be maintained.",
+                "Choose a spell whose level is no greater than 20 and Base Mana Cost is 40 points or less. You can cast that spell once every minute, and an additional time by spend a Stamina Point. Spending additional Feature Points allows you to choose a spell whose Mana Cost is 40 and up to Intermediate Degree or whose Mana Cost is 60 and up to Advanced Degree. The Natural Magic spell cannot be maintained.",
                 "Your Natural Magic spell uses your Spell Projection if you have one. If not, it is cast as if you have the Attack Spell Projection or Defense Spell Projection Module."
             ],
             "cost": [
@@ -449,7 +449,7 @@
                 "You have a limited potential that allows you to use one phenom unconsciously. You don’t have complete control over it, but can use it whenever you need."
             ],
             "effects": [
-                "You can naturally use a single phenom. You are not considered as having true Potential and cannot use Phenom Points to acquire new phenom or to harness phenom you have. Your phenom is always manifested at the Difficult(12) Degree and cannot be maintained. The Chosen phenom can be of any level but it must be able to be manifested with at the Difficult Degree. The phenom can be used once every minute and then requires spending one Stamina Point to manifest again. Spending additional Creation Points increases the degree that the phenom is manifest at to Very Difficult(16) and Absurd(20) respectively.",
+                "You can naturally use a single phenom. You are not considered as having true Potential and cannot use Phenom Points to acquire new phenom or to harness phenom you have. Your phenom is always manifested at the Difficult(12) Degree and cannot be maintained. The Chosen phenom can be of any level but it must be able to be manifested with at the Difficult Degree. The phenom can be used once every minute and then requires spending one Stamina Point to manifest again. Spending additional Feature Points increases the degree that the phenom is manifest at to Very Difficult(16) and Absurd(20) respectively.",
                 "This Character Feature does not give you a Phenom Potential and does not allow you to buy Manifest Character Features,"
             ],
             "cost": [
@@ -464,7 +464,7 @@
                 "You are adapt at wearing armor."
             ],
             "effects": [
-                "You gain a special Innate Bonus of +1 every 2 levels. Spending additional Creation Points increases this bonus to +1 every level instead."
+                "You gain a special Innate Bonus of +1 every 2 levels. Spending additional Feature Points increases this bonus to +1 every level instead."
             ],
             "cost": [
                 2,
@@ -477,7 +477,7 @@
                 "Your natural capacity for a skill grants you an innate knowledge that increases with time."
             ],
             "effects": [
-                "Choose a Secondary Skill or Trade Skill, it gains an Innate Bonus of +1 per Level. Spending additional Creation Points increases it to a +2 and +3 per level."
+                "Choose a Secondary Skill or Trade Skill, it gains an Innate Bonus of +1 per Level. Spending additional Feature Points increases it to a +2 and +3 per level."
             ],
             "restrictions": [
                 "This Character Feature can be taken multiple times, each time a different skill must be chosen."
@@ -554,7 +554,7 @@
                 "Your spirit is resistant to the effects of mana."
             ],
             "effects": [
-                "You ignore the effects of a spell that was cast with 50 or less mana and you automatically pass a Spirit Resistance Check of 8 or less from a spell. This does not let you ignore the effects of magic on the environment around you. Spending 5 CP lets you ignore spells of 70 mana or less and resist spells with Spirit Resistance of 10 or less."
+                "You ignore the effects of a spell that was cast with 50 or less mana and you automatically pass a Spirit Resistance Check of 8 or less from a spell. This does not let you ignore the effects of magic on the environment around you. Spending 5 Feature Points lets you ignore spells of 70 mana or less and resist spells with Spirit Resistance of 10 or less."
             ],
             "limits": [
                 "This Character Feature cannot be taken with The Gift, Incomplete Gift, or Natural Magic."
@@ -594,7 +594,7 @@
                 "Your natural capacity for a group of skills grants you an innate knowledge that increases with time."
             ],
             "effects": [
-                "Choose a Secondary Skill Group or four Trade Skills, each skill gains an Innate Bonus of +1 every 2 levels. Spending additional Creation Points increases it to a +1 per level."
+                "Choose a Secondary Skill Group or four Trade Skills, each skill gains an Innate Bonus of +1 every 2 levels. Spending additional Feature Points increases it to a +1 per level."
             ],
             "restrictions": [
                 "This Character Feature can be taken multiple times, each time a different skill group must be chosen."
@@ -603,6 +603,17 @@
                 4,
                 6
             ]
+        },
+        {
+            "name": "Invested Power",
+            "flavor": [
+                "Your body and spirit has excess power."
+            ],
+            "effects": [
+                "You gave 2 free points that you can use to invest instead of investing your Characteristics. For example, a Sanctorum or Artifact that requires you to invest 1 Focus Point. You cannot use these points to pay for a permanent sacrifice.",
+                "Additional Feature Points grant you an additional 2 points."
+            ],
+            "cost": [2, 4]
         }
     ],
     "negative": [
@@ -655,6 +666,16 @@
             ],
             "effects": [
                 "You apply a -5 penalty to any visual Skill Checks and ranged Offensive Checks. This penalty can be reduced by obtaining glasses. The new penalty is determined by the Game Master."
+            ],
+            "cost": [2]
+        },
+        {
+            "name": "Asthma",
+            "flavor": [
+                "Your body has issues spending stamina."
+            ],
+            "effects": [
+                "You can only spend 1 Stamina Point per turn, no matter what powers you have."
             ],
             "cost": [2]
         },
@@ -813,7 +834,7 @@
                 "Your reflexes are slow."
             ],
             "effects": [
-                "You have a -3 Natural Penalty to Initiative. Additional Creation Points can be gained by increasing the penalty to -6."
+                "You have a -3 Natural Penalty to Initiative. Additional Feature Points can be gained by increasing the penalty to -6."
             ],
             "cost": [2, 4]
         },
@@ -885,7 +906,7 @@
             ],
             "effects": [
                 "The full effect of this Feature is left to the Game Master and you to decide. The lowest cost option causes a serious, but not necessarily constant, negative effect. Examples include a warrior who misplaces or fumbles his weapons, a thief who constantly loses money over time no matter how hard she tries.",
-                "The higher point option is a curse and carries a persistent and dangerous effect. Examples include a wizard who has wild effects when using magic or a fighter who suffers wounds when he harms a foe."
+                "The higher point option is a curse and carries a persistent and dangerous effect. Examples include a wizard who has wild effects when accumulating mana or a fighter who suffers wounds when he harms a foe."
             ],
             "cost": [2, 4]
         },
@@ -895,7 +916,7 @@
                 "You live with an ironclad code of conduct. You cannot disobey it and must follow it in every circumstance."
             ],
             "effects": [
-                "You have a strict code of conduct in some way related to your history. If you ever deviate from this code, choose other Character Features totalling up to 3 points. You suffer from these new Feature until you atone for breaking your code."
+                "You have a strict code of conduct in some way related to your background. If you ever deviate from this code, choose other Character Features totalling up to 3 points. You suffer from these new Feature until you atone for breaking your code."
             ],
             "cost": [2]
         },
@@ -935,7 +956,7 @@
                 "You have someone back home who depends on you."
             ],
             "effects": [
-                "You must send 200 gold, or whatever you own if you don't have 200 gold, to your dependent each month. Additional Creation Points can be gained, but you have to send back 500 gold."
+                "You must send 200 gold, or whatever you own if you don't have 200 gold, to your dependent each month. Additional Feature Points can be gained, but you have to send back 500 gold."
             ],
             "cost": [2, 3]
         },
@@ -955,7 +976,7 @@
                 "Your body is heavy."
             ],
             "effects": [
-                "Your Movement Value is reduced by 2 and your maximum Stamina Point is reduced by 1. Additional Creation Points doubles the penalty."
+                "Your Movement Value is reduced by 2 and your maximum Stamina Point is reduced by 1. Additional Feature Points doubles the penalty."
             ],
             "limits": [
                 "This Character Feature cannot be taken if it would reduce your Movement Value and maximum Stamina Point below 1."
@@ -1014,7 +1035,7 @@
                 "As you take damage, your body starts to shut down."
             ],
             "effects": [
-                "While your Life Points are at or below 50%, you suffer a -2 All Action Penalty. You can gain additional Creation Point if while your Life Points are below 25%, you suffer an additional -2 All Action Penalty."
+                "While your Life Points are at or below 50%, you suffer a -2 All Action Penalty. You can gain additional Feature Point if while your Life Points are below 25%, you suffer an additional -2 All Action Penalty."
             ],
             "cost": [2, 3]
         },

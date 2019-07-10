@@ -70,40 +70,40 @@ entries:
       url: /class_phenomenal_wizard.html
       output: web
 
-  - title: Traits
+  - title: Character Features
     output: web
     folderitems:
-    - title: Common Traits
-      url: /trait_common.html
+    - title: Common Features
+      url: /char_feature_common.html
       output: web
-    - title: Magic Traits
-      url: /trait_magic.html
+    - title: Magic Features
+      url: /char_feature_magic.html
       output: web
-    - title: Psychic Traits
-      url: /trait_psychic.html
-      output: web
-    - title: Legacies of Blood
-      url: /trait_legacy.html
+    - title: Manifest Features
+      url: /char_feature_manifest.html
       output: web
 
-  - title: Races
+  - title: Heritage
     output: web
     folderitems:
     - title: Human
-      url: /race_human.html
+      url: /char_heritage_human.html
       output: web
 
   - title: Combat Modules
     output: web
     folderitems:
+    - title: Weapon Modules
+      url: /char_martial_module_weapons.html
+      output: web
     - title: Style Modules
-      url: /char_module_style.html
+      url: /char_martial_module_style.html
       output: web
-    - title: Maneuver Modules
-      url: /char_module_martial.html
+    - title: Thaumic Modules
+      url: /char_magic_module_thaumic.html
       output: web
-    - title: Supernatural Modules
-      url: /char_module_super.html
+    - title: Mind Modules
+      url: /char_manifest_module_mind.html
       output: web
     
   - title: Spirit Talents
@@ -133,10 +133,10 @@ entries:
     output: web
     folderitems:
     - title: Minor Arts
-      url: /char_spirit_minor_arts.html
+      url: /char_art_minor.html
       output: web
     - title: Major Arts
-      url: /char_spirit_major_arts.html
+      url: /char_art_major.html
       output: web 
 
   - title: Impossible Weapons
@@ -178,7 +178,7 @@ entries:
       url: /char_spell_darkness.html
       output: web
 
-  - title: Sub-Paths
+  - title: Spell Sub-Paths
     output: web
     folderitems:
     - title: Dragon

@@ -7,13 +7,13 @@ toc: false
 {% assign weaponList = site.data.items.weapons %}
 
 {% for weapon in weaponList %}
-{% if weapon.hide != true and weapon.weaponClass contains "Unarmed" %}
-{% include weapon.html weapon=weapon %}
+{% if weapon.hide != true and weapon.weaponClass contains "Unarmed" and weapon.group contains "Classic" %}
+{% include case/weapon.html weapon=weapon %}
 {% endif %}
 {% endfor %}
 
 {% for weapon in weaponList %}
-{% if weapon.hide != true and weapon.weaponClass contains "Improvised" %}
-{% include weapon.html weapon=weapon %}
+{% if weapon.hide != true and weapon.weaponClass contains "Improvised" and weapon.group contains "Improvised" %}
+{% include case/weapon.html weapon=weapon %}
 {% endif %}
 {% endfor %}

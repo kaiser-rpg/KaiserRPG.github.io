@@ -1,0 +1,255 @@
+{
+    "positive":[
+        {
+            "name": "Aptitude for Magic Theory",
+            "flavor": [
+                "You have a strong connection to mana or maybe understand magical theory at an intuitive level."
+            ],
+            "effects": [
+                "Your Intelligence Characteristic is 3 points higher for the purpose to determining the maximum spell degree you can achieve. This does not apply to any other use of Intelligence."
+            ],
+            "cost": [1]
+        },
+        {
+            "name": "Contested Spell Master",
+            "flavor": [
+                "Your attack spells are unusually stronger than other spells they collide with."
+            ],
+            "effects": [
+                "You apply a +3 bonus to the Collision’s Opposed Characteristic Checks."
+            ],
+            "cost": [1]
+        },
+        {
+            "name": "Gestureless Casting",
+            "flavor": [
+                "You do not need to make physical gestures to use your mana."
+            ],
+            "effects": [
+                "You can accumulate your full mana without needing to be able to gesture. "
+            ],
+            "cost": [2]
+        },
+        {
+            "name": "Improved Innate Mana",
+            "flavor": [
+                "Executing spells with your innate talent come easier to you."
+            ],
+            "effects": [
+                "Your Innate Mana increases by 10 points. Additional Feature Points increase the value by another +10 to maximum bonus of +30."
+            ],
+            "cost": [2, 4, 6]
+        },
+        {
+            "name": "Magic Capacitance",
+            "flavor": [
+                "You have the innate ability to keep a small amount of mana at the ready."
+            ],
+            "effects": [
+                "You gain an innate Magic Capacitor equal to your Presence time 10. Additional Creation Point increases the Capacitor to 15 times your Presence."
+            ],
+            "cost": [2,3]
+        },
+        {
+            "name": "Natural Knowledge of a Path",
+            "flavor": [
+                "This feature means you have an affinity for a certain path of magic. You know how to use this path without having learned the theory."
+            ],
+            "effects": [
+                "Choose one path of magic. You gain all spells, and general spells, up to level 40 without investing any Mana Knowledge. You can continue to develop it beyond level 40 by spending Magic Levels as per usual."
+            ],
+            "limits": [
+                "This feature can be taken multiple times; each time chose a different path."
+            ],
+            "cost": [2]
+        },
+        {
+            "name": "Unspoken Casting",
+            "flavor": [
+                "You do not need to speak to control your accumulated mana."
+            ],
+            "effects": [
+                "You can cast spells in complete silence without reducing your Mana Accumulation."
+            ],
+            "cost": [2]
+        },
+        {
+            "name": "Superior Magic Recovery",
+            "flavor": [
+                "Your soul is able to attract more Mana to them, giving him an increased Mana Recovery."
+            ],
+            "effects": [
+                "Your Mana Recovery is doubled. Additional Feature Points will triple or quadruple the Mana Recovery."
+            ],
+            "cost": [2, 3, 4]
+        },
+        {
+            "name": "Imperceptible Magic",
+            "flavor": [
+                "You have a natural talent to hide your magic."
+            ],
+            "effects": [
+                "You gain natural bonus of +3 to Magic Appraisal to hide your magic."
+            ],
+            "restrictions": [
+                "You can take this Character Feature up to three times."
+            ],
+            "cost": [2]
+        },
+        {
+            "name": "Sanctorum Energy",
+            "flavor": [
+                "Your spirit is capable of infusing an area with magic easier."
+            ],
+            "effects": [
+                "When you build a Sancta Sanctorum, you automatically have 300 mana invested in it, with out reducing your maximum, to buy up to 6 Lesser Effects. Additional Feature Points increase the free mana to 600 and 750, for choosing 12 and 15 Lesser Effects."
+            ],
+            "cost": [1,2,3]
+        },
+        {
+            "name": "Opposite Magic",
+            "flavor": [
+                "Unlike other spell casters, you are able to easy comprehend opposing magic theorms."
+            ],
+            "effects": [
+                "You do not double the Mana Knowledge cost for learning spells from opposite paths."
+            ],
+            "cost": [2]
+        },
+        {
+            "name": "Natural Mana",
+            "flavor": [
+                "Your spirit can possess more mana than your peers."
+            ],
+            "effects": [
+                "You gain a +50 Innate Bonus to mana per level."
+            ],
+            "restrictions": [
+                "You can take this Character Feature up to three times."
+            ],
+            "cost": [2, 4, 6]
+        },
+        {
+            "name": "Natural Power",
+            "flavor": [
+                "You have a natural understanding of how spells work."
+            ],
+            "effects": [
+                "The maximum Spell Degree you can cast is determined by your Focus Characteristic, instead of your Intelligence."
+            ],
+            "cost": [1]
+        },
+        {
+            "name": "Magical Diction",
+            "flavor": [
+                "You have a special talent at casting spells as you read their Grimoire page."
+            ],
+            "effects": [
+                "You do not halve your Mana Accumulation when casting from a Grimoire."
+            ],
+            "cost": [1]
+        }
+    ],
+    "negative":[
+        {
+            "name": "Mana Leak",
+            "flavor": [
+                "Your spirit is unable to properly contain your mana."
+            ],
+            "effects": [
+                "For every 50 points of your maximum Mana Pool, you lose 10 mana each day. When you cast an Innate Spell, you lose 10 mana for every 50 mana the spell cost, minimum 10. This mana does not need to be accumulated as it comes directly out of your Pool."
+            ],
+            "cost": [2]
+        },
+        {
+            "name": "Magic Reader",
+            "flavor": [
+                "You cannot quite fathom the theory of magic without a constant reference."
+            ],
+            "effects": [
+                "You can only cast spells that you have learned from a Grimoire. Spells in the Grimoire that you have not learned cannot be cast."
+            ],
+            "cost": [4]
+        },
+        {
+            "name": "Magician's Folly",
+            "flavor": [
+                "Your mana is different. The best description is that it is more viscous."
+            ],
+            "effects": [
+                "Your Final Mana Accumulation and Spell Projection Values are halved when you are not casting Innate Spells and cannot absorb mana from others or containers that do not also have this feature."
+            ],
+            "cost": [4]
+        },
+        {
+            "name": "Mana Blockage",
+            "flavor": [
+                "Mana does not flow to you for some reason."
+            ],
+            "effects": [
+                "Your Mana Recovery is always 0 and cannot be modified by any means. You can only regain mana by draining objects containing mana or willing creatures with the Gift."
+            ],
+            "cost": [5]
+        },
+        {
+            "name": "Material Tradition",
+            "flavor": [
+                "The spells you cast were practiced using material object and your understanding of magical theory revolves around that."
+            ],
+            "effects": [
+                "This feature has two levels that cause you to require a material component to cast any spell. For 2 Feature Point, you require a wand, staff, crystal, or any other mana infused object to accumulate mana and cast spell. The object must have a Presence equal to or higher than the Intelligence Required for any spell you cast. For 2 FP, each spell you know requires a different component as determined by the GM – according to its origin and your knowledge of magic."
+            ],
+            "cost": [2,3]
+        },
+        {
+            "name": "Oral Requirement",
+            "flavor": [
+                "You can only cast spells if you can speak. "
+            ],
+            "effects": [
+                "You must be able to speak to accumulate mana. The inability to speak causes all your accumulated mana to return to your Pool and you lose 10 mana from the stress of its return."
+            ],
+            "cost": [2]
+        },
+        {
+            "name": "Require Gestures",
+            "flavor": [
+                "You must have complete freedom of movement to control and accumulate Mana."
+            ],
+            "effects": [
+                "You must be able to move freely to accumulate Mana. The inability to make gestures causes all your accumulated mana to return to your Pool and you lose 10 mana from the stress of its return."
+            ],
+            "cost": [2]
+        },
+        {
+            "name": "Ritual Requirement",
+            "flavor": [
+                "Your control of mana requires specific conditions to be meet before it can be performed. Examples include, you must perform a dance or it must be sunny."
+            ],
+            "effects": [
+                "You require a certain condition or action to be taken in order to be able to accumulate Mana and cast spells. If the action is a Secondary Skill, you must roll a Difficulty Skill Check equal to the Required Intelligence of the spell being cast. Failure for this Skill Check causes the accumulated Mana to return to your pool.  "
+            ],
+            "cost": [2]
+        },
+        {
+            "name": "Slow Mana Recovery",
+            "flavor": [
+                "Your soul has difficulty in attracting Mana."
+            ],
+            "effects": [
+                "Your Final Mana Recovery Value is halved."
+            ],
+            "cost": [2]
+        },
+        {
+            "name": "Structured Path",
+            "flavor": [
+                "Your knowledge of a path of magic is very narrow and structured so your capacity to learn spells that deviate from that structure is impossible."
+            ],
+            "effects": [
+                "You cannot choose Free Spells or purchase individual spells."
+            ],
+            "cost": [3]
+        }
+    ]
+}
