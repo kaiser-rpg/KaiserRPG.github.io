@@ -45,7 +45,7 @@ layout: default
 
     {% endif %}
 
-   {{content}}
+    {% include replace-content.html content=content %}
 
     <div class="tags">
         {% if page.tags != null %}

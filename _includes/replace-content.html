@@ -1,0 +1,6 @@
+{{
+    include.content 
+    | replace: "[@state ", "<span class='label label-default'>" 
+    | replace: "[@action ", "<span class='label label-info'>" 
+    | replace: " @]", "</span>"
+}}
