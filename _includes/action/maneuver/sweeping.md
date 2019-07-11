@@ -1,10 +1,10 @@
 ### Sweeping Attack
 **Complete Attack**: 1 AP
 
-When you use this maneuver, you swing your weapon at multiple opponents at once. Before rolling, you must choose a number of opponents with a certain range. You make a single Offensive Roll with a -5 penalty and each opponent makes their own Defensive Roll in the order that they were chosen. 
+When you use this maneuver, you swing your weapon at multiple opponents at once. Before rolling, you must choose a number of opponents with a certain range. You make a single Offensive Roll with a `-5` penalty and each opponent makes zirs own Defensive Roll in the order that they were chosen. 
 
 If one of the defenders obtains the chance to _Counter_ by using Block, that defender manages to halt the maneuver. Those who have not yet defended are not subject to the attack. If a defender obtains the chance to _Counter_ by using Dodge, the sweeping attack continues on its path. The defender must wait until the attack is finished to perform the _Counter_ reaction. Each opponent must be within reach of your weapon to be targeted by _Sweeping Attack_. You can move using the _Step_ action to include additional targets.
 
-The maximum number of targets a sweeping attack can hit depends on the size of the weapon used. Small and medium weapons can reach three or four opponents, respectively. Large weapons can hit up to five. These numbers are for human-sized opponents; the Game Master can increase or decrease as appropriate for each opponents size.
+The maximum number of targets a sweeping attack can hit depends on the size of the weapon used. Small and medium weapons can reach three or four opponents, respectively. Large weapons can hit up to five. These numbers are for human-sized opponents; the Game Master can increase or decrease as appropriate for each opponent's size.
 
 This maneuver can only be performed with hand-to-hand attacks or powers that list this maneuver. You must declare that you will use this maneuver before making your Offensive Roll.

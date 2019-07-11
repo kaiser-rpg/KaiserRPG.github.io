@@ -13,6 +13,8 @@ Some powers also let you perform these maneuvers. A power will list what maneuve
 
 {% include action/maneuver/feint.md %}
 
+{% include action/maneuver/barrier-break.md %}
+
 {% include action/maneuver/missile.md %}
 
 {% include action/maneuver/directed-attack.md %}
@@ -32,3 +34,4 @@ Some powers also let you perform these maneuvers. A power will list what maneuve
 {% include action/maneuver/trap.md %}
 
 {% include action/maneuver/sweeping.md %}
+

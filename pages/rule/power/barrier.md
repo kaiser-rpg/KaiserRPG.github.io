@@ -25,7 +25,7 @@ Second, you are the one who makes the Defensive Rolls for the target and suffer 
 
 Third, like when you defend yourself with a barrier, the target must choose whether to rely on your barrier or their own Defensive Skills when attacked. 
 
-{% include example.html content="For example, Ceil has cast Shield of Light on Thom. Thom has become Fully Restrained as a result of a Trapping Maneuver by a bandit. When another bandit tries to attack Thom, he can choose to defend with his Dodge Skill (which has a -20 penalty due to the Fully Restrained State) or rely on Ciel's Magic Projection (which has a D2 due to covering others). Thom choses the barrier. Later in the combat, Ceil also becomes Fully Restrained, and the -20 penalty then also applies when Thom relies on the barrier for defense." %}
+{% include example.html content="For example, Ceil has cast Shield of Light on Thom. Thom has become Fully Restrained as a result of a Trap Maneuver by a bandit. When another bandit tries to attack Thom, he can choose to defend with his Dodge Skill (which has a -20 penalty due to the Fully Restrained State) or rely on Ciel's Magic Projection (which has a D2 due to covering others). Thom choses the barrier. Later in the combat, Ceil also becomes Fully Restrained, and the -20 penalty then also applies when Thom relies on the barrier for defense." %}
 
 ### Covering an Area
 Instead of covering a single target, you can expand a barrier to protect multiple creatures. Like with covering a single creature other than yourself, some additional rules apply.

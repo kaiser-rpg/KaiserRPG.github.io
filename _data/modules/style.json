@@ -9,7 +9,7 @@
     {
         "name": "Flowing Draw",
         "effect":[
-            "You do not suffer the Unsheathed State for weapons you wield in one hand."
+            "You do not suffer the <span class='label label-default'>Unsheathed</span> state for weapons you wield in one hand."
         ],
         "cost": 3
     },
@@ -55,7 +55,7 @@
     {
         "name": "Blind Fighting Expert",
         "effect":[
-            "You reduce the Offensive and Defensive penalties for the Partially Blind and Totally Blind states by half, round down."
+            "You reduce the Offensive and Defensive penalties for the <span class='label label-default'>Partially Blind</span> and <span class='label label-default'>Totally Blind</span> states by half, round down."
         ],
         "requirements":[
             "Perception 6"
@@ -163,7 +163,7 @@
     {
         "name": "Confined Combat Expert",
         "effect":[
-            "You reduce the Offensive and Defensive Disadvantage from the Narrow Space state by half, round down."
+            "You reduce the Offensive and Defensive Disadvantage from the <span class='label label-default'>Narrow Space</span> state by half, round down."
         ],
         "cost": 3
     },
