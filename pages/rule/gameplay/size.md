@@ -3,7 +3,7 @@ title: "Size"
 permalink: rule_gameplay_size.html
 ---
 
-Size indicates your expected height and weight. To calculate it, add your Strength and Constitution Characteristics. 
+Size indicates your expected height and weight. To calculate it, add your [@stat Strength @] and [@stat Constitution @] Characteristics. 
 
 {% include example.html content="A character with an 8 and 7 in those Characteristics would have a size score of 15." %}
 
