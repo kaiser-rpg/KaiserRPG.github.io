@@ -8,11 +8,11 @@ Armor Value (AV) is the amount of protection you have from certain Damage Types.
 
 For each Armor Value, the Final AV can be found by the following method:
 1. Take the highest Natural Armor
-2. Add the Layer Armor with the highest value
+2. Add the layer armor with the highest value
  - Note: you can only wear one Hard Armor. The other two must be Soft.
-3. Add half the Layer Armor with the second highest value
-4. Add half the Layer Armor with the third highest value
-5. Ignore all other Layer Armors
+3. Add half the layer armor with the second highest value
+4. Add half the layer armor with the third highest value
+5. Ignore all other layer armors
 
 {% include example.html content="TODO" %}
 

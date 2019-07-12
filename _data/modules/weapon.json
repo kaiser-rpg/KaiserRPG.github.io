@@ -16,7 +16,7 @@
     {
         "name": "Thrown Weapons",
         "effect":[
-            "You gain training in using all thrown weapons. You are trained with throwing any weapon with the Throwable trait or from the Throwing class, but using it as a hand-to-hand weapon is not covered by this module nor is throwing a weapon not designed to be thrown."
+            "You gain training in using all thrown weapons. You are trained with throwing any weapon with the [@trait Throwable @] trait or from the Throwing class, but using it as a hand-to-hand weapon is not covered by this module nor is throwing a weapon not designed to be thrown."
         ],
         "cost": 4
     },

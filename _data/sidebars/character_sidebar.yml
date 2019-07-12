@@ -86,6 +86,12 @@ entries:
   - title: Heritage
     output: web
     folderitems:
+    - title: Baset
+      url: /char_heritage_baset.html
+      output: web
+    - title: Haruw
+      url: /char_heritage_haruw.html
+      output: web
     - title: Human
       url: /char_heritage_human.html
       output: web

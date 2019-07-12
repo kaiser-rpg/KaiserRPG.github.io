@@ -1,22 +1,32 @@
-{% assign race = site.data.race.core.race | where:"name", include.race | first %}
-
 <ul id="raceTabs" class="nav nav-tabs">
-    <li class="active"><a href="#feature" data-toggle="tab">Features</a></li>
+    <li class="active"><a href="#single" data-toggle="tab">Single Features</a></li>
+    <li><a href="#mix" data-toggle="tab">Mixed Features</a></li>
     <li><a href="#fluff" data-toggle="tab">Fluff</a></li>
 </ul>
 <div class="tab-content">
-    <div role="tabpanel" class="tab-pane active" id="feature">
-        <h3>Features</h3>
+
+    <div role="tabpanel" class="tab-pane active" id="single">
+        <h3>Single Features</h3>
         <div>
-            {% include entry.html entries=race.entries level=1 %}
+            <span class="entry-inline-title">Cost</span>: {{include.heritage.mix.cost}}
         </div>
         <div>
-            <span class="entry-inline-title">Cost</span>: {{race.cost}} DP
+            {% include entry.html entries=include.heritage.single.abilities level=1 %}
+        </div>
+    </div>
+
+    <div role="tabpanel" class="tab-pane" id="mix">
+        <h3>Mixed Features</h3>
+        <div>
+            <span class="entry-inline-title">Cost</span>: {{include.heritage.mix.cost}}
+        </div>
+        <div>
+            {% include entry.html entries=include.heritage.mix.abilities level=1 %}
         </div>
     </div>
 
     <div role="tabpanel" class="tab-pane" id="fluff">
         <h3>Fluff</h3>
-        {% include entry.html entries=race.fluff level=1 %}
+        {% include entry.html entries=include.heritage.fluff level=1 %}
     </div>
 </div>

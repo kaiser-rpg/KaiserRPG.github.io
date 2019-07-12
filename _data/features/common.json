@@ -6,7 +6,7 @@
                 "You are naturally talented with a single phenom. You remain unable to control other phenom no matter how much Potential you possess."
             ],
             "effects": [
-                "This feature allows you to spend PP on a single phenom without needing to have invested in the Discipline. Additionally, you can develop Phenom Projection and buy Phenom Points."
+                "This feature allows you to spend PP on a single phenom without needing to have invested in the Discipline. Additionally, you can develop [@skill Projection @] and buy Phenom Points."
             ],
             "restrictions": [
                 "This Character Feature can be taken multiple times, each time a different phenom must be selected."
@@ -33,7 +33,7 @@
                 "You possess a certain charisma that makes other react positively toward you. You always receive a positive reaction from strangers."
             ],
             "effects": [
-                "You have one degree of Advantage when making a Skill Check as part of a positive social interaction. Additional effects may be added by the Game Master."
+                "You have two degrees of Advantage when making a Skill Check as part of a positive social interaction. Additional effects may be added by the Game Master."
             ],
             "cost": [
                 1
@@ -45,7 +45,7 @@
                 "You cause those around you to be nervous by your presence. This can discourage violence against you or intimidate someone into doing what you demand."
             ],
             "effects": [
-                "You have one Advantage when making a Skill Check as part of a threatening social interaction. Additional effects may be added by the GM."
+                "You have two degrees of Advantage when making a Skill Check as part of a threatening social interaction. Additional effects may be added by the Game Master."
             ],
             "cost": [
                 1
@@ -57,7 +57,7 @@
                 "You are emotionally resistant to emotional changes."
             ],
             "effects": [
-                "You gain a +6 bonus to Composure Checks to control your emotional state and a +3 bonus to Resistance Checks caused by powers that modify your emotional state."
+                "You gain a `+6` bonus to [@skill Composure @] Checks to control your emotional state and a `+3` bonus to Resistance Checks caused by powers that modify your emotional state."
             ],
             "limits": [
                 "This Character Feature cannot be taken with the Vice, Cowardice, or Phobia Negative Feature"
@@ -72,7 +72,7 @@
                 "You have an uncanny ability to focus your mind on a single target."
             ],
             "effects": [
-                "You double the bonus from Aiming with a projectile."
+                "You double the bonus from the [@action Aim @] action with a projectile."
             ],
             "cost": [
                 1
@@ -96,7 +96,7 @@
                 "Your will is resistant to external control."
             ],
             "effects": [
-                "You gain a +6 bonus to Resistance Checks to prevent possession and domination."
+                "You gain a `+6` bonus to Resistance Checks to prevent possession and domination."
             ],
             "cost": [
                 1
@@ -108,7 +108,7 @@
                 "While you sleep, your mind is still partially conscious of what is happening around you and can wake up faster."
             ],
             "effects": [
-                "You only apply a -2 penalty to your Notice Checks while sleeping and can wake up without losing a round."
+                "You only apply a `-2` penalty to your [@skill Notice @] Checks while sleeping and can wake up without losing a round."
             ],
             "cost": [
                 1
@@ -120,7 +120,7 @@
                 "You are gifted with the ability to manifest phenom of a single Discipline. Your ability to control phenom are limited to a single Discipline and, no matter how much you increase your Potential."
             ],
             "effects": [
-                "This feature allows you to spend Phenom Points to buy a single Discipline and use phenom within it. Additionally, you can develop Phenom Projection and buy Phenom Points."
+                "This feature allows you to spend Phenom Points to buy a single Discipline and use phenom within it. Additionally, you can develop [@skill Projection @] and buy Phenom Points."
             ],
             "cost": [
                 2
@@ -132,7 +132,7 @@
                 "One of your Characteristics is fine tuned."
             ],
             "effects": [
-                "One of your Characteristics has a +1 bonus when making Characteristic Checks. Choose two Secondary Skills based on that Characteristic, they have a Natural Bonus of +3."
+                "One of your Characteristics has a +1 bonus when making Characteristic Checks. Choose two Secondary Skills based on that Characteristic, they have a Natural Bonus of `+3`."
             ],
             "restrictions": [
                 "You can take this Character Feature multiple times, but each time Choose a different Characteristic."
@@ -150,7 +150,7 @@
                 "Add one point to a single Characteristic."
             ],
             "limits": [
-                "A Characteristics cannot be increased beyond than 11 during character Feature."
+                "A Characteristics cannot be increased beyond than 11 during character creation."
             ],
             "restrictions": [
                 "You can take this Character Feature multiple times,"
@@ -180,7 +180,7 @@
                 "You can use both hands equally well."
             ],
             "effects": [
-                "You can perform tasks with either hand equally well. Additionally, you suffer only -1 to your Offensive Roll made as part of the Offhand Attack Action."
+                "You can perform tasks with either hand equally well. Additionally, you suffer only `-1` to your Offensive Roll made as part of the [@action Offhand Attack @] action."
             ],
             "cost": [
                 2
@@ -192,7 +192,7 @@
                 "Your mind possess a greater resistance."
             ],
             "effects": [
-                "You gain a +2 Natural Bonus to Mental Resistance."
+                "You gain a +2 natural bonus to [@skill Mental Resistance @]."
             ],
             "restrictions": [
                 "You can take this Character Feature up to two times."
@@ -207,7 +207,7 @@
                 "Your body possess a greater resistance."
             ],
             "effects": [
-                "You gain a +2 Natural Bonus to Physical and Immune Resistance."
+                "You gain a `+2` natural bonus to [@skill Physical Resistance @] and [@skill Immune Resistance @]."
             ],
             "restrictions": [
                 "You can take this Character Feature up to two times."
@@ -222,7 +222,7 @@
                 "Your spirit possess a greater resistance."
             ],
             "effects": [
-                "You gain a +2 Natural Bonus to Spirit Resistance."
+                "You gain a `+2` natural bonus to [@skill Spirit Resistance @]."
             ],
             "restrictions": [
                 "You can take this Character Feature up to two times."
@@ -249,7 +249,7 @@
                 "Your vitality is exceptional"
             ],
             "effects": [
-                "You gain a +10 Innate Bonus per level to your Life Points. Additionally, you gain a +1 Natural Bonus to Physical Resistance caused by Criticals."
+                "You gain a `+10` innate bonus per level to your Life Points. Additionally, you gain a `+1` natural bonus to [@skill Physical Resistance @] caused by Criticals."
             ],
             "restrictions": [
                 "You can take this Character Feature up to two times."
@@ -279,7 +279,7 @@
                 "You possess a weaker version of the Gift."
             ],
             "effects": [
-                "You gain a Mana Accumulation and can develop Spell Projection. This allows you to cast spells and transfer mana to other containers. But, when you cast a spell, you must have a Difficulty Focus Characteristic Check equal to 10 + 1 for every 10 levels of the spell. If you fail, the spell is not cast but the mana is lost. Unlike the full Gift, you cannot see on the spirit plane."
+                "You gain a Mana Accumulation and can develop [@skill Spell Projection @]. This allows you to cast spells and transfer mana to other containers. But, when you cast a spell, you must have a Difficulty Focus Characteristic Check equal to 10 + 1 for every 10 levels of the spell. If you fail, the spell is not cast but the mana is lost. Unlike the full Gift, you cannot see on the mana plane."
             ],
             "cost": [
                 2
@@ -291,7 +291,7 @@
                 "Your body and spirit slowly generate more ki as you grow."
             ],
             "effects": [
-                "You gain a +12 Innate Bonus per level to your Ki Reserve."
+                "You gain a `+12` innate bonus per level to your Ki Reserve."
             ],
             "restrictions": [
                 "You can take this Character Feature twice."
@@ -306,7 +306,7 @@
                 "You are adequate in all situations that arise."
             ],
             "effects": [
-                "You gain a +1 Natural Bonus to all Secondary Skills. This means you do not suffer the penalty for not being proficient in a skill."
+                "You gain a `+1` natural bonus to all Secondary Skills. This means you do not suffer the penalty for not being proficient in a skill."
             ],
             "cost": [
                 2
@@ -318,7 +318,7 @@
                 "Your eyes have the ability to see in the dark and can quickly adapt to changes of light intensity."
             ],
             "effects": [
-                "You ignore the Blind States that come from natural darkness (but not complete lack of darkness) and reduce any penalty from magical darkness complete lack of light by half. You also reduce by half the penalties from any flashes of light."
+                "You ignore the [@state Partially Blind @] and [@state Totally Blind @] states that come from natural darkness (but not complete lack of darkness) and reduce any penalty from magical darkness by half. You also reduce by half the penalties from any flashes of light."
             ],
             "cost": [
                 2
@@ -330,7 +330,7 @@
                 "Your reflexes are exceptional."
             ],
             "effects": [
-                "You gain a +2 Natural Bonus to Initiative."
+                "You gain a `+2` natural bonus to [@skill Initiative @]."
             ],
             "restrictions": [
                 "You can take this Character Feature up to three times."
@@ -381,7 +381,7 @@
                 "You resist the negative effects of pain."
             ],
             "effects": [
-                "You reduce the penalties from the Pain State by half. The Pain State still recovers at the normal rate."
+                "You reduce the penalties from the [@state Pain @] state by half. The [@state Pain @] state still recovers at the normal rate."
             ],
             "cost": [
                 2
@@ -393,7 +393,7 @@
                 "Your knowledge of the spirit arts is superior to that of your peers."
             ],
             "effects": [
-                "You gain a special +4 spirit knowledge at character Feature."
+                "You gain a special `+4` spirit knowledge at character creation."
             ],
             "restrictions": [
                 "You can take this Character Feature up to three times."
@@ -408,7 +408,7 @@
                 "Your eyesight can see beyond the material plane."
             ],
             "effects": [
-                "You can see the spirit and phenom plane."
+                "You can see the mana and phenom plane."
             ],
             "cost": [
                 2
@@ -435,7 +435,7 @@
             ],
             "effects": [
                 "Choose a spell whose level is no greater than 20 and Base Mana Cost is 40 points or less. You can cast that spell once every minute, and an additional time by spend a Stamina Point. Spending additional Feature Points allows you to choose a spell whose Mana Cost is 40 and up to Intermediate Degree or whose Mana Cost is 60 and up to Advanced Degree. The Natural Magic spell cannot be maintained.",
-                "Your Natural Magic spell uses your Spell Projection if you have one. If not, it is cast as if you have the Attack Spell Projection or Defense Spell Projection Module."
+                "Your Natural Magic spell uses your [@skill Spell Projection @] if you have one. If not, your Offensive Roll is equal to your Presence."
             ],
             "cost": [
                 2,
@@ -449,8 +449,8 @@
                 "You have a limited potential that allows you to use one phenom unconsciously. You don’t have complete control over it, but can use it whenever you need."
             ],
             "effects": [
-                "You can naturally use a single phenom. You are not considered as having true Potential and cannot use Phenom Points to acquire new phenom or to harness phenom you have. Your phenom is always manifested at the Difficult(12) Degree and cannot be maintained. The Chosen phenom can be of any level but it must be able to be manifested with at the Difficult Degree. The phenom can be used once every minute and then requires spending one Stamina Point to manifest again. Spending additional Feature Points increases the degree that the phenom is manifest at to Very Difficult(16) and Absurd(20) respectively.",
-                "This Character Feature does not give you a Phenom Potential and does not allow you to buy Manifest Character Features,"
+                "You can naturally use a single phenom. You are not considered as having true [@skill Potential @] and cannot use Phenom Points to acquire new phenom or to harness phenom you have. Your phenom is always manifested at the Difficult (12) degree and cannot be maintained. The chosen phenom can be of any level but it must be able to be manifested with at the Difficult (12) degree. The phenom can be used once every minute and then requires spending one Stamina Point to manifest again. Spending additional Feature Points increases the degree that the phenom is manifest at to Very Difficult (16) and Absurd (20) respectively.",
+                "This Character Feature does not give you a [@skill Potential @] and does not allow you to buy Manifest Character Features,"
             ],
             "cost": [
                 2,
@@ -464,7 +464,7 @@
                 "You are adapt at wearing armor."
             ],
             "effects": [
-                "You gain a special Innate Bonus of +1 every 2 levels. Spending additional Feature Points increases this bonus to +1 every level instead."
+                "You gain a special innate bonus of `+1` every 2 levels to [@skill Use of Armor @]. Spending additional Feature Points increases this bonus to `+1` every level instead."
             ],
             "cost": [
                 2,
@@ -477,7 +477,7 @@
                 "Your natural capacity for a skill grants you an innate knowledge that increases with time."
             ],
             "effects": [
-                "Choose a Secondary Skill or Trade Skill, it gains an Innate Bonus of +1 per Level. Spending additional Feature Points increases it to a +2 and +3 per level."
+                "Choose a Secondary Skill or Trade Skill, it gains an innate bonus of `+1` per Level. Spending additional Feature Points increases it to a `+2` and `+3` per level."
             ],
             "restrictions": [
                 "This Character Feature can be taken multiple times, each time a different skill must be chosen."
@@ -494,7 +494,7 @@
                 "Your perception is such that you can feel danger before it arrives."
             ],
             "effects": [
-                "An opponent cannot gain the Surprise State over you for any reason other than a higher Initiative."
+                "An opponent cannot gain the [@state Surprise @] state over you for any reason other than a higher [@skill Initiative @]."
             ],
             "cost": [
                 3
@@ -518,7 +518,7 @@
                 "You have an innate knowledge of mana."
             ],
             "effects": [
-                "You gain an Innate Bonus of +5 Mana Knowledge every level."
+                "You gain an innate bonus of `+5` Mana Knowledge every level."
             ],
             "cost": [
                 3
@@ -530,7 +530,7 @@
                 "You have an innate knowledge of the spirit."
             ],
             "effects": [
-                "You gain an Innate Bonus of +5 Spirit Knowledge every level."
+                "You gain an innate bonus of `+5` Spirit Knowledge every level."
             ],
             "cost": [
                 3
@@ -554,7 +554,7 @@
                 "Your spirit is resistant to the effects of mana."
             ],
             "effects": [
-                "You ignore the effects of a spell that was cast with 50 or less mana and you automatically pass a Spirit Resistance Check of 8 or less from a spell. This does not let you ignore the effects of magic on the environment around you. Spending 5 Feature Points lets you ignore spells of 70 mana or less and resist spells with Spirit Resistance of 10 or less."
+                "You ignore the effects of a spell that was cast with 50 or less mana and you automatically pass a [@skill Spirit Resistance @] Check of 8 or less from a spell. This does not let you ignore the effects of magic on the environment around you. Spending 5 Feature Points lets you ignore spells of 70 mana or less and resist spells with [@skill Spirit Resistance @] of 10 or less."
             ],
             "limits": [
                 "This Character Feature cannot be taken with The Gift, Incomplete Gift, or Natural Magic."
@@ -570,7 +570,7 @@
                 "Your ability to master Disciplines knows no bounds."
             ],
             "effects": [
-                "You can master as many Phenom Disciplines as you desire and gain the ability to see on the phenom plane. Additionally, you can develop Phenom Projection and buy Phenom Points."
+                "You can master as many Phenom Disciplines as you desire and gain the ability to see on the phenom plane. Additionally, you can develop [@skill Phenom Projection @] and buy Phenom Points."
             ],
             "cost": [
                 4
@@ -582,7 +582,7 @@
                 "Your spirit can accumulate mana, allowing you to cast spells."
             ],
             "effects": [
-                "You gain a Mana Accumulation and can develop Spell Projection. This allows you to cast spells and transfer mana to other containers. You also gain the ability to see on the spirit plane."
+                "You gain a Mana Accumulation and can develop [@skill Spell Projection @]. This allows you to cast spells and transfer mana to other containers. You also gain the ability to see on the mana plane."
             ],
             "cost": [
                 4
@@ -594,7 +594,7 @@
                 "Your natural capacity for a group of skills grants you an innate knowledge that increases with time."
             ],
             "effects": [
-                "Choose a Secondary Skill Group or four Trade Skills, each skill gains an Innate Bonus of +1 every 2 levels. Spending additional Feature Points increases it to a +1 per level."
+                "Choose a Secondary Skill Group or four Trade Skills, each skill gains an innate bonus of `+1` every 2 levels. Spending additional Feature Points increases it to a `+1` per level."
             ],
             "restrictions": [
                 "This Character Feature can be taken multiple times, each time a different skill group must be chosen."
@@ -610,7 +610,7 @@
                 "Your body and spirit has excess power."
             ],
             "effects": [
-                "You gave 2 free points that you can use to invest instead of investing your Characteristics. For example, a Sanctorum or Artifact that requires you to invest 1 Focus Point. You cannot use these points to pay for a permanent sacrifice.",
+                "You gave 2 free points that you can use to invest instead of investing your Characteristics. For example, a Sanctorum or Artifact that requires you to invest 1 Focus can instead use one of your free points. You cannot use these points to pay for a permanent sacrifice.",
                 "Additional Feature Points grant you an additional 2 points."
             ],
             "cost": [2, 4]
@@ -635,7 +635,7 @@
                 "You are unable to see."
             ],
             "effects": [
-                "You cannot use any power or feature that requires sight. You are always considered to have the Totally Blind State."
+                "You cannot use any power or feature that requires sight. You are always considered to have the [@state Totally Blind @] state."
             ],
             "cost": [4]
         },
@@ -665,7 +665,7 @@
                 "You cannot see well at a distance."
             ],
             "effects": [
-                "You apply a -5 penalty to any visual Skill Checks and ranged Offensive Checks. This penalty can be reduced by obtaining glasses. The new penalty is determined by the Game Master."
+                "You apply a `-5` penalty to any visual Skill Checks and ranged Offensive Rolls. This penalty can be reduced by obtaining glasses. The new penalty is determined by the Game Master."
             ],
             "cost": [2]
         },
@@ -685,7 +685,7 @@
                 "You only know how to use one specific weapon, such as your family's long sword."
             ],
             "effects": [
-                "You apply a -3 penalty to Strike and Block when wielding any weapon other than your preferred."
+                "You apply a `-3` penalty to [@skill Strike @] and [@skill Block @] when wielding any weapon other than your preferred."
             ],
             "limits": [
                 "This Character Feature can only be taken if you have the Fighter Archetype."
@@ -698,7 +698,8 @@
                 "You have an addiction that must be satisfied each day."
             ],
             "effects": [
-                "You apply a cumulative -1 All Action Penalty for each day that passes without fulfilling you vice."
+                "You apply a cumulative [@ Pain (1) @] state for each day that passes without fulfilling you vice.",
+                "The [@ Pain (1) @] state disappears at 1 point for each day that you fulfil your vice."
             ],
             "cost": [1]
         },
@@ -708,7 +709,7 @@
                 "You have a great fear of something."
             ],
             "effects": [
-                "You automatically gain the Frightened State when you see the object of your phobia. If the object of fear is an illusion, you suffer 4 degrees of Disadvantage when trying to determine if it is real or when you make the Resistance Check."
+                "You automatically gain the [@state Frightened @] State when you see the object of your phobia. If the object of fear is an illusion, you suffer 4 degrees of Disadvantage when trying to determine if it is real or when you make the Resistance Check."
             ],
             "cost": [1]
         },
@@ -718,7 +719,7 @@
                 "One of your limbs has a server issue."
             ],
             "effects": [
-                "You suffer a -8 All Action Penalty to any physical action that use the atrophied limb. If the limb is your leg, your Movement Value is halved, round up."
+                "You suffer a `-8` penalty to any physical action that use the atrophied limb. If the limb is your leg, your Movement Value is halved, round up."
             ],
             "cost": [2]
         },
@@ -728,7 +729,7 @@
                 "Your body is exceptionally weak."
             ],
             "effects": [
-                "Your Final Physical Resistance Value is halved. Any bonus to your PhR is halved and any penalty is doubled."
+                "Your Final [@skill Physical Resistance @] Value is halved. Any bonus to your [@skill PhR @] is halved and any penalty is doubled."
             ],
             "cost": [3]
         },
@@ -738,7 +739,7 @@
                 "You do not wake up easily."
             ],
             "effects": [
-                "You apply a -30 penalty to all Characteristic and Skill Checks while asleep. For the first hour after waking, you suffer a -4 All Action penalty."
+                "You apply a `-30` penalty to all Characteristic and Skill Checks while asleep. For the first hour after waking, you suffer the [@state Pain (4) @] state."
             ],
             "cost": [1]
         },
@@ -748,7 +749,7 @@
                 "You suffer terrible nightmares when you sleep. These could be from a trauma in your past or a supernatural entity who chases you in your sleep."
             ],
             "effects": [
-                "Each time you sleep, roll 2d6. If the result is 8 or higher, your maximum Stamina Points is reduced by 2 until you get a good night's rest. If this ever makes your maximum Stamina Points zero, you gain the Weakness State which reduces your Strength, Dexterity, and Agility by 2 points. If you ever lose the need to sleep, you instead must make this roll every 24 hours."
+                "Each time you sleep, roll 2d6. If the result is 8 or higher, your maximum Stamina Points is reduced by 2 until you get a good night's rest. If this ever makes your maximum Stamina Points zero, you gain the [@ Weakness (2) @] state. If you ever lose the need to sleep, you instead must make this roll every 24 hours."
             ],
             "cost": [2]
         },
@@ -784,7 +785,7 @@
                 "Your mind and body are unable to repel outside control."
             ],
             "effects": [
-                "You suffer a -6 penalty to any Resistance Check to prevent any kind of domination or possession."
+                "You suffer a `-6` penalty to any Resistance Check to prevent any kind of domination or possession."
             ],
             "cost": [1]
         },
@@ -804,7 +805,7 @@
                 "You do not tolerate pain well."
             ],
             "effects": [
-                "You double the penalty from the Pain State."
+                "You double the penalty from the [@ Pain @] state."
             ],
             "cost": [2]
         },
@@ -814,7 +815,7 @@
                 "Your heath is poor."
             ],
             "effects": [
-                "Your Final Immune Resistance Value is halved. Any bonus to your IR is halved and any penalty is doubled."
+                "Your Final [@skill Immune Resistance @] Value is halved. Any bonus to your [@skill IR @] is halved and any penalty is doubled."
             ],
             "cost": [2]
         },
@@ -834,7 +835,7 @@
                 "Your reflexes are slow."
             ],
             "effects": [
-                "You have a -3 Natural Penalty to Initiative. Additional Feature Points can be gained by increasing the penalty to -6."
+                "You have a `-3` natural penalty to [@skill Initiative @]. Additional Feature Points can be gained by increasing the penalty to a `-6`."
             ],
             "cost": [2, 4]
         },
@@ -844,7 +845,7 @@
                 "Your spirit is less able to resist."
             ],
             "effects": [
-                "Your Final Spirit Resistance Value is halved. Any bonus to your SR is halved and any penalty is doubled."
+                "Your Final [@skill Spirit Resistance @] Value is halved. Any bonus to your [@skill SR @] is halved and any penalty is doubled."
             ],
             "cost": [3]
         },
@@ -854,7 +855,7 @@
                 "Your body is feeble."
             ],
             "effects": [
-                "When your Life Points are reduced below half, you gain Pain(3)."
+                "While your Life Points are below half of your maximum, you gain the [@ Pain (3) @] state."
             ],
             "cost": [2]
         },
@@ -874,8 +875,8 @@
                 "Your nature is that of a coward."
             ],
             "effects": [
-                "Whenever you are in danger, you are subject to the Shaken State, with the object of fear being always insight. If you become affected by any Fear State, it increases by one degree. What is considered danger is left to the Game Master.",
-                "If you ever become immune to the Fear States, the Game Master should choose other Character Features totalling up to 4 points. If the immunity is only temporary, the new Features disappear. For example, the Game Master could choose Mute and Easily Possessed because your mind has a hard time adjusting to the lack of Fear it excepts."
+                "Whenever you are in danger, you are subject to the [@state Shaken @] state, with the object of fear being always insight. If you become affected by any [@state Fear @] state, it increases by one degree. What is considered danger is left to the Game Master.",
+                "If you ever become immune to the [@state Fear @] states, the Game Master should choose other Character Features totalling up to 4 points. If the immunity is only temporary, the new Features disappear. For example, the Game Master could choose Mute and Easily Possessed since your mind has a hard time adjusting to the lack of fear it has grown to except."
             ],
             "cost": [3]
         },
@@ -885,7 +886,7 @@
                 "You are clumsy."
             ],
             "effects": [
-                "You suffer a -3 penalty to all physical Skill checks that require coordination and a -3 penalty to all Opposed Dexterity Check."
+                "You suffer a `-3` penalty to all physical Skill Checks that require coordination and a `-3` penalty to all Opposed Dexterity Check."
             ],
             "cost": [2]
         },
@@ -916,7 +917,7 @@
                 "You live with an ironclad code of conduct. You cannot disobey it and must follow it in every circumstance."
             ],
             "effects": [
-                "You have a strict code of conduct in some way related to your background. If you ever deviate from this code, choose other Character Features totalling up to 3 points. You suffer from these new Feature until you atone for breaking your code."
+                "You have a strict code of conduct in some way related to your background. If you ever deviate from this code, the Game Master can choose other Character Features totalling up to 3 points. You suffer from these new Character Features until you atone for breaking your code."
             ],
             "cost": [2]
         },
@@ -936,7 +937,7 @@
                 "You suffer indecision when first starting combat."
             ],
             "effects": [
-                "You suffer a -2 All Action Penalty and a -2 to Characteristic Checks on the first round after rolling Initiative with a new combat."
+                "You suffer a `-2` penalty to all Characteristic and Skill Checks on the first round after rolling [@skill Initiative @] with a new combat."
             ],
             "cost": [2]
         },
@@ -966,7 +967,7 @@
                 "You are not very aware."
             ],
             "effects": [
-                "You suffer a -3 penalty to Secondary Skill Checks based on Perception and to Social Skill Checks."
+                "You suffer a `-3` penalty to Secondary Skill Checks based on Perception and to Social Skill Checks."
             ],
             "cost": [1]
         },
@@ -1012,7 +1013,7 @@
                 "Your attacks are predictable."
             ],
             "effects": [
-                "An opponent gains a +2 bonus to counterattack you."
+                "All creatures gains a `+2` bonus to counterattack you."
             ],
             "limits": [
                 "This Character Feature can only be taken if you have the Fighter, Spiriter, Explorer, or Freelancer archetype."
@@ -1030,22 +1031,12 @@
             "cost": [2]
         },
         {
-            "name": "Trauma",
-            "flavor": [
-                "As you take damage, your body starts to shut down."
-            ],
-            "effects": [
-                "While your Life Points are at or below 50%, you suffer a -2 All Action Penalty. You can gain additional Feature Point if while your Life Points are below 25%, you suffer an additional -2 All Action Penalty."
-            ],
-            "cost": [2, 3]
-        },
-        {
             "name": "Untrained Fighter",
             "flavor": [
                 "You are not properly trained in using weapons."
             ],
             "effects": [
-                "You suffer a -5 penalty to Strike and Block Checks and cannot buy any Combat Modules or Martial Arts."
+                "You suffer a `-5` penalty to [@skill Strike @] and [@skill Block @] Checks and cannot buy any Combat Modules or Martial Arts."
             ],
             "limits": [
                 "This Character Feature can only be taken if you have the Fighter, Spiriter, Explorer, or Freelancer archetype."
@@ -1058,7 +1049,7 @@
                 "Your body has a hard time handling the activation of power."
             ],
             "effects": [
-                "During the End Phase that you use a non-passive power, you must roll 2d6. On a roll of 8 to 11, you suffer a -2 All Action Penalty until the End Phase of next round. On a roll of 12, the All Action Penalty is doubled."
+                "During the End Phase that you use a non-passive power, you must roll 2d6. On a roll of 8 to 11, you suffer a `-2` penalty until the End Phase of next round. On a roll of 12, the penalty is doubled."
             ],
             "cost": [3]
         }

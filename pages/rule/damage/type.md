@@ -10,7 +10,7 @@ Damage in the Physical Damage Group are those done by physical objects, like wea
 
 **Cut**: This damage is done by weapons moving in a slicing motion. Objects carried by strong winds and swinging axes are common sources of this damage type.
 
-**Impact**: When you are struck by heavy blunt objects, or run into them, you take Impact Damage. Falling a great distance and Warhammers are common sources of this damage.
+**Impact**: When you are struck by heavy blunt objects, or run into them, you take Impact Damage. Falling a great distance and warhammers are common sources of this damage.
 
 **Thrust**: Weapons that deal damage by impaling deal Thrust damage. Spears and arrows are common sources of this damage.
 
@@ -33,7 +33,7 @@ The Energy Damage Group is commonly caused by supernatural effects. Many powers 
 **Dark**: Shadowy energies are common sources of this damage type.
 
 ## Resistance Group
-Damage Types in this Group are usually only done as part of a failed Resistance Check from an Effect Power. As a remind, when the damage comes from an Effect Power, the Armor Value is added to the Resistance Check, and does not reduce the Degree of Success or Units of Damage.
+Damage Types in this Group are usually only done as part of a failed Resistance Check from an effect power. As a reminder, when the damage comes from an effect power, the Armor Value is added to the Resistance Check, and does not reduce the Degree of Success or Units of Damage.
 
 **Atomic**: This is damage done at the atomic level. Your atoms being rearranged or acidic substances are common sources of this damage.
 

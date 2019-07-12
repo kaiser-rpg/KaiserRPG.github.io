@@ -1,7 +1,7 @@
 ### Magic
 **Intention**: 2 AP
 
-The _Magic_ intention allows you to manipulate mana, whether that be accumulation or transfer. There are four _Magic_ intentions and each round you can only take one of them. The four options are _Accumulate Pure Mana_, _Accumulate for a Prepared Spell_, _Cast an Innate Spell_, and _Transfer Mana_.
+The [@action Magic @] intention allows you to manipulate mana, whether that be accumulation or transfer. There are four [@action Magic @] intentions and each round you can only take one of them. The four options are [@action Accumulate Pure Mana @], [@action Accumulate for a Prepared Spell @], [@action Cast an Innate Spell @], and [@action Transfer Mana @].
 
 {% include action/intention/magic-mass.md %}
 

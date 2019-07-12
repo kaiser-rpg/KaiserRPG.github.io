@@ -17,7 +17,7 @@ Before we start creating a character, let's start with a brief explanation of th
 
 5. **Spend Experience Points**: You have 60 Experience Points to spend. You can buy almost anything, but the cost is determined by your Class and certain Features. There are a few restrictions on how many of one thing you can buy. This is the hardest part, but provides the greatest amount of diversity between characters.
 
-6. **Fill in the Rest**: All that is left is to fill in the character sheet. The Innate Bonuses from your Race, Class, and Features are all added. You will use all your choices from before to find the final value for your Skills, Life Points, and other values.
+6. **Fill in the Rest**: All that is left is to fill in the character sheet. The innate bonuses from your Race, Class, and Features are all added. You will use all your choices from before to find the final value for your Skills, Life Points, and other values.
 
 {% include meta.html content="To better understand the character creation process, we will provide examples throughout this chapter. The first thing to do is to choose a name and create a concept. The example we will follow is to create Ceil Light-caller." %}
 

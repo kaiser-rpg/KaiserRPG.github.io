@@ -318,7 +318,7 @@
             "type": "table",
             "colLabels": [
                 "Spell Level",
-                "Magic Level Cost"
+                "Mana Knowledge Cost"
             ],
             "colStyles": [
                 "col-6",
@@ -384,79 +384,79 @@
             "rows": [
                 [
                     "Same round",
-                    "-15"
+                    "`-15`"
                 ],
                 [
                     "1 round",
-                    "-10"
+                    "`-10`"
                 ],
                 [
                     "2 rounds",
-                    "-5"
+                    "`-5`"
                 ],
                 [
                     "3 rounds",
-                    "-1"
+                    "`-1`"
                 ],
                 [
                     "5 rounds",
-                    "+0"
+                    "`+0`"
                 ],
                 [
                     "1 minute (10 rounds)",
-                    "+1"
+                    "`+1`"
                 ],
                 [
                     "5 minutes",
-                    "+2"
+                    "`+2`"
                 ],
                 [
                     "15 minutes",
-                    "+3"
+                    "`+3`"
                 ],
                 [
                     "1 hour",
-                    "+4"
+                    "`+4`"
                 ],
                 [
                     "3 hours",
-                    "+5"
+                    "`+5`"
                 ],
                 [
                     "6 hours",
-                    "+6"
+                    "`+6`"
                 ],
                 [
                     "12 hours",
-                    "+7"
+                    "`+7`"
                 ],
                 [
                     "1 week",
-                    "+10"
+                    "`+10`"
                 ],
                 [
                     "1 month",
-                    "+12"
+                    "`+12`"
                 ],
                 [
                     "6 months",
-                    "+15"
+                    "`+15`"
                 ],
                 [
                     "1 year",
-                    "+20"
+                    "`+20`"
                 ],
                 [
                     "5 years",
-                    "+30"
+                    "`+30`"
                 ],
                 [
                     "10 years",
-                    "+40"
+                    "`+40`"
                 ],
                 [
                     "50 years",
-                    "+50"
+                    "`+50`"
                 ]
             ]
         },
@@ -480,47 +480,47 @@
             "rows": [
                 [
                     "Totem contains the creature's true name",
-                    "+8"
+                    "`+8`"
                 ],
                 [
                     "Totem contains the creature's legendary name",
-                    "+3"
+                    "`+3`"
                 ],
                 [
                     "Totem contains the creature's common name",
-                    "+2"
+                    "`+2`"
                 ],
                 [
                     "Totem contains an object that belonged to the creature",
-                    "+2"
+                    "`+2`"
                 ],
                 [
                     "Totem contains an object that the creature made",
-                    "+1"
+                    "`+1`"
                 ],
                 [
                     "Totem contains a part of the exact creature",
-                    "+5"
+                    "`+5`"
                 ],
                 [
                     "Totem contains a piece of the same species",
-                    "+2"
+                    "`+2`"
                 ],
                 [
                     "Totem contains detailed knowledge of the creature",
-                    "+3"
+                    "`+3`"
                 ],
                 [
                     "Totem contains a description of the creature",
-                    "+1"
+                    "`+1`"
                 ],
                 [
                     "Totem contains the complete stories about the creature",
-                    "+2"
+                    "`+2`"
                 ],
                 [
                     "Totem contains the incomplete stories about the creature",
-                    "+1"
+                    "`+1`"
                 ],
                 [
                     "Totem's level is higher than the creatures",
@@ -532,15 +532,15 @@
                 ],
                 [
                     "Totem for the same type of creature",
-                    "+0"
+                    "`+0`"
                 ],
                 [
                     "Totem for a different type of creature",
-                    "-5"
+                    "`-5`"
                 ],
                 [
                     "Un-attuned Totem",
-                    "-5"
+                    "`-5`"
                 ]
             ]
         }

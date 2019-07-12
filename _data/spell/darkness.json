@@ -10,7 +10,7 @@
         "maintTime": "day",
         "tags": [],
         "description": [
-            "You remove mundane light from the area."
+            "You remove natural light from the area."
         ],
         "degree": {
             "base": {
@@ -58,7 +58,7 @@
         "maintTime": "no",
         "tags": [],
         "description": [
-            "You cause all creatures within the area to become afraid of an object of your choice. A target must make a SR or MR Check or gain the Shaken State when they can see the object. This effect lasts a number of rounds equal to the target's Degree of Failure."
+            "You cause all creatures within the area to become afraid of an object of your choice. A target must make a [@skill PhR @] or [@skill PhR @] Check or gain the [@state Shaken @] state when they can see the object. This effect lasts a number of rounds equal to the target's Degree of Failure."
         ],
         "degree": {
             "base": {
@@ -66,7 +66,7 @@
                 "int": 5,
                 "maint": 0,
                 "effect": [
-                    "SR or MR 8",
+                    "[@skill PhR @] or [@skill PhR @] 8",
                     "30-foot radius"
                 ]
             },
@@ -75,7 +75,7 @@
                 "int": 8,
                 "maint": 0,
                 "effect": [
-                    "SR or MR 10",
+                    "[@skill PhR @] or [@skill PhR @] 10",
                     "60-foot radius"
                 ]
             },
@@ -84,7 +84,7 @@
                 "int": 10,
                 "maint": 0,
                 "effect": [
-                    "SR or MR 12",
+                    "[@skill PhR @] or [@skill PhR @] 12",
                     "120-foot radius"
                 ]
             },
@@ -93,7 +93,7 @@
                 "int": 12,
                 "maint": 0,
                 "effect": [
-                    "SR or MR 14",
+                    "[@skill PhR @] or [@skill PhR @] 14",
                     "250-foot radius"
                 ]
             }
@@ -110,7 +110,7 @@
         "maintTime": "day",
         "tags": [],
         "description": [
-            "You select any number of objects whose total presence is less than the listed amount and they gain the ability to see in mundane darkness."
+            "You select any number of objects whose total Presence is less than the listed amount and they gain the ability to see in natural darkness."
         ],
         "degree": {
             "base": {
@@ -162,7 +162,7 @@
             "imbued"
         ],
         "description": [
-            "You create a supernatural barrier with the Imbued trait. Attacks using the Light Damage Type cause double damage to the barrier."
+            "You create a supernatural barrier with the [@trait Imbued @] trait. Attacks using the Light Damage Type cause double damage to the barrier."
         ],
         "degree": {
             "base": {
@@ -211,7 +211,7 @@
         "maintTime": "turn",
         "tags": [],
         "description": [
-            "You improve your concealing abilities. Your Stealth Skill Checks gain the listed bonus. Your Magic Appraisal Skill Checks to hide your mana gain the same bonus."
+            "You improve your concealing abilities. Your [@skill Stealth @] Skill Checks gain the listed bonus. Your [@skill Magic Appraisal @] Skill Checks to hide your mana gain the same bonus."
         ],
         "degree": {
             "base": {
@@ -219,7 +219,7 @@
                 "int": 6,
                 "maint": 5,
                 "effect": [
-                    "+4 bonus"
+                    "`+4` bonus"
                 ]
             },
             "intermediate": {
@@ -227,7 +227,7 @@
                 "int": 9,
                 "maint": 15,
                 "effect": [
-                    "+8 bonus"
+                    "`+8` bonus"
                 ]
             },
             "advanced": {
@@ -235,7 +235,7 @@
                 "int": 12,
                 "maint": 20,
                 "effect": [
-                    "+12 bonus"
+                    "`+12` bonus"
                 ]
             },
             "arcane": {
@@ -243,7 +243,7 @@
                 "int": 15,
                 "maint": 25,
                 "effect": [
-                    "+16 bonus"
+                    "`+16` bonus"
                 ]
             }
         }
@@ -312,7 +312,7 @@
         "maintTime": "turn",
         "tags": [],
         "description": [
-            "You cause all light with the area to be banished. On the End Phase, any light-based creature in the area must make a SR Check or take 20 Force Damage per Degree of Failure (Rex creatures multiply the damage by their Rex Multiplier)."
+            "You cause all light with the area to be banished. On the End Phase, any light-based creature in the area must make a [@skill PhR @] Check or take 20 Force Damage per Degree of Failure (Rex creatures multiply the damage by their Rex Multiplier)."
         ],
         "degree": {
             "base": {
@@ -320,7 +320,7 @@
                 "int": 6,
                 "maint": 10,
                 "effect": [
-                    "SR 14",
+                    "[@skill PhR @] 14",
                     "30-foot radius"
                 ]
             },
@@ -329,7 +329,7 @@
                 "int": 9,
                 "maint": 15,
                 "effect": [
-                    "SR 18",
+                    "[@skill PhR @] 18",
                     "300-foot radius"
                 ]
             },
@@ -338,7 +338,7 @@
                 "int": 12,
                 "maint": 20,
                 "effect": [
-                    "SR 22",
+                    "[@skill PhR @] 22",
                     "800-foot radius"
                 ]
             },
@@ -347,7 +347,7 @@
                 "int": 15,
                 "maint": 25,
                 "effect": [
-                    "SR 26",
+                    "[@skill PhR @] 26",
                     "1500-foot radius"
                 ]
             }
@@ -364,7 +364,7 @@
         "maintTime": "turn",
         "tags": [],
         "description": [
-            "You select a spell or an object, it can be a person or thing, and hide its magical properties. Any Magic Appraisal Skill Check made to detect or measure the target suffers the listed penalty. Attempts to detect the Hide Mana spell also suffer the same penalty."
+            "You select a spell or an object, it can be a person or thing, and hide its magical properties. Any [@ Magic Appraisal @] Check made to detect or measure the target suffers the listed penalty. Attempts to detect the Hide Mana spell also suffer the same penalty."
         ],
         "degree": {
             "base": {
@@ -372,7 +372,7 @@
                 "int": 6,
                 "maint": 5,
                 "effect": [
-                    "-10 penalty"
+                    "`-10` penalty"
                 ]
             },
             "intermediate": {
@@ -380,7 +380,7 @@
                 "int": 9,
                 "maint": 20,
                 "effect": [
-                    "-18 penalty"
+                    "`-18` penalty"
                 ]
             },
             "advanced": {
@@ -388,7 +388,7 @@
                 "int": 12,
                 "maint": 25,
                 "effect": [
-                    "-24 penalty"
+                    "`-24` penalty"
                 ]
             },
             "arcane": {
@@ -396,7 +396,7 @@
                 "int": 15,
                 "maint": 30,
                 "effect": [
-                    "-320 penalty"
+                    "`-32` penalty"
                 ]
             }
         }
@@ -460,7 +460,7 @@
         "maintTime": "turn",
         "tags": [],
         "description": [
-            "You enchant the area to cloud the senses of anyone within it. All Skill Checks made to sense something suffer a -8 penalty and Perception Characteristic Checks suffer a -4 penalty. The Resistance Check Difficulty of any Detection Power is also reduced by 4. This spell cannot select targets, even if another power would allow you to; everyone in the area is equally affected."
+            "You enchant the area to cloud the senses of anyone within it. All Skill Checks made to sense something suffer a `-8` penalty and [@stat Perception @] Characteristic Checks suffer a `-4` penalty. The Resistance Check Difficulty of any detection power is also reduced by 4. This spell cannot select targets, even if another power would allow you to; everyone in the area is equally affected."
         ],
         "degree": {
             "base": {
@@ -510,7 +510,7 @@
             "trapping"
         ],
         "description": [
-            "You create chains made from pure darkness. Make a Trap Maneuver using the listed Strength for the Opposed Characteristic Check. The chains have the immaterial trait and a Fortitude of 25. While immaterial, the chains can interact with material objects."
+            "You create chains made from pure darkness. Make a [@action Trap @] maneuver using the listed Strength for the Opposed Characteristic Check. The chains have the [@trait Immaterial @] trait and a Fortitude of 25. While immaterial, the chains can interact with material objects."
         ],
         "degree": {
             "base": {
@@ -518,7 +518,7 @@
                 "int": 6,
                 "maint": 10,
                 "effect": [
-                    "Strength 8"
+                    "[@stat Strength @] 8"
                 ]
             },
             "intermediate": {
@@ -526,7 +526,7 @@
                 "int": 9,
                 "maint": 10,
                 "effect": [
-                    "Strength 10"
+                    "[@stat Strength @] 10"
                 ]
             },
             "advanced": {
@@ -534,7 +534,7 @@
                 "int": 12,
                 "maint": 15,
                 "effect": [
-                    "Strength 12",
+                    "[@stat Strength @] 12",
                     "Fortitude 30"
                 ]
             },
@@ -543,7 +543,7 @@
                 "int": 15,
                 "maint": 15,
                 "effect": [
-                    "Strength 16",
+                    "[@stat Strength @] 16",
                     "Fortitude 35"
                 ]
             }
@@ -561,7 +561,7 @@
         "maintTime": "turn",
         "tags": [],
         "description": [
-            "You can modify and control the form and intensity of darkness within the area. A darkness-based creature must pass a SR Check or fall under your control. The creature can repeat this check after a number of rounds equal to their Degree of Failure or if ordered to do something against its nature. If the creature ever leaves the radius, you lose control.",
+            "You can modify and control the form and intensity of darkness within the area. A darkness-based creature must pass a [@skill PhR @] Check or fall under your control. The creature can repeat this check after a number of rounds equal to their Degree of Failure or if ordered to do something against its nature. If the creature ever leaves the radius, you lose control.",
             "You can cause any attacks within the area using Darkness Damage to suffer two Degrees of Disadvantage on the Offensive Roll."
         ],
         "degree": {
@@ -570,7 +570,7 @@
                 "int": 6,
                 "maint": 5,
                 "effect": [
-                    "SR 8",
+                    "[@skill PhR @] 8",
                     "30-foot radius"
                 ]
             },
@@ -579,7 +579,7 @@
                 "int": 9,
                 "maint": 20,
                 "effect": [
-                    "SR 14",
+                    "[@skill PhR @] 14",
                     "150-foot radius"
                 ]
             },
@@ -588,7 +588,7 @@
                 "int": 12,
                 "maint": 25,
                 "effect": [
-                    "SR 18",
+                    "[@skill PhR @] 18",
                     "300-foot radius"
                 ]
             },
@@ -597,7 +597,7 @@
                 "int": 16,
                 "maint": 30,
                 "effect": [
-                    "SR 22",
+                    "[@skill PhR @] 22",
                     "500-foot radius"
                 ]
             }

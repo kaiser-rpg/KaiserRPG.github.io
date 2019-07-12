@@ -1,6 +1,6 @@
 ---
-title: Human
-permalink: char_heritage_human.html
+title: Haruw
+permalink: char_heritage_haruw.html
 toc: false
 ---
 

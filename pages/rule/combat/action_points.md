@@ -17,4 +17,4 @@ The second type of cost is called Complete AP. Like numerical, it will appear af
 In addition to spend AP, you can lose it when something distracts you, splitting your attention. The most common example of this is when you are subject to an attack. If you fail to defend yourself, you gain one or more Degrees of Failure on a Defensive Roll, you lose 1 AP. This lose of AP occurs with each successful hit, even if the attack ends up dealing no damage.
 
 ### Flat-Footed
-When you have no remaining AP and are subject to a forced AP lose, like when hit by an attack, you gain the Flat-Footed State. This means you cannot take any Active Actions or Reactions, even if their AP cost is 0, and you lose any remaining Movement Distance.
+When you have no remaining AP and are subject to a forced AP lose, like when hit by an attack, you gain the [@state Flat-Footed @] State. This means you cannot take any Active Actions or Reactions, even if their AP cost is 0, and you lose any remaining Movement Distance.

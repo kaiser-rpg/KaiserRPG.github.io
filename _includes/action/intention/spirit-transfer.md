@@ -4,4 +4,4 @@ When you declare this intention, as a Swift Action you can push an amount of ki,
 
 If you are in contact with a Ki Battery, you can instead pull ki from it. Pulling and pushing ki both have a shared maximum per round equal to the sum of your chakras.
 
-To use this Intention, you must first have mastered the Ki Transfer Talent.
+To use this intention, you must first have mastered the Ki Transfer Talent.s

@@ -6,7 +6,7 @@
                 "You have a strong connection to mana or maybe understand magical theory at an intuitive level."
             ],
             "effects": [
-                "Your Intelligence Characteristic is 3 points higher for the purpose to determining the maximum spell degree you can achieve. This does not apply to any other use of Intelligence."
+                "Your [@stat Intelligence @] Characteristic is 3 points higher for the purpose to determining the maximum spell degree you can achieve. This does not apply to any other use of [@stat Intelligence @]."
             ],
             "cost": [1]
         },
@@ -16,7 +16,7 @@
                 "Your attack spells are unusually stronger than other spells they collide with."
             ],
             "effects": [
-                "You apply a +3 bonus to the Collision’s Opposed Characteristic Checks."
+                "You apply a `+3` bonus to the Collision’s Opposed Characteristic Checks."
             ],
             "cost": [1]
         },
@@ -56,7 +56,7 @@
                 "This feature means you have an affinity for a certain path of magic. You know how to use this path without having learned the theory."
             ],
             "effects": [
-                "Choose one path of magic. You gain all spells, and general spells, up to level 40 without investing any Mana Knowledge. You can continue to develop it beyond level 40 by spending Magic Levels as per usual."
+                "Choose one path of magic. You gain all spells, and general spells, up to level 40 without investing any Mana Knowledge. You can continue to develop it beyond level 40 by spending Mana Knowledge as per usual."
             ],
             "limits": [
                 "This feature can be taken multiple times; each time chose a different path."
@@ -89,7 +89,7 @@
                 "You have a natural talent to hide your magic."
             ],
             "effects": [
-                "You gain natural bonus of +3 to Magic Appraisal to hide your magic."
+                "You gain natural bonus of `+3` to [@skill Magic Appraisal @] to hide your magic."
             ],
             "restrictions": [
                 "You can take this Character Feature up to three times."
@@ -122,7 +122,7 @@
                 "Your spirit can possess more mana than your peers."
             ],
             "effects": [
-                "You gain a +50 Innate Bonus to mana per level."
+                "You gain an innate bonus of `+50` per level to mana."
             ],
             "restrictions": [
                 "You can take this Character Feature up to three times."
@@ -135,7 +135,7 @@
                 "You have a natural understanding of how spells work."
             ],
             "effects": [
-                "The maximum Spell Degree you can cast is determined by your Focus Characteristic, instead of your Intelligence."
+                "The maximum Spell Degree you can cast is determined by your [@stat Focus @] Characteristic, instead of your [@stat Intelligence @]."
             ],
             "cost": [1]
         },
@@ -167,7 +167,7 @@
                 "You cannot quite fathom the theory of magic without a constant reference."
             ],
             "effects": [
-                "You can only cast spells that you have learned from a Grimoire. Spells in the Grimoire that you have not learned cannot be cast."
+                "You can only cast spells that you have learned while reading from a Grimoire. Spells in the Grimoire that you have not learned cannot be cast."
             ],
             "cost": [4]
         },
@@ -177,7 +177,7 @@
                 "Your mana is different. The best description is that it is more viscous."
             ],
             "effects": [
-                "Your Final Mana Accumulation and Spell Projection Values are halved when you are not casting Innate Spells and cannot absorb mana from others or containers that do not also have this feature."
+                "Your Final Mana Accumulation and [@skill Spell Projection @] Values are halved when you are not casting Innate Spells and you cannot absorb mana from others or containers that do not also have this feature."
             ],
             "cost": [4]
         },
@@ -187,7 +187,7 @@
                 "Mana does not flow to you for some reason."
             ],
             "effects": [
-                "Your Mana Recovery is always 0 and cannot be modified by any means. You can only regain mana by draining objects containing mana or willing creatures with the Gift."
+                "Your Mana Recovery is always 0 and cannot be modified by any means. You can only regain mana by draining objects containing mana or willing creatures with The Gift."
             ],
             "cost": [5]
         },
@@ -197,7 +197,7 @@
                 "The spells you cast were practiced using material object and your understanding of magical theory revolves around that."
             ],
             "effects": [
-                "This feature has two levels that cause you to require a material component to cast any spell. For 2 Feature Point, you require a wand, staff, crystal, or any other mana infused object to accumulate mana and cast spell. The object must have a Presence equal to or higher than the Intelligence Required for any spell you cast. For 2 FP, each spell you know requires a different component as determined by the GM – according to its origin and your knowledge of magic."
+                "This feature has two levels that cause you to require a material component to cast any spell. For 2 Feature Point, you require a wand, staff, crystal, or any other mana infused object to accumulate mana and cast spell. The object must have a Presence equal to or higher than the Intelligence Required for any spell you cast. For 2 FP, each spell you know requires a different component as determined by the GM -– according to its origin and your knowledge of magic."
             ],
             "cost": [2,3]
         },
@@ -227,7 +227,7 @@
                 "Your control of mana requires specific conditions to be meet before it can be performed. Examples include, you must perform a dance or it must be sunny."
             ],
             "effects": [
-                "You require a certain condition or action to be taken in order to be able to accumulate Mana and cast spells. If the action is a Secondary Skill, you must roll a Difficulty Skill Check equal to the Required Intelligence of the spell being cast. Failure for this Skill Check causes the accumulated Mana to return to your pool.  "
+                "You require a certain condition or action to be taken in order to be able to accumulate Mana and cast spells. If the action is a Secondary Skill, you must roll a Difficulty Skill Check equal to the Required Intelligence of the spell being cast. Failure for this Skill Check causes the accumulated Mana to return to your pool and you lose 10 mana from the stress of its return."
             ],
             "cost": [2]
         },

@@ -18,7 +18,7 @@
                     {
                         "type": "list",
                         "items": [
-                            "Make Acrobatics Skill Check with Difficulty based on height.",
+                            "Make [@skill Acrobatics @] Check with Difficulty based on height.",
                             "Final Damage = DoF &times; Base Damage &times; Size Damage Multiplier",
                             "Fall 500 feet first round, then 1000 feet each round."
                         ]
@@ -29,9 +29,9 @@
                     {
                         "type": "list",
                         "items": [
-                            "Keep Breath with Con Check on End Phase, each success increase difficulty +1. Prepared DC 5. Unprepared DC 10",
-                            "Once lost breath, make PhR 8 on End Phase, each success increase difficulty +1.",
-                            "While lost breath, gain -1 All Action Penalty."
+                            "Keep Breath with [@stat Constitution @] Check on End Phase, each success increase difficulty +1. Prepared DC 5. Unprepared DC 10",
+                            "Once lost breath, make [@skill PhR @] 8 on End Phase, each success increase difficulty +1.",
+                            "Each round of lost breath, gain [@state Pain (1) @]."
                         ]
                     }
                 ],
@@ -40,8 +40,8 @@
                     {
                         "type": "list",
                         "items": [
-                            "You suffer a -10 penalty on all Perception based Checks and cannot take any actions or roll Initiative.",
-                            "You can be woken with 2 AP or a -4 penalty on Initiative."
+                            "You suffer a `-10` penalty on all [@stat Perception @] based Checks and cannot take any actions or roll [@skill Initiative @].",
+                            "You can be woken with 2 AP or a `-4` penalty on [@skill Initiative @]."
                         ]
                     }
                 ],
@@ -50,7 +50,7 @@
                     {
                         "type": "list",
                         "items": [
-                            "You suffer a -3 penalty on all Checks that require sight."
+                            "You suffer a `-3` penalty on all Checks that require sight."
                         ]
                     }
                 ],
@@ -59,7 +59,7 @@
                     {
                         "type": "list",
                         "items": [
-                            "You suffer a -9 penalty on all Checks that require sight."
+                            "You suffer a `-9` penalty on all Checks that require sight."
                         ]
                     }
                 ],
@@ -68,7 +68,7 @@
                     {
                         "type": "list",
                         "items": [
-                            "You suffer D2 on all Physical Checks."
+                            "You suffer D2 on all physical Checks."
                         ]
                     }
                 ],
@@ -77,7 +77,7 @@
                     {
                         "type": "list",
                         "items": [
-                            "You suffer D2 on all Physical Checks."
+                            "You suffer D2 or more on all physical Checks."
                         ]
                     }
                 ],
@@ -86,7 +86,7 @@
                     {
                         "type": "list",
                         "items": [
-                            "You suffer a -2 penalty on all Checks that require sight."
+                            "You suffer a `-2` penalty on all Checks that require freedom of movement."
                         ]
                     }
                 ],
@@ -95,7 +95,7 @@
                     {
                         "type": "list",
                         "items": [
-                            "You suffer a -12 penalty on all Checks that require sight."
+                            "You suffer a `-12` penalty on all Checks that require freedom of movement."
                         ]
                     }
                 ],
@@ -104,7 +104,7 @@
                     {
                         "type": "list",
                         "items": [
-                            "You suffer a -32 penalty on all Checks that require sight.",
+                            "You suffer a `-32` penalty on all Checks that require freedom of movement.",
                             "You cannot move."
                         ]
                     }
@@ -131,8 +131,8 @@
                     {
                         "type": "list",
                         "items": [
-                            "Opponent suffer -1 penalty to Offensive Rolls vs you.",
-                            "Opponent suffer -3 penalty to Defensive Rolls vs you."
+                            "Opponent suffer `-1` penalty to Offensive Rolls vs. you.",
+                            "Opponent suffer `-3` penalty to Defensive Rolls vs. you."
                         ]
                     }
                 ],
@@ -141,8 +141,8 @@
                     {
                         "type": "list",
                         "items": [
-                            "Opponent suffer -3 penalty to Offensive Rolls vs you.",
-                            "Opponent suffer -8 penalty to Defensive Rolls vs you."
+                            "Opponent suffer `-3` penalty to Offensive Rolls vs. you.",
+                            "Opponent suffer `-8` penalty to Defensive Rolls vs. you."
                         ]
                     }
                 ],
@@ -152,9 +152,9 @@
                         "type": "list",
                         "items": [
                             "You can attack your opponent as a Swift Action. This ends the state.",
-                            "Opponent suffers -2 penalty to all Offensive Rolls.",
-                            "Opponent suffers -10 penalty to Defensive Rolls and Physical Skill Checks vs you.",
-                            "Opponent suffers -5 penalty to Initiative."
+                            "Opponent suffers `-2` penalty to all Offensive Rolls.",
+                            "Opponent suffers `-10` penalty to Defensive Rolls and physical Skill Checks vs you.",
+                            "Opponent suffers `-5` penalty to Initiative."
                         ]
                     }
                 ],
@@ -163,7 +163,7 @@
                     {
                         "type": "list",
                         "items": [
-                            "Opponent suffers D1 to all Physical Skill Checks vs you."
+                            "Opponent suffers D1 to all physical Skill Checks vs. you."
                         ]
                     }
                 ],
@@ -172,8 +172,8 @@
                     {
                         "type": "list",
                         "items": [
-                            "You gain A1 to all Offensive Rolls vs opponent.",
-                            "You gain A1 to all Defensive Rolls vs opponent."
+                            "You gain A1 to all Offensive Rolls vs. opponent.",
+                            "You gain A1 to all Defensive Rolls vs. opponent."
                         ]
                     }
                 ],
@@ -182,7 +182,7 @@
                     {
                         "type": "list",
                         "items": [
-                            "Opponent suffers -9 penalty to all Skill Checks vs you."
+                            "Opponent suffers `-9` penalty to all Skill Checks vs. you."
                         ]
                     }
                 ],
@@ -192,7 +192,7 @@
                         "type": "list",
                         "items": [
                             "Opponent cannot attack you and is friendly.",
-                            "You gain A1 to all positive social interactions vs opponent."
+                            "You gain A1 to all positive social interactions vs. opponent."
                         ]
                     }
                 ]
@@ -218,7 +218,7 @@
                     {
                         "type": "list",
                         "items": [
-                            "Strike and Block Checks using the weapon suffers D1."
+                            "[@skill Strike @] and [@skill Block @] Checks using the weapon suffers D1."
                         ]
                     }
                 ],
@@ -227,7 +227,7 @@
                     {
                         "type": "list",
                         "items": [
-                            "Strike and Block Checks using the weapon suffers D2."
+                            "[@skill Strike @] and [@skill Block @] Checks using the weapon suffers D2."
                         ]
                     }
                 ],
@@ -246,7 +246,7 @@
                     {
                         "type": "list",
                         "items": [
-                            "Suffer an All Action Penalty."
+                            "Suffer an all-action penalty."
                         ]
                     }
                 ],
@@ -255,7 +255,7 @@
                     {
                         "type": "list",
                         "items": [
-                            "Reduce Strength, Dexterity, and Agility."
+                            "Reduce [@stat Strength @], [@stat Dexterity @], and [@stat Agility @]."
                         ]
                     }
                 ],
@@ -264,7 +264,7 @@
                     {
                         "type": "list",
                         "items": [
-                            "Reduce Perception and Intelligence."
+                            "Reduce [@stat Perception @] and [@stat Intelligence @]."
                         ]
                     }
                 ],
@@ -273,7 +273,7 @@
                     {
                         "type": "list",
                         "items": [
-                            "Reduce Focus and Willpower."
+                            "Reduce [@stat Focus @] and [@stat Willpower @]."
                         ]
                     }
                 ],
@@ -373,7 +373,7 @@
                         "items": [
                             "Occurs when LP is zero or less",
                             "You lose 10 LP every hour.",
-                            "Every hour make a PrR 12 to become Unconscious."
+                            "Every hour make a [@skill PrR @] 12 to become stable."
                         ]
                     }
                 ],
@@ -417,7 +417,7 @@
                     {
                         "type": "list",
                         "items": [
-                            "You suffer D1 to hand-to-hand Offensive Rolls and Block Checks with new weapon."
+                            "You suffer D1 to hand-to-hand Offensive Rolls and [@skill Block @] Checks with new weapon."
                         ]
                     }
                 ],
@@ -463,7 +463,7 @@
                     {
                         "type": "list",
                         "items": [
-                            "You suffer -1 penalty to first ranged Offensive Roll vs new target."
+                            "You suffer `-1` penalty to first ranged Offensive Roll vs. new target."
                         ]
                     }
                 ],
@@ -472,7 +472,7 @@
                     {
                         "type": "list",
                         "items": [
-                            "You suffer -4 penalty to ranged Offensive Rolls vs target mostly covered.",
+                            "You suffer `-4` penalty to ranged Offensive Rolls vs. target mostly covered.",
                             "You cannot attack targets completely covered."
                         ]
                     }

@@ -1,6 +1,6 @@
 ---
-title: Human
-permalink: char_heritage_human.html
+title: Baset
+permalink: char_heritage_baset.html
 toc: false
 ---
 

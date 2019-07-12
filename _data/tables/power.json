@@ -44,31 +44,31 @@
             "rows": [
                 [
                     "Active",
-                    "Use the action <b>Use an Active Power</b>."
+                    "Use the action [@action Use an Active Power @]."
                 ],
                 [
                     "Reaction",
-                    "Use the action <b>Use an Reaction Power</b>."
+                    "Use the action [@action Use an Reaction Power @]."
                 ],
                 [
                     "Swift",
-                    "Use the action <b>Use an Swift Power</b>."
+                    "Use the action [@action Use an Swift Power @]."
                 ],
                 [
                     "Attack",
-                    "The power is activated as part of <b>Attack Action</b>, but instead of making an Offensive Roll with a weapon, the power will list what to use. This counts towards and is affected by the multiple attack penalty."
+                    "The power is activated as part of [@action Attack Action @], but instead of making an Offensive Roll with a weapon, the power will list what to use. This counts towards and is affected by the multiple attack penalty."
                 ],
                 [
                     "Defend",
-                    "Use the action <b>Defend with a Power</b>. Some powers with this requirement are instead activated as part of the <b>Defend with Block or Dodge Action</b>. If you wish to activate it before making a defense, you can activate it as an active power."
+                    "Use the action [@action Defend with a Barrier @]. Some powers with this requirement are instead activated as part of the [@action Defend with Block or Dodge Action @]."
                 ],
                 [
                     "Counterattack",
-                    "The power is activated as part of <b>Counter Action</b>, but instead of making an Offensive Roll with a weapon, the power will list what to use. This counts towards and is affected by the multiple attack penalty."
+                    "The power is activated as part of [@action Counter @] action, but instead of making an Offensive Roll with a weapon, the power will list what to use. This counts towards and is affected by the multiple attack penalty."
                 ],
                 [
                     "Complete Round",
-                    "The activation of the power must be declared as an Intention. The effects of the power do not occur until the End Phase."
+                    "Use the action [@action Use a Complete Power @]. The effects of the power do not occur until the End Phase."
                 ]
             ]
         }

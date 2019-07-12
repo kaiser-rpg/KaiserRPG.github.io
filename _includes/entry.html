@@ -14,7 +14,11 @@
             {% elsif entry.type == "example" %}
                 {% include example.html content=entry.entries %}
             {% elsif entry.type == "entries" %}
-                <div style="outline-style: double;">
+                {% if entry.outline > 0 %}
+                <div class="outlineAB">
+                {% else %}
+                <div>
+                {% endif %}
                     {% if entry.name %}
                         {% if level == 0 %}
                             <div class="entry-level-0-title">{{entry.name}}</div>

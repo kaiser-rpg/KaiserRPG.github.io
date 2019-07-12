@@ -3,7 +3,7 @@ title: "Step 3: Choose your Class"
 permalink: rule_creation_3_class.html
 ---
 
-A class defines how you will be spending your XP on abilities and skills. Each class has the ability to develop any thing in the system, but not always at the same cost. Think of a class as the exchange rate to learn something. 
+A class defines how you will be spending your XP on abilities and skills. Each class has the ability to develop any ability in the system, but not always at the same cost. Think of a class as the exchange rate to learn something. 
 
 The list of twenty classes can be found [here](class_intro.html).
 
@@ -50,7 +50,7 @@ Your class will determine the percentage of XP you can spend here, between 50% a
 These are the costs of developing your offensive and defensive combat skills. No more than 40% of your total XP can be invested in the sum of these skills, and no more than 25% can be spent on a single skill.
 
 ### Wear Armor
-This is the cost to develop the ability to Wear Armor.
+This is the cost to develop the ability to [@skill Wear Armor @].
 
 ### Ki
 This is the cost of developing ten new points of ki.
@@ -73,8 +73,8 @@ This is the cost for increasing your Mana Accumulation (MA). If you possess the 
 ### Mana Recovery Multiple
 This is the cost for increasing your Mana Recovery (MR). You start with one multiple and by investing the number of XP listed you increase your recovery by one multiple.
 
-### Magic Projection
-This is the cost to develop your ability to direct spells. No more than 20% of your total XP can be invested in Magic Projection.
+### Spell Projection
+This is the cost to develop your ability to direct spells. No more than 20% of your total XP can be invested in this skill.
 
 ### Summon, Control, and Banish
 These numbers are the cost of developing your skills related to conjuring.
@@ -95,4 +95,4 @@ This is the cost to develop the ability to direct phenom. No more than 20% of yo
 This indicates how many Phenom Points you receive per level. If you have access to a Manifest Disciplines, you begin the game with a single PP, and after gaining a certain number of levels, you receive another for free. If for example, you receive one additional PP for every 3 levels, you will acquire a second PP at 4th level.
 
 ## Innate Bonuses
-These are the special bonuses intrinsic to each class. You receive these bonuses upon choosing a class, and then you receive the same as a bonus each time you gain a level. The Innate Bonuses for Strike, Blocking, or Dodging can never exceed +5, but all others can increase without limit.
+These are the special bonuses intrinsic to each class. You receive these bonuses upon choosing a class, and then you receive the same as a bonus each time you gain a level. The innate bonuses for [@skill Strike @], [@skill Blocking @], or [@skill Dodging @] can never exceed `+5`, but all others can increase without limit.

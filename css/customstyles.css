@@ -665,6 +665,11 @@ h5 {
     font-weight: bold;
 }
 
+.outlineAB {
+    outline-style: double; 
+    padding: 5px;
+}
+
 table.weaponTable {
     width: 100%;
 }

@@ -118,7 +118,7 @@
         "maintTime": "no",
         "tags": [],
         "description": [
-            "You temporarily suppress any negative emotions from creatures around you. A creature can resist this by making a SR or MR Check. A creature affected removes the Anger or Rage State and reduces the Fear State by one degree. This spell does not stop actions done in cold blood. This effect only lasts until the End Phase, at which point the negative emotions return."
+            "You temporarily suppress any negative emotions from creatures around you. A creature can resist this by making a [@skill SR @] or [@skill MR @] Check. A creature affected removes the [@state Anger @] or [@state Rage @] State and reduces the [@state Fear @] State by one degree. This spell does not stop actions done in cold blood. This effect only lasts until the End Phase, at which point the negative emotions return."
         ],
         "degree": {
             "base": {
@@ -126,7 +126,7 @@
                 "int": 6,
                 "maint": 0,
                 "effect": [
-                    "SR or MR 8",
+                    "[@skill SR @] or [@skill MR @] 8",
                     "30-foot radius"
                 ]
             },
@@ -135,7 +135,7 @@
                 "int": 9,
                 "maint": 0,
                 "effect": [
-                    "SR or MR 10",
+                    "[@skill SR @] or [@skill MR @] 10",
                     "60-foot radius"
                 ]
             },
@@ -144,7 +144,7 @@
                 "int": 12,
                 "maint": 0,
                 "effect": [
-                    "SR or MR 12",
+                    "[@skill SR @] or [@skill MR @] 12",
                     "120-foot radius"
                 ]
             },
@@ -153,7 +153,7 @@
                 "int": 15,
                 "maint": 0,
                 "effect": [
-                    "SR or MR 14",
+                    "[@skill SR @] or [@skill MR @] 14",
                     "250-foot radius"
                 ]
             }
@@ -170,8 +170,8 @@
         "maintTime": "no",
         "tags": [],
         "description": [
-            "You create a bright flash of light around you. Any creature, other than you, within the area must make a PhR Check or suffer the Partially Blind State for a number of rounds equal to their Degree of Failure. If the DoF is 10 or greater, the creature instead gains the Totally Blind State until they have less than 10 rounds left.",
-            "A creature gains a +4 to their Resistance Check if they are looking away or have their eyes covered. Closing eyes is not sufficient to count as cover."
+            "You create a bright flash of light around you. Any creature, other than you, within the area must make a [@skill PhR @] Check or suffer the [@state Partially Blind @] state for a number of rounds equal to their Degree of Failure. If the DoF is 10 or greater, the creature instead gains the [@state Totally Blind @] state until they have less than 10 rounds left.",
+            "A creature gains a `+4` to their Resistance Check if they are looking away or have their eyes covered. Closing eyes is not sufficient to count as cover."
         ],
         "degree": {
             "base": {
@@ -179,7 +179,7 @@
                 "int": 6,
                 "maint": 0,
                 "effect": [
-                    "PhR 14",
+                    "[@skill PhR @] 14",
                     "30-foot radius"
                 ]
             },
@@ -188,7 +188,7 @@
                 "int": 9,
                 "maint": 0,
                 "effect": [
-                    "PhR 14",
+                    "[@skill PhR @] 14",
                     "60-foot radius"
                 ]
             },
@@ -197,7 +197,7 @@
                 "int": 12,
                 "maint": 0,
                 "effect": [
-                    "PhR 14",
+                    "[@skill PhR @] 14",
                     "120-foot radius"
                 ]
             },
@@ -206,7 +206,7 @@
                 "int": 15,
                 "maint": 0,
                 "effect": [
-                    "PhR 14",
+                    "[@skill PhR @] 14",
                     "250-foot radius"
                 ]
             }
@@ -226,7 +226,7 @@
             "imbued"
         ],
         "description": [
-            "You create a supernatural barrier with the Imbued trait. Attacks using the Darkness Damage Type cause double damage to the barrier."
+            "You create a supernatural barrier with the [@trait Imbued @] trait. Attacks using the Darkness Damage Type cause double damage to the barrier."
         ],
         "degree": {
             "base": {
@@ -259,7 +259,7 @@
                 "maint": 25,
                 "effect": [
                     "3000 LP",
-                    "The barrier does not take damage from attacks using the Physical Damage Group that do not have the Imbued trait."
+                    "The barrier does not take damage from attacks using the Physical Damage Group that do not have the [@trait Imbued @] trait."
                 ]
             }
         }
@@ -275,7 +275,7 @@
         "maintTime": "turn",
         "tags": [],
         "description": [
-            "You improve your perceptive abilities. Your Notice and Search Skill Checks gain the listed bonus. Your Magic Appraisal Skill Checks to sense and measure mana gain the same bonus."
+            "You improve your perceptive abilities. Your [@skill Notice @] and [@skill Search @] Skill Checks gain the listed bonus. Your [@skill Magic Appraisal @] Skill Checks to sense and measure mana gain the same bonus."
         ],
         "degree": {
             "base": {
@@ -283,7 +283,7 @@
                 "int": 6,
                 "maint": 5,
                 "effect": [
-                    "+4 bonus"
+                    "`+4` bonus"
                 ]
             },
             "intermediate": {
@@ -291,7 +291,7 @@
                 "int": 9,
                 "maint": 15,
                 "effect": [
-                    "+8 bonus"
+                    "`+8` bonus"
                 ]
             },
             "advanced": {
@@ -299,7 +299,7 @@
                 "int": 12,
                 "maint": 20,
                 "effect": [
-                    "+12 bonus"
+                    "`+12` bonus"
                 ]
             },
             "arcane": {
@@ -307,7 +307,7 @@
                 "int": 15,
                 "maint": 25,
                 "effect": [
-                    "+16 bonus"
+                    "`+16` bonus"
                 ]
             }
         }
@@ -376,7 +376,7 @@
         "maintTime": "turn",
         "tags": [],
         "description": [
-            "You cause all shadows with the area to be banished. On the End Phase, any darkness-based creature in the area must make a SR Check or take 20 Force Damage per Degree of Failure (Rex creatures multiply the damage by their Rex Multiplier)."
+            "You cause all shadows with the area to be banished. On the End Phase, any darkness-based creature in the area must make a [@skill SR @] Check or take 20 Force Damage per Degree of Failure (Rex creatures multiply the damage by their Rex Multiplier)."
         ],
         "degree": {
             "base": {
@@ -384,7 +384,7 @@
                 "int": 6,
                 "maint": 10,
                 "effect": [
-                    "SR 14",
+                    "[@skill SR @] 14",
                     "30-foot radius"
                 ]
             },
@@ -393,7 +393,7 @@
                 "int": 9,
                 "maint": 15,
                 "effect": [
-                    "SR 18",
+                    "[@skill SR @] 18",
                     "300-foot radius"
                 ]
             },
@@ -402,7 +402,7 @@
                 "int": 12,
                 "maint": 20,
                 "effect": [
-                    "SR 22",
+                    "[@skill SR @] 22",
                     "800-foot radius"
                 ]
             },
@@ -411,7 +411,7 @@
                 "int": 15,
                 "maint": 25,
                 "effect": [
-                    "SR 26",
+                    "[@skill SR @] 26",
                     "1500-foot radius"
                 ]
             }
@@ -428,7 +428,7 @@
         "maintTime": "turn",
         "tags": [],
         "description": [
-            "You can sense all negative emotions and the presence of creatures based on negative emotions in the area around you. you can only count number of number of creatures feeling negative emotions and gain a sense the amount of negative emotions in the area but not their location. You are able to determine the exact location of creatures based on negative emotion."
+            "You can sense all negative emotions and the presence of creatures based on negative emotions in the area around you. You can only count number of number of creatures feeling negative emotions and gain a sense the amount of negative emotions in the area but not their location. You are able to determine the exact location of creatures based on negative emotion."
         ],
         "degree": {
             "base": {
@@ -436,7 +436,7 @@
                 "int": 6,
                 "maint": 5,
                 "effect": [
-                    "SR or MR 8",
+                    "[@skill SR @] or [@skill MR @] 8",
                     "60-foot radius"
                 ]
             },
@@ -445,7 +445,7 @@
                 "int": 9,
                 "maint": 10,
                 "effect": [
-                    "SR or MR 12",
+                    "[@skill SR @] or [@skill MR @] 12",
                     "300-foot radius"
                 ]
             },
@@ -454,7 +454,7 @@
                 "int": 12,
                 "maint": 20,
                 "effect": [
-                    "SR or MR 16",
+                    "[@skill SR @] or [@skill MR @] 16",
                     "1000-foot radius"
                 ]
             },
@@ -463,7 +463,7 @@
                 "int": 15,
                 "maint": 30,
                 "effect": [
-                    "SR or MR 20",
+                    "[@skill SR @] or [@skill MR @] 20",
                     "3000-foot radius"
                 ]
             }
@@ -530,7 +530,7 @@
             "active figment illusion"
         ],
         "description": [
-            "You create an active figment illusion that is no larger than the listed size. The hologram is made of light so it cannot interact with any object and disappears if hit by an attack with the Imbued or Immaterial trait. A creature can determine that the hologram is an illusion by making an Almost Impossible (24) Notice Check or a Very Difficult (16) Search Check. The hologram can act and be discovered as per the rules for active figment illusions."
+            "You create an active figment illusion that is no larger than the listed size. The hologram is made of light so it cannot interact with any object and disappears if hit by an attack with the [@trait Imbued @] or [@trait Immaterial @] trait. A creature can determine that the hologram is an illusion by making an Almost Impossible (24) [@skill Notice @] Check or a Very Difficult (16) [@skill Search @] Check. The hologram can act and be discovered as per the rules for active figment illusions."
         ],
         "degree": {
             "base": {
@@ -580,7 +580,7 @@
             "trapping"
         ],
         "description": [
-            "You create chains made from pure light. Make a Trap Maneuver using the listed Strength for the Opposed Characteristic Check. The chains have the immaterial trait and a Fortitude of 25. While immaterial, the chains can interact with material objects."
+            "You create chains made from pure light. Make a [@action Trap @] maneuver using the listed [@stat Strength @] for the Opposed Characteristic Check. The chains have the [@trait Immaterial @] trait and a Fortitude of 25. While immaterial, the chains can interact with material objects."
         ],
         "degree": {
             "base": {
@@ -588,7 +588,7 @@
                 "int": 6,
                 "maint": 10,
                 "effect": [
-                    "Strength 8"
+                    "[@stat Strength @] 8"
                 ]
             },
             "intermediate": {
@@ -596,7 +596,7 @@
                 "int": 9,
                 "maint": 10,
                 "effect": [
-                    "Strength 10"
+                    "[@stat Strength @] 10"
                 ]
             },
             "advanced": {
@@ -604,7 +604,7 @@
                 "int": 12,
                 "maint": 15,
                 "effect": [
-                    "Strength 12",
+                    "[@stat Strength @] 12",
                     "Fortitude 30"
                 ]
             },
@@ -613,7 +613,7 @@
                 "int": 15,
                 "maint": 15,
                 "effect": [
-                    "Strength 16",
+                    "[@stat Strength @] 16",
                     "Fortitude 35"
                 ]
             }
@@ -631,7 +631,7 @@
         "maintTime": "turn",
         "tags": [],
         "description": [
-            "You can modify and control the form, color, and intensity of light within the area. A light-based creature must pass a SR Check or fall under your control. The creature can repeat this check after a number of rounds equal to their Degree of Failure or if ordered to do something against its nature. If the creature ever leaves the radius, you lose control.",
+            "You can modify and control the form, color, and intensity of light within the area. A light-based creature must pass a [@skill SR @] Check or fall under your control. The creature can repeat this check after a number of rounds equal to their Degree of Failure or if ordered to do something against its nature. If the creature ever leaves the radius, you lose control.",
             "You can cause any attacks within the area using Light Damage to suffer two Degrees of Disadvantage on the Offensive Roll."
         ],
         "degree": {
@@ -640,7 +640,7 @@
                 "int": 6,
                 "maint": 5,
                 "effect": [
-                    "SR 8",
+                    "[@skill SR @] 8",
                     "30-foot radius"
                 ]
             },
@@ -649,7 +649,7 @@
                 "int": 9,
                 "maint": 20,
                 "effect": [
-                    "SR 14",
+                    "[@skill SR @] 14",
                     "150-foot radius"
                 ]
             },
@@ -658,7 +658,7 @@
                 "int": 12,
                 "maint": 25,
                 "effect": [
-                    "SR 18",
+                    "[@skill SR @] 18",
                     "300-foot radius"
                 ]
             },
@@ -667,7 +667,7 @@
                 "int": 16,
                 "maint": 30,
                 "effect": [
-                    "SR 22",
+                    "[@skill SR @] 22",
                     "500-foot radius"
                 ]
             }
@@ -684,7 +684,7 @@
         "maintTime": "turn",
         "tags": [],
         "description": [
-            "You can detect life-forms with the area. The spell only informs you of the number of life-forms and their exact location. A creature can resist being detected by making an SR Check."
+            "You can detect life-forms with the area. The spell only informs you of the number of life-forms and their exact location. A creature can resist being detected by making an [@skill SR @] Check."
         ],
         "degree": {
             "base": {
@@ -692,7 +692,7 @@
                 "int": 6,
                 "maint": 5,
                 "effect": [
-                    "SR 14",
+                    "[@skill SR @] 14",
                     "60-foot radius"
                 ]
             },
@@ -701,7 +701,7 @@
                 "int": 9,
                 "maint": 10,
                 "effect": [
-                    "SR 18",
+                    "[@skill SR @] 18",
                     "150-foot radius"
                 ]
             },
@@ -710,7 +710,7 @@
                 "int": 12,
                 "maint": 15,
                 "effect": [
-                    "SR 22",
+                    "[@skill SR @] 22",
                     "500-foot radius"
                 ]
             },
@@ -719,7 +719,7 @@
                 "int": 15,
                 "maint": 30,
                 "effect": [
-                    "SR 28",
+                    "[@skill SR @] 28",
                     "1000-foot radius"
                 ]
             }
@@ -736,7 +736,7 @@
         "maintTime": "day",
         "tags": [],
         "description": [
-            "You create a small orb of light in the shape of an eye. As a free Intention, you can declare that you will see through the orb, but doing so prevents you from seeing with your own body. While seeing through the orb, you have the listed Final Skill Value for Notice and Search. The orb has a Flight Value of 14 but cannot go beyond the listed distance from you or it will disappear. The orb is material but can only be seen on the spiritual plane and is immune to damage from attacks without the Imbued trait. While you can see the orb, or are seeing through the orb, you can use your Spell Projection for Defensive Rolls to prevent attacks against the orb. The orb always has the same Initiative Roll as you."
+            "You create a small orb of light in the shape of an eye. As a free Intention, you can declare that you will see through the orb, but doing so prevents you from seeing with your own body. While seeing through the orb, you have the listed Final Skill Value for [@skill Notice @] and [@skill Search @]. The orb has a Flight Value of 14 but cannot go beyond the listed distance from you or it will disappear. The orb is material but can only be seen on the mana plane and is immune to damage from attacks without the [@trait Imbued @] trait. While you can see the orb, or are seeing through the orb, you can use your [@skill Spell Projection @] for Defensive Rolls to prevent attacks against the orb. The orb always has the same Initiative Roll as you."
         ],
         "degree": {
             "base": {
@@ -788,7 +788,7 @@
         "maintTime": "turn",
         "tags": [],
         "description": [
-            "You cause all creatures within the area to feel an overwilling pleasurable sensations. A creature can resist by making a SR Check. While affected, the creature suffers a -2 All Action Penalty but is immune and oblivious to pain not caused by physical means."
+            "You cause all creatures within the area to feel an overwilling pleasurable sensations. A creature can resist by making a [@skill SR @] Check. While affected, the creature suffers a `-2` all-action penalty but is immune and oblivious to pain not caused by physical means."
         ],
         "degree": {
             "base": {
@@ -796,7 +796,7 @@
                 "int": 6,
                 "maint": 10,
                 "effect": [
-                    "SR 8",
+                    "[@skill SR @] 8",
                     "30-foot radius"
                 ]
             },
@@ -805,7 +805,7 @@
                 "int": 9,
                 "maint": 10,
                 "effect": [
-                    "SR 10",
+                    "[@skill SR @] 10",
                     "100-foot radius"
                 ]
             },
@@ -814,7 +814,7 @@
                 "int": 12,
                 "maint": 15,
                 "effect": [
-                    "SR 12",
+                    "[@skill SR @] 12",
                     "300-foot radius"
                 ]
             },
@@ -823,7 +823,7 @@
                 "int": 15,
                 "maint": 15,
                 "effect": [
-                    "SR 16",
+                    "[@skill SR @] 16",
                     "1000-foot radius"
                 ]
             }
@@ -840,7 +840,7 @@
         "maintTime": "no",
         "tags": [],
         "description": [
-            "You temporarily banish any negative emotions from creatures around you. A creature can resist this by making a SR or MR Check. A creature affected removes the Anger or Rage State and reduces the Fear State by one degree. This spell does not stop actions done in cold blood. A creature cannot have negative emotions for a number of rounds equal to their Degree of Failure."
+            "You temporarily banish any negative emotions from creatures around you. A creature can resist this by making a [@skill SR @] or [@skill MR @] Check. A creature affected removes the [@state Anger @] or [@state Rage @] state and reduces the [@state Fear @] state by one degree. This spell does not stop actions done in cold blood. A creature cannot have negative emotions for a number of rounds equal to their Degree of Failure."
         ],
         "degree": {
             "base": {
@@ -848,7 +848,7 @@
                 "int": 6,
                 "maint": 0,
                 "effect": [
-                    "SR or MR 10",
+                    "[@skill SR @] or [@skill MR @] 10",
                     "300-foot radius"
                 ]
             },
@@ -857,7 +857,7 @@
                 "int": 9,
                 "maint": 0,
                 "effect": [
-                    "SR or MR 14",
+                    "[@skill SR @] or [@skill MR @] 14",
                     "1000-foot radius"
                 ]
             },
@@ -866,7 +866,7 @@
                 "int": 12,
                 "maint": 0,
                 "effect": [
-                    "SR or MR 18",
+                    "[@skill SR @] or [@skill MR @] 18",
                     "1-mile radius"
                 ]
             },
@@ -875,7 +875,7 @@
                 "int": 15,
                 "maint": 0,
                 "effect": [
-                    "SR or MR 22",
+                    "[@skill SR @] or [@skill MR @] 22",
                     "5-mile radius"
                 ]
             }
@@ -942,7 +942,7 @@
         "maintTime": "turn",
         "tags": [],
         "description": [
-            "You unleash a sphere of light, which you can control using your Spell Projection until it hits its target. If the target dodges, the spell can continue attacking the following round, on your turn, since it has not been destroyed. When the spell causes damage or is blocked, the sphere vanishes. If you stop maintaining the spell, the sphere will act on its own with an Initiative Roll of 0 and will following the last target. An abandoned sphere that makes an attack has the listed Final Offensive Roll."
+            "You unleash a sphere of light, which you can control using your [@skill Spell Projection @] until it hits its target. If the target dodges, the spell can continue attacking the following round, on your turn, since it has not been destroyed. When the spell causes damage or is blocked, the sphere vanishes. If you stop maintaining the spell, the sphere will act on its own with an Initiative Roll of 0 and will follow the last target. An abandoned sphere that makes an attack has the listed Final Offensive Roll."
         ],
         "degree": {
             "base": {
@@ -994,7 +994,7 @@
         "maintTime": "day",
         "tags": [],
         "description": [
-            "You can detect any creature within stationary area. You can change the shape of the area as long as it remains contiguous and has no internal gaps. A creature can resist detection by making a SR Check. The spell only tells you how many creatures are in the zone and their exact location. It can also tell you when another Detection spell attempts to scan the same area as this spell, the caster of the spell can prevent this detection by making a SR Check. A creature that passes the SR Check must make a new one after a number of hours have passed equal to their Degree of Success. Once a creature is detected, it is known until it leaves the area."
+            "You can detect any creature within stationary area. You can change the shape of the area as long as it remains contiguous and has no internal gaps. A creature can resist detection by making a [@skill SR @] Check. The spell only tells you how many creatures are in the zone and their exact location. It can also tell you when another Detection spell attempts to scan the same area as this spell, the caster of the spell can prevent this detection by making a [@skill SR @] Check. A creature that passes the [@skill SR @] Check must make a new one after a number of hours have passed equal to their Degree of Success. Once a creature is detected, it is known until it leaves the area."
         ],
         "degree": {
             "base": {
@@ -1002,7 +1002,7 @@
                 "int": 7,
                 "maint": 10,
                 "effect": [
-                    "SR 18",
+                    "[@skill SR @] 18",
                     "60-foot area"
                 ]
             },
@@ -1011,7 +1011,7 @@
                 "int": 10,
                 "maint": 10,
                 "effect": [
-                    "SR 24",
+                    "[@skill SR @] 24",
                     "240-foot area"
                 ]
             },
@@ -1020,7 +1020,7 @@
                 "int": 13,
                 "maint": 15,
                 "effect": [
-                    "SR 28",
+                    "[@skill SR @] 28",
                     "500-foot area"
                 ]
             },
@@ -1029,7 +1029,7 @@
                 "int": 16,
                 "maint": 15,
                 "effect": [
-                    "SR 32",
+                    "[@skill SR @] 32",
                     "1000-foot area"
                 ]
             }
@@ -1046,8 +1046,8 @@
         "maintTime": "day",
         "tags": [],
         "description": [
-            "You can physically enter the dream of a targeted sleeping creature. You have no control over the dream world and anything that happens there will be real for you. The target must have a peaceful dream to be affected by this spell and the moment the dream becomes a nightmare, you stop maintaining the spell, the target wakes up, or the target dies, you are returned to reality right next to the target. Any Effect spell cast on the target will also affect you. The target can make a SR or MR Check to prevent you entering their dream. A creature that passes the Resistance Check cannot be the target of your spell until they fall asleep again. ",
-            "Once you are in the target's dream, you can jump to the dream of another creature within range of the target. The new target can make a SR or MR Check, passing means that you cannot jump to their dream. ",
+            "You can physically enter the dream of a targeted sleeping creature. You have no control over the dream world and anything that happens there will be real for you. The target must have a peaceful dream to be affected by this spell and the moment the dream becomes a nightmare, you stop maintaining the spell, the ze wake up, or ze dies, you are returned to reality right next to the zir. Any Effect spell cast on the target will also affect you. The target can make a [@skill SR @] or [@skill MR @] Check to prevent you entering their dream. A target that passes the Resistance Check cannot be the target of your spell until ze fall asleep again.",
+            "Once you are in the zir dream, you can jump to the dream of another creature within range of the target. The new target can make a [@skill SR @] or [@skill MR @] Check, passing means that you cannot jump to zir dream. ",
             "If the target's dream is within the Veil, you are trapped there."
         ],
         "degree": {
@@ -1056,7 +1056,7 @@
                 "int": 6,
                 "maint": 10,
                 "effect": [
-                    "SR or MR 12",
+                    "[@skill SR @] or [@skill MR @] 12",
                     "Jump distance 30 feet"
                 ]
             },
@@ -1065,7 +1065,7 @@
                 "int": 9,
                 "maint": 10,
                 "effect": [
-                    "SR or MR 16",
+                    "[@skill SR @] or [@skill MR @] 16",
                     "Jump distance 240 feet"
                 ]
             },
@@ -1074,7 +1074,7 @@
                 "int": 12,
                 "maint": 15,
                 "effect": [
-                    "SR or MR 20",
+                    "[@skill SR @] or [@skill MR @] 20",
                     "Jump distance 500 feet"
                 ]
             },
@@ -1083,7 +1083,7 @@
                 "int": 15,
                 "maint": 15,
                 "effect": [
-                    "SR or MR 24",
+                    "[@skill SR @] or [@skill MR @] 24",
                     "Jump distance 1500 feet"
                 ]
             }
@@ -1100,7 +1100,7 @@
         "maintTime": "turn",
         "tags": [],
         "description": [
-            "You target one creature and their body, and all their possessions, transforms into pure light. The target's body gains the Immaterial and Imbued traits and can interact with material objects. The target gains a bonus to Notice and Search Checks and Resistance Checks against effects based on light. They also take double damage from Darkness Damage."
+            "You target one creature and their body, and all their possessions, transforms into pure light. The target's body gains the [@trait Immaterial @] and [@trait Imbued @] traits and can interact with material objects. Ze gains a bonus to [@skill Notice @] and [@skill Search @] Checks and Resistance Checks against effects based on light. Ze also take double damage from Darkness Damage."
         ],
         "degree": {
             "base": {
@@ -1108,8 +1108,8 @@
                 "int": 8,
                 "maint": 10,
                 "effect": [
-                    "Notice and Search Checks +4",
-                    "Resistance Checks +2"
+                    "[@skill Notice @] and [@skill Search @] Checks `+4`",
+                    "Resistance Checks `+2`"
                 ]
             },
             "intermediate": {
@@ -1117,8 +1117,8 @@
                 "int": 10,
                 "maint": 15,
                 "effect": [
-                    "Notice and Search Checks +6",
-                    "Resistance Checks +3"
+                    "[@skill Notice @] and [@skill Search @] Checks `+6`",
+                    "Resistance Checks `+3`"
                 ]
             },
             "advanced": {
@@ -1150,7 +1150,7 @@
         "maintTime": "turn",
         "tags": [],
         "description": [
-            "You create an aura of beneficial energies that only affects your allies. All creatures of your choice within the area around you gain Advantage on their Skill Checks and Resistance Checks. Once a creature leaves the area, they no longer benefit from the Advantage. A creature cannot benefit from more than one Blessing spell at one time."
+            "You create an aura of beneficial energies that only affects your allies. All creatures of your choice within the area around you gain Advantage on their Skill Checks and Resistance Checks. Once a creature leaves the area, ze no longer benefit from the Advantage. A creature cannot benefit from more than one Blessing spell at one time."
         ],
         "degree": {
             "base": {
@@ -1202,7 +1202,7 @@
         "maintTime": "day",
         "tags": [],
         "description": [
-            "You create positive feelings in one creature you target. Love, pleasure, or friendship are an example of the feelings you can create. The target can prevent these feelings by making a SR or MR Check. The target can repeat the Resistance Check once per day."
+            "You create positive feelings in one creature you target. Love, pleasure, or friendship are an example of the feelings you can create. The target can prevent these feelings by making a [@skill SR @] or [@skill MR @] Check. Ze can repeat the Resistance Check once per day."
         ],
         "degree": {
             "base": {
@@ -1210,7 +1210,7 @@
                 "int": 8,
                 "maint": 10,
                 "effect": [
-                    "SR or MR 12"
+                    "[@skill SR @] or [@skill MR @] 12"
                 ]
             },
             "intermediate": {
@@ -1218,7 +1218,7 @@
                 "int": 10,
                 "maint": 20,
                 "effect": [
-                    "SR or MR 16"
+                    "[@skill SR @] or [@skill MR @] 16"
                 ]
             },
             "advanced": {
@@ -1226,7 +1226,7 @@
                 "int": 14,
                 "maint": 25,
                 "effect": [
-                    "SR or MR 18"
+                    "[@skill SR @] or [@skill MR @] 18"
                 ]
             },
             "arcane": {
@@ -1234,7 +1234,7 @@
                 "int": 18,
                 "maint": 30,
                 "effect": [
-                    "SR or MR 22"
+                    "[@skill SR @] or [@skill MR @] 22"
                 ]
             }
         }
@@ -1258,8 +1258,8 @@
                 "int": 8,
                 "maint": 10,
                 "effect": [
-                    "Can see mana, phenom, and spirits",
-                    "+3 against phantasms"
+                    "Ze can see mana, phenom, and spirits",
+                    "`+3` against phantasms"
                 ]
             },
             "intermediate": {
@@ -1267,7 +1267,7 @@
                 "int": 9,
                 "maint": 0,
                 "effect": [
-                    "As Base, but you can see invisible beings"
+                    "As Base, but ze can see invisible beings"
                 ]
             },
             "advanced": {
@@ -1275,7 +1275,7 @@
                 "int": 12,
                 "maint": 0,
                 "effect": [
-                    "As Intermediate, but +5 against phantasms"
+                    "As Intermediate, but `+5` against phantasms"
                 ]
             },
             "arcane": {
@@ -1283,7 +1283,7 @@
                 "int": 15,
                 "maint": 0,
                 "effect": [
-                    "As Advanced, but +8 against phantasms"
+                    "As Advanced, but `+8` against phantasms"
                 ]
             }
         }
@@ -1299,7 +1299,7 @@
         "maintTime": "day",
         "tags": [],
         "description": [
-            "You enchant a stationary area, making it impossible for darkness-based creatures or creatures composed of negative emotions to enter. Any such creature entering the area must pass a SR or take 10 Force Damage per Degree of Failure and enter the State of Pain (4)."
+            "You enchant a stationary area, making it impossible for darkness-based creatures or creatures composed of negative emotions to enter. Any such creature entering the area must pass a [@skill SR @] or take 10 Force Damage per Degree of Failure and gain the [@ Pain (4) @] state."
         ],
         "degree": {
             "base": {
@@ -1307,7 +1307,7 @@
                 "int": 8,
                 "maint": 15,
                 "effect": [
-                    "SR 12",
+                    "[@skill SR @] 12",
                     "60 square feet"
                 ]
             },
@@ -1316,7 +1316,7 @@
                 "int": 10,
                 "maint": 20,
                 "effect": [
-                    "SR 14",
+                    "[@skill SR @] 14",
                     "300 square feet"
                 ]
             },
@@ -1325,7 +1325,7 @@
                 "int": 14,
                 "maint": 25,
                 "effect": [
-                    "SR 16",
+                    "[@skill SR @] 16",
                     "1000 square feet"
                 ]
             },
@@ -1334,7 +1334,7 @@
                 "int": 18,
                 "maint": 30,
                 "effect": [
-                    "SR 18",
+                    "[@skill SR @] 18",
                     "1500 square feet"
                 ]
             }
@@ -1351,7 +1351,7 @@
         "maintTime": "no",
         "tags": [],
         "description": [
-            "You think of a single person, place, or thing and learn its exact location at the moment you cast the spell, regardless of the distance that separates you. The object can have a vague description or set of conditions it must meet. The object must make a SR Check to attempt to resist. Success means that either the next closest object will have to make a Check or that you fail to find anything."
+            "You think of a single person, place, or thing and learn its exact location at the moment you cast the spell, regardless of the distance that separates you. The object can have a vague description or set of conditions it must meet. The object can make a [@skill SR @] Check to attempt to resist. Success means that either the next closest object will have to make a Check or that you fail to find anything."
         ],
         "degree": {
             "base": {
@@ -1359,7 +1359,7 @@
                 "int": 8,
                 "maint": 0,
                 "effect": [
-                    "SR 14"
+                    "[@skill SR @] 14"
                 ]
             },
             "intermediate": {
@@ -1367,7 +1367,7 @@
                 "int": 10,
                 "maint": 0,
                 "effect": [
-                    "SR 18"
+                    "[@skill SR @] 18"
                 ]
             },
             "advanced": {
@@ -1375,7 +1375,7 @@
                 "int": 14,
                 "maint": 0,
                 "effect": [
-                    "SR 22"
+                    "[@skill SR @] 22"
                 ]
             },
             "arcane": {
@@ -1383,7 +1383,7 @@
                 "int": 18,
                 "maint": 0,
                 "effect": [
-                    "SR 26"
+                    "[@skill SR @] 26"
                 ]
             }
         }
@@ -1399,7 +1399,7 @@
         "maintTime": "no",
         "tags": [],
         "description": [
-            "You cause a targeted creature to recover from some amount of the Pain State that has been caused by either low stamina, hunger, non-critical damage, or other powers. This spell only removes it, it does not prevent it from coming back."
+            "You cause a targeted creature to recover from some amount of the [@state Pain @] state that has been caused by either low stamina, hunger, non-critical damage, or other powers. This spell only removes it, it does not prevent it from coming back."
         ],
         "degree": {
             "base": {
@@ -1407,7 +1407,7 @@
                 "int": 8,
                 "maint": 0,
                 "effect": [
-                    "Remove 4 degrees of Pain"
+                    "Remove 4 degrees of [@state Pain @]"
                 ]
             },
             "intermediate": {
@@ -1415,7 +1415,7 @@
                 "int": 10,
                 "maint": 0,
                 "effect": [
-                    "Remove 8 degrees of Pain"
+                    "Remove 8 degrees of [@state Pain @]"
                 ]
             },
             "advanced": {
@@ -1423,7 +1423,7 @@
                 "int": 14,
                 "maint": 0,
                 "effect": [
-                    "Remove 12 degrees of Pain"
+                    "Remove 12 degrees of [@state Pain @]"
                 ]
             },
             "arcane": {
@@ -1431,7 +1431,7 @@
                 "int": 18,
                 "maint": 0,
                 "effect": [
-                    "Remove all degrees of Pain"
+                    "Remove all degrees of [@state Pain @]"
                 ]
             }
         }
@@ -1447,7 +1447,7 @@
         "maintTime": "turn",
         "tags": [],
         "description": [
-            "You create a stationary hypnotic pattern of lights in a specified location within range. The display can be seen out to the listed range and all creatures that see the display must a SR or MR Check or gain the Fascinated State. The creature can make a new Resistance Check after a number of rounds have passed equal to their Degree of Failure or they are attacked."
+            "You create a stationary hypnotic pattern of lights in a specified location within range. The display can be seen out to the listed range and all creatures that see the display must a [@skill SR @] or [@skill MR @] Check or gain the [@state Fascinated @] state. An affected creature can make a new Resistance Check after a number of rounds have passed equal to their Degree of Failure or they are attacked."
         ],
         "degree": {
             "base": {
@@ -1455,7 +1455,7 @@
                 "int": 10,
                 "maint": 5,
                 "effect": [
-                    "SR or MR 12",
+                    "[@skill SR @] or [@skill MR @] 12",
                     "1 mile"
                 ]
             },
@@ -1464,7 +1464,7 @@
                 "int": 12,
                 "maint": 10,
                 "effect": [
-                    "SR or MR 14",
+                    "[@skill SR @] or [@skill MR @] 14",
                     "3 miles"
                 ]
             },
@@ -1473,7 +1473,7 @@
                 "int": 16,
                 "maint": 10,
                 "effect": [
-                    "SR or MR 18",
+                    "[@skill SR @] or [@skill MR @] 18",
                     "10 miles"
                 ]
             },
@@ -1482,7 +1482,7 @@
                 "int": 20,
                 "maint": 15,
                 "effect": [
-                    "SR or MR 22",
+                    "[@skill SR @] or [@skill MR @] 22",
                     "15 miles"
                 ]
             }
@@ -1609,7 +1609,7 @@
             "affected presence"
         ],
         "description": [
-            "You select any number of objects whose total presence is less than the listed amount and they are transported from one light source to another, up to the maximum distance. A creature can make a SR if they wish to prevent the movement."
+            "You select any number of objects whose total presence is less than the listed amount and they are transported from one light source to another, up to the maximum distance. An object can make a [@skill SR @] if they wish to prevent the movement."
         ],
         "degree": {
             "base": {
@@ -1619,7 +1619,7 @@
                 "effect": [
                     "Max distance 500 miles",
                     "Max presence 25",
-                    "SR 4"
+                    "[@skill SR @] 4"
                 ]
             },
             "intermediate": {
@@ -1629,7 +1629,7 @@
                 "effect": [
                     "Max distance 1000 miles",
                     "Max presence 50",
-                    "SR 8"
+                    "[@skill SR @] 8"
                 ]
             },
             "advanced": {
@@ -1639,7 +1639,7 @@
                 "effect": [
                     "Max distance 5000 miles",
                     "Max presence 100",
-                    "SR 12"
+                    "[@skill SR @] 12"
                 ]
             },
             "arcane": {
@@ -1649,7 +1649,7 @@
                 "effect": [
                     "Max distance 15,000 miles",
                     "Max presence 200",
-                    "SR 16"
+                    "[@skill SR @] 16"
                 ]
             }
         }
@@ -1668,7 +1668,7 @@
             "veil"
         ],
         "description": [
-            "You gain control over any type of dream. While in control, you can modify the dream as if you had Nornir 45 (this does not let you gain any other benefit of a high Nornir). If the dream turns into a nightmare, your ability to modify the dream is reduced to that of Nornir 30. The target's dream can make a SR Check to prevent your control, the Resistance Check can be repeated after a number of hours have passed equal to their Degree of Failure."
+            "You gain control over any type of dream. While in control, you can modify the dream as if you had Nornir 45 (this does not let you gain any other benefit of a high Nornir). If the dream turns into a nightmare, your ability to modify the dream is reduced to that of Nornir 30. The target's dream can make a [@skill SR @] Check to prevent your control, the Resistance Check can be repeated after a number of hours have passed equal to their Degree of Failure."
         ],
         "degree": {
             "base": {
@@ -1676,7 +1676,7 @@
                 "int": 12,
                 "maint": 60,
                 "effect": [
-                    "SR 14"
+                    "[@skill SR @] 14"
                 ]
             },
             "intermediate": {
@@ -1684,7 +1684,7 @@
                 "int": 14,
                 "maint": 65,
                 "effect": [
-                    "SR 14",
+                    "[@skill SR @] 14",
                     "If you are in the Veil and in an area of positive energy, you can control your surroundings as if it were a dream. Neutral areas and areas of negative energy use the reduced Nornir. This does not work if there is a creature with similar or greater levels of Nornir."
                 ]
             },
@@ -1693,7 +1693,7 @@
                 "int": 18,
                 "maint": 70,
                 "effect": [
-                    "SR 16"
+                    "[@skill SR @] 16"
                 ]
             },
             "arcane": {
@@ -1701,7 +1701,7 @@
                 "int": 22,
                 "maint": 80,
                 "effect": [
-                    "SR 18"
+                    "[@skill SR @] 18"
                 ]
             }
         }
@@ -1769,7 +1769,7 @@
             "barrier"
         ],
         "description": [
-            "You create a supernatural barrier of light with a mirror like surface. The barrier is capable of reflecting attack powers back to its user. For the power to be reflected, you must successful block the attack and then the barrier makes a Power Collision, using the listed damage. If defending against an area attack, the barrier only reflects the portion that hits you; it does not reflect the entire area attack. The barrier cannot reflect effect powers. The reflected power uses your Spell Projection for the Offensive Roll and gains any Counter Bonus from the original attack."
+            "You create a supernatural barrier of light with a mirror like surface. The barrier is capable of reflecting attack powers back to its source. For the power to be reflected, you must successful block the attack and then the barrier makes a Power Collision, using the listed damage. If defending against an area attack, the barrier only reflects the portion that hits you; it does not reflect the entire area attack. The barrier cannot reflect effect powers. The reflected power uses your [@skill Spell Projection @] for the Offensive Roll and gains any Counter conus from the original attack."
         ],
         "degree": {
             "base": {
@@ -1821,7 +1821,7 @@
         "maintTime": "turn",
         "tags": [],
         "description": [
-            "You can see and hear all actions and thoughts that occur within the listed area. Only creatures who have a presence less than yours and less than the listed amount and have a Nornir lower than yours are affected. No Resistance Check is possible."
+            "You can see and hear all actions and thoughts that occur within the listed area. Only creatures who have a presence less than yours, less than the listed amount, and have a Nornir equal to or lower than yours are affected. No Resistance Check is possible."
         ],
         "degree": {
             "base": {
@@ -1923,8 +1923,8 @@
         "maintTime": "turn",
         "tags": [],
         "description": [
-            "You enclose a targeted creature in a separate universe composed of light, which takes the form of a glass bead. While the target is within this universe, they have no knowledge of what occurs outside the pocket universe and those outside have no knowledge of what occurs within. The target can make a SR Check to prevent being trapped. On a failure, there is no chance to repeat the Check.",
-            "To escape the spell, the target can attack the universe. The universe uses the Rex Damage Type and has an Absorption of 10 and a Regeneration of 19. From the outside, the glass bead can only be damaged by an Imbued attack with presence of 18 or greater."
+            "You enclose a targeted creature in a separate universe composed of light, which takes the form of a glass bead. While the target is within this universe, they have no knowledge of what occurs outside the pocket universe and those outside have no knowledge of what occurs within. The target can make a [@skill SR @] Check to prevent being trapped. On a failure, there is no chance to repeat the Check.",
+            "To escape the spell, the target can attack the universe. The universe uses the Rex Damage Type and has an Absorption of 10 and a Regeneration of 19. From the outside, the glass bead can only be damaged by an [@trait Imbued (18) @] attack."
         ],
         "degree": {
             "base": {
@@ -1932,7 +1932,7 @@
                 "int": 14,
                 "maint": 40,
                 "effect": [
-                    "SR 14",
+                    "[@skill SR @] 14",
                     "10,000 Life Points"
                 ]
             },
@@ -1941,7 +1941,7 @@
                 "int": 16,
                 "maint": 70,
                 "effect": [
-                    "SR 18",
+                    "[@skill SR @] 18",
                     "250,000 Life Points"
                 ]
             },
@@ -1950,7 +1950,7 @@
                 "int": 20,
                 "maint": 100,
                 "effect": [
-                    "SR 20",
+                    "[@skill SR @] 20",
                     "500,000 Life Points"
                 ]
             },
@@ -1959,7 +1959,7 @@
                 "int": 24,
                 "maint": 160,
                 "effect": [
-                    "SR 22",
+                    "[@skill SR @] 22",
                     "500,000 Life Points",
                     "The prison cannot be broken from the inside"
                 ]
@@ -2078,7 +2078,7 @@
             "immaterial"
         ],
         "description": [
-            "You unleash the purest of light which consumes everything, spirit and material alike. The spell creates an area attack with the Flowing and Immaterial traits that does Light Damage. Any creature who receives any amount of damage must make a SR Check of 16 or join with the light, causing their body and spirit to be consumed. This spell cannot select targets, even if another power would allow you to; everyone in the area, but you, is equally affected."
+            "You unleash the purest of light which consumes everything, spirit and material alike. The spell creates an area attack with the [@trait Flowing @] and [@trait Immaterial @] traits that does Light Damage. Any creature who receives any amount of damage must make a [@skill SR @] Check of 16 or join with the light, causing their body and spirit to be consumed. This spell cannot select targets, even if another power would allow you to; everyone in the area, but you, is equally affected."
         ],
         "degree": {
             "base": {
