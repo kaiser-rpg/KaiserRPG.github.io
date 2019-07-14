@@ -9,27 +9,30 @@ The Exertion group are skills that rely on your physical body.
 Below is the description of the Exertion Skills.
 
 ### Acrobatics
-Agility Characteristic, affected by armor
+[@stat Agility @] Characteristic, affected by armor
 
 Acrobatics covers balance, coordination, and mobility. Balancing on a tightrope, walking across ice, staying upright during an earthquake are examples of when an Acrobatics Skill Check would be needed. You can also use Acrobatics to jump and to reduce the amount of damage you receive from falling.
 
 ### Athletics
-Constitution Characteristic, affected by armor
+[@stat Constitution @] Characteristic, affected by armor
 
 Athletics covers most forms of physical exertion, such as running, climbing, swimming, and jumping. 
 
 ### Feats of Strength
-Strength Characteristic, affected by armor
+[@stat Strength @] Characteristic, affected by armor
 
 Feats of Strength covers your ability to apply your strength in the greatest way possible. Breaking down a door and holding up a collapsing roof would use Feats of Strength Checks. This skill does not make you actually stronger, just more efficient.
 
 ### Ride
-Agility Characteristic
+[@stat Agility @] Characteristic
 
 Ride covers controlling mounted animals and the movement of a vessel. Ride Checks are not needed when simply sitting on a horse and having it walk forward. But complications, such as trying to dodge an arrow while mounted or maneuvering the mount at great speeds, would require a high degree of Ride.
 
 ## Using Exertion Skills
 Below is how to handle using Exertion Skills.
+
+### Falling
+
 
 ### Running and Sprinting
 You lose 1 Stamina Point for every ten minutes of running. You can increase the time by five minutes for every 4 points of Final Athletics Skill.
