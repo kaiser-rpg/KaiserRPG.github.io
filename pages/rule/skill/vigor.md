@@ -7,7 +7,7 @@ permalink: rule_skill_vigor.html
 Below is the description of the Vigor Skills.
 
 ### Composure
-[@stat Willpower @] Characteristic, passive
+[@stat Focus @] Characteristic, passive
 
 ### Withstand Pain
-[@stat Willpower @] Characteristic
+[@stat Focus @] Characteristic

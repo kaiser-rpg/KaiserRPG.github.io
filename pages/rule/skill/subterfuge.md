@@ -13,7 +13,7 @@ Below is the description of the Subterfuge Skills.
 [@stat Intelligence @] Characteristic
 
 ### Stealth
-[@stat Agility @] Characteristic
+[@stat Agility @] Characteristic, affected by armor
 
 ### Lock Picking
 [@stat Dexterity @] Characteristic

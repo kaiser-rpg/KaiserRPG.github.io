@@ -11,16 +11,16 @@ Below is the description of the Creative Skills.
 [@stat Focus @] Characteristic, specialization
 
 ### Dance
-[@stat Agility @] Characteristic, specialization
+[@stat Agility @] Characteristic, specialization, affected by armor
 
 ### Music
-[@stat Focus @] Characteristic, specialization
+[@stat Willpower @] Characteristic, specialization
 
 ### Sleight of Hand
-[@stat Dexterity @] Characteristic
+[@stat Dexterity @] Characteristic, specialization
 
 ### Forging
 [@stat Dexterity @] Characteristic, specialization, knowledge based
 
-### Runes
+### Rune Carving
 [@stat Dexterity @] Characteristic, knowledge based

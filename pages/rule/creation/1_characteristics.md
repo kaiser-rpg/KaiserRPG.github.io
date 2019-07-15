@@ -27,13 +27,13 @@ Kaiser has eight different Characteristics: [@stat Strength @], [@stat Constitut
 [@stat Intelligence @] covers logic and memory.
 
 #### Focus (FC)
-[@stat Focus @] is your ability to control external forces with your spirit.
+[@stat Focus @] is a measure of your concentration and your control over internal forces.
 
 #### Willpower (WP)
-[@stat Willpower @] is a measure of your concentration and your control over internal forces.
+[@stat Willpower @] is your ability to control external forces with your will.
 
 ### Modifier
-Each Characteristic also has a derived value called its Modifier. The Modifier is the number that is added to find a Skill or Resistance's Final Value. To find the number, refer to the following table. A Characteristic Value above 10 has the same Modifier as 10 unless you have the Inhuman power. Above 13 requires Zen, above 20 requires Legendary, and above 24 requires Divine. A Characteristic cannot exceed 30.
+Each Characteristic also has a derived value called its Modifier. The Modifier is the number that is added to find a skill or resistance's Final Value. To find the number, refer to the following table. A Characteristic Value above 10 has the same Modifier as 10 unless you have the Inhuman power. Above 13 requires Zen, above 20 requires Legendary, and above 24 requires Divine. A Characteristic cannot exceed 30.
 
 {% include table-index.html table="gameplay" index="200" %}
 
