@@ -76,6 +76,9 @@ entries:
     output: web
     folderitems:
     
+    - title: Characteristics
+      url: /rule_gameplay_characteristics.html
+      output: web
     - title: Movement Value
       url: /rule_gameplay_move.html
       output: web
@@ -85,7 +88,7 @@ entries:
     - title: Stamina
       url: /rule_gameplay_stamina.html
       output: web
-    - title: Trait
+    - title: Traits
       url: /rule_gameplay_trait.html
       output: web
     - title: States
@@ -131,26 +134,7 @@ entries:
     - title: Ranged Combat
       url: /rule_combat_ranged.html
       output: web
-    
-  - title: Damage
-    output: web
-    folderitems:
-    - title: Life and Death
-      url: /rule_damage_lifepoint.html
-      output: web
-    - title: Damage Types
-      url: /rule_damage_type.html
-      output: web
-    - title: Critical Damage
-      url: /rule_damage_critical.html
-      output: web
-    - title: Damage Modifiers
-      url: /rule_damage_mod.html
-      output: web
-    - title: Damage Roles
-      url: /rule_damage_role.html
-      output: web
-    
+
   - title: Actions
     output: web
     folderitems:
@@ -172,7 +156,26 @@ entries:
     - title: Combat Maneuvers
       url: /rule_combat_maneuver.html
       output: web
-
+    
+  - title: Damage
+    output: web
+    folderitems:
+    - title: Life and Death
+      url: /rule_damage_lifepoint.html
+      output: web
+    - title: Damage Types
+      url: /rule_damage_type.html
+      output: web
+    - title: Critical Damage
+      url: /rule_damage_critical.html
+      output: web
+    - title: Damage Modifiers
+      url: /rule_damage_mod.html
+      output: web
+    - title: Damage Roles
+      url: /rule_damage_role.html
+      output: web
+    
   - title: Powers
     output: web
     folderitems:
@@ -210,7 +213,7 @@ entries:
     - title: Talents
       url: /rule_spirit_talent.html
       output: web
-    - title: Talent Exploit
+    - title: Exploiting Talents
       url: /rule_spirit_exploit.html
       output: web
     - title: Techniques
