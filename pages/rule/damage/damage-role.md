@@ -3,18 +3,18 @@ title: Damage Roles
 permalink: rule_damage_role.html
 ---
 
-A creature can utilize several different methods of tracking if it is dead or not. The standard method of taking damage is outlined in previous sections. The alternate rules for Ludus and Rex are as follows.
+A creature can utilize different methods of tracking if it is dead or not. The standard method of taking damage is outlined in previous sections. The alternate rules for Ludus and Rex are as follows.
 
 ## Ludus
 The Ludus Damage Role allows you to ignore weaker attacks but fall with one good hit. This role uses the following changes to the Standard Damage Role.
 
-1. Your maximum Life Points becomes 1. You cannot spend XP to increase your Life Points. No power can give you temporary LP or increase your maximum LP. As you have a single Life Point, any damage will cause you to suffer a Critical.
+1. Your maximum Life Points becomes 1. You cannot invest XP to increase your Life Points. No power can give you temporary LP or increase your maximum LP. As you have a single Life Point, any damage will cause you to suffer a Critical.
 
 2. You do not lose AP when you hit or take damage. However, you are unable to perform the Counter Action or gain any Counter bonus. 
 
 3. You gain a bonus to your Absorption and a natural armor value for all Damage Types determined by your Size.
 
-4. You can spend XP to gain Final Damage Negates. Any FDN gained are not bypassed by [@ Imbued @] attacks.
+4. You can invest XP to gain Final Damage Negates. Any FDN gained are not bypassed by [@ Imbued @] attacks.
 
 ## Rex
 If you use the Rex Damage Role, you soak up large amounts of damage due to your bulk and not your defensive capabilities. This role uses the following changes to the Standard Damage Role.

@@ -1,7 +1,7 @@
 ### Conjure
 **Intention**: Complete AP
 
-The [@action Conjure @] intention allows you manipulate the Veil by expending great deals of mana as part of a ritual. When you take this intention, you must declare what creature you wish to affect with your conjuring abilities. Then, you spend your entire turn performing the ritual. This ritual requires somatic and verbal components and cannot be done subtly.  You are unable to perform any other Intention or Active Actions while performing the ritual. You are still able to perform Swift Actions.
+The [@action Conjure @] intention allows you manipulate the Veil by expending great deals of mana as part of a ritual. When you take this intention, you must declare what creature you wish to effect with your conjuring abilities. Then, you spend your entire turn performing the ritual. This ritual requires somatic and verbal components and cannot be done subtly.  You are unable to perform any other Intention or Active Actions while performing the ritual. You are still able to perform Swift Actions.
 
 The ritual can be paused for one or more rounds and continued. If the ritual is paused by for more rounds than your [@stat Willpower @] Characteristic each hour, the ritual ends. Becoming [@state Flat-Footed @], not being in contact with the totem, the inability to perform the somatic and verbal components, or choosing not to take the [@action Conjuration @] intention counts as a paused round. 
 

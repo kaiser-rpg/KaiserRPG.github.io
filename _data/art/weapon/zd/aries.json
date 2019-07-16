@@ -122,15 +122,15 @@
                 "name": "Prison of Chains",
                 "type": "entries",
                 "entries": [
-                    "When making a Sweeping Attack Maneuver, you can also make the Trapping Maneuver on each opponent without further penalty or AP Cost.",
-                    "When using the Trapping Maneuver normally with Aries, you only suffer a -1 penalty and has Strength 13 for the Trap Maneuver's Opposed Characteristic Check."
+                    "When making a [@action Sweeping Attack @] maneuver, you can also make the [@action Trap @] maneuver on each opponent without further penalty or AP Cost.",
+                    "When using the [@action Trap @] maneuver normally with Aries, you only suffer a `-1` penalty and has Strength 13 for the Trap maneuver's Opposed Characteristic Check."
                 ]
             },
             {
                 "name": "Quick Release",
                 "type": "entries",
                 "entries": [
-                    "Aries Initiative penalty becomes -1."
+                    "Aries Initiative penalty becomes 1."
                 ]
             }
         ]

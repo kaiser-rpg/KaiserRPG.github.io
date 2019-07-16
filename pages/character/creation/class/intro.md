@@ -39,10 +39,10 @@ This is the Innate Bonus you add to your Initiative. This number is added at fir
 Any special Class benefits not reflected in the XP costs or Innate Bonuses will appear here. This will not be listed if no special advantage exists.
 
 ## Secondary Skills
-The cost for developing Secondary Skills for each class are listed here. Some classes have a lower or higher XP cost for certain secondary skills. These will also be noted here.
+The cost for developing Secondary Skills for each Class are listed here. Some classes have a lower or higher XP cost for certain secondary skills. These will also be noted here.
 
 ## Martial
-Your class will determine the percentage of XP you can spend here, between 50% and 60%.
+Your class will determine the percentage of XP you can invest here, between 50% and 60%.
 
 ### Strike, Block, Dodge
 These are the costs of developing your offensive and defensive combat skills. No more than 40% of your total XP can be invested in the sum of these skills, and no more than 25% can be spent on a single skill.
@@ -54,16 +54,16 @@ This is the cost to develop the ability to Wear Armor.
 This is the cost of developing ten new points of ki.
 
 ### Chakra
-Investing this many XP allows you to add one point to one of your chakras.
+Investing this amount of XP allows you to add one point to one of your chakras.
 
 ### Spirit Knowledge gained per Level
 This is the spirit knowledge (SK) you receive for belonging to a given class. You receive this at first level and each time you move up a level.
 
 ## Magic
-Your class will determine the percentage of XP you can spend here, between 50% and 60%.
+Your class will determine the percentage of XP you can invest here, between 50% and 60%.
 
 ### Mana
-When you spend the XP indicated, your Mana Pool increases by fifty points.
+When you invest the XP indicated, your Mana Pool increases by fifty points.
 
 ### Mana Accumulation Multiple
 This is the cost for increasing your Mana Accumulation (MA). If you possess the Gift Trait, you begin with one MA and by investing the number of XP listed you increase your Mana Accumulation and Mana Recovery by one multiple.
@@ -81,7 +81,7 @@ These numbers are the cost of developing your skills related to conjuring.
 This indicates how many mana you receive per level. You receive this at first level and each time you move up a level.
 
 ## Phenom
-Your class will determine the percentage of XP you can spend here, between 50% and 60%.
+Your class will determine the percentage of XP you can invest here, between 50% and 60%.
 
 ### Phenom Points
 This is the cost to acquire one new Phenom Points.

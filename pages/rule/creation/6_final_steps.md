@@ -6,7 +6,7 @@ permalink: rule_creation_6_fill.html
 All that remains are a few final steps.
 
 ## Innate Bonuses
-As the result of your Race, Features, and Class, some of your skills and abilities will improve without having to spend XP. These innate bonuses are added at 1st level and again at each level increment noted.
+As the result of your Race, Features, and Class, some of your skills and abilities will improve without having to invest XP. These innate bonuses are added at 1st level and again at each level increment noted.
 
 ### Class Bonuses
 Each Class has an innate bonus for Life Points and [@skill Initiative @]. These are added each time you gain a level.
@@ -52,7 +52,7 @@ Primary Groups represent your basic faculties and are divided into three areas: 
 #### Martial Group
 These abilities encompass your skills in fighting with your physical body, sometimes enhanced by your spirit. Martial Skills are the following:
 
-**Strike Skill**: This represents your ability to strike your opponent and deal damage. This skill depends on [@stat Dexterity @]. The first time you spend XP to increase your [@skill Strike @] kill, you may choose a single weapon to become proficient with.
+**Strike Skill**: This represents your ability to strike your opponent and deal damage. This skill depends on [@stat Dexterity @]. The first time you invest XP to increase your [@skill Strike @] kill, you may choose a single weapon to become proficient with.
 
 **Block Skill**: This represents your ability to place an object between you and a threat. This skill depends on [@stat Dexterity @].
 
@@ -98,7 +98,7 @@ Manifest abilities cover everything related to the area of phenomonon in reality
 
 **Phenom Points (PP)**: These points are used to develop and utilize your phenom.
 
-**Potential**: This is a special value that can only be increased by spending PP, as opposed to spending XP. It is based on your [@stat Willpower @].
+**Potential**: This is a special value that can only be increased by investing PP, as opposed to XP. It is based on your [@stat Willpower @].
 
 **Manifest Modules**: This represents your capacity to utilize phenom in new or more efficient ways.
 
@@ -106,7 +106,7 @@ Manifest abilities cover everything related to the area of phenomonon in reality
 Naturally, you possess much more complexity than simply being able to fight or cast spells. These are known as Secondary Skills and each one is part of a Secondary Group and is linked to a specific Characteristic. For example, the [@skill Acrobatics @] Skill is in the Exertion Group and depends upon your Agility, while [@skill Sciences @] fall under the Intellectual Group and depend upon Intelligence. A complete list of Secondary Skills can be found [here](todo.html).
 
 ### Calculating and Using Skills
-To calculate your final Primary or Secondary Skill, add the Base Value (what you get by spending experience points) to the Modifier of the Characteristic tied to that skill. Lastly, add any other special modifiers like innate bonuses from your Heritage, Features, and Class. The result will be the Final Skill Value, the number added to a Skill Check roll. 
+To calculate your final Primary or Secondary Skill, add the Base Value (what you get by investing Experience Points) to the Modifier of the Characteristic tied to that skill. Lastly, add any other special modifiers like innate bonuses from your Heritage, Features, and Class. The result will be the Final Skill Value, the number added to a Skill Check roll. 
 
 ## Final Details
 Now that you know all the basic things needed to create your character, you can fill in your character sheet. Keep in mind that the Hertiage, Classes, and Features sections will provide the remaining fine details.
@@ -116,7 +116,7 @@ Below is a final check list of things you need to do to create your character:
 2.	Choose Race
 3.	Choose Class
 4.	Buy Features
-5.	Spend XP
+5.	Invest XP
 6.	Add Innate Bonuses
 7.	Calculate Derived Characteristics
 8.	Calculate Life Points

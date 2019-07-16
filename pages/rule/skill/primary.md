@@ -13,7 +13,7 @@ The Primary Skill Groups contain the skills used to control the three different 
 Your [@skill Initiative @] is used to determine how fast you react. At the beginning of each round of combat, you will make an [@skill Initiative @] Check. The Final Skill Roll is used to determine at what order each combatant will act in the round. The Game Master can also ask you to make an [@skill Initiative @] Skill Check outside of combat to determine if you can perform an action before something occurs.
 
 ## Martial Group
-The Martial Group contains skills related to your body's ability to fight in a physical manner. Details can be found in [here](todo.html).
+The Martial Group contains skills related to your body's ability to physically fight.
 
 ### Strike
 [@stat Dexterity @] Characteristic
@@ -38,7 +38,7 @@ This skill is your ability to move your body out of the way of an attack.
 This skill measures your comfort and mobility in armor.
 
 ## Magic Group
-The Magic Group contains skills related to manipulation of mana to perform fantastic feats such as casting spells and conjuring creatures. Details can be found in [here](todo.html).
+The Magic Group contains skills related to manipulation of mana to perform fantastic feats such as casting spells and conjuring creatures.
 
 ### Spell Projection
 [@stat Perception @] Characteristic
@@ -61,16 +61,16 @@ This skill is your capacity to control a creature from Beyond the Veil using the
 This skill is your capacity to expel a creature from Beyond the Veil from your world.
 
 ## Manifest Group
-The Manifest Group contains skills used to warp reality using phenomenal powers. Details can be found in [here](todo.html).
+The Manifest Group contains skills used to warp reality using phenomenal powers.
 
 ### Phenom Projection
 [@stat Perception @] Characteristic
 
-This skill is your ability to direct phenom, and their energies. Phenom Projection is used as an Offensive Skill when attacking with phenom and as a Defensive Skill when defending with a phenom.
+This skill is your ability to direct phenom, and their energies. [@skill Phenom Projection @] is used as an Offensive Skill when attacking with phenom and as a Defensive Skill when defending with a phenom.
 
 ### Potential
 [@stat Willpower @] Characteristic, special
 
-This is a special skill. Its Base Skill Value is equal to your Willpower `-4` and it gains a Natural Bonus as you spend Phenom Points on it. When you manifest a phenom, you make a Potential Check, the Final Skill Roll then determines the degree and the effects of the phenom.
+This is a special skill. Its Base Skill Value is equal to your [@stat Willpower @] `-4` and it gains a natural bonus as you invest Phenom Points on it. When you manifest a phenom, you make a [@skill Potential @] Check, the Final Skill Roll then determines the degree and the effects of the phenom.
 
 

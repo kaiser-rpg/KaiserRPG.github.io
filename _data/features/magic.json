@@ -56,7 +56,7 @@
                 "This feature means you have an affinity for a certain path of magic. You know how to use this path without having learned the theory."
             ],
             "effects": [
-                "Choose one path of magic. You gain all spells, and general spells, up to level 40 without investing any Mana Knowledge. You can continue to develop it beyond level 40 by spending Mana Knowledge as per usual."
+                "Choose one path of magic. You gain all spells, and general spells, up to level 40 without investing any mana knowledge. You can continue to develop it beyond level 40 by investing mana knowledge as per usual."
             ],
             "limits": [
                 "This feature can be taken multiple times; each time chose a different path."

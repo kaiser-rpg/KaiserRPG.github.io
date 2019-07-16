@@ -72,5 +72,70 @@
                 ]
             ]
         }
+    },
+    {
+        "title": "Power Distance",
+        "index": "300",
+        "table": {
+            "type": "table",
+            "colLabels": [
+                "Projection Value",
+                "Distance"
+            ],
+            "colStyles": [
+                "col-2",
+                "col-2"
+            ],
+            "rows": [
+                [
+                    "Less than 4",
+                    "Powers you activate can only target you or you must be in contact with the target."
+                ],
+                [
+                    "Easy (4)",
+                    "20 feet"
+                ],
+                [
+                    "Medium (8)",
+                    "80 feet"
+                ],
+                [
+                    "Difficult (12)",
+                    "150 feet"
+                ],
+                [
+                    "Very Difficult (16)",
+                    "300 feet"
+                ],
+                [
+                    "Absurd (20)",
+                    "600 feet"
+                ],
+                [
+                    "Almost Impossible (24)",
+                    "1,500 feet"
+                ],
+                [
+                    "Impossible (28)",
+                    "3,000 feet"
+                ],
+                [
+                    "Inhuman (32)",
+                    "1 mile"
+                ],
+                [
+                    "Zen (44)",
+                    "3 miles"
+                ],
+                [
+                    "Legendary (60)",
+                    "10 miles"
+                ],
+                [
+                    "Divine (80)",
+                    "50 miles"
+                ]
+            ]
+        }
     }
 ]

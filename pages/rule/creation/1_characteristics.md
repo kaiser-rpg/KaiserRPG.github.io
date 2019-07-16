@@ -16,10 +16,10 @@ You have the following arrays, each one can be assigned to a single Characterist
 - 9 6 6 6 6 6 6 6
 - 7 7 7 7 7 7 6 5
 
-{% include meta.html content="The values found in this method are created by spending 60 points in the following method. The GM can create other arrays if they desire." %}
+{% include meta.html content="The values found in this method are created by investing 60 points in the following method. The GM can create other arrays if they desire." %}
 
 #### Method 2: Point Buy
-You have 60 points to spend to gain a certain Characteristic Value. Each Characteristic must have at least a 3 and can be no greater than 10 by using this method. 
+You have 60 points to invest to gain a certain Characteristic Value. Each Characteristic must have at least a 3 and can be no greater than 10 by using this method. 
 
 {% include table-index.html table="gameplay" index="600" %}
 

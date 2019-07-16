@@ -3,7 +3,7 @@ title: "Step 3: Choose your Class"
 permalink: rule_creation_3_class.html
 ---
 
-A class defines how you will be spending your XP on abilities and skills. Each class has the ability to develop any ability in the system, but not always at the same cost. Think of a class as the exchange rate to learn something. 
+A Class defines how you will be investing your XP on abilities and skills. Each class has the ability to develop any ability in the system, but not always at the same cost. Think of a class as the exchange rate to learn something. 
 
 The list of twenty classes can be found [here](class_intro.html).
 
@@ -44,7 +44,7 @@ Any special Class benefits not reflected in the XP costs or Innate Bonuses will 
 The cost for developing Secondary Skills for each class are listed here. Some classes have a lower or higher XP cost for certain secondary skills. These will also be noted here.
 
 ## Martial
-Your class will determine the percentage of XP you can spend here, between 50% and 60%.
+Your class will determine the percentage of XP you can invest here, between 50% and 60%.
 
 ### Strike, Block, Dodge
 These are the costs of developing your offensive and defensive combat skills. No more than 40% of your total XP can be invested in the sum of these skills, and no more than 25% can be spent on a single skill.
@@ -62,10 +62,10 @@ Investing this many XP allows you to add one point to one of your chakras.
 This is the spirit knowledge (SK) you receive for belonging to a given class. You receive this at first level and each time you move up a level.
 
 ## Magic
-Your class will determine the percentage of XP you can spend here, between 50% and 60%.
+Your class will determine the percentage of XP you can invest here, between 50% and 60%.
 
 ### Mana
-When you spend the XP indicated, your Mana Pool increases by fifty points.
+When you invest the XP indicated, your Mana Pool increases by fifty points.
 
 ### Mana Accumulation Multiple
 This is the cost for increasing your Mana Accumulation (MA). If you possess the Gift Trait, you begin with one MA and by investing the number of XP listed you increase your Mana Accumulation and Mana Recovery by one multiple.
@@ -80,10 +80,10 @@ This is the cost to develop your ability to direct spells. No more than 20% of y
 These numbers are the cost of developing your skills related to conjuring.
 
 ### Mana gained per Level
-This indicates how many mana you receive per level. You receive this at first level and each time you move up a level.
+This indicates how much mana you receive per level. You receive this at first level and each time you move up a level.
 
 ## Phenom
-Your class will determine the percentage of XP you can spend here, between 50% and 60%.
+Your class will determine the percentage of XP you can invest here, between 50% and 60%.
 
 ### Phenom Points
 This is the cost to acquire one new Phenom Points.

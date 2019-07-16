@@ -5,7 +5,7 @@
         "table": {
             "type": "table",
             "colLabels": [
-                "Characteristic",
+                "Characteristic Sum",
                 "Base CA"
             ],
             "colStyles": [
@@ -60,6 +60,71 @@
                 [
                     "51+",
                     "15"
+                ]
+            ]
+        }
+    },
+    {
+        "title": "Detect Spirit Distance",
+        "index": "200",
+        "table": {
+            "type": "table",
+            "colLabels": [
+                "Detect Spirit Value",
+                "Distance"
+            ],
+            "colStyles": [
+                "col-2",
+                "col-2"
+            ],
+            "rows": [
+                [
+                    "Less than 4",
+                    "You must be in contact with a creature to sense its energies."
+                ],
+                [
+                    "Easy (4)",
+                    "5 feet"
+                ],
+                [
+                    "Medium (8)",
+                    "20 feet"
+                ],
+                [
+                    "Difficult (12)",
+                    "60 feet"
+                ],
+                [
+                    "Very Difficult (16)",
+                    "240 feet"
+                ],
+                [
+                    "Absurd (20)",
+                    "800 feet"
+                ],
+                [
+                    "Almost Impossible (24)",
+                    "2000 feet"
+                ],
+                [
+                    "Impossible (28)",
+                    "3000 feet"
+                ],
+                [
+                    "Inhuman (32)",
+                    "1 mile"
+                ],
+                [
+                    "Zen (44)",
+                    "10 miles"
+                ],
+                [
+                    "Legendary (60)",
+                    "1,000 miles"
+                ],
+                [
+                    "Divine (80)",
+                    "1 au"
                 ]
             ]
         }

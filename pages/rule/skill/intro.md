@@ -8,7 +8,7 @@ Skills represent your knowledge or talent in performing certain activities and a
 ## Skill Value
 The value you have in a skill is the numerical representation of how good you are at things related to that skill. Each skill will have a Final Skill Value which is the sum of the Characteristic Modifier the skill is based on, any Innate Bonus and Natural Bonus you possess, and your Base Skill Value. When you make a Skill Check, you add your Final Skill Value to the roll.
 
-Base Skill Value is your bonus based on your time spent training. It is increased by spending Experience equal to a skill's Development Cost. If you have not spent any XP and do not have an Innate or Natural Bonus for a skill, its Base Skill Value is a -3.
+Base Skill Value is your bonus based on your time spent training. It is increased by spending Experience equal to a skill's Development Cost. If you have not spent any XP and do not have an Innate or Natural Bonus for a skill, its Base Skill Value is a `-3`.
 
 ## Using Skills
 When you want to do something, you might have to make a Skill Check to determine if you are successful. 
@@ -22,7 +22,7 @@ Opposed Skill Checks can result in a tie if both you and your opponent gain the 
 Your Degrees of Success and Failure, also called Degree of Difference (DoD), can then be used to determine the result of your Skill Check. A Degree of Difference of 1 or more means you were successful or failed with a small margin. A DoD of 4 or more is a great margin, while a DoD of 8 or more is an absolute success or failure.
 
 ### Passive Skill Checks
-Some skills are used passively, meaning you do not need to declare that you are using them. The Secondary Skill Notice is the most common example. When used passively, the Game Master can ask you ro make a roll or can resolve the Skill Check as if you rolled a 6 on the dice. 
+Some skills are used passively, meaning you do not need to declare that you are using them. The Secondary Skill Notice is the most common example. When used passively, the Game Master can ask you to make a roll or can resolve the Skill Check as if you rolled a 6 on the dice. 
 
 ## Modifiers to Skills
 There are a few different way that a Skill Check can be changed.
@@ -48,9 +48,9 @@ When you have a Final Skill Value of 20 or more, you have gained Mastery in that
 Once you have gained Mastery for all Secondary Skills in a group, you further reduce your Fumble Change by one when using any of those skills.
 
 ### Specialization
-Some skills include broad knowledge or expertise that permits you to specialize in one part of that discipline. Before beginning your development, the you can declare that you wish to specialize. If you do so, apply a bonus when making a Skill Check using that specialty, but at the cost of a negative applied to all other uses of that skill. It is only possible to specialize in the fields that expressly permit this. For the purposes of meeting requirements for various other abilities, if the requirement mentions a specialization then apply the bonus or penalty to your Final Skill Value to determine if you meet the requirement. 
+Some skills include broad knowledge or expertise that permits you to specialize in one part of that discipline. Before beginning your development, then you can declare that you wish to specialize. If you do so, apply a bonus when making a Skill Check using that specialty, but at the cost of a negative applied to all other uses of that skill. It is only possible to specialize in the fields that expressly permit this. For the purposes of meeting requirements for various other abilities, if the requirement mentions a specialization then apply the bonus or penalty to your Final Skill Value to determine if you meet the requirement. 
 
-When you specialize, you can chose to between a +1 and +4 but the penalty is equal to twice your bonus. So a +3 gives you a -6 to all other uses.
+When you specialize, you can choose to between a `+1` and `+4` but the penalty is equal to twice your bonus. So a `+3` gives you a `-6` to all other uses.
 
 ### Knowledge Skills
 Skill Checks that are based on academic knowledge might require you to have spent some time studying or have ready access to a source of knowledge. Even with proper academic training, your Final Skill Roll cannot exceed a value that is more than 8 points greater than your current Final Skill Value unless you are near a source of knowledge and spend some time researching. 

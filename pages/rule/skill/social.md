@@ -19,5 +19,5 @@ Below is the description of the Social Skills.
 [@stat Perception @] Characteristic
 
 ### Style
-[@stat Willpower @] Characteristic
+[@stat Willpower @] Characteristic, passive
 

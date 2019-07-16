@@ -6,7 +6,7 @@
                 "You are naturally talented with a single phenom. You remain unable to control other phenom no matter how much Potential you possess."
             ],
             "effects": [
-                "This feature allows you to spend PP on a single phenom without needing to have invested in the Discipline. Additionally, you can develop [@skill Projection @] and buy Phenom Points."
+                "This feature allows you to invest PP on a single phenom without needing to have invested in the Discipline. Additionally, you can develop [@skill Projection @] and buy Phenom Points."
             ],
             "restrictions": [
                 "This Character Feature can be taken multiple times, each time a different phenom must be selected."
@@ -120,7 +120,7 @@
                 "You are gifted with the ability to manifest phenom of a single Discipline. Your ability to control phenom are limited to a single Discipline and, no matter how much you increase your Potential."
             ],
             "effects": [
-                "This feature allows you to spend Phenom Points to buy a single Discipline and use phenom within it. Additionally, you can develop [@skill Projection @] and buy Phenom Points."
+                "This feature allows you to invest Phenom Points to buy a single Discipline and use phenom within it. Additionally, you can develop [@skill Projection @] and buy Phenom Points."
             ],
             "cost": [
                 2
@@ -434,7 +434,7 @@
                 "You have the natural ability to cast a spell without spending mana."
             ],
             "effects": [
-                "Choose a spell whose level is no greater than 20 and Base Mana Cost is 40 points or less. You can cast that spell once every minute, and an additional time by spend a Stamina Point. Spending additional Feature Points allows you to choose a spell whose Mana Cost is 40 and up to Intermediate Degree or whose Mana Cost is 60 and up to Advanced Degree. The Natural Magic spell cannot be maintained.",
+                "Choose a spell whose level is no greater than 20 and Base Mana Cost is 40 points or less. You can cast that spell once every minute, and an additional time by spend a Stamina Point. Investing additional Feature Points allows you to choose a spell whose Mana Cost is 40 and up to Intermediate Degree or whose Mana Cost is 60 and up to Advanced Degree. The Natural Magic spell cannot be maintained.",
                 "Your Natural Magic spell uses your [@skill Spell Projection @] if you have one. If not, your Offensive Roll is equal to your Presence."
             ],
             "cost": [
@@ -449,7 +449,7 @@
                 "You have a limited potential that allows you to use one phenom unconsciously. You don’t have complete control over it, but can use it whenever you need."
             ],
             "effects": [
-                "You can naturally use a single phenom. You are not considered as having true [@skill Potential @] and cannot use Phenom Points to acquire new phenom or to harness phenom you have. Your phenom is always manifested at the Difficult (12) degree and cannot be maintained. The chosen phenom can be of any level but it must be able to be manifested with at the Difficult (12) degree. The phenom can be used once every minute and then requires spending one Stamina Point to manifest again. Spending additional Feature Points increases the degree that the phenom is manifest at to Very Difficult (16) and Absurd (20) respectively.",
+                "You can naturally use a single phenom. You are not considered as having true [@skill Potential @] and cannot use Phenom Points to acquire new phenom or to harness phenom you have. Your phenom is always manifested at the Difficult (12) degree and cannot be maintained. The chosen phenom can be of any level but it must be able to be manifested with at the Difficult (12) degree. The phenom can be used once every minute and then requires spending one Stamina Point to manifest again. Investing additional Feature Points increases the degree that the phenom is manifest at to Very Difficult (16) and Absurd (20) respectively.",
                 "This Character Feature does not give you a [@skill Potential @] and does not allow you to buy Manifest Character Features,"
             ],
             "cost": [
@@ -464,7 +464,7 @@
                 "You are adapt at wearing armor."
             ],
             "effects": [
-                "You gain a special innate bonus of `+1` every 2 levels to [@skill Use of Armor @]. Spending additional Feature Points increases this bonus to `+1` every level instead."
+                "You gain a special innate bonus of `+1` every 2 levels to [@skill Use of Armor @]. Investing additional Feature Points increases this bonus to `+1` every level instead."
             ],
             "cost": [
                 2,
@@ -477,7 +477,7 @@
                 "Your natural capacity for a skill grants you an innate knowledge that increases with time."
             ],
             "effects": [
-                "Choose a Secondary Skill or Trade Skill, it gains an innate bonus of `+1` per Level. Spending additional Feature Points increases it to a `+2` and `+3` per level."
+                "Choose a Secondary Skill or Trade Skill, it gains an innate bonus of `+1` per Level. Investing additional Feature Points increases it to a `+2` and `+3` per level."
             ],
             "restrictions": [
                 "This Character Feature can be taken multiple times, each time a different skill must be chosen."
@@ -554,7 +554,7 @@
                 "Your spirit is resistant to the effects of mana."
             ],
             "effects": [
-                "You ignore the effects of a spell that was cast with 50 or less mana and you automatically pass a [@skill Spirit Resistance @] Check of 8 or less from a spell. This does not let you ignore the effects of magic on the environment around you. Spending 5 Feature Points lets you ignore spells of 70 mana or less and resist spells with [@skill Spirit Resistance @] of 10 or less."
+                "You ignore the effects of a spell that was cast with 50 or less mana and you automatically pass a [@skill Spirit Resistance @] Check of 8 or less from a spell. This does not let you ignore the effects of magic on the environment around you. Investing 5 Feature Points lets you ignore spells of 70 mana or less and resist spells with [@skill Spirit Resistance @] of 10 or less."
             ],
             "limits": [
                 "This Character Feature cannot be taken with The Gift, Incomplete Gift, or Natural Magic."
@@ -582,7 +582,7 @@
                 "Your spirit can accumulate mana, allowing you to cast spells."
             ],
             "effects": [
-                "You gain a Mana Accumulation and can develop [@skill Spell Projection @]. This allows you to cast spells and transfer mana to other containers. You also gain the ability to see on the mana plane."
+                "You gain a Mana Accumulation and can develop your [@skill Spell Projection @]. This allows you to cast spells and transfer mana to other containers. You also gain the ability to see on the mana plane."
             ],
             "cost": [
                 4
@@ -594,7 +594,7 @@
                 "Your natural capacity for a group of skills grants you an innate knowledge that increases with time."
             ],
             "effects": [
-                "Choose a Secondary Skill Group or four Trade Skills, each skill gains an innate bonus of `+1` every 2 levels. Spending additional Feature Points increases it to a `+1` per level."
+                "Choose a Secondary Skill Group or four Trade Skills, each skill gains an innate bonus of `+1` every 2 levels. Investing additional Feature Points increases it to a `+1` per level."
             ],
             "restrictions": [
                 "This Character Feature can be taken multiple times, each time a different skill group must be chosen."
@@ -610,7 +610,7 @@
                 "Your body and spirit has excess power."
             ],
             "effects": [
-                "You gave 2 free points that you can use to invest instead of investing your Characteristics. For example, a Sanctorum or Artifact that requires you to invest 1 Focus can instead use one of your free points. You cannot use these points to pay for a permanent sacrifice.",
+                "You gave 2 free points that you can use to invest in external powers instead of your Characteristics. For example, a Sanctorum or Artifact that requires you to invest 1 Focus can instead use one of your free points. You cannot use these points to pay for a permanent sacrifice.",
                 "Additional Feature Points grant you an additional 2 points."
             ],
             "cost": [2, 4]
