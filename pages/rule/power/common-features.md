@@ -12,7 +12,7 @@ In order to hit a creature with the immaterial trait, your attack must have the 
 
 Similarly, a creature with the immaterial trait will make its attacks immaterial as well. To defend against such an attack, you must either dodge or block it with an imbued object.
 
-The talent of Presence Extrusion allows you to grant the imbued trait to your weapons and give them a presence equal to twice yours. The meta magic ability Imbued Spell allows your attack and defense spells to gain the imbued trait. A phenom will list at what degree it gains the imbued trait. Some artifacts can also give you or your powers the imbued trait as well.
+The talent of Presence Extrusion allows you to grant the [@trait Imbued @] trait to your weapons and give them a presence equal to twice yours. The principle of Imbued Spell allows your attack and defense spells to gain the [@trait Imbued @] trait. A phenom will list at what degree it gains the [@trait Imbued @] trait. Some artifacts can also give you or your powers the [@trait Imbued @] trait as well.
 
 ## Area Attack
 Some powers have the ability to affect a large area with a single attack. This area attack can take many different shapes: sphere, cylinder, cone, line, and so on. Each valid target within the volume of the attack must make a Defensive Roll against your Offensive Roll (only one roll). The area attack will still count as a thrown projectile for the purpose of defense.

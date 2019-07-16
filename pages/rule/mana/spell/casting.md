@@ -3,7 +3,7 @@ title: Spell Casting
 permalink: rule_magic_casting.html
 ---
 
-If you have the Gift, then you can cast any spell you know. Each spell has four degrees at which you can cast it: Base, Intermediate, Advanced, and Arcane. Each degree will list a Mana Cost and Intelligence Requirement. Mana Cost is the amount of mana that you must always pay before the spell can take effect. This Mana Cost can be modified by meta magic or powerful artifacts, but that will be discussed later. Additionally, you can always spend more mana than the Mana Cost lists: usually that is done to overcome resistance to a certain amount of mana. The Intelligence Requirement must be meet in order to understand how a spell works.
+If you have the Gift, then you can cast any spell you know. Each spell has four degrees at which you can cast it: Base, Intermediate, Advanced, and Arcane. Each degree will list a Mana Cost and Intelligence Requirement. Mana Cost is the amount of mana that you must always pay before the spell can take effect. This Mana Cost can be modified by principles or powerful artifacts, but that will be discussed later. Additionally, you can always spend more mana than the Mana Cost lists: usually that is done to overcome resistance to a certain amount of mana. The Intelligence Requirement must be meet in order to understand how a spell works.
 
 Spells also have an Action Requirement of Active or Swift depending on the nature of the spell. Active spells require it to be your turn in the Initiative and for you to take the [Use an Active Power](todo.html) action. Swift spells can be cast at any time during the round by taking the [Use a Swift Power](todo.html) action. 
 

@@ -161,8 +161,8 @@ entries:
   - title: Magic
     output: web
     folderitems:
-    - title: Meta Magic
-      url: /char_magic_meta.html
+    - title: Principles
+      url: /char_magic_principle.html
       output: web
     - title: Minor Conjuring Pacts
       url: /char_magic_minor_pact.html

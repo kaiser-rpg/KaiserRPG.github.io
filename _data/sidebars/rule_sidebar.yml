@@ -232,8 +232,8 @@ entries:
     - title: Mana Knowledge
       url: /rule_magic_knowledge.html
       output: web
-    - title: Meta Magic
-      url: /rule_magic_meta.html
+    - title: Principles
+      url: /rule_magic_principle.html
       output: web
     - title: Spells
       url: /rule_magic_spell.html

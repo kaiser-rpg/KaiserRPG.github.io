@@ -19,7 +19,7 @@ If you lose concentration, the mana returns to your pool and not the Capacitor.
 You can Active more than Mana Capacitor each round, as long as you pay the AP cost.
 
 ### Spell Booster
-A Spell Booster is an object that increases the amount of mana used to cast a spell. This does not reduce Base Degree's Mana Cost. But the extra Mana added to the spell can be used to increase the degree or add meta magic as appropriate.
+A Spell Booster is an object that increases the amount of mana used to cast a spell. This does not reduce Base Degree's Mana Cost. But the extra Mana added to the spell can be used to increase the degree or add principles as appropriate.
 
 You can only benefit from one Spell Booster at a time.
 

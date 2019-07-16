@@ -89,7 +89,7 @@ Magic skills encompass both spells and summoning.
 
 **Mystical Modules**: This represents your capacity to utilize magic and spells in new or more efficient ways.
 
-**Meta Magic**: These are modifications to your magic.
+**Principles**: These are modifications to your magic.
 
 #### Manifest Group
 Manifest abilities cover everything related to the area of phenomonon in reality, known as phenom, and their uses.
