@@ -23,6 +23,8 @@ Some powers also let you perform these maneuvers. A power will list what maneuve
 
 {% include action/maneuver/knockout.md %}
 
+{% include action/maneuver/sunder.md %}
+
 {% include action/maneuver/weapon-point.md %}
 
 {% include action/maneuver/take-down.md %}
@@ -34,4 +36,3 @@ Some powers also let you perform these maneuvers. A power will list what maneuve
 {% include action/maneuver/trap.md %}
 
 {% include action/maneuver/sweeping.md %}
-

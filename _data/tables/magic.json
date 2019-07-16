@@ -126,13 +126,13 @@
         }
     },
     {
-        "title": "Magic Level",
+        "title": "Mana Knowledge",
         "index": "200",
         "table": {
             "type": "table",
             "colLabels": [
                 "Intelligence",
-                "Maximum Magic Level"
+                "Maximum Mana Knowledge"
             ],
             "colStyles": [
                 "col-5",
