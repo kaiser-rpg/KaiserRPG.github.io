@@ -50,10 +50,19 @@ High Paths of magic can only accommodate one General spell for every ten levels 
 
 There also exists special groupings of ten General spells called Sub-paths. These Sub-paths are a set of spells with common themes that build upon each other's formula. In order to master them, you must devote yourself to a Sub-path when take your first General spell as part of a Path. Once chosen, every ten levels in that Path you must take the next spell in the Sub-path. Since High Paths only have flexibility to learn ten General Spells, you can only take one Sub-path. but Low Paths allow you to select up to two different Sub-paths, but you will always learn one of them before the other.
 
-## Paragon and Divine Magic
-Spells of 81 and higher are special spells. Mortals are unable to cast these spells as they lack spiritual existence to control such energies. That is not to say that you are unable to learn them, just that any attempt to cast them will cause the mana to be lost and the spell to no take effect.
+## Learning Spells
+As you invest in a spell path, you will learn one spell for every two mana knowledge. Some of these spells will come from the General path. If you start to invest into two paths that are opposing, like the Fire and Water paths, it becomes difficult to master the opposing theoroms. Investing in a path that opposes one of your current paths, it takes twice as much mana knowledge to do so. Necromancy is a special case; due to its nature it opposes all other Paths of Magic.
 
-The requirements to cast spell between 81 and 90, called Paragon Spells, is you have a Gnosis of 25 or higher and the ability to perform Inhuman degree actions. Spells of 91 and higher are called Divine Magic. They require you to have a Gnosis of 40 or higher and the ability to perform Zen degree actions.
+Once you start learning opposing paths, the lower leveled path will have the increased cost. As a result, it is not recommended you keep them evenly leveled.
+
+### Choosing Specific Spells
+Instead of learning spells in a structured theory, you can choose to invest mana knowledge to master a single spell. This method allows you to choose any spell and pay a special cost for it. Higher level spells costs more mana knowledge since it requires you to understand a more complex topic without the underlying knowledge. The cost for each Spell Level Range is listed below. Spells from a path that opposes any known path still have their cost doubled.
+
+{% include table-index.html table="magic" index="210" %}
+
+## Paragon and Divine Magic
+Spells of 81 and higher are special spells. Mortals are unable to cast these spells as they lack the proper spiritual existence to control such energies. That is not to say that you are unable to learn them, just that any attempt to cast them will cause the mana to be lost and the spell to no take effect.
+
+The requirements to cast spell between 81 and 90, called Paragon Spells, is having a Nornir of 25 or higher and the ability to perform Zen actions. Spells of 91 and higher are called Divine Magic. They require you to have a Nornir of 40 or higher and the ability to perform Divine actions.
 
 This limitation does not apply to spells in the General Group.
-
