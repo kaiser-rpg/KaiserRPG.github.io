@@ -14,10 +14,10 @@ Below are a list of special states that only apply in ranged combat.
 You are at Point-Blank range is your are within 5 feet of your target. While at [@state Point-Blank @] range, you have `A1` and you can be counterattacked and can counterattack.
 
 ### Changing Target
-If you make multiple ranged attacks in a single round, you suffer a `-1` penalty each time your next attack targets a different creature than the previous. This penalty also applies if you were previously [@action Aiming @] but then switch targets (which still causes you to lose the Aim bonus).
+If you make multiple ranged attacks in a single round, you suffer a `-1` deed penalty each time your next attack targets a different creature than the previous. This penalty also applies if you were previously [@action Aiming @] but then switch targets (which still causes you to lose the Aim bonus).
 
 ### Target has Cover
-If your target is mostly behind cover, you suffer a `-4` penalty to the Offensive Roll. If the target is completely behind cover, you cannot attack them until they exit cover. This can be done by preparing an offensive roll.
+If your target is mostly behind cover, you suffer a `-4` deed penalty to the Offensive Roll. If the target is completely behind cover, you cannot attack them until they exit cover. This can be done by preparing an offensive roll.
 
 ### Moving Shot
 When you move more than 20 feet before shooting, you suffer `D1` on the Offensive Roll. If you move than your Dash Distance, you instead suffer `D2`.
@@ -26,18 +26,18 @@ When you move more than 20 feet before shooting, you suffer `D1` on the Offensiv
 When your target has moved more than 50 feet this round before you make your shot, you suffer `D1` on the Offensive Roll. If they move more than 100 feet, you instead suffer `D2`.
 
 ### Large Target
-Shooting at a target who is at least 8 feet tall gives you a `+4` bonus to the Offensive Roll. This bonus does not apply when shooting targets using the Rex or Ludus Damage Roles.
+Shooting at a target who is at least 8 feet tall gives you a `+4` deed bonus to the Offensive Roll. This bonus does not apply when shooting targets using the Rex or Ludus Damage Roles.
 
 ### Shooting Defensively
 You can declare that you are [@state Shooting Defensively @] before making your Offensive Roll to prevent an opponent from taking the Attack an Opening reaction. But, doing so gives you `D1` on the Offensive Roll.
 
 ## Defense Against Projectiles
-If you have not reached Mastery with [@skill Block @] or [@skill Dodge @], you may find it very difficult to defend against thrown or fired projectiles. When making your Defensive Roll against such attacks, you suffer a special penalty as described in the table below. 
+If you have not reached Mastery with [@skill Block @] or [@skill Dodge @], you may find it very difficult to defend against thrown or fired projectiles. When making your Defensive Roll against such attacks, you suffer a deed penalty as listed in the table below. 
 
 {% include table-index.html table="combat" index="410" %}
 
 ## Effective and Maximum Range
-Projectile weapons have two range values called effective range and maximum range. The effective range is about half of the maximum and represents the distance your projectile can accurately travel before it starts to lose some of its accuracy and strength. Within the effective range, your ranged Offensive Rolls suffer no penalty. The maximum range is the absolute farthest distance you can hit a target with your projectile, anything beyond and the attack falls flat and loses all its power. A target beyond your effective range and within your maximum range can be attacked, but you suffer a `-3` penalty to the Offensive Roll.
+Projectile weapons have two range values called effective range and maximum range. The effective range is about half of the maximum and represents the distance your projectile can accurately travel before it starts to lose some of its accuracy and strength. Within the effective range, your ranged Offensive Rolls suffer no penalty. The maximum range is the absolute farthest distance you can hit a target with your projectile, anything beyond and the attack falls flat and loses all its power. A target beyond your effective range and within your maximum range can be attacked, but you suffer a `-3` deed penalty to the Offensive Roll.
 
 The strength of the thing that shoots the projectile, wether that be you or the arm of a crossbow, can increase the maximum range of a projectile (and thus also increase its effective range). Consult the table below to find the distance increase, or decrease, that a Strength value has. Remember, that this modifies the maximum range, so half of that value is added to the effective range.
 

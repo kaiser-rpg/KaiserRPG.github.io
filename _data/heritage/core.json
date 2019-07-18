@@ -71,7 +71,7 @@
                             "outline": 1,
                             "entries": [
                                 "**Intention**: 1 AP",
-                                "While the Mark of the Lost Land is active, you speak the second name of your lost land and you gain a `+8` bonus to prevent yourself from forgetting what you have learned about your Kingdom or to be emotionally manipulated from not fulfilling your goal."
+                                "While the Mark of the Lost Land is active, you speak the second name of your lost land and you gain a `+8` power bonus to prevent yourself from forgetting what you have learned about your Kingdom or to be emotionally manipulated from not fulfilling your goal."
                             ]
                         },
                         {
@@ -163,7 +163,7 @@
                             "outline": 1,
                             "entries": [
                                 "**Intention**: 1 AP",
-                                "While the Mark of the Lost Land is active, you speak the second name of your lost land and you gain a `+16` bonus to prevent yourself from forgetting what you have learned about your Kingdom or to be emotionally manipulated from not fulfilling your goal."
+                                "While the Mark of the Lost Land is active, you speak the second name of your lost land and you gain a `+16` power bonus to prevent yourself from forgetting what you have learned about your Kingdom or to be emotionally manipulated from not fulfilling your goal."
                             ]
                         },
                         {
@@ -223,7 +223,7 @@
                     "name": "Guard Against Vermin and Disease",
                     "type": "entries",
                     "entries": [
-                        "You have a natural resistance to natural toxins and diseases. Your have a `+4` bonus to any [@skill IR @] Check against completely natural sources, if it is a substance derived from a natural source you do not gain the bonus. Any creature within 60-feet of you gain as `+2` bonus to similar [@skill IR @] Checks. Additionally, vermin will naturally avoid you."
+                        "You have a natural resistance to natural toxins and diseases. Your have a `+4` power bonus to any [@skill IR @] Check against completely natural sources, if it is a substance derived from a natural source you do not gain the bonus. Any creature within 60-feet of you gain as `+2` power bonus to similar [@skill IR @] Checks. Additionally, vermin will naturally avoid you."
                     ]
                 },
                 {
@@ -257,7 +257,7 @@
                     "name": "Guard Against Vermin and Disease",
                     "type": "entries",
                     "entries": [
-                        "You have a natural resistance to natural toxins and diseases. Your have a `+4` bonus to any [@skill IR @] Check against completely natural sources, if it is a substance derived from a natural source you do not gain the bonus. Any creature within 60-feet of you gain as `+2` bonus to similar [@skill IR @] Checks. Additionally, vermin will naturally avoid you."
+                        "You have a natural resistance to natural toxins and diseases. Your have a `+4` power bonus to any [@skill IR @] Check against completely natural sources, if it is a substance derived from a natural source you do not gain the bonus. Any creature within 60-feet of you gain as `+2` power bonus to similar [@skill IR @] Checks. Additionally, vermin will naturally avoid you."
                     ]
                 },
                 {

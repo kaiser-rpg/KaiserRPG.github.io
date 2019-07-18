@@ -57,7 +57,7 @@
                 "You are emotionally resistant to emotional changes."
             ],
             "effects": [
-                "You gain a `+6` bonus to [@skill Composure @] Checks to control your emotional state and a `+3` bonus to Resistance Checks caused by powers that modify your emotional state."
+                "You gain a `+6` deed bonus to [@skill Composure @] Checks to control your emotional state and a `+3` deed bonus to Resistance Checks caused by powers that modify your emotional state."
             ],
             "limits": [
                 "This Character Feature cannot be taken with the Vice, Cowardice, or Phobia Negative Feature"
@@ -72,7 +72,7 @@
                 "You have an uncanny ability to focus your mind on a single target."
             ],
             "effects": [
-                "You double the bonus from the [@action Aim @] action with a projectile."
+                "You double the deed bonus from the [@action Aim @] action with a projectile."
             ],
             "cost": [
                 1
@@ -96,7 +96,7 @@
                 "Your will is resistant to external control."
             ],
             "effects": [
-                "You gain a `+6` bonus to Resistance Checks to prevent possession and domination."
+                "You gain a `+6` deed bonus to Resistance Checks to prevent possession and domination."
             ],
             "cost": [
                 1
@@ -108,7 +108,7 @@
                 "While you sleep, your mind is still partially conscious of what is happening around you and can wake up faster."
             ],
             "effects": [
-                "You only apply a `-2` penalty to your [@skill Notice @] Checks while sleeping and can wake up without losing a round."
+                "You only apply a `-2` deed penalty to your [@skill Notice @] Checks while sleeping and can wake up without losing a round."
             ],
             "cost": [
                 1
@@ -132,7 +132,7 @@
                 "One of your Characteristics is fine tuned."
             ],
             "effects": [
-                "One of your Characteristics has a +1 bonus when making Characteristic Checks. Choose two Secondary Skills based on that Characteristic, they have a Natural Bonus of `+3`."
+                "One of your Characteristics has a +1 deed bonus when making Characteristic Checks. Choose two Secondary Skills based on that Characteristic, they have a natural bonus of `+3`."
             ],
             "restrictions": [
                 "You can take this Character Feature multiple times, but each time Choose a different Characteristic."
@@ -192,7 +192,7 @@
                 "Your mind possess a greater resistance."
             ],
             "effects": [
-                "You gain a +2 natural bonus to [@skill Mental Resistance @]."
+                "You gain a `+2` natural bonus to [@skill Mental Resistance @]."
             ],
             "restrictions": [
                 "You can take this Character Feature up to two times."
@@ -249,7 +249,7 @@
                 "Your vitality is exceptional"
             ],
             "effects": [
-                "You gain a `+10` innate bonus per level to your Life Points. Additionally, you gain a `+1` natural bonus to [@skill Physical Resistance @] caused by Criticals."
+                "You gain a `+10` innate bonus per level to your Life Points. Additionally, you gain a `+1` deed bonus against [@skill Physical Resistance @] Checks caused by Criticals."
             ],
             "restrictions": [
                 "You can take this Character Feature up to two times."
@@ -318,7 +318,7 @@
                 "Your eyes have the ability to see in the dark and can quickly adapt to changes of light intensity."
             ],
             "effects": [
-                "You ignore the [@state Partially Blind @] and [@state Totally Blind @] states that come from natural darkness (but not complete lack of darkness) and reduce any penalty from magical darkness by half. You also reduce by half the penalties from any flashes of light."
+                "You ignore the [@state Partially Blind @] and [@state Totally Blind @] states that come from natural darkness (but not complete lack of darkness) and reduce any deed penalty from magical darkness by half. You also reduce by half the penalties from any flashes of light."
             ],
             "cost": [
                 2
@@ -381,7 +381,7 @@
                 "You resist the negative effects of pain."
             ],
             "effects": [
-                "You reduce the penalties from the [@state Pain @] state by half. The [@state Pain @] state still recovers at the normal rate."
+                "You reduce the all-action penalty from the [@state Pain @] state by half. The [@state Pain @] state still recovers at the normal rate."
             ],
             "cost": [
                 2
@@ -464,7 +464,7 @@
                 "You are adapt at wearing armor."
             ],
             "effects": [
-                "You gain a special innate bonus of `+1` every 2 levels to [@skill Use of Armor @]. Investing additional Feature Points increases this bonus to `+1` every level instead."
+                "You gain an innate bonus of `+1` every 2 levels to [@skill Use of Armor @]. Investing additional Feature Points increases this bonus to `+1` every level instead."
             ],
             "cost": [
                 2,
@@ -665,7 +665,7 @@
                 "You cannot see well at a distance."
             ],
             "effects": [
-                "You apply a `-5` penalty to any visual Skill Checks and ranged Offensive Rolls. This penalty can be reduced by obtaining glasses. The new penalty is determined by the Game Master."
+                "You apply a `-5` deed penalty to any visual Skill Checks and ranged Offensive Rolls. This penalty can be reduced by obtaining glasses. The new penalty is determined by the Game Master."
             ],
             "cost": [2]
         },
@@ -685,7 +685,7 @@
                 "You only know how to use one specific weapon, such as your family's long sword."
             ],
             "effects": [
-                "You apply a `-3` penalty to [@skill Strike @] and [@skill Block @] when wielding any weapon other than your preferred."
+                "You apply a `-3` deed penalty to [@skill Strike @] and [@skill Block @] when wielding any weapon other than your preferred."
             ],
             "limits": [
                 "This Character Feature can only be taken if you have the Fighter Archetype."
@@ -719,7 +719,7 @@
                 "One of your limbs has a server issue."
             ],
             "effects": [
-                "You suffer a `-8` penalty to any physical action that use the atrophied limb. If the limb is your leg, your Movement Value is halved, round up."
+                "You suffer a `-8` deed penalty to any physical action that use the atrophied limb. If the limb is your leg, your Movement Value is halved, round up."
             ],
             "cost": [2]
         },
@@ -739,7 +739,7 @@
                 "You do not wake up easily."
             ],
             "effects": [
-                "You apply a `-30` penalty to all Characteristic and Skill Checks while asleep. For the first hour after waking, you suffer the [@state Pain (4) @] state."
+                "You apply a `-30` deed penalty to all Characteristic and Skill Checks while asleep. For the first hour after waking, you suffer the [@state Pain (4) @] state."
             ],
             "cost": [1]
         },
@@ -785,7 +785,7 @@
                 "Your mind and body are unable to repel outside control."
             ],
             "effects": [
-                "You suffer a `-6` penalty to any Resistance Check to prevent any kind of domination or possession."
+                "You suffer a `-6` deed penalty to any Resistance Check to prevent any kind of domination or possession."
             ],
             "cost": [1]
         },
@@ -805,7 +805,7 @@
                 "You do not tolerate pain well."
             ],
             "effects": [
-                "You double the penalty from the [@state Pain @] state."
+                "You double the all-action penalty from the [@state Pain @] state."
             ],
             "cost": [2]
         },
@@ -886,7 +886,7 @@
                 "You are clumsy."
             ],
             "effects": [
-                "You suffer a `-3` penalty to all physical Skill Checks that require coordination and a `-3` penalty to all Opposed Dexterity Check."
+                "You suffer a `-3` deed penalty to all physical Skill Checks that require coordination and a `-3` deed penalty to all Opposed Dexterity Check."
             ],
             "cost": [2]
         },
@@ -937,7 +937,7 @@
                 "You suffer indecision when first starting combat."
             ],
             "effects": [
-                "You suffer a `-2` penalty to all Characteristic and Skill Checks on the first round after rolling [@skill Initiative @] with a new combat."
+                "You suffer a `-2` deed penalty to all Characteristic and Skill Checks on the first round after rolling [@skill Initiative @] with a new combat."
             ],
             "cost": [2]
         },
@@ -967,7 +967,7 @@
                 "You are not very aware."
             ],
             "effects": [
-                "You suffer a `-3` penalty to Secondary Skill Checks based on Perception and to Social Skill Checks."
+                "You suffer a `-3` deed penalty to Secondary Skill Checks based on Perception and to Social Skill Checks."
             ],
             "cost": [1]
         },
@@ -1013,7 +1013,7 @@
                 "Your attacks are predictable."
             ],
             "effects": [
-                "All creatures gains a `+2` bonus to counterattack you."
+                "All creatures gains a `+2` deed bonus to counterattack you."
             ],
             "limits": [
                 "This Character Feature can only be taken if you have the Fighter, Spiriter, Explorer, or Freelancer archetype."
@@ -1036,7 +1036,7 @@
                 "You are not properly trained in using weapons."
             ],
             "effects": [
-                "You suffer a `-5` penalty to [@skill Strike @] and [@skill Block @] Checks and cannot buy any Combat Modules or Martial Arts."
+                "You suffer a `-5` natural penalty to [@skill Strike @] and [@skill Block @] Checks and cannot buy any Combat Modules or Martial Arts."
             ],
             "limits": [
                 "This Character Feature can only be taken if you have the Fighter, Spiriter, Explorer, or Freelancer archetype."
@@ -1049,7 +1049,7 @@
                 "Your body has a hard time handling the activation of power."
             ],
             "effects": [
-                "During the End Phase that you use a non-passive power, you must roll 2d6. On a roll of 8 to 11, you suffer a `-2` penalty until the End Phase of next round. On a roll of 12, the penalty is doubled."
+                "During the End Phase that you use a non-passive power, you must roll 2d6. On a roll of 8 to 11, you suffer a `-2` deed penalty until the End Phase of next round. On a roll of 12, the penalty is doubled."
             ],
             "cost": [3]
         }

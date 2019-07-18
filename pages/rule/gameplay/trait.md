@@ -14,7 +14,7 @@ The [@trait Imbued @] trait means that the object contains supernatural energies
 If the trait has a number in parentheses after it, then it can interact with immaterial objects whose presence is less than or equal to it. If no number appears, then it uses the objects presence. With the Presence Extrusion talent, any object you wield or wear is considered to have the imbued trait with a value equal to twice your presence.
 
 ### Flowing
-The [@trait Flowing @] trait means that the attack is capable of shifting its shape when it impacts an object. When a creature attempts to block a [@trait Flowing @] attack, they suffer a `-12` penalty since your attack can flow around the attempt to block. A defense with the [@trait Imbued @] trait allows the target to extend their defense in such a way as to properly block a [@trait Flowing @] attack. The Game Master may consider where the diverted flow goes, possibly reconnecting behind the target. 
+The [@trait Flowing @] trait means that the attack is capable of shifting its shape when it impacts an object. When a creature attempts to block a [@trait Flowing @] attack, they suffer a `-12` deed penalty since your attack can flow around the attempt to block. A defense with the [@trait Imbued @] trait allows the target to extend their defense in such a way as to properly block a [@trait Flowing @] attack. The Game Master may consider where the diverted flow goes, possibly reconnecting behind the target. 
 
 An area attack with the [@trait Flowing @] trait, along with being difficult to block, will maintain its volume if the power is created in a confined space. 
 
@@ -24,7 +24,7 @@ An area attack with the [@trait Flowing @] trait, along with being difficult to 
 The [@trait Linear @] trait means that the attack travels in straight lines from its origin point, up to its maximum. Once the line hits an object, it is unable to travel farther. If the attack also has the [@trait Immaterial @] trait, it will keep traveling until it hits an [@trait Imbued @] object.
 
 ### Two-handed
-The [@trait Two-handed @] trait means that the weapon is designed to be used with two hands. While wielding it in two-hands, you add your [@stat Strength @] Modifier twice to the Base Damage. If you do not use it in two hands, you apply a `-8` penalty to [@skill Initiative @], [@skill Strike @], and [@skill Block @] Checks.
+The [@trait Two-handed @] trait means that the weapon is designed to be used with two hands. While wielding it in two-hands, you add your [@stat Strength @] Modifier twice to the Base Damage. If you do not use it in two hands, you apply a `-8` deed penalty to [@skill Initiative @], [@skill Strike @], and [@skill Block @] Checks.
 
 ### Versatile
 The [@trait Versatile @] trait means that the weapon is designed to be used in one or two hands. While wielding it in two-hands, you add your [@stat Strength @] Modifier twice to the Base Damage. The Strength Requirement to wield one-handed is listed after the two-handed requirement. 

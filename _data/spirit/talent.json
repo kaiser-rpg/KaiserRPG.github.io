@@ -44,7 +44,7 @@
         ],
         "entries": [
             "Your body and spirit have synchronized to produce an aura that unsettles those nearby. This is sometimes called \"killer instinct\" and can cause weaker spirits to tremble or faint.",
-            "All creatures within the aura whose presence is 2 points less than yours must make a PrR Check or a Composure Check against a difficulty equal to the sum of your presence and a tenth of your chakras, round down. Any All Action Penalty or penalty to physical actions lowers the difficulty since your physical body is also weakened.",
+            "All creatures within the aura whose presence is 2 points less than yours must make a PrR Check or a Composure Check against a difficulty equal to the sum of your presence and a tenth of your chakras, round down. Any all-action Penalty or penalty to physical actions lowers the difficulty since your physical body is also weakened.",
             {
                 "type": "example",
                 "entries": [
@@ -293,7 +293,7 @@
         ],
         "entries": [
             "You have more control over the Dermal Ki Talent. When you exploit this talent, you must spend 1 ki point and it can be maintained by spending 1 ki.",
-            "While active, you can move across water and run up a wall and stay there. Additionally, you have a +2 to the Characteristic Check to prevent being disarmed."
+            "While active, you can move across water and run up a wall and stay there. Additionally, you have a `+2` power bonus to the Characteristic Check to prevent being disarmed."
         ]
     },
     {
@@ -308,7 +308,7 @@
             "automatic"
         ],
         "entries": [
-            "Advanced Dermal Ki becomes a passive power. Additionally, you gain a +2 bonus to the Characteristic Check when performing the Trap Maneuver."
+            "Advanced Dermal Ki becomes a passive power. Additionally, you gain a `+2` power bonus to the Characteristic Check when performing the [@action Trap @] maneuver."
         ]
     },
     {
@@ -324,7 +324,7 @@
         ],
         "entries": [
             "You use your ki to move a single unattended object. The object does not have to be within sight, but you must have a general idea of its location. When you exploit this talent, you must spend 1 ki point per 10 pounds the object weighs and it can be maintained by spending the same amount of ki points.",
-            "While active, you can move the object as if it had a Flight Value of 1. You use your presence as the Skill in order to maneuver the object. The object cannot be used to attack and if the object is grabbed the talent ends."
+            "While active, you can move the object as if it had a Flight Value of 1. You use your Presence as the Final Skill Value in order to maneuver the object. The object cannot be used to attack and if the object is grabbed the talent ends."
         ]
     },
     {
@@ -370,7 +370,7 @@
             "automatic"
         ],
         "entries": [
-            "You use your ki cause yourself to move above the ground. When you exploit this talent, you must spend 1 ki point per point of Flight Value you gain and it can be maintained by spending the same amount of ki points. You cannot move more than 5 feet above the ground and your Flight Value cannot be greater than a quarter of your Movement Value, round up."
+            "You use your ki to cause yourself to move above the ground. When you exploit this talent, you must spend 1 ki point per point of Flight Value you gain and it can be maintained by spending the same amount of ki points. You cannot move more than 5 feet above the ground and your Flight Value cannot be greater than a quarter of your Agility, round up."
         ]
     },
     {
@@ -385,7 +385,7 @@
             "automatic"
         ],
         "entries": [
-            "You use your ki to cause yourself to move above the ground faster than before. When you exploit this talent, you must spend 1 ki point per point of Flight Value you gain and it can be maintained by spending the same amount of ki. You cannot have a Flight Value greater than your Movement Value."
+            "You use your ki to cause yourself to move above the ground faster than before. When you exploit this talent, you must spend 1 ki point per point of Flight Value you gain and it can be maintained by spending the same amount of ki. You cannot have a Flight Value greater than your Agility."
         ]
     },
     {
@@ -401,7 +401,7 @@
         ],
         "entries": [
             "Your body can perform more physical activity by your ability to maintain your spiritual energies. You can perform physically stressful work five times longer before losing Stamina. For example, you can walk for 30 hours before losing 1 Stamina Point.",
-            "The Endure Talent also allows you to spend up to 5 Stamina Points in a single round, instead of the normal 2 points."
+            "The Endure talent also allows you to spend up to 5 Stamina Points in a single round, instead of the normal 2 points."
         ]
     },
     {
@@ -435,7 +435,7 @@
             "Due to your control of spiritual energies, you have a certain amount of resistance to the Heat Damage Type. You gain an innate resistance to 5 intensities of Heat. This part of the talent is passive.",
             "You can increase the Heat intensities you resist by spending ki. When you exploit this talent, you can spend 1 or more ki points to increase your Heat intensities by the same amount. It can be maintained by spending the same amount of ki points.",
             "If you have Damage Vulnerability to the Heat Damage Type or are naturally weak to fire, you cannot take this talent.",
-            "As per the rules for resisting elemental intensities, you gain Damage Resistance to the Heat Damage Type equal to half the intensities, round down."
+            "As per the rules for resisting elemental intensities, you gain Base Damage Resistance to the Heat Damage Type equal to half the intensities, round down."
         ]
     },
     {
@@ -454,7 +454,7 @@
             "Due to your control of spiritual energies, you have a certain amount of resistance to the Cold Damage Type. You gain an innate resistance to 5 intensities of Cold. This part of the talent is passive.",
             "You can increase the Cold intensities you resist by spending ki. When you exploit this talent, you can spend 1 or more ki points to increase your Cold intensities by the same amount. It can be maintained by spending the same amount of ki points.",
             "If you have Damage Vulnerability to the Cold Damage Type or are naturally weak to cold, you cannot take this talent.",
-            "As per the rules for resisting elemental intensities, you gain Damage Resistance to the Cold Damage Type equal to half the intensities, round down."
+            "As per the rules for resisting elemental intensities, you gain Base Damage Resistance to the Cold Damage Type equal to half the intensities, round down."
         ]
     },
     {
@@ -473,7 +473,7 @@
             "Due to your control of spiritual energies, you have a certain amount of resistance to the Electrical Damage Type. You gain an innate resistance to 5 intensities of Electrical. This part of the talent is passive.",
             "You can increase the Electrical intensities you resist by spending ki. When you exploit this talent, you can spend 1 or more ki points to increase your Electrical intensities by the same amount. It can be maintained by spending the same amount of ki points.",
             "If you have Damage Vulnerability to the Electrical Damage Type or are naturally weak to electricity, you cannot take this talent.",
-            "As per the rules for resisting elemental intensities, you gain Damage Resistance to the Electrical Damage Type equal to half the intensities, round down."
+            "As per the rules for resisting elemental intensities, you gain Base Damage Resistance to the Electrical Damage Type equal to half the intensities, round down."
         ]
     },
     {
@@ -488,7 +488,7 @@
             "passive"
         ],
         "entries": [
-            "With the spirit and body working together, you reduce the All Action Penalties applied by Criticals and low Stamina by half. This lowers the penalty that you apply, but you still have the entire penalty to recover from."
+            "With the spirit and body working together, you reduce the all-action penalties applied by [@state Pain @] state by half. This lowers the deed penalty that you apply, but you still have the entire [@state Pain @] state to recover from."
         ]
     },
     {
@@ -510,7 +510,7 @@
                     "Stamina Meditation restores one additional Stamina Point every 6 hours.",
                     "Recovery Meditation restores twice as many Sacrificed Life Points every 6 hours.",
                     "Ki Meditation restores twice as many ki every hour.",
-                    "Mana Meditation restores 10% more mana every 6 hours."
+                    "Mana Meditation restores 10% of your Mana Recovery every 6 hours, in addition to your normal recovery."
                 ]
             }
         ]
@@ -527,7 +527,7 @@
             "passive"
         ],
         "entries": [
-            "You can perform two different Meditation Activities at once."
+            "You can perform two different meditation activities at once."
         ]
     },
     {
@@ -542,7 +542,7 @@
             "passive"
         ],
         "entries": [
-            "You can perform all the Meditation Activities at once."
+            "You can perform all the meditation activities at once."
         ]
     },
     {
@@ -557,7 +557,7 @@
             "passive"
         ],
         "entries": [
-            "Your spirit emits a pleasant aura that helps those meditating with you to benefit from the effects of the Meditation Recovery Talent. A creature can only benefit from a single Meditation Recovery Talent."
+            "Your spirit emits a pleasant aura that helps those meditating with you to benefit from the effects of the Meditation Recovery talent. A creature can only benefit from each Meditation Recovery option once."
         ]
     },
     {
@@ -579,13 +579,13 @@
                 "items": [
                     "Damage Multipliers increase by one point. i.e. x2 becomes x3",
                     "Resistance Check increase their Difficulty by 4. i.e. PhR 8 becomes PhR 12",
-                    "All other numerical values increase by 50%, round down. i.e. +10 attack becomes +15"
+                    "All other numerical values increase by 50%, round down. i.e. `+10` attack becomes `+15`"
                 ]
             },
             {
                 "type": "example",
                 "entries":[
-                    "Jet has mastered a Technique that gives him a +5 bonus to Strike Skill Checks and x3 to his attack's Base Damage with a ki cost of Red 6 and Green 5. When he pushes that Technique, it costs him Red 12 and Green 10. This push would give him a +7 to Strike Skill Checks and x4 to his attack's Base Damage."
+                    "Jet has mastered a Technique that gives him a `+5` power bonus to Strike Skill Checks and x3 to his attack's Base Damage with a ki cost of Red 6 and Green 5. When he pushes that Technique, it costs him Red 12 and Green 10. This push would give him a +7 to Strike Skill Checks and x4 to his attack's Base Damage."
                 ]
             }
         ]
@@ -602,7 +602,7 @@
             "passive"
         ],
         "entries": [
-            "You can create and exploit Improvised Techniques. Improvised Techniques are explained <a href='todo.html'>here</a>."
+            "You can create and exploit Improvised Techniques. Improvised Techniques are explained [here](todo.html)."
         ]
     },
     {
@@ -617,7 +617,7 @@
             "passive"
         ],
         "entries": [
-            "todo"
+            "You can learn a technique by imitating it. Technique imitation is explained [here](todo.html)."
         ]
     },
     {
@@ -647,7 +647,7 @@
             "passive"
         ],
         "entries": [
-            "Fusion of your spiritual energies with your body grant you a +1 to your Physical Resistance."
+            "Fusion of your spiritual energies with your body grant you a `+1` natural bonus to your Physical Resistance."
         ]
     },
     {
@@ -662,10 +662,10 @@
             "automatic"
         ],
         "entries": [
-            "You can create copies of yourself made out of ki. These clones are tangible and sentient, but are only a poor reflection of you. They come into being with the same appearance as you and possess the same equipment, but has none of the supernatural abilities that you or your equipment possess. The clone has a -8 All Action Penalty and its Characteristics are all four points lower than yours. The presence of the clone is also 1 point less than yours. You, the player, can control the clones but the clones do not have a supernatural method to share information.",
-            "When you exploit this talent, you can create one clone for every 4 ki points spent. Each clone can be maintained by spending the 1 ki point. You can create and maintain a number of clones equal to a quarter of your Focus Characteristic.",
-            "When a creature is trying to determining a clone from you, you must pass a Notice Difficulty Check of Impossible (28) or a Search Difficulty Check of Absurd (20). The talent Detect Spirit allows its user to determine a clone from you by passing a Difficulty Check equal to your Final Conceal Spirit Skill -10.",
-            "When used to fight, each clone will act independently on your Initiative. A clone cannot use any of your powers and only possess 1 Life Point. When a clone is reduced to zero Life Points, they disappear with a puff of smoke."
+            "You can create copies of yourself made out of ki. These clones are tangible and sentient, but are only a poor reflection of you. They come into being with the same appearance as you and possess the same equipment, but has none of the supernatural abilities that you or your equipment possess. The clone has a `-8` all-action penalty and its Characteristics are all four points lower than yours. The Presence of the clone is also 1 point less than yours. You, the player, can control the clones but the clones do not have a supernatural method to share information.",
+            "When you exploit this talent, you can create one clone for every 4 ki points spent. Each clone can be maintained by spending the 1 ki point. You can create and maintain a number of clones equal to a quarter of your [@stat Focus @] Characteristic.",
+            "When a creature is trying to determining a clone from you, you must pass an [@degree Impossible (28) @] [@skill Notice @] Difficulty Check or an [@degree Absurd (20) @] [@skill Search @] Difficulty Check. The talent Detect Spirit allows its user to determine a clone from you by passing a Difficulty Check equal to your Final [@skill Conceal Spirit @] Value -10.",
+            "When used to fight, each clone will act independently on your [@skill Initiative @]. A clone cannot use any of your powers and only possess 1 Life Point. When a clone is reduced to zero Life Points, they disappear with a puff of smoke."
         ]
     },
     {
@@ -680,7 +680,7 @@
             "passive"
         ],
         "entries": [
-            "This talent increases your capabilities with the Ki Clone Talent. The cost to create each clone is reduced from 4 ki to 2 ki and you can create and maintain a number of clones equal to your Focus Characteristic."
+            "This talent increases your capabilities with the Ki Clone Talent. The cost to create each clone is reduced from 4 ki to 2 ki and you can create and maintain a number of clones equal to your [@stat Focus @] Characteristic."
         ]
     },
     {
@@ -695,7 +695,7 @@
             "passive"
         ],
         "entries": [
-            "This talent increases your capabilities with the Ki Clone Talent. The cost to create each clone is reduced from 4 ki to 1 ki and you can create and maintain a number of clones equal to five times your Focus Characteristic."
+            "This talent increases your capabilities with the Ki Clone talent. The cost to create each clone is reduced from 4 ki to 1 ki and you can create and maintain a number of clones equal to five times your [@stat Focus @] Characteristic."
         ]
     },
     {
@@ -710,7 +710,7 @@
             "passive"
         ],
         "entries": [
-            "This talent increases your capabilities with the Ki Clone Talent. When you create a clone, you can spend an additional 3 ki points to reduce the All Action Penalty from -8 to -6 and each Characteristic is only three points lower. A clone created with magnitude requires 1 additional ki point to maintain.",
+            "This talent increases your capabilities with the Ki Clone talent. When you create a clone, you can spend an additional 3 ki points to reduce the all-action penalty from `-8` to `-6` and each Characteristic is only three points lower. A clone created with Magnitude requires 1 additional ki point to maintain.",
             "You can still create clones without using Magnitude."
         ]
     },
@@ -726,7 +726,7 @@
             "passive"
         ],
         "entries": [
-            "This talent increases your capabilities with the Ki Clone Talent. When you create a clone, you can spend an additional 6 ki points to reduce the All Action Penalty from -8 to -4 and each Characteristic is only two points lower. A clone created with Arcane Magnitude counts as two clones towards your limit and requires 2 additional ki point to maintain.",
+            "This talent increases your capabilities with the Ki Clone talent. When you create a clone, you can spend an additional 6 ki points to reduce the all-action penalty from `-8` to `-4` and each Characteristic is only two points lower. A clone created with Advanced Magnitude counts as two clones towards your limit and requires 2 additional ki point to maintain.",
             "You can still create clones using Magnitude or can forego any Magnitude."
         ]
     },
@@ -742,7 +742,7 @@
             "passive"
         ],
         "entries": [
-            "This talent increases your capabilities with the Ki Clone Talent. When you create a clone, you can spend an additional 18 ki points to remove the All Action Penalty and each Characteristic equal to yours. A clone created with Arcane Magnitude counts as five clones towards your limit and requires 6 additional ki point to maintain.",
+            "This talent increases your capabilities with the Ki Clone Talent. When you create a clone, you can spend an additional 18 ki points to remove the all-action penalty and each Characteristic is equal to yours. A clone created with Arcane Magnitude counts as five clones towards your limit and requires 6 additional ki point to maintain.",
             "You can still create clones using Magnitude and Advanced Magnitude or can forego any Magnitude."
         ]
     },
@@ -758,9 +758,9 @@
             "automatic"
         ],
         "entries": [
-            "You can increase your Strength, Constitution, Dexterity, Agility, Focus, or Willpower by using your spiritual energy. When you exploit this talent, you send a number of ki points equal to the value you want in a Characteristic, but the value cannot be more than three points higher than your natural value. This talent is maintained by spending the 1 ki point.",
-            "The ki points spent to increase Strength or Constitution must come from the Red Chakra. Dexterity and Agility must come from the Green Chakra. Focus and Willpower must come from the Blue Chakra.",
-            "While active, the Characteristic you chose becomes the new value. This does not cause your Life Points to increase since this is only a temporary value.",
+            "You can increase your [@stat Strength @], [@stat Constitution @], [@stat Dexterity @], [@stat Agility @], [@stat Focus @], or [@stat Willpower @] by using your spiritual energy. When you exploit this talent, you send a number of ki points equal to the Final Value you want in a Characteristic, but the value cannot be more than three points higher than your Base Value. This talent is maintained by spending the 1 ki point.",
+            "The ki points spent to increase [@stat Strength @] or [@stat Constitution @] must come from the Red Chakra. [@stat Dexterity @] and [@stat Agility @] must come from the Green Chakra. [@stat Focus @] and [@stat Willpower @] must come from the Blue Chakra.",
+            "While active, the Characteristic's Final Value you chose becomes the new value. This does not cause your Life Points to increase since this is only a temporary value.",
             "You can maintain multiple Augment Talents but each one must effect a different Characteristic."
         ]
     },
@@ -776,7 +776,7 @@
             "passive"
         ],
         "entries": [
-            "This talent increases your capabilities with the Augment Talent. You can augment a Characteristic to be up to five points higher than its natural value."
+            "This talent increases your capabilities with the Augment talent. You can augment a Characteristic to be up to five points higher than its Base Value."
         ]
     },
     {
@@ -791,7 +791,7 @@
             "passive"
         ],
         "entries": [
-            "This talent increases your capabilities with the Augment Talent. You can augment a Characteristic to be up to eight points higher than its natural value."
+            "This talent increases your capabilities with the Augment Talent. You can augment a Characteristic to be up to eight points higher than its Base Value."
         ]
     },
     {
@@ -806,9 +806,9 @@
             "automatic"
         ],
         "entries": [
-            "You can use your spiritual energies to modify your body. This change is superficial and cannot be used to change your sex (although it can make you appear more like a different gender) and cannot modify your height by more than six inches in either direction. This talent only modifies your appearance, attempting to mimic the mannerisms and movements of another creature will still require a Disguise Check.",
-            "A creature can see through the use of Physical Change by passing a Notice Difficulty Check of Impossible (28) or a Search Difficulty Check of Absurd (20). If the creature has the talents Detect Spirit and Cognition, they can make a Detect Spirit Difficulty Check of Difficult (12) to determine your spirit does not match your current form. With an Absurd Difficulty, the creature can determine your true form.",
-            "When you exploit this talent, you must spend 10 ki points it can be maintained by spending 1 ki point. While active, you suffer a <code>-8</code> penalty to Conceal Spirit Checks."
+            "You can use your spiritual energies to modify your body. This change is superficial and cannot be used to change your sex (although it can make you appear more like a different gender) and cannot modify your height by more than six inches in either direction. This talent only modifies your appearance, attempting to mimic the mannerisms and movements of another creature will still require a [@skill Disguise @] Check.",
+            "A creature can see through the use of Physical Change by passing an [@degree Impossible (28) @] [@skill Notice @] Check or an [@degree Absurd (20) @] [@skill Search @] Check. If the creature has the talents Detect Spirit and Cognition, they can make a [@degree Difficult (12) @] [@skill Detect Spirit @] Check to determine your spirit does not match your current form. With an [@degree Absurd (20) @] Difficulty, the creature can determine your true form.",
+            "When you exploit this talent, you must spend 10 ki points it can be maintained by spending 1 ki point. While active, you suffer a `-8` deed penalty to [@skill Conceal Spirit @] Checks."
         ]
     },
     {
@@ -823,7 +823,7 @@
             "automatic"
         ],
         "entries": [
-            "This talent grants you greater control over your form. This talent works just like the Physical Change Talent, but you can increase or decrease your Size by up to half, although you cannot increase or decrease your Size Group. You can now imitate inanimate objects. While an inanimate object, you cannot sense the world around you unless you have the Detect Spirit talent or possess a detection power.",
+            "This talent grants you greater control over your form. This talent works just like the Physical Change talent, but you can increase or decrease your Size by up to half, although you cannot increase or decrease your Size Group. You can now imitate inanimate objects. While an inanimate object, you cannot sense the world around you unless you have the Detect Spirit talent or possess a detection power.",
             "Advanced Physical Change is activated by spending 20 ki points and can be maintained by spending 2 ki points."
         ]
     },
@@ -839,7 +839,7 @@
             "automatic"
         ],
         "entries": [
-            "This talent grants you supreme control over your form. This talent works just like the Physical Change Talent, but you can increase or decrease your Size by up to half and take the form of a natural creature. You do not gain any of the features or traits of the imitated creature.",
+            "This talent grants you supreme control over your form. This talent works just like the Physical Change Talent, but you can increase or decrease your Size by up to half and take the form of a natural creature. You do not gain any of the features, powers, or traits of the imitated creature.",
             "Advanced Physical Change is activated by spending 30 ki points and can be maintained by spending 3 ki points."
         ]
     },
@@ -870,7 +870,7 @@
             "passive"
         ],
         "entries": [
-            "You can move ki points out of your body and into another vessel. This talent allows your to take the Spirit Intention Transfer Ki."
+            "You can move ki points out of your body and into another vessel. This talent allows your to take the [@action Transfer Ki @] intention."
         ]
     },
     {
@@ -888,7 +888,7 @@
             "Your spiritual energy can be used to mend wounds. When you use this talent, you cause the target creature you are in contact with to regain 2 Life Points per ki point you spend. But there are some limitations.",
             "First, the target cannot be healed if they are unconscious since their since their spirit and body are not capable of receiving healing.",
             "Second, the talent cannot restore Life Points beyond half of their maximum Life Points.",
-            "Third, a target can only benefit from this talent a number of times each day equal to their presence."
+            "Third, a target can only benefit from this talent a number of times each day equal to their Presence."
         ]
     },
     {
@@ -903,7 +903,7 @@
             "passive"
         ],
         "entries": [
-            "This talent increases your capabilities with the Ki Healing Talent. You restore 5 Life Points per ki point spent."
+            "This talent increases your capabilities with the Ki Healing talent. You restore 5 Life Points per ki point spent."
         ]
     },
     {
@@ -939,7 +939,7 @@
             "automatic"
         ],
         "entries": [
-            "By using your spirit to soothe another, you can prevent the death of a creature. When you use this talent, you spend 5 ki points to cause a creature you are in contact with to immediately make a new Resistance Check to end the Between Life and Death State. Each additional 5 ki points spent gives the target a +1 to the Resistance Check."
+            "By using your spirit to soothe another, you can prevent the death of a creature. When you use this talent, you spend 5 ki points to cause a creature you are in contact with to immediately make a new Resistance Check to end the [@state Between Life and Death @] state. Each additional 5 ki points spent gives the target a `+1` power bonus to the Resistance Check."
         ]
     },
     {
@@ -984,14 +984,14 @@
             "passive"
         ],
         "entries": [
-            "You have mastered pushing your spiritual energies into the area surround yourself and any object you hold. You gain the following benefits: imbued(x) trait, where x equals twice your presence, and can push that trait into any inanimate object you hold or wear.",
+            "You have mastered pushing your spiritual energies into the area surround yourself and any object you hold. You gain the following benefits:",
             {
                 "type": "list",
                 "items": [
-                    "You gain the Imbued (Pr2) trait, where Pr2 is equal to twice your presence.",
-                    "You can grant the Imbued (Pr2) trait to any object you wield or wear.",
-                    "Any weapon you wield gains +10 Fortitude, +5 Breakage, and +1 Weapon Damage.",
-                    "Any clothing or armor you wear gains +10 Fortitude.",
+                    "You gain the [@trait Imbued (Pr2) @] trait, where Pr2 is equal to twice your presence.",
+                    "You can grant the [@trait Imbued (Pr2) @] trait to any object you wield or wear.",
+                    "Any weapon you wield gains deed bonus of `+10` Fortitude, `+5` Breakage, and `+1` Base Damage.",
+                    "Any clothing or armor you wear gains a deed bonus of `+10` Fortitude.",
                     "When you engage in hand-to-hand combat with a creature that also possess this talent, your blows emit bright sparks."
                 ]
             }
@@ -1009,7 +1009,7 @@
             "passive"
         ],
         "entries": [
-            "The spiritual energies you control can be commanded to surround you in a protective shield. You gain a Damage Null equal to your presence against the Physical Damage Group unless the attack has the Imbued trait."
+            "The spiritual energies you control can be commanded to surround you in a protective shield. You gain a Base Damage Null equal to your Presence against the Physical Damage Group unless the attack has the [@trait Imbued @] trait."
         ]
     },
     {
@@ -1025,7 +1025,7 @@
         ],
         "entries": [
             "Your spirit can absorb incoming energies. When you are hit with an attack power that is completely Elemental or Energy based, you can chose to absorb some of the damage by using your Ki Reserve. For each 5 Life Points you wish to absorb, you spend 1 ki point from your Ki Reserve (you do not need to have the ki accumulated.",
-            "This does not work for attacks who use the Elemental or Energy Damage Groups as a result of a sword on fire or caused by a resistance attack. The Light Beam spell or a Technique that produces a bold of lightening can be absorbed."
+            "This does not work for attacks who use the Elemental or Energy Damage Groups as a result of a sword on fire or caused by a resistance attack. The Light Beam spell or a technique that produces a bold of lightening can be absorbed."
         ]
     },
     {
@@ -1040,7 +1040,7 @@
             "passive"
         ],
         "entries": [
-            "You can use your spiritual energies to grant you faster reactions. You gain a +1 bonus to Initiative."
+            "You can use your spiritual energies to grant you faster reactions. You gain a `+1` natural bonus to [@skill Initiative @]."
         ]
     },
     {
@@ -1055,7 +1055,7 @@
             "passive"
         ],
         "entries": [
-            "You can use your spiritual energies to grant you longer reach with your weapons. When you make the Sweeping Attack Maneuver, your weapon can target twice as many opponents."
+            "You can use your spiritual energies to grant you longer reach with your weapons. When you make the [@action Sweeping Attack @] maneuver, your weapon can target twice as many opponents."
         ]
     },
     {
@@ -1070,7 +1070,7 @@
             "passive"
         ],
         "entries": [
-            "You can use your spiritual energies to grant you greater damage. Your weapons gain +1 Weapon Damage, this stacks with the bonus from Presence Extrusion."
+            "You can use your spiritual energies to grant you greater damage. Any weapon you declare the use of gain a `+1` deed bonus to Base Damage."
         ]
     },
     {
@@ -1085,8 +1085,8 @@
             "passive"
         ],
         "entries": [
-            "Your spirit has aligned with the spiritual essence of earth. Any weapon you wield gains the Secondary Damage Type of Impact. If the weapon's Primary Damage Type is Impact, the weapon instead ignores 1 point of Impact AV.",
-            "If you have an imbalance towards an element, you must first take the Elemental Attack Talent that matches your natural choice."
+            "Your spirit has aligned with the spiritual essence of earth. Any weapon you wield gains the Secondary Damage Type of Impact. If the weapon's Primary Damage Type is Impact, the weapon instead ignores 1 AV when attacking with the Impact Damage Type.",
+            "If you have an imbalance towards an element, you must first take the Elemental Attack talent that matches your natural choice."
         ]
     },
     {
@@ -1102,7 +1102,7 @@
         ],
         "entries": [
             "Your spirit has aligned with the spiritual essence of metal. Any weapon you wield gains the Secondary Damage Type of Cut and Thrust.",
-            "If you have an imbalance towards an element, you must first take the Elemental Attack Talent that matches your natural choice."
+            "If you have an imbalance towards an element, you must first take the Elemental Attack talent that matches your natural choice."
         ]
     },
     {
@@ -1118,7 +1118,7 @@
         ],
         "entries": [
             "Your spirit has aligned with the spiritual essence of water. Any weapon you wield gains the Secondary Damage Type of Cold.",
-            "If you have an imbalance towards an element, you must first take the Elemental Attack Talent that matches your natural choice."
+            "If you have an imbalance towards an element, you must first take the Elemental Attack talent that matches your natural choice."
         ]
     },
     {
@@ -1134,7 +1134,7 @@
         ],
         "entries": [
             "Your spirit has aligned with the spiritual essence of water. Any weapon you wield gains the Secondary Damage Type of Heat.",
-            "If you have an imbalance towards an element, you must first take the Elemental Attack Talent that matches your natural choice."
+            "If you have an imbalance towards an element, you must first take the Elemental Attack talent that matches your natural choice."
         ]
     },
     {
@@ -1150,7 +1150,7 @@
         ],
         "entries": [
             "Your spirit has aligned with the spiritual essence of water. Any weapon you wield gains the Secondary Damage Type of Electric.",
-            "If you have an imbalance towards an element, you must first take the Elemental Attack Talent that matches your natural choice."
+            "If you have an imbalance towards an element, you must first take the Elemental Attack talent that matches your natural choice."
         ]
     },
     {
@@ -1165,10 +1165,10 @@
             "effect"
         ],
         "entries": [
-            "You can project your spiritual energy into an object and quickly remove it, causing damage. When you exploit this talent, you must spend 5 ki points before making an Offensive Roll using Strike. If you gain at least one Degree of Success on the Offensive Roll, you cause the target to make a Presence Resistance Check equal to your presence. For each Degree of Failure, the target takes 10 Atomic Damage. The target can add their Atomic AV to the Resistance Check.",
+            "You can project your spiritual energy into an object and quickly remove it, causing damage. When you exploit this talent, you must spend 5 ki points before making an Offensive Roll using [@skill Strike @]. If you gain at least one Degree of Success on the Offensive Roll, you cause the target to make a Presence Resistance Check equal to your Presence. For each Degree of Failure, the target takes 10 Atomic Damage. The target can add their Atomic AV to the Resistance Check.",
             "If the target of the attack is a non-sentient object, Destruction will instead cause the object to lose point of Quality.",
-            "You can increase the Difficulty of the PrR by +1 for each additional ki point you spend when activating the talent. The Difficulty cannot be greater than twice your presence.",
-            "Even though you use Destruction as part of an Attack Action, you can only use Destruction once per round. The Offensive Roll to make contact with the target is subject to the multiple attack penalties of a light weapon."
+            "You can increase the Difficulty of the [@skill PrR @] by `+1` for each additional ki point you spend when activating the talent. The Difficulty cannot be greater than twice your Presence.",
+            "Even though you use Destruction as part of an [@action Attack Action @], you can only use Destruction once per round. The Offensive Roll to make contact with the target is subject to the multiple attack penalties of an unarmed weapon (small)."
         ]
     },
     {
@@ -1183,7 +1183,7 @@
             "passive"
         ],
         "entries": [
-            "This talent increases your capabilities with the Destruction Talent. You can exploit Destruction by spending only 2 ki points and each additional ki point increases the Difficulty by 2 points. Additionally, you can use Destruction twice each round, assuming you have enough Attack Actions."
+            "This talent increases your capabilities with the Destruction talent. You can exploit Destruction by spending only 2 ki points and each additional ki point increases the Difficulty by 2 points. Additionally, you can use Destruction twice each round, assuming you have enough [@action Attack Actions @]."
         ]
     },
     {
@@ -1198,7 +1198,7 @@
             "passive"
         ],
         "entries": [
-            "This talent increases your capabilities with the Destruction Talent. You can exploit Destruction by spending only 1 ki point and each additional ki point increases the Difficulty by 3 points. Additionally, you can use Destruction as many times per round as you have Attack Actions."
+            "This talent increases your capabilities with the Destruction talent. You can exploit Destruction by spending only 1 ki point and each additional ki point increases the Difficulty by 3 points. Additionally, you can use Destruction as many times per round as you have [@action Attack Actions @]."
         ]
     },
     {
@@ -1244,7 +1244,7 @@
             "passive"
         ],
         "entries": [
-            "This talent increases your capabilities with the Energy Armor Talent. Your natural armor against the Energy Group becomes 4 AV without having to exploit this talent.",
+            "This talent increases your capabilities with the Energy Armor talent. Your natural armor against the Energy Group becomes 4 AV without having to exploit this talent.",
             "You can further increase your Energy Group AV by activating this talent. You must spend 1 ki point and it can be maintained by spending 1 ki point. While active your natural armor against the Energy Group becomes 6 AV."
         ]
     },
@@ -1260,7 +1260,7 @@
             "passive"
         ],
         "entries": [
-            "You can hide the traces of your spirit. This talent gives you access to the Conceal Spirit Skill which has a Base Value equal to the average of your maximum Sk and Final Stealth Skill."
+            "You can hide the traces of your spirit. This talent gives you access to the [@skill Conceal Spirit @] skill which has a Base Value equal to the average of your maximum spirit knowledge and Final [@skill Stealth @] Skill."
         ]
     },
     {
@@ -1275,7 +1275,7 @@
             "passive"
         ],
         "entries": [
-            "You can hide the spiritual energy of others that are nearby. Those within 10 feet of you can be concealed by your Conceal Spirit Skill, but at a -12 penalty and an additional -1 for every additional spirit concealed after you and one other. If you are only concealing one creature and are contact with them, you only suffer a -4 penalty.",
+            "You can hide the spiritual energy of others that are nearby. Those within 10 feet of you can be concealed by your Conceal Spirit Skill, but at a -12 deed penalty and an additional `-1` for every additional spirit concealed after you and one other. If you are only concealing one creature and are in contact with them, you only suffer a `-4` penalty.",
             {
                 "type":"example",
                 "entries":[
@@ -1296,7 +1296,7 @@
             "automatic"
         ],
         "entries": [
-            "Your spiritual control allows you to even conceal your living soul, causing your body to enter a comatose state. When you exploit this talent, your body enters a comatose state and is difficult to determine if your alive. A creature can only determine if your alive by making a Medicine Skill Check of Impossible.",
+            "Your spiritual control allows you to even conceal your living soul, causing your body to enter a comatose state. When you exploit this talent, your body enters a comatose state and is difficult to determine if your alive. A creature can only determine if your alive by making an [@degree Impossible (28) @] [@skill Medicine @] Skill Check.",
             "Entering and ending this talent takes a complete turn."
         ]
     },
@@ -1312,7 +1312,7 @@
             "passive"
         ],
         "entries": [
-            "Your spirit react naturally, without your intervention, to stay concealed. You add your presence as a bonus to prevent any detection power, even if you are not trying to conceal your spirit. Additionally, your Final Roll for any Conceal Spirit Check cannot be less than your presence.",
+            "Your spirit react naturally, without your intervention, to stay concealed. You add your Presence as a deed bonus to prevent any detection power, even if you are not trying to conceal your spirit. Additionally, your Final Roll for any [@skill Conceal Spirit @] Check cannot be less than your presence.",
             {
                 "type":"example",
                 "entries":[
@@ -1333,7 +1333,7 @@
             "passive"
         ],
         "entries": [
-            "You can sense the traces of other creature's spiritual energies. This talent give you access to the Detect Spirit Skill which has a Base Value equal to the average of your maximum Sk and Final Notice Skill.",
+            "You can sense the traces of other creature's spiritual energies. This talent give you access to the [@skill Detect Spirit @] Skill which has a Base Value equal to the average of your maximum spirit knowledge and Final [@skill Notice @] Skill.",
             "This detection is quite rough, you can only determine the presence of a creature's spiritual energy, but not its strength or shape."
         ]
     },
@@ -1364,7 +1364,7 @@
             "passive"
         ],
         "entries": [
-            "Your strength of spirit allows your body to perform Inhuman results. You can benefit from Characteristics up to 13 and and perform Skill Checks up to the Inhuman degree."
+            "Your strength of spirit allows your body to gain the Inhumanity feature. You can benefit from Characteristics up to 13 and and perform Skill Checks up to the Inhuman degree."
         ]
     },
     
@@ -1380,7 +1380,7 @@
             "passive"
         ],
         "entries": [
-            "Your strength of spirit allows your body to perform Zen results. You can benefit from Characteristics up to 20 and and perform Skill Checks up to the Zen degree."
+            "Your strength of spirit allows your body to gain the Zen feature. You can benefit from Characteristics up to 20 and and perform Skill Checks up to the Zen degree."
         ]
     },
     {
@@ -1395,7 +1395,7 @@
             "passive"
         ],
         "entries": [
-            "Your strength of spirit allows your body to perform Legendary results. You can benefit from Characteristics up to 24 and and perform Skill Checks up to the Legendary degree."
+            "Your strength of spirit allows your body to gain the Legendary feature. You can benefit from Characteristics up to 24 and and perform Skill Checks up to the Legendary degree."
         ]
     },
     {
@@ -1410,7 +1410,7 @@
             "passive"
         ],
         "entries": [
-            "Your strength of spirit allows your body to perform Divine results. You can benefit from Characteristics up to 30 and and perform Skill Checks up to the Divine degree."
+            "Your strength of spirit allows your body to gain the Divine feature. You can benefit from Characteristics up to 30 and and perform Skill Checks up to the Divine degree."
         ]
     }
 ]

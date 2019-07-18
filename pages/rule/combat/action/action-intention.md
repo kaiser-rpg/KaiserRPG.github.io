@@ -3,7 +3,7 @@ title: Intentions
 permalink: rule_combat_intention.html
 ---
 
-Intentions are an action that is declared before rolling Initiative. Things that take a bit of forethought, like preparing a spell or determining what weapons to use.
+Intentions are an action that is declared before rolling [@skill Initiative @]. Things that take a bit of forethought, like preparing a spell or determining what weapons to use.
 
 {% include action/intention/attack.md %}
 

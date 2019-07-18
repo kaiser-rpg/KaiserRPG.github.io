@@ -4,7 +4,7 @@ permalink: rule_combat_hand_to_hand.html
 ---
 
 ## Hand-to-Hand Specific Stats
-Below are a list of special bonus and penalties that only apply in hand-to-hand combat.
+Below are a list of special factors that only apply in hand-to-hand combat.
 
 {% include table-index.html table="state" index="400" %}
 

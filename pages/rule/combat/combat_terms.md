@@ -6,13 +6,13 @@ permalink: rule_combat_terms.html
 Below is the description for a few terms you will find repeated in this chapter.
 
 #### Offensive Skill
-An Offensive Skill is the skill you use to aim your attack and break through your opponents defense. There are three skills that you can use Offensively: [@skill Strike @], [@skill Spell Projection @], [@skill Phenom Projection @]. 
+An Offensive Skill is the skill used to aim your attack and break through your opponents defense. There are three skills that you can use Offensively: [@skill Strike @], [@skill Spell Projection @], [@skill Phenom Projection @]. 
 
 #### Offensive Roll 
 This value is the sum of the Offensive Skill you are using to attack, the result of a 2d6 roll, and any modifiers. Since this roll is made as part of an Opposed Skill Check, the 2d6 roll is subject to Fumbles and Open Rolls. The Offensive Roll is opposed by a Defensive Roll.
 
 #### Defensive Skill 
-A Defensive Skill is what you use to avoid your opponents attack. There are four skills you can use Defensively: [@skill Block @], [@skill Dodge @], [@skill Spell Projection @], [@skill Phenom Projection @].
+A Defensive Skill is used to avoid your opponents attack. There are four skills you can use Defensively: [@skill Block @], [@skill Dodge @], [@skill Spell Projection @], [@skill Phenom Projection @].
 
 #### Defensive Roll
 This value is the sum of the Defensive Skill you are using to defend, the result of a 2d6 roll, and any modifiers. Since this roll is made as part of an Opposed Skill Check, the 2d6 roll is subject to Fumbles and Open Rolls. The Defensive Roll is opposed by an Offensive Roll.

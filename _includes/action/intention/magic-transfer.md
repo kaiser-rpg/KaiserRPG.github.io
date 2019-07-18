@@ -1,6 +1,6 @@
 #### Magic Intention: Transfer Mana
 
-When you declare this intention, as a Swift Action you can push an amount of mana up to your Mana Accumulation from your Pool to that of another creature's. This transference requires you to be in direct contact with the creature or object with a Mana Pool. You can transfer mana to several different targets as long as the total mana transferred out of your Pool in a round is less than or equal to your MA.
+When you declare this intention, as a Swift Action you can push an amount of mana up to your Mana Accumulation from your Pool to that of another creature's. This transference requires you to be in direct contact with the creature or object with a Mana Pool. You can transfer mana to multiple targets as long as the total mana transferred out of your Pool in a round is less than or equal to your MA.
 
 If you are in contact with a Mana Battery, you can instead pull mana from it. Pulling and pushing mana both have a shared maximum per round equal to your MA.
 

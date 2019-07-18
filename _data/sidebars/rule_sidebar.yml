@@ -194,9 +194,6 @@ entries:
     - title: Collision
       url: /rule_power_collision.html
       output: web
-    - title: Stacking Effects of Powers
-      url: /rule_power_stack.html
-      output: web
 
   - title: Spirit
     output: web

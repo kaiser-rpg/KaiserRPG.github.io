@@ -211,7 +211,7 @@
         "maintTime": "turn",
         "tags": [],
         "description": [
-            "You improve your concealing abilities. Your [@skill Stealth @] Skill Checks gain the listed bonus. Your [@skill Magic Appraisal @] Skill Checks to hide your mana gain the same bonus."
+            "You improve your concealing abilities. Your [@skill Stealth @] Skill Checks gain the listed power bonus. Your [@skill Magic Appraisal @] Skill Checks to hide your mana gain the same power bonus."
         ],
         "degree": {
             "base": {
@@ -364,7 +364,7 @@
         "maintTime": "turn",
         "tags": [],
         "description": [
-            "You select a spell or an object, it can be a person or thing, and hide its magical properties. Any [@skill Magic Appraisal @] Check made to detect or measure the target suffers the listed penalty. Attempts to detect the Hide Mana spell also suffer the same penalty."
+            "You select a spell or an object, it can be a person or thing, and hide its magical properties. Any [@skill Magic Appraisal @] Check made to detect or measure the target suffers the listed power penalty. Attempts to detect the Hide Mana spell also suffer the same power penalty."
         ],
         "degree": {
             "base": {
@@ -460,7 +460,7 @@
         "maintTime": "turn",
         "tags": [],
         "description": [
-            "You enchant the area to cloud the senses of anyone within it. All Skill Checks made to sense something suffer a `-8` penalty and [@stat Perception @] Characteristic Checks suffer a `-4` penalty. The Resistance Check Difficulty of any detection power is also reduced by 4. This spell cannot select targets, even if another power would allow you to; everyone in the area is equally affected."
+            "You enchant the area to cloud the senses of anyone within it. All Skill Checks made to sense something suffer a `-8` power penalty and [@stat Perception @] Characteristic Checks suffer a `-4` power penalty. The Resistance Check Difficulty of any detection power is also reduced by 4. This spell cannot select targets, even if another power would allow you to; everyone in the area is equally affected."
         ],
         "degree": {
             "base": {

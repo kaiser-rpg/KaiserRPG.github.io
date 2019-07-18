@@ -8,7 +8,7 @@ Ki is a form of energy created as a by-product of a spirit inhabiting a body. Ev
 Without a container, ki dissipates into nothing. The container it is stored in must have some amount of life force to properly store the spiritual energy.
 
 ## Ki Reserve
-Your maximum Ki Reserve is determined by your Characteristics and Experience. You gain 2 ki point for each point in your Strength, Constitution, Dexterity, Agility, Focus, and Willpower Characteristics. To this you add any Innate Bonus and ki purchased using Experience Points -- ki gained through XP comes in groups of ten.
+Your maximum Ki Reserve is determined by your Characteristics and Experience. You gain 2 ki point for each point in your Strength, Constitution, Dexterity, Agility, Focus, and Willpower Characteristics. To this you add any innate bonus and ki purchased using Experience Points -- ki gained through XP comes in groups of ten.
 
 ## Chakras
 Chakras are the points where you body and spirit are connected. You possess three different chakras. Red chakra is your physical strength and resiliency; it is based on your Strength and Constitution Characteristics. Green chakra is your physical speed and reaction time; it is based on your Dexterity and Agility Characteristics. Blue chakra is your spiritual prowess; it is based on your Focus and Willpower Characteristics.
@@ -29,7 +29,7 @@ The act of accumulating ki into your chakras is very powerful and causes your sp
 
 **60 Points**: The energies gathered are now enough to give off a small amount of light, no greater than a candle. The light might emit from your eyes, hands, heart, or just outline your body. As your accumulated ki grows, so to does the light. The color of the light is determined by your nature.
 
-**80 Points**: The earth itself shudders that the power you have gathered. Small storms and strong winds will appear around you. In extreme circumstances, a full blown storm might break out. Any individual with 3 presence or less and unable to perform Inhuman actions will be unable to approach you without passing a Strength Characteristic Check equal to your Focus Characteristic + 4.
+**80 Points**: The earth itself shudders that the power you have gathered. Small storms and strong winds will appear around you. In extreme circumstances, a full blown storm might break out. Any individual with 3 presence or less and unable to perform Inhuman actions will be unable to approach you without passing a [@stat Strength @] Check equal to your [@stat Focus @] Characteristic + 4.
 
 **100 Points**: The air gains a certain taste to it, unique to you. All creatures within a mile feel a great tension, even if they do not know why.
 

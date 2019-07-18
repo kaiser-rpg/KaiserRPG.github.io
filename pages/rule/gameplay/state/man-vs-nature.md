@@ -19,7 +19,7 @@ You are considered to have the [@state Lack of Air @] state when you cannot take
 Once you run out of air, you need to make a Physical Resistance Check each round to stay conscious. The difficulty starts at 8 and increases by 1 point with every success. Every round you are without air, you also gain one degree of [@state Pain @]. If the [@state Pain @] state from [@state Lack of Air @] ever increases to twice your [@stat Constitution @] Characteristic, you die due to asphyxiation. 
 
 ## Sleep
-You are considered to have the [@state Sleep @] state while you are asleep. You suffer a `-10` penalty on all [@stat Perception @] based Skill and Characteristic Checks, do not roll [@skill Initiative @], and cannot take any actions. You can be shaken awake quickly as an Active Action costing 2 AP, you can then roll [@skill Initiative @] next round. Something injuring you or making a loud sound will cause you to wake up and roll Initiative with a a `-4` penalty next round.
+You are considered to have the [@state Sleep @] state while you are asleep. You suffer a `-10` deed penalty on all [@stat Perception @] based Skill and Characteristic Checks, do not roll [@skill Initiative @], and cannot take any actions. You can be shaken awake quickly as an Active Action costing 2 AP, you can then roll [@skill Initiative @] next round. Something injuring you or making a loud sound will cause you to wake up and roll Initiative with a a `-4` deed penalty next round.
 
 ## Partially Blind
 You are considered to have the [@state Partially Blind @] state when you cannot see your opponent clearly but can still see large movements. For example, a flash or light or a shadowy area.

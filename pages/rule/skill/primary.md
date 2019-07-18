@@ -8,7 +8,7 @@ The Primary Skill Groups contain the skills used to control the three different 
 ## Initiative
 [@stat Dexterity @] and [@stat Agility @] Characteristic, special
 
-[@skill Initiative @] is a special Primary Skill. Its Base Skill Value is determined by your size, a medium-sized creature has a Base Skill Value of 10, and cannot be increased by any means. Each class grants you some Innate Bonus to [@skill Initiative @]. To this you add both your [@stat Dexterity @] and [@stat Agility @] Modifier.
+[@skill Initiative @] is a special Primary Skill. Its Base Skill Value is determined by your size, a medium-sized creature has a Base Skill Value of 10, and cannot be increased by any means. Each class grants you some innate bonus to [@skill Initiative @]. To this you add both your [@stat Dexterity @] and [@stat Agility @] Modifier.
 
 Your [@skill Initiative @] is used to determine how fast you react. At the beginning of each round of combat, you will make an [@skill Initiative @] Check. The Final Skill Roll is used to determine at what order each combatant will act in the round. The Game Master can also ask you to make an [@skill Initiative @] Skill Check outside of combat to determine if you can perform an action before something occurs.
 
@@ -20,7 +20,7 @@ The Martial Group contains skills related to your body's ability to physically f
 
 This skill is your ability to land an attack with a weapon and deal damage. The first time you develop this skill, you can choose a single weapon to become trained with.
 
-Being trained with a weapon means you can use it at your full potential. Using un-trained weapons gives you a penalty.
+Being trained with a weapon means you can use it at your full potential. Using un-trained weapons gives you one of the untrained weapon states.
 
 ### Block
 [@stat Dexterity @] Characteristic
@@ -71,6 +71,6 @@ This skill is your ability to direct phenom, and their energies. [@skill Phenom 
 ### Potential
 [@stat Willpower @] Characteristic, special
 
-This is a special skill. Its Base Skill Value is equal to your [@stat Willpower @] `-4` and it gains a natural bonus as you invest Phenom Points on it. When you manifest a phenom, you make a [@skill Potential @] Check, the Final Skill Roll then determines the degree and the effects of the phenom.
+This is a special skill. Its Base Skill Value is equal to your [@stat Willpower @] minus four and it gains a natural bonus as you invest Phenom Points on it. When you manifest a phenom, you make a [@skill Potential @] Check, the Final Skill Roll then determines the degree and the effects of the phenom.
 
 

@@ -14,7 +14,7 @@ Once each combatant has declared their intentions, they roll their [@skill Initi
 A full list of Intentions can be found [here](rule_combat_intention.html).
 
 #### Surprise
-When rolling [@skill Initiative @], there is a chance that you might react so quickly that your opponent is caught off guard. This occurs when your Final [@skill Initiative @] Roll is 20 points greater than your opponent's. In this case, you have the [@state Surprise @] state over your opponent, which gives them a penalty on any Opposed Skill Checks against you until they take their turn.
+When rolling [@skill Initiative @], there is a chance that you might react so quickly that your opponent is caught off guard. This occurs when your Final [@skill Initiative @] Roll is 20 points greater than your opponent's. In this case, you gain the [@state Surprise @] state over your opponent, which gives them a penalty on any Opposed Skill Checks against you until they take their turn.
 
 ### Action Phase
 The Action Phase is when each combatant takes turns performing actions. The combatant who has the highest Final [@skill Initiative @] Roll goes first, then the second highest goes, and so on. In the case of a tie, the combatant with the highest Final [@skill Initiative @] Value (the number added to the die roll) acts first.

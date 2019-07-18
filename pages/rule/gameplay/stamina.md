@@ -9,9 +9,9 @@ When your Stamina gets low, you will start to suffer the effects of exhaustion. 
 
 {% include table-index.html table="gameplay" index="800" %}
 
-If the maximum Stamina points you have is less than or equal to an amount that gives a [@state Pain @] state, you only suffer the penalties after spending any number of Stamina points.
+If the maximum Stamina points you have is less than or equal to an amount that gives a [@state Pain @] state, you only suffer the [@state Pain @] state after spending any number of Stamina points.
 
-{% include example.html content="Samwell has a maximum of 4 Stamina points. When he has all his Stamina Points, he does not suffer the -1 penalty to all his actions. But as soon as he loses one point, he gains the -2 All Action penalty since he only has 3 points remaining." %}
+{% include example.html content="Samwell has a maximum of 4 Stamina points. When he has all his Stamina Points, he does not suffer the -1 penalty to all his actions. But as soon as he loses one point, he gains the -2 all-action penalty since he only has 3 points remaining." %}
 
 When you have no Stamina remaining, each round you must a [@skill Composure @] Check equal to the number of rounds you have had zero Stamina. Failure means you fall unconscious. If an affect causes you to lose another point of Stamina while you have none, you are knocked unconscious. 
 
@@ -35,7 +35,7 @@ If you do not need to eat, you do not gain Stamina from food but you do not lose
 You recover three Stamina after meditating for 6 hours. This meditation does not count for recovering ki, mana or phenom points.
 
 ## Using Stamina
-Stamina points can be used in a variety of ways to give you temporary bonuses or to quickly recover.
+Stamina points can be used in a variety of ways to give you deed bonuses or to quickly recover.
 
 {% include action/swift/stamina-boost.md %}
 

@@ -6,7 +6,7 @@
             "type": "table",
             "colLabels": [
                 "Body Part",
-                "Penalty"
+                "Deed Penalty"
             ],
             "colStyles": [
                 "col-3",

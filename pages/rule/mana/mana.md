@@ -8,10 +8,10 @@ Mana is a mystical energy used to fuel spells and summon supernatural creatures.
 Raw mana can be found in the world, with many occultists believing it to stem from the Veil.
 
 ## Mana Pool
-Your maximum Mana Pool size is equal to twenty plus ten times your Focus Characteristic. To this you add any innate bonuses and mana purchased using Experience Points – mana gained though XP comes in groups of fifty.
+Your maximum Mana Pool size is equal to twenty plus ten times your Focus Characteristic. To this you add any innate bonuses and mana purchased using Experience Points -- mana gained though XP comes in groups of fifty.
 
 ## Mana Accumulation
-The Base Mana Accumulation is directly based on your Focus Characteristic -– as shown in the following table -– and the Base MA is then multiplied by your MA Multiple, which starts at zero. You can spend Experience Points to buy MA Multiples. So, after buying one MA Multiple, your MA will be equal to your Base MA; a second Multiple means your MA is twice your Base MA.
+The Base Mana Accumulation is directly based on your Focus Characteristic -– as shown in the following table -– and the Base MA is then multiplied by your MA Multiple, which starts at zero. You can spend Experience Points to buy MA Multiples. So, after buying one MA Multiple, your MA will be equal to your Base MA; a second MA Multiple means your MA is twice your Base MA.
 
 {% include table-index.html table="magic" index="100" %}
 

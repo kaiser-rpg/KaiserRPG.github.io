@@ -24,7 +24,7 @@ You can increase your Life Points by investing in Life Point Multiplies, the cos
 {% include equation.html eq = "Final LP = 20 + (Constitution × (10 + LP Mult. Purchased)) + Innate LP Bonus" %}
 
 ## Initiative
-The Base [@skill Initiative @] Value of a normal-sized character is always 10. To calculate the Final [@skill Initiative @] Value, add your [@stat Dexterity @] and [@stat Agility @] Modifiers. Finally, add your innate bonus or other bonuses from Features or powers. This number will be modified each round depending on what you intend to do.
+The Base [@skill Initiative @] Value of a normal-sized character is always 10. To calculate the Final [@skill Initiative @] Value, add your [@stat Dexterity @] and [@stat Agility @] Modifiers. Finally, add your innate bonus or other bonuses from features or powers. This number will be modified each round depending on what you intend to do.
 
 ## Presence and Resistance
 Presence is the sum of all of your existential aspects -- both physical and spiritual. You have an almost unlimited potential to develop your abilities; the more developed, the greater the Presence. Your Presence starts at 3 and increases by +1 every odd level.

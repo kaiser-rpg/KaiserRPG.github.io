@@ -40,7 +40,7 @@
     {
         "name": "Graceful Parry",
         "effect":[
-            "You can add your [@stat Dexterity @] Characteristic to the Fortitude of a weapon you use to Block. Additionally, you ignore the penalty from blocking with a poor quality weapon."
+            "You can add your [@stat Dexterity @] Characteristic to the Fortitude of a weapon you use to [@skill Block @]. Additionally, you ignore the quality penalty from blocking with a poor quality weapon."
         ],
         "cost": 3
     },
@@ -85,7 +85,7 @@
     {
         "name": "Multiple Target Expert",
         "effect":[
-            "You suffer no penalty from the [@state Changing Target @] situation."
+            "You suffer no penalty from the [@state Changing Target @] state."
         ],
         "requirements":[
             "Perception 6"
@@ -123,7 +123,7 @@
                 "type": "entries",
                 "entries": [
                     "**Swift**: 0 AP",
-                    "This action can only be taken if you are wielding a readied weapon in your offhand and main hand. When you take this action, you perform a Defensive Roll using your offhand weapon. The Defensive Roll is made with your [@skill Block @] Skill but suffers a `-4` penalty. If you have the Ambidextrous feature, you suffer a `-1` penalty instead.",
+                    "This action can only be taken if you are wielding a readied weapon in your offhand and main hand. When you take this action, you perform a Defensive Roll using your offhand weapon. The Defensive Roll is made with your [@skill Block @] Skill but suffers a `-4` deed penalty. If you have the Ambidextrous feature, you suffer a `-1` deed penalty instead.",
                     "This action consumes the use of your offhand weapon. So you cannot perform this action if you have already used the [@action Offhand Attack @] action and vice versa.",
                     "This special action does not count toward the multiple defense penalty."
                 ]
@@ -149,7 +149,7 @@
     {
         "name": "Unusual Traps",
         "effect":[
-            "You can perform the [@action Trap @] maneuver with a weapon that does not possess the [@trait Trapping @] trait with a `-6` penalty to the Offensive Roll. The Opposed Characteristic Check must use [@stat Dexterity @] and has a `-3` penalty."
+            "You can perform the [@action Trap @] maneuver with a weapon that does not possess the [@trait Trapping @] trait with a `-6` deed penalty to the Offensive Roll. The Opposed Characteristic Check must use [@stat Dexterity @] and has a `-3` deed penalty."
         ],
         "cost": 1
     },
@@ -170,14 +170,14 @@
     {
         "name": "Shielded Dodge",
         "effect":[
-            "You can add the full [@skill Block @] bonus from a shield to your [@skill Dodge @]."
+            "You can add the full [@skill Block @] deed bonus from a shield to your [@skill Dodge @]."
         ],
         "cost": 3
     },
     {
         "name": "Firm Grip",
         "effect":[
-            "When defending against being [@action Disarmed @], you gain a +3 bonus to the Opposed Characteristic Check."
+            "When defending against being [@action Disarmed @], you gain a `+3` deed bonus to the Opposed Characteristic Check."
         ],
         "cost": 1
     },
@@ -191,7 +191,7 @@
     {
         "name": "Sundering Attack",
         "effect":[
-            "Any hand-to-hand weapon you use gains a bonus to Breakage equal to half your [@stat Strength @] Characteristic, round down."
+            "Any hand-to-hand weapon you use gains a deed bonus to Breakage equal to half your [@stat Strength @] Characteristic, round down."
         ],
         "cost": 3
     },

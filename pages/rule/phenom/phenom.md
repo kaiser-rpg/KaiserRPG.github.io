@@ -41,7 +41,7 @@ By investing Phenom Points, you can increase your innate bonus to [@skill Potent
 {% include example.html content="Sarah burns 1 PP to gain a +1 innate bonus to Potential. Next time she wants to increase the innate bonus by +1 will cost her 2 PP and then 3 PP." %}
 
 #### Strengthen a Phenom
-You can invest 1 PP to gain a `+1` natural bonus to the [@skill Potential @] Check for a single phenom. Each PP burned gives you a `+1` bonus, to a maximum of `+10`. This bonus does not apply for maintained the phenom, only manifesting it.
+You can invest 1 PP to gain a `+1` deed bonus to the [@skill Potential @] Check for a single phenom. Each PP burned gives you a `+1` bonus, to a maximum of `+10`. This bonus does not apply for maintained the phenom, only manifesting it.
 
 {% include example.html content="Sarah has the Immolation phenom, and would like to strengthen it by investing 4 PP. As a result, she has a `+4` bonus whenever she rolls to manifest Immolation. With her +12 to Manifest Potential, she can either manifest it once and add +16 to the roll or she could split three ways, each roll gaining a +7." %}
 
@@ -58,7 +58,7 @@ By using Free PP, you can gain temporary benefits to your manifesting abilities.
 You can temporarily increase the maximum degree of a phenom for one round by spending Free PP. Each Free PP spend allows you to use a phenom at one degree higher than you already know. You must have mastered the [@degree Routine (2) @] Degree of a phenom in order to use this.
 
 #### Increase Potential
-You can temporarily increase your [@skill Potential @] on one Skill Check. For every 1 Free PP spend, you gain a `+1` to the [@skill Potential @] Roll. As this bonus is not from a power, it stacks with any other temporary bonus.
+You can temporarily increase your [@skill Potential @] on one Skill Check. For every 1 Free PP spend, you gain a `+1` deed bonus to the [@skill Potential @] Roll.
 
 #### Increase Projection
-You can temporarily increase your [@skill Phenom Projection @] on one Skill Check. For every 1 Free PP spent, you gain a `+1` to the [@skill Phenom Projection @] Check. As this bonus is not from a power, it stacks with any other temporary bonus.
+You can temporarily increase your [@skill Phenom Projection @] on one Skill Check. For every 1 Free PP spent, you gain a `+1` deed bonus to the [@skill Phenom Projection @] Check.

@@ -26,19 +26,19 @@ Each class belongs to one or two archetypes which signals what you can expect th
 **Freelancer**: The Freelancer is one who can be the jack-of-all-trades or the at least pretty good at one.
 
 ## General
-The General Group contains some Innate Bonuses and defines the cost of gain more Life Points. No class has a limit to this expense.
+The General Group contains some innate bonuses and defines the cost of gain more Life Points. No class has a limit to this expense.
 
 ### Life Point Multiple
 The Life Point Multiple (LPM) is the number of XP that must be invested to add Life Points to your total. Each time this is purchased, you gain LP equal to your Constitution Characteristic -- not its Modifier.
 
 ### Life Points gained per level
-This is the Innate Bonus you add to your Life Points. This number of points is added at first level and every time you gain a level.
+This is the innate bonus you add to your Life Points. This number of points is added at first level and every time you gain a level.
 
 ### Initiative gained per Level
-This is the Innate Bonus you add to your Initiative. This number is added at first level and every time you meet the incremental level.
+This is the innate bonus you add to your Initiative. This number is added at first level and every time you meet the incremental level.
 
 ## Special
-Any special Class benefits not reflected in the XP costs or Innate Bonuses will appear here. This will not be listed if no special advantage exists.
+Any special Class benefits not reflected in the XP costs or innate bonuses will appear here. This will not be listed if no special advantage exists.
 
 ## Secondary Skills
 The cost for developing Secondary Skills for each class are listed here. Some classes have a lower or higher XP cost for certain secondary skills. These will also be noted here.

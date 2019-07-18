@@ -139,7 +139,7 @@
             "type": "table",
             "colLabels": [
                 "Description",
-                "Modifier"
+                "Deed Penalty"
             ],
             "colStyles": [
                 "col-3",
@@ -241,7 +241,7 @@
             "colLabels": [
                 "Difficulty",
                 "Target Value",
-                "Strength Bonus"
+                "Strength Deed Bonus"
             ],
             "colStyles": [
                 "col-3",

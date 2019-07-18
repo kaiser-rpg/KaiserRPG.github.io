@@ -3,7 +3,7 @@ title: Critical Damage
 permalink: rule_damage_critical.html
 ---
 
-It is inevitable that you suffer damage in combat. However, not all damage involves merely losing a set number of Life Points. When you receive a single wound that makes you lose half your remaining LP, you have received a Critical. 
+It is inevitable that you suffer damage in combat. However, not all damage involves merely losing a set number of Life Points. When you receive a single wound that makes you lose half your remaining Life Points, you have received a Critical. 
 
 {% include example.html content="An individual with 180 LP who receives a single hit that causes him to lose 90 or more Life Points has suffered a Critical. With his LP now reduced to 90, another hit causing just 45 LP more would cause another Critical."%}
 

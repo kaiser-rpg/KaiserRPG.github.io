@@ -275,7 +275,7 @@
         "maintTime": "turn",
         "tags": [],
         "description": [
-            "You improve your perceptive abilities. Your [@skill Notice @] and [@skill Search @] Skill Checks gain the listed bonus. Your [@skill Magic Appraisal @] Skill Checks to sense and measure mana gain the same bonus."
+            "You improve your perceptive abilities. Your [@skill Notice @] and [@skill Search @] Skill Checks gain the listed power bonus. Your [@skill Magic Appraisal @] Skill Checks to sense and measure mana gain the same power bonus."
         ],
         "degree": {
             "base": {
@@ -1100,7 +1100,7 @@
         "maintTime": "turn",
         "tags": [],
         "description": [
-            "You target one creature and their body, and all their possessions, transforms into pure light. The target's body gains the [@trait Immaterial @] and [@trait Imbued @] traits and can interact with material objects. Ze gains a bonus to [@skill Notice @] and [@skill Search @] Checks and Resistance Checks against effects based on light. Ze also take double damage from Darkness Damage."
+            "You target one creature and their body, and all their possessions, transforms into pure light. The target's body gains the [@trait Immaterial @] and [@trait Imbued @] traits and can interact with material objects. Ze gains a power bonus to [@skill Notice @] and [@skill Search @] Checks and a deed bonus to Resistance Checks against effects based on light. Ze also take double damage from Darkness Damage."
         ],
         "degree": {
             "base": {
@@ -1250,7 +1250,7 @@
         "maintTime": "turn",
         "tags": [],
         "description": [
-            "You can target one creature who gains the ability to see beyond the material plane. This vision also gives the target a Resistance Check bonus to see through Phantasmal Illusions."
+            "You can target one creature who gains the ability to see beyond the material plane. This vision also gives the target a Resistance Check power bonus to see through Phantasmal Illusions."
         ],
         "degree": {
             "base": {

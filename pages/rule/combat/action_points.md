@@ -8,7 +8,7 @@ Action Points are a representation of your ability to react to each situation as
 ## Spending Action Points
 Many actions require you to spend AP to perform. If you do not have enough AP remaining, you cannot perform the action. There are two types of AP cost. 
 
-The first is a numerical value listed with the Action Type. So an action that is "Active: 1 AP" requires it to be your turn and spend 1 AP before you can perform it. If the AP cost is zero, then you can perform it as long as you are not Flat-Footed.
+The first is a numerical value listed with the Action Type. So an action that is "Active: 1 AP" requires it to be your turn and spend 1 AP before you can perform it. If the AP cost is zero, then you can perform it as long as you are not [@state Flat-Footed @].
 
 The second type of cost is called Complete AP. Like numerical, it will appear after the Action Type, "Intention: Complete AP." These require you to have spent no AP this turn and all of it will be used by the action. These actions are all consuming and leave little other options for your turn. Since it consumes all your AP, you naturally cannot take any action with an AP cost greater than 0.
 

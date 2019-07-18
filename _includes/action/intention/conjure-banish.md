@@ -1,6 +1,6 @@
 #### Conjure Intention: Banish
 
-Banishing a creature requires you to use a totem as part of a ritual. This totem can take many forms but represents some form of knowledge or connection. It is possible to banish a creature with a totem not affiliated with it, but you suffer a `-5` penalty. Without any totem, it is completely impossible.
+Banishing a creature requires you to use a totem as part of a ritual. This totem can take many forms but represents some form of knowledge or connection. It is possible to banish a creature with a totem not affiliated with it, but you suffer a `-5` deed penalty. Without any totem, it is completely impossible.
 
 The Game Master will take the level of the creature being banished and consult the Conjuring Table to determine the Difficulty of the Skill Check and how much mana you must expend. The Skill Check is made before the mana is spent. Mana spent on banishing does not need to be accumulated since it is removed directly from your Mana Pool. The Game Master can keep the level of the creature hidden until the Skill Check is made.
 

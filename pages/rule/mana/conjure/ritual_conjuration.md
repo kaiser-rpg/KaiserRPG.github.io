@@ -8,7 +8,7 @@ Conjuring a creature from Beyond the Veil, be that summoning, controlling, or ba
 The ritual is composed of two parts. First there is the totem which is a collection of knowledge about a creature or creatures. It is impossible to perform a conjuring ritual without at least some totem, but it does not have to match what you wish to conjure. The second component is time. Performing the ritual requires at least one complete round of chanting and gesturing with the totem. The longer you spend on the ritual, the better your chances. 
 
 ## Totem 
-A totem is a complex object that represents knowledge embedded into its essence. When a totem is created, it is keyed to certain aspects of a creature and to a certain level. These aspects and the bonus they grant is outlined in the table below. This list is not exhaustive so the Game Master should feel free to expand it.
+A totem is a complex object that represents knowledge embedded into its essence. When a totem is created, it is keyed to certain aspects of a creature and to a certain level. These aspects and the deed bonus they grant is outlined in the table below. This list is not exhaustive so the Game Master should feel free to expand it.
 
 {% include table-index.html table="magic" index="500" %}
 

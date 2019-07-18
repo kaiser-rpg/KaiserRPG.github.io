@@ -16,7 +16,7 @@
                 "Your attack spells are unusually stronger than other spells they collide with."
             ],
             "effects": [
-                "You apply a `+3` bonus to the Collision’s Opposed Characteristic Checks."
+                "You apply a `+3` deed bonus to the Collision’s Opposed Characteristic Checks."
             ],
             "cost": [1]
         },
@@ -36,7 +36,7 @@
                 "Executing spells with your innate talent come easier to you."
             ],
             "effects": [
-                "Your Innate Mana increases by 10 points. Additional Feature Points increase the value by another +10 to maximum bonus of +30."
+                "Your Innate Mana increases by 10 points. Additional Feature Points increase the value by another 10 to maximum  30."
             ],
             "cost": [2, 4, 6]
         },
@@ -89,7 +89,7 @@
                 "You have a natural talent to hide your magic."
             ],
             "effects": [
-                "You gain natural bonus of `+3` to [@skill Magic Appraisal @] to hide your magic."
+                "You gain deed bonus of `+3` to [@skill Magic Appraisal @] to hide your magic."
             ],
             "restrictions": [
                 "You can take this Character Feature up to three times."

@@ -16,14 +16,14 @@ Additionally, the Game Master can have tremors form as a secondary effect of an 
 
 {% include table-index.html table="high-level" index="500" %}
 
-**True Instinct**: Your perception and natural instinct has been honed to an inhuman level. You cannot be dazzled by bright lights and half the penalties from Blindness caused by non-magical darkness, as if you had the Night Vision Feature. If you already possess the Night Vision Feature, you can completely ignore Blindness. You require Inhuman to benefit from this.
+**True Instinct**: Your perception and natural instinct has been honed to an inhuman level. You cannot be dazzled by bright lights and half the penalties from the [@state Blind @] states caused by non-magical darkness, as if you had the Night Vision Feature. If you already possess the Night Vision Feature, you can completely ignore Blindness. You require Inhuman to benefit from this.
 
-**Sense Surroundings**: You can feel your surroundings, using all of your senses to track everything. If you also have Mastery in Notice or Search, you can sense invisible creatures that do not also have Mastery in Stealth. You require Legendary to benefit from this.
+**Sense Surroundings**: You can feel your surroundings, using all of your senses to track everything. If you also have Mastery in Notice or Search, you can sense invisible creatures that do not also have Mastery in [@skill Stealth @]. You require Legendary to benefit from this.
 
 **Radial Perception**: You can perfectly sense all your surroundings, this grants you the Radial Vision Feature. You require Legendary to benefit from this.
 
-**Absolute Perception**: You perceive the world as atoms and energy. This lets you see through thin materials and understand the motion of bodies as they occur. You gain a +3 bonus on all physical Opposed Skill Checks, not Difficulty Skill Checks.
+**Absolute Perception**: You perceive the world as atoms and energy. This lets you see through thin materials and understand the motion of bodies as they occur. You gain a `+3` deed bonus on all physical Opposed Skill Checks, not Difficulty Skill Checks.
 
-**Supernatural Sight**: You can see the supernatural energies as well as the atomic energies, this grants you the See Supernatural Feature. If you already possess See Supernatural Feature, you instead gain the Eyes of Truth Feature.
+**Supernatural Sight**: You can see the supernatural energies as well as the atomic energies, this grants you the See Supernatural Feature. If you already possess See Supernatural Feature, you instead gain the Eyes of Truth feature.
 
 **Sight of Destiny**: You can sense the flow of destiny, this grants you the Nornir Vision Feature.

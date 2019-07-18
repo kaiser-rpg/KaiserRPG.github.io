@@ -58,14 +58,14 @@ The distance you can jump is determined by your Movement Value. With a running s
 ### Climbing
 You use the [@skill Athletics @] Skill when you climb up or down any kind of surface. When you climb, your Movement Value is quartered, round down with a minimum of 1. For every 4 Degrees of Success you gain on the [@skill Athletics @] Check, your climbing Movement Value increases by 1 up to your original Movement Value.
 
-Using proper climbing gear gives you a `+4` to the [@skill Athletics @] Check, you also add the Quality Bonus or Penalty of the gear.
+Using proper climbing gear gives you a `+4` to the [@skill Athletics @] Check, you also add the quality bonus or penalty of the gear.
 
 ### Feats of Strength
-By using your strength efficiently, you can use it to greater effect. You can spend 1 Stamina Point to increase your [@stat Strength @] Characteristic based on the result of a [@skill Feats of Strength @] Check. Compare your Final Skill Roll to the table below. This bonus only applies to [@stat Strength @] Characteristic Checks and Breakage Checks. This explicitly does not increase your [@stat Strength @] Modifier or Base Damage.
+By using your strength efficiently, you can use it to greater effect. You can spend 1 Stamina Point to increase your [@stat Strength @] Characteristic based on the result of a [@skill Feats of Strength @] Check. Compare your Final Skill Roll to the table below. This deed bonus only applies to [@stat Strength @] Characteristic Checks and Breakage Checks. This explicitly does not increase your [@stat Strength @] Modifier or Base Damage.
 
 {% include table-index.html table="skill" index="130" %}
 
 ### Riding
-If you are mounted during combat, you must have developed your [@skill Riding @] Skill to do so effectively. While mounted, you use the lower Final Skill Value of your [@skill Ride @] or [@skill Dodge @] Skill when defending with [@skill Dodge @]. A Final [@skill Ride @] Value of less than 4 means you suffer a `-2` penalty to [@skill Strike @] and [@skill Block @] Checks. With 8 or more Final [@skill Ride @] Value, you gain the [@state Higher Ground @] state over any opponent who is not also mounted.
+If you are mounted during combat, you must have developed your [@skill Riding @] Skill to do so effectively. While mounted, you use the lower Final Skill Value of your [@skill Ride @] or [@skill Dodge @] Skill when defending with [@skill Dodge @]. A Final [@skill Ride @] Value of less than 4 means you suffer a `-2` deed penalty to [@skill Strike @] and [@skill Block @] Checks. With 8 or more Final [@skill Ride @] Value, you gain the [@state Higher Ground @] state over any opponent who is not also mounted.
 
 Additionally, while mounted you can add the [@stat Strength @] Modifier of your mount when making a [@action Charging Attack @] with a Pole class weapon. If you have a Final [@skill Ride @] Value of 8, you can add twice the mounts [@stat Strength @] Modifier.

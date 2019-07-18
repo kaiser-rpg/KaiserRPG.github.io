@@ -33,4 +33,4 @@ If you use the Rex Damage Role, you soak up large amounts of damage due to your 
 
 7. If you receive an area attack that covers half your body, the Base Damage of the attack is doubled.
 
-8. If you are covered by a Supernatural Barrier, either created by another creature or by your own power, the Defensive Roll suffers a `-8` penalty. As usual, you can choose to not benefit from the barrier. If the barrier breaks, you lose an AP point.
+8. If you are covered by a supernatural barrier, either created by another creature or by your own power, the Defensive Roll suffers a `-8` deed penalty. As usual, you can choose to not benefit from the barrier. If the barrier breaks, you lose an AP point.

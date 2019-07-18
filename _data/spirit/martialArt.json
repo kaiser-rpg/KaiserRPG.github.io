@@ -7,7 +7,7 @@
         "degree": {
             "base": {
                 "effect": [
-                    "You can add your [@stat Agility @] Modifier to the Opposed Skill Check of the [@action Gain the Upper Hand @] and [@action Feint @] maneuvers."
+                    "You can add your [@stat Agility @] Modifier as a power bonus to the Opposed Skill Check of the [@action Gain the Upper Hand @] and [@action Feint @] maneuvers."
                 ],
                 "damage": [
                     "2 + [@stat Dexterity @] Modifier."
@@ -65,7 +65,7 @@
         "degree": {
             "base": {
                 "effect": [
-                    "When making a [@action Counter @] against a hand-to-hand weapon, you can add your opponent's [@stat Strength @] Modifier to the Offensive Roll. This bonus only applies for humanoid opponents."
+                    "When making a [@action Counter @] against a hand-to-hand weapon, you can add your opponent's [@stat Strength @] Modifier to the Offensive Roll as a power bonus. This bonus only applies for humanoid opponents."
                 ],
                 "damage": [
                     "1 + [@stat Strength @] Modifier."
@@ -101,7 +101,7 @@
             },
             "advanced": {
                 "effect": [
-                    "You gain a `+2` bonus to the Opposed Characteristic Check of the [@action Impact @] and [@action Take Down @] maneuver when performed as part of a [@action Counter @]."
+                    "You gain a `+2` power bonus to the Opposed Characteristic Check of the [@action Impact @] and [@action Take Down @] maneuver when performed as part of a [@action Counter @]."
                 ],
                 "damage": [
                     "As Base Degree."
@@ -125,7 +125,7 @@
         "degree": {
             "base": {
                 "effect": [
-                    "You can add your [@stat Intelligence @] Modifier to the Base Damage of the [@action Disable @] and [@action Knock Out @] maneuvers."
+                    "You can add your [@stat Intelligence @] Modifier to the Base Damage of the [@action Disable @] and [@action Knock Out @] maneuvers as a power bonus."
                 ],
                 "damage": [
                     "1 + [@stat Strength @] Modifier."
@@ -144,7 +144,7 @@
             },
             "intermediate": {
                 "effect": [
-                    "The bonus increases to double your [@stat Intelligence @] Modifier."
+                    "The power bonus increases to double your [@stat Intelligence @] Modifier."
                 ],
                 "damage": [
                     "2 + [@stat Strength @] Modifier."
@@ -162,7 +162,7 @@
             },
             "advanced": {
                 "effect": [
-                    "The bonus increases to triple your [@stat Intelligence @] Modifier."
+                    "The power bonus increases to triple your [@stat Intelligence @] Modifier."
                 ],
                 "damage": [
                     "3 + [@stat Strength @] Modifier."
@@ -205,7 +205,7 @@
             "intermediate": {
                 "effect": [
                     "If you took the [@action Charging Attack @] intention, have a structure at least waist height within Step Distance, and you have enough space to jump off of it an onto your opponent, you can move towards it and make an Absurd (20) [@skill Acrobatics @] Check. If you pass, you can move your Step Distance (without reducing your remaining Distance) toward your opponent and you count as having moved at least 20 feet for [@action Charging Attack @] bonus.",
-                    "If you gain at least 10 Degrees of Success, you gain a `+1` to the Base Damage"
+                    "If you gain at least 10 Degrees of Success, you gain a `+1` deed bonus to the Base Damage"
                 ],
                 "damage": [
                     "As Base Degree."
@@ -223,7 +223,7 @@
             },
             "advanced": {
                 "effect": [
-                    "Any [@action Charging Attack @] or [@action Trap: Complete Attack @] gain a `+2` to the Base Damage."
+                    "Any [@action Charging Attack @] or [@action Trap: Complete Attack @] gain a `+2` deed bonus to the Base Damage."
                 ],
                 "damage": [
                     "As Base Degree."
@@ -247,7 +247,7 @@
         "degree": {
             "base": {
                 "effect": [
-                    "You gain a `+1` Base Damage when you perform the [@action Sneak Attack @] maneuver."
+                    "You gain a `+1` deed bonus Base Damage when you perform the [@action Sneak Attack @] maneuver."
                 ],
                 "damage": [
                     "1 + [@stat Strength @] Modifier."
@@ -267,7 +267,7 @@
             },
             "intermediate": {
                 "effect": [
-                    "The Base Damage bonus increases to `+2`."
+                    "The Base Damage deed bonus increases to `+2`."
                 ],
                 "damage": [
                     "1 + [@stat Strength @] Modifier."
@@ -288,7 +288,7 @@
             },
             "advanced": {
                 "effect": [
-                    "The Base Damage bonus increases to `+3`."
+                    "The Base Damage deed bonus increases to `+3`."
                 ],
                 "damage": [
                     "As Intermediate Degree."
@@ -313,7 +313,7 @@
         "degree": {
             "base": {
                 "effect": [
-                    "When you make an unarmed Offensive Roll, your opponent suffers a `-2` penalty if they use [@skill Block @]. An opponent with Mastery in [@skill Block @] ignores this penalty."
+                    "When you make an unarmed Offensive Roll, your opponent suffers a `-2` deed penalty if they use [@skill Block @]. An opponent with Mastery in [@skill Block @] ignores this penalty."
                 ],
                 "damage": [
                     "1 + [@stat Agility @] Modifier."
@@ -331,7 +331,7 @@
             },
             "intermediate": {
                 "effect": [
-                    "You can perform the [@action Take Down @] maneuver with no AP cost. An opponent now must have a Final [@skill Block @] Value of 28 to ignore the penalty to Defensive Rolls."
+                    "You can perform the [@action Take Down @] maneuver with no AP cost. An opponent now must have a Final [@skill Block @] Value of 28 to ignore the deed penalty to Defensive Rolls."
                 ],
                 "damage": [
                     "As Base Degree."
@@ -348,7 +348,7 @@
             },
             "advanced": {
                 "effect": [
-                    "The penalty to [@skill Block @] increases to a `-4` and an opponent must have a Final [@skill Block @] Value of 32 to ignore it."
+                    "The deed penalty to [@skill Block @] increases to a `-4` and an opponent must have a Final [@skill Block @] Value of 32 to ignore it."
                 ],
                 "damage": [
                     "As Base Degree."
@@ -376,7 +376,7 @@
                 ],
                 "damage": [
                     "1 + [@stat Strength @] Modifier.",
-                    "When making a [@action Counter @] against a hand-to-hand weapon, add twice the [@stat Strength @] Modifier of the target (minimum `+0`). This bonus only applies for humanoid opponents."
+                    "When making a [@action Counter @] against a hand-to-hand weapon, add twice the [@stat Strength @] Modifier of the target to the Base Damage as a deed bonus (minimum `+0`). This bonus only applies for humanoid opponents."
                 ],
                 "damageType": [
                     "impact"
@@ -409,11 +409,11 @@
             },
             "advanced": {
                 "effect": [
-                    "You gain a `+2` bonus to the Opposed Characteristic Check of the [@action Trap @] and [@action Take Down @] maneuvers when performed as part of a [@action Counter @]."
+                    "You gain a `+2` power bonus to the Opposed Characteristic Check of the [@action Trap @] and [@action Take Down @] maneuvers when performed as part of a [@action Counter @]."
                 ],
                 "damage": [
                     "As Base Degree",
-                    "When making a [@action Counter @], add four times the [@stat Strength @] Modifier of the target (minimum `+0`). This bonus only applies for humanoid opponents.",
+                    "When making a [@action Counter @], add four times the [@stat Strength @] Modifier of the target to the Base Damage as a deed bonus (minimum `+0`). This bonus only applies for humanoid opponents.",
                     "When making a [@action Counter @] with any other martial art, you can add your target's [@stat Strength @] Modifier to the Base Damage."
                 ],
                 "req": [
@@ -454,7 +454,7 @@
             },
             "intermediate": {
                 "effect": [
-                    "When you declare you are using unarmed, you can choose to apply a `+1` natural bonus to either [@skill Strike @], [@skill Block @], [@skill Dodge @], or [@skill Initiative @] or a `+1` to your unarmed Base Damage."
+                    "When you declare you are using unarmed, you can choose to apply a `+1` deed bonus to [@skill Strike @], [@skill Block @], [@skill Dodge @], [@skill Initiative @], or unarmed Base Damage."
                 ],
                 "damage": [
                     "As Base Degree."
@@ -547,7 +547,7 @@
             },
             "advanced": {
                 "effect": [
-                    "A creature who is trapped by you suffers a `-5` penalty to the Opposed Characteristic Check to free themselves, instead of the normal `-3`."
+                    "A creature who is trapped by you suffers a `-5` deed penalty to the Opposed Characteristic Check to free themselves, instead of the normal `-3`."
                 ],
                 "damage": [
                     "As Base Degree."
@@ -742,7 +742,7 @@
             },
             "advanced": {
                 "effect": [
-                    "Any Critical you cause with unarmed add `+2` to the Critical Level."
+                    "Any Critical you cause with unarmed add `+2` power bonus to the Critical Level."
                 ],
                 "damage": [
                     "2 + quadruple [@stat Strength @] Modifier"
@@ -833,7 +833,7 @@
         "degree": {
             "base": {
                 "effect": [
-                    "You gain a `+10` bonus to Fortitude when blocking with unarmed."
+                    "You gain a `+10` deed bonus to Fortitude when blocking with unarmed."
                 ],
                 "damage": [
                     "2 + [@stat Strength @] Modifier"
@@ -933,7 +933,7 @@
             },
             "advanced": {
                 "effect": [
-                    "You can perform the [@action Directed Attack @] maneuver, and any maneuver who uses its penalties, at half the penalty. This is cumulative with the [@trait Precision @] trait that unarmed possesses. So, you only suffer one fourth the normal penalty, round up."
+                    "You can perform the [@action Directed Attack @] maneuver, and any maneuver based on it, at half the penalty. This is cumulative with the [@trait Precision @] trait that unarmed fighting already possesses. So, you only suffer one fourth the normal penalty, round up."
                 ],
                 "damage": [
                     "2 + [@stat Strength @] Modifier"
@@ -960,7 +960,7 @@
         "degree": {
             "base": {
                 "effect": [
-                    "Each time you perform the [@action Attack Action @], you only apply a cumulative `-1` to each additional attack, instead of a `-2` for unarmed being a small weapon."
+                    "Each time you perform the [@action Attack Action @], you only apply a cumulative `-1` deed penalty to each additional attack, instead of a `-2` deed penalty for unarmed fighting being a small weapon."
                 ],
                 "damage": [
                     "1 + [@stat Strength @] Modifier"
@@ -1020,7 +1020,7 @@
         "degree": {
             "base": {
                 "effect": [
-                    "When you declare you are using unarmed, you can perform the [@action Offhand Attack @] action by kicking with your leg. This does not count as a readied offhand weapon so it cannot be used with any offhand module. This [@action Offhand Attack @] is performed with a `-3` penalty and does not benefit from the Ambidextrous feature.",
+                    "When you declare you are using unarmed, you can perform the [@action Offhand Attack @] action by kicking with your leg. This does not count as a readied offhand weapon so it cannot be used with any offhand module. This [@action Offhand Attack @] is performed with a `-3` deed penalty and does not benefit from the Ambidextrous feature.",
                     "This kick always uses the Tae Kwon Do Base Damage."
                 ],
                 "damage": [
@@ -1037,7 +1037,7 @@
             },
             "intermediate": {
                 "effect": [
-                    "The penalty for the [@action Offhand Attack @] made with your kick is reduced to a `-2` penalty."
+                    "The penalty for the [@action Offhand Attack @] made with your kick is reduced to a `-2` deed penalty."
                 ],
                 "damage": [
                     "2 + [@stat Strength @] Modifier"
@@ -1101,7 +1101,7 @@
             },
             "intermediate": {
                 "effect": [
-                    "The first [@action Defend with Block or Dodge @] action you perform each turn does not count against the multiple defense penalty. So, the second defense counts as the first and the third counts as the second (applying the `-2` penalty)"
+                    "The first [@action Defend with Block or Dodge @] action you perform each turn does not count against the multiple defense penalty. So, the second defense counts as the first and the third counts as the second (applying the `-2` deed penalty)"
                 ],
                 "damage": [
                     "2 + [@stat Strength @] Modifier"
@@ -1252,7 +1252,7 @@
                 ],
                 "damage": [
                     "2 + triple [@stat Focus @] Modifier",
-                    "When using the Base Damage from any other martial art, you can add your [@stat Focus @] Modifier to the Base Damage."
+                    "When using the Base Damage from any other martial art, you can add your [@stat Focus @] Modifier to the Base Damage as a power bonus."
                 ],
                 "damageType": [
                     "impact"
@@ -1277,7 +1277,7 @@
         "degree": {
             "base": {
                 "effect": [
-                    "You gain a `+1` bonus to any Opposed Characteristic Check to prevent the [@action Trap @] or [@action Take Down @] maneuver or to escape any [@action Trap @] you are current restrained by."
+                    "You gain a `+1` power bonus to any Opposed Characteristic Check to prevent the [@action Trap @] or [@action Take Down @] maneuver or to escape any [@action Trap @] you are current restrained by."
                 ],
                 "damage": [
                     "1 + [@stat Strength @] Modifier"
@@ -1296,7 +1296,7 @@
             },
             "intermediate": {
                 "effect": [
-                    "The bonus to defend or escape with an Opposed Characteristic Check increases to `+3`."
+                    "The power bonus to prevent or escape with an Opposed Characteristic Check increases to `+3`."
                 ],
                 "damage": [
                     "2 + [@stat Strength @] Modifier"
@@ -1316,7 +1316,7 @@
             },
             "advanced": {
                 "effect": [
-                    "Once per round, you can reroll any failed Opposed Characteristic Check to defend or escape."
+                    "Once per round, you can reroll any failed Opposed Characteristic Check to prevent or escape from a [@action Trap @] or [@action Take Down @]."
                 ],
                 "damage": [
                     "3 + [@stat Strength @] Modifier"
@@ -1344,7 +1344,7 @@
         "degree": {
             "base": {
                 "effect": [
-                    "If you have not performed any actions this round, you can, as an Active Action, declare a creature you can see to focus your attacks on, marking the target. The mark lasts until the End Phase or until you perform any action that is not moving closer or directly attack, you cannot perform any maneuver. While marked, you gain a `+1` bonus to any unarmed Offensive or Defensive Roll you make against the marked target. Once you benefit from this bonus, you cannot attack any other creatures until next round."
+                    "If you have not performed any actions this round, you can, as an Active Action, declare a creature you can see to focus your attacks on, marking the target. The mark lasts until the End Phase or until you perform any action that is not moving closer or directly attack, you cannot perform any maneuver. While marked, you gain a `+1` deed bonus to any unarmed Offensive or Defensive Roll you make against the marked target. Once you benefit from this bonus, you cannot attack any other creatures until next round."
                 ],
                 "damage": [
                     "1 + [@stat Strength @] Modifier"
@@ -1362,7 +1362,7 @@
             },
             "intermediate": {
                 "effect": [
-                    "The bonus increases to a `+2`."
+                    "The deed bonus increases to a `+2`."
                 ],
                 "damage": [
                     "2 + [@stat Strength @] Modifier"
@@ -1382,7 +1382,7 @@
             },
             "advanced": {
                 "effect": [
-                    "The bonus increases to a `+3`."
+                    "The deed bonus increases to a `+3`."
                 ],
                 "damage": [
                     "3 + [@stat Strength @] Modifier"
@@ -1410,7 +1410,7 @@
         "degree": {
             "base": {
                 "effect": [
-                    "You halve any penalty to [@skill Block @] or [@skill Dodge @] to defend against thrown projectiles."
+                    "You halve penalty to [@skill Block @] or [@skill Dodge @] to defend against thrown projectiles."
                 ],
                 "damage": [
                     "1 + [@stat Strength @] Modifier"
@@ -1428,7 +1428,7 @@
             },
             "intermediate": {
                 "effect": [
-                    "You halve any penalty to [@skill Block @] or [@skill Dodge @] fired projectiles."
+                    "You halve penalty to [@skill Block @] or [@skill Dodge @] fired projectiles."
                 ],
                 "damage": [
                     "2 + [@stat Strength @] Modifier"
@@ -1541,8 +1541,8 @@
         "degree": {
             "base": {
                 "effect": [
-                    "You can perform the [@action Disarm @] maneuver without any penalty and a `+3` bonus to the Opposed Characteristic Check.",
-                    "If you have mastered Advanced Malla-yuddah and performing the [@action Disarm @] maneuver as part of the [@action Counter @], the bonus increases to a `+4`."
+                    "You can perform the [@action Disarm @] maneuver without any penalty and a `+3` power bonus to the Opposed Characteristic Check.",
+                    "If you have mastered Advanced Malla-yuddah and performing the [@action Disarm @] maneuver as part of the [@action Counter @], the power bonus increases to a `+4`."
                 ],
                 "req": [
                     "Inter. Kempo, Inter. Kuan, or Inter. Malla-yuddha",
@@ -1556,7 +1556,7 @@
             },
             "advanced": {
                 "effect": [
-                    "Whenever you successfully defend against a hand-to-hand weapon, you can automatically make an Opposed Characteristic Check to disarm your attacker. This Characteristic Check does not apply any bonus or penalty to the you or your opponent for being a [@action Disarm @] Check. You do not get to add the bonus from Base Emp."
+                    "Whenever you successfully defend against a hand-to-hand weapon, you can automatically make an Opposed Characteristic Check to disarm your attacker. This Characteristic Check does not apply any deed or power factors to the you or your opponent for being a [@action Disarm @] Check. You do not get to add the power bonus from Base Emp."
                 ],
                 "req": [
                     "Adv. Kempo, Adv. Kuan, or Adv. Malla-yuddha",
@@ -1661,7 +1661,7 @@
         "degree": {
             "base": {
                 "effect": [
-                    "You can choose to use the Force Damage Type when fighting unarmed. This does not grant you the [@trait Immaterial @] trait, your attacks can be stopped by anything that can stop a normal Impact."
+                    "You can choose to use the Force Damage Type when fighting unarmed. This does not grant you the [@trait Immaterial @] trait, your attacks can be stopped by anything that can stop a normal weapon."
                 ],
                 "req": [
                     "Inter. Tai Chi or Inter. Kung Fu",
@@ -1698,7 +1698,7 @@
         "degree": {
             "base": {
                 "effect": [
-                    "You gain a `+1` natural bonus to [@skill Strike @], [@skill Block @], [@skill Dodge @], [@skill Initiative @], and Base Damage when fighting unarmed."
+                    "You gain a `+1` deed bonus to [@skill Strike @], [@skill Block @], [@skill Dodge @], [@skill Initiative @], and Base Damage when fighting unarmed."
                 ],
                 "req": [
                     "Inter. Kung Fu",
@@ -1712,7 +1712,7 @@
             },
             "advanced": {
                 "effect": [
-                    "The floating bonus from Kung Fu increases to `+4` and you gain a `+2` to any Critical Level that strikes a vital spot and are lethal."
+                    "The floating deed bonus from Kung Fu increases to `+4` and you gain a `+2` deed bonus to any Critical Level that strikes a vital spot and are lethal."
                 ],
                 "req": [
                     "Adv. Kung Fu",
@@ -1787,7 +1787,7 @@
                         "type": "entries",
                         "entries": [
                             "**Intention**: 0 AP",
-                            "When you declare this intention, you enter an offensive stance. While in this stance, you gain a `+2` bonus to unarmed Offensive Rolls but you suffer a `-3` to your Defensive Rolls."
+                            "When you declare this intention, you enter an offensive stance. While in this stance, you gain a `+2` deed bonus to unarmed Offensive Rolls but you suffer a `-3` deed penalty to your Defensive Rolls."
                         ]
                     }
                 ],
@@ -1812,7 +1812,7 @@
                         "type": "entries",
                         "entries": [
                             "**Intention**: 0 AP",
-                            "When you declare this intention, you enter an offensive stance. While in this stance, you gain a `+3` bonus to unarmed Offensive Rolls but you suffer a `-5` to your Defensive Rolls.",
+                            "When you declare this intention, you enter an offensive stance. While in this stance, you gain a `+3` deed bonus to unarmed Offensive Rolls but you suffer a `-5` deed penalty to your Defensive Rolls.",
                             "Additionally, you can still perform the [@action Counter @] action when [@state Flat-Footed @].",
                             "This stance cannot be combined with the [@action Seraphite @] stance."
                         ]
@@ -1843,7 +1843,7 @@
         "degree": {
             "base": {
                 "effect": [
-                    "You gain a `+3` bonus to the Opposed Characteristic Check for [@stat Strength @] or [@stat Dexterity @] when you perform the [@action Take Down @] and [@action Trap @] maneuvers."
+                    "You gain a `+3` power bonus to the Opposed Characteristic Check for [@stat Strength @] or [@stat Dexterity @] when you perform the [@action Take Down @] and [@action Trap @] maneuvers."
                 ],
                 "req": [
                     "Inter. Grapple or Inter. Pankration",
@@ -1858,7 +1858,7 @@
             },
             "advanced": {
                 "effect": [
-                    "When you perform the [@action Trap: Full Attack @] maneuver, you gain a `+5` bonus to the Offensive Roll. The [@action Trap: Crush @] and [@action Trap: Strangle @] maneuvers gain a `+3` [@stat Strength @] to the Opposed Characteristic Check"
+                    "When you perform the [@action Trap: Full Attack @] maneuver, you gain a `+5` power bonus to the Offensive Roll. The [@action Trap: Crush @] and [@action Trap: Strangle @] maneuvers gain a `+3` power bonus to the Opposed Characteristic Check when you use [@stat Strength @]."
                 ],
                 "req": [
                     "Adv. Grapple or Adv. Pankration",
@@ -1882,7 +1882,7 @@
         "degree": {
             "base": {
                 "effect": [
-                    "Your can use the Cut or Thrust Damage Type. You can ignore 2 AV and gain a `+10` to Breakage."
+                    "Your can use the Cut or Thrust Damage Type. You can ignore 2 AV and gain a `+10` deed bonus to Breakage."
                 ],
                 "damage": [
                     "Base Damage of Kempo and Capoeira `+1`"
@@ -1904,7 +1904,7 @@
             },
             "advanced": {
                 "effect": [
-                    "You can ignore 6 AV and gain a `+25` to Breakage with unarmed attacks, this bonus replaces the bonus from the base degree."
+                    "You can ignore 6 AV and gain a `+25` deed bonus to Breakage with unarmed attacks, this bonus replaces the bonus from the base degree."
                 ],
                 "damage": [
                     "Base Damage of Kempo or Capoeira `+2`"
@@ -1956,12 +1956,12 @@
             },
             "advanced": {
                 "effect": [
-                    "The maximum [@skill PhR @] increases to 24 and you add an additional `+2` to the Resistance Difficulty. Additionally, you can choose to take a penalty to your Offensive Roll to add a special effect to the Resistance Check.",
+                    "The maximum [@skill PhR @] increases to 24 and you add an additional `+2` to the Resistance Difficulty. Additionally, you can choose to take a deed penalty to your Offensive Roll to add a special effect to the Resistance Check.",
                     {
                         "type": "table",
                         "colLabels": [
                             "Added State",
-                            "Penalty"
+                            "Deed Penalty"
                         ],
                         "colStyles": [
                             "col-3",
@@ -2017,8 +2017,8 @@
         "degree": {
             "base": {
                 "effect": [
-                    "Any Critical you cause with unarmed add `+2` to the Critical Level against biological opponents. Your unarmed ",
-                    "Additionally, you ignore 2 AV of soft armor. If the opponent is not wearing soft armor, you gain no benefit."
+                    "Any Critical you cause with unarmed add `+2` deed bonus to the Critical Level against biological opponents. Your unarmed ",
+                    "Additionally, you ignore 2 AV of soft armor."
                 ],
                 "damage": [
                     "Base Damage of Shotokan or Muay Thai `+2`"
@@ -2036,7 +2036,7 @@
             },
             "advanced": {
                 "effect": [
-                    "Your Critical Level bonus increases to a `+4`.",
+                    "Your Critical Level deed bonus increases to a `+4`.",
                     "Additionally, you now ignore all AV from soft armor."
                 ],
                 "damage": [
@@ -2062,7 +2062,7 @@
         "degree": {
             "base": {
                 "effect": [
-                    "When you use the [@action Total Defense @] stance, the bonus to Defensive Rolls becomes `+6`."
+                    "When you use the [@action Total Defense @] stance, the deed bonus to Defensive Rolls becomes `+6`."
                 ],
                 "req": [
                     "Inter. Aikido or Inter. Kuan",
@@ -2080,7 +2080,7 @@
             },
             "advanced": {
                 "effect": [
-                    "When you use the [@action Total Defense @] stance, the bonus to Defensive Rolls becomes `+10`."
+                    "When you use the [@action Total Defense @] stance, the deed bonus to Defensive Rolls becomes `+10`."
                 ],
                 "damage": [
                     "As Base Degree."
@@ -2108,7 +2108,7 @@
         "degree": {
             "base": {
                 "effect": [
-                    "When you perform the [@action Knock Out @] maneuver, you gain a `+2` to the Critical Level and you can reduce the Final Damage by any amount you wish. For example, you could choose to leave the opponent with 1 Life Point."
+                    "When you perform the [@action Knock Out @] maneuver, you gain a `+2` deed bonus to the Critical Level and you can reduce the Final Damage by any amount you wish. For example, you could choose to leave the opponent with 1 Life Point."
                 ],
                 "req": [
                     "Inter. Sambo or Inter. Shotokan",
@@ -2189,7 +2189,7 @@
         "degree": {
             "base": {
                 "effect": [
-                    "If you reach the End Phase with at least one [@action Attack Action @] unused and you are not [@state Flat-Footed @], you gain a `+3` bonus to the Offensive Roll and `+5` bonus to Base Damage of the first [@action Attack Action @] you make next round."
+                    "If you reach the End Phase with at least one [@action Attack Action @] unused and you are not [@state Flat-Footed @], you gain a `+3` deed bonus to the Offensive Roll and `+5` deed bonus to Base Damage of the first [@action Attack Action @] you make next round."
                 ],
                 "req": [
                     "Inter. Boxing or Inter. Shotokan",
@@ -2202,7 +2202,7 @@
             },
             "advanced": {
                 "effect": [
-                    "The Offensive Roll bonus increases to `+6` and the Base Damage bonus increases to `+10`."
+                    "The Offensive Roll deed bonus increases to `+6` and the Base Damage deed bonus increases to `+10`."
                 ],
                 "req": [
                     "Adv. Boxing or Adv. Shotokan",
@@ -2266,7 +2266,7 @@
                     "None."
                 ],
                 "damage": [
-                    "Double Presence + Focus Modifier. This Base Damage cannot be modified by any other source, including powers, other martial arts, or the Presence Extrusion talent."
+                    "Double Presence + Focus Modifier. This Base Damage cannot be modified by deed or power factors."
                 ],
                 "damageType": [
                     "impact"
@@ -2364,7 +2364,7 @@
             },
             "advanced": {
                 "effect": [
-                    "The first [@action Attack Action @] you take against an opponent you have trapped can perform the [@action Directed Attack @] maneuver with no penalty. If this attack causes a Critical, you can add your [@stat Strength @] Modifier to the Critical Level."
+                    "The first [@action Attack Action @] you take against an opponent you have trapped can perform the [@action Directed Attack @] maneuver with no penalty. If this attack causes a Critical, you can add your [@stat Strength @] Modifier to the Critical Level as a deed bonus."
                 ],
                 "damage": [
                     "Base Damage of Pankration or Sambo plus your [@stat Constitution @] Modifier"
@@ -2390,7 +2390,7 @@
         "degree": {
             "base": {
                 "effect": [
-                    "The first [@action Attack Action @] you make against an opponent who has not performed any actions this round and has a lower [@skill Initiative @] than you, you gain a special theoretical `+3` bonus to Base Damage. This bonus does not increase your actual damage, instead if the theoretical Final Damage would cause a Critical, you use the actual Final Damage to determine the Critical Level. The theoretical Final Damage is only used to determine if a Critical occurs."
+                    "The first [@action Attack Action @] you make against an opponent who has not performed any actions this round and has a lower [@skill Initiative @] than you, you gain a special theoretical `+3` deed bonus to Base Damage. This bonus does not increase your actual damage, instead if the theoretical Final Damage would cause a Critical, you use the actual Final Damage to determine the Critical Level. The theoretical Final Damage is only used to determine if a Critical occurs."
                 ],
                 "req": [
                     "Inter. Ninjutsu or Inter. Savate",
@@ -2405,7 +2405,7 @@
             },
             "advanced": {
                 "effect": [
-                    "You can apply the theoretical bonus damage to all of your [@action Attack Actions @]. The bonus increases to `+5`."
+                    "You can apply the theoretical deed bonus damage to all of your [@action Attack Actions @]. The deed bonus increases to `+5`."
                 ],
                 "req": [
                     "Adv. Ninjutsu or Adv. Savate",

@@ -24,19 +24,19 @@ Each class belongs to one or two archetypes which signals what you can expect th
 **Freelancer**: The Freelancer is one who can be the jack-of-all-trades or the at least pretty good at one.
 
 ## General
-The General Group contains some Innate Bonuses and defines the cost of gain more Life Points. No class has a limit to this expense.
+The General Group contains some innate bonuses and defines the cost of gain more Life Points. No class has a limit to this expense.
 
 ### Life Point Multiple
 The Life Point Multiple (LPM) is the number of XP that must be invested to add Life Points to your total. Each time this is purchased, you gain LP equal to your Constitution Characteristic -- not its Modifier.
 
 ### Life Points gained per level
-This is the Innate Bonus you add to your Life Points. This number of points is added at first level and every time you gain a level.
+This is the innate bonus you add to your Life Points. This number of points is added at first level and every time you gain a level.
 
 ### Initiative gained per Level
-This is the Innate Bonus you add to your Initiative. This number is added at first level and every time you meet the incremental level.
+This is the innate bonus you add to your Initiative. This number is added at first level and every time you meet the incremental level.
 
 ## Special
-Any special Class benefits not reflected in the XP costs or Innate Bonuses will appear here. This will not be listed if no special advantage exists.
+Any special Class benefits not reflected in the XP costs or innate bonuses will appear here. This will not be listed if no special advantage exists.
 
 ## Secondary Skills
 The cost for developing Secondary Skills for each Class are listed here. Some classes have a lower or higher XP cost for certain secondary skills. These will also be noted here.
@@ -78,7 +78,7 @@ This is the cost to develop your ability to direct spells. No more than 20% of y
 These numbers are the cost of developing your skills related to conjuring.
 
 ### Mana gained per Level
-This indicates how many mana you receive per level. You receive this at first level and each time you move up a level.
+This indicates how much mana you receive per level. You receive this at first level and each time you move up a level.
 
 ## Phenom
 Your class will determine the percentage of XP you can invest here, between 50% and 60%.
@@ -91,6 +91,3 @@ This is the cost to develop the ability to direct phenom. No more than 20% of yo
 
 ### Phenom Points gained per level
 This indicates how many Phenom Points you receive per level. If you have access to a Manifest Disciplines, you begin the game with a single PP, and after gaining a certain number of levels, you receive another for free. If for example, you receive one additional PP for every 3 levels, you will acquire a second PP at 4th level.
-
-## Innate Bonuses
-These are the special bonuses intrinsic to each class. You receive these bonuses upon choosing a class, and then you receive the same as a bonus each time you gain a level. The Innate Bonuses for Strike, Blocking, or Dodging can never exceed +5, but all others can increase without limit.

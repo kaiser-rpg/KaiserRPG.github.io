@@ -15,9 +15,9 @@ Similarly, a creature with the immaterial trait will make its attacks immaterial
 The talent of Presence Extrusion allows you to grant the [@trait Imbued @] trait to your weapons and give them a presence equal to twice yours. The principle of Imbued Spell allows your attack and defense spells to gain the [@trait Imbued @] trait. A phenom will list at what degree it gains the [@trait Imbued @] trait. Some artifacts can also give you or your powers the [@trait Imbued @] trait as well.
 
 ## Area Attack
-Some powers have the ability to affect a large area with a single attack. This area attack can take many different shapes: sphere, cylinder, cone, line, and so on. Each valid target within the volume of the attack must make a Defensive Roll against your Offensive Roll (only one roll). The area attack will still count as a thrown projectile for the purpose of defense.
+Some powers have the ability to affect a large area with a single attack. This area attack can take different shapes: sphere, cylinder, cone, line, and so on. Each valid target within the volume of the attack must make a Defensive Roll against your Offensive Roll (only one roll). The area attack will still count as a thrown projectile for the purpose of defense.
 
-A target can dodge out of the area of the attack by taking the Step special action to move outside the area of the attack. if they have enough movement remaining to reach a point outside the volume of the attack. The target still makes a Defensive Roll against the attack even if they can move out of its area. If they are unable to reach a safe point for whatever reason, they apply a -8 penalty to the Defensive Roll.
+A target can dodge out of the area of the attack by taking the Step special action to move outside the area of the attack. If they have enough movement remaining to reach a point outside the volume of the attack. The target still makes a Defensive Roll against the attack even if they can move out of its area. If they are unable to reach a safe point for whatever reason, they apply a `-8` deed penalty to the Defensive Roll.
 
 The ability to block an area attack depends on the traits that the area attack and the target's defense possess. How each trait affects the defense of a target is described with the trait. In general, having an imbued defense will allow the target to defend normally.
 
@@ -26,7 +26,7 @@ All objects and creatures have a certain amount of essence in the world, measure
 
 In general, the presence of equipment, cloths, and even most artifacts do not need to be included when determining affected presence as long as it is on the target's person.
 
-For example, if you were to cast the spell Invisibility at the Base Degree you can affect a maximum of 10 presence. So, you can target three creatures with 3 presence each, two creatures with 5 presence each, or one creature with 6 presence and another with 4 presence. Anything the creature is carrying, that is also not sentient) does not count toward the presence total. So, a target holding a magic sword with the presence of 12 would still turn the sword invisible until they drop it. But since the sword has a presence higher than the spells affected amount the sword cannot be targeted.
+For example, if you were to cast the spell Invisibility at the Base Degree you can affect a maximum of 10 presence. So, you can target three creatures with 3 presence each, two creatures with 5 Presence each, or one creature with 6 Presence and another with 4 Presence. Anything the creature is carrying, that is also not sentient) does not count toward the presence total. So, a target holding a magic sword with the presence of 12 would still turn the sword invisible until they drop it. But since the sword has a presence higher than the spells affected amount the sword cannot be targeted.
 
 ## Target Selection
 You are not able to specify targets for an area attack unless otherwise listed. If you are unaware of a creature's existence within the area, you cannot deselect them even if the power allows.

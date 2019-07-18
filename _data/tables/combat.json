@@ -6,7 +6,7 @@
             "type": "table",
             "colLabels": [
                 "Weapon Size",
-                "Penalty per additional attack"
+                "Deed Penalty per Additional Attack"
             ],
             "colStyles": [
                 "col-3",
@@ -39,7 +39,7 @@
             "type": "table",
             "colLabels": [
                 "Number of Attacks",
-                "Penalty"
+                "Deed Penalty"
             ],
             "colStyles": [
                 "col-3",
@@ -80,8 +80,8 @@
             "type": "table",
             "colLabels": [
                 "Situation",
-                "Penalty against Thrown",
-                "Penalty against Fired"
+                "Deed Penalty against Thrown",
+                "Deed Penalty against Fired"
             ],
             "colStyles": [
                 "col-3",
