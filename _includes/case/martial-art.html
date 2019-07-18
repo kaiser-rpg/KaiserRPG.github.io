@@ -1,0 +1,136 @@
+<h3>{{include.art.name}}</h3>
+
+{% if include.art.degree.base %}
+<div>
+    <h4>Base Degree</h4>
+    <p>
+        <span class='entry-inline-title'>Requirements</span>:
+        {% if include.art.degree.base.req.size > 0 %}
+            {% include entry-list.html items=include.art.degree.base.req %}
+        {% else %}
+            None.
+        {% endif %}
+    </p>
+    <p>
+        <span class='entry-inline-title'>Effects</span>: {% include entry.html entries=include.art.degree.base.effect %}
+    </p>
+    {% if include.art.degree.base.damage %}
+    <p>
+        <span class='entry-inline-title'>Base Damage</span>: {% if include.art.degree.base.damageType %}{{include.art.degree.base.damageType | join: " " | capitalize }}; {% endif %}{% include entry.html entries=include.art.degree.base.damage %}
+    </p>
+    {% endif %}
+    {% if include.art.degree.base.sk %}
+    <p>
+        <span class='entry-inline-title'>Spirit Knowledge</span>: +{{include.art.degree.base.sk}} SK
+    </p>
+    {% endif %}
+    <p>
+        <span class='entry-inline-title'>Bonus</span>:
+        {% if include.art.degree.base.bonus.size > 0 %}
+            {% include entry-list.html items=include.art.degree.base.bonus %}
+        {% else %}
+            None.
+        {% endif %}
+    </p>
+    {% if include.art.degree.base.masterBonus and include.art.degree.base.masterBonus.size > 0 %}
+    <p>
+        <span class='entry-inline-title'>Master Bonus</span>:
+        {% if include.art.degree.base.masterBonus.size > 0 %}
+            {% include entry-list.html items=include.art.degree.base.masterBonus %}
+        {% else %}
+            None.
+        {% endif %}
+    </p>
+    {% endif %}
+</div>
+{% endif %}
+
+{% if include.art.degree.intermediate %}
+<div>
+    <h4>Intermediate Degree</h4>
+    <p>
+        <span class='entry-inline-title'>Requirements</span>:
+        {% if include.art.degree.intermediate.req.size > 0 %}
+            {% include entry-list.html items=include.art.degree.intermediate.req %}
+        {% else %}
+            None.
+        {% endif %}
+    </p>
+    <p>
+        <span class='entry-inline-title'>Effects</span>: {% include entry.html entries=include.art.degree.intermediate.effect %}
+    </p>
+    {% if include.art.degree.intermediate.damage %}
+    <p>
+        <span class='entry-inline-title'>intermediate Damage</span>: {% if include.art.degree.intermediate.damageType %}{{include.art.degree.intermediate.damageType | join: " " | capitalize }}; {% endif %}{% include entry.html entries=include.art.degree.intermediate.damage %}
+    </p>
+    {% endif %}
+    {% if include.art.degree.intermediate.sk %}
+    <p>
+        <span class='entry-inline-title'>Spirit Knowledge</span>: +{{include.art.degree.intermediate.sk}} SK
+    </p>
+    {% endif %}
+    <p>
+        <span class='entry-inline-title'>Bonus</span>:
+        {% if include.art.degree.intermediate.bonus.size > 0 %}
+            {% include entry-list.html items=include.art.degree.intermediate.bonus %}
+        {% else %}
+            None.
+        {% endif %}
+    </p>
+    {% if include.art.degree.intermediate.masterBonus and include.art.degree.intermediate.masterBonus.size > 0 %}
+    <p>
+        <span class='entry-inline-title'>Master Bonus</span>:
+        {% if include.art.degree.intermediate.masterBonus.size > 0 %}
+            {% include entry-list.html items=include.art.degree.intermediate.masterBonus %}
+        {% else %}
+            None.
+        {% endif %}
+    </p>
+    {% endif %}
+</div>
+{% endif %}
+
+{% if include.art.degree.advanced %}
+<div>
+    <h4>Advanced Degree</h4>
+    <p>
+        <span class='entry-inline-title'>Requirements</span>:
+        {% if include.art.degree.advanced.req.size > 0 %}
+            {% include entry-list.html items=include.art.degree.advanced.req %}
+        {% else %}
+            None.
+        {% endif %}
+    </p>
+    <p>
+        <span class='entry-inline-title'>Effects</span>: {% include entry.html entries=include.art.degree.advanced.effect %}
+    </p>
+    {% if include.art.degree.advanced.damage %}
+    <p>
+        <span class='entry-inline-title'>advanced Damage</span>: {% if include.art.degree.advanced.damageType %}{{include.art.degree.advanced.damageType | join: " " | capitalize }}; {% endif %}{% include entry.html entries=include.art.degree.advanced.damage %}
+    </p>
+    {% endif %}
+    {% if include.art.degree.advanced.sk %}
+    <p>
+        <span class='entry-inline-title'>Spirit Knowledge</span>: +{{include.art.degree.advanced.sk}} SK
+    </p>
+    {% endif %}
+    <p>
+        <span class='entry-inline-title'>Bonus</span>:
+        {% if include.art.degree.advanced.bonus.size > 0 %}
+            {% include entry-list.html items=include.art.degree.advanced.bonus %}
+        {% else %}
+            None.
+        {% endif %}
+    </p>
+    {% if include.art.degree.advanced.masterBonus and include.art.degree.advanced.masterBonus.size > 0 %}
+    <p>
+        <span class='entry-inline-title'>Master Bonus</span>:
+        {% if include.art.degree.advanced.masterBonus.size > 0 %}
+            {% include entry-list.html items=include.art.degree.advanced.masterBonus %}
+        {% else %}
+            None.
+        {% endif %}
+    </p>
+    {% endif %}
+</div>
+{% endif %}

@@ -128,11 +128,11 @@ entries:
   - title: Martial Arts
     output: web
     folderitems:
-    - title: Base Martial Arts
-      url: /char_spirit_base_martial_arts.html
+    - title: Basic Martial Arts
+      url: /char_spirit_martial_art_basic.html
       output: web
     - title: Arcane Martial Arts
-      url: /char_spirit_arcane_martial_arts.html
+      url: /char_spirit_martial_art_arcane.html
       output: web 
 
   - title: Great Arts

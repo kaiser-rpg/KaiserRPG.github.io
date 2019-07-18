@@ -632,7 +632,7 @@
         "tags": [],
         "description": [
             "You can modify and control the form, color, and intensity of light within the area. A light-based creature must pass a [@skill SR @] Check or fall under your control. The creature can repeat this check after a number of rounds equal to their Degree of Failure or if ordered to do something against its nature. If the creature ever leaves the radius, you lose control.",
-            "You can cause any attacks within the area using Light Damage to suffer two Degrees of Disadvantage on the Offensive Roll."
+            "You can cause any attacks within the area using Light Damage to suffer `D3` on the Offensive Roll."
         ],
         "degree": {
             "base": {
@@ -1158,7 +1158,7 @@
                 "int": 8,
                 "maint": 5,
                 "effect": [
-                    "One degree of Advantage",
+                    "`A1`",
                     "15-foot radius"
                 ]
             },
@@ -1167,7 +1167,7 @@
                 "int": 10,
                 "maint": 10,
                 "effect": [
-                    "Two degree of Advantage",
+                    "`A2`",
                     "60-foot radius"
                 ]
             },
@@ -1176,7 +1176,7 @@
                 "int": 14,
                 "maint": 15,
                 "effect": [
-                    "Three degree of Advantage",
+                    "`A3`",
                     "120-foot radius"
                 ]
             },
@@ -1185,7 +1185,7 @@
                 "int": 17,
                 "maint": 15,
                 "effect": [
-                    "Four degree of Advantage",
+                    "`A4`",
                     "500-foot radius"
                 ]
             }
@@ -1299,7 +1299,7 @@
         "maintTime": "day",
         "tags": [],
         "description": [
-            "You enchant a stationary area, making it impossible for darkness-based creatures or creatures composed of negative emotions to enter. Any such creature entering the area must pass a [@skill SR @] or take 10 Force Damage per Degree of Failure and gain the [@ Pain (4) @] state."
+            "You enchant a stationary area, making it impossible for darkness-based creatures or creatures composed of negative emotions to enter. Any such creature entering the area must pass a [@skill SR @] or take 10 Force Damage per Degree of Failure and gain the [@state Pain (4) @] state."
         ],
         "degree": {
             "base": {

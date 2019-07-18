@@ -14,7 +14,7 @@ The Ludus Damage Role allows you to ignore weaker attacks but fall with one good
 
 3. You gain a bonus to your Absorption and a natural armor value for all Damage Types determined by your Size.
 
-4. You can invest XP to gain Final Damage Negates. Any FDN gained are not bypassed by [@ Imbued @] attacks.
+4. You can invest XP to gain Final Damage Negates. Any FDN gained are not bypassed by [@trait Imbued @] attacks.
 
 ## Rex
 If you use the Rex Damage Role, you soak up large amounts of damage due to your bulk and not your defensive capabilities. This role uses the following changes to the Standard Damage Role.

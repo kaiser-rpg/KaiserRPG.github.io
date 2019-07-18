@@ -33,7 +33,7 @@
                 "You possess a certain charisma that makes other react positively toward you. You always receive a positive reaction from strangers."
             ],
             "effects": [
-                "You have two degrees of Advantage when making a Skill Check as part of a positive social interaction. Additional effects may be added by the Game Master."
+                "You have `A2` when making a Skill Check as part of a positive social interaction. Additional effects may be added by the Game Master."
             ],
             "cost": [
                 1
@@ -45,7 +45,7 @@
                 "You cause those around you to be nervous by your presence. This can discourage violence against you or intimidate someone into doing what you demand."
             ],
             "effects": [
-                "You have two degrees of Advantage when making a Skill Check as part of a threatening social interaction. Additional effects may be added by the Game Master."
+                "You have `A2` when making a Skill Check as part of a threatening social interaction. Additional effects may be added by the Game Master."
             ],
             "cost": [
                 1
@@ -237,7 +237,7 @@
                 "Your luck knows no bounds."
             ],
             "effects": [
-                "You decrease your Fumble Chance by 1. You also have two degrees of Advantage to a Resistance Check from any power that increases your Fumble Chance"
+                "You decrease your Fumble Chance by 1. You also have `A2` to a Resistance Check from any power that increases your Fumble Chance"
             ],
             "cost": [
                 2
@@ -698,8 +698,8 @@
                 "You have an addiction that must be satisfied each day."
             ],
             "effects": [
-                "You apply a cumulative [@ Pain (1) @] state for each day that passes without fulfilling you vice.",
-                "The [@ Pain (1) @] state disappears at 1 point for each day that you fulfil your vice."
+                "You apply a cumulative [@state Pain (1) @] state for each day that passes without fulfilling you vice.",
+                "The [@state Pain (1) @] state disappears at 1 point for each day that you fulfil your vice."
             ],
             "cost": [1]
         },
@@ -709,7 +709,7 @@
                 "You have a great fear of something."
             ],
             "effects": [
-                "You automatically gain the [@state Frightened @] State when you see the object of your phobia. If the object of fear is an illusion, you suffer 4 degrees of Disadvantage when trying to determine if it is real or when you make the Resistance Check."
+                "You automatically gain the [@state Frightened @] State when you see the object of your phobia. If the object of fear is an illusion, you suffer `D4` when trying to determine if it is real or when you make the Resistance Check."
             ],
             "cost": [1]
         },
@@ -749,7 +749,7 @@
                 "You suffer terrible nightmares when you sleep. These could be from a trauma in your past or a supernatural entity who chases you in your sleep."
             ],
             "effects": [
-                "Each time you sleep, roll 2d6. If the result is 8 or higher, your maximum Stamina Points is reduced by 2 until you get a good night's rest. If this ever makes your maximum Stamina Points zero, you gain the [@ Weakness (2) @] state. If you ever lose the need to sleep, you instead must make this roll every 24 hours."
+                "Each time you sleep, roll 2d6. If the result is 8 or higher, your maximum Stamina Points is reduced by 2 until you get a good night's rest. If this ever makes your maximum Stamina Points zero, you gain the [@state Weakness (2) @] state. If you ever lose the need to sleep, you instead must make this roll every 24 hours."
             ],
             "cost": [2]
         },
@@ -805,7 +805,7 @@
                 "You do not tolerate pain well."
             ],
             "effects": [
-                "You double the penalty from the [@ Pain @] state."
+                "You double the penalty from the [@state Pain @] state."
             ],
             "cost": [2]
         },
@@ -855,7 +855,7 @@
                 "Your body is feeble."
             ],
             "effects": [
-                "While your Life Points are below half of your maximum, you gain the [@ Pain (3) @] state."
+                "While your Life Points are below half of your maximum, you gain the [@state Pain (3) @] state."
             ],
             "cost": [2]
         },

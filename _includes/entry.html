@@ -32,8 +32,10 @@
                 </div>
             {% endif %}
         {% else %}
-            {% if include.useDiv > 0 %}
+            {% if include.useDiv == 1 %}
                 <div markdown="span">{{entry}}</div>
+            {% elsif include.useDiv == 2 %}
+                <span markdown="span">{{entry}}</span>
             {% else %}
                 <p markdown="span">{{entry}}</p>
             {% endif %}

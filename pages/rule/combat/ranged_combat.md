@@ -11,7 +11,7 @@ Below are a list of special states that only apply in ranged combat.
 {% include table-index.html table="state" index="500" %}
 
 ### Point-Blank
-You are at Point-Blank range is your are within 5 feet of your target. While at [@state Point-Blank @] range, you have one degree of Advantage and you can be counterattacked and can counterattack.
+You are at Point-Blank range is your are within 5 feet of your target. While at [@state Point-Blank @] range, you have `A1` and you can be counterattacked and can counterattack.
 
 ### Changing Target
 If you make multiple ranged attacks in a single round, you suffer a `-1` penalty each time your next attack targets a different creature than the previous. This penalty also applies if you were previously [@action Aiming @] but then switch targets (which still causes you to lose the Aim bonus).
@@ -20,19 +20,19 @@ If you make multiple ranged attacks in a single round, you suffer a `-1` penalty
 If your target is mostly behind cover, you suffer a `-4` penalty to the Offensive Roll. If the target is completely behind cover, you cannot attack them until they exit cover. This can be done by preparing an offensive roll.
 
 ### Moving Shot
-When you move more than 20 feet before shooting, you suffer one degree of Disadvantage on the Offensive Roll. If you move than your Dash Distance, you instead suffer two degrees of Disadvantage.
+When you move more than 20 feet before shooting, you suffer `D1` on the Offensive Roll. If you move than your Dash Distance, you instead suffer `D2`.
 
 ### Moving Target
-When your target has moved more than 50 feet this round before you make your shot, you suffer one degree of Disadvantage on the Offensive Roll. If they move more than 100 feet, you instead suffer two degrees of Disadvantage.
+When your target has moved more than 50 feet this round before you make your shot, you suffer `D1` on the Offensive Roll. If they move more than 100 feet, you instead suffer `D2`.
 
 ### Large Target
 Shooting at a target who is at least 8 feet tall gives you a `+4` bonus to the Offensive Roll. This bonus does not apply when shooting targets using the Rex or Ludus Damage Roles.
 
 ### Shooting Defensively
-You can declare that you are Shooting Defensively before making your Offensive Roll to prevent an opponent from taking the Attack an Opening reaction. But, doing so gives you one degree of Disadvantage on the Offensive Roll.
+You can declare that you are [@state Shooting Defensively @] before making your Offensive Roll to prevent an opponent from taking the Attack an Opening reaction. But, doing so gives you `D1` on the Offensive Roll.
 
 ## Defense Against Projectiles
-If you have not reached Mastery with Block or Dodge, you may find it very difficult to defend against thrown or fired projectiles. When making your Defensive Roll against such attacks, you suffer a special penalty as described in the table below. 
+If you have not reached Mastery with [@skill Block @] or [@skill Dodge @], you may find it very difficult to defend against thrown or fired projectiles. When making your Defensive Roll against such attacks, you suffer a special penalty as described in the table below. 
 
 {% include table-index.html table="combat" index="410" %}
 

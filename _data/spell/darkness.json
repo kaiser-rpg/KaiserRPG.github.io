@@ -364,7 +364,7 @@
         "maintTime": "turn",
         "tags": [],
         "description": [
-            "You select a spell or an object, it can be a person or thing, and hide its magical properties. Any [@ Magic Appraisal @] Check made to detect or measure the target suffers the listed penalty. Attempts to detect the Hide Mana spell also suffer the same penalty."
+            "You select a spell or an object, it can be a person or thing, and hide its magical properties. Any [@skill Magic Appraisal @] Check made to detect or measure the target suffers the listed penalty. Attempts to detect the Hide Mana spell also suffer the same penalty."
         ],
         "degree": {
             "base": {
@@ -562,7 +562,7 @@
         "tags": [],
         "description": [
             "You can modify and control the form and intensity of darkness within the area. A darkness-based creature must pass a [@skill PhR @] Check or fall under your control. The creature can repeat this check after a number of rounds equal to their Degree of Failure or if ordered to do something against its nature. If the creature ever leaves the radius, you lose control.",
-            "You can cause any attacks within the area using Darkness Damage to suffer two Degrees of Disadvantage on the Offensive Roll."
+            "You can cause any attacks within the area using Darkness Damage to suffer `D2` on the Offensive Roll."
         ],
         "degree": {
             "base": {

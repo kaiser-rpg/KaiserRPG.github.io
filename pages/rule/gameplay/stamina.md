@@ -9,7 +9,7 @@ When your Stamina gets low, you will start to suffer the effects of exhaustion. 
 
 {% include table-index.html table="gameplay" index="800" %}
 
-If the maximum Stamina points you have is less than or equal to an amount that gives a [@ Pain @] state, you only suffer the penalties after spending any number of Stamina points.
+If the maximum Stamina points you have is less than or equal to an amount that gives a [@state Pain @] state, you only suffer the penalties after spending any number of Stamina points.
 
 {% include example.html content="Samwell has a maximum of 4 Stamina points. When he has all his Stamina Points, he does not suffer the -1 penalty to all his actions. But as soon as he loses one point, he gains the -2 All Action penalty since he only has 3 points remaining." %}
 
