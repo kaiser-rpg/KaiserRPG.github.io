@@ -30,6 +30,10 @@ There are a few different way that a Skill Check can be changed.
 ### Open Rolls
 Open Rolls represent something going unexpectedly well. When you make a Skill Check and roll double six, you have gained an Open Roll. You then roll another 1d6 and add the new result to the previous one. If the new d6 roll is also a six, repeat the process.
 
+When a power increases or decreases the chance of a Open Roll, refer to the table below. If you are affected by more than one increase and or decrease, add all the changes together.
+
+{% include table-index.html table="gameplay" index="110" %}
+
 ### Fumbles
 In the same way you can have a great success by means of an Open Roll, the possibility exists that a Fumble occurs. When you make a Skill Check and roll a double one, you have Fumbled and the result is an immediate failure.
 

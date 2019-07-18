@@ -15,19 +15,19 @@
             "rows": [
                 [
                     "Smaller size",
-                    "`-1`"
-                ],
-                [
-                    "Same size",
                     "`-2`"
                 ],
                 [
-                    "One size larger",
+                    "Same size",
                     "`-3`"
                 ],
                 [
-                    "Two sizes larger",
+                    "One size larger",
                     "`-4`"
+                ],
+                [
+                    "Two sizes larger",
+                    "`-5`"
                 ]
             ]
         }

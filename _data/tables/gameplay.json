@@ -1462,5 +1462,61 @@
                 ]
             ]
         }
-    }
+    },
+{
+        "title": "Open Roll Chance",
+        "index": "500",
+        "table": {
+            "type": "table",
+            "colLabels": [
+                "Open Roll Degree",
+                "How to Open Roll"
+            ],
+            "colStyles": [
+                "col-3",
+                "col-7"
+            ],
+            "rows": [
+                [
+                    "-3",
+                    "Open Roll on five sixes (must have A3 or higher)"
+                ],
+                [
+                    "-2",
+                    "Open Roll on four sixes (must have A2 or higher)"
+                ],
+                [
+                    "-1",
+                    "Open Roll on three sixes (must have A1 or higher)"
+                ],
+                [
+                    "0",
+                    "Open Roll on double 6"
+                ],
+                [
+                    "+1",
+                    "Open Roll on a 6 and a 6 or 5"
+                ],
+                [
+                    "+2",
+                    "Open Roll on a 6 and a 6, 5, or 4"
+                ],
+                [
+                    "+3",
+                    "Open Roll on a 6 and a 6, 5, 4, or 3"
+                ],
+                [
+                    "+4",
+                    "Open Roll on a 6 and a 6, 5, 4, 3, or 2"
+                ],
+                [
+                    "+5",
+                    "Open Roll if you get one 6"
+                ]
+            ]
+        }
+    },
+]   ]
+        }
+    },
 ]
