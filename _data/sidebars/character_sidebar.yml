@@ -183,6 +183,9 @@ entries:
     - title: Darkness
       url: /char_spell_darkness.html
       output: web
+    - title: Creation
+      url: /char_spell_creation.html
+      output: web
 
   - title: Spell Sub-Paths
     output: web
