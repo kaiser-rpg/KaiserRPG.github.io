@@ -53,14 +53,18 @@ This spell does not restore lost or destroyed limbs, nor is it capable of removi
 
 You ...
 
+You can detect life-forms with the area
+
 whose total Presence is no greater than the listed Presence
 
 You create a number of Heat, Cold, Electricity, or Light intensities.
 
+You create a violent burst of light. You create an explosion of light. This explosion is an area attack against all creatures within the area.
+
 You create a supernatural barrier with the listed Life Points.
 The barrier possess the Imbued trait.
 
-You create a number of level 0 mana elementals.
+You create a number of level 0 mana theelementals.
 
 The creature is level 0 and follows the rules for creatures created by powers.
 

@@ -1,5 +1,65 @@
 [
     {
+        "name": "General Slot",
+        "type": "slot",
+        "level": 4,
+        "slot": "10"
+    },
+    {
+        "name": "General Slot",
+        "type": "slot",
+        "level": 14,
+        "slot": "20"
+    },
+    {
+        "name": "General Slot",
+        "type": "slot",
+        "level": 24,
+        "slot": "30"
+    },
+    {
+        "name": "General Slot",
+        "type": "slot",
+        "level": 34,
+        "slot": "40"
+    },
+    {
+        "name": "General Slot",
+        "type": "slot",
+        "level": 44,
+        "slot": "50"
+    },
+    {
+        "name": "General Slot",
+        "type": "slot",
+        "level": 54,
+        "slot": "60"
+    },
+    {
+        "name": "General Slot",
+        "type": "slot",
+        "level": 64,
+        "slot": "70"
+    },
+    {
+        "name": "General Slot",
+        "type": "slot",
+        "level": 74,
+        "slot": "80"
+    },
+    {
+        "name": "General Slot",
+        "type": "slot",
+        "level": 84,
+        "slot": "90"
+    },
+    {
+        "name": "General Slot",
+        "type": "slot",
+        "level": 94,
+        "slot": "100"
+    },
+    {
         "name": "Minor Creation",
         "type": "path",
         "level": 2,
@@ -1083,7 +1143,7 @@
         "maintTime": "turn",
         "tags": [],
         "description": [
-            "All entities you choose within the listed area gain the listed power bonus to all PhR, IR, SR, and MR Checks. You must be aware of an entity to grant the bonus."
+            "All entities you choose within the area gain a power bonus to all PhR, IR, SR, and MR Checks. You must be aware of an entity to grant the bonus."
         ],
         "degree": {
             "base": {
