@@ -1,25 +1,22 @@
-### Tiger: Twin Double-swords
+### Rabbit: Battle Greaves
 
 Requirement: 
-Strike 16
-Defense 16
-Dance 5
-Ambidextrous
-Erudition
+Agility 10
+Strike 12
+Defense 12
+Athletics or Acrobatics 5
 Inhumanity
 
-XP Cost: 4
+XP Cost: 2
 
-SK Cost: 4
+SK Cost: 2
 
 Description of the master art
 
+#### Weapon
+
 #### Features
-Blade Dance: The dancing blades of Tiger form a circle that covers you from all sides, this halves the penalties to Defensive Rolls from the Flanked and Blind Side state.
 
-Combo Attack: If you hit a target with your main Tiger, you gain a bonus to attack the same target with your offhand Tiger equal to a quarter of your Degree of Success on the main attack and do not suffer the penalty to attack with your offhand, round down. 
-
-Round Attack: Tiger can be used to make the _Sweeping Attack_ maneuver with a -2 penalty and you ignore the Offensive Roll penalty from the Flanked and Blind Side State.
 
 ### Tiger Major
 
