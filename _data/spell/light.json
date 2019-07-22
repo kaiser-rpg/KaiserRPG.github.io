@@ -852,7 +852,9 @@
         "maintTime": "turn",
         "tags": [],
         "description": [
-            "All creatures within the listed area are targeted, excluding you. A target must succeed a SR or MR Check or feel an overwhelming pleasurable sensations. An affected target suffers a `-2` all-action penalty but is immune and oblivious to degrees of [@state Pain @] not caused by physical means, such as exhaustion or Criticals."
+            "This spell imbues creatures with a feeling of ecstasy.",
+            "All entities in an area centered on a point of your choice must make a Defensive Roll against your Offensive Roll. On a hit, a target must make a SR Check; a target can choose to fail.",
+            "A target that fails the Resistance Check feels an overwhelmingly pleasurable sensation, causing a `-2` all-action penatly and they ignore the Pain state caused by exhaustion and Criticals."
         ],
         "degree": {
             "base": {
