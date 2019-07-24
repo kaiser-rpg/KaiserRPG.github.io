@@ -120,7 +120,7 @@
             "affectable presence"
         ],
         "description": [
-            "You cause a non-living object, whose total Presence is no greater than the listed Presence, to reassemble itself. If there are some parts missing, you can substitute a similar amount of raw material to recreate a simple part. Once the spell is cast, the reconstruction takes a 1 minute per point of Presence."
+            "An entity of your choice whose total Presence is no greater than the listed value begins to reassemble from the parts nearby. If there are some parts missing, you can substitute a similar amount of raw material to recreate a simple part. Once the spell is cast, the reconstruction takes a 1 minute per point of Presence."
         ],
         "degree": {
             "base": {
@@ -170,7 +170,7 @@
             "intensity"
         ],
         "description": [
-            "You create a number of Heat, Cold, Electricity, or Light intensities."
+            "You create intensities of Heat, Cold, Electricity, or Light."
         ],
         "degree": {
             "base": {
@@ -218,7 +218,7 @@
         "maintTime": "day",
         "tags": [],
         "description": [
-            "You cause the natural healing of a creature to be enhanced. Choose a single creature to target. The target's Final Regeneration Value becomes the listed value if it is greater than their current value."
+            "An entity of your choice gains a natural Final Regeneration Value. If the target's Regeneration is greater, than the spell has no effect."
         ],
         "degree": {
             "base": {
@@ -266,7 +266,7 @@
         "maintTime": "turn",
         "tags": [],
         "description": [
-            "You alter the form and function of an object. Choose a single non-living object whose total Presence is no greater than the listed Presence. The target's form changes to one you choose. The new form must have a Presence no greater than the original forms Presence."
+            "An object of your choice whose total Presence is no greater than the listed value changes. The new form's Presence must be no greater than its original Presence."
         ],
         "degree": {
             "base": {
@@ -314,7 +314,7 @@
         "maintTime": "day",
         "tags": [],
         "description": [
-            "You cause a entity to become more reslient. Choose a single entity to target. The target gains the listed power bonus to their PhR, IR, SR, and MR."
+            "An entity of your choice gains a power bonus to their Phr, IR, SR, and MR."
         ],
         "degree": {
             "base": {
@@ -362,8 +362,7 @@
         "maintTime": "turn",
         "tags": [],
         "description": [
-            "You create a supernatural barrier with the listed Life Points.",
-            "The barrier possess the Imbued trait."
+            "You create a supernatural barrier with the listed Life Points. This barrier possess the Imbued trait."
         ],
         "degree": {
             "base": {
@@ -411,8 +410,7 @@
         "maintTime": "no",
         "tags": [],
         "description": [
-            "Choose a single creature to target. The target regains the listed number of Life Points.",
-            "This spell does not restore lost or destroyed limbs, but it is capable of removing the listed degrees of the Pain state."
+            "An entity of your choice recovers Life Points and reduces its degrees of Pain. This spell cannot restore damaged limbs. eliminate Pain."
         ],
         "degree": {
             "base": {
@@ -464,7 +462,7 @@
         "maintTime": "day",
         "tags": [],
         "description": [
-            "Choose a single entity to target. The target gains the listed Base Damage Negate against the Physical Damage Group. This BDN can be overcome by attacks with the Imbued trait."
+            "An entity of your choice gains a Base Damage Negate against the Physical Damage Group. This BDN can be overcome with the Imbued trait."
         ],
         "degree": {
             "base": {
@@ -512,17 +510,17 @@
         "maintTime": "turn",
         "tags": [],
         "description": [
-            "You create a number of level 0 mana elementals. The creatures are level 0 and follow the rules for creatures created by powers.",
-            "Each homunculus created can have different profiles. Additionally, the following rules apply:",
+            "You create monad creatures. The creature's level is 0 and must follow the rules for monad creatures. Each homunculus created can have different profiles. The creature is created with the following rules:",
             {
                 "type": "list",
                 "items": [
-                    "The creature is a monad mana elemental with Nornir 5.",
+                    "The creatures are mana elementals with Nornir 5.",
                     "No Characteristic or Skill can have a Final Value greater than 5.",
                     "The creature's size is reduced by 2 and it cannot choose the Uncommon Size feature.",
-                    "No Intellecual or Creative Skill's Final Value can be greater than your Final Value."
+                    "No Intellectual or Creative Skill's Final Value can be greater than your Final Value."
                 ]
-            }
+            },
+            "No matter how many creatures this spell creates, they count as a single creature for the purpose of determining the maximum level of other monad creatures."
         ],
         "degree": {
             "base": {
@@ -570,7 +568,8 @@
         "maintTime": "day",
         "tags": [],
         "description": [
-            "Choose a number of entities to target whose total Presence is no greater than the listed Presence. The target must succeed a SR Check or have its appearance changed. The target can repeat the Resistance Check on the End Phase after a number of minutes have passed equal to its Degree of Failure.",
+            "You make an Offensive Roll against an entity. On a hit, a target must make a SR Check; a target can choose to fail.",
+            "A target that fails the Resistance Check has its appearance changed. A target can repeat the Resistance Check on the End Phase after a number of minutes have passed equal to their Degree of Failure on the previous Check.",
             "The change is limited to superficial appearances. For example, you could cause a boulder to appear to be covered in moss. A living target can have its size modified by 2 points but anything it is wearing does not change with it, since they are not targeted."
         ],
         "degree": {
@@ -624,7 +623,7 @@
         "maintTime": "day",
         "tags": [],
         "description": [
-            "Choose a single non-living object you are in contact with and whose total Presence is no greater than the listed Presence. You create a perfect copy of the target. The copy retains all the qualities the original possessed, including supernatural ones. The copied object has the same Presence as the original."
+            "An object you are in contact with and whose total Presence is no greater than the listed value is duplicated. The duplicate of the target retains all the qualities of the original, including supernatural ones. The duplicate object has the same Presence as the original."
         ],
         "degree": {
             "base": {

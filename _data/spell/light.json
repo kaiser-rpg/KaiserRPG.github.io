@@ -69,9 +69,11 @@
         "action": "active",
         "maintTime": "day",
         "tags": [],
+        "flavor": [
+            "You create a small orb of light."
+        ],
         "description": [
-            "You create a small orb of light.",
-            "The orb gives off the listed intensities of light. As an Active Action, you can move the orb; the orb has its own Movement Distance."
+            "You create material orb gives off the listed intensities of natural light."
         ],
         "degree": {
             "base": {
@@ -79,8 +81,7 @@
                 "int": 5,
                 "maint": 5,
                 "effect": [
-                    "2 intensities",
-                    "60 feet"
+                    "2 intensities"
                 ]
             },
             "intermediate": {
@@ -88,8 +89,7 @@
                 "int": 8,
                 "maint": 5,
                 "effect": [
-                    "10 intensities",
-                    "120 feet"
+                    "10 intensities"
                 ]
             },
             "advanced": {
@@ -97,8 +97,7 @@
                 "int": 10,
                 "maint": 10,
                 "effect": [
-                    "20 intensities",
-                    "300 feet"
+                    "20 intensities"
                 ]
             },
             "arcane": {
@@ -106,8 +105,7 @@
                 "int": 12,
                 "maint": 15,
                 "effect": [
-                    "50 intensities",
-                    "500 feet"
+                    "50 intensities"
                 ]
             }
         }
@@ -117,14 +115,15 @@
         "type": "path",
         "level": 6,
         "power": [
-            "effect",
-            "area"
+            "effect"
         ],
         "action": "active",
         "maintTime": "no",
         "tags": [],
+        "flavor": [
+            "You calm the emotional state of creatures."
+        ],
         "description": [
-            "You calm the emotional state of creatures.",
             "All entities in an area centered on a point of your choice must make a Defensive Roll against your Offensive Roll. On a hit, a target must make a SR Check; a target can choose to fail.",
             "A target that fails the Resistance Check suppress the any negative emotional state, such as [@state Anger @] and [@state Rage @]. The exception to this is the [@state Fear @] state, which is reduced by one degree. This does not stop actions done in cold blood.",
             "The effects of this spell last until the End Phase. If the target has a negative emotional state by a power, the state returns. Natural emotions can return if the target so chooses."
@@ -178,10 +177,11 @@
         ],
         "action": "active",
         "maintTime": "no",
-        "tags": [
+        "tags": [],
+        "flavor": [
+            "You create a blinding flash of light."
         ],
         "description": [
-            "You create a blinding flash of light.",
             "All entities in an area centered on a point of your choice must make a SR Check; a target gains a `+4` deed bonus to the Check if they are looking away or have their eyes covered -- closed eyes are not sufficient to count as cover.",
             "A target that fails the Resistance Check gains the Partially Blind state. The state lasts for a number of rounds equal to their Degree of Failure. If the target has 10 or more Degrees of Failure, they instead gain the Totally Blind state until they have less than 10 rounds remaining."
         ],
@@ -237,8 +237,10 @@
             "barrier",
             "imbued"
         ],
+        "flavor": [
+            "A barrier of light forms to protect you."
+        ],
         "description": [
-            "A barrier of light forms to protect you.",
             "You create a supernatural barrier with the listed Life Points. This barrier possess the Imbued trait. Attacks using the Darkness Damage Type deal twice as much damage to the barrier."
         ],
         "degree": {
@@ -287,8 +289,10 @@
         "action": "active",
         "maintTime": "turn",
         "tags": [],
+        "flavor": [
+            "Your eyes fill with a powerful light, that enhances all your senses."
+        ],
         "description": [
-            "Your eyes fill with a powerful light, that enhances all your senses.",
             "You gain a power bonus to Notice and Search Checks. This power bonus also applies to Magic Appraisal Checks make to sense and measure mana."
         ],
         "degree": {
@@ -336,8 +340,10 @@
         "action": "active",
         "maintTime": "turn",
         "tags": [],
+        "flavor": [
+            "Particles of light solidify into a protective suit of armor."
+        ],
         "description": [
-            "Particles of light solidify into a protective suit of armor. ",
             "You gain a natural AV against Force and Light Damage Types and half as much against the Physical and Elemental Damage Groups."
         ],
         "degree": {
@@ -390,9 +396,11 @@
         "action": "active",
         "maintTime": "turn",
         "tags": [],
+        "flavor": [
+            "The creatures of shadow are harmed by this spell."
+        ],
         "description": [
-            "The creatures of shadow are harmed by this spell.",
-            "All darkness elementals in an area centered on a point of your choice must make a SR Check.",
+            "All darkness elementals in a zone centered on a point of your choice must make a SR Check.",
             "A target that fails the Resistance Check takes 20 points of Force Damage per Degree of Failure. A target with the Rex Damage Role multiplies the damage by their Rex Multiplier."
         ],
         "degree": {
@@ -444,9 +452,11 @@
         "action": "active",
         "maintTime": "turn",
         "tags": [],
+        "flavor": [
+            "Using the light, you are able to sense the negative threads of energy around you."
+        ],
         "description": [
-            "Using the light, you are able to sense the negative threads of energy around you.",
-            "You detect the negative emotions of all entities within an area around you. This sense informs you of the type and intensity of negative emotion but not its location. You can also detect creatures composed of negative emotions, and sense their location.",
+            "You detect the negative emotions of all entities within a zone around you. This sense informs you of the type and intensity of negative emotion but not its location. You can also detect creatures composed of negative emotions, and sense their location.",
             "A target can resist the detection by making a SR Check."
         ],
         "degree": {
@@ -498,8 +508,10 @@
         "action": "active",
         "maintTime": "no",
         "tags": [],
+        "flavor": [
+            "A beam of intense light flies forth."
+        ],
         "description": [
-            "A beam of intense light flies forth.",
             "You make an Offensive Roll against an entity. On a hit, the target takes Light Damage with the listed Base Damage."
         ],
         "degree": {
@@ -549,8 +561,10 @@
         "tags": [
             "active figment illusion"
         ],
+        "flavor": [
+            "This spell creates the image of an entity."
+        ],
         "description": [
-            "This spell creates the image of an entity.",
             "You create a visual active figment that is no larger than the listed size. The illusion is composed of light; it cannot interact with any entity and it disappears when it is hit by an attack with the Imbued trait.",
             "A creature can determine the nature of the illusion by making an Almost Impossible (24) Notice Check or a Very Difficult (16) [@skill Search @] Check."
         ],
@@ -601,8 +615,10 @@
         "tags": [
             "trapping"
         ],
+        "flavor": [
+            "Chains of light latch onto a creature."
+        ],
         "description": [
-            "Chains of light latch onto a creature.",
             "You make an Trap maneuver against an entity. The Opposed Characteristic Check uses the listed Strength.",
             "The chains are material and have the Imbued trait and a Fortitude of 25 but can only be broken by an object with the Imbued trait."
         ],
@@ -656,33 +672,35 @@
         "tags": [
             "control"
         ],
+        "flavor": [
+            "This spell gives you control over the light around you."
+        ],
         "description": [
-            "This spell gives you control over the light around you.",
-            "You gain the following actions:",
+            "You create a zone around you. You gain the following actions:",
             {
-                "name":"Control Creature of Light",
-                "type":"entries",
-                "entries":[
+                "name": "Control Creature of Light",
+                "type": "entries",
+                "entries": [
                     "**Action**: 2 AP",
-                    "You can gain control over a light elemental. A target must make a SR Check. A target that succeeds is immune to the control from this spell for a number of rounds equal to their Degree of Success.",
+                    "You can gain control over a light elemental within the zone. A target must make a SR Check. A target that succeeds is immune to the control from this spell for a number of rounds equal to their Degree of Success.",
                     "Failure means the target falls under your control. This control is active, meaning you must spend AP to make the target perform actions.",
-                    "A target can repeat the Resistance Check on the End Phase after a number of rounds have passed equal to their Degree of Failure on the previous Check. If the target ever leaves the area or the spell ends, your control ends."
+                    "A target can repeat the Resistance Check on the End Phase after a number of rounds have passed equal to their Degree of Failure on the previous Check. If the target ever leaves the zone or the spell ends, your control ends."
                 ]
             },
             {
-                "name":"Modify Light",
-                "type":"entries",
-                "entries":[
+                "name": "Modify Light",
+                "type": "entries",
+                "entries": [
                     "**Action**: 1 AP",
-                    "You can change the shape, color, and intensity of a source of light. You cannot increase the intensity to more than twice its original value."
+                    "You can change the shape, color, and intensity of a source of light within the zone. You cannot increase the intensity to more than twice its original value."
                 ]
             },
             {
-                "name":"Redirect Light",
-                "type":"entries",
-                "entries":[
+                "name": "Redirect Light",
+                "type": "entries",
+                "entries": [
                     "**Reaction**: 0 AP",
-                    "You can take this reaction when an attack using Light Damage passes through the area suffers `D2` on the Offensive Roll."
+                    "You can take this reaction when an attack using Light Damage passes through the zone suffers `D2` on the Offensive Roll."
                 ]
             }
         ],
@@ -735,9 +753,11 @@
         "action": "active",
         "maintTime": "turn",
         "tags": [],
+        "flavor": [
+            "The light allows you to sense the life around you."
+        ],
         "description": [
-            "The light allows you to sense the life around you.",
-            "You detect the life of creatures within an area around you. This sense informs you of the location of creatures but not their strength.",
+            "You detect the life of creatures within a zone around you. This sense informs you of the location of creatures but not their strength.",
             "A target can resist the detection by making a SR Check."
         ],
         "degree": {
@@ -789,13 +809,15 @@
         "action": "active",
         "maintTime": "day",
         "tags": [],
+        "flavor": [
+            "An eye of light appears before you."
+        ],
         "description": [
-            "An eye of light appears before you.",
             "You must actively control the spy. The spy is material but only visible on the material plane. It is immune to damage that does not have the Imbued trait. The spy also have a Flight Value of 14; if it even flies farther than the listed distance it disappears. You gain the following actions:",
             {
-                "name":"See Through Spy",
-                "type":"entries",
-                "entries":[
+                "name": "See Through Spy",
+                "type": "entries",
+                "entries": [
                     "**Intention**: 0 AP",
                     "This intention allows you to project your sight through the spy. The spy has the listed Final Skill Value for the Notice and Search Skills."
                 ]
@@ -851,10 +873,12 @@
         "action": "active",
         "maintTime": "turn",
         "tags": [],
+        "flavor": [
+            "This spell imbues creatures with a feeling of ecstasy."
+        ],
         "description": [
-            "This spell imbues creatures with a feeling of ecstasy.",
-            "All entities in an area centered on a point of your choice must make a Defensive Roll against your Offensive Roll. On a hit, a target must make a SR Check; a target can choose to fail.",
-            "A target that fails the Resistance Check feels an overwhelmingly pleasurable sensation, causing a `-2` all-action penatly and they ignore the Pain state caused by exhaustion and Criticals."
+            "All entities in a zone centered on a point of your choice must make a Defensive Roll against your Offensive Roll. On a hit, a target must make a SR Check; a target can choose to fail.",
+            "A target that fails the Resistance Check feels an overwhelmingly pleasurable sensation, causing a `-2` all-action penalty and they ignore the Pain state caused by exhaustion and Criticals."
         ],
         "degree": {
             "base": {
@@ -905,9 +929,13 @@
         "action": "active",
         "maintTime": "no",
         "tags": [],
+        "flavor": [
+            "area effect"
+        ],
         "description": [
-            "All creatures within the listed area are targeted, including you. A target must succeed a SR or MR Check or suppress all negative emotions.",
-            "An affected target suppress the [@state Anger @] and [@state Rage @] state and reduces the [@state Fear @] state by one degree. This does not stop actions done in cold blood. This effect ends on the End Phase after a number of minutes have passed equal to their Degree of Failure. The target can make a new Resistance Check to end the effect early whenever they take damage, this cannot increase the original duration."
+            "All entities in an area centered on a point of your choice must make a Defensive Roll against your Offensive Roll. On a hit, a target must make a SR or MR Check; a target can choose to fail.",
+            "A target that fails the Resistance Check suppress the any negative emotional state, such as [@state Anger @] and [@state Rage @]. The exception to this is the [@state Fear @] state, which is reduced by one degree. This does not stop actions done in cold blood.",
+            "The effects of this spell last one minute per Degree of Failure. A target can repeat the Resistance Check when they take damage, this new Check does not change the number of minutes remaining. The effects of this spell do not require maintaince."
         ],
         "degree": {
             "base": {
@@ -961,7 +989,7 @@
             "healing"
         ],
         "description": [
-            "Choose a single creature to target. The target regains the listed number of Life Points. This spell does not restore lost or destroyed limbs, nor is it capable of removing the Pain state."
+            "An entity of your choice recovers Life Points. This spell cannot restore damaged limbs or eliminate Pain."
         ],
         "degree": {
             "base": {
@@ -999,7 +1027,7 @@
         }
     },
     {
-        "name": "Seeking Sphere",
+        "name": "Seeking Light",
         "type": "path",
         "level": 46,
         "power": [
@@ -1009,7 +1037,10 @@
         "maintTime": "turn",
         "tags": [],
         "description": [
-            "You unleash a sphere of light, which you can control using your [@skill Spell Projection @]. If the target dodges, the spell can continue attacking the following round, on your turn, since it has not been destroyed. When the spell hits or is blocked, the sphere vanishes. If you stop maintaining the spell, the sphere will act on its own with an [@skill Initiative @] Roll of 0 and will follow the last target. An abandoned sphere that makes an attack has the listed Final Offensive Roll."
+            "You make an Offensive Roll against an entity. On a hit, a target takes Light Damage with the listed Base Damage and disappears.",
+            "If the target dodges, the spell can make another Offensive Roll on your turn next round by taking the [@action Use an Active Power action @]. If the target blocks, the sphere disappears.",
+            "You can choose to stop controlling the sphere. It will then act on its own Final Initiative Roll of 0 and any Offensive Roll the sphere makes uses the listed Final Roll Value.",
+            "If you stop maintaining the spell, the sphere disappears."
         ],
         "degree": {
             "base": {
@@ -1061,8 +1092,9 @@
         "maintTime": "day",
         "tags": [],
         "description": [
-            "You create a stationary zone that lets you detect all creatures within it. You can choose the shape of the zone, but it must remain contiguous and has no internal gaps. The spell informs you the exact location of each creature in the zone. You also learn when another detection spell -- but not detection powers -- attempts to scan the an area within the zone.",
-            "A target must succeed a SR Check to resist detection. A caster of the Detection spell can resist by making the same SR Check. A target must repeat the Resistance Check on the End Phase after a number of rounds have passed equal to their Degree of Success. Once a target has been detected, they are known until it leaves the zone."
+            "You create a stationary zone that allows you to detect any living creature within the zone. This sense informs you of each creatures location.",
+            "A target can resist the detection by making a SR Check.",
+            "The spell also informs you of any other detection spell that overlaps with this one. The caster can make a SR Check to prevent this."
         ],
         "degree": {
             "base": {
@@ -1114,9 +1146,12 @@
         "maintTime": "day",
         "tags": [],
         "description": [
-            "You can physically enter the dream of a targeted sleeping creature. You have no control over the dream world and anything that happens there will be real for you. The target must have a peaceful dream to be affected by this spell and the moment the dream becomes a nightmare, you stop maintaining the spell, the ze wake up, or ze dies, you are returned to reality right next to the zir. Any Effect spell cast on the target will also affect you. The target must succeed a [@skill SR @] or [@skill MR @] Check to prevent you entering their dream. A target that passes the Resistance Check cannot be the target of your spell until they fall asleep again.",
-            "Once you are in the zir dream, you can jump to the dream of another creature within range of the target. The new target can make a [@skill SR @] or [@skill MR @] Check, passing means that you cannot jump to zir dream. ",
-            "If the target's dream is within the Veil, you are trapped there."
+            "You make an Offensive Roll against a dreaming entity. On a hit, a target must make a SR or MR Check.",
+            "A target that fails the Resistance Check has their dream invaded by you.",
+            "You physically enter the dream of a creature within the listed range. You have no control over the dream and anything that happens there will be real for you.",
+            "A target must have a peaceful dream to be affect by this spell. When you stop maintaining the spell or the target wakes up, dies, or has their dream become a nightmare you are returned to the material plane next to the target.",
+            "While you are in a dream, you can jump to the dream of another creature within the listed range of the target. The new target must make a SR or MR Check. If they succeed, you stay in your current dream.",
+            "Once a target succeeds the Resistance Check, they are immune to the spell until they wake up and fall asleep again. If you enter a dream that overlaps with the Veil, you do not return to the material plane when the spell ends."
         ],
         "degree": {
             "base": {
@@ -1168,7 +1203,7 @@
         "maintTime": "turn",
         "tags": [],
         "description": [
-            "Choose a single creature and all their possessions, to target. The target is transformed into pure light and gains the Immaterial and Imbued traits. They can choose to interact with material objects. The target also gains a power bonus to Resistance Checks against light-based powers. Lastly, the target doubles the Final Damage from any attack using the Darkness Damage Type."
+            "An entity of your choice transforms into pure light. The target gains the Immaterial and Imbued traits and can choose to interact with material entities at will. The target also gains a power bonus Notice and Search Checks and half that to Resistance Checks against light-based powers but doubles the Final Damage from any attack using the Darkness Damage Type."
         ],
         "degree": {
             "base": {
@@ -1194,7 +1229,7 @@
                 "int": 14,
                 "maint": 15,
                 "effect": [
-                    "As intermediate degree but the Resistance Check bonus applies to all Resistance Checks not against darkness"
+                    "As intermediate degree but the Resistance Check bonus applies to all Resistance Checks not against darkness-based powers"
                 ]
             },
             "arcane": {
@@ -1218,7 +1253,7 @@
         "maintTime": "turn",
         "tags": [],
         "description": [
-            "You create an aura of beneficial energies. All creatures of your choice within a radius around you gain Advantage on their Skill Checks and Resistance Checks. Once a creature leaves the area, they no longer benefit from the Advantage. A creature cannot benefit from more than one Blessing spell at one time."
+            "All entities that you choose in a zone centered on you gain Advantage on their Skill and Resistance Checks; a target cannot be affected by more than one Blessing spell."
         ],
         "degree": {
             "base": {
@@ -1270,8 +1305,9 @@
         "maintTime": "day",
         "tags": [],
         "description": [
-            "Choose a single creature to target and a positive feeling you want to create. The target must succeed a SR or MR Check or will gain that feeling.",
-            "The target can repeat the Resistance Check on the End Phase after a day has passed."
+            "All entities in a zone centered on a point of your choice must make a Defensive Roll against your Offensive Roll. On a hit, a target must make a SR or MR Check; a target can choose to fail.",
+            "A target that fails the Resistance Check is filled with positive feelings, such as love and friendship.",
+            "A target can repeat the Resistance Check after one day has passed or when they take damage."
         ],
         "degree": {
             "base": {
@@ -1279,7 +1315,8 @@
                 "int": 8,
                 "maint": 10,
                 "effect": [
-                    "[@skill SR @] or [@skill MR @] 12"
+                    "[@skill SR @] or [@skill MR @] 12",
+                    "60-foot radius"
                 ]
             },
             "intermediate": {
@@ -1287,7 +1324,8 @@
                 "int": 10,
                 "maint": 20,
                 "effect": [
-                    "[@skill SR @] or [@skill MR @] 16"
+                    "[@skill SR @] or [@skill MR @] 16",
+                    "300-foot radius"
                 ]
             },
             "advanced": {
@@ -1295,7 +1333,8 @@
                 "int": 14,
                 "maint": 25,
                 "effect": [
-                    "[@skill SR @] or [@skill MR @] 18"
+                    "[@skill SR @] or [@skill MR @] 18",
+                    "750-foot radius"
                 ]
             },
             "arcane": {
@@ -1303,7 +1342,8 @@
                 "int": 18,
                 "maint": 30,
                 "effect": [
-                    "[@skill SR @] or [@skill MR @] 22"
+                    "[@skill SR @] or [@skill MR @] 22",
+                    "1500-foot radius"
                 ]
             }
         }
@@ -1316,10 +1356,10 @@
             "automatic"
         ],
         "action": "active",
-        "maintTime": "turn",
+        "maintTime": "day",
         "tags": [],
         "description": [
-            "Choose a single creature to target. The target gains the ability to see beyond the material plane. This enhanced vision gains a power bonus to the Resistance Check of a phantasmal illusion."
+            "An entity of your choice gains the ability to see beyond the material plane. The target also gains a power bonus to Resistance Checks against phantasmal illusions."
         ],
         "degree": {
             "base": {
@@ -1336,7 +1376,7 @@
                 "int": 9,
                 "maint": 0,
                 "effect": [
-                    "As Base, but the target can see invisible beings"
+                    "As base, but the target can see invisible beings"
                 ]
             },
             "advanced": {
@@ -1344,7 +1384,7 @@
                 "int": 12,
                 "maint": 0,
                 "effect": [
-                    "As Intermediate, but `+5` against phantasms"
+                    "As intermediate, but `+5` against phantasms"
                 ]
             },
             "arcane": {
@@ -1352,7 +1392,7 @@
                 "int": 15,
                 "maint": 0,
                 "effect": [
-                    "As Advanced, but `+8` against phantasms"
+                    "As advanced, but `+8` against phantasms"
                 ]
             }
         }
@@ -1368,7 +1408,9 @@
         "maintTime": "day",
         "tags": [],
         "description": [
-            "You create a stationary zone that prevents dark creatures from entering. A darkness elemental or a creature composed of negative emotions that enter the zone must succeed a SR Check or take 10 Force Damage per Degree of Failure and gain the Pain (4) state. The Pain state lasts until they leave the zone. A target only makes the Resistance Check the first time they enter the zone each round or at the start of the Action Phase if they start in it."
+            "You create a stationary zone that harms darkness entities within it. A darkness elemental or entity composed of negative emotions must make a SR Check.",
+            "A target that fails the Resistance Check takes 10 points of Force Damage per Degree of Failure and gains the [@state Pain (4) @] state. The Pain state lasts until a target leaves the zone. A target with the Rex Damage Role multiplies the damage by their Rex Multiplier.",
+            "The Resistance Check is only made the first time a target enters the zone each round or if it starts the Action Phase in the zone. A target can only be subject to [@state Pain (4) @] once from any Shield from Negative spell"
         ],
         "degree": {
             "base": {
@@ -1420,8 +1462,9 @@
         "maintTime": "no",
         "tags": [],
         "description": [
-            "Choose a single person, place, or thing. You learn its exact location at the moment you cast the spell, reguardless of the distance. The target can be selected with a vague description or set of conditions.",
-            "The target must succeed a SR Check to prevent the detection. The spell will then try to find the next closest entity that matches the target or it will fail if it finds no other suitable match."
+            "Choose a single person, place, or thing that you wish to find. The target must make a SR Check.",
+            "You learn the exact location of a target that fails the Resistance Check. If the target succeeds, the spell will try to find the next closest entity that matches the target or it will fail if it is unable to find a suitable match.",
+            "The target can be selected with a vague description or set of conditions. As per the normal rules for spells, if the object is within an [@trait Imbued @] zone, the spell cannot find it."
         ],
         "degree": {
             "base": {
@@ -1469,7 +1512,8 @@
         "maintTime": "no",
         "tags": [],
         "description": [
-            "Choose a single creature to target. The target removes a number of degrees of [@state Pain @] that have been caused by either low Stamina, hunger, non-critical damage, or other powers. This spell only removes the Pain, it does not prevent it from returning."
+            "An entity of your choice removes a number of degrees of [@state Pain @] that have been caused by low Stamina, hunger, non-Critical Damage, or a power. ",
+            "This spell only removes the [@state Pain @], it does not prevent it from returning."
         ],
         "degree": {
             "base": {
@@ -1517,8 +1561,9 @@
         "maintTime": "turn",
         "tags": [],
         "description": [
-            "You create a hypnotic pattern of light. The display is a 20 intensity source of light. Any creature who looks at the display while within the listed distance must succeed a SR or MR Check or gain the Fascinated state. An affected target can repeat the Resistance Check on the End Phase after a number of rounds have passed equal to their Degree of Failure. The target also gains a new Resistance Check whenever they take damage -- in this case, the target gains a `+2` deed bonus to the Resistance Check.",
-            "Once a target has passed the SR or MR Check, they cannot be affected by the same cast of this spell."
+            "You create a stationary hypnotic pattern. All entities that looks at it while in the area of its effect must make a SR or MR Check; a target can choose to fail.",
+            "A target that fails the Resistance Check gains the Fascinated state. A target can repeat the Resistance Check on the End Phase after a number of rounds have passed equal to their Degree of Failure on the previous Check. A target can also repeat the Resistance Check when they take damage with a +2 deed bonus, this new Check does not change the number of minutes remaining.",
+            "Once a target has passed the Resistance Check, they cannot be affected until a new Hypnotic Pattern spell is cast."
         ],
         "degree": {
             "base": {
@@ -1572,7 +1617,7 @@
             "area attack"
         ],
         "description": [
-            "You throw this spell to create an explosion of light. This is an area attack with the Light Damage Type."
+            "All entities in an area centered on a point of your choice must make a Defensive Roll against your Offensive Roll. On a hit, a target takes Light Damage with the listed Base Damage."
         ],
         "degree": {
             "base": {
@@ -1626,7 +1671,7 @@
             "creation"
         ],
         "description": [
-            "You form a material object out of pure light. The object's Presence can be no greater than the listed value and then it gains the listed quality."
+            "You create an object whose Presence is no greater than the listed value. The object has the listed Quality."
         ],
         "degree": {
             "base": {
@@ -1682,7 +1727,9 @@
             "affected presence"
         ],
         "description": [
-            "Choose a number of creatures to target whose total Presence is no greater than the listed value. The targets are then transported from one source of light to another, up to the listed distance away. A target must succeed a SR Check if they want to resist the transport."
+            "Choose a number of entities whose total Presence is no greater than the listed value. A target must make a SR Check; a target can choose to fail.",
+            "All targets that fails the Resistance Check are transport from one source of light to another, up to the listed distance away.",
+            "This spell fails if there is no source of light near you at the time of casting or if there is no light source where you intend to end up."
         ],
         "degree": {
             "base": {
@@ -1741,8 +1788,8 @@
             "veil"
         ],
         "description": [
-            "You gain control over a dream you are in. You can modify the dream as if you were a Nornir 45 creature. All other Nornir benefits do not apply. If the dream becomes a nightmare, your control is reduced to that of a Nornir 30 creature.",
-            "The creature who owns the dream can make a SR Check to prevent your control. The target can repeat the Resistance Check on the End Phase after a number of rounds have passed equal to their Degree of Failure.",
+            "The entity whose dream you are in must make a SR Check; a target can choose to fail. On a failure, you gain control over the dream. You can modify the dream as if you were a Nornir 45 entity -- all other benefits of Nornir do not apply. If the dream becomes a nightmare, you instead have Nornir 30.",
+            "A target can repeat the Resistance Check on the End Phase after a number of hours have passed equal to their Degree of Failure on the previous Check.",
             "The spell ends when the target passes the SR Check or you leave the dream."
         ],
         "degree": {
@@ -1791,10 +1838,10 @@
         "action": "active",
         "maintTime": "day",
         "tags": [
-            "creature"
+            "monad"
         ],
         "description": [
-            "You create a creature composed of pure light. The creature's maximum level is listed and follows the rules for creatures created by powers. Additionally the following rules apply:",
+            "You create a monad creature. The creature's level can be no greater than the listed value and must follow the rules for monad creatures. The creature is created with the following rules:",
             {
                 "type": "list",
                 "items": [
@@ -1850,7 +1897,17 @@
             "barrier"
         ],
         "description": [
-            "You create a supernatural barrier with the listed Life Points. If you successfully defend against an attack power with this barrier, you can make a Power Collision using the listed Base Damage. If you are successful, as a Reaction you can spend 1 AP to send the attack back to its source. You make an Offensive Roll using your Spell Projection and gain a Counter bonus equal to half your Degree of Success on the Defensive Roll. The attack has the same Base Damage as the original attack, as well as any additional effects of the attack power."
+            "You create a supernatural barrier with the listed Life Points. You also gain the Reflect Power action.",
+            {
+                "name":"Reflect Power",
+                "type":"entries",
+                "entries":[
+                    "**Reaction**: 1 AP",
+                    "You can take this reaction when you obtain at least 1 Degree of Success on a Defensive Roll with a Reflecting Prism against an attack power. You can make a Power Collision using the listed Base Damage. On a failure, the attacking power dissipates into nothing.",
+                    "On a success, you can make an Offensive Roll using your Spell Projection and gain a Counter bonus equal to half your Degree of Success on the Defensive Roll. The attack has the same Base Damage, effects, and traits as the original attack.",
+                    "You can use this to reflect an area attack, but you only reflect the part that hits you."
+                ]
+            }
         ],
         "degree": {
             "base": {
@@ -1902,7 +1959,8 @@
         "maintTime": "turn",
         "tags": [],
         "description": [
-            "You can see and hear all actions and thoughts that occur within the area. Only creatures who have a Presence no greater than your and the listed value and has a Nornir no greater than yours are affected. No Resistance Check is possible."
+            "You can see and hear all actions and understand the thoughts of all entities in a zone centered on you and whose Presence is less than your and the listed value.",
+            "This spell is not a detection spell and no Resistance Check is possible."
         ],
         "degree": {
             "base": {
@@ -1954,7 +2012,8 @@
         "maintTime": "no",
         "tags": [],
         "description": [
-            "You foresee future events that will occur to a person, place, or thing. You see detailed information about the most probable outcome."
+            "You make an Offensive Roll against an person, place, or thing. On a hit, a target must make a SR Check; a target can choose to fail.",
+            "On a failure, you foresee the future events that will occur to the target. You see detailed information about the most probable outcome."
         ],
         "degree": {
             "base": {
@@ -2001,11 +2060,13 @@
             "effect"
         ],
         "action": "active",
-        "maintTime": "turn",
+        "maintTime": "day",
         "tags": [],
         "description": [
-            "You enclose a targeted creature in a separate universe composed of light, which takes the form of a glass bead. While the target is within this universe, they have no knowledge of what occurs outside the pocket universe and those outside have no knowledge of what occurs within. The target can make a [@skill SR @] Check to prevent being trapped. On a failure, there is no chance to repeat the Check.",
-            "To escape the spell, the target can attack the universe. The universe uses the Rex Damage Type and has an Absorption of 10 and a Regeneration of 19. From the outside, the glass bead can only be damaged by an [@trait Imbued (18) @] attack."
+            "You make an Offensive Roll against an entity. On a hit, a target must make a SR Check; a target can choose to fail.",
+            "A target that fails the Resistance Check is trapped in a pocket dimension which takes the form of a glass bead.",
+            "While the target is in the bead, they have no knowledge of what occurs outside. The effects of this spell do not allow for another Resistance Check. But the target can escape by attacking the world. The world uses the Rex Damage Role -- it has Absorption 10 and Regeneration 19 as well as the listed Life Points.",
+            "An entity outside the pocket dimension has no knowledge about what is within. An entity can attack the bead, which has the same characteristics as the world inside pocket dimension. The bead is immune to attacks that do not have the Imbued (18) trait. Like the target trapped within, an entity can attack the bead"
         ],
         "degree": {
             "base": {
@@ -2058,7 +2119,7 @@
         "maintTime": "no",
         "tags": [],
         "description": [
-            "You enter a state of meditation in which your body becomes one with the light. You leave this world and travel to the nexus to nourish yourself with the energies found there. While there, you are only aware of your own body, the passage of time is meaningless. Your Mana Recovery is multiplied by 10 and gain a physical and spiritual Regeneration Value of 16. While there is no maintenance cost, you can remain in the nexus for the listed time, you can try to leave early but there is a 50% chance it will take you the entire time."
+            "You enter a state of meditation in which your body becomes one with the light. You leave this world and travel to the Nexus to nourish yourself with the energies found there. While there, you are only aware of your own body; the passage of time is meaningless. Your Mana Recovery is multiplied by 10 and you gain a physical and spiritual Regeneration Value of 16. While there is no maintenance cost, you can remain in the nexus for the listed time, you can try to leave early but there is a 50% chance it will take you the entire time."
         ],
         "degree": {
             "base": {
@@ -2096,17 +2157,17 @@
         }
     },
     {
-        "name": "Ascension",
+        "name": "Pure Ascension",
         "type": "path",
         "level": 98,
         "power": [
             "automatic"
         ],
         "action": "active",
-        "maintTime": "turn",
+        "maintTime": "day",
         "tags": [],
         "description": [
-            "You target one creature to have their essence infused with divine energy. The target's Nornir becomes the listed value if it is greater and they can perform actions as if they had the Divine Spirit Talent."
+            "An entity of your choice gains the listed Nornir value and they gain the Divine feature."
         ],
         "degree": {
             "base": {
@@ -2144,7 +2205,7 @@
         }
     },
     {
-        "name": "Last Light",
+        "name": "Lumen Onslaught",
         "type": "path",
         "level": 100,
         "power": [
@@ -2159,7 +2220,9 @@
             "immaterial"
         ],
         "description": [
-            "You unleash the purest of light which consumes everything, spirit and material alike. The spell creates an area attack with the [@trait Flowing @] and [@trait Immaterial @] traits that does Light Damage. Any creature who receives any amount of damage must make a [@skill SR @] Check of 16 or join with the light, causing their body and spirit to be consumed. This spell cannot select targets, even if another power would allow you to; everyone in the area, but you, is equally affected."
+            "All entities in an area centered on a point of your choice must make a Defensive Roll against your Offensive Roll. This attack has the [@state Flowing @] and [@state Immaterial (20) @] traits. On a hit, a target takes Light Damage with the listed Base Damage. If a target takes any damage, they must make a SR Check; a target can choose to fail.",
+            "A target that fails the Resistance Check has its body and soul destroyed completely.",
+            "This spell cannot select targets, even if another power would allow you to; everyone in the area, but you, is equally affected."
         ],
         "degree": {
             "base": {
@@ -2168,7 +2231,7 @@
                 "maint": 0,
                 "effect": [
                     "Base Damage 35",
-                    "100-foot radius"
+                    "300-foot radius"
                 ]
             },
             "intermediate": {
@@ -2177,7 +2240,7 @@
                 "maint": 0,
                 "effect": [
                     "Base Damage 50",
-                    "50-mile radius"
+                    "100-mile radius"
                 ]
             },
             "advanced": {
@@ -2186,7 +2249,7 @@
                 "maint": 0,
                 "effect": [
                     "Base Damage 80",
-                    "5000-mile radius"
+                    "10,000-mile radius"
                 ]
             },
             "arcane": {

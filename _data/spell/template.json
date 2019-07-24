@@ -13,6 +13,7 @@
     "action": "active",
     "maintTime": "turn",
     "tags": [],
+    "flavor":[],
     "description": [
         "something"
     ],
