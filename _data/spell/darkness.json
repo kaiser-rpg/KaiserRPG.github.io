@@ -525,7 +525,7 @@
         "maintTime": "turn",
         "tags": [],
         "description": [
-            "All entities in a zone centered on a point of your choice increase the difficulty of any Detect Spirit or sight based Difficulty Skill Check by two degrees. Perception Checks suffer a -4 deed penalty. Detection powers affecting a creature within the area reduce the Resistance Check by 4."
+            "You create a stationary zone centered on a point of your choice. All entities within the zone increase the difficulty of any Detect Spirit or sight based Difficulty Skill check by two degrees. Perception Checks suffer a -4 deed penalty. Detection powers affecting an entity within the zone reduce the Resistance Check by 4."
         ],
         "degree": {
             "base": {
@@ -803,7 +803,7 @@
         "tags": [],
         "flavor": [],
         "description": [
-            "All entities in a zone centered on a point of your choice must make a Defensive Roll against your Offensive Roll. On a hit, a target must make a SR Check; a target can choose to fail.",
+            "All entities in an area centered on a point of your choice must make a Defensive Roll against your Offensive Roll. On a hit, a target must make a SR Check; a target can choose to fail.",
             "A target that fails the Resistance Check gains a +1 deed bonus to Offensive Rolls but suffers a -3 deed penalty to all other Skill Checks."
         ],
         "degree": {
@@ -914,7 +914,7 @@
         "tags": [],
         "flavor": [],
         "description": [
-            "You create a stationary zone of natural darkness centered on a point of your choice. All entities, except you, looking through the darkness apply the Totally Blind state unless they make an Inhuman (32) Notice Check or Almost Impossible (24) Search Check, in which case a target applies the Partially Blind state until the End Phase.",
+            "You create a stationary zone centered on a point of your choice. The zone is filled with natural darkness. All entities, except you, looking through the darkness apply the Totally Blind state unless they make an Inhuman (32) Notice Check or Almost Impossible (24) Search Check, in which case a target applies the Partially Blind state until the End Phase.",
             "You are not affected"
         ],
         "degree": {
@@ -1010,7 +1010,7 @@
     {
         "name": "Zone of Concealment",
         "type": "path",
-        "level": 0,
+        "level": 48,
         "power": [
             "automatic"
         ],
@@ -1019,7 +1019,7 @@
         "tags": [],
         "flavor": [],
         "description": [
-            "You create a stationary zone that impedes the detection of entities within. Any entity within the zone gains a deed bonus to Resistance Checks against detection powers. Any entity within the zone that makes a Detect Spirit or Magic Appraisal Check to locate magic suffer a deed penalty."
+            "You create a stationary zone centered on a point of your choice. Any entity within the zone gains a deed bonus to Resistance Checks against detection powers. Any Skill Check make with Detect Spirit or Magic Appraisal Check to locate magic suffers a deed penalty."
         ],
         "degree": {
             "base": {
@@ -1184,7 +1184,7 @@
         "tags": [],
         "flavor": [],
         "description": [
-            "All entities in a zone centered on you must make a SR Check; a target can choose to fail",
+            "You create a zone centered on you. All entities within the zone must make a SR Check; a target can choose to fail",
             "A target that fails the Resistance Check suffers Disadvantage on their Skill and Resistance Checks; a target cannot be affected by more than one Bane spell."
         ],
         "degree": {
@@ -1231,7 +1231,7 @@
         }
     },
     {
-        "name": "Create Positive Feeling",
+        "name": "Create Negative Feeling",
         "type": "path",
         "level": 58,
         "power": [
@@ -1241,7 +1241,7 @@
         "maintTime": "day",
         "tags": [],
         "description": [
-            "All entities in a zone centered on a point of your choice must make a Defensive Roll against your Offensive Roll. On a hit, a target must make a SR or MR Check; a target can choose to fail.",
+            "You create a stationary zone centered on a point of your choice. All entities within the zone must make a SR Check; a target can choose to fail.",
             "A target that fails the Resistance Check is filled with negative feelings, such as hatred and fear. This does not apply any state by itself, but a target making a Resistance Check to prevent a Fear state suffers `D1`.",
             "A target can repeat the Resistance Check after one day has passed."
         ],
@@ -1287,7 +1287,7 @@
     {
         "name": "Erase Traces",
         "type": "path",
-        "level": 0,
+        "level": 60,
         "power": [
             "automatic"
         ],
@@ -1346,9 +1346,9 @@
         "maintTime": "day",
         "tags": [],
         "description": [
-            "You create a stationary zone that harms light entities within it. A light elemental or entity composed of positive emotions must make a SR Check.",
-            "A target that fails the Resistance Check takes 10 points of Force Damage per Degree of Failure and gains the [@state Pain (4) @] state. The Pain state lasts until a target leaves the zone. A target with the Rex Damage Role multiplies the damage by their Rex Multiplier.",
-            "The Resistance Check is only made the first time a target enters the zone each round or if it starts the Action Phase in the zone. A target can only be subject to [@state Pain (4) @] once from any Shield from Negative spell"
+            "You create a stationary zone centered on a point of your choice. All light elementals and entities composed of positive emotions within the zone must make a SR Check.",
+            "A target that fails the Resistance Check takes 10 points of Atomic Damage per Degree of Failure and gains the [@state Pain (4) @] state. The Pain state lasts until a target leaves the zone. A target with the Rex Damage Role multiplies the damage by their Rex Multiplier.",
+            "The Resistance Check is only made the first time a target enters the zone each round or if it starts the Action Phase in the zone. A target can only be subject to [@state Pain (4) @] once from any Shield from Positive Emotions spell"
         ],
         "degree": {
             "base": {
@@ -1899,7 +1899,7 @@
         "tags": [],
         "flavor": [],
         "description": [
-            "You create a stationary zone of natural darkness centered on you. While you are in the zone, you gain a +4 deed bonus to Resistance Checks against detection powers and any attempt to locate you requires an Inhuman (32) Notice Check, Inhuman (32) Detect Spirit Check, or Impossible (28) Search Check. If you perform the Accumulate For A Prepared Spell for a Darkness spell, you gain a +20 power bonus to your Mana Accumulation.",
+            "You create a stationary zone centered on a point of your choice. The zone is filled with natural darkness. While you are in the zone, you gain a +4 deed bonus to Resistance Checks against detection powers and any attempt to locate you requires an Inhuman (32) Notice Check, Inhuman (32) Detect Spirit Check, or Impossible (28) Search Check. If you perform the Accumulate For A Prepared Spell for a Darkness spell, you gain a +20 power bonus to your Mana Accumulation.",
             "All entities, other than you, in the zone lose 10 mana and 1 ki each turn on the End Phase. Light elementals lose twice as much.",
             "You can also use 5 feet of distance to step into the darkness and reappear anywhere else in the zone."
         ],

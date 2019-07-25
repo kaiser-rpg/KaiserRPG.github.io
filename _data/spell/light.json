@@ -400,7 +400,7 @@
             "The creatures of shadow are harmed by this spell."
         ],
         "description": [
-            "All darkness elementals in a zone centered on a point of your choice must make a SR Check.",
+            "You create a stationary zone centered on a point of your choice. All darkness elementals or creatures composed of negative emotions within the zone must make a SR Check",
             "A target that fails the Resistance Check takes 20 points of Force Damage per Degree of Failure. A target with the Rex Damage Role multiplies the damage by their Rex Multiplier."
         ],
         "degree": {
@@ -456,7 +456,7 @@
             "Using the light, you are able to sense the negative threads of energy around you."
         ],
         "description": [
-            "You detect the negative emotions of all entities within a zone around you. This sense informs you of the type and intensity of negative emotion but not its location. You can also detect creatures composed of negative emotions, and sense their location.",
+            "You create a stationary zone centered on you. You detect the negative emotions of all entities within the zone. This sense informs you of the type and intensity of negative emotion but not its location. You can also detect creatures composed of negative emotions, and sense their location.",
             "A target can resist the detection by making a SR Check."
         ],
         "degree": {
@@ -676,7 +676,7 @@
             "This spell gives you control over the light around you."
         ],
         "description": [
-            "You create a zone around you. You gain the following actions:",
+            "You create a zone centered on you. You gain the following actions:",
             {
                 "name": "Control Creature of Light",
                 "type": "entries",
@@ -757,7 +757,7 @@
             "The light allows you to sense the life around you."
         ],
         "description": [
-            "You detect the life of creatures within a zone around you. This sense informs you of the location of creatures but not their strength.",
+            "You create a zone centered on you. You detect the life of creatures within the zone. This sense informs you of the location of creatures but not their strength.",
             "A target can resist the detection by making a SR Check."
         ],
         "degree": {
@@ -868,7 +868,8 @@
         "type": "path",
         "level": 38,
         "power": [
-            "effect"
+            "effect",
+            "automatic"
         ],
         "action": "active",
         "maintTime": "turn",
@@ -877,7 +878,7 @@
             "This spell imbues creatures with a feeling of ecstasy."
         ],
         "description": [
-            "All entities in a zone centered on a point of your choice must make a Defensive Roll against your Offensive Roll. On a hit, a target must make a SR Check; a target can choose to fail.",
+            "You create a stationary zone centered on a point of your choice. All entities within the zone must make a SR Check; a target can choose to fail.",
             "A target that fails the Resistance Check feels an overwhelmingly pleasurable sensation, causing a `-2` all-action penalty and they ignore the Pain state caused by exhaustion and Criticals."
         ],
         "degree": {
@@ -1092,7 +1093,7 @@
         "maintTime": "day",
         "tags": [],
         "description": [
-            "You create a stationary zone that allows you to detect any living creature within the zone. This sense informs you of each creatures location.",
+            "You create a stationary zone centered on a point of your choice. You detect any living creature within the zone. This sense informs you of each creatures location.",
             "A target can resist the detection by making a SR Check.",
             "The spell also informs you of any other detection spell that overlaps with this one. The caster can make a SR Check to prevent this."
         ],
@@ -1253,7 +1254,7 @@
         "maintTime": "turn",
         "tags": [],
         "description": [
-            "All entities that you choose in a zone centered on you gain Advantage on their Skill and Resistance Checks; a target cannot be affected by more than one Blessing spell."
+            "You create a zone centered on you. All entities of your choice within the zone gain Advantage on their Skill and Resistance Checks. A target cannot be affected by more than one Blessing spell."
         ],
         "degree": {
             "base": {
@@ -1299,13 +1300,13 @@
         "type": "path",
         "level": 58,
         "power": [
-            "effect"
+            "trigger"
         ],
         "action": "active",
         "maintTime": "day",
         "tags": [],
         "description": [
-            "All entities in a zone centered on a point of your choice must make a Defensive Roll against your Offensive Roll. On a hit, a target must make a SR or MR Check; a target can choose to fail.",
+            "You create a stationary zone centered on a point of your choice. All entities within the zone must make a SR Check; a target can choose to fail.",
             "A target that fails the Resistance Check is filled with positive feelings, such as love and friendship.",
             "A target can repeat the Resistance Check after one day has passed or when they take damage."
         ],
@@ -1408,8 +1409,8 @@
         "maintTime": "day",
         "tags": [],
         "description": [
-            "You create a stationary zone that harms darkness entities within it. A darkness elemental or entity composed of negative emotions must make a SR Check.",
-            "A target that fails the Resistance Check takes 10 points of Force Damage per Degree of Failure and gains the [@state Pain (4) @] state. The Pain state lasts until a target leaves the zone. A target with the Rex Damage Role multiplies the damage by their Rex Multiplier.",
+            "You create a stationary zone centered on a point of your choice. All darkness elementals and entities composed of negative emotions within the zone must make a SR Check.",
+            "A target that fails the Resistance Check takes 10 points of Atomic Damage per Degree of Failure and gains the [@state Pain (4) @] state. The Pain state lasts until a target leaves the zone. A target with the Rex Damage Role multiplies the damage by their Rex Multiplier.",
             "The Resistance Check is only made the first time a target enters the zone each round or if it starts the Action Phase in the zone. A target can only be subject to [@state Pain (4) @] once from any Shield from Negative spell"
         ],
         "degree": {
@@ -1959,7 +1960,7 @@
         "maintTime": "turn",
         "tags": [],
         "description": [
-            "You can see and hear all actions and understand the thoughts of all entities in a zone centered on you and whose Presence is less than your and the listed value.",
+            "You create a zone centered on you. You can see and hear all actions and understand the thoughts of all entities in the zone whose Presence is less than your and the listed value.",
             "This spell is not a detection spell and no Resistance Check is possible."
         ],
         "degree": {

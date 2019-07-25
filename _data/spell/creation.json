@@ -671,7 +671,7 @@
         "maintTime": "day",
         "tags": [],
         "description": [
-            "Choose a single entity to target and one elemental intensity. The target gains the listed intensity immunity to the choosen elemental."
+            "An entity of your choice gains immunity to intensities of either Heat, Cold, or Electricity."
         ],
         "degree": {
             "base": {
@@ -719,7 +719,7 @@
         "maintTime": "no",
         "tags": [],
         "description": [
-            "You can cast this spell when an attack is declared but before any dice are rolled. You reduce the Base Damage of the triggering attack."
+            "You can cast this spell when an attack is declared but before any dice are rolled. The triggering attack suffers a deed penalty to its Base Damage."
         ],
         "degree": {
             "base": {
@@ -769,7 +769,9 @@
             "physical control"
         ],
         "description": [
-            "You gain physical control over a creature. Choose a single creature to target. The target must succeed a SR Check or have its physical actions controlled by you. The target can repeat the Resistance Check on the End Phase after a number of hours have passed equal to their Degree of Failure."
+            "You make an Offensive Roll against an entity. On a hit, a target must make a SR Check; a target can choose to fail.",
+            "A target that fails the Resistance Check has their body controlled by you. This control is active and physical.",
+            "A target can repeat the Resistance Check on the End Phase after a number of hours have passed equal to their Degree of Failure on the previous Check."
         ],
         "degree": {
             "base": {
@@ -817,7 +819,7 @@
         "maintTime": "turn",
         "tags": [],
         "description": [
-            "Choose a single entity to target. The target gains the listed number of points that they can distribute to any trained Secondary Skill as a power bonus."
+            "An entity of your choice gains a number of points they can distribute to any trained Secondary Skill as a power bonus."
         ],
         "degree": {
             "base": {
@@ -859,19 +861,20 @@
         "type": "path",
         "level": 42,
         "power": [
-            "effect"
+            "automatic"
         ],
         "action": "active",
         "maintTime": "turn",
         "tags": [],
         "description": [
-            "Choose two entities to target whose total Presence is no greater than the listed Presence and who are within 5 feet of each other. The targets must succeed a SR Check or be fused into a single new entity. A creature can willingly accept the effects of this spell.",
+            "Two entities of your choice within 10-feet of each other and whose total Presence is no greater than the listed value must make a SR Check; a target can choose to fail.",
+            "If both targets fails the Resistance Check, they are fused into a single new entity. The nature of the entities fused determines the final form. Below are three common cases of fusion.",
             {
                 "name": "Case: two creatures",
                 "type": "entries",
                 "entries": [
-                    "This new creature possess the abilities and features of both targets. You can designate which Base Values, innate bonuses, natural bonuses, and other abilities come from which target. For example, if you fuse a martial artist and a manifester, you can give the new creature the physical Characteristics of the martial artitist and the mental Characteristics of the mentalist. The new creature can fight unarmed and use phenom with ease.",
-                    "Control of the resulting creature is determined by an Opposed Willpower Check between the targets. The Opposed Willpower Check can be repeated on the End Phase after a number of hours have passed equal to the Degree of Difference. If the DoD is less than 10, then the personality of the loser will influence the actions of the new creature."
+                    "This new creature possess the abilities and features of both targets. You can designate which Base Values, innate bonuses, natural bonuses, and other abilities come from which target. For example, if you fuse a martial artist and a manifester, you can give the new creature the physical Characteristics of the martial artitist and the mental Characteristics of the manifester. The new creature can fight unarmed and use phenom with ease.",
+                    "Control of the resulting creature is determined by an Opposed Willpower Check between the targets. The Opposed Willpower Check can be repeated on the End Phase after a number of hours have passed equal to the Degree of Difference. If the DoD is less than 10, then the personality of the loser will still influence the actions of the new creature."
                 ]
             },
             {
@@ -940,8 +943,9 @@
         "maintTime": "no",
         "tags": [],
         "description": [
-            "You can implant memories into a creature. Choose a single creature to target. The target must succeed a SR or MR Check or you creature memories that they accept as real. The memories to plant must be determined before the Resistance Check is made. The target can repeat the Resistance Check whenever they are given a reason to doubt the planted memories.",
-            "Memories that are go against the nature of the creature have their Resistance Check difficulty reduced by 6 points."
+            "You make an Offensive Roll against an entity. On a hit, a target must make a SR or MR Check; a target can choose to fail.",
+            "A target that fails the Resistance Check has new memories implanted. A target can repeat the Resistance Check whenever they are given a reason to doubt the planted memories. The effects of this spell do not require maintaince.",
+            "You must decide what the memories are before making your Offensive Roll. If the new memory is against the nature of the target, the Resistance Check is reduced by 6 points. For example, a peaceful merchant given a memory of murdering a rival."
         ],
         "degree": {
             "base": {
@@ -989,7 +993,7 @@
         "maintTime": "no",
         "tags": [],
         "description": [
-            "Choose a single creature to target. The target regains the listed number of Life Points. This spell removes all degrees of Pain caused by natural means."
+            "An entity of your choice recovers Life Points. You also remove Pain that is caused by natural means, such as hunger or exhaustion. This spell cannot restore damaged limbs."
         ],
         "degree": {
             "base": {
@@ -1027,7 +1031,7 @@
         }
     },
     {
-        "name": "Aquire Power",
+        "name": "Acquire Power",
         "type": "path",
         "level": 50,
         "power": [
@@ -1037,7 +1041,7 @@
         "maintTime": "turn",
         "tags": [],
         "description": [
-            "Choose a single entity to target. The target can temporarily gain creature features whose total XP cost is no greater than the listed amount. The target can buy features as a Nornir 25 creature and their phsyical shape will change as approriat. For example, if the target gains a natural Flight Value, they would sprout wings."
+            "An entity of your choice gains creature features whose total XP cost is no greater than the listed amount. The features can be purchased as a Nornir 25 creature. The physical form of the target will change as appropriate. For example, if the target gains a Natural Flight Value, they would sprout wings."
         ],
         "degree": {
             "base": {
@@ -1087,12 +1091,11 @@
             "power creature"
         ],
         "description": [
-            "You create a creature out of thin air. The creature's maximum level is listed and follows the rules for creatures created by powers. Additionally, the following rules apply:",
+            "You create a monad creature. The creature's level can be no greater than the listed value and must follow the rules for monad creatures. The creature is created with the following rules:",
             {
                 "type": "list",
                 "items": [
-                    "The creature is a monad with Nornir 20.",
-                    "The creature can never be given a soul."
+                    "The creature is a monad with Nornir 20."
                 ]
             }
         ],
@@ -1142,7 +1145,7 @@
         "maintTime": "turn",
         "tags": [],
         "description": [
-            "All entities you choose within the area gain a power bonus to all PhR, IR, SR, and MR Checks. You must be aware of an entity to grant the bonus."
+            "You create a zone centered on you. All entities of your choice within the zone gain a power bonus to PhR, IR, SR, and MR Checks. You must be aware of an entity to target it."
         ],
         "degree": {
             "base": {
@@ -1194,8 +1197,9 @@
         "maintTime": "turn",
         "tags": [],
         "description": [
-            "Choose a single entity to target. The target must succeed a SR Check or become spiritually immutable. The target can repeat the Resistance Check on the End Phase after a number of rounds have passed equal to their Degree of Failure.",
-            "Any mental state affecting the target at the time of casting will not change. The target ignores any further mental state changes. The nature of the target cannot be changed either."
+            "You make an Offensive Roll against an entity. On a hit, a target must make a SR Check; a target can choose to fail.",
+            "A target that fails the Resistance Check becomes spiritually immutable. They cannot gain any kind of mental state nor can they lose any they currently have. The duration of any mental state is suspended until this spell ends. The target's nature also cannot change.",
+            "A target cannot repeat the Resistance Check. The spell only ends when you stop maintaining it."
         ],
         "degree": {
             "base": {
@@ -1292,8 +1296,8 @@
         "maintTime": "day",
         "tags": [],
         "description": [
-            "Choose a single entity to target. The target gains a power bonus to their maximum Life Points. When the spell ends, the targets current and maximum amount are reduced by the amount gained.",
-            "A target with the Rex Damage Role mutliplies the bonus by their Rex Multiplier."
+            "An entity of your choice gains a power bonus to their maximum Life Points and they regain the same number Life Points. When the spell ends, the target's current and maximum Life Points are reduced by the amount gained.",
+            "A target with the Rex Damage Role multiplies the bonus by their Rex Multiplier."
         ],
         "degree": {
             "base": {
@@ -1341,7 +1345,7 @@
         "maintTime": "day",
         "tags": [],
         "description": [
-            "You create object whose total Presence is no greater than the listed Presence or twice your Presence. The object must appear in a location that is logical for it, according to its nature. For example, you could not create a boulder in mid air, but a cloud could appear in the sky."
+            "You create an object whose total Presence is no greater than the listed value or twice your Presence. The object must appear in a location that is logical for it, according to its nature. For example, you could not create a boulder in mid air, but a cloud could appear in the sky."
         ],
         "degree": {
             "base": {
@@ -1395,11 +1399,11 @@
                 "items": [
                     "Any SR Check increases the difficulty by 2",
                     "Any Base Damage is increased by 50%",
-                    "Supernatural barrier's increase Life Points by 50%",
+                    "Supernatural barrier's gain 50% more Life Points",
                     "All other numbers increase by 20%, round down, except for Nornir."
                 ]
             },
-            "You must pay the maintaince of the triggering spell and this spell. If either spell ends, they both end."
+            "You must maintain the triggering spell and this spell. If either spell ends, they both end."
         ],
         "degree": {
             "base": {
@@ -1447,7 +1451,9 @@
         "maintTime": "turn",
         "tags": [],
         "description": [
-            "Choose a single non-living object whose total Presence is no greater than the listed Presence. You convert the object into a completely different one with a similar Presence. If the target is supernatural, it can make a SR Check to resist the change."
+            "You make an Offensive Roll against an object. On a hit, a target must make a SR Check.",
+            "A target that fails the Resistance Check is transmuted into a different object with a similar Presence.",
+            "If the target object is mundane, no SR Check is required."
         ],
         "degree": {
             "base": {
@@ -1493,14 +1499,15 @@
         "type": "path",
         "level": 72,
         "power": [
-            "automatic"
+            "effect"
         ],
         "action": "active",
         "maintTime": "day",
         "tags": [],
         "description": [
-            "Choose a single entity to target and a new form for the entity to take. The target must succeed a SR Check or be transformed into the new form. The new forms Presence can be no greater than the target's Presence.",
-            "If the new form is a creature, the Game Master can grant certain features of a natural creature of Nornir 0. If the new form is an object, a creature remains alive."
+            "You make an Offensive Roll against an entity. On a hit, a target must make a SR Check; a target can choose to fail.",
+            "A target that fails the Resistance Check is transformed into a new entity whose Presence is no greater than the target's original value. A target can repeat the Resistance Check after one day has passed.",
+            "If the new form is a creature, the Game Master can grant certain creature features of a natural creature with Nornir 0. If the new form is an object, the target remains alive. An object turned into a creature will its nature determined by the Game Master."
         ],
         "degree": {
             "base": {
@@ -1548,9 +1555,8 @@
         "maintTime": "no",
         "tags": [],
         "description": [
-            "Choose a number of entities whose total Presence is no greater than the listed Presence. You restore any damage or loss that target has, creatures regain all Life Points and objects are made whole. You can choose what to recreate, for example you could fix a missing arm but leave a broken leg. This spell also eliminates any lingering physical or spiritual effects.",
-            "This spell does have some limitations. First it cannot restore a spirit to its body or recreate a lost body. Second, this spell only recreates something to its natural state. This cannot recreate something that never existed or something caused by aging.",
-            "If the entity was damaged by a creature whose Nornir is 15 points higher than yours, the spell has no effect on the target."
+            "An entity of your choice whose total Presence is no greater than the listed value restores any Life Points that the they have lost and any lost body part is regenerated. You can choose to only restore or regenerate some of the target.",
+            "This spell has three limitations. It is unable to return a spirit to its body. So a creature that has died cannot be revived with this spell. The spell can only return a target to a natural state. So it cannot create an eye or an arm where no existed and cannot restore damage caused by aging. If the entity was damaged by a creature whose Nornir is 15 points higher than yours, the spell is has no effect on the target."
         ],
         "degree": {
             "base": {
@@ -1598,11 +1604,11 @@
         "maintTime": "day",
         "tags": [],
         "description": [
-            "You create a creature out of thin air. The creature's maximum level is listed and follows the rules for creatures created by powers. Additionally, the following rules apply:",
+            "You create a monad creature. The creature's level can be no greater than the listed value and must follow the rules for monad creatures. The creature is created with the following rules:",
             {
                 "type": "list",
                 "items": [
-                    "The creature is a monad with Nornir 20."
+                    "The creature is a monad with Nornir 25."
                 ]
             }
         ],
@@ -1652,7 +1658,8 @@
         "maintTime": "no",
         "tags": [],
         "description": [
-            "Choose a single natural type creature to target. The target ceases being a natural being and becomes a Beyond the Veil creature with a Nornir of 25. Your level increases by the listed amount and you can choose a number of negative features granting you additional XP. All features gained as a result of this spell are dependant on the target's body. If the target ever loses their body, either by their spirit migrating or resurrection, all the effects of the spell end."
+            "A natural creature of your choice becomes a Beyond the Veil creature with a Nornir 25. The target's level increases and they can gain negative creature features to gain additional XP.",
+            "All creature features gained as a result of this spell are tied to the target's body. If the target ever loses their body, all effects of the spell disappear."
         ],
         "degree": {
             "base": {
@@ -1704,9 +1711,9 @@
         "maintTime": "day",
         "tags": [],
         "description": [
-            "You create an area where no entity can be harmed in any way by another entity. For example, a creature within the zone could not break down a door or step on a spider. Similarly, a projectile fired into the area would be unable to harm a creature inside the area. The exception to this is a creature can continue to cook and consume food that is already harvested or prepared.",
-            "Any target can try to overcome the affect by making a SR Check. On a success, the target can act normally. The Resistance Check can be repeated on the End Phase after one day has passed. Even if the target leaves the area and reenters, the effect will persist. Additionally, the target can make a new Resistance Check whenever they take damage -- in this case the target also gains a `+2` deed bonus to the Resistance Check.",
-            "This spell cannot select targets, even if another power would allow you to; everyone in the area is equally affected."
+            "You create a stationary zone centered on a point of your choice. All entities within the zone must make a SR Check; a target can choose to fail.",
+            "A target that fails the Resistance Check is completely unable to harm any entity also within the zone. For example, an affected target could not break down a door or step on a spider within the zone. Similarly, a projectile fired into the zone would be unable to harm anything unless it succeed the Resistance Check. The exception to this is a creature can continue to cook and consume food that is already harvested or prepared.",
+            "A target can repeat the Resistance Check after one day has passed. The effect does not end if an entity leaves the zone, but remember that the spell only prevent harm to other entities within the zone. A target can also repeat the Resistance Check when they take damage within the zone."
         ],
         "degree": {
             "base": {
@@ -1758,8 +1765,8 @@
         "maintTime": "no",
         "tags": [],
         "description": [
-            "Choose a single spell that you or a another creature are maintaining. The target spell gains a special Mana Pool that it will pull from to maintain itself.",
-            "You can cast this spell multiple times per spell, giving it even more mana."
+            "A spell that you or another entity are maintaining gains a special Mana Pool that it can pull from to maintain itself. A spell that requires maintaince each round still requires you to take the Maintain Spell action.",
+            "You can cast this spell multiple times on a single spell. This gives it even more mana."
         ],
         "degree": {
             "base": {
@@ -1801,18 +1808,13 @@
         "type": "path",
         "level": 88,
         "power": [
-            "attack",
-            "defense",
-            "effect",
-            "automatic",
-            "trigger",
-            "detection"
+            "automatic"
         ],
         "action": "active",
         "maintTime": "no",
         "tags": [],
         "description": [
-            "You create a soul. You can place that soul within an entity whose Presence is no greater than the listed Presence. When a creature created from a power, such as Create Being, gains a soul, it severs all ties with their caster. The creature is no longer controlled by its caster and does not need to be maintained any more.",
+            "You create a soul. You can place that soul within an entity whose Presence is no greater than the listed Presence. When a creature created from a power, such as Create Being, gains a soul, it severs all ties with its caster. The creature is no longer controlled by its caster and does not need to be maintained any more.",
             "Not all souls created by this spell are capable of entering a body. Each soul created has a one percent chance to be rejected or is automatically rejected if the body possess too much Presence. In this case, the soul lingers one minute before moving onto the Veil."
         ],
         "degree": {
@@ -1861,7 +1863,7 @@
         "maintTime": "day",
         "tags": [],
         "description": [
-            "You gain a pool of Presence Points that you can use to create objects as an Active Action. Any object you create cannot have a Presence greater than the listed maximum Presence. Once the pool of Presence Points is used up, you cannot create anything else."
+            "You gain a pool of Presence Points that you can use to create objects as an Active Action. Any object you create cannot have a Presence greater than the listed value. Once the pool of Presence Points is used up, you cannot create anything else."
         ],
         "degree": {
             "base": {
@@ -1913,7 +1915,7 @@
         "maintTime": "no",
         "tags": [],
         "description": [
-            "Choose a single spell that you or a another creature are maintaining. If the targeted spell has a daily maintenance, it no longer requires any maintenance. If the spell has a per turn maintenance, it instead becomes daily."
+            "A spell of Level 80 or less that you or another entity are maintaining requires less maintaince. A spell with daily maintaince becomes permanent. A spell with turn maintaince becomes a daily spell."
         ],
         "degree": {
             "base": {
@@ -1937,7 +1939,8 @@
                 "int": 18,
                 "maint": 0,
                 "effect": [
-                    "Advanced Degree spells"
+                    "Advanced Degree spells",
+                    "You can affect High spells."
                 ]
             },
             "arcane": {
@@ -1945,7 +1948,8 @@
                 "int": 22,
                 "maint": 0,
                 "effect": [
-                    "Arcane Degree spells"
+                    "Arcane Degree spells",
+                    "You can affect Divine spells."
                 ]
             }
         }
@@ -1962,8 +1966,8 @@
         "tags": [],
         "description": [
             "You create a breach in reality that is capable of separating the world into two parts. This separation cannot be perceived naturally, all visual planes are unable to sense the change. The wall itself can be made to have any appearance, from being invisible to being a large stone wall. Any attempt to see through the wall fails, no matter what power is used.",
-            "Any attempt to move through the wall causes the creature to reappear at another point on the wall. This transport is not automatic, instead it occurs little by little as reality changes to steer you away. This failed navigation can be detected with a Zen (44) Notice Check.",
-            "You can choose to lease passages, either two or one way and can require certain conditions to be meet. Alternatively, a Nornir 25 creature who is aware of the separated worlds and is navigating can make an SR Check to get through. A success also allows the creature to lead others through if they travel as a group. A creature who has failed can repeat the Resistance Check after a day has passed. A creature that has passed loses the ability to travel through the wall once they leave its border.",
+            "Any attempt to move through the wall causes the entity to reappear at another point on the wall. This transport is not automatic, instead it occurs little by little as reality changes to steer you away. This failed navigation can be detected with a Zen (44) Notice Check.",
+            "You can choose to create passages, either two or one way and requires certain conditions to be meet. Alternatively, a Nornir 25 entity who is aware of the separated worlds and is navigating can make an SR Check to get through. A success also allows the entity to lead others through if they travel as a group. An entity who has failed can repeat the Resistance Check after a day has passed. An entity that has passed must make a Resistance Check once they leave its border.",
             "The maximum volume that can be separated is listed."
         ],
         "degree": {
@@ -2013,10 +2017,10 @@
             "automatic"
         ],
         "action": "active",
-        "maintTime": "turn",
+        "maintTime": "no",
         "tags": [],
         "description": [
-            "You create a new form of life. The life forms's maximum level is listed and follows the rules for creatures created by powers. Additionally, the following rules apply:",
+            "You create a new creature. The creature's level can be no greater than the listed value and must follow the rules for monad creatures. The creature is created with the following rules:",
             {
                 "type": "list",
                 "items": [
@@ -2025,14 +2029,13 @@
                     ""
                 ]
             },
-            "You can choose wether the new creature will be one that is part of the Veil. If you do, it becomes a true part of the world and it will start to appear in an a natural habitat for it, can be summoned, or might even appear as part of the next Veil -- depending on the creature type.",
-            "When the spell ends, all life forms disappear even those that were born naturally. The souls of these creatures do not return to the Veil, and instead disappear completely."
+            "You can choose wether the new creature will be part of the Veil. If you do, it becomes a true part of the world and it will start to appear in an a natural habitat for it, can be summoned, or appear as part of the next Veil -- depending on the creature type."
         ],
         "degree": {
             "base": {
                 "mana": 800,
                 "int": 16,
-                "maint": 30,
+                "maint": 0,
                 "effect": [
                     "Level 1"
                 ]
@@ -2040,7 +2043,7 @@
             "intermediate": {
                 "mana": 2000,
                 "int": 20,
-                "maint": 40,
+                "maint": 0,
                 "effect": [
                     "Level 6"
                 ]
@@ -2048,7 +2051,7 @@
             "advanced": {
                 "mana": 4000,
                 "int": 24,
-                "maint": 45,
+                "maint": 0,
                 "effect": [
                     "Level 11"
                 ]
@@ -2056,7 +2059,7 @@
             "arcane": {
                 "mana": 8000,
                 "int": 30,
-                "maint": 50,
+                "maint": 0,
                 "effect": [
                     "Level 16"
                 ]
@@ -2074,8 +2077,7 @@
         "maintTime": "no",
         "tags": [],
         "description": [
-            "You gain absolute control over creation. You gain a pool of Presence Points that you can use to create anything; continents, oceans, and entire worlds can be created by your hand. Any entity you create cannot have a Presence greater than the listed maximum Presence. Additionally, you can impose new rules upon reality. For example, you can change the fundamental law of gravity or the passage of time. Any creature with a Nornir of less than half your Nornir is affected by the new reality.",
-            "The Presence you can create with allows you to create new worlds even"
+            "You gain a pool of Presence Points that you can use to create anything; continents, oceans, and entire worlds can be created by your hand. Any entity you create cannot have a Presence greater than the listed maximum Presence. Additionally, you can impose new rules upon reality. For example, you can change the fundamental law of gravity or the passage of time. Any creature with a Nornir of less than half your Nornir is affected by the new reality."
         ],
         "degree": {
             "base": {

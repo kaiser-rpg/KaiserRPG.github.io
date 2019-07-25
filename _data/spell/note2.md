@@ -6,7 +6,7 @@ On a hit, a target takes Heat Damage with the listed Base Damage.
 
 On a hit, a target must make a SR Check; a target can choose to fail.
 
-All entities in an area cnetered on a point of your choice must make a SR Check; ...
+All entities in an area centered on a point of your choice must make a SR Check; ...
 
 All entities of your choice in an area centered on a point of your choice ...
 
@@ -14,9 +14,7 @@ All entities in an area centered on you ...
 
 All entities in an area centered on a point of your choice ...
 
-Choose an object whose ...
-Choose a number of entities ...
-... whose total Presence is no greater than the listed value. 
+All entities of your choice whose total Presence is no greater than the listed value must make a SR Check.
 
 A target that fails the Resistance Check ...
 
@@ -37,8 +35,9 @@ A target can repeat the Resistance Check when they take damage, this new Check d
 
 The effects of this spell do not require maintaince.
 
-You detect the ... within an area around you.
+You detect the ... within the zone.
 This sense informs you of ...
+A target can resist the detection by making a SR Check.
 
 You create a visual active figment that is no larger than the listed size.
 
@@ -47,8 +46,15 @@ A creature can determine the nature of the illusion by making an Almost Impossib
 An entity of your choice ...
 ... recovers Life Points. This spell cannot restore damaged limbs or eliminate Pain.
 ... gains 
+... whose total Presence is no greater than the listed value ...
 
-You create a stationary zone. 
+You create a stationary zone centered on a point of your choice.
+
+You create a zone centered on you.
+
+All entities within the zone must make a SR Check.
+
+The Resistance Check is only made the first time a target enters the zone each round or if it starts the Action Phase in the zone.
 
 Once a target has passed the Resistance Check, they cannot be affected until a new Hypnotic Pattern spell is cast.
 
