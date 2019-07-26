@@ -1048,5 +1048,206 @@
                 ]
             }
         }
+    },
+    {
+        "name": "Destroy Memories",
+        "type": "path",
+        "level": 52,
+        "power": [
+            "effect"
+        ],
+        "action": "active",
+        "maintTime": "turn",
+        "tags": [],
+        "flavor":[],
+        "description": [
+            "You make an Offensive Roll against an entity. On a hit, a target must make a SR or MR Check; a target can choose to fail.",
+            "A target that fails the Resistance Check has some of its memory destroyed. The effects of this spell do not require maintaince.",
+            "You must have an idea what the memories you are destroying are before making your Offensive Roll. If the memory is core to the nature of the target, the Resistance Check is reduced by 6 points. For example, in order to delete the memory of a childhood friend, you must know the name of the friend."
+        ],
+        "degree": {
+            "base": {
+                "mana": 140,
+                "int": 8,
+                "maint": 0,
+                "effect": [
+                    "SR or MR 10"
+                ]
+            },
+            "intermediate": {
+                "mana": 180,
+                "int": 10,
+                "maint": 0,
+                "effect": [
+                    "SR or MR 12"
+                ]
+            },
+            "advanced": {
+                "mana": 240,
+                "int": 14,
+                "maint": 0,
+                "effect": [
+                    "SR or MR 16"
+                ]
+            },
+            "arcane": {
+                "mana": 300,
+                "int": 18,
+                "maint": 0,
+                "effect": [
+                    "SR or MR 20"
+                ]
+            }
+        }
+    },
+    {
+        "name": "Block Development",
+        "type": "path",
+        "level": 56,
+        "power": [
+            "effect"
+        ],
+        "action": "active",
+        "maintTime": "day",
+        "tags": [],
+        "flavor":[],
+        "description": [
+            "You make an Offensive Roll against an entity. On a hit, a target must make a SR Check; a target can choose to fail.",
+            "A target that fails the Resistance Check cannot invest Experience Points or Phenom Points. A target can repeat the Resistance Check after one day has passed."
+        ],
+        "degree": {
+            "base": {
+                "mana": 80,
+                "int": 8,
+                "maint": 15,
+                "effect": [
+                    "SR 12"
+                ]
+            },
+            "intermediate": {
+                "mana": 180,
+                "int": 10,
+                "maint": 20,
+                "effect": [
+                    "SR 16"
+                ]
+            },
+            "advanced": {
+                "mana": 300,
+                "int": 14,
+                "maint": 25,
+                "effect": [
+                    "SR 20"
+                ]
+            },
+            "arcane": {
+                "mana": 500,
+                "int": 18,
+                "maint": 30,
+                "effect": [
+                    "SR 24"
+                ]
+            }
+        }
+    },
+    {
+        "name": "Forbid",
+        "type": "path",
+        "level": 58,
+        "power": [
+            "effect"
+        ],
+        "action": "active",
+        "maintTime": "turn",
+        "tags": [],
+        "flavor":[],
+        "description": [
+            "You make an Offensive Roll against an entity. On a hit, a target must make a SR Check; a target can choose to fail.",
+            "A target that fails the Resistance Check is unable to perform an Active Action of your choice. If the forbidden action is general, like moving or attacking, a target can add a +3 deed bonus."
+        ],
+        "degree": {
+            "base": {
+                "mana": 100,
+                "int": 7,
+                "maint": 10,
+                "effect": [
+                    "SR 12"
+                ]
+            },
+            "intermediate": {
+                "mana": 180,
+                "int": 10,
+                "maint": 15,
+                "effect": [
+                    "SR 16"
+                ]
+            },
+            "advanced": {
+                "mana": 240,
+                "int": 13,
+                "maint": 25,
+                "effect": [
+                    "SR 20"
+                ]
+            },
+            "arcane": {
+                "mana": 300,
+                "int": 16,
+                "maint": 30,
+                "effect": [
+                    "SR 24"
+                ]
+            }
+        }
+    },
+    {
+        "name": "Suppress Power",
+        "type": "path",
+        "level": 60,
+        "power": [
+            "effect"
+        ],
+        "action": "active",
+        "maintTime": "day",
+        "tags": [],
+        "flavor":[],
+        "description": [
+            "You make an Offensive Roll against an entity. On a hit, a target must make a SR Check; a target can choose to fail.",
+            "A target that fails the Resistance Check is unable to use any power or supernatural feature."
+        ],
+        "degree": {
+            "base": {
+                "mana": 140,
+                "int": 10,
+                "maint": 15,
+                "effect": [
+                    "SR 12"
+                ]
+            },
+            "intermediate": {
+                "mana": 180,
+                "int": 12,
+                "maint": 20,
+                "effect": [
+                    "SR 14"
+                ]
+            },
+            "advanced": {
+                "mana": 240,
+                "int": 16,
+                "maint": 25,
+                "effect": [
+                    "SR 18"
+                ]
+            },
+            "arcane": {
+                "mana": 300,
+                "int": 20,
+                "maint": 30,
+                "effect": [
+                    "SR 22"
+                ]
+            }
+        }
     }
 ]
