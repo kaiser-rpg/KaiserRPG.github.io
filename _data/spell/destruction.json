@@ -1897,5 +1897,219 @@
                 ]
             }
         }
+    },
+    {
+        "name": "Greater Destruction",
+        "type": "path",
+        "level": 92,
+        "power": [
+            "automatic"
+        ],
+        "action": "active",
+        "maintTime": "no",
+        "tags": [],
+        "flavor":[],
+        "description": [
+            "A number of objects of your choice whose total Presence is no greater than the listed value are destroyed."
+        ],
+        "degree": {
+            "base": {
+                "mana": 350,
+                "int": 12,
+                "maint": 0,
+                "effect": [
+                    "Presence 10"
+                ]
+            },
+            "intermediate": {
+                "mana": 600,
+                "int": 14,
+                "maint": 0,
+                "effect": [
+                    "Presence 16"
+                ]
+            },
+            "advanced": {
+                "mana": 900,
+                "int": 18,
+                "maint": 0,
+                "effect": [
+                    "Presence 20"
+                ]
+            },
+            "arcane": {
+                "mana": 1500,
+                "int": 22,
+                "maint": 0,
+                "effect": [
+                    "Presence 24"
+                ]
+            }
+        }
+    },
+    {
+        "name": "Destroy Souls",
+        "type": "path",
+        "level": 96,
+        "power": [
+            "trigger"
+        ],
+        "action": "active",
+        "maintTime": "no",
+        "tags": [],
+        "flavor":[],
+        "description": [
+            "All entities in an area centered on a point of your choice must make a SR Check.",
+            "A target that fails the Resistance Check has its spirit destroyed. Their spirit is not collected by a Psychopomp and it does not return to the Nexus."
+        ],
+        "degree": {
+            "base": {
+                "mana": 500,
+                "int": 14,
+                "maint": 0,
+                "effect": [
+                    "SR 10",
+                    "3-mi radius"
+                ]
+            },
+            "intermediate": {
+                "mana": 800,
+                "int": 16,
+                "maint": 0,
+                "effect": [
+                    "SR 14",
+                    "30-mi radius"
+                ]
+            },
+            "advanced": {
+                "mana": 1500,
+                "int": 20,
+                "maint": 0,
+                "effect": [
+                    "SR 18",
+                    "300-mi radius"
+                ]
+            },
+            "arcane": {
+                "mana": 2500,
+                "int": 24,
+                "maint": 0,
+                "effect": [
+                    "SR 22",
+                    "600-mi radius"
+                ]
+            }
+        }
+    },
+    {
+        "name": "Entropy",
+        "type": "path",
+        "level": 98,
+        "power": [
+            "trigger"
+        ],
+        "action": "active",
+        "maintTime": "day",
+        "tags": [],
+        "flavor":[],
+        "description": [
+            "You create a stationary zone centered on a point of your choice. Reality within the zone is shaken; chaos is the only thing that holds. You can choose to alter a specific aspect of reality or allow the spell to take control. The follow list are examples of what can happen within the zone of Entropy.",
+            {
+                "type": "list",
+                "items": [
+                    "Invert the weight of things. So a feather weighs a ton while a boulder is as light as a feather.",
+                    "Lovers hate eachother and enemies fall in love.",
+                    "Time flows forward in altering tempos.",
+                    "Icy winds blow off of a tropical storm.",
+                    "Ice forms when things are on fire, and as things freeze they turn to ash."
+                ]
+            },
+            "You have absolutely no control on what this spell does. All entities within the zone are affected, unless they have the listed Nornir. "
+        ],
+        "degree": {
+            "base": {
+                "mana": 700,
+                "int": 14,
+                "maint": 70,
+                "effect": [
+                    "50-mi radius",
+                    "Affects entities with Nornir 10 or less"
+                ]
+            },
+            "intermediate": {
+                "mana": 1200,
+                "int": 16,
+                "maint": 80,
+                "effect": [
+                    "500-mi radius",
+                    "Affects entities with Nornir 20 or less"                ]
+            },
+            "advanced": {
+                "mana": 2000,
+                "int": 20,
+                "maint": 90,
+                "effect": [
+                    "5000-mi radius",
+                    "Affects entities with Nornir 30 or less"                ]
+            },
+            "arcane": {
+                "mana": 5000,
+                "int": 24,
+                "maint": 100,
+                "effect": [
+                    "All of reality",
+                    "Affects entities with Nornir 40 or less"                ]
+            }
+        }
+    },
+    {
+        "name": "Uncreation",
+        "type": "path",
+        "level": 100,
+        "power": [
+            "trigger"
+        ],
+        "action": "active",
+        "maintTime": "no",
+        "tags": [],
+        "flavor":[],
+        "description": [
+            "An entity of your choice must make a SR Check. The entity can be anything, such as an entire city, a species, or a single individual.",
+            "A target that fails the Resistance Check is deleted, so that it had never existed. Any death caused by the existence of a target returns to life if the spirit still exists. All entities forget a target existed unless the entity has Nornir 40."
+        ],
+        "degree": {
+            "base": {
+                "mana": 1000,
+                "int": 20,
+                "maint": 0,
+                "effect": [
+                    "SR 14"
+                ]
+            },
+            "intermediate": {
+                "mana": 2500,
+                "int": 24,
+                "maint": 0,
+                "effect": [
+                    "SR 16"
+                ]
+            },
+            "advanced": {
+                "mana": 5000,
+                "int": 28,
+                "maint": 0,
+                "effect": [
+                    "SR 20"
+                ]
+            },
+            "arcane": {
+                "mana": 10000,
+                "int": 36,
+                "maint": 0,
+                "effect": [
+                    "SR 24"
+                ]
+            }
+        }
     }
 ]
