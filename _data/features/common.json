@@ -613,7 +613,10 @@
                 "You gave 2 free points that you can use to invest in external powers instead of your Characteristics. For example, a Sanctorum or Artifact that requires you to invest 1 Focus can instead use one of your free points. You cannot use these points to pay for a permanent sacrifice.",
                 "Additional Feature Points grant you an additional 2 points."
             ],
-            "cost": [2, 4]
+            "cost": [
+                2,
+                4
+            ]
         }
     ],
     "negative": [
@@ -637,7 +640,9 @@
             "effects": [
                 "You cannot use any power or feature that requires sight. You are always considered to have the [@state Totally Blind @] state."
             ],
-            "cost": [4]
+            "cost": [
+                4
+            ]
         },
         {
             "name": "Deaf",
@@ -647,7 +652,9 @@
             "effects": [
                 "You cannot hear. Any Skill Check that uses hearing automatically fails."
             ],
-            "cost": [3]
+            "cost": [
+                3
+            ]
         },
         {
             "name": "Mute",
@@ -657,7 +664,9 @@
             "effects": [
                 "You cannot speak. You are unable to complete the verbal component of any ability, like Mana Accumulation or Chakra Accumulation."
             ],
-            "cost": [2]
+            "cost": [
+                2
+            ]
         },
         {
             "name": "Nearsighted",
@@ -667,7 +676,9 @@
             "effects": [
                 "You apply a `-5` deed penalty to any visual Skill Checks and ranged Offensive Rolls. This penalty can be reduced by obtaining glasses. The new penalty is determined by the Game Master."
             ],
-            "cost": [2]
+            "cost": [
+                2
+            ]
         },
         {
             "name": "Asthma",
@@ -677,7 +688,9 @@
             "effects": [
                 "You can only spend 1 Stamina Point per turn, no matter what powers you have."
             ],
-            "cost": [2]
+            "cost": [
+                2
+            ]
         },
         {
             "name": "Exclusive Weapon",
@@ -690,7 +703,9 @@
             "limits": [
                 "This Character Feature can only be taken if you have the Fighter Archetype."
             ],
-            "cost": [2]
+            "cost": [
+                2
+            ]
         },
         {
             "name": "Vice",
@@ -701,7 +716,9 @@
                 "You apply a cumulative [@state Pain (1) @] state for each day that passes without fulfilling you vice.",
                 "The [@state Pain (1) @] state disappears at 1 point for each day that you fulfil your vice."
             ],
-            "cost": [1]
+            "cost": [
+                1
+            ]
         },
         {
             "name": "Phobia",
@@ -711,7 +728,9 @@
             "effects": [
                 "You automatically gain the [@state Frightened @] State when you see the object of your phobia. If the object of fear is an illusion, you suffer `D4` when trying to determine if it is real or when you make the Resistance Check."
             ],
-            "cost": [1]
+            "cost": [
+                1
+            ]
         },
         {
             "name": "Atrophied Limb",
@@ -721,7 +740,9 @@
             "effects": [
                 "You suffer a `-8` deed penalty to any physical action that use the atrophied limb. If the limb is your leg, your Movement Value is halved, round up."
             ],
-            "cost": [2]
+            "cost": [
+                2
+            ]
         },
         {
             "name": "Physical Weakness",
@@ -731,7 +752,9 @@
             "effects": [
                 "Your Final [@skill Physical Resistance @] Value is halved. Any bonus to your [@skill PhR @] is halved and any penalty is doubled."
             ],
-            "cost": [3]
+            "cost": [
+                3
+            ]
         },
         {
             "name": "Deep Sleeper",
@@ -741,7 +764,9 @@
             "effects": [
                 "You apply a `-30` deed penalty to all Characteristic and Skill Checks while asleep. For the first hour after waking, you suffer the [@state Pain (4) @] state."
             ],
-            "cost": [1]
+            "cost": [
+                1
+            ]
         },
         {
             "name": "Nightmares",
@@ -751,7 +776,9 @@
             "effects": [
                 "Each time you sleep, roll 2d6. If the result is 8 or higher, your maximum Stamina Points is reduced by 2 until you get a good night's rest. If this ever makes your maximum Stamina Points zero, you gain the [@state Weakness (2) @] state. If you ever lose the need to sleep, you instead must make this roll every 24 hours."
             ],
-            "cost": [2]
+            "cost": [
+                2
+            ]
         },
         {
             "name": "Reduce Characteristic by Two",
@@ -767,7 +794,9 @@
             "restrictions": [
                 "You can take this Character Feature multiple times."
             ],
-            "cost": [2]
+            "cost": [
+                2
+            ]
         },
         {
             "name": "Unfortunate",
@@ -777,7 +806,9 @@
             "effects": [
                 "When a negative effect is left up to chance, you are twice as likely to be selected or its effect will be maximized. The Game Master can apply additional effects as they see fit."
             ],
-            "cost": [2]
+            "cost": [
+                2
+            ]
         },
         {
             "name": "Easily Possessed",
@@ -787,7 +818,9 @@
             "effects": [
                 "You suffer a `-6` deed penalty to any Resistance Check to prevent any kind of domination or possession."
             ],
-            "cost": [1]
+            "cost": [
+                1
+            ]
         },
         {
             "name": "Exhausted",
@@ -797,7 +830,9 @@
             "effects": [
                 "You reduce your maximum Stamina Points by 1 and double the penalties from low Stamina Points."
             ],
-            "cost": [2]
+            "cost": [
+                2
+            ]
         },
         {
             "name": "Vulnerable to Pain",
@@ -807,7 +842,9 @@
             "effects": [
                 "You double the all-action penalty from the [@state Pain @] state."
             ],
-            "cost": [2]
+            "cost": [
+                2
+            ]
         },
         {
             "name": "Sickly",
@@ -817,7 +854,9 @@
             "effects": [
                 "Your Final [@skill Immune Resistance @] Value is halved. Any bonus to your [@skill IR @] is halved and any penalty is doubled."
             ],
-            "cost": [2]
+            "cost": [
+                2
+            ]
         },
         {
             "name": "Slow Healer",
@@ -827,7 +866,9 @@
             "effects": [
                 "Any time you would recover Life Points, you only regain half the listed amount. This effects both natural and supernatural healing."
             ],
-            "cost": [3]
+            "cost": [
+                3
+            ]
         },
         {
             "name": "Slow Reaction",
@@ -837,7 +878,10 @@
             "effects": [
                 "You have a `-3` natural penalty to [@skill Initiative @]. Additional Feature Points can be gained by increasing the penalty to a `-6`."
             ],
-            "cost": [2, 4]
+            "cost": [
+                2,
+                4
+            ]
         },
         {
             "name": "Susceptible to Spirits",
@@ -847,7 +891,9 @@
             "effects": [
                 "Your Final [@skill Spirit Resistance @] Value is halved. Any bonus to your [@skill SR @] is halved and any penalty is doubled."
             ],
-            "cost": [3]
+            "cost": [
+                3
+            ]
         },
         {
             "name": "Feeble",
@@ -857,7 +903,9 @@
             "effects": [
                 "While your Life Points are below half of your maximum, you gain the [@state Pain (3) @] state."
             ],
-            "cost": [2]
+            "cost": [
+                2
+            ]
         },
         {
             "name": "Unlucky Destiny",
@@ -867,7 +915,9 @@
             "effects": [
                 "You can never gain an Open Roll."
             ],
-            "cost": [4]
+            "cost": [
+                4
+            ]
         },
         {
             "name": "Cowardice",
@@ -878,7 +928,9 @@
                 "Whenever you are in danger, you are subject to the [@state Shaken @] state, with the object of fear being always insight. If you become affected by any [@state Fear @] state, it increases by one degree. What is considered danger is left to the Game Master.",
                 "If you ever become immune to the [@state Fear @] states, the Game Master should choose other Character Features totalling up to 4 points. If the immunity is only temporary, the new Features disappear. For example, the Game Master could choose Mute and Easily Possessed since your mind has a hard time adjusting to the lack of fear it has grown to except."
             ],
-            "cost": [3]
+            "cost": [
+                3
+            ]
         },
         {
             "name": "Klutzy",
@@ -888,7 +940,9 @@
             "effects": [
                 "You suffer a `-3` deed penalty to all physical Skill Checks that require coordination and a `-3` deed penalty to all Opposed Dexterity Check."
             ],
-            "cost": [2]
+            "cost": [
+                2
+            ]
         },
         {
             "name": "Insufferable",
@@ -898,7 +952,9 @@
             "effects": [
                 "The full effect of this Feature is left to the Game Master. But in general, you are unable to make any kind of Social Skill Checks, even negative social interactions."
             ],
-            "cost": [1]
+            "cost": [
+                1
+            ]
         },
         {
             "name": "Damned",
@@ -909,7 +965,10 @@
                 "The full effect of this Feature is left to the Game Master and you to decide. The lowest cost option causes a serious, but not necessarily constant, negative effect. Examples include a warrior who misplaces or fumbles his weapons, a thief who constantly loses money over time no matter how hard she tries.",
                 "The higher point option is a curse and carries a persistent and dangerous effect. Examples include a wizard who has wild effects when accumulating mana or a fighter who suffers wounds when he harms a foe."
             ],
-            "cost": [2, 4]
+            "cost": [
+                2,
+                4
+            ]
         },
         {
             "name": "Code of Conduct",
@@ -919,7 +978,9 @@
             "effects": [
                 "You have a strict code of conduct in some way related to your background. If you ever deviate from this code, the Game Master can choose other Character Features totalling up to 3 points. You suffer from these new Character Features until you atone for breaking your code."
             ],
-            "cost": [2]
+            "cost": [
+                2
+            ]
         },
         {
             "name": "Pariah",
@@ -929,7 +990,9 @@
             "effects": [
                 "You are considered a pariah in all social circles. Any Social Skill Check you make or any claim in general will be disregarded by those in authority."
             ],
-            "cost": [1]
+            "cost": [
+                1
+            ]
         },
         {
             "name": "Combat Paralysis",
@@ -939,7 +1002,9 @@
             "effects": [
                 "You suffer a `-2` deed penalty to all Characteristic and Skill Checks on the first round after rolling [@skill Initiative @] with a new combat."
             ],
-            "cost": [2]
+            "cost": [
+                2
+            ]
         },
         {
             "name": "No Regeneration",
@@ -949,7 +1014,9 @@
             "effects": [
                 "Your Regeneration is always 0 and cannot be increased. Sacrifice Damage recovers at half the normal rate."
             ],
-            "cost": [4]
+            "cost": [
+                4
+            ]
         },
         {
             "name": "Dependents",
@@ -959,7 +1026,10 @@
             "effects": [
                 "You must send 200 gold, or whatever you own if you don't have 200 gold, to your dependent each month. Additional Feature Points can be gained, but you have to send back 500 gold."
             ],
-            "cost": [2, 3]
+            "cost": [
+                2,
+                3
+            ]
         },
         {
             "name": "Dense",
@@ -969,7 +1039,9 @@
             "effects": [
                 "You suffer a `-3` deed penalty to Secondary Skill Checks based on Perception and to Social Skill Checks."
             ],
-            "cost": [1]
+            "cost": [
+                1
+            ]
         },
         {
             "name": "Heavy",
@@ -982,7 +1054,10 @@
             "limits": [
                 "This Character Feature cannot be taken if it would reduce your Movement Value and maximum Stamina Point below 1."
             ],
-            "cost": [2, 3]
+            "cost": [
+                2,
+                3
+            ]
         },
         {
             "name": "Extra Sensitive",
@@ -992,7 +1067,9 @@
             "effects": [
                 "Whenever you take Damage, the Final Damage is increased by one fourth, round up."
             ],
-            "cost": [4]
+            "cost": [
+                4
+            ]
         },
         {
             "name": "In the Wrong Hands",
@@ -1005,7 +1082,9 @@
             "limits": [
                 "This Character Feature can only be taken if you have the Fighter, Spiriter, Explorer, or Freelancer archetype."
             ],
-            "cost": [2]
+            "cost": [
+                2
+            ]
         },
         {
             "name": "Predicable",
@@ -1018,7 +1097,9 @@
             "limits": [
                 "This Character Feature can only be taken if you have the Fighter, Spiriter, Explorer, or Freelancer archetype."
             ],
-            "cost": [2]
+            "cost": [
+                2
+            ]
         },
         {
             "name": "Dangerously Clumsy",
@@ -1028,7 +1109,9 @@
             "effects": [
                 "Whenever you Fumble, you suffer damage equal to ten times the Fumble Level."
             ],
-            "cost": [2]
+            "cost": [
+                2
+            ]
         },
         {
             "name": "Untrained Fighter",
@@ -1041,7 +1124,9 @@
             "limits": [
                 "This Character Feature can only be taken if you have the Fighter, Spiriter, Explorer, or Freelancer archetype."
             ],
-            "cost": [2]
+            "cost": [
+                2
+            ]
         },
         {
             "name": "Vertigo",
@@ -1051,7 +1136,9 @@
             "effects": [
                 "During the End Phase that you use a non-passive power, you must roll 2d6. On a roll of 8 to 11, you suffer a `-2` deed penalty until the End Phase of next round. On a roll of 12, the penalty is doubled."
             ],
-            "cost": [3]
+            "cost": [
+                3
+            ]
         }
     ]
 }
