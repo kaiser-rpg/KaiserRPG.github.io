@@ -1059,7 +1059,7 @@
         "action": "active",
         "maintTime": "turn",
         "tags": [],
-        "flavor":[],
+        "flavor": [],
         "description": [
             "You make an Offensive Roll against an entity. On a hit, a target must make a SR or MR Check; a target can choose to fail.",
             "A target that fails the Resistance Check has some of its memory destroyed. The effects of this spell do not require maintaince.",
@@ -1110,7 +1110,7 @@
         "action": "active",
         "maintTime": "day",
         "tags": [],
-        "flavor":[],
+        "flavor": [],
         "description": [
             "You make an Offensive Roll against an entity. On a hit, a target must make a SR Check; a target can choose to fail.",
             "A target that fails the Resistance Check cannot invest Experience Points or Phenom Points. A target can repeat the Resistance Check after one day has passed."
@@ -1160,7 +1160,7 @@
         "action": "active",
         "maintTime": "turn",
         "tags": [],
-        "flavor":[],
+        "flavor": [],
         "description": [
             "You make an Offensive Roll against an entity. On a hit, a target must make a SR Check; a target can choose to fail.",
             "A target that fails the Resistance Check is unable to perform an Active Action of your choice. If the forbidden action is general, like moving or attacking, a target can add a +3 deed bonus."
@@ -1210,7 +1210,7 @@
         "action": "active",
         "maintTime": "day",
         "tags": [],
-        "flavor":[],
+        "flavor": [],
         "description": [
             "You make an Offensive Roll against an entity. On a hit, a target must make a SR Check; a target can choose to fail.",
             "A target that fails the Resistance Check is unable to use any power or supernatural feature."
@@ -1246,6 +1246,654 @@
                 "maint": 30,
                 "effect": [
                     "SR 22"
+                ]
+            }
+        }
+    },
+    {
+        "name": "Greater ",
+        "type": "path",
+        "level": 62,
+        "power": [
+            "attack"
+        ],
+        "action": "active",
+        "maintTime": "no",
+        "tags": [],
+        "flavor": [],
+        "description": [
+            "You make an Offensive Roll against an entity. On a hit, a target takes Force Damage with the listed Base Damage."
+        ],
+        "degree": {
+            "base": {
+                "mana": 150,
+                "int": 8,
+                "maint": 0,
+                "effect": [
+                    "Base Damage 15"
+                ]
+            },
+            "intermediate": {
+                "mana": 300,
+                "int": 10,
+                "maint": 0,
+                "effect": [
+                    "Base Damage 30"
+                ]
+            },
+            "advanced": {
+                "mana": 450,
+                "int": 14,
+                "maint": 0,
+                "effect": [
+                    "Base Damage 45"
+                ]
+            },
+            "arcane": {
+                "mana": 600,
+                "int": 18,
+                "maint": 0,
+                "effect": [
+                    "Base Damage 60"
+                ]
+            }
+        }
+    },
+    {
+        "name": "Destroy Volition",
+        "type": "path",
+        "level": 66,
+        "power": [
+            "effect"
+        ],
+        "action": "active",
+        "maintTime": "turn",
+        "tags": [],
+        "flavor": [],
+        "description": [
+            "All entities in an area centered on a point of your choice must make a Defensive Roll against your Offensive Roll. On a hit, a target must make a SR Check; a target can choose to fail.",
+            "A target that fails the Resistance Check is unable to take Active Actions unless they are done as part of instinct. For example, a creature would move to avoid a collapsing building but would otherwise not move."
+        ],
+        "degree": {
+            "base": {
+                "mana": 160,
+                "int": 8,
+                "maint": 20,
+                "effect": [
+                    "SR 12",
+                    "30-foot radius"
+                ]
+            },
+            "intermediate": {
+                "mana": 200,
+                "int": 10,
+                "maint": 20,
+                "effect": [
+                    "SR 14",
+                    "60-foot radius"
+                ]
+            },
+            "advanced": {
+                "mana": 240,
+                "int": 14,
+                "maint": 25,
+                "effect": [
+                    "SR 16",
+                    "150-foot radius"
+                ]
+            },
+            "arcane": {
+                "mana": 280,
+                "int": 18,
+                "maint": 30,
+                "effect": [
+                    "SR 18",
+                    "300-foot radius"
+                ]
+            }
+        }
+    },
+    {
+        "name": "Zone of Weakness",
+        "type": "path",
+        "level": 68,
+        "power": [
+            "trigger"
+        ],
+        "action": "active",
+        "maintTime": "day",
+        "tags": [],
+        "flavor": [],
+        "description": [
+            "You create a stationary zone centered on a point of your choice. All entities within the zone must make a SR Check.",
+            "A target that fails the Resistance Check becomes fragile. Any damage suffered is doubled and their entire body counts as a vulnerable point. Structures lose their Base Damage Negate. Objects suffer a -5 deed penalty to Fortitude. A target can repeat the Resistance Check after one day has passed."
+        ],
+        "degree": {
+            "base": {
+                "mana": 200,
+                "int": 10,
+                "maint": 20,
+                "effect": [
+                    "SR 14",
+                    "60-foot radius"
+                ]
+            },
+            "intermediate": {
+                "mana": 300,
+                "int": 12,
+                "maint": 30,
+                "effect": [
+                    "SR 16",
+                    "300-foot radius"
+                ]
+            },
+            "advanced": {
+                "mana": 400,
+                "int": 16,
+                "maint": 40,
+                "effect": [
+                    "SR 18",
+                    "600-foot radius"
+                ]
+            },
+            "arcane": {
+                "mana": 500,
+                "int": 20,
+                "maint": 50,
+                "effect": [
+                    "SR 20",
+                    "1200-foot radius"
+                ]
+            }
+        }
+    },
+    {
+        "name": "Essence of Destruction",
+        "type": "path",
+        "level": 70,
+        "power": [
+            "automatic"
+        ],
+        "action": "active",
+        "maintTime": "turn",
+        "tags": [],
+        "flavor": [],
+        "description": [
+            "An entity of your choice transforms into pure destructive energy. A target gain a Base Damage Negate 100 that can be overcome with the Imbued trait. Any entity that comes into contact with a target must make a SR Check or take 10 Atomic Damage per Degree of Failure."
+        ],
+        "degree": {
+            "base": {
+                "mana": 150,
+                "int": 10,
+                "maint": 15,
+                "effect": [
+                    "SR 8"
+                ]
+            },
+            "intermediate": {
+                "mana": 200,
+                "int": 12,
+                "maint": 20,
+                "effect": [
+                    "SR 10"
+                ]
+            },
+            "advanced": {
+                "mana": 250,
+                "int": 16,
+                "maint": 25,
+                "effect": [
+                    "SR 12"
+                ]
+            },
+            "arcane": {
+                "mana": 300,
+                "int": 20,
+                "maint": 30,
+                "effect": [
+                    "SR 14"
+                ]
+            }
+        }
+    },
+    {
+        "name": "Death",
+        "type": "path",
+        "level": 72,
+        "power": [
+            "effect"
+        ],
+        "action": "active",
+        "maintTime": "no",
+        "tags": [],
+        "flavor": [],
+        "description": [
+            "You make an Offensive Roll against an entity. On a hit, a target must make a PrR or SR Check.",
+            "A target that fails the Resistance Check dies, separating its body and spirit and a Psychopomp is called. If the target beats the Psychopomp, their spirit returns to their body. As this death is not true, it does not increase Death's desire."
+        ],
+        "degree": {
+            "base": {
+                "mana": 200,
+                "int": 12,
+                "maint": 0,
+                "effect": [
+                    "PrR or SR 12"
+                ]
+            },
+            "intermediate": {
+                "mana": 250,
+                "int": 14,
+                "maint": 0,
+                "effect": [
+                    "PrR or SR 12"
+                ]
+            },
+            "advanced": {
+                "mana": 300,
+                "int": 18,
+                "maint": 0,
+                "effect": [
+                    "PrR or SR 12"
+                ]
+            },
+            "arcane": {
+                "mana": 350,
+                "int": 22,
+                "maint": 0,
+                "effect": [
+                    "PrR or SR 12"
+                ]
+            }
+        }
+    },
+    {
+        "name": "Devouring Zone",
+        "type": "path",
+        "level": 76,
+        "power": [
+            "trigger"
+        ],
+        "action": "active",
+        "maintTime": "day",
+        "tags": [],
+        "flavor": [],
+        "description": [
+            "You create a stationary zone centered on a point of your choice. All entities within the zone must make a PhR or SR Check.",
+            "A target that fails the Resistance Check reduces their Presence by half a point and suffers a -1 all-action penalty. A target must repeat the Resistance Check after one day has passed while they remain in the zone.",
+            "Once a target's Presence becomes zero, they fade away into nothing. A half value is rounded up for the purpose of Final Value.",
+            "The reduced Presence and all-action penalty returns one point each day the target is not in the zone."
+        ],
+        "degree": {
+            "base": {
+                "mana": 250,
+                "int": 10,
+                "maint": 25,
+                "effect": [
+                    "PhR or SR 14",
+                    "1500-foot radius"
+                ]
+            },
+            "intermediate": {
+                "mana": 360,
+                "int": 12,
+                "maint": 40,
+                "effect": [
+                    "PhR or SR 20",
+                    "3-mi radius"
+                ]
+            },
+            "advanced": {
+                "mana": 450,
+                "int": 16,
+                "maint": 45,
+                "effect": [
+                    "PhR or SR 24",
+                    "6-mi radius"
+                ]
+            },
+            "arcane": {
+                "mana": 600,
+                "int": 20,
+                "maint": 55,
+                "effect": [
+                    "PhR or SR 28",
+                    "9-mi radius"
+                ]
+            }
+        }
+    },
+    {
+        "name": "Destroy Experience",
+        "type": "path",
+        "level": 78,
+        "power": [
+            "effect"
+        ],
+        "action": "active",
+        "maintTime": "no",
+        "tags": [],
+        "flavor": [],
+        "description": [
+            "You make an Offensive Roll against an entity. On a hit, a target must make a SR Check.",
+            "A target that fails the Resistance Check has the listed number of XP uninvested from a Primary or Secondary Skill. You can choose from where the XP is uninvested, although no single investment can lose more than half of the listed value."
+        ],
+        "degree": {
+            "base": {
+                "mana": 150,
+                "int": 8,
+                "maint": 0,
+                "effect": [
+                    "SR 12",
+                    "5 XP"
+                ]
+            },
+            "intermediate": {
+                "mana": 250,
+                "int": 10,
+                "maint": 0,
+                "effect": [
+                    "SR 16",
+                    "10 XP"
+                ]
+            },
+            "advanced": {
+                "mana": 350,
+                "int": 14,
+                "maint": 0,
+                "effect": [
+                    "SR 20",
+                    "15 XP"
+                ]
+            },
+            "arcane": {
+                "mana": 500,
+                "int": 18,
+                "maint": 0,
+                "effect": [
+                    "SR 24",
+                    "20 XP"
+                ]
+            }
+        }
+    },
+    {
+        "name": "Sever Existence",
+        "type": "path",
+        "level": 80,
+        "power": [
+            "effect"
+        ],
+        "action": "active",
+        "maintTime": "no",
+        "tags": [
+            "linear"
+        ],
+        "flavor": [],
+        "description": [
+            "All entities in line must make a Defensive Roll against your Offensive Roll. On a hit, a target must make a SR Check.",
+            "A target that fails the Resistance Check ceases to exist. A Psychopomp is not called and their spirit does not return to the Nexus, it simple stops existing.",
+            "This spell is completely visible on the material plane."
+        ],
+        "degree": {
+            "base": {
+                "mana": 350,
+                "int": 12,
+                "maint": 0,
+                "effect": [
+                    "SR 12",
+                    "30-foot line"
+                ]
+            },
+            "intermediate": {
+                "mana": 500,
+                "int": 14,
+                "maint": 0,
+                "effect": [
+                    "SR 16",
+                    "120-foot line"
+                ]
+            },
+            "advanced": {
+                "mana": 600,
+                "int": 18,
+                "maint": 0,
+                "effect": [
+                    "SR 20",
+                    "300-foot line"
+                ]
+            },
+            "arcane": {
+                "mana": 800,
+                "int": 22,
+                "maint": 0,
+                "effect": [
+                    "SR 24",
+                    "1000-foot line"
+                ]
+            }
+        }
+    },
+    {
+        "name": "Rain of Destruction",
+        "type": "path",
+        "level": 82,
+        "power": [
+            "attack",
+            "effect"
+        ],
+        "action": "active",
+        "maintTime": "no",
+        "tags": [],
+        "flavor": [],
+        "description": [
+            "All entities of your choice in an area centered on a point of your choice must make a Defensive Roll against your Offensive Roll. On a hit, a target takes Force Damage with the listed Base Damage. If a target takes any damage, they must make a SR Check.",
+            "A target that fails the Resistance Check takes 10 points of Force Damage per Degree of Failure."
+        ],
+        "degree": {
+            "base": {
+                "mana": 250,
+                "int": 10,
+                "maint": 0,
+                "effect": [
+                    "Base Damage 20",
+                    "SR 14",
+                    "150-foot radius"
+                ]
+            },
+            "intermediate": {
+                "mana": 350,
+                "int": 12,
+                "maint": 0,
+                "effect": [
+                    "Base Damage 25",
+                    "SR 18",
+                    "500-foot radius"
+                ]
+            },
+            "advanced": {
+                "mana": 450,
+                "int": 16,
+                "maint": 0,
+                "effect": [
+                    "Base Damage 30",
+                    "SR 22",
+                    "1500-foot radius"
+                ]
+            },
+            "arcane": {
+                "mana": 600,
+                "int": 20,
+                "maint": 0,
+                "effect": [
+                    "Base Damage 40",
+                    "SR 26",
+                    "1-mi radius"
+                ]
+            }
+        }
+    },
+    {
+        "name": "Destroy Mana",
+        "type": "path",
+        "level": 86,
+        "power": [
+            "automatic"
+        ],
+        "action": "active",
+        "maintTime": "no",
+        "tags": [],
+        "flavor": [],
+        "description": [
+            "A maintained spell of your choice loses an amount of mana. The spell first loses principles that increase the Mana Cost and then reduces the degree. If the mana available is still not enough to meet the Mana Cost, the spell is destroyed."
+        ],
+        "degree": {
+            "base": {
+                "mana": 200,
+                "int": 10,
+                "maint": 0,
+                "effect": [
+                    "-50 mana",
+                    "Only affects base degree spells"
+                ]
+            },
+            "intermediate": {
+                "mana": 400,
+                "int": 12,
+                "maint": 0,
+                "effect": [
+                    "-150 mana",
+                    "Affects up to intermediate degree spells"
+                ]
+            },
+            "advanced": {
+                "mana": 600,
+                "int": 16,
+                "maint": 0,
+                "effect": [
+                    "-250 mana",
+                    "Affects up to advanced degree spells"
+                ]
+            },
+            "arcane": {
+                "mana": 700,
+                "int": 20,
+                "maint": 0,
+                "effect": [
+                    "-350 mana",
+                    "Affects up to arcane degree spells"
+                ]
+            }
+        }
+    },
+    {
+        "name": "Sweep from the Heavens",
+        "type": "path",
+        "level": 88,
+        "power": [
+            "effect"
+        ],
+        "action": "active",
+        "maintTime": "day",
+        "tags": [],
+        "flavor": [],
+        "description": [
+            "You make an Offensive Roll against an entity. On a hit, a target must make a SR Check; a target can choose to fail.",
+            "A target that fails the Resistance Check reduces it Nornir by the listed value. A target cannot repeat the Resistance Check."
+        ],
+        "degree": {
+            "base": {
+                "mana": 300,
+                "int": 16,
+                "maint": 15,
+                "effect": [
+                    "SR 12",
+                    "Nornir -5"
+                ]
+            },
+            "intermediate": {
+                "mana": 600,
+                "int": 20,
+                "maint": 30,
+                "effect": [
+                    "SR 16",
+                    "Nornir -10"
+                ]
+            },
+            "advanced": {
+                "mana": 0,
+                "int": 24,
+                "maint": 50,
+                "effect": [
+                    "SR 20",
+                    "Nornir -15"
+                ]
+            },
+            "arcane": {
+                "mana": 0,
+                "int": 30,
+                "maint": 100,
+                "effect": [
+                    "SR 24",
+                    "Nornir -20"
+                ]
+            }
+        }
+    },
+    {
+        "name": "Void",
+        "type": "path",
+        "level": 90,
+        "power": [
+            "trigger"
+        ],
+        "action": "active",
+        "maintTime": "turn",
+        "tags": [],
+        "flavor": [],
+        "description": [
+            "You create a stationary orb centered on a point of your choice. The orb has its own Initiative Roll 15 each round. On its turn, the orb makes an Opposed Characteristic Check with Strength 14 against the Strength or Agility Characteristic against all entities within an area around it. A target is pulled 30-feet per Degree of Failure toward the orb.",
+            "Any entity in contact with the orb on its turn must make a PhR Check and a SR Check.",
+            "A target that fails the PhR Check takes 10 points of Force Damage per Degree of Failure. A target that fails the SR Check loses 10 points of mana from their Mana Pool per Degree of Failure. If the target's Life Points are reduced to zero while in contact with the orb, they are swallowed by the the void and their soul does not return to the Nexus."
+        ],
+        "degree": {
+            "base": {
+                "mana": 250,
+                "int": 12,
+                "maint": 25,
+                "effect": [
+                    "PhR and SR 12",
+                    "15-foot radius orb",
+                    "150-foot radius vortex"
+                ]
+            },
+            "intermediate": {
+                "mana": 350,
+                "int": 14,
+                "maint": 40,
+                "effect": [
+                    "PhR and SR 16",
+                    "30-foot radius orb",
+                    "1500-foot radius vortex"
+                ]
+            },
+            "advanced": {
+                "mana": 500,
+                "int": 18,
+                "maint": 45,
+                "effect": [
+                    "PhR and SR 20",
+                    "60-foot radius orb",
+                    "3000-foot radius vortex"
+                ]
+            },
+            "arcane": {
+                "mana": 600,
+                "int": 22,
+                "maint": 55,
+                "effect": [
+                    "PhR and SR 24",
+                    "120-foot radius orb",
+                    "2-mi radius vortex"
                 ]
             }
         }
