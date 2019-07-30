@@ -575,7 +575,7 @@
             "trapping"
         ],
         "description": [
-            "You make an Trap maneuver against an entity. The Opposed Characteristic Check uses the listed Strength.",
+            "You make a Trap maneuver against an entity. The Opposed Characteristic Check uses the listed Strength.",
             "The chains are material and have the Imbued trait and a Fortitude of 25 but can only be broken by an object with the Imbued trait."
         ],
         "degree": {
@@ -651,7 +651,7 @@
                 "type": "entries",
                 "entries": [
                     "**Reaction**: 0 AP",
-                    "You can take this reaction when an attack using Darkness Damage passes through the area suffers `D2` on the Offensive Roll."
+                    "You can take this reaction when an attack using Darkness Damage passes through the area, it suffers `D2` on the Offensive Roll."
                 ]
             }
         ],

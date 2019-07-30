@@ -6,6 +6,8 @@ On a hit, a target takes Heat Damage with the listed Base Damage.
 
 On a hit, a target must make a SR Check; a target can choose to fail.
 
+You make an Trap maneuver against an entity.
+
 All entities in an area centered on a point of your choice must make a SR Check; ...
 
 All entities of your choice in an area centered on a point of your choice ...
@@ -43,6 +45,7 @@ You create a visual active figment that is no larger than the listed size.
 
 A creature can determine the nature of the illusion by making an Almost Impossible (24) Notice Check or a Very Difficult (16) [@skill Search @] Check.
 
+A number of entities of your choice
 An entity of your choice ...
 ... recovers Life Points. This spell cannot restore damaged limbs or eliminate Pain.
 ... gains 
@@ -57,6 +60,8 @@ All entities within the zone must make a SR Check.
 The Resistance Check is only made the first time a target enters the zone each round or if it starts the Action Phase in the zone.
 
 Once a target has passed the Resistance Check, they cannot be affected until a new Hypnotic Pattern spell is cast.
+
+This spell cannot transport you through Imbued objects; an Imbued object in the way can be circumvented if there is an opening you know of and some distance is used to reach that point
 
 You create a monad creature. The creature's level can be no greater than the listed value and must follow the rules for monad creatures. The creature is created with the following rules:
 
