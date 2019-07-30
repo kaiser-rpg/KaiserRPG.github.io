@@ -20,7 +20,7 @@
                 "maint": 5,
                 "effect": [
                     "2 intensities",
-                    "60-feet wide by 600-feet length"
+                    "60-feet wide by 600-feet long"
                 ]
             },
             "intermediate": {
@@ -29,7 +29,7 @@
                 "maint": 10,
                 "effect": [
                     "4 intensities",
-                    "120-feet wide by 1200-feet length"
+                    "120-feet wide by 1200-feet long"
                 ]
             },
             "advanced": {
@@ -38,7 +38,7 @@
                 "maint": 10,
                 "effect": [
                     "8 intensities",
-                    "240-feet wide by 2400-feet length"
+                    "240-feet wide by 2400-feet long"
                 ]
             },
             "arcane": {
@@ -47,7 +47,7 @@
                 "maint": 15,
                 "effect": [
                     "12 intensities",
-                    "300-feet wide by 3000-feet length"
+                    "300-feet wide by 3000-feet long"
                 ]
             }
         }
@@ -72,7 +72,7 @@
                 "int": 5,
                 "maint": 5,
                 "effect": [
-                    "Max weight 20 lbs."
+                    "Max weight 20 lbf"
                 ]
             },
             "intermediate": {
@@ -80,7 +80,7 @@
                 "int": 8,
                 "maint": 10,
                 "effect": [
-                    "Max weight 100 lbs."
+                    "Max weight 100 lbf"
                 ]
             },
             "advanced": {
@@ -88,7 +88,7 @@
                 "int": 10,
                 "maint": 10,
                 "effect": [
-                    "Max weight 200 lbs."
+                    "Max weight 200 lbf"
                 ]
             },
             "arcane": {
@@ -96,7 +96,7 @@
                 "int": 12,
                 "maint": 15,
                 "effect": [
-                    "Max weight 500 lbs."
+                    "Max weight 500 lbf"
                 ]
             }
         }
@@ -121,7 +121,7 @@
                 "int": 5,
                 "maint": 5,
                 "effect": [
-                    "-50 lbs."
+                    "-50 lbf"
                 ]
             },
             "intermediate": {
@@ -129,7 +129,7 @@
                 "int": 8,
                 "maint": 15,
                 "effect": [
-                    "-300 lbs."
+                    "-300 lbf"
                 ]
             },
             "advanced": {
@@ -137,7 +137,7 @@
                 "int": 10,
                 "maint": 25,
                 "effect": [
-                    "-600 lbs."
+                    "-600 lbf"
                 ]
             },
             "arcane": {
@@ -145,7 +145,7 @@
                 "int": 12,
                 "maint": 35,
                 "effect": [
-                    "-1000 lbs."
+                    "-1000 lbf"
                 ]
             }
         }
