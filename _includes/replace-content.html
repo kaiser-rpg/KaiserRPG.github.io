@@ -1,10 +1,10 @@
 {{ 
     include.content
 
-    | replace: "[@trait ", "<span class='label label-default'>" 
-    | replace: "[@stat ", "<span class='label label-default'>" 
-    | replace: "[@state ", "<span class='label label-default'>" 
-    | replace: "[@skill ", "<span class='label label-info'>" 
-    | replace: "[@action ", "<span class='label label-success'>" 
+    | replace: "[@trait ", "<span class=''>" 
+    | replace: "[@stat ", "<span class=''>" 
+    | replace: "[@state ", "<span class=''>" 
+    | replace: "[@skill ", "<span class=''>" 
+    | replace: "[@action ", "<span class=''>" 
     | replace: " @]", "</span>"
  }}
