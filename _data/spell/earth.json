@@ -1179,7 +1179,7 @@
         "action": "active",
         "maintTime": "turn",
         "tags": [],
-        "flavor":[],
+        "flavor": [],
         "description": [
             "You create a stationary zone centered on a point of your choice. Structures with a Base Damage Negate 4 or less are instantly destroyed. Structures with BDN 14 or less suffer 5 points of Force damage the first round and twice as much each subsequent round -- 5, 10, 20, 40 -- up to 14."
         ],
@@ -1228,7 +1228,7 @@
         "action": "active",
         "maintTime": "turn",
         "tags": [],
-        "flavor":[],
+        "flavor": [],
         "description": [
             "You create a stationary zone centered on a point of your choice. All entities within the zone must make a PhR 20 Check; a target can add their Impact AV to the Check.",
             "A target that fails the Resistance Check takes 5 points of Impact Damage per Degree of Failure. A target with the Rex Damage Role multiplies the damage by their Rex Multiplier. An affected target cannot move within the zone unless they make a Strength 16 Check.",
@@ -1280,7 +1280,7 @@
         "action": "active",
         "maintTime": "day",
         "tags": [],
-        "flavor":[],
+        "flavor": [],
         "description": [
             "You create a monad creature. The creature's level can be no greater than the listed value and must follow the rules for monad creatures. The creature is created with the following rules:",
             {
@@ -1335,7 +1335,7 @@
         "action": "active",
         "maintTime": "day",
         "tags": [],
-        "flavor":[],
+        "flavor": [],
         "description": [
             "You create a stationary zone centered on a point of your choice. The force of gravity is increased within the zone."
         ],
@@ -1355,7 +1355,8 @@
                 "maint": 25,
                 "effect": [
                     "500-foot radius",
-                    "Gravity &times; 3"                ]
+                    "Gravity &times; 3"
+                ]
             },
             "advanced": {
                 "mana": 280,
@@ -1363,7 +1364,8 @@
                 "maint": 30,
                 "effect": [
                     "1000-foot radius",
-                    "Gravity &times; 5"                ]
+                    "Gravity &times; 5"
+                ]
             },
             "arcane": {
                 "mana": 320,
@@ -1371,7 +1373,8 @@
                 "maint": 35,
                 "effect": [
                     "1500-foot radius",
-                    "Gravity &times; 10"                ]
+                    "Gravity &times; 10"
+                ]
             }
         }
     },
@@ -1385,7 +1388,7 @@
         "action": "active",
         "maintTime": "no",
         "tags": [],
-        "flavor":[],
+        "flavor": [],
         "description": [
             "Choose a number of points that you can see. You call down a meteor which will appear in 2d6 rounds on the End Phase. When the meteor impacts, All entities in a 150-foot radius centered on the point of impact must make a Defensive Roll against your Offensive Roll.",
             "A target that takes a direct hit from the meteor takes 15 Heat and Impact Base Damage. A target within a 30-foot radius takes 10 Heat and Impact Base Damage. A target more than 30 feet away takes 5 Impact Base.",
@@ -1437,7 +1440,7 @@
         "action": "active",
         "maintTime": "day",
         "tags": [],
-        "flavor":[],
+        "flavor": [],
         "description": [
             "You create a zone centered on you. You have control over gravity within the zone. You can increase it to 10 times its original value or reverse it. All entities in the zone are equally affected.",
             "Your control is such that you can cause different effects to specific parts of the zone."
@@ -1487,7 +1490,7 @@
         "action": "active",
         "maintTime": "day",
         "tags": [],
-        "flavor":[],
+        "flavor": [],
         "description": [
             "You gain the following actions:",
             {
@@ -1566,7 +1569,7 @@
         "action": "active",
         "maintTime": "turn",
         "tags": [],
-        "flavor":[],
+        "flavor": [],
         "description": [
             "You create a zone centered on you. All material entities within the zone must make a PhR or SR Check.",
             "A target that fails the Resistance Check falls under your control. You have complete control over their atomic structure. The Game Master can require a certain degree in a trade skill or a scientific understanding in order to make the change. A target does not gain a new Resistance Check, any changes made are permanent.",
