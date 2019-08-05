@@ -1,5 +1,125 @@
 [
     {
+        "name": "General Slot",
+        "type": "slot",
+        "level": 4,
+        "slot": "10"
+    },
+    {
+        "name": "General Slot",
+        "type": "slot",
+        "level": 8,
+        "slot": "10"
+    },
+    {
+        "name": "General Slot",
+        "type": "slot",
+        "level": 14,
+        "slot": "20"
+    },
+    {
+        "name": "General Slot",
+        "type": "slot",
+        "level": 18,
+        "slot": "10"
+    },
+    {
+        "name": "General Slot",
+        "type": "slot",
+        "level": 24,
+        "slot": "30"
+    },
+    {
+        "name": "General Slot",
+        "type": "slot",
+        "level": 28,
+        "slot": "10"
+    },
+    {
+        "name": "General Slot",
+        "type": "slot",
+        "level": 34,
+        "slot": "40"
+    },
+    {
+        "name": "General Slot",
+        "type": "slot",
+        "level": 38,
+        "slot": "10"
+    },
+    {
+        "name": "General Slot",
+        "type": "slot",
+        "level": 44,
+        "slot": "50"
+    },
+    {
+        "name": "General Slot",
+        "type": "slot",
+        "level": 48,
+        "slot": "10"
+    },
+    {
+        "name": "General Slot",
+        "type": "slot",
+        "level": 54,
+        "slot": "60"
+    },
+    {
+        "name": "General Slot",
+        "type": "slot",
+        "level": 58,
+        "slot": "10"
+    },
+    {
+        "name": "General Slot",
+        "type": "slot",
+        "level": 64,
+        "slot": "70"
+    },
+    {
+        "name": "General Slot",
+        "type": "slot",
+        "level": 68,
+        "slot": "10"
+    },
+    {
+        "name": "General Slot",
+        "type": "slot",
+        "level": 74,
+        "slot": "80"
+    },
+    {
+        "name": "General Slot",
+        "type": "slot",
+        "level": 78,
+        "slot": "10"
+    },
+    {
+        "name": "General Slot",
+        "type": "slot",
+        "level": 84,
+        "slot": "90"
+    },
+    {
+        "name": "General Slot",
+        "type": "slot",
+        "level": 88,
+        "slot": "10"
+    },
+    {
+        "name": "General Slot",
+        "type": "slot",
+        "level": 94,
+        "slot": "100"
+    },
+    {
+        "name": "General Slot",
+        "type": "slot",
+        "level": 98,
+        "slot": "10"
+    },
+    {
         "name": "Raise Wind",
         "type": "path",
         "level": 2,
@@ -411,7 +531,7 @@
     {
         "name": "Fly",
         "type": "path",
-        "level": 0,
+        "level": 30,
         "power": [
             "automatic"
         ],
@@ -1354,7 +1474,7 @@
     {
         "name": "Arcane Move",
         "type": "path",
-        "level": 0,
+        "level": 86,
         "power": [
             "automatic"
         ],
