@@ -786,19 +786,19 @@
                 ]
             },
             "advanced": {
-                "mana": 360,
+                "mana": 400,
                 "int": 14,
                 "maint": 0,
                 "effect": [
-                    "180 effort"
+                    "200 effort"
                 ]
             },
             "arcane": {
-                "mana": 460,
+                "mana": 500,
                 "int": 18,
                 "maint": 0,
                 "effect": [
-                    "230 effort"
+                    "250 effort"
                 ]
             }
         }
