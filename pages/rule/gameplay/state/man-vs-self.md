@@ -30,7 +30,7 @@ The duration and intensity of this state will depend on its source. If caused by
 If you are subject to multiple [@state Weakness @] states, only the greatest penalty to each Characteristic is applied.
 
 ## Dazed
-You have the [@state Dazed @] state when your mind's capabilities are reduced. Your [@stat Perception @] or [@stat Intelligence @] Characteristics are reduced by an amount depending on the source, or some combination of the two.
+You have the [@state Dazed @] state when your mind's capabilities are reduced. Your [@stat Perception @] or [@stat Aptitude @] Characteristics are reduced by an amount depending on the source, or some combination of the two.
 
 The duration and intensity of this state will depend on its source. If caused by a power, the power will list how long it lasts. If caused by other means, you regain one point in each Characteristic each hour, doubled if you are resting.
 

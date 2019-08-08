@@ -13,7 +13,7 @@ Below is the description of the Social Skills.
 [@stat Willpower @] Characteristic
 
 ### Persuasion
-[@stat Intelligence @] Characteristic
+[@stat Aptitude @] Characteristic
 
 ### Streetwise
 [@stat Perception @] Characteristic

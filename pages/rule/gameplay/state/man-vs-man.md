@@ -9,12 +9,12 @@ toc: false
 ## Flanked
 You are considered to have the [@state Flanked @] state over an opponent when you are positioned at their side and slightly behind them. Naturally, they can turn to face you if they are aware and can react fact enough.
 
-A normal sized human can keep three opponents in front of zirself, but the fourth and fifth opponent will gain the [@state Flanked @] state over zir.
+A normal sized human can keep three opponents in front of themselves, but the fourth and fifth opponent will gain the [@state Flanked @] state over them.
 
 ## Blind-Side
 You considered to have the [@state Blind-Side @] state over an opponent when you are positioned behind them or in a position they cannot normally see.
 
-A normal sized human can keep three opponents in front of zirself; the fourth and fifth opponent will gain the [@state Flanked @] state over zir. The sixth opponent will gain the [@state Blind-Side @] state over zir.
+A normal sized human can keep three opponents in front of themselves; the fourth and fifth opponent will gain the [@state Flanked @] state over them. The sixth opponent will gain the [@state Blind-Side @] state over them.
 
 ## At Weapon's Point
 You gain the [@state At Weapon's Point @] state over an opponent when you have put a weapon in a threatening position. After you have successfully performed the [@action Put At Weapon's Point @] maneuver, you gain the [@state At Weapon's Point @] state over your target. You can use this to attack your opponent as a Swift Action. Once used this way, the state ends.

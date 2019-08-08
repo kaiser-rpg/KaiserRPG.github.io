@@ -11,7 +11,7 @@ You are considered to have the [@state Falling @] state when you cannot stop you
 
 {% include table-index.html table="maneuver" index="301" %}
 
-{% include meta.html content="The above table figures for standard earth gravity and terminal velocity occurring after 1,500 feet. A standard human on a standard planet will fall 500 feet the first round and then each round that follows, ze will fall 1000 feet. Once ze reach terminal velocity, ze will not have any more potential energy from falling so the Severity Level from falling cannot be greater than Level 4."%}
+{% include meta.html content="The above table figures for standard earth gravity and terminal velocity occurring after 1,500 feet. A standard human on a standard planet will fall 500 feet the first round and then each round that follows, They will fall 1000 feet. Once they reach terminal velocity, they will not have any more potential energy from falling so the Severity Level from falling cannot be greater than Level 4."%}
 
 ## Lack of Air
 You are considered to have the [@state Lack of Air @] state when you cannot take in fresh air. If you were unprepared for the lack of air you can continue without issue for a number of rounds equal to your [@stat Constitution @] Characteristic. If you were prepared, you instead can last a number of minutes equal to your [@stat Constitution @] Characteristic. Each End Phase after you run out of air, you must make a [@stat Constitution @] Check of 5. Failure means your body needs fresh air and you are at risk of falling unconscious. Each time you pass the check, the difficulty increases by one. Additionally, some situations might cause you to lose your breath.

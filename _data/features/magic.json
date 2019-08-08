@@ -6,7 +6,7 @@
                 "You have a strong connection to mana or maybe understand magical theory at an intuitive level."
             ],
             "effects": [
-                "Your [@stat Intelligence @] Characteristic is 3 points higher for the purpose to determining the maximum spell degree you can achieve. This does not apply to any other use of [@stat Intelligence @]."
+                "Your [@stat Aptitude @] Characteristic is 3 points higher for the purpose to determining the maximum spell degree you can achieve. This does not apply to any other use of [@stat Aptitude @]."
             ],
             "cost": [
                 1
@@ -168,7 +168,7 @@
                 "You have a natural understanding of how spells work."
             ],
             "effects": [
-                "The maximum Spell Degree you can cast is determined by your [@stat Focus @] Characteristic, instead of your [@stat Intelligence @]."
+                "The maximum Spell Degree you can cast is determined by your [@stat Focus @] Characteristic, instead of your [@stat Aptitude @]."
             ],
             "cost": [
                 1
@@ -242,7 +242,7 @@
                 "The spells you cast were practiced using material object and your understanding of magical theory revolves around that."
             ],
             "effects": [
-                "This feature has two levels that cause you to require a material component to cast any spell. For 2 Feature Point, you require a wand, staff, crystal, or any other mana infused object to accumulate mana and cast spell. The object must have a Presence equal to or higher than the Intelligence Required for any spell you cast. For 2 FP, each spell you know requires a different component as determined by the GM -– according to its origin and your knowledge of magic."
+                "This feature has two levels that cause you to require a material component to cast any spell. For 2 Feature Point, you require a wand, staff, crystal, or any other mana infused object to accumulate mana and cast spell. The object must have a Presence equal to or higher than the Aptitude Required for any spell you cast. For 2 FP, each spell you know requires a different component as determined by the GM -– according to its origin and your knowledge of magic."
             ],
             "cost": [
                 2,
@@ -279,7 +279,7 @@
                 "Your control of mana requires specific conditions to be meet before it can be performed. Examples include, you must perform a dance or it must be sunny."
             ],
             "effects": [
-                "You require a certain condition or action to be taken in order to be able to accumulate Mana and cast spells. If the action is a Secondary Skill, you must roll a Difficulty Skill Check equal to the Required Intelligence of the spell being cast. Failure for this Skill Check causes the accumulated Mana to return to your pool and you lose 10 mana from the stress of its return."
+                "You require a certain condition or action to be taken in order to be able to accumulate Mana and cast spells. If the action is a Secondary Skill, you must roll a Difficulty Skill Check equal to the Aptitude Required of the spell being cast. Failure for this Skill Check causes the accumulated mana to return to your pool and you lose 10 mana from the stress of its return."
             ],
             "cost": [
                 2

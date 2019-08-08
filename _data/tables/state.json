@@ -264,7 +264,7 @@
                     {
                         "type": "list",
                         "items": [
-                            "Reduce [@stat Perception @] and [@stat Intelligence @]."
+                            "Reduce [@stat Perception @] and [@stat Aptitude @]."
                         ]
                     }
                 ],

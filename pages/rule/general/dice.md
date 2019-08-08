@@ -53,7 +53,7 @@ If you are affected by both Advantage and Disadvantage, subtract the lowest valu
 
 If you do not have enough dice to roll at once, you can roll the initial 2d6. Then for each level of Advantage, reroll the lowest die. After all the levels of Advantage have been rolled for, or you have rolled double 6 -- since that is the highest result possible -- you are done. For Disadvantage, reroll the highest of the two dice. After all levels of Disadvantage have been rolled for, or you have rolled double 1 -- since that is the lowest result possible -- you are done. If this method is used, be aware of modified Fumble chances.
 
-{% include example.html content="For example, if a warrior has two levels of Advantage (A2) from having higher ground and being inspired by a spell but has given zim three levels of Disadvantage (D3) from a curse spell, the warrior has one level of Disadvantage (D1) in the end (2 - 3 = -1). So, the warrior will roll three d6s and take the lowest two die as zis roll." %}
+{% include example.html content="For example, if a warrior has two levels of Advantage (A2) from having higher ground and being inspired by a spell but has given them three levels of Disadvantage (D3) from a curse spell, the warrior has one level of Disadvantage (D1) in the end (2 - 3 = -1). So, the warrior will roll three d6s and take the lowest two die as their roll." %}
 
 ### Open Rolls
 Open Rolls represent something going unexpectedly well. When you make a Skill Check and roll double six, you have gained an Open Roll. You then roll another 1d6 and add the new result to the previous one. If the new 1d6 roll is also a six, repeat the process.

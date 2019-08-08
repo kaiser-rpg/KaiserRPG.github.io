@@ -7,6 +7,6 @@ With less than 10 Degrees of Success, you are unable to maneuver into position b
 
 If you fail the Opposed Skill Check, your opponent has prevented your repositioning and you lose the ability to make your Offensive Roll. The opponent can then perform a [@action Counter @], gaining their full Degrees of Success for the Counter bonus.
 
-Each time you use this maneuver against an opponent, ze gains a `+1` deed bonus to defend against it until two weeks have passed since you last used the maneuver against zir.
+Each time you use this maneuver against an opponent, they gain a `+1` deed bonus to defend against it until two weeks have passed since you last used the maneuver against them.
 
 This maneuver can only be performed with hand-to-hand attacks. You must declare that you will use this maneuver before making your Offensive Roll.

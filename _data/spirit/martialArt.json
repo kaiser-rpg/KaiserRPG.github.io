@@ -125,7 +125,7 @@
         "degree": {
             "base": {
                 "effect": [
-                    "You can add your [@stat Intelligence @] Modifier to the Base Damage of the [@action Disable @] and [@action Knock Out @] maneuvers as a power bonus."
+                    "You can add your [@stat Aptitude @] Modifier to the Base Damage of the [@action Disable @] and [@action Knock Out @] maneuvers as a power bonus."
                 ],
                 "damage": [
                     "1 + [@stat Strength @] Modifier."
@@ -144,7 +144,7 @@
             },
             "intermediate": {
                 "effect": [
-                    "The power bonus increases to double your [@stat Intelligence @] Modifier."
+                    "The power bonus increases to double your [@stat Aptitude @] Modifier."
                 ],
                 "damage": [
                     "2 + [@stat Strength @] Modifier."
@@ -162,7 +162,7 @@
             },
             "advanced": {
                 "effect": [
-                    "The power bonus increases to triple your [@stat Intelligence @] Modifier."
+                    "The power bonus increases to triple your [@stat Aptitude @] Modifier."
                 ],
                 "damage": [
                     "3 + [@stat Strength @] Modifier."
