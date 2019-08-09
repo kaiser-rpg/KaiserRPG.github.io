@@ -131,7 +131,7 @@
         "table": {
             "type": "table",
             "colLabels": [
-                "Intelligence",
+                "Aptitude",
                 "Maximum Mana Knowledge"
             ],
             "colStyles": [

@@ -103,7 +103,7 @@ Manifest abilities cover everything related to the area of phenomonon in reality
 **Manifest Modules**: This represents your capacity to utilize phenom in new or more efficient ways.
 
 ### Secondary Groups
-Naturally, you possess much more complexity than simply being able to fight or cast spells. These are known as Secondary Skills and each one is part of a Secondary Group and is linked to a specific Characteristic. For example, the [@skill Acrobatics @] Skill is in the Exertion Group and depends upon your Agility, while [@skill Sciences @] fall under the Intellectual Group and depend upon Intelligence. A complete list of Secondary Skills can be found [here](todo.html).
+Naturally, you possess much more complexity than simply being able to fight or cast spells. These are known as Secondary Skills and each one is part of a Secondary Group and is linked to a specific Characteristic. For example, the [@skill Acrobatics @] Skill is in the Exertion Group and depends upon your Agility, while [@skill Sciences @] fall under the Intellectual Group and depend upon [@stat Aptitude @]. A complete list of Secondary Skills can be found [here](todo.html).
 
 ### Calculating and Using Skills
 To calculate your final Primary or Secondary Skill, add the Base Value (what you get by investing Experience Points) to the Modifier of the Characteristic tied to that skill. Lastly, add any other special modifiers like innate bonuses from your Heritage, Features, and Class. The result will be the Final Skill Value, the number added to a Skill Check roll. 

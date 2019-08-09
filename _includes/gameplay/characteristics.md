@@ -1,5 +1,5 @@
 ### Characteristics
-Kaiser has eight different Characteristics: [@stat Strength @], [@stat Constitution @], [@stat Dexterity @], [@stat Agility @], [@stat Perception @], [@stat Intelligence @], [@stat Focus @] and [@stat Willpower @]. The first four deal with your physical abilities, while the last three represent your mental and spiritual capabilities. [@stat Perception @] is a mixed attribute, influenced by your physical and mental abilities. Each Characteristic must have a number. This number defines your natural quality for tasks related to that Characteristic. A value of 5 is average for a human and anything above 10 is considered inhuman -- and requires special powers to fully take advantage of.
+Kaiser has eight different Characteristics: [@stat Strength @], [@stat Constitution @], [@stat Dexterity @], [@stat Agility @], [@stat Perception @], [@stat Aptitude @], [@stat Focus @] and [@stat Willpower @]. The first four deal with your physical abilities, while the last three represent your mental and spiritual capabilities. [@stat Perception @] is a mixed attribute, influenced by your physical and mental abilities. Each Characteristic must have a number. This number defines your natural quality for tasks related to that Characteristic. A value of 5 is average for a human and anything above 10 is considered inhuman -- and requires special powers to fully take advantage of.
 
 #### Strength (STR)
 [@stat Strength @] defines your physical ability to hit hard and lift heavy objects.
@@ -16,8 +16,8 @@ Kaiser has eight different Characteristics: [@stat Strength @], [@stat Constitut
 #### Perception (PER)
 [@stat Perception @] covers all your senses and your instinct.
 
-#### Intelligence (INT)
-[@stat Intelligence @] covers logic and memory.
+#### Aptitude (APT)
+[@stat Aptitude @] is your natural talent with mental tasks.
 
 #### Focus (FC)
 [@stat Focus @] is a measure of your concentration and your control over internal forces.

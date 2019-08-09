@@ -10,7 +10,7 @@ Below is the description of the Subterfuge Skills.
 [@stat Dexterity @] Characteristic
 
 ### Disguise
-[@stat Intelligence @] Characteristic
+[@stat Aptitude @] Characteristic
 
 ### Stealth
 [@stat Agility @] Characteristic, affected by armor

@@ -186,6 +186,15 @@ entries:
     - title: Creation
       url: /char_spell_creation.html
       output: web
+    - title: Destruction
+      url: /char_spell_destruction.html
+      output: web
+    - title: Air
+      url: /char_spell_air.html
+      output: web
+    - title: Earth
+      url: /char_spell_earth.html
+      output: web
 
   - title: Spell Sub-Paths
     output: web
