@@ -1,20 +1,22 @@
 {
-    "name": "hedge knight",
+    "key": "hedge knight",
     "archetype": [
         "fighter", "conjurer"
     ],
     "general": {
-        "lpMult": 3,
+        "lifePoints": 3,
         "innate": [
             {
-                "name": "life points",
+                "superType": "ability.general",
+                "key": "lifePoints",
                 "level": 1,
-                "gain": 15
+                "value": 15
             },
             {
-                "name": "initiative",
+                "superType": "skill",
+                "key": "initiative",
                 "level": 2,
-                "gain": 1
+                "value": 1
             }
         ]
     },
@@ -24,58 +26,64 @@
         "block": 4,
         "dodge": 4,
         "wearArmor": 4,
-        "kiPoint": 2,
+        "kiReserve": 2,
         "chakra": 2,
         "innate": [
             {
-                "name": "spirit knowledge",
+                "superType": "ability.martial",
+                "key": "spiritKnowledge",
                 "level": 1,
-                "gain": 2
+                "value": 2
             },
             {
-                "name": "strike",
+                "superType": "skill",
+                "key": "strike",
                 "level": 2,
-                "gain": 1,
+                "value": 1,
                 "max": 5
             },
             {
-                "name": "wear armor",
+                "superType": "skill",
+                "key": "wearArmor",
                 "level": 2,
-                "gain": 1
+                "value": 1
             }
         ]
     },
     "magic": {
         "limit": 50,
-        "manaPoint": 2,
-        "mAcc": 6,
-        "mRec": 2,
-        "mPrj": 5,
+        "manaPool": 2,
+        "manaAccumulation": 6,
+        "manaRecovery": 2,
+        "spellProjection": 5,
         "summon": 5,
         "control": 3,
         "banish": 5,
         "innate": [
             {
-                "name": "mana",
+                "superType": "ability.magic",
+                "key": "manaPool",
                 "level": 1,
-                "gain": 20
+                "value": 20
             },
             {
-                "name": "control",
+                "superType": "skill",
+                "key": "control",
                 "level": 1,
-                "gain": 1
+                "value": 1
             }
         ]
     },
     "manifest": {
         "limit": 50,
-        "pPoint": 2,
-        "pPrj": 5,
+        "phenomStock": 2,
+        "phenomProjection": 5,
         "innate": [
             {
-                "name": "phenom point",
+                "superType": "ability.manifest",
+                "key": "phenomStock",
                 "level": 3,
-                "gain": 1
+                "value": 1
             }
         ]
     },
@@ -90,37 +98,42 @@
         "trade": 4,
         "innate": [
             {
-                "name": "intimidate",
+                "superType": "skill",
+                "key": "intimidate",
                 "level": 1,
-                "gain": 1
+                "value": 1
             },
             {
-                "name": "composure",
+                "superType": "skill",
+                "key": "composure",
                 "level": 1,
-                "gain": 1
+                "value": 1
             },
             {
-                "name": "style",
+                "superType": "skill",
+                "key": "style",
                 "level": 1,
-                "gain": 2
+                "value": 2
             },
             {
-                "name": "persuasion",
+                "superType": "skill",
+                "key": "persuasion",
                 "level": 1,
-                "gain": 2
+                "value": 2
             }
         ],
         "reduced": [
             {
-                "name": "composure",
+                "superType": "skill",
+                "key": "composure",
                 "cost": 3,
-                "gain": 1
+                "value": 1
             }
         ]
     },
     "special": {
         "entries": [
-            "You can exchange Innate Bonus to control and mana for a +1 withstand pain per level."
+            "You can exchange innate factor to Control and Mana Pool for a +1 Withstand Pain per level."
         ]
     }
 }

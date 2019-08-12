@@ -1,20 +1,22 @@
 {
-    "name": "freelancer",
+    "key": "freelancer",
     "archetype": [
         "novel"
     ],
     "general": {
-        "lpMult": 4,
+        "lifePoints": 4,
         "innate": [
             {
-                "name": "life points",
+                "superType": "ability.general",
+                "key": "lifePoints",
                 "level": 1,
-                "gain": 5
+                "value": 5
             },
             {
-                "name": "initiative",
+                "superType": "skill",
+                "key": "initiative",
                 "level": 2,
-                "gain": 1
+                "value": 1
             }
         ]
     },
@@ -24,47 +26,51 @@
         "block": 4,
         "dodge": 4,
         "wearArmor": 4,
-        "kiPoint": 2,
+        "kiReserve": 2,
         "chakra": 2,
         "innate": [
             {
-                "name": "spirit knowledge",
+                "superType": "ability.martial",
+                "key": "spiritKnowledge",
                 "level": 1,
-                "gain": 2
+                "value": 2
             },
             {
-                "name": "ki point",
+                "superType": "ability.martial",
+                "key": "kiReserve",
                 "level": 2,
-                "gain": 1
+                "value": 1
             }
         ]
     },
     "magic": {
         "limit": 60,
-        "manaPoint": 2,
-        "mAcc": 6,
-        "mRec": 2,
-        "mPrj": 4,
+        "manaPool": 2,
+        "manaAccumulation": 6,
+        "manaRecovery": 2,
+        "spellProjection": 4,
         "summon": 4,
         "control": 4,
         "banish": 4,
         "innate": [
             {
-                "name": "mana",
+                "superType": "ability.magic",
+                "key": "manaPool",
                 "level": 1,
-                "gain": 20
+                "value": 20
             }
         ]
     },
     "manifest": {
         "limit": 60,
-        "pPoint": 2,
-        "pPrj": 4,
+        "phenomStock": 2,
+        "phenomProjection": 4,
         "innate": [
             {
-                "name": "phenom point",
+                "superType": "ability.manifest",
+                "key": "phenomStock",
                 "level": 2,
-                "gain": 1
+                "value": 1
             }
         ]
     },
@@ -79,9 +85,11 @@
         "trade": 4,
         "innate": [
             {
-                "name": "chose: five different skills",
+                "superType": "skill",
+                "choose": ["secondary"],
+                "chooseCount": 5,
                 "level": 1,
-                "gain": 1
+                "value": 1
             }
         ]
     },

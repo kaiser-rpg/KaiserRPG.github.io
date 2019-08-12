@@ -1,20 +1,22 @@
 {
-    "name": "trickster",
+    "key": "trickster",
     "archetype": [
         "caster", "explorer"
     ],
     "general": {
-        "lpMult": 4,
+        "lifePoints": 4,
         "innate": [
             {
-                "name": "life points",
+                "superType": "ability.general",
+                "key": "lifePoints",
                 "level": 1,
-                "gain": 5
+                "value": 5
             },
             {
-                "name": "initiative",
+                "superType": "skill",
+                "key": "initiative",
                 "level": 2,
-                "gain": 1
+                "value": 1
             }
         ]
     },
@@ -24,42 +26,45 @@
         "block": 5,
         "dodge": 4,
         "wearArmor": 5,
-        "kiPoint": 2,
+        "kiReserve": 2,
         "chakra": 3,
         "innate": [
             {
-                "name": "spirit knowledge",
+                "superType": "ability.martial",
+                "key": "spiritKnowledge",
                 "level": 1,
-                "gain": 2
+                "value": 2
             }
         ]
     },
     "magic": {
         "limit": 60,
-        "manaPoint": 1,
-        "mAcc": 6,
-        "mRec": 2,
-        "mPrj": 4,
+        "manaPool": 1,
+        "manaAccumulation": 6,
+        "manaRecovery": 2,
+        "spellProjection": 4,
         "summon": 5,
         "control": 5,
         "banish": 5,
         "innate": [
             {
-                "name": "mana",
+                "superType": "ability.magic",
+                "key": "manaPool",
                 "level": 1,
-                "gain": 75
+                "value": 75
             }
         ]
     },
     "manifest": {
         "limit": 50,
-        "pPoint": 2,
-        "pPrj": 5,
+        "phenomStock": 2,
+        "phenomProjection": 5,
         "innate": [
             {
-                "name": "phenom point",
+                "superType": "ability.manifest",
+                "key": "phenomStock",
                 "level": 3,
-                "gain": 1
+                "value": 1
             }
         ]
     },
@@ -74,46 +79,54 @@
         "trade": 4,
         "innate": [
             {
-                "name": "stealth",
+                "superType": "skill",
+                "key": "stealth",
                 "level": 1,
-                "gain": 1
+                "value": 1
             },
             {
-                "name": "sleight of hand",
+                "superType": "skill",
+                "key": "sleightOfHand",
                 "level": 1,
-                "gain": 1
+                "value": 1
             },
             {
-                "name": "persuasion",
+                "superType": "skill",
+                "key": "persuasion",
                 "level": 1,
-                "gain": 1
+                "value": 1
             },
             {
-                "name": "disguise",
+                "superType": "skill",
+                "key": "disguise",
                 "level": 1,
-                "gain": 1
+                "value": 1
             },
             {
-                "name": "magic appraisal",
+                "superType": "skill",
+                "key": "magicAppraisal",
                 "level": 2,
-                "gain": 1
+                "value": 1
             },
             {
-                "name": "theft",
+                "superType": "skill",
+                "key": "theft",
                 "level": 2,
-                "gain": 1
+                "value": 1
             }
         ],
         "reduced": [
             {
-                "name": "sleight of hand",
+                "superType": "skill",
+                "key": "sleightOfHand",
                 "cost": 3,
-                "gain": 1
+                "value": 1
             },
             {
-                "name": "persuasion",
+                "superType": "skill",
+                "key": "persuasion",
                 "cost": 3,
-                "gain": 1
+                "value": 1
             }
         ]
     }

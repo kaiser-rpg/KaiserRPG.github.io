@@ -1,20 +1,22 @@
 {
-    "name": "spirit master",
+    "key": "spirit master",
     "archetype": [
         "spiriter"
     ],
     "general": {
-        "lpMult": 4,
+        "lifePoints": 4,
         "innate": [
             {
-                "name": "life points",
+                "superType": "ability.general",
+                "key": "lifePoints",
                 "level": 1,
-                "gain": 5
+                "value": 5
             },
             {
-                "name": "initiative",
+                "superType": "skill",
+                "key": "initiative",
                 "level": 2,
-                "gain": 1
+                "value": 1
             }
         ]
     },
@@ -24,53 +26,59 @@
         "block": 4,
         "dodge": 4,
         "wearArmor": 4,
-        "kiPoint": 1,
+        "kiReserve": 1,
         "chakra": 1,
         "innate": [
             {
-                "name": "spirit knowledge",
+                "superType": "ability.martial",
+                "key": "kiReserve",
                 "level": 1,
-                "gain": 5
+                "value": 2
             },
             {
-                "name": "strike, block, or dodge<br>chose one",
+                "superType": "ability.martial",
+                "key": "spiritKnowledge",
+                "level": 1,
+                "value": 5
+            },
+            {
+                "superType": "skill",
+                "choose": ["strike", "block", "dodge"],
+                "chooseCount": 1,
                 "level": 2,
-                "gain": 1,
+                "value": 1,
                 "max": 5
-            },
-            {
-                "name": "ki point",
-                "level": 1,
-                "gain": 2
             }
         ]
     },
     "magic": {
         "limit": 50,
-        "manaPoint": 3,
-        "mAcc": 7,
-        "mRec": 3,
-        "mPrj": 5,
+        "manaPool": 3,
+        "manaAccumulation": 7,
+        "manaRecovery": 3,
+        "spellProjection": 5,
         "summon": 5,
         "control": 5,
         "banish": 5,
         "innate": [
             {
-                "name": "mana",
+                "superType": "ability.magic",
+                "key": "manaPool",
                 "level": 1,
-                "gain": 5
+                "value": 5
             }
         ]
     },
     "manifest": {
         "limit": 50,
-        "pPoint": 2,
-        "pPrj": 5,
+        "phenomStock": 2,
+        "phenomProjection": 5,
         "innate": [
             {
-                "name": "phenom point",
+                "superType": "ability.manifest",
+                "key": "phenomStock",
                 "level": 3,
-                "gain": 1
+                "value": 1
             }
         ]
     },

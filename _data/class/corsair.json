@@ -1,16 +1,16 @@
 {
-    "key": "thief",
+    "key": "corsair",
     "archetype": [
-        "explorer"
+        "fighter"
     ],
     "general": {
-        "lifePoints": 4,
+        "lifePoints": 3,
         "innate": [
             {
                 "superType": "ability.general",
                 "key": "lifePoints",
                 "level": 1,
-                "value": 5
+                "value": 10
             },
             {
                 "superType": "skill",
@@ -21,19 +21,26 @@
         ]
     },
     "martial": {
-        "limit": 50,
+        "limit": 60,
         "strike": 4,
-        "block": 5,
+        "block": 4,
         "dodge": 4,
-        "wearArmor": 5,
+        "wearArmor": 4,
         "kiReserve": 2,
-        "chakra": 3,
+        "chakra": 2,
         "innate": [
             {
                 "superType": "ability.martial",
                 "key": "spiritKnowledge",
                 "level": 1,
-                "value": 2
+                "value": 3
+            },
+            {
+                "superType": "skill",
+                "key": "strike",
+                "level": 2,
+                "value": 1,
+                "max": 5
             },
             {
                 "superType": "skill",
@@ -76,70 +83,50 @@
         ]
     },
     "secondary": {
-        "exertion": 3,
+        "exertion": 4,
         "social": 4,
         "perception": 4,
         "intellectual": 5,
-        "vigor": 5,
-        "subterfuge": 3,
+        "vigor": 4,
+        "subterfuge": 4,
         "creative": 4,
         "trade": 4,
         "innate": [
             {
                 "superType": "skill",
-                "key": "stealth",
+                "key": "acrobatics",
                 "level": 1,
                 "value": 1
             },
             {
                 "superType": "skill",
-                "key": "sleightOf Hand",
-                "level": 1,
-                "value": 1
-            },
-            {
-                "superType": "skill",
-                "key": "theft",
-                "level": 1,
-                "value": 1
-            },
-            {
-                "superType": "skill",
-                "key": "notice",
-                "level": 1,
-                "value": 1
-            },
-            {
-                "superType": "skill",
-                "key": "search",
-                "level": 1,
-                "value": 1
-            },
-            {
-                "superType": "skill",
-                "key": "streetwise",
+                "key": "athletics",
                 "level": 2,
                 "value": 1
             },
             {
                 "superType": "skill",
-                "key": "appraisal",
-                "level": 2,
+                "key": "sleightOfHand",
+                "level": 1,
+                "value": 1
+            },
+            {
+                "superType": "skill",
+                "key": "style",
+                "level": 1,
                 "value": 1
             }
         ],
         "reduced": [
             {
                 "superType": "skill",
-                "key": "appraisal",
-                "cost": 3,
-                "value": 1
+                "key": "acrobatics",
+                "cost": 3
             },
             {
                 "superType": "skill",
-                "key": "herbalLore",
-                "cost": 4,
-                "value": 1
+                "key": "style",
+                "cost": 3
             }
         ]
     }

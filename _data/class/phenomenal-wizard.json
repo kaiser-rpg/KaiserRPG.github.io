@@ -1,20 +1,22 @@
 {
-    "name": "phenomenal wizard",
+    "key": "phenomenal wizard",
     "archetype": [
         "caster", "manifester"
     ],
     "general": {
-        "lpMult": 4,
+        "lifePoints": 4,
         "innate": [
             {
-                "name": "life points",
+                "superType": "ability.general",
+                "key": "lifePoints",
                 "level": 1,
-                "gain": 5
+                "value": 5
             },
             {
-                "name": "initiative",
+                "superType": "skill",
+                "key": "initiative",
                 "level": 2,
-                "gain": 1
+                "value": 1
             }
         ]
     },
@@ -24,42 +26,45 @@
         "block": 5,
         "dodge": 4,
         "wearArmor": 5,
-        "kiPoint": 3,
+        "kiReserve": 3,
         "chakra": 3,
         "innate": [
             {
-                "name": "spirit knowledge",
+                "superType": "ability.martial",
+                "key": "spiritKnowledge",
                 "level": 1,
-                "gain": 1
+                "value": 1
             }
         ]
     },
     "magic": {
         "limit": 50,
-        "manaPoint": 1,
-        "mAcc": 5,
-        "mRec": 2,
-        "mPrj": 4,
+        "manaPool": 1,
+        "manaAccumulation": 5,
+        "manaRecovery": 2,
+        "spellProjection": 4,
         "summon": 4,
         "control": 4,
         "banish": 4,
         "innate": [
             {
-                "name": "mana",
+                "superType": "ability.magic",
+                "key": "manaPool",
                 "level": 1,
-                "gain": 100
+                "value": 100
             }
         ]
     },
     "manifest": {
         "limit": 50,
-        "pPoint": 1,
-        "pPrj": 4,
+        "phenomStock": 1,
+        "phenomProjection": 4,
         "innate": [
             {
-                "name": "phenom point",
+                "superType": "ability.manifest",
+                "key": "phenomStock",
                 "level": 1,
-                "gain": 1
+                "value": 1
             }
         ]
     },
@@ -74,14 +79,16 @@
         "trade": 4,
         "innate": [
             {
-                "name": "magic appraisal",
+                "superType": "skill",
+                "key": "magicAppraisal",
                 "level": 1,
-                "gain": 1
+                "value": 1
             },
             {
-                "name": "occult",
+                "superType": "skill",
+                "key": "occult",
                 "level": 2,
-                "gain": 1
+                "value": 1
             }
         ]
     }

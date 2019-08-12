@@ -1,20 +1,22 @@
 {
-    "name": "shadow",
+    "key": "shadow",
     "archetype": [
         "fighter", "explorer"
     ],
     "general": {
-        "lpMult": 4,
+        "lifePoints": 4,
         "innate": [
             {
-                "name": "life points",
+                "superType": "ability.general",
+                "key": "lifePoints",
                 "level": 1,
-                "gain": 5
+                "value": 5
             },
             {
-                "name": "initiative",
+                "superType": "skill",
+                "key": "initiative",
                 "level": 1,
-                "gain": 1
+                "value": 1
             }
         ]
     },
@@ -24,54 +26,59 @@
         "block": 5,
         "dodge": 4,
         "wearArmor": 4,
-        "kiPoint": 2,
+        "kiReserve": 2,
         "chakra": 2,
         "innate": [
             {
-                "name": "spirit knowledge",
+                "superType": "ability.martial",
+                "key": "spiritKnowledge",
                 "level": 1,
-                "gain": 3
+                "value": 3
             },
             {
-                "name": "strike",
+                "superType": "skill",
+                "key": "strike",
                 "level": 2,
-                "gain": 1,
+                "value": 1,
                 "max": 5
             },
             {
-                "name": "dodge",
+                "superType": "skill",
+                "key": "dodge",
                 "level": 2,
-                "gain": 1,
+                "value": 1,
                 "max": 5
             }
         ]
     },
     "magic": {
         "limit": 50,
-        "manaPoint": 3,
-        "mAcc": 7,
-        "mRec": 3,
-        "mPrj": 5,
+        "manaPool": 3,
+        "manaAccumulation": 7,
+        "manaRecovery": 3,
+        "spellProjection": 5,
         "summon": 5,
         "control": 5,
         "banish": 5,
         "innate": [
             {
-                "name": "mana",
+                "superType": "ability.magic",
+                "key": "manaPool",
                 "level": 1,
-                "gain": 5
+                "value": 5
             }
         ]
     },
     "manifest": {
         "limit": 50,
-        "pPoint": 2,
-        "pPrj": 5,
+        "phenomStock": 2,
+        "phenomProjection": 5,
         "innate": [
             {
-                "name": "phenom point",
+                "superType": "ability.manifest",
+                "key": "phenomStock",
                 "level": 3,
-                "gain": 1
+                "value": 1
             }
         ]
     },
@@ -86,24 +93,28 @@
         "trade": 4,
         "innate": [
             {
-                "name": "notice",
+                "superType": "skill",
+                "key": "notice",
                 "level": 1,
-                "gain": 1
+                "value": 1
             },
             {
-                "name": "search",
+                "superType": "skill",
+                "key": "search",
                 "level": 1,
-                "gain": 1
+                "value": 1
             },
             {
-                "name": "stealth",
+                "superType": "skill",
+                "key": "stealth",
                 "level": 1,
-                "gain": 1
+                "value": 1
             },
             {
-                "name": "sleight of hand",
+                "superType": "skill",
+                "key": "sleightOfHand",
                 "level": 1,
-                "gain": 1
+                "value": 1
             }
         ]
     }
