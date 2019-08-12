@@ -17,13 +17,9 @@ Development Costs are combined into discreet Groups and these Groups can also co
 As mentioned above, the Primary Groups each have a percent limit on the amount of XP you can invest on them. This limit is determined by your class. For example, a Warrior has a 60% limit on the Martial Group and a 50% limit on the Magic Group. So at first level, the warrior can only invest 36 XP (60% of his starting 60 XP) on abilities found in the Martial Group. Similarly, they can only invest 30 XP (50% of his starting 60 XP) on abilities in the Magic Group. 
 
 ### Limit on Martial
-The [@skill Strike @], [@skill Block @], and [@skill Dodge @] skills have an additional limitation, on top of the percent limit from your class. You cannot exceed 40% of your total XP in the sum expense of these skills.
+You are unable to invest XP in both [@skill Block @] and [@skill Dodge @]. Instead, when you invest XP to raise the Base Value on one of those skills, the other one's Base Value will be 6 points behind. Each Skill will add the innate bonuses and Characteristic Modifier separately, so the Final Skill Value might be more or less than 6 point apart.
 
-Additionally, none of those skills can have more than 25% of your total XP. If you invest the full 25% in say [@skill Block @], then you only have 15% remaining for [@skill Strike @].
-
-Lastly, you are unable to invest XP in both [@skill Block @] and [@skill Dodge @]. Instead, when you invest XP to raise the Base Value on one of those skills, the other one's Base Value will be 6 points behind. Each Skill will add the innate bonuses and Characteristic Modifier separately, so the Final Skill Value might be more or less than 6 point apart.
-
-{% include example.html content="For example, Ciel is investing XP on her Dodge Skill. She has spent enough XP to gain 10 points in Dodge and as a result, she is considered to have gained 4 points in Block as well. To Dodge she adds her +2 from Agility Modifier and a +1 from Innate Bonuses, giving her a Final Skill Value of 13. For Block, she adds her +1 from Dexterity Modifier but no Innate Bonus since her Class does not grant one. The Final Skill Value for Block ends up at 5 (4 points from XP and 1 point from Dexterity Modifier)." %}}
+{% include example.html content="For example, Ciel is investing XP in her Dodge Skill. She has invested enough XP to gain 10 points in Dodge and as a result, she is considered to have a Base Value of 4 in Block. To Dodge, she adds her +2 from Agility Modifier and a +1 from innate bonuses, giving her a Final Skill Value of 13. For Block, she adds her +1 from Dexterity Modifier but no innate bonus since her Class does not grant one. The Final Skill Value for Block ends up at 5 (4 points from XP and 1 point from Dexterity Modifier)." %}
 
 ### Limit on Magic and Manifest
 [@skill Spell Projection @] and [@skill Phenom Projection @] have a similar limit as the Martial Group's [@skill Strike @] Skill. You cannot invest more than 20% of your total XP on each Projection Skill.

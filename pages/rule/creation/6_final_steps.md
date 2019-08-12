@@ -17,63 +17,67 @@ Some Classes and Features grant an innate bonus of `+1` every other level in [@s
 ## Life Points
 Life Points (LP) represent the amount of damage you can suffer before dying or receiving a Critical.
 
-Your Final Life Point Value is based on [@stat Constitution @]. You start with 20 points and add your [@stat Constitution @] multiplied by ten. To this number you should add your innate bonus.
+Your Final Life Point Value is based on [@stat Constitution @]. As with skills, your Life Points have a Base Value, which is equal to 20 + your Constitution times your Life Point Multiple. You then add any innate or natural factors to get your Final Life Point Value. Your Life Point Multiplier starts at ten and increases by one each time you invest in it.
 
-You can increase your Life Points by investing in Life Point Multiplies, the cost of which is determined by your Class. Each time you buy a multiple, you can increase your Life Points by your [@stat Constitution @]. Essentially, each purchase adds 1 to the original 10 that your [@stat Constitution @] is multiplied by.
-
-{% include equation.html eq = "Final LP = 20 + (Constitution × (10 + LP Mult. Purchased)) + Innate LP Bonus" %}
+{% include equation.html eq = "Final LP = 20 + (Constitution × (10 + LP Mult)) + (natural and innate factors)" %}
 
 ## Initiative
-The Base [@skill Initiative @] Value of a normal-sized character is always 10. To calculate the Final [@skill Initiative @] Value, add your [@stat Dexterity @] and [@stat Agility @] Modifiers. Finally, add your innate bonus or other bonuses from features or powers. This number will be modified each round depending on what you intend to do.
+The Base [@skill Initiative @] Value of a normal-sized character is always 10. To calculate the Final [@skill Initiative @] Value, add your [@stat Dexterity @] and [@stat Agility @] Modifiers. Finally, add your innate and natural factors. This number will be modified each round depending on what you intend to do.
 
 ## Presence and Resistance
-Presence is the sum of all of your existential aspects -- both physical and spiritual. You have an almost unlimited potential to develop your abilities; the more developed, the greater the Presence. Your Presence starts at 3 and increases by +1 every odd level.
+Presence is the sum of all of your existential aspects -- both physical and spiritual. You have an almost unlimited potential to develop your abilities; the more developed, the greater the Presence. Your Presence starts at 3 and increases by one every odd level.
 
-In Kaiser, there are five types of Resistance, each one protecting you against a different type of negative effect. Resistance values are calculated by adding your Presence to the applicable Modifier.
-
-The five types of resistance are:
+In Kaiser, there are five types of Resistance, each one protecting you against a different type of negative effect. Resistance values are calculated by adding your Presence to the applicable Characteristic Modifier. The five types of resistance are:
 
 **Presence (PrR)**: This is the sum of your existence. This is not affected by any Characteristics.
 
-**Physical Resistance (PhR)**: Represents your bodies ability to tolerate shock or withstand force. Based on [@stat Constitution @].
+**Physical Resistance (PhR)**: This represents your bodies ability to tolerate shock or withstand force. Based on [@stat Constitution @].
 
-**Immune Resistance (IR)**: Represents your ability to avoid falling ill or being affected by a disease and poisons. Based on [@stat Constitution @].
+**Immune Resistance (IR)**: This represents your ability to avoid falling ill or being affected by a disease and poisons. Based on [@stat Constitution @].
 
-**Spirit Resistance (SR)**: Represents how well your spirit can resist an effect of supernatural origin. Based on [@stat Focus @].
+**Spirit Resistance (SR)**: This represents how well your spirit can resist an effect of supernatural origin. Based on [@stat Focus @].
 
-**Mental Resistance (MR)**: Represents your control of internal forces, allowing you to resist mental attacks. Based on [@stat Willpower @].
+**Mental Resistance (MR)**: This represents your control of internal forces, allowing you to resist mental attacks. Based on [@stat Willpower @].
 
 ## Primary and Secondary Groups
-Your knowledge and expertise in certain tasks are known as Skills. Each Skill has a number of points that represent the sum of your natural talent and training. These Skills are broken up into Primary and Secondary Groups. Skills in the Primary Groups are further divided into the Martial, Magic, and Manifest Groups. The Secondary Groups are also divided into Groups, things like Exertion, Intellectual, and Creative. More detail can be found in Chapter 4.
+Your knowledge and expertise in certain tasks are known as Skills. Each Skill has a number of points that represent the sum of your natural talent and training. These Skills are broken up into Primary and Secondary Groups. Complete detail can be found (here)[rule_skill_intro.html].
 
 ### Primary Groups
-Primary Groups represent your basic faculties and are divided into three areas: Martial, Magic, and Psychic.
+The Primary Groups represent your basic faculties and are divided into three areas: Martial, Magic, and Manifest.
 
 #### Martial Group
-These abilities encompass your skills in fighting with your physical body, sometimes enhanced by your spirit. Martial Skills are the following:
+These abilities encompass your skills in fighting with your physical body, sometimes enhanced by your spirit. The Martial Group contains the following skills and abilities:
 
-**Strike Skill**: This represents your ability to strike your opponent and deal damage. This skill depends on [@stat Dexterity @]. The first time you invest XP to increase your [@skill Strike @] kill, you may choose a single weapon to become proficient with.
+**Strike**: This represents your ability to strike your opponent and deal damage. This skill depends on [@stat Dexterity @]. 
 
-**Block Skill**: This represents your ability to place an object between you and a threat. This skill depends on [@stat Dexterity @].
+**Block**: This represents your ability to place an object between you and a threat. This skill depends on [@stat Dexterity @].
 
-**Dodge Skill**: This represents your ability to remove yourself from a dangerous position. This skill depends upon the [@stat Agility @] Characteristic.
+**Dodge**: This represents your ability to remove yourself from a dangerous position. This skill depends on [@stat Agility @].
 
-**Wear Armor Skill**: This represents your ability to wear and move around in armor. This ability depends on [@stat Strength @].
+**Wear Armor**: This represents your ability to wear and move around in armor. This skill depends on [@stat Strength @].
 
-**Combat Modules**: This represents your knowledge and capability with various styles of fighting, excluding martial arts.
+**Ki Reserve**: This is your pool of spiritual energy called, ki. Ki is generated by a spirit inhabiting a body and can be used to exploit talents. How to calculate your Ki Reserve's Final Value can be found (here)[rule_spirit_ki.html].
 
-**Martial Arts**: This represents your knowledge and capability with unarmed combat styles.
+**Chakras**: You have three chakras, Red, Green, and Blue. Your chakras are your access points to your Ki Reserve. By investing in your chakras, you can exploit talents faster. How to find each chakras Final Value can be found (here)[rule_spirit_ki.html].
 
-**Spirit Knowledge**: This is your knowledge of how to use your spirit for greater power.
+**Spirit Knowledge**: This is your knowledge of how to use your spirit and body together. You use this knowledge to gain talents.
 
-**Spirit Arts**: This represents your ability to use spiritual energy in physical ways. Ki, Chakra, and Ki Techniques are also included under Spirit Arts.
+**Talents**: These are special powers that you can gain by understanding your body and spirit. Each talent costs some spirit knowledge.
+
+**Weapon Modules**: These are your training with various weapon. The first time you invest XP in your [@skill Strike @] skill, you gain one Single Weapon Module for free. Any Weapon Module after that requires XP to be invested. The list of Weapon Modules can be found (here)[char_martial_module_weapons.html].
+
+**Style Modules**: These are your specialized styles of fighting. Each time you invest in a Style Module, you increase some aspect of your combat ability. All Style Module requires XP to be invested. The list of Style Modules can be found (here)[char_martial_module_style.html].
+
+**Martial Arts**: These are your mastery of unarmed fighting, honing your punches and kicks to be as deadly as any weapon. All martial arts require XP to be invested. There are two levels of martial arts. The basic level can be found (here)[char_spirit_martial_art_basic.html].
+
+**Master Arts**: These are a mix of physical and spiritual perfection that grant you a power or the ability to fight with impossible weapons. Each master art costs XP and spirit knowledge.
 
 #### Magic Group
-Magic skills encompass both spells and summoning.
+These abilities focus on the use of mana to cast spells or open doorways to the Veil. The Magic Group contains the following 
 
-**Mana**: This is a measure of your spirit's ability to cast many spells or summon forth great creatures.
+**Mana Pool**: This is a measure of your spirit's capacity to store mana. How to calculate your Mana Pool's Final Value can be found (here)[rule_magic_mana.html].
 
-**Mana Accumulation**: This ability represents your capacity to pull mana, held within your spirit, into your environment to cast spells or transfer it.
+**Mana Accumulation**: This ability represents your capacity to pull mana, held within your spirit, into your environment to cast spells or transfer it. How to calculate your Mana Accumulation's Final Value can be found (here)[rule_magic_mana.html].
 
 **Mana Recovery**: This ability represents your ability to gather your mana back into your spirit.
 
