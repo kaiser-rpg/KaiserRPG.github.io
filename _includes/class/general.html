@@ -1,10 +1,9 @@
-{% assign data = include.data %}
-{% assign lp = data.innate | where:"name", "life points" | first %}
-{% assign it = data.innate | where:"name", "initiative" | first %}
+{% assign lp = include.data.innate | where:"key", "lifePoints" | first %}
+{% assign it = include.data.innate | where:"key", "initiative" | first %}
 
 <h4>General</h4>
 <div>
-    <span class="entry-inline-title">Life Point Multiple</span>: {{data.lpMult}}
+    <span class="entry-inline-title">Life Point Multiple</span>: {{include.data.lifePoints}}
 </div>
 <div>
     {% include class/innate.html data=lp %}

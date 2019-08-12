@@ -1,18 +1,15 @@
-{% assign name = include.data.name %}
-{% assign level = include.data.level %}
-{% assign gain = include.data.gain %}
-{% assign max = include.data.max %}
+{% assign name = include.data.key %}
 
-{% if level <= 1 %}
+{% if include.data.level <= 1 %}
 
 <div>
-    <span class="entry-inline-title">{{name}}</span>: +{{gain}} per level{% if max > 0 %} (maximum +{{max}}){% endif %}
+    <span class="entry-inline-title">{{name}}</span>: +{{include.data.value}} per level{% if include.data.max > 0 %} (max +{{include.data.max}}){% endif %}
 </div>
 
 {% else %}
 
 <div>
-    <span class="entry-inline-title">{{name}}</span>: +{{gain}} every {{level}} levels{% if max > 0 %} (maximum +{{max}}){% endif %}
+    <span class="entry-inline-title">{{name}}</span>: +{{include.data.value}} every {{include.data.level}} levels{% if include.data.max > 0 %} (max +{{include.data.max}}){% endif %}
 </div>
     
 {% endif %}

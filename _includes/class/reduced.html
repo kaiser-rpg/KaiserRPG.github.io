@@ -1,6 +1,3 @@
-{% assign name = include.data.name %}
-{% assign cost = include.data.cost %}
-
 <div>
-    <span class="entry-inline-title">+{{gain}} {{name}}</span>: {{cost}}
+    <span class="entry-inline-title">+{{include.data.value}} {{include.data.key}}</span>: {{include.data.cost}}
 </div>

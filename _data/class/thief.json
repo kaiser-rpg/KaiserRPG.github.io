@@ -93,7 +93,7 @@
             },
             {
                 "superType": "skill",
-                "key": "sleightOf Hand",
+                "key": "sleightOfHand",
                 "level": 1,
                 "value": 1
             },
